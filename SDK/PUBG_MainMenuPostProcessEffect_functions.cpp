@@ -18,7 +18,7 @@ namespace Classes
 void AMainMenuPostProcessEffect_C::UserConstructionScript()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(108428);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(109264);
 
 	AMainMenuPostProcessEffect_C_UserConstructionScript_Params params;
 

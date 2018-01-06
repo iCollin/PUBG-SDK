@@ -18,7 +18,7 @@ namespace Classes
 void UReportPlayerWidget_C::InitPlayerNameSetting()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98640);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72474);
 
 	UReportPlayerWidget_C_InitPlayerNameSetting_Params params;
 
@@ -36,7 +36,7 @@ void UReportPlayerWidget_C::InitPlayerNameSetting()
 void UReportPlayerWidget_C::InitComboboxSetting()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98629);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72463);
 
 	UReportPlayerWidget_C_InitComboboxSetting_Params params;
 
@@ -54,7 +54,7 @@ void UReportPlayerWidget_C::InitComboboxSetting()
 void UReportPlayerWidget_C::InitSubjectToReport()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98614);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72448);
 
 	UReportPlayerWidget_C_InitSubjectToReport_Params params;
 
@@ -74,7 +74,7 @@ void UReportPlayerWidget_C::InitSubjectToReport()
 bool UReportPlayerWidget_C::GetbIsEnabled_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98610);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72444);
 
 	UReportPlayerWidget_C_GetbIsEnabled_1_Params params;
 
@@ -94,7 +94,7 @@ bool UReportPlayerWidget_C::GetbIsEnabled_1()
 void UReportPlayerWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98609);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72443);
 
 	UReportPlayerWidget_C_Construct_Params params;
 
@@ -115,7 +115,7 @@ void UReportPlayerWidget_C::Construct()
 void UReportPlayerWidget_C::BndEvt__ReportCausesComboBox_K2Node_ComponentBoundEvent_59_OnSelectionChangedEvent__DelegateSignature(const struct FString& SelectedItem, TEnumAsByte<ESelectInfo> SelectionType)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98606);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72440);
 
 	UReportPlayerWidget_C_BndEvt__ReportCausesComboBox_K2Node_ComponentBoundEvent_59_OnSelectionChangedEvent__DelegateSignature_Params params;
 	params.SelectedItem = SelectedItem;
@@ -135,7 +135,7 @@ void UReportPlayerWidget_C::BndEvt__ReportCausesComboBox_K2Node_ComponentBoundEv
 void UReportPlayerWidget_C::BndEvt__ButtonClose_K2Node_ComponentBoundEvent_8_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98605);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72439);
 
 	UReportPlayerWidget_C_BndEvt__ButtonClose_K2Node_ComponentBoundEvent_8_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -153,7 +153,7 @@ void UReportPlayerWidget_C::BndEvt__ButtonClose_K2Node_ComponentBoundEvent_8_OnB
 void UReportPlayerWidget_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_21_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98604);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72438);
 
 	UReportPlayerWidget_C_BndEvt__Button_0_K2Node_ComponentBoundEvent_21_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -173,7 +173,7 @@ void UReportPlayerWidget_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_21_OnBut
 void UReportPlayerWidget_C::ExecuteUbergraph_ReportPlayerWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98577);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72411);
 
 	UReportPlayerWidget_C_ExecuteUbergraph_ReportPlayerWidget_Params params;
 	params.EntryPoint = EntryPoint;

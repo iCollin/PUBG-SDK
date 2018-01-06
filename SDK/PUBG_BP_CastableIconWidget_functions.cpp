@@ -21,7 +21,7 @@ namespace Classes
 void UBP_CastableIconWidget_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80191);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80200);
 
 	UBP_CastableIconWidget_C_Tick_Params params;
 	params.MyGeometry = MyGeometry;
@@ -43,7 +43,7 @@ void UBP_CastableIconWidget_C::Tick(struct FGeometry* MyGeometry, float* InDelta
 void UBP_CastableIconWidget_C::ExecuteUbergraph_BP_CastableIconWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80187);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80196);
 
 	UBP_CastableIconWidget_C_ExecuteUbergraph_BP_CastableIconWidget_Params params;
 	params.EntryPoint = EntryPoint;

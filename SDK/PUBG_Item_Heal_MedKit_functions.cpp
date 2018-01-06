@@ -18,7 +18,7 @@ namespace Classes
 void UItem_Heal_MedKit_C::PrintCastingTime()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57007);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54832);
 
 	UItem_Heal_MedKit_C_PrintCastingTime_Params params;
 

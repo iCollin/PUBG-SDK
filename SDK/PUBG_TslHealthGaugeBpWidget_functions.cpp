@@ -20,7 +20,7 @@ namespace Classes
 void UTslHealthGaugeBpWidget_C::SetupHealthGaugeColor(const struct FLinearColor& InitColor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98003);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90937);
 
 	UTslHealthGaugeBpWidget_C_SetupHealthGaugeColor_Params params;
 	params.InitColor = InitColor;
@@ -41,7 +41,7 @@ void UTslHealthGaugeBpWidget_C::SetupHealthGaugeColor(const struct FLinearColor&
 void UTslHealthGaugeBpWidget_C::On_Background_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98001);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90935);
 
 	UTslHealthGaugeBpWidget_C_On_Background_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -62,7 +62,7 @@ void UTslHealthGaugeBpWidget_C::On_Background_Prepass_1(class UWidget* BoundWidg
 struct FLinearColor UTslHealthGaugeBpWidget_C::Get_Background_ColorAndOpacity_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(97992);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90927);
 
 	UTslHealthGaugeBpWidget_C_Get_Background_ColorAndOpacity_1_Params params;
 
@@ -84,7 +84,7 @@ struct FLinearColor UTslHealthGaugeBpWidget_C::Get_Background_ColorAndOpacity_1(
 ESlateVisibility UTslHealthGaugeBpWidget_C::Get_Background_Visibility_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(97989);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90924);
 
 	UTslHealthGaugeBpWidget_C_Get_Background_Visibility_1_Params params;
 
@@ -104,7 +104,7 @@ ESlateVisibility UTslHealthGaugeBpWidget_C::Get_Background_Visibility_1()
 void UTslHealthGaugeBpWidget_C::UpdateWaning()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(97982);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90917);
 
 	UTslHealthGaugeBpWidget_C_UpdateWaning_Params params;
 
@@ -122,7 +122,7 @@ void UTslHealthGaugeBpWidget_C::UpdateWaning()
 void UTslHealthGaugeBpWidget_C::UpdateColorGauge()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(97976);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90911);
 
 	UTslHealthGaugeBpWidget_C_UpdateColorGauge_Params params;
 
@@ -142,7 +142,7 @@ void UTslHealthGaugeBpWidget_C::UpdateColorGauge()
 void UTslHealthGaugeBpWidget_C::GetMoveCurve(class UCurveFloat** NewParam)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(97974);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90909);
 
 	UTslHealthGaugeBpWidget_C_GetMoveCurve_Params params;
 
@@ -166,7 +166,7 @@ void UTslHealthGaugeBpWidget_C::GetMoveCurve(class UCurveFloat** NewParam)
 void UTslHealthGaugeBpWidget_C::SetHealth(float NewDestination, bool bGroggy)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(97967);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90902);
 
 	UTslHealthGaugeBpWidget_C_SetHealth_Params params;
 	params.NewDestination = NewDestination;
@@ -186,7 +186,7 @@ void UTslHealthGaugeBpWidget_C::SetHealth(float NewDestination, bool bGroggy)
 void UTslHealthGaugeBpWidget_C::MoveTick()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(97966);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90901);
 
 	UTslHealthGaugeBpWidget_C_MoveTick_Params params;
 
@@ -206,7 +206,7 @@ void UTslHealthGaugeBpWidget_C::MoveTick()
 void UTslHealthGaugeBpWidget_C::GetHealthGaugeColorOpacity(struct FLinearColor* Color)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(97962);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90897);
 
 	UTslHealthGaugeBpWidget_C_GetHealthGaugeColorOpacity_Params params;
 
@@ -227,7 +227,7 @@ void UTslHealthGaugeBpWidget_C::GetHealthGaugeColorOpacity(struct FLinearColor* 
 void UTslHealthGaugeBpWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(97961);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90896);
 
 	UTslHealthGaugeBpWidget_C_Construct_Params params;
 
@@ -248,7 +248,7 @@ void UTslHealthGaugeBpWidget_C::Construct()
 void UTslHealthGaugeBpWidget_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(97958);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90893);
 
 	UTslHealthGaugeBpWidget_C_Tick_Params params;
 	params.MyGeometry = MyGeometry;
@@ -268,7 +268,7 @@ void UTslHealthGaugeBpWidget_C::Tick(struct FGeometry* MyGeometry, float* InDelt
 void UTslHealthGaugeBpWidget_C::StartMove()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(97957);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90892);
 
 	UTslHealthGaugeBpWidget_C_StartMove_Params params;
 
@@ -288,7 +288,7 @@ void UTslHealthGaugeBpWidget_C::StartMove()
 void UTslHealthGaugeBpWidget_C::ExecuteUbergraph_TslHealthGaugeBpWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(97938);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90873);
 
 	UTslHealthGaugeBpWidget_C_ExecuteUbergraph_TslHealthGaugeBpWidget_Params params;
 	params.EntryPoint = EntryPoint;

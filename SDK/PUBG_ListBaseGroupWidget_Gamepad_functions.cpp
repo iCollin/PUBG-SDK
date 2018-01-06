@@ -20,7 +20,7 @@ namespace Classes
 void UListBaseGroupWidget_Gamepad_C::GetChilderenCount(int* Count)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60985);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60897);
 
 	UListBaseGroupWidget_Gamepad_C_GetChilderenCount_Params params;
 
@@ -43,7 +43,7 @@ void UListBaseGroupWidget_Gamepad_C::GetChilderenCount(int* Count)
 void UListBaseGroupWidget_Gamepad_C::AddChild(class UWidget** Content)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60982);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60894);
 
 	UListBaseGroupWidget_Gamepad_C_AddChild_Params params;
 
@@ -64,7 +64,7 @@ void UListBaseGroupWidget_Gamepad_C::AddChild(class UWidget** Content)
 void UListBaseGroupWidget_Gamepad_C::Clear()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60981);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60893);
 
 	UListBaseGroupWidget_Gamepad_C_Clear_Params params;
 
@@ -84,7 +84,7 @@ void UListBaseGroupWidget_Gamepad_C::Clear()
 void UListBaseGroupWidget_Gamepad_C::On_List_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60970);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60882);
 
 	UListBaseGroupWidget_Gamepad_C_On_List_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -105,7 +105,7 @@ void UListBaseGroupWidget_Gamepad_C::On_List_Prepass_1(class UWidget* BoundWidge
 void UListBaseGroupWidget_Gamepad_C::AddCategoryGroup(class UCategoryGroupWidget_Gamepad_C* CategoryGroup)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60967);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60879);
 
 	UListBaseGroupWidget_Gamepad_C_AddCategoryGroup_Params params;
 	params.CategoryGroup = CategoryGroup;

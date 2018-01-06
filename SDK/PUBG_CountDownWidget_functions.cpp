@@ -20,7 +20,7 @@ namespace Classes
 void UCountDownWidget_C::GetTslGameState(class ATslGameState** GameState)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79280);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79511);
 
 	UCountDownWidget_C_GetTslGameState_Params params;
 
@@ -43,7 +43,7 @@ void UCountDownWidget_C::GetTslGameState(class ATslGameState** GameState)
 void UCountDownWidget_C::On_CountDownBlock_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79276);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79507);
 
 	UCountDownWidget_C_On_CountDownBlock_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -64,7 +64,7 @@ void UCountDownWidget_C::On_CountDownBlock_Prepass_1(class UWidget* BoundWidget)
 void UCountDownWidget_C::On_CountDownText_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79273);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79504);
 
 	UCountDownWidget_C_On_CountDownText_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -85,7 +85,7 @@ void UCountDownWidget_C::On_CountDownText_Prepass_1(class UWidget* BoundWidget)
 ESlateVisibility UCountDownWidget_C::Get_CountDownText_Visibility_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79267);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79498);
 
 	UCountDownWidget_C_Get_CountDownText_Visibility_1_Params params;
 
@@ -107,7 +107,7 @@ ESlateVisibility UCountDownWidget_C::Get_CountDownText_Visibility_1()
 struct FText UCountDownWidget_C::Get_CountDownText_Text_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79244);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79475);
 
 	UCountDownWidget_C_Get_CountDownText_Text_1_Params params;
 

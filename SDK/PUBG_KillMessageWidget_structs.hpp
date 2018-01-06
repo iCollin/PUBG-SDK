@@ -7,12 +7,12 @@
 #endif
 
 #include "PUBG_Basic.hpp"
+#include "PUBG_CoreUObject_classes.hpp"
 #include "PUBG_NewSystemMessageWidget_classes.hpp"
 #include "PUBG_Engine_classes.hpp"
 #include "PUBG_SlateCore_classes.hpp"
 #include "PUBG_TslGame_classes.hpp"
 #include "PUBG_UMG_classes.hpp"
-#include "PUBG_CoreUObject_classes.hpp"
 
 namespace Classes
 {

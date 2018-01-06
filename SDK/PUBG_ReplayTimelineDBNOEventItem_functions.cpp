@@ -20,7 +20,7 @@ namespace Classes
 void UReplayTimelineDBNOEventItem_C::OnPrepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72181);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72105);
 
 	UReplayTimelineDBNOEventItem_C_OnPrepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -43,7 +43,7 @@ void UReplayTimelineDBNOEventItem_C::OnPrepass_1(class UWidget* BoundWidget)
 struct FEventReply UReplayTimelineDBNOEventItem_C::OnMouseButtonDown_1(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72168);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72092);
 
 	UReplayTimelineDBNOEventItem_C_OnMouseButtonDown_1_Params params;
 	params.MyGeometry = MyGeometry;
@@ -67,7 +67,7 @@ struct FEventReply UReplayTimelineDBNOEventItem_C::OnMouseButtonDown_1(const str
 struct FText UReplayTimelineDBNOEventItem_C::GetToolTipText()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72166);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72090);
 
 	UReplayTimelineDBNOEventItem_C_GetToolTipText_Params params;
 

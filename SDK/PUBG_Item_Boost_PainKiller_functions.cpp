@@ -18,7 +18,7 @@ namespace Classes
 void UItem_Boost_PainKiller_C::BoostGaugeUp()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57050);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54875);
 
 	UItem_Boost_PainKiller_C_BoostGaugeUp_Params params;
 
@@ -39,7 +39,7 @@ void UItem_Boost_PainKiller_C::BoostGaugeUp()
 bool UItem_Boost_PainKiller_C::IsCastable(class ATslCharacter** Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57044);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54869);
 
 	UItem_Boost_PainKiller_C_IsCastable_Params params;
 	params.Character = Character;
@@ -60,7 +60,7 @@ bool UItem_Boost_PainKiller_C::IsCastable(class ATslCharacter** Character)
 void UItem_Boost_PainKiller_C::PrintCastingTime()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57036);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54861);
 
 	UItem_Boost_PainKiller_C_PrintCastingTime_Params params;
 
@@ -81,7 +81,7 @@ void UItem_Boost_PainKiller_C::PrintCastingTime()
 bool UItem_Boost_PainKiller_C::UseBy(class ATslCharacter** Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57032);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54857);
 
 	UItem_Boost_PainKiller_C_UseBy_Params params;
 	params.Character = Character;

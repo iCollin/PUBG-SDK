@@ -18,7 +18,7 @@ namespace Classes
 void ADefaultRifleSetting_C::UserConstructionScript()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(53420);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(53275);
 
 	ADefaultRifleSetting_C_UserConstructionScript_Params params;
 
@@ -38,7 +38,7 @@ void ADefaultRifleSetting_C::UserConstructionScript()
 void ADefaultRifleSetting_C::ReceiveTick(float* DeltaSeconds)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(53418);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(53273);
 
 	ADefaultRifleSetting_C_ReceiveTick_Params params;
 	params.DeltaSeconds = DeltaSeconds;
@@ -59,7 +59,7 @@ void ADefaultRifleSetting_C::ReceiveTick(float* DeltaSeconds)
 void ADefaultRifleSetting_C::ExecuteUbergraph_DefaultRifleSetting(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(53319);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(53174);
 
 	ADefaultRifleSetting_C_ExecuteUbergraph_DefaultRifleSetting_Params params;
 	params.EntryPoint = EntryPoint;

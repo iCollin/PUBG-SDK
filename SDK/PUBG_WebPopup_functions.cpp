@@ -23,7 +23,7 @@ namespace Classes
 void UWebPopup_C::SetPopupData(const struct FString& PopupId, const struct FString& Uri, bool UseBackgroundColor, const struct FLinearColor& BackgroundColor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105115);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105098);
 
 	UWebPopup_C_SetPopupData_Params params;
 	params.PopupId = PopupId;
@@ -48,7 +48,7 @@ void UWebPopup_C::SetPopupData(const struct FString& PopupId, const struct FStri
 void UWebPopup_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105112);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105095);
 
 	UWebPopup_C_Tick_Params params;
 	params.MyGeometry = MyGeometry;
@@ -68,7 +68,7 @@ void UWebPopup_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
 void UWebPopup_C::Destruct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105111);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105094);
 
 	UWebPopup_C_Destruct_Params params;
 
@@ -86,7 +86,7 @@ void UWebPopup_C::Destruct()
 void UWebPopup_C::BndEvt__Button_Exit_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105110);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105093);
 
 	UWebPopup_C_BndEvt__Button_Exit_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -104,7 +104,7 @@ void UWebPopup_C::BndEvt__Button_Exit_K2Node_ComponentBoundEvent_0_OnButtonClick
 void UWebPopup_C::BndEvt__Button_Reload_K2Node_ComponentBoundEvent_18_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105109);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105092);
 
 	UWebPopup_C_BndEvt__Button_Reload_K2Node_ComponentBoundEvent_18_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -122,7 +122,7 @@ void UWebPopup_C::BndEvt__Button_Reload_K2Node_ComponentBoundEvent_18_OnButtonCl
 void UWebPopup_C::BndEvt__Button_Back_K2Node_ComponentBoundEvent_37_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105108);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105091);
 
 	UWebPopup_C_BndEvt__Button_Back_K2Node_ComponentBoundEvent_37_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -142,7 +142,7 @@ void UWebPopup_C::BndEvt__Button_Back_K2Node_ComponentBoundEvent_37_OnButtonClic
 void UWebPopup_C::ExecuteUbergraph_WebPopup(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105104);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105087);
 
 	UWebPopup_C_ExecuteUbergraph_WebPopup_Params params;
 	params.EntryPoint = EntryPoint;
@@ -163,7 +163,7 @@ void UWebPopup_C::ExecuteUbergraph_WebPopup(int EntryPoint)
 void UWebPopup_C::OnClosePopup__DelegateSignature(class UWebPopup_C* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105102);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105085);
 
 	UWebPopup_C_OnClosePopup__DelegateSignature_Params params;
 	params.Widget = Widget;

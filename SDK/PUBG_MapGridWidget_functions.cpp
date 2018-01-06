@@ -20,7 +20,7 @@ namespace Classes
 struct FSlateBrush UMapGridWidget_C::Get_Replayzone_Brush_2()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(75395);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98438);
 
 	UMapGridWidget_C_Get_Replayzone_Brush_2_Params params;
 
@@ -42,7 +42,7 @@ struct FSlateBrush UMapGridWidget_C::Get_Replayzone_Brush_2()
 struct FSlateBrush UMapGridWidget_C::Get_Replayzone_Brush_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(75393);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(75208);
 
 	UMapGridWidget_C_Get_Replayzone_Brush_1_Params params;
 

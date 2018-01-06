@@ -18,7 +18,7 @@ namespace Classes
 void ABP_PP_OutlineCustomDepthOcclusion_Inst_C::UserConstructionScript()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(41498);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(41501);
 
 	ABP_PP_OutlineCustomDepthOcclusion_Inst_C_UserConstructionScript_Params params;
 

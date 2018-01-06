@@ -7,8 +7,8 @@
 #endif
 
 #include "PUBG_Basic.hpp"
-#include "PUBG_Engine_classes.hpp"
 #include "PUBG_DefaultRifleSetting_classes.hpp"
+#include "PUBG_Engine_classes.hpp"
 #include "PUBG_ENUM_CrossbowState_classes.hpp"
 
 namespace Classes

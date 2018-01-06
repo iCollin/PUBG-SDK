@@ -20,7 +20,7 @@ namespace Classes
 bool USoundOptionWidget_C::IsEnable_VoiceSetting()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93961);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68541);
 
 	USoundOptionWidget_C_IsEnable_VoiceSetting_Params params;
 
@@ -42,7 +42,7 @@ bool USoundOptionWidget_C::IsEnable_VoiceSetting()
 bool USoundOptionWidget_C::IsKeyUp()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93959);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68539);
 
 	USoundOptionWidget_C_IsKeyUp_Params params;
 
@@ -64,7 +64,7 @@ bool USoundOptionWidget_C::IsKeyUp()
 bool USoundOptionWidget_C::IsChanged()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93954);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68534);
 
 	USoundOptionWidget_C_IsChanged_Params params;
 
@@ -84,7 +84,7 @@ bool USoundOptionWidget_C::IsChanged()
 void USoundOptionWidget_C::OnApply()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93953);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68533);
 
 	USoundOptionWidget_C_OnApply_Params params;
 
@@ -102,7 +102,7 @@ void USoundOptionWidget_C::OnApply()
 void USoundOptionWidget_C::OnDefault()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93952);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68532);
 
 	USoundOptionWidget_C_OnDefault_Params params;
 
@@ -120,7 +120,7 @@ void USoundOptionWidget_C::OnDefault()
 void USoundOptionWidget_C::OnReset()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93951);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68531);
 
 	USoundOptionWidget_C_OnReset_Params params;
 
@@ -138,7 +138,7 @@ void USoundOptionWidget_C::OnReset()
 void USoundOptionWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93950);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68530);
 
 	USoundOptionWidget_C_Construct_Params params;
 
@@ -158,7 +158,7 @@ void USoundOptionWidget_C::Construct()
 void USoundOptionWidget_C::ExecuteUbergraph_SoundOptionWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68941);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68526);
 
 	USoundOptionWidget_C_ExecuteUbergraph_SoundOptionWidget_Params params;
 	params.EntryPoint = EntryPoint;

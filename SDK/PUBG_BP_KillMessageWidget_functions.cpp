@@ -20,7 +20,7 @@ namespace Classes
 void UBP_KillMessageWidget_C::SetMessageColorAndOpacity(const struct FLinearColor& Color)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54422);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54997);
 
 	UBP_KillMessageWidget_C_SetMessageColorAndOpacity_Params params;
 	params.Color = Color;
@@ -43,7 +43,7 @@ void UBP_KillMessageWidget_C::SetMessageColorAndOpacity(const struct FLinearColo
 void UBP_KillMessageWidget_C::SetFontStyleAndSize(class UTextBlock* Text, const struct FName& Style, int Size)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54417);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54992);
 
 	UBP_KillMessageWidget_C_SetFontStyleAndSize_Params params;
 	params.Text = Text;
@@ -66,7 +66,7 @@ void UBP_KillMessageWidget_C::SetFontStyleAndSize(class UTextBlock* Text, const 
 void UBP_KillMessageWidget_C::SetLayoutTo(bool bIsHighlight)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54415);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54990);
 
 	UBP_KillMessageWidget_C_SetLayoutTo_Params params;
 	params.bIsHighlight = bIsHighlight;
@@ -87,7 +87,7 @@ void UBP_KillMessageWidget_C::SetLayoutTo(bool bIsHighlight)
 void UBP_KillMessageWidget_C::SetDeathMessage_Implementation(struct FDeathMessage* DeathMessage)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54374);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54949);
 
 	UBP_KillMessageWidget_C_SetDeathMessage_Implementation_Params params;
 
@@ -110,7 +110,7 @@ void UBP_KillMessageWidget_C::SetDeathMessage_Implementation(struct FDeathMessag
 void UBP_KillMessageWidget_C::SetDeathMessage(struct FDeathMessage* InDeathMessage)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54372);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54947);
 
 	UBP_KillMessageWidget_C_SetDeathMessage_Params params;
 	params.InDeathMessage = InDeathMessage;
@@ -131,7 +131,7 @@ void UBP_KillMessageWidget_C::SetDeathMessage(struct FDeathMessage* InDeathMessa
 void UBP_KillMessageWidget_C::ExecuteUbergraph_BP_KillMessageWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54369);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54944);
 
 	UBP_KillMessageWidget_C_ExecuteUbergraph_BP_KillMessageWidget_Params params;
 	params.EntryPoint = EntryPoint;

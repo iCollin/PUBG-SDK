@@ -20,7 +20,7 @@ namespace Classes
 void UInGameReplayMenu_C::SetHUD(class ATslHUD* inHUD)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77378);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77419);
 
 	UInGameReplayMenu_C_SetHUD_Params params;
 	params.inHUD = inHUD;
@@ -41,7 +41,7 @@ void UInGameReplayMenu_C::SetHUD(class ATslHUD* inHUD)
 void UInGameReplayMenu_C::GotoReplayList(EPopupButtonID ButtonID)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77373);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77414);
 
 	UInGameReplayMenu_C_GotoReplayList_Params params;
 	params.ButtonID = ButtonID;
@@ -62,7 +62,7 @@ void UInGameReplayMenu_C::GotoReplayList(EPopupButtonID ButtonID)
 void UInGameReplayMenu_C::QuitReplay(EPopupButtonID ButtonID)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77365);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77406);
 
 	UInGameReplayMenu_C_QuitReplay_Params params;
 	params.ButtonID = ButtonID;
@@ -81,7 +81,7 @@ void UInGameReplayMenu_C::QuitReplay(EPopupButtonID ButtonID)
 void UInGameReplayMenu_C::BndEvt__Button_Exit_K2Node_ComponentBoundEvent_228_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77364);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77405);
 
 	UInGameReplayMenu_C_BndEvt__Button_Exit_K2Node_ComponentBoundEvent_228_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -99,7 +99,7 @@ void UInGameReplayMenu_C::BndEvt__Button_Exit_K2Node_ComponentBoundEvent_228_OnB
 void UInGameReplayMenu_C::BndEvt__Button_Resume_K2Node_ComponentBoundEvent_247_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77363);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77404);
 
 	UInGameReplayMenu_C_BndEvt__Button_Resume_K2Node_ComponentBoundEvent_247_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -117,7 +117,7 @@ void UInGameReplayMenu_C::BndEvt__Button_Resume_K2Node_ComponentBoundEvent_247_O
 void UInGameReplayMenu_C::BndEvt__Button_ReplayList_K2Node_ComponentBoundEvent_210_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77362);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77403);
 
 	UInGameReplayMenu_C_BndEvt__Button_ReplayList_K2Node_ComponentBoundEvent_210_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -135,7 +135,7 @@ void UInGameReplayMenu_C::BndEvt__Button_ReplayList_K2Node_ComponentBoundEvent_2
 void UInGameReplayMenu_C::HidePopupWidgetForReplay()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77361);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77402);
 
 	UInGameReplayMenu_C_HidePopupWidgetForReplay_Params params;
 
@@ -153,7 +153,7 @@ void UInGameReplayMenu_C::HidePopupWidgetForReplay()
 void UInGameReplayMenu_C::OpenReplayListMap()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77360);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77401);
 
 	UInGameReplayMenu_C_OpenReplayListMap_Params params;
 
@@ -173,7 +173,7 @@ void UInGameReplayMenu_C::OpenReplayListMap()
 void UInGameReplayMenu_C::ExecuteUbergraph_InGameReplayMenu(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77349);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77390);
 
 	UInGameReplayMenu_C_ExecuteUbergraph_InGameReplayMenu_Params params;
 	params.EntryPoint = EntryPoint;

@@ -18,7 +18,7 @@ namespace Classes
 void UUiReplayList_C::ChangeCloseButtonForTest()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105323);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105306);
 
 	UUiReplayList_C_ChangeCloseButtonForTest_Params params;
 
@@ -36,7 +36,7 @@ void UUiReplayList_C::ChangeCloseButtonForTest()
 void UUiReplayList_C::ResetRecorderStatistics()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105310);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105293);
 
 	UUiReplayList_C_ResetRecorderStatistics_Params params;
 
@@ -54,7 +54,7 @@ void UUiReplayList_C::ResetRecorderStatistics()
 void UUiReplayList_C::ResetSummary()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105301);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105284);
 
 	UUiReplayList_C_ResetSummary_Params params;
 
@@ -74,7 +74,7 @@ void UUiReplayList_C::ResetSummary()
 void UUiReplayList_C::CheckReplayBusyStatus(bool* bIsReplayBusy)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105298);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105281);
 
 	UUiReplayList_C_CheckReplayBusyStatus_Params params;
 
@@ -97,7 +97,7 @@ void UUiReplayList_C::CheckReplayBusyStatus(bool* bIsReplayBusy)
 void UUiReplayList_C::UpdateRecorderStatistics(const struct FTslReplaySummary& inReplaySummary)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105272);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105255);
 
 	UUiReplayList_C_UpdateRecorderStatistics_Params params;
 	params.inReplaySummary = inReplaySummary;
@@ -118,7 +118,7 @@ void UUiReplayList_C::UpdateRecorderStatistics(const struct FTslReplaySummary& i
 void UUiReplayList_C::UpdateTeamText(const struct FTslReplaySummary& inReplaySummary)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105258);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105241);
 
 	UUiReplayList_C_UpdateTeamText_Params params;
 	params.inReplaySummary = inReplaySummary;
@@ -139,7 +139,7 @@ void UUiReplayList_C::UpdateTeamText(const struct FTslReplaySummary& inReplaySum
 void UUiReplayList_C::SetShouldKeep(bool bShouldKeep)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105255);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105238);
 
 	UUiReplayList_C_SetShouldKeep_Params params;
 	params.bShouldKeep = bShouldKeep;
@@ -160,7 +160,7 @@ void UUiReplayList_C::SetShouldKeep(bool bShouldKeep)
 void UUiReplayList_C::UpdateReplaySummary(const struct FTslReplaySummary& ReplaySummary)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105246);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105229);
 
 	UUiReplayList_C_UpdateReplaySummary_Params params;
 	params.ReplaySummary = ReplaySummary;
@@ -182,7 +182,7 @@ void UUiReplayList_C::UpdateReplaySummary(const struct FTslReplaySummary& Replay
 void UUiReplayList_C::SetReplayItemToProcess(const struct FString& RegionOrLocal, const struct FReplayItem& inReplayItem)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105238);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105221);
 
 	UUiReplayList_C_SetReplayItemToProcess_Params params;
 	params.RegionOrLocal = RegionOrLocal;
@@ -202,7 +202,7 @@ void UUiReplayList_C::SetReplayItemToProcess(const struct FString& RegionOrLocal
 void UUiReplayList_C::HidePageWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105237);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105220);
 
 	UUiReplayList_C_HidePageWidget_Params params;
 
@@ -220,7 +220,7 @@ void UUiReplayList_C::HidePageWidget()
 void UUiReplayList_C::ShowPageWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105231);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105214);
 
 	UUiReplayList_C_ShowPageWidget_Params params;
 
@@ -238,7 +238,7 @@ void UUiReplayList_C::ShowPageWidget()
 void UUiReplayList_C::ClearReplayList()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105230);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105213);
 
 	UUiReplayList_C_ClearReplayList_Params params;
 
@@ -256,7 +256,7 @@ void UUiReplayList_C::ClearReplayList()
 void UUiReplayList_C::BndEvt__Button_EU_K2Node_ComponentBoundEvent_6_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105229);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105212);
 
 	UUiReplayList_C_BndEvt__Button_EU_K2Node_ComponentBoundEvent_6_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -274,7 +274,7 @@ void UUiReplayList_C::BndEvt__Button_EU_K2Node_ComponentBoundEvent_6_OnButtonCli
 void UUiReplayList_C::BndEvt__Button_NA_K2Node_ComponentBoundEvent_36_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105228);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105211);
 
 	UUiReplayList_C_BndEvt__Button_NA_K2Node_ComponentBoundEvent_36_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -292,7 +292,7 @@ void UUiReplayList_C::BndEvt__Button_NA_K2Node_ComponentBoundEvent_36_OnButtonCl
 void UUiReplayList_C::BndEvt__Button_SA_K2Node_ComponentBoundEvent_57_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105227);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105210);
 
 	UUiReplayList_C_BndEvt__Button_SA_K2Node_ComponentBoundEvent_57_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -310,7 +310,7 @@ void UUiReplayList_C::BndEvt__Button_SA_K2Node_ComponentBoundEvent_57_OnButtonCl
 void UUiReplayList_C::BndEvt__Button_SEA_K2Node_ComponentBoundEvent_79_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105226);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105209);
 
 	UUiReplayList_C_BndEvt__Button_SEA_K2Node_ComponentBoundEvent_79_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -328,7 +328,7 @@ void UUiReplayList_C::BndEvt__Button_SEA_K2Node_ComponentBoundEvent_79_OnButtonC
 void UUiReplayList_C::BndEvt__Button_OC_K2Node_ComponentBoundEvent_102_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105225);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105208);
 
 	UUiReplayList_C_BndEvt__Button_OC_K2Node_ComponentBoundEvent_102_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -346,7 +346,7 @@ void UUiReplayList_C::BndEvt__Button_OC_K2Node_ComponentBoundEvent_102_OnButtonC
 void UUiReplayList_C::BndEvt__Button_Local_K2Node_ComponentBoundEvent_130_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105224);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105207);
 
 	UUiReplayList_C_BndEvt__Button_Local_K2Node_ComponentBoundEvent_130_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -364,7 +364,7 @@ void UUiReplayList_C::BndEvt__Button_Local_K2Node_ComponentBoundEvent_130_OnButt
 void UUiReplayList_C::BndEvt__Button_AS_K2Node_ComponentBoundEvent_538_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105223);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105206);
 
 	UUiReplayList_C_BndEvt__Button_AS_K2Node_ComponentBoundEvent_538_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -382,7 +382,7 @@ void UUiReplayList_C::BndEvt__Button_AS_K2Node_ComponentBoundEvent_538_OnButtonC
 void UUiReplayList_C::BndEvt__Button_262_K2Node_ComponentBoundEvent_40_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105222);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105205);
 
 	UUiReplayList_C_BndEvt__Button_262_K2Node_ComponentBoundEvent_40_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -403,7 +403,7 @@ void UUiReplayList_C::BndEvt__Button_262_K2Node_ComponentBoundEvent_40_OnButtonC
 void UUiReplayList_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105219);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105202);
 
 	UUiReplayList_C_Tick_Params params;
 	params.MyGeometry = MyGeometry;
@@ -423,7 +423,7 @@ void UUiReplayList_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
 void UUiReplayList_C::BndEvt__PrevButton_K2Node_ComponentBoundEvent_670_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105218);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105201);
 
 	UUiReplayList_C_BndEvt__PrevButton_K2Node_ComponentBoundEvent_670_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -441,7 +441,7 @@ void UUiReplayList_C::BndEvt__PrevButton_K2Node_ComponentBoundEvent_670_OnButton
 void UUiReplayList_C::BndEvt__NexButton_K2Node_ComponentBoundEvent_696_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105217);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105200);
 
 	UUiReplayList_C_BndEvt__NexButton_K2Node_ComponentBoundEvent_696_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -459,7 +459,7 @@ void UUiReplayList_C::BndEvt__NexButton_K2Node_ComponentBoundEvent_696_OnButtonC
 void UUiReplayList_C::BndEvt__ButtonGo_K2Node_ComponentBoundEvent_217_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105216);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105199);
 
 	UUiReplayList_C_BndEvt__ButtonGo_K2Node_ComponentBoundEvent_217_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -477,7 +477,7 @@ void UUiReplayList_C::BndEvt__ButtonGo_K2Node_ComponentBoundEvent_217_OnButtonCl
 void UUiReplayList_C::BndEvt__ButtonExit_K2Node_ComponentBoundEvent_211_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105215);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105198);
 
 	UUiReplayList_C_BndEvt__ButtonExit_K2Node_ComponentBoundEvent_211_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -495,7 +495,7 @@ void UUiReplayList_C::BndEvt__ButtonExit_K2Node_ComponentBoundEvent_211_OnButton
 void UUiReplayList_C::BndEvt__Button_Play_K2Node_ComponentBoundEvent_233_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105214);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105197);
 
 	UUiReplayList_C_BndEvt__Button_Play_K2Node_ComponentBoundEvent_233_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -513,7 +513,7 @@ void UUiReplayList_C::BndEvt__Button_Play_K2Node_ComponentBoundEvent_233_OnButto
 void UUiReplayList_C::BndEvt__Button_Delete_K2Node_ComponentBoundEvent_810_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105213);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105196);
 
 	UUiReplayList_C_BndEvt__Button_Delete_K2Node_ComponentBoundEvent_810_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -531,7 +531,7 @@ void UUiReplayList_C::BndEvt__Button_Delete_K2Node_ComponentBoundEvent_810_OnBut
 void UUiReplayList_C::BndEvt__Button_DeleteOlds_K2Node_ComponentBoundEvent_271_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105212);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105195);
 
 	UUiReplayList_C_BndEvt__Button_DeleteOlds_K2Node_ComponentBoundEvent_271_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -551,7 +551,7 @@ void UUiReplayList_C::BndEvt__Button_DeleteOlds_K2Node_ComponentBoundEvent_271_O
 void UUiReplayList_C::OnKeepAndDeleteOldestReplaysDoneEvent(int Remains)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105210);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105193);
 
 	UUiReplayList_C_OnKeepAndDeleteOldestReplaysDoneEvent_Params params;
 	params.Remains = Remains;
@@ -572,7 +572,7 @@ void UUiReplayList_C::OnKeepAndDeleteOldestReplaysDoneEvent(int Remains)
 void UUiReplayList_C::OnGetReplaySummaryEvent(const struct FTslReplaySummary& ReplaySummary)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105208);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105191);
 
 	UUiReplayList_C_OnGetReplaySummaryEvent_Params params;
 	params.ReplaySummary = ReplaySummary;
@@ -591,7 +591,7 @@ void UUiReplayList_C::OnGetReplaySummaryEvent(const struct FTslReplaySummary& Re
 void UUiReplayList_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105207);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105190);
 
 	UUiReplayList_C_Construct_Params params;
 
@@ -611,7 +611,7 @@ void UUiReplayList_C::Construct()
 void UUiReplayList_C::ExecuteUbergraph_UiReplayList(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105191);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105174);
 
 	UUiReplayList_C_ExecuteUbergraph_UiReplayList_Params params;
 	params.EntryPoint = EntryPoint;
@@ -630,7 +630,7 @@ void UUiReplayList_C::ExecuteUbergraph_UiReplayList(int EntryPoint)
 void UUiReplayList_C::DeleteReplayEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105190);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105173);
 
 	UUiReplayList_C_DeleteReplayEvent__DelegateSignature_Params params;
 
@@ -648,7 +648,7 @@ void UUiReplayList_C::DeleteReplayEvent__DelegateSignature()
 void UUiReplayList_C::QuitApplicationEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105189);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105172);
 
 	UUiReplayList_C_QuitApplicationEvent__DelegateSignature_Params params;
 
@@ -666,7 +666,7 @@ void UUiReplayList_C::QuitApplicationEvent__DelegateSignature()
 void UUiReplayList_C::GoPageEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105188);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105171);
 
 	UUiReplayList_C_GoPageEvent__DelegateSignature_Params params;
 
@@ -684,7 +684,7 @@ void UUiReplayList_C::GoPageEvent__DelegateSignature()
 void UUiReplayList_C::PrevPageEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105187);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105170);
 
 	UUiReplayList_C_PrevPageEvent__DelegateSignature_Params params;
 
@@ -702,7 +702,7 @@ void UUiReplayList_C::PrevPageEvent__DelegateSignature()
 void UUiReplayList_C::NextPageEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105186);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105169);
 
 	UUiReplayList_C_NextPageEvent__DelegateSignature_Params params;
 
@@ -722,7 +722,7 @@ void UUiReplayList_C::NextPageEvent__DelegateSignature()
 void UUiReplayList_C::UpdateReplayList__DelegateSignature(const struct FString& RegionOrLocal)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105184);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105167);
 
 	UUiReplayList_C_UpdateReplayList__DelegateSignature_Params params;
 	params.RegionOrLocal = RegionOrLocal;

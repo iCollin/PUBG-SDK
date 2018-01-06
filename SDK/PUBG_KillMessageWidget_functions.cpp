@@ -342,7 +342,7 @@ ESlateVisibility UKillMessageWidget_C::Get_Insert_Visibility_1()
 void UKillMessageWidget_C::GetFadeInAnimation(class UWidgetAnimation** Animation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70765);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71226);
 
 	UKillMessageWidget_C_GetFadeInAnimation_Params params;
 
@@ -365,7 +365,7 @@ void UKillMessageWidget_C::GetFadeInAnimation(class UWidgetAnimation** Animation
 void UKillMessageWidget_C::GetFadeOutAnimation(class UWidgetAnimation** Animation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70763);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71224);
 
 	UKillMessageWidget_C_GetFadeOutAnimation_Params params;
 
@@ -386,7 +386,7 @@ void UKillMessageWidget_C::GetFadeOutAnimation(class UWidgetAnimation** Animatio
 void UKillMessageWidget_C::InitializeKillMessageText()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70760);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70764);
 
 	UKillMessageWidget_C_InitializeKillMessageText_Params params;
 
@@ -406,7 +406,7 @@ void UKillMessageWidget_C::InitializeKillMessageText()
 void UKillMessageWidget_C::IsVictimTeam(bool* IsTeam)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70753);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70757);
 
 	UKillMessageWidget_C_IsVictimTeam_Params params;
 
@@ -429,7 +429,7 @@ void UKillMessageWidget_C::IsVictimTeam(bool* IsTeam)
 void UKillMessageWidget_C::IsKillerTeam(bool* IsTeam)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70746);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70750);
 
 	UKillMessageWidget_C_IsKillerTeam_Params params;
 
@@ -450,7 +450,7 @@ void UKillMessageWidget_C::IsKillerTeam(bool* IsTeam)
 void UKillMessageWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70745);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71203);
 
 	UKillMessageWidget_C_Construct_Params params;
 
@@ -470,7 +470,7 @@ void UKillMessageWidget_C::Construct()
 void UKillMessageWidget_C::ExecuteUbergraph_KillMessageWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70743);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70748);
 
 	UKillMessageWidget_C_ExecuteUbergraph_KillMessageWidget_Params params;
 	params.EntryPoint = EntryPoint;

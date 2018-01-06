@@ -18,7 +18,7 @@ namespace Classes
 void ABP_Sky_Sphere_Desert_02_C::UpdateSunDirection()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(108703);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(109308);
 
 	ABP_Sky_Sphere_Desert_02_C_UpdateSunDirection_Params params;
 
@@ -36,7 +36,7 @@ void ABP_Sky_Sphere_Desert_02_C::UpdateSunDirection()
 void ABP_Sky_Sphere_Desert_02_C::UserConstructionScript()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(108683);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(109288);
 
 	ABP_Sky_Sphere_Desert_02_C_UserConstructionScript_Params params;
 

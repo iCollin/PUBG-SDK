@@ -20,7 +20,7 @@ namespace Classes
 ESlateVisibility UGameplayOptionWidget_BP_C::Get_ClientReplay_Visibility()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70415);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69841);
 
 	UGameplayOptionWidget_BP_C_Get_ClientReplay_Visibility_Params params;
 
@@ -42,7 +42,7 @@ ESlateVisibility UGameplayOptionWidget_BP_C::Get_ClientReplay_Visibility()
 bool UGameplayOptionWidget_BP_C::IsKeyUp()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70413);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69839);
 
 	UGameplayOptionWidget_BP_C_IsKeyUp_Params params;
 
@@ -64,7 +64,7 @@ bool UGameplayOptionWidget_BP_C::IsKeyUp()
 bool UGameplayOptionWidget_BP_C::IsEnableApply()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70410);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69836);
 
 	UGameplayOptionWidget_BP_C_IsEnableApply_Params params;
 
@@ -86,7 +86,7 @@ bool UGameplayOptionWidget_BP_C::IsEnableApply()
 bool UGameplayOptionWidget_BP_C::IsChanged()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70375);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69801);
 
 	UGameplayOptionWidget_BP_C_IsChanged_Params params;
 
@@ -106,7 +106,7 @@ bool UGameplayOptionWidget_BP_C::IsChanged()
 void UGameplayOptionWidget_BP_C::ApplyByCurrentSelectedSettings()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70354);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69780);
 
 	UGameplayOptionWidget_BP_C_ApplyByCurrentSelectedSettings_Params params;
 
@@ -124,7 +124,7 @@ void UGameplayOptionWidget_BP_C::ApplyByCurrentSelectedSettings()
 void UGameplayOptionWidget_BP_C::SetToDefault()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70322);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69748);
 
 	UGameplayOptionWidget_BP_C_SetToDefault_Params params;
 
@@ -142,7 +142,7 @@ void UGameplayOptionWidget_BP_C::SetToDefault()
 void UGameplayOptionWidget_BP_C::InitializeWidgets()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70253);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69679);
 
 	UGameplayOptionWidget_BP_C_InitializeWidgets_Params params;
 
@@ -160,7 +160,7 @@ void UGameplayOptionWidget_BP_C::InitializeWidgets()
 void UGameplayOptionWidget_BP_C::OnReset()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70252);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69678);
 
 	UGameplayOptionWidget_BP_C_OnReset_Params params;
 
@@ -178,7 +178,7 @@ void UGameplayOptionWidget_BP_C::OnReset()
 void UGameplayOptionWidget_BP_C::OnDefault()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70251);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69677);
 
 	UGameplayOptionWidget_BP_C_OnDefault_Params params;
 
@@ -196,7 +196,7 @@ void UGameplayOptionWidget_BP_C::OnDefault()
 void UGameplayOptionWidget_BP_C::OnApply()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70250);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69676);
 
 	UGameplayOptionWidget_BP_C_OnApply_Params params;
 
@@ -214,7 +214,7 @@ void UGameplayOptionWidget_BP_C::OnApply()
 void UGameplayOptionWidget_BP_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70249);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69675);
 
 	UGameplayOptionWidget_BP_C_Construct_Params params;
 
@@ -234,7 +234,7 @@ void UGameplayOptionWidget_BP_C::Construct()
 void UGameplayOptionWidget_BP_C::ExecuteUbergraph_GameplayOptionWidget_BP(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70243);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69669);
 
 	UGameplayOptionWidget_BP_C_ExecuteUbergraph_GameplayOptionWidget_BP_Params params;
 	params.EntryPoint = EntryPoint;

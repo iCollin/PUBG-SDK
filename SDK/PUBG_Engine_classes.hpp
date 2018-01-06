@@ -436,9 +436,9 @@ public:
 	unsigned char                                      bAbsoluteTranslation : 1;                                 // 0x024A(0x0001) (Deprecated)
 	unsigned char                                      UnknownData03[0x1];                                       // 0x024B(0x0001) MISSED OFFSET
 	TWeakObjectPtr<class APhysicsVolume>               PhysicsVolume;                                            // 0x024C(0x0008) (ZeroConstructor, Transient, IsPlainOldData)
-	unsigned char                                      UnknownData04a[0x3C];                                      // 0x0254(0x007C) MISSED OFFSET
-	struct FVector									   Location;												 // 0x0290(0x000C) MANUALLY ADDED
-	unsigned char                                      UnknownData04b[0x34];                                      // 0x029C(0x0034) MISSED OFFSET
+	unsigned char                                      UnknownData04a[0x3C];                                     // 0x0254(0x003C) MISSED OFFSET
+	struct FVector                                     Location;		                                         // 0x0290(0x000C) MANUALLY ADDED
+	unsigned char                                      UnknownData04b[0x34];                                     // 0x029C(0x0034) MISSED OFFSET
 	struct FVector                                     RelativeLocation;                                         // 0x02D0(0x000C) (Edit, BlueprintVisible, BlueprintReadOnly, Net, IsPlainOldData)
 	struct FRotator                                    RelativeRotation;                                         // 0x02DC(0x000C) (Edit, BlueprintVisible, BlueprintReadOnly, Net, IsPlainOldData)
 	unsigned char                                      UnknownData05[0x28];                                      // 0x02E8(0x0028) MISSED OFFSET

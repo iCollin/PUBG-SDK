@@ -20,7 +20,7 @@ namespace Classes
 void UPlayerInfoWidget_C::SetPlayerInfoData(class ATslCharacter* TslCharacter)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98474);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71907);
 
 	UPlayerInfoWidget_C_SetPlayerInfoData_Params params;
 	params.TslCharacter = TslCharacter;
@@ -41,7 +41,7 @@ void UPlayerInfoWidget_C::SetPlayerInfoData(class ATslCharacter* TslCharacter)
 void UPlayerInfoWidget_C::UpdateHealthPrepass_Hori(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98465);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71898);
 
 	UPlayerInfoWidget_C_UpdateHealthPrepass_Hori_Params params;
 	params.BoundWidget = BoundWidget;
@@ -62,7 +62,7 @@ void UPlayerInfoWidget_C::UpdateHealthPrepass_Hori(class UWidget* BoundWidget)
 void UPlayerInfoWidget_C::On_TextTeamNumber_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98452);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71885);
 
 	UPlayerInfoWidget_C_On_TextTeamNumber_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -83,7 +83,7 @@ void UPlayerInfoWidget_C::On_TextTeamNumber_Prepass_1(class UWidget* BoundWidget
 void UPlayerInfoWidget_C::On_TextShortcut_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98445);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71878);
 
 	UPlayerInfoWidget_C_On_TextShortcut_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -104,7 +104,7 @@ void UPlayerInfoWidget_C::On_TextShortcut_Prepass_1(class UWidget* BoundWidget)
 void UPlayerInfoWidget_C::OnPrepass_2(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98379);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71869);
 
 	UPlayerInfoWidget_C_OnPrepass_2_Params params;
 	params.BoundWidget = BoundWidget;
@@ -125,7 +125,7 @@ void UPlayerInfoWidget_C::OnPrepass_2(class UWidget* BoundWidget)
 void UPlayerInfoWidget_C::On_HPGaugeSizeBox_Hori_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98376);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71866);
 
 	UPlayerInfoWidget_C_On_HPGaugeSizeBox_Hori_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -146,7 +146,7 @@ void UPlayerInfoWidget_C::On_HPGaugeSizeBox_Hori_Prepass_1(class UWidget* BoundW
 void UPlayerInfoWidget_C::On_HPGaugeSizeBox_Vert_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98373);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71863);
 
 	UPlayerInfoWidget_C_On_HPGaugeSizeBox_Vert_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -167,7 +167,7 @@ void UPlayerInfoWidget_C::On_HPGaugeSizeBox_Vert_Prepass_1(class UWidget* BoundW
 void UPlayerInfoWidget_C::On_ObserverCameraLayer_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98367);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71857);
 
 	UPlayerInfoWidget_C_On_ObserverCameraLayer_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -186,7 +186,7 @@ void UPlayerInfoWidget_C::On_ObserverCameraLayer_Prepass_1(class UWidget* BoundW
 void UPlayerInfoWidget_C::SetCameraMode_Free()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98350);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71840);
 
 	UPlayerInfoWidget_C_SetCameraMode_Free_Params params;
 
@@ -204,7 +204,7 @@ void UPlayerInfoWidget_C::SetCameraMode_Free()
 void UPlayerInfoWidget_C::SetCameraMode_Follow()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98344);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71834);
 
 	UPlayerInfoWidget_C_SetCameraMode_Follow_Params params;
 
@@ -222,7 +222,7 @@ void UPlayerInfoWidget_C::SetCameraMode_Follow()
 void UPlayerInfoWidget_C::SetCameraMode_Spectator()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98335);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71825);
 
 	UPlayerInfoWidget_C_SetCameraMode_Spectator_Params params;
 
@@ -244,7 +244,7 @@ void UPlayerInfoWidget_C::SetCameraMode_Spectator()
 struct FEventReply UPlayerInfoWidget_C::OnKeyDown(struct FGeometry* MyGeometry, struct FKeyEvent* InKeyEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98327);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71817);
 
 	UPlayerInfoWidget_C_OnKeyDown_Params params;
 	params.MyGeometry = MyGeometry;
@@ -270,7 +270,7 @@ struct FEventReply UPlayerInfoWidget_C::OnKeyDown(struct FGeometry* MyGeometry, 
 struct FEventReply UPlayerInfoWidget_C::OnMouseButtonDown_1(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98320);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71810);
 
 	UPlayerInfoWidget_C_OnMouseButtonDown_1_Params params;
 	params.MyGeometry = MyGeometry;
@@ -294,7 +294,7 @@ struct FEventReply UPlayerInfoWidget_C::OnMouseButtonDown_1(const struct FGeomet
 void UPlayerInfoWidget_C::On_KickButtonLayer_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98318);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71808);
 
 	UPlayerInfoWidget_C_On_KickButtonLayer_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -315,7 +315,7 @@ void UPlayerInfoWidget_C::On_KickButtonLayer_Prepass_1(class UWidget* BoundWidge
 void UPlayerInfoWidget_C::OnPrepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98305);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71795);
 
 	UPlayerInfoWidget_C_OnPrepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -336,7 +336,7 @@ void UPlayerInfoWidget_C::OnPrepass_1(class UWidget* BoundWidget)
 void UPlayerInfoWidget_C::On_PlayerName_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98298);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71788);
 
 	UPlayerInfoWidget_C_On_PlayerName_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -357,7 +357,7 @@ void UPlayerInfoWidget_C::On_PlayerName_Prepass_1(class UWidget* BoundWidget)
 void UPlayerInfoWidget_C::On_IconLayer_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98286);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71777);
 
 	UPlayerInfoWidget_C_On_IconLayer_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -378,7 +378,7 @@ void UPlayerInfoWidget_C::On_IconLayer_Prepass_1(class UWidget* BoundWidget)
 void UPlayerInfoWidget_C::On_IconImage_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98276);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71767);
 
 	UPlayerInfoWidget_C_On_IconImage_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -399,7 +399,7 @@ void UPlayerInfoWidget_C::On_IconImage_Prepass_1(class UWidget* BoundWidget)
 void UPlayerInfoWidget_C::On_KillCount_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98271);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71762);
 
 	UPlayerInfoWidget_C_On_KillCount_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -420,7 +420,7 @@ void UPlayerInfoWidget_C::On_KillCount_Prepass_1(class UWidget* BoundWidget)
 void UPlayerInfoWidget_C::On_InfoLayer_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98268);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71759);
 
 	UPlayerInfoWidget_C_On_InfoLayer_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -441,7 +441,7 @@ void UPlayerInfoWidget_C::On_InfoLayer_Prepass_1(class UWidget* BoundWidget)
 void UPlayerInfoWidget_C::UpdateHealthPrepass_Vert(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98259);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71750);
 
 	UPlayerInfoWidget_C_UpdateHealthPrepass_Vert_Params params;
 	params.BoundWidget = BoundWidget;
@@ -460,7 +460,7 @@ void UPlayerInfoWidget_C::UpdateHealthPrepass_Vert(class UWidget* BoundWidget)
 void UPlayerInfoWidget_C::BndEvt__Button_1_K2Node_ComponentBoundEvent_32_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98258);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71749);
 
 	UPlayerInfoWidget_C_BndEvt__Button_1_K2Node_ComponentBoundEvent_32_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -481,7 +481,7 @@ void UPlayerInfoWidget_C::BndEvt__Button_1_K2Node_ComponentBoundEvent_32_OnButto
 void UPlayerInfoWidget_C::OnMouseEnter(struct FGeometry* MyGeometry, struct FPointerEvent* MouseEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98255);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71746);
 
 	UPlayerInfoWidget_C_OnMouseEnter_Params params;
 	params.MyGeometry = MyGeometry;
@@ -503,7 +503,7 @@ void UPlayerInfoWidget_C::OnMouseEnter(struct FGeometry* MyGeometry, struct FPoi
 void UPlayerInfoWidget_C::OnMouseLeave(struct FPointerEvent* MouseEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98253);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71744);
 
 	UPlayerInfoWidget_C_OnMouseLeave_Params params;
 	params.MouseEvent = MouseEvent;
@@ -525,7 +525,7 @@ void UPlayerInfoWidget_C::OnMouseLeave(struct FPointerEvent* MouseEvent)
 void UPlayerInfoWidget_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98250);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71741);
 
 	UPlayerInfoWidget_C_Tick_Params params;
 	params.MyGeometry = MyGeometry;
@@ -547,7 +547,7 @@ void UPlayerInfoWidget_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
 void UPlayerInfoWidget_C::CustomEvent_1(EPopupButtonID ButtonID)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98247);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71738);
 
 	UPlayerInfoWidget_C_CustomEvent_1_Params params;
 	params.ButtonID = ButtonID;
@@ -566,7 +566,7 @@ void UPlayerInfoWidget_C::CustomEvent_1(EPopupButtonID ButtonID)
 void UPlayerInfoWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98246);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71737);
 
 	UPlayerInfoWidget_C_Construct_Params params;
 
@@ -584,7 +584,7 @@ void UPlayerInfoWidget_C::Construct()
 void UPlayerInfoWidget_C::CustomEvent_3()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98245);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71736);
 
 	UPlayerInfoWidget_C_CustomEvent_3_Params params;
 
@@ -602,7 +602,7 @@ void UPlayerInfoWidget_C::CustomEvent_3()
 void UPlayerInfoWidget_C::CustomEvent_2()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98244);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71735);
 
 	UPlayerInfoWidget_C_CustomEvent_2_Params params;
 
@@ -620,7 +620,7 @@ void UPlayerInfoWidget_C::CustomEvent_2()
 void UPlayerInfoWidget_C::Destruct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98243);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71734);
 
 	UPlayerInfoWidget_C_Destruct_Params params;
 
@@ -638,7 +638,7 @@ void UPlayerInfoWidget_C::Destruct()
 void UPlayerInfoWidget_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_26_OnButtonHoverEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98242);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71733);
 
 	UPlayerInfoWidget_C_BndEvt__Button_0_K2Node_ComponentBoundEvent_26_OnButtonHoverEvent__DelegateSignature_Params params;
 
@@ -656,7 +656,7 @@ void UPlayerInfoWidget_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_26_OnButto
 void UPlayerInfoWidget_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_57_OnButtonHoverEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98241);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71732);
 
 	UPlayerInfoWidget_C_BndEvt__Button_0_K2Node_ComponentBoundEvent_57_OnButtonHoverEvent__DelegateSignature_Params params;
 
@@ -674,7 +674,7 @@ void UPlayerInfoWidget_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_57_OnButto
 void UPlayerInfoWidget_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_20_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98240);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71731);
 
 	UPlayerInfoWidget_C_BndEvt__Button_0_K2Node_ComponentBoundEvent_20_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -694,7 +694,7 @@ void UPlayerInfoWidget_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_20_OnButto
 void UPlayerInfoWidget_C::ExecuteUbergraph_PlayerInfoWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98206);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71697);
 
 	UPlayerInfoWidget_C_ExecuteUbergraph_PlayerInfoWidget_Params params;
 	params.EntryPoint = EntryPoint;

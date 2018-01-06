@@ -20,7 +20,7 @@ namespace Classes
 void UMiniMapWidget_C::OnPrepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(75135);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74940);
 
 	UMiniMapWidget_C_OnPrepass_1_Params params;
 	params.BoundWidget = BoundWidget;

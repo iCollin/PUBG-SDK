@@ -20,7 +20,7 @@ namespace Classes
 void UParachuteVehicleWidget_C::On_Parachute_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57684);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89818);
 
 	UParachuteVehicleWidget_C_On_Parachute_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -41,7 +41,7 @@ void UParachuteVehicleWidget_C::On_Parachute_Prepass_1(class UWidget* BoundWidge
 struct FText UParachuteVehicleWidget_C::Get_AirSpeed_Text_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57676);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89810);
 
 	UParachuteVehicleWidget_C_Get_AirSpeed_Text_1_Params params;
 
@@ -63,7 +63,7 @@ struct FText UParachuteVehicleWidget_C::Get_AirSpeed_Text_1()
 void UParachuteVehicleWidget_C::OnPrepass_ParachuteWidgetVisibility(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57637);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89771);
 
 	UParachuteVehicleWidget_C_OnPrepass_ParachuteWidgetVisibility_Params params;
 	params.BoundWidget = BoundWidget;
@@ -82,7 +82,7 @@ void UParachuteVehicleWidget_C::OnPrepass_ParachuteWidgetVisibility(class UWidge
 void UParachuteVehicleWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57636);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89770);
 
 	UParachuteVehicleWidget_C_Construct_Params params;
 
@@ -103,7 +103,7 @@ void UParachuteVehicleWidget_C::Construct()
 void UParachuteVehicleWidget_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57633);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89767);
 
 	UParachuteVehicleWidget_C_Tick_Params params;
 	params.MyGeometry = MyGeometry;
@@ -125,7 +125,7 @@ void UParachuteVehicleWidget_C::Tick(struct FGeometry* MyGeometry, float* InDelt
 void UParachuteVehicleWidget_C::ExecuteUbergraph_ParachuteVehicleWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57596);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89730);
 
 	UParachuteVehicleWidget_C_ExecuteUbergraph_ParachuteVehicleWidget_Params params;
 	params.EntryPoint = EntryPoint;

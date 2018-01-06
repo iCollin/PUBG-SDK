@@ -18,7 +18,7 @@ namespace Classes
 void UABP_Weapon_Crossbow_C::BlueprintInitializeAnimation()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(50561);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(50560);
 
 	UABP_Weapon_Crossbow_C_BlueprintInitializeAnimation_Params params;
 
@@ -36,7 +36,7 @@ void UABP_Weapon_Crossbow_C::BlueprintInitializeAnimation()
 void UABP_Weapon_Crossbow_C::Reload2_Event_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(50560);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(50559);
 
 	UABP_Weapon_Crossbow_C_Reload2_Event_1_Params params;
 
@@ -54,7 +54,7 @@ void UABP_Weapon_Crossbow_C::Reload2_Event_1()
 void UABP_Weapon_Crossbow_C::WeaponFire_Event_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(50559);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(50558);
 
 	UABP_Weapon_Crossbow_C_WeaponFire_Event_1_Params params;
 
@@ -72,7 +72,7 @@ void UABP_Weapon_Crossbow_C::WeaponFire_Event_1()
 void UABP_Weapon_Crossbow_C::CancelReload_Event_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(50558);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(50557);
 
 	UABP_Weapon_Crossbow_C_CancelReload_Event_1_Params params;
 
@@ -92,7 +92,7 @@ void UABP_Weapon_Crossbow_C::CancelReload_Event_1()
 void UABP_Weapon_Crossbow_C::ExecuteUbergraph_ABP_Weapon_Crossbow(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(50547);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(50546);
 
 	UABP_Weapon_Crossbow_C_ExecuteUbergraph_ABP_Weapon_Crossbow_Params params;
 	params.EntryPoint = EntryPoint;

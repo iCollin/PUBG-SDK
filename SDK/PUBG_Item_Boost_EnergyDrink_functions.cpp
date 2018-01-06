@@ -18,7 +18,7 @@ namespace Classes
 void UItem_Boost_EnergyDrink_C::BoostGaugeUp()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57077);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54902);
 
 	UItem_Boost_EnergyDrink_C_BoostGaugeUp_Params params;
 
@@ -39,7 +39,7 @@ void UItem_Boost_EnergyDrink_C::BoostGaugeUp()
 bool UItem_Boost_EnergyDrink_C::IsCastable(class ATslCharacter** Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57071);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54896);
 
 	UItem_Boost_EnergyDrink_C_IsCastable_Params params;
 	params.Character = Character;
@@ -60,7 +60,7 @@ bool UItem_Boost_EnergyDrink_C::IsCastable(class ATslCharacter** Character)
 void UItem_Boost_EnergyDrink_C::PrintCastingTime()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57063);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54888);
 
 	UItem_Boost_EnergyDrink_C_PrintCastingTime_Params params;
 
@@ -81,7 +81,7 @@ void UItem_Boost_EnergyDrink_C::PrintCastingTime()
 bool UItem_Boost_EnergyDrink_C::UseBy(class ATslCharacter** Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57059);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54884);
 
 	UItem_Boost_EnergyDrink_C_UseBy_Params params;
 	params.Character = Character;

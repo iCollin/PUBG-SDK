@@ -20,7 +20,7 @@ namespace Classes
 bool UScreenSettingWidget_C::IsEnable()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69124);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90593);
 
 	UScreenSettingWidget_C_IsEnable_Params params;
 
@@ -42,7 +42,7 @@ bool UScreenSettingWidget_C::IsEnable()
 void UScreenSettingWidget_C::GetSelectedFullScreenMode(TEnumAsByte<EWindowMode>* FullscreenMode)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69120);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90589);
 
 	UScreenSettingWidget_C_GetSelectedFullScreenMode_Params params;
 
@@ -63,7 +63,7 @@ void UScreenSettingWidget_C::GetSelectedFullScreenMode(TEnumAsByte<EWindowMode>*
 void UScreenSettingWidget_C::SettingDefault()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69117);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90586);
 
 	UScreenSettingWidget_C_SettingDefault_Params params;
 
@@ -83,7 +83,7 @@ void UScreenSettingWidget_C::SettingDefault()
 bool UScreenSettingWidget_C::IsChanged()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69096);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90565);
 
 	UScreenSettingWidget_C_IsChanged_Params params;
 
@@ -105,7 +105,7 @@ bool UScreenSettingWidget_C::IsChanged()
 bool UScreenSettingWidget_C::GetResolutionEnabled()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69090);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90559);
 
 	UScreenSettingWidget_C_GetResolutionEnabled_Params params;
 
@@ -127,7 +127,7 @@ bool UScreenSettingWidget_C::GetResolutionEnabled()
 void UScreenSettingWidget_C::GetSelectedResolution(struct FScreenResolution* SelectedResolution)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69081);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90550);
 
 	UScreenSettingWidget_C_GetSelectedResolution_Params params;
 
@@ -148,7 +148,7 @@ void UScreenSettingWidget_C::GetSelectedResolution(struct FScreenResolution* Sel
 void UScreenSettingWidget_C::InitializeResolutionIWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69057);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90526);
 
 	UScreenSettingWidget_C_InitializeResolutionIWidget_Params params;
 
@@ -166,7 +166,7 @@ void UScreenSettingWidget_C::InitializeResolutionIWidget()
 void UScreenSettingWidget_C::OnDefault()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69056);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90525);
 
 	UScreenSettingWidget_C_OnDefault_Params params;
 
@@ -184,7 +184,7 @@ void UScreenSettingWidget_C::OnDefault()
 void UScreenSettingWidget_C::OnReset()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69055);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90524);
 
 	UScreenSettingWidget_C_OnReset_Params params;
 
@@ -202,7 +202,7 @@ void UScreenSettingWidget_C::OnReset()
 void UScreenSettingWidget_C::OnApply()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69054);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90523);
 
 	UScreenSettingWidget_C_OnApply_Params params;
 
@@ -220,7 +220,7 @@ void UScreenSettingWidget_C::OnApply()
 void UScreenSettingWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69053);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90522);
 
 	UScreenSettingWidget_C_Construct_Params params;
 
@@ -240,7 +240,7 @@ void UScreenSettingWidget_C::Construct()
 void UScreenSettingWidget_C::ExecuteUbergraph_ScreenSettingWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69045);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68730);
 
 	UScreenSettingWidget_C_ExecuteUbergraph_ScreenSettingWidget_Params params;
 	params.EntryPoint = EntryPoint;

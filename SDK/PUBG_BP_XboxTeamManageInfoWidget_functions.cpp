@@ -22,7 +22,7 @@ namespace Classes
 struct FEventReply UBP_XboxTeamManageInfoWidget_C::OnKeyDown(struct FGeometry* MyGeometry, struct FKeyEvent* InKeyEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57296);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55164);
 
 	UBP_XboxTeamManageInfoWidget_C_OnKeyDown_Params params;
 	params.MyGeometry = MyGeometry;
@@ -48,7 +48,7 @@ struct FEventReply UBP_XboxTeamManageInfoWidget_C::OnKeyDown(struct FGeometry* M
 struct FEventReply UBP_XboxTeamManageInfoWidget_C::OnFocusReceived(struct FGeometry* MyGeometry, struct FFocusEvent* InFocusEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57289);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55157);
 
 	UBP_XboxTeamManageInfoWidget_C_OnFocusReceived_Params params;
 	params.MyGeometry = MyGeometry;
@@ -70,7 +70,7 @@ struct FEventReply UBP_XboxTeamManageInfoWidget_C::OnFocusReceived(struct FGeome
 void UBP_XboxTeamManageInfoWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57288);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55156);
 
 	UBP_XboxTeamManageInfoWidget_C_Construct_Params params;
 
@@ -90,7 +90,7 @@ void UBP_XboxTeamManageInfoWidget_C::Construct()
 void UBP_XboxTeamManageInfoWidget_C::OnFocusLost(struct FFocusEvent* InFocusEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57286);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55154);
 
 	UBP_XboxTeamManageInfoWidget_C_OnFocusLost_Params params;
 	params.InFocusEvent = InFocusEvent;
@@ -111,7 +111,7 @@ void UBP_XboxTeamManageInfoWidget_C::OnFocusLost(struct FFocusEvent* InFocusEven
 void UBP_XboxTeamManageInfoWidget_C::UpdateUserNameText(struct FName* InUserName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57284);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55152);
 
 	UBP_XboxTeamManageInfoWidget_C_UpdateUserNameText_Params params;
 	params.InUserName = InUserName;
@@ -132,7 +132,7 @@ void UBP_XboxTeamManageInfoWidget_C::UpdateUserNameText(struct FName* InUserName
 void UBP_XboxTeamManageInfoWidget_C::UpdateVoiceIcon(bool* InbVoiceMute)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57282);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55150);
 
 	UBP_XboxTeamManageInfoWidget_C_UpdateVoiceIcon_Params params;
 	params.InbVoiceMute = InbVoiceMute;
@@ -153,7 +153,7 @@ void UBP_XboxTeamManageInfoWidget_C::UpdateVoiceIcon(bool* InbVoiceMute)
 void UBP_XboxTeamManageInfoWidget_C::ExecuteUbergraph_BP_XboxTeamManageInfoWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57269);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55137);
 
 	UBP_XboxTeamManageInfoWidget_C_ExecuteUbergraph_BP_XboxTeamManageInfoWidget_Params params;
 	params.EntryPoint = EntryPoint;
@@ -172,7 +172,7 @@ void UBP_XboxTeamManageInfoWidget_C::ExecuteUbergraph_BP_XboxTeamManageInfoWidge
 void UBP_XboxTeamManageInfoWidget_C::OnGamepadX__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57268);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55136);
 
 	UBP_XboxTeamManageInfoWidget_C_OnGamepadX__DelegateSignature_Params params;
 
@@ -190,7 +190,7 @@ void UBP_XboxTeamManageInfoWidget_C::OnGamepadX__DelegateSignature()
 void UBP_XboxTeamManageInfoWidget_C::OnGamepadB__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57267);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55135);
 
 	UBP_XboxTeamManageInfoWidget_C_OnGamepadB__DelegateSignature_Params params;
 
@@ -208,7 +208,7 @@ void UBP_XboxTeamManageInfoWidget_C::OnGamepadB__DelegateSignature()
 void UBP_XboxTeamManageInfoWidget_C::OnGamepadA__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57266);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55134);
 
 	UBP_XboxTeamManageInfoWidget_C_OnGamepadA__DelegateSignature_Params params;
 
@@ -228,7 +228,7 @@ void UBP_XboxTeamManageInfoWidget_C::OnGamepadA__DelegateSignature()
 void UBP_XboxTeamManageInfoWidget_C::OnGamepadNavigateKeyDown__DelegateSignature(const struct FKey& Key)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57264);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55132);
 
 	UBP_XboxTeamManageInfoWidget_C_OnGamepadNavigateKeyDown__DelegateSignature_Params params;
 	params.Key = Key;

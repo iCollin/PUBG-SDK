@@ -20,7 +20,7 @@ namespace Classes
 void UGeneralSettingWidget_Gamepad_C::GetGamePadHelpWidgetClass(class UClass** GuideClass)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68580);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68165);
 
 	UGeneralSettingWidget_Gamepad_C_GetGamePadHelpWidgetClass_Params params;
 
@@ -45,7 +45,7 @@ void UGeneralSettingWidget_Gamepad_C::GetGamePadHelpWidgetClass(class UClass** G
 struct FEventReply UGeneralSettingWidget_Gamepad_C::OnKeyDown(struct FGeometry* MyGeometry, struct FKeyEvent* InKeyEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68878);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68463);
 
 	UGeneralSettingWidget_Gamepad_C_OnKeyDown_Params params;
 	params.MyGeometry = MyGeometry;
@@ -69,7 +69,7 @@ struct FEventReply UGeneralSettingWidget_Gamepad_C::OnKeyDown(struct FGeometry* 
 void UGeneralSettingWidget_Gamepad_C::GetCurrentFocusWidget(class UWidget** FocusWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68876);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68461);
 
 	UGeneralSettingWidget_Gamepad_C_GetCurrentFocusWidget_Params params;
 
@@ -94,7 +94,7 @@ void UGeneralSettingWidget_Gamepad_C::GetCurrentFocusWidget(class UWidget** Focu
 struct FEventReply UGeneralSettingWidget_Gamepad_C::OnFocusReceived(struct FGeometry* MyGeometry, struct FFocusEvent* InFocusEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68870);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68455);
 
 	UGeneralSettingWidget_Gamepad_C_OnFocusReceived_Params params;
 	params.MyGeometry = MyGeometry;
@@ -118,7 +118,7 @@ struct FEventReply UGeneralSettingWidget_Gamepad_C::OnFocusReceived(struct FGeom
 bool UGeneralSettingWidget_Gamepad_C::IsEnable_VideoCapture()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68574);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68159);
 
 	UGeneralSettingWidget_Gamepad_C_IsEnable_VideoCapture_Params params;
 
@@ -138,7 +138,7 @@ bool UGeneralSettingWidget_Gamepad_C::IsEnable_VideoCapture()
 void UGeneralSettingWidget_Gamepad_C::SettingDefault()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68568);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68153);
 
 	UGeneralSettingWidget_Gamepad_C_SettingDefault_Params params;
 
@@ -158,7 +158,7 @@ void UGeneralSettingWidget_Gamepad_C::SettingDefault()
 bool UGeneralSettingWidget_Gamepad_C::IsChanged()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68563);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68148);
 
 	UGeneralSettingWidget_Gamepad_C_IsChanged_Params params;
 
@@ -180,7 +180,7 @@ bool UGeneralSettingWidget_Gamepad_C::IsChanged()
 void UGeneralSettingWidget_Gamepad_C::GetLanguageCultureName(struct FString* CultureName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68550);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68135);
 
 	UGeneralSettingWidget_Gamepad_C_GetLanguageCultureName_Params params;
 
@@ -203,7 +203,7 @@ void UGeneralSettingWidget_Gamepad_C::GetLanguageCultureName(struct FString* Cul
 void UGeneralSettingWidget_Gamepad_C::InitializeResolutionIWidget(bool bConstruct)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68534);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68119);
 
 	UGeneralSettingWidget_Gamepad_C_InitializeResolutionIWidget_Params params;
 	params.bConstruct = bConstruct;
@@ -222,7 +222,7 @@ void UGeneralSettingWidget_Gamepad_C::InitializeResolutionIWidget(bool bConstruc
 void UGeneralSettingWidget_Gamepad_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68533);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68118);
 
 	UGeneralSettingWidget_Gamepad_C_Construct_Params params;
 
@@ -240,7 +240,7 @@ void UGeneralSettingWidget_Gamepad_C::Construct()
 void UGeneralSettingWidget_Gamepad_C::OnApply()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68532);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68117);
 
 	UGeneralSettingWidget_Gamepad_C_OnApply_Params params;
 
@@ -258,7 +258,7 @@ void UGeneralSettingWidget_Gamepad_C::OnApply()
 void UGeneralSettingWidget_Gamepad_C::OnDefault()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68531);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68116);
 
 	UGeneralSettingWidget_Gamepad_C_OnDefault_Params params;
 
@@ -276,7 +276,7 @@ void UGeneralSettingWidget_Gamepad_C::OnDefault()
 void UGeneralSettingWidget_Gamepad_C::OnReset()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68530);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68115);
 
 	UGeneralSettingWidget_Gamepad_C_OnReset_Params params;
 
@@ -296,7 +296,7 @@ void UGeneralSettingWidget_Gamepad_C::OnReset()
 void UGeneralSettingWidget_Gamepad_C::ExecuteUbergraph_GeneralSettingWidget_Gamepad(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68527);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68112);
 
 	UGeneralSettingWidget_Gamepad_C_ExecuteUbergraph_GeneralSettingWidget_Gamepad_Params params;
 	params.EntryPoint = EntryPoint;

@@ -7,9 +7,9 @@
 #endif
 
 #include "PUBG_Basic.hpp"
+#include "PUBG_CoreUObject_classes.hpp"
 #include "PUBG_InventoryBaseWidget_classes.hpp"
 #include "PUBG_Engine_classes.hpp"
-#include "PUBG_CoreUObject_classes.hpp"
 #include "PUBG_SlateCore_classes.hpp"
 
 namespace Classes

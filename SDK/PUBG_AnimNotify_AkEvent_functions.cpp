@@ -22,7 +22,7 @@ namespace Classes
 bool UAnimNotify_AkEvent_C::Received_Notify(class USkeletalMeshComponent** MeshComp, class UAnimSequenceBase** Animation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(52924);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(52813);
 
 	UAnimNotify_AkEvent_C_Received_Notify_Params params;
 	params.MeshComp = MeshComp;

@@ -20,7 +20,7 @@ namespace Classes
 void UBP_TeamMarkWidget_new_2_C::DecideWidgetColors(bool Condition)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57191);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89621);
 
 	UBP_TeamMarkWidget_new_2_C_DecideWidgetColors_Params params;
 	params.Condition = Condition;
@@ -41,7 +41,7 @@ void UBP_TeamMarkWidget_new_2_C::DecideWidgetColors(bool Condition)
 bool UBP_TeamMarkWidget_new_2_C::IsFreeCam()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57178);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89608);
 
 	UBP_TeamMarkWidget_new_2_C_IsFreeCam_Params params;
 
@@ -63,7 +63,7 @@ bool UBP_TeamMarkWidget_new_2_C::IsFreeCam()
 void UBP_TeamMarkWidget_new_2_C::OnPrepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57158);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89588);
 
 	UBP_TeamMarkWidget_new_2_C_OnPrepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -84,7 +84,7 @@ void UBP_TeamMarkWidget_new_2_C::OnPrepass_1(class UWidget* BoundWidget)
 struct FText UBP_TeamMarkWidget_new_2_C::Get_PlayerName_Text_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57153);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89583);
 
 	UBP_TeamMarkWidget_new_2_C_Get_PlayerName_Text_1_Params params;
 

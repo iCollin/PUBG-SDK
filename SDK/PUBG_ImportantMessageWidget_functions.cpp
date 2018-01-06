@@ -20,7 +20,7 @@ namespace Classes
 void UImportantMessageWidget_C::GetFadeInAnimation(class UWidgetAnimation** Animation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71174);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71230);
 
 	UImportantMessageWidget_C_GetFadeInAnimation_Params params;
 
@@ -43,7 +43,7 @@ void UImportantMessageWidget_C::GetFadeInAnimation(class UWidgetAnimation** Anim
 void UImportantMessageWidget_C::GetFadeOutAnimation(class UWidgetAnimation** Animation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71172);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71228);
 
 	UImportantMessageWidget_C_GetFadeOutAnimation_Params params;
 
@@ -64,7 +64,7 @@ void UImportantMessageWidget_C::GetFadeOutAnimation(class UWidgetAnimation** Ani
 void UImportantMessageWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71171);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71204);
 
 	UImportantMessageWidget_C_Construct_Params params;
 

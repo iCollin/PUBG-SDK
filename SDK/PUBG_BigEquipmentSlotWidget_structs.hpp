@@ -7,8 +7,8 @@
 #endif
 
 #include "PUBG_Basic.hpp"
-#include "PUBG_Engine_classes.hpp"
 #include "PUBG_InventorySlotBaseWidget_classes.hpp"
+#include "PUBG_Engine_classes.hpp"
 #include "PUBG_SlateCore_classes.hpp"
 #include "PUBG_TslGame_classes.hpp"
 #include "PUBG_UMG_classes.hpp"

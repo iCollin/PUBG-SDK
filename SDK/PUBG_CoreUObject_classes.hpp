@@ -62,7 +62,7 @@ public:
 	}
 
 	template<typename T>
-	static T* GetObjectCasted(std::size_t index)
+	static T* GetObjectCasted(int32_t index)
 	{
 		return static_cast<T*>(GetGlobalObjects().GetByIndex(index));
 	}

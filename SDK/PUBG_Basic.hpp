@@ -114,6 +114,12 @@ public:
 		Count = Max = 0;
 	};
 
+	inline TArray(T* data, int32_t number)
+	{
+		Data = data;
+		Count = Max = number;
+	};
+
 	inline int Num() const
 	{
 		return Count;
@@ -298,7 +304,7 @@ struct FString : private TArray<wchar_t>
 
 	FString(const wchar_t* other)
 	{
-		Max = Count = *other ? std::wcslen(other) + 1 : 0;
+		Max = Count = *other ? (int32_t)std::wcslen(other) + 1 : 0;
 
 		if (Count)
 		{

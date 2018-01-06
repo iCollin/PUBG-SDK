@@ -20,7 +20,7 @@ namespace Classes
 void UHudMain_C::OnNotifyUnArmed(bool bIsUnarmed)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81315);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81338);
 
 	UHudMain_C_OnNotifyUnArmed_Params params;
 	params.bIsUnarmed = bIsUnarmed;
@@ -39,7 +39,7 @@ void UHudMain_C::OnNotifyUnArmed(bool bIsUnarmed)
 void UHudMain_C::OnNotifyVehicleLeave()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81314);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81337);
 
 	UHudMain_C_OnNotifyVehicleLeave_Params params;
 
@@ -57,7 +57,7 @@ void UHudMain_C::OnNotifyVehicleLeave()
 void UHudMain_C::OnNotifyVehicleRide()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81313);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81336);
 
 	UHudMain_C_OnNotifyVehicleRide_Params params;
 
@@ -75,7 +75,7 @@ void UHudMain_C::OnNotifyVehicleRide()
 void UHudMain_C::OnNotifyReloaded()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81312);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81335);
 
 	UHudMain_C_OnNotifyReloaded_Params params;
 
@@ -93,7 +93,7 @@ void UHudMain_C::OnNotifyReloaded()
 void UHudMain_C::OnNotifyReloadingNeed()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81311);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81334);
 
 	UHudMain_C_OnNotifyReloadingNeed_Params params;
 
@@ -114,7 +114,7 @@ void UHudMain_C::OnNotifyReloadingNeed()
 bool UHudMain_C::OnInit_Delegate(class ATslBaseHUD** TslBaseHUD)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81297);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81320);
 
 	UHudMain_C_OnInit_Delegate_Params params;
 	params.TslBaseHUD = TslBaseHUD;
@@ -138,7 +138,7 @@ bool UHudMain_C::OnInit_Delegate(class ATslBaseHUD** TslBaseHUD)
 bool UHudMain_C::OnInit_Replay(class ATslBaseHUD** TslBaseHUD)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81294);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81317);
 
 	UHudMain_C_OnInit_Replay_Params params;
 	params.TslBaseHUD = TslBaseHUD;
@@ -162,7 +162,7 @@ bool UHudMain_C::OnInit_Replay(class ATslBaseHUD** TslBaseHUD)
 bool UHudMain_C::OnInit_Input(class ATslBaseHUD** TslBaseHUD)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81282);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81305);
 
 	UHudMain_C_OnInit_Input_Params params;
 	params.TslBaseHUD = TslBaseHUD;
@@ -186,7 +186,7 @@ bool UHudMain_C::OnInit_Input(class ATslBaseHUD** TslBaseHUD)
 bool UHudMain_C::OnInit_Widget(class ATslBaseHUD** TslBaseHUD)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81264);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81287);
 
 	UHudMain_C_OnInit_Widget_Params params;
 	params.TslBaseHUD = TslBaseHUD;
@@ -211,7 +211,7 @@ bool UHudMain_C::OnInit_Widget(class ATslBaseHUD** TslBaseHUD)
 struct FEventReply UHudMain_C::OnMouseMove(struct FGeometry* MyGeometry, struct FPointerEvent* MouseEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81255);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81278);
 
 	UHudMain_C_OnMouseMove_Params params;
 	params.MyGeometry = MyGeometry;
@@ -233,7 +233,7 @@ struct FEventReply UHudMain_C::OnMouseMove(struct FGeometry* MyGeometry, struct 
 void UHudMain_C::SetObserverSpectatingUp()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81254);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81277);
 
 	UHudMain_C_SetObserverSpectatingUp_Params params;
 
@@ -251,7 +251,7 @@ void UHudMain_C::SetObserverSpectatingUp()
 void UHudMain_C::SetObserverSpectatingDown()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81248);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81271);
 
 	UHudMain_C_SetObserverSpectatingDown_Params params;
 
@@ -271,7 +271,7 @@ void UHudMain_C::SetObserverSpectatingDown()
 void UHudMain_C::On_HideOnObserverSpectating_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81238);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81261);
 
 	UHudMain_C_On_HideOnObserverSpectating_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -292,7 +292,7 @@ void UHudMain_C::On_HideOnObserverSpectating_Prepass_1(class UWidget* BoundWidge
 void UHudMain_C::ShouldShowReplayMenu(bool* bShow)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81231);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81254);
 
 	UHudMain_C_ShouldShowReplayMenu_Params params;
 
@@ -315,7 +315,7 @@ void UHudMain_C::ShouldShowReplayMenu(bool* bShow)
 void UHudMain_C::OnPrepass_3(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81219);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81242);
 
 	UHudMain_C_OnPrepass_3_Params params;
 	params.BoundWidget = BoundWidget;
@@ -334,7 +334,7 @@ void UHudMain_C::OnPrepass_3(class UWidget* BoundWidget)
 void UHudMain_C::BindEventForShowReplayTimeline()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81216);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81239);
 
 	UHudMain_C_BindEventForShowReplayTimeline_Params params;
 
@@ -354,7 +354,7 @@ void UHudMain_C::BindEventForShowReplayTimeline()
 void UHudMain_C::ShowReplayTimeLine(bool bShow)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81213);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81236);
 
 	UHudMain_C_ShowReplayTimeLine_Params params;
 	params.bShow = bShow;
@@ -373,7 +373,7 @@ void UHudMain_C::ShowReplayTimeLine(bool bShow)
 void UHudMain_C::SetHUDForIngameReplayMenu()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81208);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81231);
 
 	UHudMain_C_SetHUDForIngameReplayMenu_Params params;
 
@@ -391,7 +391,7 @@ void UHudMain_C::SetHUDForIngameReplayMenu()
 void UHudMain_C::BindEventForMapClosing()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81202);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81225);
 
 	UHudMain_C_BindEventForMapClosing_Params params;
 
@@ -409,7 +409,7 @@ void UHudMain_C::BindEventForMapClosing()
 void UHudMain_C::OnKey_ReplayMenuOrEscape()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81195);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81218);
 
 	UHudMain_C_OnKey_ReplayMenuOrEscape_Params params;
 
@@ -427,7 +427,7 @@ void UHudMain_C::OnKey_ReplayMenuOrEscape()
 void UHudMain_C::InitForReplay()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81192);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81215);
 
 	UHudMain_C_InitForReplay_Params params;
 
@@ -445,7 +445,7 @@ void UHudMain_C::InitForReplay()
 void UHudMain_C::OnToggleOption()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81183);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81206);
 
 	UHudMain_C_OnToggleOption_Params params;
 
@@ -465,7 +465,7 @@ void UHudMain_C::OnToggleOption()
 void UHudMain_C::On_Name_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81174);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81197);
 
 	UHudMain_C_On_Name_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -484,7 +484,7 @@ void UHudMain_C::On_Name_Prepass_1(class UWidget* BoundWidget)
 void UHudMain_C::UpdateReplayTimeline()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81165);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81188);
 
 	UHudMain_C_UpdateReplayTimeline_Params params;
 
@@ -502,7 +502,7 @@ void UHudMain_C::UpdateReplayTimeline()
 void UHudMain_C::OnToggleBattleList()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81149);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81172);
 
 	UHudMain_C_OnToggleBattleList_Params params;
 
@@ -520,7 +520,7 @@ void UHudMain_C::OnToggleBattleList()
 void UHudMain_C::OnMapHide()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81147);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81170);
 
 	UHudMain_C_OnMapHide_Params params;
 
@@ -538,7 +538,7 @@ void UHudMain_C::OnMapHide()
 void UHudMain_C::OnMapShow()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81138);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81161);
 
 	UHudMain_C_OnMapShow_Params params;
 
@@ -556,7 +556,7 @@ void UHudMain_C::OnMapShow()
 void UHudMain_C::OnKey_MapReleased()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81130);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81153);
 
 	UHudMain_C_OnKey_MapReleased_Params params;
 
@@ -574,7 +574,7 @@ void UHudMain_C::OnKey_MapReleased()
 void UHudMain_C::OnKey_MapPressed()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81122);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81145);
 
 	UHudMain_C_OnKey_MapPressed_Params params;
 
@@ -592,7 +592,7 @@ void UHudMain_C::OnKey_MapPressed()
 void UHudMain_C::OnShowCarePackageItemList()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81121);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81144);
 
 	UHudMain_C_OnShowCarePackageItemList_Params params;
 
@@ -613,7 +613,7 @@ void UHudMain_C::OnShowCarePackageItemList()
 void UHudMain_C::GetMiniMapType(int Index, class UClass** MiniMapype)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81115);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81138);
 
 	UHudMain_C_GetMiniMapType_Params params;
 	params.Index = Index;
@@ -637,7 +637,7 @@ void UHudMain_C::GetMiniMapType(int Index, class UClass** MiniMapype)
 void UHudMain_C::On_BlueZoneGpsWidget_RoundType_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81113);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81136);
 
 	UHudMain_C_On_BlueZoneGpsWidget_RoundType_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -658,7 +658,7 @@ void UHudMain_C::On_BlueZoneGpsWidget_RoundType_Prepass_1(class UWidget* BoundWi
 void UHudMain_C::IsShowMapOrInventory(bool* bIsShow)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81105);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81128);
 
 	UHudMain_C_IsShowMapOrInventory_Params params;
 
@@ -681,7 +681,7 @@ void UHudMain_C::IsShowMapOrInventory(bool* bIsShow)
 struct FText UHudMain_C::Get_Spectating_Text_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81096);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81119);
 
 	UHudMain_C_Get_Spectating_Text_1_Params params;
 
@@ -703,7 +703,7 @@ struct FText UHudMain_C::Get_Spectating_Text_1()
 void UHudMain_C::OnPrepass_2(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81081);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81104);
 
 	UHudMain_C_OnPrepass_2_Params params;
 	params.BoundWidget = BoundWidget;
@@ -724,7 +724,7 @@ void UHudMain_C::OnPrepass_2(class UWidget* BoundWidget)
 void UHudMain_C::On_CharacterCanvas_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81064);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81087);
 
 	UHudMain_C_On_CharacterCanvas_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -743,7 +743,7 @@ void UHudMain_C::On_CharacterCanvas_Prepass_1(class UWidget* BoundWidget)
 void UHudMain_C::OnTogglePlayerList()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81048);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81071);
 
 	UHudMain_C_OnTogglePlayerList_Params params;
 
@@ -763,7 +763,7 @@ void UHudMain_C::OnTogglePlayerList()
 struct FText UHudMain_C::Get_KeyInfo_Text_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81028);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81051);
 
 	UHudMain_C_Get_KeyInfo_Text_1_Params params;
 
@@ -785,7 +785,7 @@ struct FText UHudMain_C::Get_KeyInfo_Text_1()
 void UHudMain_C::On_SpectatingKeyInfo_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81014);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81037);
 
 	UHudMain_C_On_SpectatingKeyInfo_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -806,7 +806,7 @@ void UHudMain_C::On_SpectatingKeyInfo_Prepass_1(class UWidget* BoundWidget)
 void UHudMain_C::IsCharacterAlive(bool* IsAlive)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81008);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81031);
 
 	UHudMain_C_IsCharacterAlive_Params params;
 
@@ -829,7 +829,7 @@ void UHudMain_C::IsCharacterAlive(bool* IsAlive)
 void UHudMain_C::On_InventoryShowHiddenCanvas_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80993);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81016);
 
 	UHudMain_C_On_InventoryShowHiddenCanvas_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -850,7 +850,7 @@ void UHudMain_C::On_InventoryShowHiddenCanvas_Prepass_1(class UWidget* BoundWidg
 struct FText UHudMain_C::Get_TextBlock_1_Text_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80984);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(81007);
 
 	UHudMain_C_Get_TextBlock_1_Text_1_Params params;
 
@@ -872,7 +872,7 @@ struct FText UHudMain_C::Get_TextBlock_1_Text_1()
 void UHudMain_C::On_OnlySpectating_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80971);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80994);
 
 	UHudMain_C_On_OnlySpectating_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -893,7 +893,7 @@ void UHudMain_C::On_OnlySpectating_Prepass_1(class UWidget* BoundWidget)
 void UHudMain_C::OnPrepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80958);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80981);
 
 	UHudMain_C_OnPrepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -914,7 +914,7 @@ void UHudMain_C::OnPrepass_1(class UWidget* BoundWidget)
 void UHudMain_C::OnPrepass_VisibilityOnMatchState(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80954);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80977);
 
 	UHudMain_C_OnPrepass_VisibilityOnMatchState_Params params;
 	params.BoundWidget = BoundWidget;
@@ -935,7 +935,7 @@ void UHudMain_C::OnPrepass_VisibilityOnMatchState(class UWidget* BoundWidget)
 void UHudMain_C::On_BaseCanvas_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80952);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80975);
 
 	UHudMain_C_On_BaseCanvas_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -956,7 +956,7 @@ void UHudMain_C::On_BaseCanvas_Prepass_1(class UWidget* BoundWidget)
 float UHudMain_C::GetBoostRatio()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80945);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80968);
 
 	UHudMain_C_GetBoostRatio_Params params;
 
@@ -979,7 +979,7 @@ float UHudMain_C::GetBoostRatio()
 void UHudMain_C::OnNitifyHit(float DamagePercent, EDamageTypeCategory DamageTypeCategory)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80941);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80964);
 
 	UHudMain_C_OnNitifyHit_Params params;
 	params.DamagePercent = DamagePercent;
@@ -1001,7 +1001,7 @@ void UHudMain_C::OnNitifyHit(float DamagePercent, EDamageTypeCategory DamageType
 ESlateVisibility UHudMain_C::Get_ParachuteText_Visibility_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80925);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80948);
 
 	UHudMain_C_Get_ParachuteText_Visibility_1_Params params;
 
@@ -1023,7 +1023,7 @@ ESlateVisibility UHudMain_C::Get_ParachuteText_Visibility_1()
 ESlateVisibility UHudMain_C::Get_VisibilityOnMatchState()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80918);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80941);
 
 	UHudMain_C_Get_VisibilityOnMatchState_Params params;
 
@@ -1046,7 +1046,7 @@ ESlateVisibility UHudMain_C::Get_VisibilityOnMatchState()
 void UHudMain_C::OnDisplaySystemMessage(ESystemMessageType MessageType, const struct FText& Message)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80902);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80925);
 
 	UHudMain_C_OnDisplaySystemMessage_Params params;
 	params.MessageType = MessageType;
@@ -1068,7 +1068,7 @@ void UHudMain_C::OnDisplaySystemMessage(ESystemMessageType MessageType, const st
 void UHudMain_C::OnDisplayKilledMessage(const struct FDeathMessage& DeathMessage)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80882);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80905);
 
 	UHudMain_C_OnDisplayKilledMessage_Params params;
 	params.DeathMessage = DeathMessage;
@@ -1089,7 +1089,7 @@ void UHudMain_C::OnDisplayKilledMessage(const struct FDeathMessage& DeathMessage
 void UHudMain_C::OnButtonClick(const struct FString& ButotnName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80880);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80903);
 
 	UHudMain_C_OnButtonClick_Params params;
 	params.ButotnName = ButotnName;
@@ -1110,7 +1110,7 @@ void UHudMain_C::OnButtonClick(const struct FString& ButotnName)
 struct FLinearColor UHudMain_C::Get_HealthBar_FillColorAndOpacity_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80874);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80897);
 
 	UHudMain_C_Get_HealthBar_FillColorAndOpacity_1_Params params;
 
@@ -1130,7 +1130,7 @@ struct FLinearColor UHudMain_C::Get_HealthBar_FillColorAndOpacity_1()
 void UHudMain_C::OnKey_SystemMenuOrEscape()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80867);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80890);
 
 	UHudMain_C_OnKey_SystemMenuOrEscape_Params params;
 
@@ -1150,7 +1150,7 @@ void UHudMain_C::OnKey_SystemMenuOrEscape()
 float UHudMain_C::Get_Vehicle_Health_Ratio()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80855);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80878);
 
 	UHudMain_C_Get_Vehicle_Health_Ratio_Params params;
 
@@ -1172,7 +1172,7 @@ float UHudMain_C::Get_Vehicle_Health_Ratio()
 struct FLinearColor UHudMain_C::GetFillColorAndOpacity_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80853);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80876);
 
 	UHudMain_C_GetFillColorAndOpacity_1_Params params;
 
@@ -1194,7 +1194,7 @@ struct FLinearColor UHudMain_C::GetFillColorAndOpacity_1()
 struct FText UHudMain_C::Get_DebugInformation_Text_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80845);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80868);
 
 	UHudMain_C_Get_DebugInformation_Text_1_Params params;
 
@@ -1214,7 +1214,7 @@ struct FText UHudMain_C::Get_DebugInformation_Text_1()
 void UHudMain_C::OnToggleMap()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80835);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80858);
 
 	UHudMain_C_OnToggleMap_Params params;
 
@@ -1234,7 +1234,7 @@ void UHudMain_C::OnToggleMap()
 struct FText UHudMain_C::Get_PlayerCoordinate_Text_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80827);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80850);
 
 	UHudMain_C_Get_PlayerCoordinate_Text_1_Params params;
 
@@ -1256,7 +1256,7 @@ struct FText UHudMain_C::Get_PlayerCoordinate_Text_1()
 struct FText UHudMain_C::Get_NumPlayersLeft_Text_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80821);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80844);
 
 	UHudMain_C_Get_NumPlayersLeft_Text_1_Params params;
 
@@ -1278,7 +1278,7 @@ struct FText UHudMain_C::Get_NumPlayersLeft_Text_1()
 struct FText UHudMain_C::Get_Health_Text_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80813);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80836);
 
 	UHudMain_C_Get_Health_Text_1_Params params;
 
@@ -1300,7 +1300,7 @@ struct FText UHudMain_C::Get_Health_Text_1()
 struct FText UHudMain_C::Get_HealthMax_Text_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80805);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80828);
 
 	UHudMain_C_Get_HealthMax_Text_1_Params params;
 
@@ -1322,7 +1322,7 @@ struct FText UHudMain_C::Get_HealthMax_Text_1()
 float UHudMain_C::GetHpRatio()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80798);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80821);
 
 	UHudMain_C_GetHpRatio_Params params;
 
@@ -1342,7 +1342,7 @@ float UHudMain_C::GetHpRatio()
 void UHudMain_C::OnPossessPawnChange()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80797);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80820);
 
 	UHudMain_C_OnPossessPawnChange_Params params;
 
@@ -1360,7 +1360,7 @@ void UHudMain_C::OnPossessPawnChange()
 void UHudMain_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80796);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80819);
 
 	UHudMain_C_Construct_Params params;
 
@@ -1381,7 +1381,7 @@ void UHudMain_C::Construct()
 void UHudMain_C::OnShowWidget(const struct FString& WidgetName, bool bShow)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80793);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80816);
 
 	UHudMain_C_OnShowWidget_Params params;
 	params.WidgetName = WidgetName;
@@ -1401,7 +1401,7 @@ void UHudMain_C::OnShowWidget(const struct FString& WidgetName, bool bShow)
 void UHudMain_C::HideMapForReplay()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80792);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80815);
 
 	UHudMain_C_HideMapForReplay_Params params;
 
@@ -1419,7 +1419,7 @@ void UHudMain_C::HideMapForReplay()
 void UHudMain_C::CheckReplayTimer()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80791);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80814);
 
 	UHudMain_C_CheckReplayTimer_Params params;
 
@@ -1437,7 +1437,7 @@ void UHudMain_C::CheckReplayTimer()
 void UHudMain_C::CreateCheckReplayTimer()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80790);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80813);
 
 	UHudMain_C_CreateCheckReplayTimer_Params params;
 
@@ -1457,7 +1457,7 @@ void UHudMain_C::CreateCheckReplayTimer()
 void UHudMain_C::ExecuteUbergraph_HudMain(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80751);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80774);
 
 	UHudMain_C_ExecuteUbergraph_HudMain_Params params;
 	params.EntryPoint = EntryPoint;
@@ -1476,7 +1476,7 @@ void UHudMain_C::ExecuteUbergraph_HudMain(int EntryPoint)
 void UHudMain_C::ButtonClickedDispatcher__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80750);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80773);
 
 	UHudMain_C_ButtonClickedDispatcher__DelegateSignature_Params params;
 

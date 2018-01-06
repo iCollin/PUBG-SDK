@@ -18,7 +18,7 @@ namespace Classes
 void UNewSystemMessageWidget_C::PlayFadeIn()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54263);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71233);
 
 	UNewSystemMessageWidget_C_PlayFadeIn_Params params;
 
@@ -39,7 +39,7 @@ void UNewSystemMessageWidget_C::PlayFadeIn()
 void UNewSystemMessageWidget_C::StartFadeIn(class UWidgetAnimation* Animation, float Time)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54253);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71215);
 
 	UNewSystemMessageWidget_C_StartFadeIn_Params params;
 	params.Animation = Animation;
@@ -61,7 +61,7 @@ void UNewSystemMessageWidget_C::StartFadeIn(class UWidgetAnimation* Animation, f
 void UNewSystemMessageWidget_C::GetFadeOutAnimation(class UWidgetAnimation** Animation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54251);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71213);
 
 	UNewSystemMessageWidget_C_GetFadeOutAnimation_Params params;
 
@@ -84,7 +84,7 @@ void UNewSystemMessageWidget_C::GetFadeOutAnimation(class UWidgetAnimation** Ani
 void UNewSystemMessageWidget_C::GetFadeInAnimation(class UWidgetAnimation** Animation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54249);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71211);
 
 	UNewSystemMessageWidget_C_GetFadeInAnimation_Params params;
 
@@ -107,7 +107,7 @@ void UNewSystemMessageWidget_C::GetFadeInAnimation(class UWidgetAnimation** Anim
 void UNewSystemMessageWidget_C::SetTextSize(class UTextBlock* TextBlock)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54246);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71208);
 
 	UNewSystemMessageWidget_C_SetTextSize_Params params;
 	params.TextBlock = TextBlock;
@@ -126,7 +126,7 @@ void UNewSystemMessageWidget_C::SetTextSize(class UTextBlock* TextBlock)
 void UNewSystemMessageWidget_C::StartFadeOut()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54242);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71202);
 
 	UNewSystemMessageWidget_C_StartFadeOut_Params params;
 
@@ -144,7 +144,7 @@ void UNewSystemMessageWidget_C::StartFadeOut()
 void UNewSystemMessageWidget_C::OnFadeOutFinished()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54241);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71201);
 
 	UNewSystemMessageWidget_C_OnFadeOutFinished_Params params;
 
@@ -162,7 +162,7 @@ void UNewSystemMessageWidget_C::OnFadeOutFinished()
 void UNewSystemMessageWidget_C::OnFadeInFinished()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54239);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71199);
 
 	UNewSystemMessageWidget_C_OnFadeInFinished_Params params;
 
@@ -180,7 +180,7 @@ void UNewSystemMessageWidget_C::OnFadeInFinished()
 void UNewSystemMessageWidget_C::InitializeMessage()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54230);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71190);
 
 	UNewSystemMessageWidget_C_InitializeMessage_Params params;
 
@@ -198,7 +198,7 @@ void UNewSystemMessageWidget_C::InitializeMessage()
 void UNewSystemMessageWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54229);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71189);
 
 	UNewSystemMessageWidget_C_Construct_Params params;
 
@@ -218,7 +218,7 @@ void UNewSystemMessageWidget_C::Construct()
 void UNewSystemMessageWidget_C::ExecuteUbergraph_NewSystemMessageWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54227);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71187);
 
 	UNewSystemMessageWidget_C_ExecuteUbergraph_NewSystemMessageWidget_Params params;
 	params.EntryPoint = EntryPoint;
@@ -239,7 +239,7 @@ void UNewSystemMessageWidget_C::ExecuteUbergraph_NewSystemMessageWidget(int Entr
 void UNewSystemMessageWidget_C::EndMessage__DelegateSignature(class UNewSystemMessageWidget_C* SystemMessage)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54225);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71185);
 
 	UNewSystemMessageWidget_C_EndMessage__DelegateSignature_Params params;
 	params.SystemMessage = SystemMessage;

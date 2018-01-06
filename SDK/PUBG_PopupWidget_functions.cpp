@@ -20,7 +20,7 @@ namespace Classes
 void UPopupWidget_C::OnGamepadButtonVisibilityPrepass(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73389);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73419);
 
 	UPopupWidget_C_OnGamepadButtonVisibilityPrepass_Params params;
 	params.BoundWidget = BoundWidget;
@@ -43,7 +43,7 @@ void UPopupWidget_C::OnGamepadButtonVisibilityPrepass(class UWidget* BoundWidget
 void UPopupWidget_C::SetPopup(EPopupStyle PopupStyle, const struct FText& Message, const struct FScriptDelegate& PressedDelegate)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73384);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73414);
 
 	UPopupWidget_C_SetPopup_Params params;
 	params.PopupStyle = PopupStyle;
@@ -64,7 +64,7 @@ void UPopupWidget_C::SetPopup(EPopupStyle PopupStyle, const struct FText& Messag
 void UPopupWidget_C::BndEvt__ButtonOK_K2Node_ComponentBoundEvent_85_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73383);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73413);
 
 	UPopupWidget_C_BndEvt__ButtonOK_K2Node_ComponentBoundEvent_85_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -82,7 +82,7 @@ void UPopupWidget_C::BndEvt__ButtonOK_K2Node_ComponentBoundEvent_85_OnButtonClic
 void UPopupWidget_C::BndEvt__ButtonCancel_K2Node_ComponentBoundEvent_107_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73382);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73412);
 
 	UPopupWidget_C_BndEvt__ButtonCancel_K2Node_ComponentBoundEvent_107_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -100,7 +100,7 @@ void UPopupWidget_C::BndEvt__ButtonCancel_K2Node_ComponentBoundEvent_107_OnButto
 void UPopupWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73381);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73411);
 
 	UPopupWidget_C_Construct_Params params;
 
@@ -118,7 +118,7 @@ void UPopupWidget_C::Construct()
 void UPopupWidget_C::Custom_Event_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73380);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73410);
 
 	UPopupWidget_C_Custom_Event_1_Params params;
 
@@ -136,7 +136,7 @@ void UPopupWidget_C::Custom_Event_1()
 void UPopupWidget_C::Destruct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73379);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73409);
 
 	UPopupWidget_C_Destruct_Params params;
 
@@ -154,7 +154,7 @@ void UPopupWidget_C::Destruct()
 void UPopupWidget_C::XBoxOneOk()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73378);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73408);
 
 	UPopupWidget_C_XBoxOneOk_Params params;
 
@@ -172,7 +172,7 @@ void UPopupWidget_C::XBoxOneOk()
 void UPopupWidget_C::Custom_Event_2()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73377);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73407);
 
 	UPopupWidget_C_Custom_Event_2_Params params;
 
@@ -190,7 +190,7 @@ void UPopupWidget_C::Custom_Event_2()
 void UPopupWidget_C::XBoxOneCancel()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73376);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73406);
 
 	UPopupWidget_C_XBoxOneCancel_Params params;
 
@@ -210,7 +210,7 @@ void UPopupWidget_C::XBoxOneCancel()
 void UPopupWidget_C::ExecuteUbergraph_PopupWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73362);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73392);
 
 	UPopupWidget_C_ExecuteUbergraph_PopupWidget_Params params;
 	params.EntryPoint = EntryPoint;
@@ -231,7 +231,7 @@ void UPopupWidget_C::ExecuteUbergraph_PopupWidget(int EntryPoint)
 void UPopupWidget_C::ButtonClickDispatcher__DelegateSignature(EPopupButtonID NewParam)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73359);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73389);
 
 	UPopupWidget_C_ButtonClickDispatcher__DelegateSignature_Params params;
 	params.NewParam = NewParam;

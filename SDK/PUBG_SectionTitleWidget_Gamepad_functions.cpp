@@ -20,7 +20,7 @@ namespace Classes
 void USectionTitleWidget_Gamepad_C::OnPrepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60907);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60819);
 
 	USectionTitleWidget_Gamepad_C_OnPrepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -41,7 +41,7 @@ void USectionTitleWidget_Gamepad_C::OnPrepass_1(class UWidget* BoundWidget)
 void USectionTitleWidget_Gamepad_C::SetSubFocus(bool bSubFocus)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60905);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60817);
 
 	USectionTitleWidget_Gamepad_C_SetSubFocus_Params params;
 	params.bSubFocus = bSubFocus;
@@ -62,7 +62,7 @@ void USectionTitleWidget_Gamepad_C::SetSubFocus(bool bSubFocus)
 void USectionTitleWidget_Gamepad_C::SetFocus(bool bFocus)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60903);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60815);
 
 	USectionTitleWidget_Gamepad_C_SetFocus_Params params;
 	params.bFocus = bFocus;
@@ -83,7 +83,7 @@ void USectionTitleWidget_Gamepad_C::SetFocus(bool bFocus)
 void USectionTitleWidget_Gamepad_C::GetFocusMaterial(class UMaterialInstanceDynamic** FocusMaterial)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60899);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60811);
 
 	USectionTitleWidget_Gamepad_C_GetFocusMaterial_Params params;
 
@@ -104,7 +104,7 @@ void USectionTitleWidget_Gamepad_C::GetFocusMaterial(class UMaterialInstanceDyna
 void USectionTitleWidget_Gamepad_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60898);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60810);
 
 	USectionTitleWidget_Gamepad_C_Construct_Params params;
 
@@ -125,7 +125,7 @@ void USectionTitleWidget_Gamepad_C::Construct()
 void USectionTitleWidget_Gamepad_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60895);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60807);
 
 	USectionTitleWidget_Gamepad_C_Tick_Params params;
 	params.MyGeometry = MyGeometry;
@@ -147,7 +147,7 @@ void USectionTitleWidget_Gamepad_C::Tick(struct FGeometry* MyGeometry, float* In
 void USectionTitleWidget_Gamepad_C::ExecuteUbergraph_SectionTitleWidget_Gamepad(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60891);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60803);
 
 	USectionTitleWidget_Gamepad_C_ExecuteUbergraph_SectionTitleWidget_Gamepad_Params params;
 	params.EntryPoint = EntryPoint;
