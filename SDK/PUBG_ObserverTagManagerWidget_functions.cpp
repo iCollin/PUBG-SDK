@@ -18,7 +18,7 @@ namespace Classes
 void UObserverTagManagerWidget_C::CustomTick()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73591);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73833);
 
 	UObserverTagManagerWidget_C_CustomTick_Params params;
 
@@ -36,7 +36,7 @@ void UObserverTagManagerWidget_C::CustomTick()
 void UObserverTagManagerWidget_C::TimerCheckUpdateList()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73590);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73832);
 
 	UObserverTagManagerWidget_C_TimerCheckUpdateList_Params params;
 
@@ -54,7 +54,7 @@ void UObserverTagManagerWidget_C::TimerCheckUpdateList()
 void UObserverTagManagerWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73589);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73831);
 
 	UObserverTagManagerWidget_C_Construct_Params params;
 
@@ -74,7 +74,7 @@ void UObserverTagManagerWidget_C::Construct()
 void UObserverTagManagerWidget_C::ExecuteUbergraph_ObserverTagManagerWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73585);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73827);
 
 	UObserverTagManagerWidget_C_ExecuteUbergraph_ObserverTagManagerWidget_Params params;
 	params.EntryPoint = EntryPoint;

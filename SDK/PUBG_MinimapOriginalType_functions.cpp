@@ -20,7 +20,7 @@ namespace Classes
 void UMinimapOriginalType_C::OnPrepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74994);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74189);
 
 	UMinimapOriginalType_C_OnPrepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -41,7 +41,7 @@ void UMinimapOriginalType_C::OnPrepass_1(class UWidget* BoundWidget)
 void UMinimapOriginalType_C::OnPrepassMain(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74981);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74176);
 
 	UMinimapOriginalType_C_OnPrepassMain_Params params;
 	params.BoundWidget = BoundWidget;

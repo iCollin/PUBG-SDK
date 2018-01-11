@@ -117,13 +117,14 @@ public:
 
 
 // Class CustomizableObject.CustomizableObjectSystem
-// 0x0030 (0x0058 - 0x0028)
+// 0x0040 (0x0068 - 0x0028)
 class UCustomizableObjectSystem : public UObject
 {
 public:
 	unsigned char                                      UnknownData00[0x10];                                      // 0x0028(0x0010) MISSED OFFSET
 	TArray<class UTexture2D*>                          ProtectedCachedTextures;                                  // 0x0038(0x0010) (ZeroConstructor)
 	TArray<struct FPendingReleaseSkeletalMeshInfo>     PendingReleaseSkeletalMesh;                               // 0x0048(0x0010) (ZeroConstructor)
+	unsigned char                                      UnknownData01[0x10];                                      // 0x0058(0x0010) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{

@@ -15,7 +15,7 @@ namespace Classes
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass WeapVSS.WeapVSS_C
-// 0x0000 (0x0D78 - 0x0D78)
+// 0x0000 (0x0D60 - 0x0D60)
 class AWeapVSS_C : public ADefaultRifleSetting_C
 {
 public:

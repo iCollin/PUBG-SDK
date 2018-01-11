@@ -20,7 +20,7 @@ namespace Classes
 void UBP_ObserverPlayerInfoWidget_C::On_TeamNumberText_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79884);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79113);
 
 	UBP_ObserverPlayerInfoWidget_C_On_TeamNumberText_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;

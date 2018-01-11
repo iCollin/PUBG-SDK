@@ -14,6 +14,20 @@ namespace Classes
 //Parameters
 //---------------------------------------------------------------------------
 
+// Function SoundSettingWidget.SoundSettingWidget_C.GetGamePadHelpWidgetClass
+struct USoundSettingWidget_C_GetGamePadHelpWidgetClass_Params
+{
+	class UClass*                                      GuideClass;                                               // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function SoundSettingWidget.SoundSettingWidget_C.OnFocusReceived
+struct USoundSettingWidget_C_OnFocusReceived_Params
+{
+	struct FGeometry*                                  MyGeometry;                                               // (Parm, IsPlainOldData)
+	struct FFocusEvent*                                InFocusEvent;                                             // (Parm)
+	struct FEventReply                                 ReturnValue;                                              // (Parm, OutParm, ReturnParm)
+};
+
 // Function SoundSettingWidget.SoundSettingWidget_C.IsChanged
 struct USoundSettingWidget_C_IsChanged_Params
 {

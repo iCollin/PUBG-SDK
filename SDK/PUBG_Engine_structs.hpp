@@ -2845,6 +2845,16 @@ enum class EGraphType : uint8_t
 };
 
 
+// Enum Engine.EBackgroundTask
+enum class EBackgroundTask : uint8_t
+{
+	BT_ShaderCompile               = 0,
+	BT_RenderGrassMap              = 1,
+	BT_BuildLighting               = 2,
+	BT_MAX                         = 3
+};
+
+
 // Enum Engine.EConsoleType
 enum class EConsoleType : uint8_t
 {
@@ -3241,10 +3251,11 @@ enum class EMaterialExposedViewProperty : uint8_t
 enum class EWorldPositionIncludedOffsets : uint8_t
 {
 	WPT_Default                    = 0,
-	WPT_ExcludeAllShaderOffsets    = 1,
-	WPT_CameraRelative             = 2,
-	WPT_CameraRelativeNoOffsets    = 3,
-	WPT_MAX                        = 4
+	WPT_Full                       = 1,
+	WPT_ExcludeAllShaderOffsets    = 2,
+	WPT_CameraRelative             = 3,
+	WPT_CameraRelativeNoOffsets    = 4,
+	WPT_MAX                        = 5
 };
 
 

@@ -20,7 +20,7 @@ namespace Classes
 void UBP_TeamInfoWidget_new_test_C::On_TeamMateInfoArea_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55499);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55479);
 
 	UBP_TeamInfoWidget_new_test_C_On_TeamMateInfoArea_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;

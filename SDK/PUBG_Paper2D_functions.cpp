@@ -21,7 +21,7 @@ namespace Classes
 bool UPaperFlipbook::IsValidKeyFrameIndex(int Index)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38872);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38994);
 
 	UPaperFlipbook_IsValidKeyFrameIndex_Params params;
 	params.Index = Index;
@@ -45,7 +45,7 @@ bool UPaperFlipbook::IsValidKeyFrameIndex(int Index)
 float UPaperFlipbook::GetTotalDuration()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38870);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38992);
 
 	UPaperFlipbook_GetTotalDuration_Params params;
 
@@ -70,7 +70,7 @@ float UPaperFlipbook::GetTotalDuration()
 class UPaperSprite* UPaperFlipbook::GetSpriteAtTime(float Time, bool bClampToEnds)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38866);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38988);
 
 	UPaperFlipbook_GetSpriteAtTime_Params params;
 	params.Time = Time;
@@ -96,7 +96,7 @@ class UPaperSprite* UPaperFlipbook::GetSpriteAtTime(float Time, bool bClampToEnd
 class UPaperSprite* UPaperFlipbook::GetSpriteAtFrame(int FrameIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38863);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38985);
 
 	UPaperFlipbook_GetSpriteAtFrame_Params params;
 	params.FrameIndex = FrameIndex;
@@ -120,7 +120,7 @@ class UPaperSprite* UPaperFlipbook::GetSpriteAtFrame(int FrameIndex)
 int UPaperFlipbook::GetNumKeyFrames()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38861);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38983);
 
 	UPaperFlipbook_GetNumKeyFrames_Params params;
 
@@ -143,7 +143,7 @@ int UPaperFlipbook::GetNumKeyFrames()
 int UPaperFlipbook::GetNumFrames()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38859);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38981);
 
 	UPaperFlipbook_GetNumFrames_Params params;
 
@@ -168,7 +168,7 @@ int UPaperFlipbook::GetNumFrames()
 int UPaperFlipbook::GetKeyFrameIndexAtTime(float Time, bool bClampToEnds)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38855);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38977);
 
 	UPaperFlipbook_GetKeyFrameIndexAtTime_Params params;
 	params.Time = Time;
@@ -191,7 +191,7 @@ int UPaperFlipbook::GetKeyFrameIndexAtTime(float Time, bool bClampToEnds)
 void UPaperFlipbookComponent::Stop()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38926);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39048);
 
 	UPaperFlipbookComponent_Stop_Params params;
 
@@ -212,7 +212,7 @@ void UPaperFlipbookComponent::Stop()
 void UPaperFlipbookComponent::SetSpriteColor(const struct FLinearColor& NewColor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38924);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39046);
 
 	UPaperFlipbookComponent_SetSpriteColor_Params params;
 	params.NewColor = NewColor;
@@ -234,7 +234,7 @@ void UPaperFlipbookComponent::SetSpriteColor(const struct FLinearColor& NewColor
 void UPaperFlipbookComponent::SetPlayRate(float NewRate)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38922);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39044);
 
 	UPaperFlipbookComponent_SetPlayRate_Params params;
 	params.NewRate = NewRate;
@@ -257,7 +257,7 @@ void UPaperFlipbookComponent::SetPlayRate(float NewRate)
 void UPaperFlipbookComponent::SetPlaybackPositionInFrames(int NewFramePosition, bool bFireEvents)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38919);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39041);
 
 	UPaperFlipbookComponent_SetPlaybackPositionInFrames_Params params;
 	params.NewFramePosition = NewFramePosition;
@@ -281,7 +281,7 @@ void UPaperFlipbookComponent::SetPlaybackPositionInFrames(int NewFramePosition, 
 void UPaperFlipbookComponent::SetPlaybackPosition(float NewPosition, bool bFireEvents)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38916);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39038);
 
 	UPaperFlipbookComponent_SetPlaybackPosition_Params params;
 	params.NewPosition = NewPosition;
@@ -304,7 +304,7 @@ void UPaperFlipbookComponent::SetPlaybackPosition(float NewPosition, bool bFireE
 void UPaperFlipbookComponent::SetNewTime(float NewTime)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38914);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39036);
 
 	UPaperFlipbookComponent_SetNewTime_Params params;
 	params.NewTime = NewTime;
@@ -326,7 +326,7 @@ void UPaperFlipbookComponent::SetNewTime(float NewTime)
 void UPaperFlipbookComponent::SetLooping(bool bNewLooping)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38912);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39034);
 
 	UPaperFlipbookComponent_SetLooping_Params params;
 	params.bNewLooping = bNewLooping;
@@ -349,7 +349,7 @@ void UPaperFlipbookComponent::SetLooping(bool bNewLooping)
 bool UPaperFlipbookComponent::SetFlipbook(class UPaperFlipbook* NewFlipbook)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38909);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39031);
 
 	UPaperFlipbookComponent_SetFlipbook_Params params;
 	params.NewFlipbook = NewFlipbook;
@@ -371,7 +371,7 @@ bool UPaperFlipbookComponent::SetFlipbook(class UPaperFlipbook* NewFlipbook)
 void UPaperFlipbookComponent::ReverseFromEnd()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38908);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39030);
 
 	UPaperFlipbookComponent_ReverseFromEnd_Params params;
 
@@ -390,7 +390,7 @@ void UPaperFlipbookComponent::ReverseFromEnd()
 void UPaperFlipbookComponent::Reverse()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38907);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39029);
 
 	UPaperFlipbookComponent_Reverse_Params params;
 
@@ -409,7 +409,7 @@ void UPaperFlipbookComponent::Reverse()
 void UPaperFlipbookComponent::PlayFromStart()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38906);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39028);
 
 	UPaperFlipbookComponent_PlayFromStart_Params params;
 
@@ -428,7 +428,7 @@ void UPaperFlipbookComponent::PlayFromStart()
 void UPaperFlipbookComponent::Play()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38905);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39027);
 
 	UPaperFlipbookComponent_Play_Params params;
 
@@ -449,7 +449,7 @@ void UPaperFlipbookComponent::Play()
 void UPaperFlipbookComponent::OnRep_SourceFlipbook(class UPaperFlipbook* OldFlipbook)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38903);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39025);
 
 	UPaperFlipbookComponent_OnRep_SourceFlipbook_Params params;
 	params.OldFlipbook = OldFlipbook;
@@ -471,7 +471,7 @@ void UPaperFlipbookComponent::OnRep_SourceFlipbook(class UPaperFlipbook* OldFlip
 bool UPaperFlipbookComponent::IsReversing()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38901);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39023);
 
 	UPaperFlipbookComponent_IsReversing_Params params;
 
@@ -494,7 +494,7 @@ bool UPaperFlipbookComponent::IsReversing()
 bool UPaperFlipbookComponent::IsPlaying()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38899);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39021);
 
 	UPaperFlipbookComponent_IsPlaying_Params params;
 
@@ -517,7 +517,7 @@ bool UPaperFlipbookComponent::IsPlaying()
 bool UPaperFlipbookComponent::IsLooping()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38897);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39019);
 
 	UPaperFlipbookComponent_IsLooping_Params params;
 
@@ -540,7 +540,7 @@ bool UPaperFlipbookComponent::IsLooping()
 class UMaterialInterface* UPaperFlipbookComponent::GetSpriteMaterial()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38895);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39017);
 
 	UPaperFlipbookComponent_GetSpriteMaterial_Params params;
 
@@ -563,7 +563,7 @@ class UMaterialInterface* UPaperFlipbookComponent::GetSpriteMaterial()
 float UPaperFlipbookComponent::GetPlayRate()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38893);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39015);
 
 	UPaperFlipbookComponent_GetPlayRate_Params params;
 
@@ -586,7 +586,7 @@ float UPaperFlipbookComponent::GetPlayRate()
 int UPaperFlipbookComponent::GetPlaybackPositionInFrames()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38891);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39013);
 
 	UPaperFlipbookComponent_GetPlaybackPositionInFrames_Params params;
 
@@ -609,7 +609,7 @@ int UPaperFlipbookComponent::GetPlaybackPositionInFrames()
 float UPaperFlipbookComponent::GetPlaybackPosition()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38889);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39011);
 
 	UPaperFlipbookComponent_GetPlaybackPosition_Params params;
 
@@ -632,7 +632,7 @@ float UPaperFlipbookComponent::GetPlaybackPosition()
 int UPaperFlipbookComponent::GetFlipbookLengthInFrames()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38887);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39009);
 
 	UPaperFlipbookComponent_GetFlipbookLengthInFrames_Params params;
 
@@ -655,7 +655,7 @@ int UPaperFlipbookComponent::GetFlipbookLengthInFrames()
 float UPaperFlipbookComponent::GetFlipbookLength()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38885);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39007);
 
 	UPaperFlipbookComponent_GetFlipbookLength_Params params;
 
@@ -678,7 +678,7 @@ float UPaperFlipbookComponent::GetFlipbookLength()
 float UPaperFlipbookComponent::GetFlipbookFramerate()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38883);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39005);
 
 	UPaperFlipbookComponent_GetFlipbookFramerate_Params params;
 
@@ -701,7 +701,7 @@ float UPaperFlipbookComponent::GetFlipbookFramerate()
 class UPaperFlipbook* UPaperFlipbookComponent::GetFlipbook()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38881);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39003);
 
 	UPaperFlipbookComponent_GetFlipbook_Params params;
 
@@ -729,7 +729,7 @@ class UPaperFlipbook* UPaperFlipbookComponent::GetFlipbook()
 bool UPaperGroupedSpriteComponent::UpdateInstanceTransform(int InstanceIndex, const struct FTransform& NewInstanceTransform, bool bWorldSpace, bool bMarkRenderStateDirty, bool bTeleport)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38963);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39085);
 
 	UPaperGroupedSpriteComponent_UpdateInstanceTransform_Params params;
 	params.InstanceIndex = InstanceIndex;
@@ -760,7 +760,7 @@ bool UPaperGroupedSpriteComponent::UpdateInstanceTransform(int InstanceIndex, co
 bool UPaperGroupedSpriteComponent::UpdateInstanceColor(int InstanceIndex, const struct FLinearColor& NewInstanceColor, bool bMarkRenderStateDirty)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38958);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39080);
 
 	UPaperGroupedSpriteComponent_UpdateInstanceColor_Params params;
 	params.InstanceIndex = InstanceIndex;
@@ -786,7 +786,7 @@ bool UPaperGroupedSpriteComponent::UpdateInstanceColor(int InstanceIndex, const 
 void UPaperGroupedSpriteComponent::SortInstancesAlongAxis(const struct FVector& WorldSpaceSortAxis)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38956);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39078);
 
 	UPaperGroupedSpriteComponent_SortInstancesAlongAxis_Params params;
 	params.WorldSpaceSortAxis = WorldSpaceSortAxis;
@@ -809,7 +809,7 @@ void UPaperGroupedSpriteComponent::SortInstancesAlongAxis(const struct FVector& 
 bool UPaperGroupedSpriteComponent::RemoveInstance(int InstanceIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38953);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39075);
 
 	UPaperGroupedSpriteComponent_RemoveInstance_Params params;
 	params.InstanceIndex = InstanceIndex;
@@ -836,7 +836,7 @@ bool UPaperGroupedSpriteComponent::RemoveInstance(int InstanceIndex)
 bool UPaperGroupedSpriteComponent::GetInstanceTransform(int InstanceIndex, bool bWorldSpace, struct FTransform* OutInstanceTransform)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38948);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39070);
 
 	UPaperGroupedSpriteComponent_GetInstanceTransform_Params params;
 	params.InstanceIndex = InstanceIndex;
@@ -864,7 +864,7 @@ bool UPaperGroupedSpriteComponent::GetInstanceTransform(int InstanceIndex, bool 
 int UPaperGroupedSpriteComponent::GetInstanceCount()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38946);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39068);
 
 	UPaperGroupedSpriteComponent_GetInstanceCount_Params params;
 
@@ -885,7 +885,7 @@ int UPaperGroupedSpriteComponent::GetInstanceCount()
 void UPaperGroupedSpriteComponent::ClearInstances()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38945);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39067);
 
 	UPaperGroupedSpriteComponent_ClearInstances_Params params;
 
@@ -910,7 +910,7 @@ void UPaperGroupedSpriteComponent::ClearInstances()
 int UPaperGroupedSpriteComponent::AddInstance(const struct FTransform& Transform, class UPaperSprite* Sprite, bool bWorldSpace, const struct FLinearColor& Color)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38939);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39061);
 
 	UPaperGroupedSpriteComponent_AddInstance_Params params;
 	params.Transform = Transform;
@@ -940,7 +940,7 @@ int UPaperGroupedSpriteComponent::AddInstance(const struct FTransform& Transform
 struct FSlateBrush UPaperSpriteBlueprintLibrary::STATIC_MakeBrushFromSprite(class UPaperSprite* Sprite, int Width, int Height)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38996);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39118);
 
 	UPaperSpriteBlueprintLibrary_MakeBrushFromSprite_Params params;
 	params.Sprite = Sprite;
@@ -966,7 +966,7 @@ struct FSlateBrush UPaperSpriteBlueprintLibrary::STATIC_MakeBrushFromSprite(clas
 void UPaperSpriteComponent::SetSpriteColor(const struct FLinearColor& NewColor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39006);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39128);
 
 	UPaperSpriteComponent_SetSpriteColor_Params params;
 	params.NewColor = NewColor;
@@ -989,7 +989,7 @@ void UPaperSpriteComponent::SetSpriteColor(const struct FLinearColor& NewColor)
 bool UPaperSpriteComponent::SetSprite(class UPaperSprite* NewSprite)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39003);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39125);
 
 	UPaperSpriteComponent_SetSprite_Params params;
 	params.NewSprite = NewSprite;
@@ -1013,7 +1013,7 @@ bool UPaperSpriteComponent::SetSprite(class UPaperSprite* NewSprite)
 class UPaperSprite* UPaperSpriteComponent::GetSprite()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39001);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39123);
 
 	UPaperSpriteComponent_GetSprite_Params params;
 
@@ -1036,7 +1036,7 @@ class UPaperSprite* UPaperSpriteComponent::GetSprite()
 void UPaperTerrainComponent::SetTerrainColor(const struct FLinearColor& NewColor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39014);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39136);
 
 	UPaperTerrainComponent_SetTerrainColor_Params params;
 	params.NewColor = NewColor;
@@ -1058,7 +1058,7 @@ void UPaperTerrainComponent::SetTerrainColor(const struct FLinearColor& NewColor
 void UPaperTileMapComponent::SetTileMapColor(const struct FLinearColor& NewColor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39137);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39259);
 
 	UPaperTileMapComponent_SetTileMapColor_Params params;
 	params.NewColor = NewColor;
@@ -1081,7 +1081,7 @@ void UPaperTileMapComponent::SetTileMapColor(const struct FLinearColor& NewColor
 bool UPaperTileMapComponent::SetTileMap(class UPaperTileMap* NewTileMap)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39134);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39256);
 
 	UPaperTileMapComponent_SetTileMap_Params params;
 	params.NewTileMap = NewTileMap;
@@ -1108,7 +1108,7 @@ bool UPaperTileMapComponent::SetTileMap(class UPaperTileMap* NewTileMap)
 void UPaperTileMapComponent::SetTile(int X, int Y, int Layer, const struct FPaperTileInfo& NewValue)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39129);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39251);
 
 	UPaperTileMapComponent_SetTile_Params params;
 	params.X = X;
@@ -1134,7 +1134,7 @@ void UPaperTileMapComponent::SetTile(int X, int Y, int Layer, const struct FPape
 void UPaperTileMapComponent::SetLayerColor(const struct FLinearColor& NewColor, int Layer)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39126);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39248);
 
 	UPaperTileMapComponent_SetLayerColor_Params params;
 	params.NewColor = NewColor;
@@ -1163,7 +1163,7 @@ void UPaperTileMapComponent::SetLayerColor(const struct FLinearColor& NewColor, 
 void UPaperTileMapComponent::SetLayerCollision(int Layer, bool bHasCollision, bool bOverrideThickness, float CustomThickness, bool bOverrideOffset, float CustomOffset, bool bRebuildCollision)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39118);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39240);
 
 	UPaperTileMapComponent_SetLayerCollision_Params params;
 	params.Layer = Layer;
@@ -1192,7 +1192,7 @@ void UPaperTileMapComponent::SetLayerCollision(int Layer, bool bHasCollision, bo
 void UPaperTileMapComponent::SetDefaultCollisionThickness(float Thickness, bool bRebuildCollision)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39115);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39237);
 
 	UPaperTileMapComponent_SetDefaultCollisionThickness_Params params;
 	params.Thickness = Thickness;
@@ -1216,7 +1216,7 @@ void UPaperTileMapComponent::SetDefaultCollisionThickness(float Thickness, bool 
 void UPaperTileMapComponent::ResizeMap(int NewWidthInTiles, int NewHeightInTiles)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39112);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39234);
 
 	UPaperTileMapComponent_ResizeMap_Params params;
 	params.NewWidthInTiles = NewWidthInTiles;
@@ -1237,7 +1237,7 @@ void UPaperTileMapComponent::ResizeMap(int NewWidthInTiles, int NewHeightInTiles
 void UPaperTileMapComponent::RebuildCollision()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39111);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39233);
 
 	UPaperTileMapComponent_RebuildCollision_Params params;
 
@@ -1258,7 +1258,7 @@ void UPaperTileMapComponent::RebuildCollision()
 bool UPaperTileMapComponent::OwnsTileMap()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39109);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39231);
 
 	UPaperTileMapComponent_OwnsTileMap_Params params;
 
@@ -1279,7 +1279,7 @@ bool UPaperTileMapComponent::OwnsTileMap()
 void UPaperTileMapComponent::MakeTileMapEditable()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39108);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39230);
 
 	UPaperTileMapComponent_MakeTileMapEditable_Params params;
 
@@ -1304,7 +1304,7 @@ void UPaperTileMapComponent::MakeTileMapEditable()
 void UPaperTileMapComponent::GetTilePolygon(int TileX, int TileY, int LayerIndex, bool bWorldSpace, TArray<struct FVector>* Points)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39101);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39223);
 
 	UPaperTileMapComponent_GetTilePolygon_Params params;
 	params.TileX = TileX;
@@ -1332,7 +1332,7 @@ void UPaperTileMapComponent::GetTilePolygon(int TileX, int TileY, int LayerIndex
 struct FLinearColor UPaperTileMapComponent::GetTileMapColor()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39099);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39221);
 
 	UPaperTileMapComponent_GetTileMapColor_Params params;
 
@@ -1359,7 +1359,7 @@ struct FLinearColor UPaperTileMapComponent::GetTileMapColor()
 struct FVector UPaperTileMapComponent::GetTileCornerPosition(int TileX, int TileY, int LayerIndex, bool bWorldSpace)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39093);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39215);
 
 	UPaperTileMapComponent_GetTileCornerPosition_Params params;
 	params.TileX = TileX;
@@ -1390,7 +1390,7 @@ struct FVector UPaperTileMapComponent::GetTileCornerPosition(int TileX, int Tile
 struct FVector UPaperTileMapComponent::GetTileCenterPosition(int TileX, int TileY, int LayerIndex, bool bWorldSpace)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39087);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39209);
 
 	UPaperTileMapComponent_GetTileCenterPosition_Params params;
 	params.TileX = TileX;
@@ -1420,7 +1420,7 @@ struct FVector UPaperTileMapComponent::GetTileCenterPosition(int TileX, int Tile
 struct FPaperTileInfo UPaperTileMapComponent::GetTile(int X, int Y, int Layer)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39082);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39204);
 
 	UPaperTileMapComponent_GetTile_Params params;
 	params.X = X;
@@ -1448,7 +1448,7 @@ struct FPaperTileInfo UPaperTileMapComponent::GetTile(int X, int Y, int Layer)
 void UPaperTileMapComponent::GetMapSize(int* MapWidth, int* MapHeight, int* NumLayers)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39078);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39200);
 
 	UPaperTileMapComponent_GetMapSize_Params params;
 
@@ -1477,7 +1477,7 @@ void UPaperTileMapComponent::GetMapSize(int* MapWidth, int* MapHeight, int* NumL
 struct FLinearColor UPaperTileMapComponent::GetLayerColor(int Layer)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39075);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39197);
 
 	UPaperTileMapComponent_GetLayerColor_Params params;
 	params.Layer = Layer;
@@ -1506,7 +1506,7 @@ struct FLinearColor UPaperTileMapComponent::GetLayerColor(int Layer)
 void UPaperTileMapComponent::CreateNewTileMap(int MapWidth, int MapHeight, int TileWidth, int TileHeight, float PixelsPerUnrealUnit, bool bCreateLayer)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39068);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39190);
 
 	UPaperTileMapComponent_CreateNewTileMap_Params params;
 	params.MapWidth = MapWidth;
@@ -1533,7 +1533,7 @@ void UPaperTileMapComponent::CreateNewTileMap(int MapWidth, int MapHeight, int T
 class UPaperTileLayer* UPaperTileMapComponent::AddNewLayer()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39066);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39188);
 
 	UPaperTileMapComponent_AddNewLayer_Params params;
 
@@ -1561,7 +1561,7 @@ class UPaperTileLayer* UPaperTileMapComponent::AddNewLayer()
 struct FPaperTileInfo UTileMapBlueprintLibrary::STATIC_MakeTile(int TileIndex, class UPaperTileSet* TileSet, bool bFlipH, bool bFlipV, bool bFlipD)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39181);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39303);
 
 	UTileMapBlueprintLibrary_MakeTile_Params params;
 	params.TileIndex = TileIndex;
@@ -1590,7 +1590,7 @@ struct FPaperTileInfo UTileMapBlueprintLibrary::STATIC_MakeTile(int TileIndex, c
 struct FName UTileMapBlueprintLibrary::STATIC_GetTileUserData(const struct FPaperTileInfo& Tile)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39178);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39300);
 
 	UTileMapBlueprintLibrary_GetTileUserData_Params params;
 	params.Tile = Tile;
@@ -1615,7 +1615,7 @@ struct FName UTileMapBlueprintLibrary::STATIC_GetTileUserData(const struct FPape
 struct FTransform UTileMapBlueprintLibrary::STATIC_GetTileTransform(const struct FPaperTileInfo& Tile)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39175);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39297);
 
 	UTileMapBlueprintLibrary_GetTileTransform_Params params;
 	params.Tile = Tile;
@@ -1644,7 +1644,7 @@ struct FTransform UTileMapBlueprintLibrary::STATIC_GetTileTransform(const struct
 void UTileMapBlueprintLibrary::STATIC_BreakTile(const struct FPaperTileInfo& Tile, int* TileIndex, class UPaperTileSet** TileSet, bool* bFlipH, bool* bFlipV, bool* bFlipD)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39168);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39290);
 
 	UTileMapBlueprintLibrary_BreakTile_Params params;
 	params.Tile = Tile;

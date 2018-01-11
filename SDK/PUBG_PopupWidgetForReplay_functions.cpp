@@ -12,6 +12,28 @@ namespace Classes
 //Functions
 //---------------------------------------------------------------------------
 
+// Function PopupWidgetForReplay.PopupWidgetForReplay_C.Get_TextCancel_Text_1
+// (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
+// Parameters:
+// struct FText                   ReturnValue                    (Parm, OutParm, ReturnParm)
+
+struct FText UPopupWidgetForReplay_C::Get_TextCancel_Text_1()
+{
+	static UFunction* fn = nullptr; 
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57123);
+
+	UPopupWidgetForReplay_C_Get_TextCancel_Text_1_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	return params.ReturnValue;
+}
+
+
 // Function PopupWidgetForReplay.PopupWidgetForReplay_C.SetPopup
 // (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -22,7 +44,7 @@ namespace Classes
 void UPopupWidgetForReplay_C::SetPopup(EPopupStyle PopupStyle, const struct FText& Message, const struct FScriptDelegate& PressedDelegate)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57107);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57118);
 
 	UPopupWidgetForReplay_C_SetPopup_Params params;
 	params.PopupStyle = PopupStyle;
@@ -43,7 +65,7 @@ void UPopupWidgetForReplay_C::SetPopup(EPopupStyle PopupStyle, const struct FTex
 void UPopupWidgetForReplay_C::BndEvt__ButtonOK_K2Node_ComponentBoundEvent_85_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57106);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57117);
 
 	UPopupWidgetForReplay_C_BndEvt__ButtonOK_K2Node_ComponentBoundEvent_85_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -61,7 +83,7 @@ void UPopupWidgetForReplay_C::BndEvt__ButtonOK_K2Node_ComponentBoundEvent_85_OnB
 void UPopupWidgetForReplay_C::BndEvt__ButtonCancel_K2Node_ComponentBoundEvent_107_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57105);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57116);
 
 	UPopupWidgetForReplay_C_BndEvt__ButtonCancel_K2Node_ComponentBoundEvent_107_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -79,7 +101,7 @@ void UPopupWidgetForReplay_C::BndEvt__ButtonCancel_K2Node_ComponentBoundEvent_10
 void UPopupWidgetForReplay_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57104);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57115);
 
 	UPopupWidgetForReplay_C_Construct_Params params;
 
@@ -97,7 +119,7 @@ void UPopupWidgetForReplay_C::Construct()
 void UPopupWidgetForReplay_C::Custom_Event_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57103);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57114);
 
 	UPopupWidgetForReplay_C_Custom_Event_1_Params params;
 
@@ -115,7 +137,7 @@ void UPopupWidgetForReplay_C::Custom_Event_1()
 void UPopupWidgetForReplay_C::Destruct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57102);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57113);
 
 	UPopupWidgetForReplay_C_Destruct_Params params;
 
@@ -133,7 +155,7 @@ void UPopupWidgetForReplay_C::Destruct()
 void UPopupWidgetForReplay_C::XBoxOneOk()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57101);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57112);
 
 	UPopupWidgetForReplay_C_XBoxOneOk_Params params;
 
@@ -153,7 +175,7 @@ void UPopupWidgetForReplay_C::XBoxOneOk()
 void UPopupWidgetForReplay_C::ExecuteUbergraph_PopupWidgetForReplay(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57086);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57097);
 
 	UPopupWidgetForReplay_C_ExecuteUbergraph_PopupWidgetForReplay_Params params;
 	params.EntryPoint = EntryPoint;
@@ -172,7 +194,7 @@ void UPopupWidgetForReplay_C::ExecuteUbergraph_PopupWidgetForReplay(int EntryPoi
 void UPopupWidgetForReplay_C::HideMyself__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57085);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57096);
 
 	UPopupWidgetForReplay_C_HideMyself__DelegateSignature_Params params;
 
@@ -192,7 +214,7 @@ void UPopupWidgetForReplay_C::HideMyself__DelegateSignature()
 void UPopupWidgetForReplay_C::ButtonClickDispatcher__DelegateSignature(EPopupButtonID NewParam)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57082);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57093);
 
 	UPopupWidgetForReplay_C_ButtonClickDispatcher__DelegateSignature_Params params;
 	params.NewParam = NewParam;

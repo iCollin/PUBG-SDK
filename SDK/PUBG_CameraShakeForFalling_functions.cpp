@@ -20,7 +20,7 @@ namespace Classes
 void UCameraShakeForFalling_C::ReceivePlayShake(float* Scale)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55792);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56086);
 
 	UCameraShakeForFalling_C_ReceivePlayShake_Params params;
 	params.Scale = Scale;
@@ -41,7 +41,7 @@ void UCameraShakeForFalling_C::ReceivePlayShake(float* Scale)
 void UCameraShakeForFalling_C::ExecuteUbergraph_CameraShakeForFalling(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55789);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56083);
 
 	UCameraShakeForFalling_C_ExecuteUbergraph_CameraShakeForFalling_Params params;
 	params.EntryPoint = EntryPoint;

@@ -21,7 +21,7 @@ namespace Classes
 bool UAndroidPermissionFunctionLibrary::STATIC_CheckPermission(const struct FString& permission)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39923);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40045);
 
 	UAndroidPermissionFunctionLibrary_CheckPermission_Params params;
 	params.permission = permission;
@@ -46,7 +46,7 @@ bool UAndroidPermissionFunctionLibrary::STATIC_CheckPermission(const struct FStr
 class UAndroidPermissionCallbackProxy* UAndroidPermissionFunctionLibrary::STATIC_AcquirePermissions(TArray<struct FString> Permissions)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39919);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40041);
 
 	UAndroidPermissionFunctionLibrary_AcquirePermissions_Params params;
 	params.Permissions = Permissions;

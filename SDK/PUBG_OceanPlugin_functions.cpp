@@ -20,7 +20,7 @@ namespace Classes
 void AOceanManager::LoadLandscapeHeightmap(class UTexture2D* Tex2D)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39265);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39387);
 
 	AOceanManager_LoadLandscapeHeightmap_Params params;
 	params.Tex2D = Tex2D;
@@ -46,7 +46,7 @@ void AOceanManager::LoadLandscapeHeightmap(class UTexture2D* Tex2D)
 struct FVector AOceanManager::GetWaveHeightValue(const struct FVector& Location, class UWorld* World, bool HeightOnly, bool TwoIterations)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39259);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39381);
 
 	AOceanManager_GetWaveHeightValue_Params params;
 	params.Location = Location;
@@ -75,7 +75,7 @@ struct FVector AOceanManager::GetWaveHeightValue(const struct FVector& Location,
 struct FLinearColor AOceanManager::GetHeightmapPixel(float U, float V)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39255);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39377);
 
 	AOceanManager_GetHeightmapPixel_Params params;
 	params.U = U;
@@ -103,7 +103,7 @@ struct FLinearColor AOceanManager::GetHeightmapPixel(float U, float V)
 float UAdvancedBuoyancyComponent::TriangleArea(const struct FVector& A, const struct FVector& B, const struct FVector& C)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39306);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39428);
 
 	UAdvancedBuoyancyComponent_TriangleArea_Params params;
 	params.A = A;
@@ -133,7 +133,7 @@ float UAdvancedBuoyancyComponent::TriangleArea(const struct FVector& A, const st
 TArray<struct FForceTriangle> UAdvancedBuoyancyComponent::SplitTriangle(const struct FBuoyancyVertex& H, const struct FBuoyancyVertex& M, const struct FBuoyancyVertex& L, const struct FVector& InArrow)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39299);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39421);
 
 	UAdvancedBuoyancyComponent_SplitTriangle_Params params;
 	params.H = H;
@@ -161,7 +161,7 @@ TArray<struct FForceTriangle> UAdvancedBuoyancyComponent::SplitTriangle(const st
 void UAdvancedBuoyancyComponent::SetMeshDensity(float NewDensity, float NewWaterDensity)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39296);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39418);
 
 	UAdvancedBuoyancyComponent_SetMeshDensity_Params params;
 	params.NewDensity = NewDensity;
@@ -186,7 +186,7 @@ void UAdvancedBuoyancyComponent::SetMeshDensity(float NewDensity, float NewWater
 float UAdvancedBuoyancyComponent::GetOceanDepthFromGrid(const struct FVector& Position, bool bJustGetHeightAtLocation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39292);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39414);
 
 	UAdvancedBuoyancyComponent_GetOceanDepthFromGrid_Params params;
 	params.Position = Position;
@@ -209,7 +209,7 @@ float UAdvancedBuoyancyComponent::GetOceanDepthFromGrid(const struct FVector& Po
 void UAdvancedBuoyancyComponent::GetOcean()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39291);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39413);
 
 	UAdvancedBuoyancyComponent_GetOcean_Params params;
 
@@ -231,7 +231,7 @@ void UAdvancedBuoyancyComponent::GetOcean()
 void UAdvancedBuoyancyComponent::DrawDebugStuff(const struct FForceTriangle& TriForce, const struct FColor& DebugColor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39288);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39410);
 
 	UAdvancedBuoyancyComponent_DrawDebugStuff_Params params;
 	params.TriForce = TriForce;
@@ -255,7 +255,7 @@ void UAdvancedBuoyancyComponent::DrawDebugStuff(const struct FForceTriangle& Tri
 void UAdvancedBuoyancyComponent::ApplySlamForce(const struct FVector& SlamForce, const struct FVector& TriCenter)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39285);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39407);
 
 	UAdvancedBuoyancyComponent_ApplySlamForce_Params params;
 	params.SlamForce = SlamForce;
@@ -278,7 +278,7 @@ void UAdvancedBuoyancyComponent::ApplySlamForce(const struct FVector& SlamForce,
 void UAdvancedBuoyancyComponent::ApplyForce(const struct FForceTriangle& TriForce)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39283);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39405);
 
 	UAdvancedBuoyancyComponent_ApplyForce_Params params;
 	params.TriForce = TriForce;
@@ -300,7 +300,7 @@ void UAdvancedBuoyancyComponent::ApplyForce(const struct FForceTriangle& TriForc
 bool ACustomVehicleController::GetIsDriving()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39395);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39517);
 
 	ACustomVehicleController_GetIsDriving_Params params;
 
@@ -321,7 +321,7 @@ bool ACustomVehicleController::GetIsDriving()
 void ACustomVehicleController::ExitVehicle()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39394);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39516);
 
 	ACustomVehicleController_ExitVehicle_Params params;
 
@@ -342,7 +342,7 @@ void ACustomVehicleController::ExitVehicle()
 void ACustomVehicleController::EnterVehicle(class APawn* Vehicle)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39392);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39514);
 
 	ACustomVehicleController_EnterVehicle_Params params;
 	params.Vehicle = Vehicle;
@@ -362,7 +362,7 @@ void ACustomVehicleController::EnterVehicle(class APawn* Vehicle)
 void ACustomVehicleController::EnableBuoyancy()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39391);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39513);
 
 	ACustomVehicleController_EnableBuoyancy_Params params;
 
@@ -381,7 +381,7 @@ void ACustomVehicleController::EnableBuoyancy()
 void ACustomVehicleController::DrawBuoyancyPoints()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39390);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39512);
 
 	ACustomVehicleController_DrawBuoyancyPoints_Params params;
 
@@ -405,7 +405,7 @@ void ACustomVehicleController::DrawBuoyancyPoints()
 void AFlockFish::OnEndOverlap(class UPrimitiveComponent* activatedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int OtherBodyIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39415);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39537);
 
 	AFlockFish_OnEndOverlap_Params params;
 	params.activatedComp = activatedComp;
@@ -435,7 +435,7 @@ void AFlockFish::OnEndOverlap(class UPrimitiveComponent* activatedComp, class AA
 void AFlockFish::OnBeginOverlap(class UPrimitiveComponent* activatedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int OtherBodyIndex, bool bFromSweep, const struct FHitResult& SweepResult)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39408);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39530);
 
 	AFlockFish_OnBeginOverlap_Params params;
 	params.activatedComp = activatedComp;
@@ -462,7 +462,7 @@ void AFlockFish::OnBeginOverlap(class UPrimitiveComponent* activatedComp, class 
 void ATimeManager::SetCurrentLocalTime(float Time)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39487);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39609);
 
 	ATimeManager_SetCurrentLocalTime_Params params;
 	params.Time = Time;
@@ -485,7 +485,7 @@ void ATimeManager::SetCurrentLocalTime(float Time)
 bool ATimeManager::IsLeapYear(int Year)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39484);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39606);
 
 	ATimeManager_IsLeapYear_Params params;
 	params.Year = Year;
@@ -509,7 +509,7 @@ bool ATimeManager::IsLeapYear(int Year)
 void ATimeManager::InitializeCalendar(const struct FTimeDate& Time)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39482);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39604);
 
 	ATimeManager_InitializeCalendar_Params params;
 	params.Time = Time;
@@ -531,7 +531,7 @@ void ATimeManager::InitializeCalendar(const struct FTimeDate& Time)
 void ATimeManager::IncrementTime(float DeltaSeconds)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39480);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39602);
 
 	ATimeManager_IncrementTime_Params params;
 	params.DeltaSeconds = DeltaSeconds;
@@ -553,7 +553,7 @@ void ATimeManager::IncrementTime(float DeltaSeconds)
 float ATimeManager::GetYearPhase()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39478);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39600);
 
 	ATimeManager_GetYearPhase_Params params;
 
@@ -576,7 +576,7 @@ float ATimeManager::GetYearPhase()
 float ATimeManager::GetElapsedDayInMinutes()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39476);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39598);
 
 	ATimeManager_GetElapsedDayInMinutes_Params params;
 
@@ -600,7 +600,7 @@ float ATimeManager::GetElapsedDayInMinutes()
 int ATimeManager::GetDaysInYear(int Year)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39473);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39595);
 
 	ATimeManager_GetDaysInYear_Params params;
 	params.Year = Year;
@@ -626,7 +626,7 @@ int ATimeManager::GetDaysInYear(int Year)
 int ATimeManager::GetDaysInMonth(int Year, int Month)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39469);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39591);
 
 	ATimeManager_GetDaysInMonth_Params params;
 	params.Year = Year;
@@ -651,7 +651,7 @@ int ATimeManager::GetDaysInMonth(int Year, int Month)
 float ATimeManager::GetDayPhase()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39467);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39589);
 
 	ATimeManager_GetDayPhase_Params params;
 
@@ -675,7 +675,7 @@ float ATimeManager::GetDayPhase()
 int ATimeManager::GetDayOfYear(const struct FTimeDate& Time)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39464);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39586);
 
 	ATimeManager_GetDayOfYear_Params params;
 	params.Time = Time;
@@ -699,7 +699,7 @@ int ATimeManager::GetDayOfYear(const struct FTimeDate& Time)
 struct FRotator ATimeManager::CalculateSunAngle()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39462);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39584);
 
 	ATimeManager_CalculateSunAngle_Params params;
 
@@ -722,7 +722,7 @@ struct FRotator ATimeManager::CalculateSunAngle()
 float ATimeManager::CalculateMoonPhase()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39460);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39582);
 
 	ATimeManager_CalculateMoonPhase_Params params;
 
@@ -745,7 +745,7 @@ float ATimeManager::CalculateMoonPhase()
 struct FRotator ATimeManager::CalculateMoonAngle()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39458);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39580);
 
 	ATimeManager_CalculateMoonAngle_Params params;
 

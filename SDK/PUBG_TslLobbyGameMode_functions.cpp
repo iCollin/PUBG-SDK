@@ -18,7 +18,7 @@ namespace Classes
 void ATSLLobbyGameMode_C::UserConstructionScript()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105630);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(106708);
 
 	ATSLLobbyGameMode_C_UserConstructionScript_Params params;
 

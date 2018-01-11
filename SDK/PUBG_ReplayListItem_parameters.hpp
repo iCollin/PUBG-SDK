@@ -14,6 +14,12 @@ namespace Classes
 //Parameters
 //---------------------------------------------------------------------------
 
+// Function ReplayListItem.ReplayListItem_C.SetAllDeadOrWin
+struct UReplayListItem_C_SetAllDeadOrWin_Params
+{
+	bool                                               bAllDeadOrWin;                                            // (Parm, ZeroConstructor, IsPlainOldData)
+};
+
 // Function ReplayListItem.ReplayListItem_C.SetSeverRecording
 struct UReplayListItem_C_SetSeverRecording_Params
 {

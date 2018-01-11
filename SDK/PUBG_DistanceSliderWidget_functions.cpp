@@ -20,7 +20,7 @@ namespace Classes
 void UDistanceSliderWidget_C::ChangeDistance_Delegate(float Value)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71637);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71452);
 
 	UDistanceSliderWidget_C_ChangeDistance_Delegate_Params params;
 	params.Value = Value;
@@ -39,7 +39,7 @@ void UDistanceSliderWidget_C::ChangeDistance_Delegate(float Value)
 void UDistanceSliderWidget_C::SetDistanceFunc()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71634);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71449);
 
 	UDistanceSliderWidget_C_SetDistanceFunc_Params params;
 
@@ -59,7 +59,7 @@ void UDistanceSliderWidget_C::SetDistanceFunc()
 void UDistanceSliderWidget_C::ChangeDistance_Slider(float Value)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71631);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71446);
 
 	UDistanceSliderWidget_C_ChangeDistance_Slider_Params params;
 	params.Value = Value;
@@ -80,7 +80,7 @@ void UDistanceSliderWidget_C::ChangeDistance_Slider(float Value)
 void UDistanceSliderWidget_C::SetValue(float Pos)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71628);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71443);
 
 	UDistanceSliderWidget_C_SetValue_Params params;
 	params.Pos = Pos;
@@ -101,7 +101,7 @@ void UDistanceSliderWidget_C::SetValue(float Pos)
 void UDistanceSliderWidget_C::SetDistance(float Value)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71625);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71440);
 
 	UDistanceSliderWidget_C_SetDistance_Params params;
 	params.Value = Value;
@@ -122,7 +122,7 @@ void UDistanceSliderWidget_C::SetDistance(float Value)
 void UDistanceSliderWidget_C::GetDistance(float* Distance)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71621);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71436);
 
 	UDistanceSliderWidget_C_GetDistance_Params params;
 
@@ -145,7 +145,7 @@ void UDistanceSliderWidget_C::GetDistance(float* Distance)
 void UDistanceSliderWidget_C::BndEvt__DistanceSlider_K2Node_ComponentBoundEvent_64_OnFloatValueChangedEvent__DelegateSignature(float Value)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71619);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71434);
 
 	UDistanceSliderWidget_C_BndEvt__DistanceSlider_K2Node_ComponentBoundEvent_64_OnFloatValueChangedEvent__DelegateSignature_Params params;
 	params.Value = Value;
@@ -164,7 +164,7 @@ void UDistanceSliderWidget_C::BndEvt__DistanceSlider_K2Node_ComponentBoundEvent_
 void UDistanceSliderWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71618);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71433);
 
 	UDistanceSliderWidget_C_Construct_Params params;
 
@@ -184,7 +184,7 @@ void UDistanceSliderWidget_C::Construct()
 void UDistanceSliderWidget_C::ExecuteUbergraph_DistanceSliderWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71608);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71423);
 
 	UDistanceSliderWidget_C_ExecuteUbergraph_DistanceSliderWidget_Params params;
 	params.EntryPoint = EntryPoint;
@@ -206,7 +206,7 @@ void UDistanceSliderWidget_C::ExecuteUbergraph_DistanceSliderWidget(int EntryPoi
 void UDistanceSliderWidget_C::ChagedDistance__DelegateSignature(float NewDistance, float Value)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71605);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71420);
 
 	UDistanceSliderWidget_C_ChagedDistance__DelegateSignature_Params params;
 	params.NewDistance = NewDistance;

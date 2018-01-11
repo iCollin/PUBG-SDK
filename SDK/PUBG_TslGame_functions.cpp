@@ -22,7 +22,7 @@ namespace Classes
 void UTslPopupInterface::SetPopup(EPopupStyle PopupStyle, const struct FText& Message, const struct FScriptDelegate& PressedDelegate)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13231);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13269);
 
 	UTslPopupInterface_SetPopup_Params params;
 	params.PopupStyle = PopupStyle;
@@ -45,7 +45,7 @@ void UTslPopupInterface::SetPopup(EPopupStyle PopupStyle, const struct FText& Me
 void ATslBaseHUD::WidgetToggle(const struct FString& WidgetName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13885);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13923);
 
 	ATslBaseHUD_WidgetToggle_Params params;
 	params.WidgetName = WidgetName;
@@ -69,7 +69,7 @@ void ATslBaseHUD::WidgetToggle(const struct FString& WidgetName)
 void ATslBaseHUD::WidgetShow(const struct FString& WidgetName, EWidgetShowType ShowType, class UObject* OptionalParam)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13880);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13918);
 
 	ATslBaseHUD_WidgetShow_Params params;
 	params.WidgetName = WidgetName;
@@ -94,7 +94,7 @@ void ATslBaseHUD::WidgetShow(const struct FString& WidgetName, EWidgetShowType S
 void ATslBaseHUD::WidgetCreate(const struct FString& WidgetName, const struct FTslWidgetConfig& Config)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13877);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13915);
 
 	ATslBaseHUD_WidgetCreate_Params params;
 	params.WidgetName = WidgetName;
@@ -117,7 +117,7 @@ void ATslBaseHUD::WidgetCreate(const struct FString& WidgetName, const struct FT
 EKillcamDisplayCode ATslBaseHUD::UpdateKillcamDisplayCode()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13874);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13912);
 
 	ATslBaseHUD_UpdateKillcamDisplayCode_Params params;
 
@@ -141,7 +141,7 @@ EKillcamDisplayCode ATslBaseHUD::UpdateKillcamDisplayCode()
 void ATslBaseHUD::UnbindActionKeyDelegateEvent(const struct FName& ActionName, TEnumAsByte<EInputEvent> InputEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13871);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13909);
 
 	ATslBaseHUD_UnbindActionKeyDelegateEvent_Params params;
 	params.ActionName = ActionName;
@@ -167,7 +167,7 @@ void ATslBaseHUD::UnbindActionKeyDelegateEvent(const struct FName& ActionName, T
 void ATslBaseHUD::ShowPopupDialog(const struct FString& PopupWidgetName, EPopupStyle PopupStyle, const struct FText& Message, const struct FScriptDelegate& PressedDelegate)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13865);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13903);
 
 	ATslBaseHUD_ShowPopupDialog_Params params;
 	params.PopupWidgetName = PopupWidgetName;
@@ -190,7 +190,7 @@ void ATslBaseHUD::ShowPopupDialog(const struct FString& PopupWidgetName, EPopupS
 void ATslBaseHUD::OnClickedKillcamPlay()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13864);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13902);
 
 	ATslBaseHUD_OnClickedKillcamPlay_Params params;
 
@@ -212,7 +212,7 @@ void ATslBaseHUD::OnClickedKillcamPlay()
 bool ATslBaseHUD::IsWidgetShow(const struct FString& WidgetName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13861);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13899);
 
 	ATslBaseHUD_IsWidgetShow_Params params;
 	params.WidgetName = WidgetName;
@@ -236,7 +236,7 @@ bool ATslBaseHUD::IsWidgetShow(const struct FString& WidgetName)
 bool ATslBaseHUD::IsMouseUse()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13859);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13897);
 
 	ATslBaseHUD_IsMouseUse_Params params;
 
@@ -259,7 +259,7 @@ bool ATslBaseHUD::IsMouseUse()
 bool ATslBaseHUD::HideWidgetByEscape()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13857);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13895);
 
 	ATslBaseHUD_HideWidgetByEscape_Params params;
 
@@ -282,7 +282,7 @@ bool ATslBaseHUD::HideWidgetByEscape()
 void ATslBaseHUD::HidePopupDialog(const struct FString& PopupWidgetName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13855);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13893);
 
 	ATslBaseHUD_HidePopupDialog_Params params;
 	params.PopupWidgetName = PopupWidgetName;
@@ -305,7 +305,7 @@ void ATslBaseHUD::HidePopupDialog(const struct FString& PopupWidgetName)
 class UUserWidget* ATslBaseHUD::GetWidget(const struct FString& WidgetName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13852);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13890);
 
 	ATslBaseHUD_GetWidget_Params params;
 	params.WidgetName = WidgetName;
@@ -329,7 +329,7 @@ class UUserWidget* ATslBaseHUD::GetWidget(const struct FString& WidgetName)
 class UUserWidget* ATslBaseHUD::GetMainUMGHud()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13850);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13888);
 
 	ATslBaseHUD_GetMainUMGHud_Params params;
 
@@ -352,7 +352,7 @@ class UUserWidget* ATslBaseHUD::GetMainUMGHud()
 EKillcamDisplayCode ATslBaseHUD::GetLastKillcamDisplayCode()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13847);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13885);
 
 	ATslBaseHUD_GetLastKillcamDisplayCode_Params params;
 
@@ -376,7 +376,7 @@ EKillcamDisplayCode ATslBaseHUD::GetLastKillcamDisplayCode()
 struct FText ATslBaseHUD::GetKillcamCountingText(const struct FText& InCountingTextFormat)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13844);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13882);
 
 	ATslBaseHUD_GetKillcamCountingText_Params params;
 	params.InCountingTextFormat = InCountingTextFormat;
@@ -398,7 +398,7 @@ struct FText ATslBaseHUD::GetKillcamCountingText(const struct FText& InCountingT
 void ATslBaseHUD::DestroyAllWidgets()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13843);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13881);
 
 	ATslBaseHUD_DestroyAllWidgets_Params params;
 
@@ -421,7 +421,7 @@ void ATslBaseHUD::DestroyAllWidgets()
 void ATslBaseHUD::BindActionKeyDelegateEvent(const struct FName& ActionName, TEnumAsByte<EInputEvent> InputEvent, const struct FScriptDelegate& ActionKeyDelegate)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13839);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13877);
 
 	ATslBaseHUD_BindActionKeyDelegateEvent_Params params;
 	params.ActionName = ActionName;
@@ -447,7 +447,7 @@ void ATslBaseHUD::BindActionKeyDelegateEvent(const struct FName& ActionName, TEn
 class UBlendSpace* UAnimDB::GetBlendSpaceRelaxed(TEnumAsByte<EAnimStanceType> AnimStance, bool bIsFPP)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13915);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13953);
 
 	UAnimDB_GetBlendSpaceRelaxed_Params params;
 	params.AnimStance = AnimStance;
@@ -474,7 +474,7 @@ class UBlendSpace* UAnimDB::GetBlendSpaceRelaxed(TEnumAsByte<EAnimStanceType> An
 class UBlendSpace* UAnimDB::GetBlendSpace(TEnumAsByte<EAnimStanceType> AnimStance, bool bIsFPP)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13911);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13949);
 
 	UAnimDB_GetBlendSpace_Params params;
 	params.AnimStance = AnimStance;
@@ -504,7 +504,7 @@ class UBlendSpace* UAnimDB::GetBlendSpace(TEnumAsByte<EAnimStanceType> AnimStanc
 float UAnimDB::GetAnimSpeed(TEnumAsByte<EAnimStanceType> AnimStance, float Direction, float InSpeed, float* PlayRate, float* SprintAlpha)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13904);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(13942);
 
 	UAnimDB_GetAnimSpeed_Params params;
 	params.AnimStance = AnimStance;
@@ -535,7 +535,7 @@ float UAnimDB::GetAnimSpeed(TEnumAsByte<EAnimStanceType> AnimStance, float Direc
 void UAsyncStaticMeshComponent::SetStaticMeshAsset(TAssetPtr<class UStaticMesh> Asset)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14574);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14612);
 
 	UAsyncStaticMeshComponent_SetStaticMeshAsset_Params params;
 	params.Asset = Asset;
@@ -558,7 +558,7 @@ void UAsyncStaticMeshComponent::SetStaticMeshAsset(TAssetPtr<class UStaticMesh> 
 bool UAsyncStaticMeshComponent::IsSameMesh(TAssetPtr<class UStaticMesh> Asset)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14571);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14609);
 
 	UAsyncStaticMeshComponent_IsSameMesh_Params params;
 	params.Asset = Asset;
@@ -582,7 +582,7 @@ bool UAsyncStaticMeshComponent::IsSameMesh(TAssetPtr<class UStaticMesh> Asset)
 TAssetPtr<class UStaticMesh> UAsyncStaticMeshComponent::GetStaticMeshAsset()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14569);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14607);
 
 	UAsyncStaticMeshComponent_GetStaticMeshAsset_Params params;
 
@@ -603,7 +603,7 @@ TAssetPtr<class UStaticMesh> UAsyncStaticMeshComponent::GetStaticMeshAsset()
 void UAsyncStaticMeshComponent::ClearStaticMeshAsset()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14568);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14606);
 
 	UAsyncStaticMeshComponent_ClearStaticMeshAsset_Params params;
 
@@ -622,7 +622,7 @@ void UAsyncStaticMeshComponent::ClearStaticMeshAsset()
 void ATslBuff::TickBuff()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14605);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14643);
 
 	ATslBuff_TickBuff_Params params;
 
@@ -643,7 +643,7 @@ void ATslBuff::TickBuff()
 void ATslBuff::StopBuffBlueprint(bool bCanceled)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14603);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14641);
 
 	ATslBuff_StopBuffBlueprint_Params params;
 	params.bCanceled = bCanceled;
@@ -662,7 +662,7 @@ void ATslBuff::StopBuffBlueprint(bool bCanceled)
 void ATslBuff::StartBuffBlueprint()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14602);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14640);
 
 	ATslBuff_StartBuffBlueprint_Params params;
 
@@ -682,7 +682,7 @@ void ATslBuff::StartBuffBlueprint()
 class APawn* ATslBuff::GetOwnerPawn()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14600);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14638);
 
 	ATslBuff_GetOwnerPawn_Params params;
 
@@ -705,7 +705,7 @@ class APawn* ATslBuff::GetOwnerPawn()
 class ATslCharacter* ATslBuff::GetOwnerCharacter()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14598);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14636);
 
 	ATslBuff_GetOwnerCharacter_Params params;
 
@@ -728,7 +728,7 @@ class ATslCharacter* ATslBuff::GetOwnerCharacter()
 struct FAttackId ATslBuff::GetAttackId()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14596);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14634);
 
 	ATslBuff_GetAttackId_Params params;
 
@@ -751,7 +751,7 @@ struct FAttackId ATslBuff::GetAttackId()
 bool ATslBuff::CanApplyBuff()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14594);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14632);
 
 	ATslBuff_CanApplyBuff_Params params;
 
@@ -774,7 +774,7 @@ bool ATslBuff::CanApplyBuff()
 void UBuffComponet::RemoveBuff(const struct FName& OverlapId)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14626);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14664);
 
 	UBuffComponet_RemoveBuff_Params params;
 	params.OverlapId = OverlapId;
@@ -797,7 +797,7 @@ void UBuffComponet::RemoveBuff(const struct FName& OverlapId)
 class ATslBuff* UBuffComponet::FindBuffWithOverlapId(const struct FName& BuffOverlapId)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14623);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14661);
 
 	UBuffComponet_FindBuffWithOverlapId_Params params;
 	params.BuffOverlapId = BuffOverlapId;
@@ -822,7 +822,7 @@ class ATslBuff* UBuffComponet::FindBuffWithOverlapId(const struct FName& BuffOve
 class ATslBuff* UBuffComponet::AddBuff(class UClass* TslBuffClass)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14620);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14658);
 
 	UBuffComponet_AddBuff_Params params;
 	params.TslBuffClass = TslBuffClass;
@@ -847,7 +847,7 @@ class ATslBuff* UBuffComponet::AddBuff(class UClass* TslBuffClass)
 bool UCastableInterface::IsCastable(class ATslCharacter* Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14656);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14694);
 
 	UCastableInterface_IsCastable_Params params;
 	params.Character = Character;
@@ -872,7 +872,7 @@ bool UCastableInterface::IsCastable(class ATslCharacter* Character)
 struct FText UCastableInterface::GetCastFailMessage(class ATslCharacter* Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14653);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14691);
 
 	UCastableInterface_GetCastFailMessage_Params params;
 	params.Character = Character;
@@ -896,7 +896,7 @@ struct FText UCastableInterface::GetCastFailMessage(class ATslCharacter* Charact
 struct FCastConfig UCastableInterface::GetCastConfig()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14651);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14689);
 
 	UCastableInterface_GetCastConfig_Params params;
 
@@ -920,7 +920,7 @@ struct FCastConfig UCastableInterface::GetCastConfig()
 bool UCastComponent::StartCast(const TScriptInterface<class UCastableInterface>& CastableInterface)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14682);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14720);
 
 	UCastComponent_StartCast_Params params;
 	params.CastableInterface = CastableInterface;
@@ -944,7 +944,7 @@ bool UCastComponent::StartCast(const TScriptInterface<class UCastableInterface>&
 float UCastComponent::GetTotalCastTime()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14680);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14718);
 
 	UCastComponent_GetTotalCastTime_Params params;
 
@@ -967,7 +967,7 @@ float UCastComponent::GetTotalCastTime()
 float UCastComponent::GetElapsedCastTime()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14678);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14716);
 
 	UCastComponent_GetElapsedCastTime_Params params;
 
@@ -990,7 +990,7 @@ float UCastComponent::GetElapsedCastTime()
 ECastPriority UCastComponent::GetCastPriority()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14675);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14713);
 
 	UCastComponent_GetCastPriority_Params params;
 
@@ -1013,7 +1013,7 @@ ECastPriority UCastComponent::GetCastPriority()
 class UObject* UCastComponent::GetCastObject()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14673);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14711);
 
 	UCastComponent_GetCastObject_Params params;
 
@@ -1036,7 +1036,7 @@ class UObject* UCastComponent::GetCastObject()
 struct FText UCastComponent::GetCastName()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14671);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14709);
 
 	UCastComponent_GetCastName_Params params;
 
@@ -1059,7 +1059,7 @@ struct FText UCastComponent::GetCastName()
 ECastLevel UCastComponent::GetCastLevel()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14668);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14706);
 
 	UCastComponent_GetCastLevel_Params params;
 
@@ -1082,7 +1082,7 @@ ECastLevel UCastComponent::GetCastLevel()
 ECastAnim UCastComponent::GetCastAnim()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14665);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14703);
 
 	UCastComponent_GetCastAnim_Params params;
 
@@ -1105,7 +1105,7 @@ ECastAnim UCastComponent::GetCastAnim()
 bool UCastComponent::CancelCast()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14663);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14701);
 
 	UCastComponent_CancelCast_Params params;
 
@@ -1128,7 +1128,7 @@ bool UCastComponent::CancelCast()
 void UCharacterBreathComponent::OnRep_Breath(float LastBreath)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14703);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14741);
 
 	UCharacterBreathComponent_OnRep_Breath_Params params;
 	params.LastBreath = LastBreath;
@@ -1150,7 +1150,7 @@ void UCharacterBreathComponent::OnRep_Breath(float LastBreath)
 bool UCharacterBreathComponent::IsInApnea()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14701);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14739);
 
 	UCharacterBreathComponent_IsInApnea_Params params;
 
@@ -1173,7 +1173,7 @@ bool UCharacterBreathComponent::IsInApnea()
 bool UCharacterBreathComponent::IsConsuming()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14699);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14737);
 
 	UCharacterBreathComponent_IsConsuming_Params params;
 
@@ -1196,7 +1196,7 @@ bool UCharacterBreathComponent::IsConsuming()
 float UCharacterBreathComponent::GetBreathRatio()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14697);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14735);
 
 	UCharacterBreathComponent_GetBreathRatio_Params params;
 
@@ -1219,7 +1219,7 @@ float UCharacterBreathComponent::GetBreathRatio()
 float UCharacterBreathComponent::GetBreathMax()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14695);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14733);
 
 	UCharacterBreathComponent_GetBreathMax_Params params;
 
@@ -1242,7 +1242,7 @@ float UCharacterBreathComponent::GetBreathMax()
 float UCharacterBreathComponent::GetBreath()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14693);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14731);
 
 	UCharacterBreathComponent_GetBreath_Params params;
 
@@ -1265,7 +1265,7 @@ float UCharacterBreathComponent::GetBreath()
 bool UCharacterBreathComponent::CanStartSprinting()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14691);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14729);
 
 	UCharacterBreathComponent_CanStartSprinting_Params params;
 
@@ -1288,7 +1288,7 @@ bool UCharacterBreathComponent::CanStartSprinting()
 bool UCharacterBreathComponent::CanStartHoldingBreath()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14689);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14727);
 
 	UCharacterBreathComponent_CanStartHoldingBreath_Params params;
 
@@ -1311,7 +1311,7 @@ bool UCharacterBreathComponent::CanStartHoldingBreath()
 void UCharacterBreathComponent::AddBreath(float Value)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14687);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14725);
 
 	UCharacterBreathComponent_AddBreath_Params params;
 	params.Value = Value;
@@ -1331,7 +1331,7 @@ void UCharacterBreathComponent::AddBreath(float Value)
 void ACharacterStudio::Update()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14731);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14769);
 
 	ACharacterStudio_Update_Params params;
 
@@ -1352,7 +1352,7 @@ void ACharacterStudio::Update()
 void ACharacterStudio::SetSceneCaptureMaterial(class UMaterialInstanceDynamic* Mid)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14729);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14767);
 
 	ACharacterStudio_SetSceneCaptureMaterial_Params params;
 	params.Mid = Mid;
@@ -1374,7 +1374,7 @@ void ACharacterStudio::SetSceneCaptureMaterial(class UMaterialInstanceDynamic* M
 void ACharacterStudio::SetCharacter(class ATslCharacter* Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14727);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14765);
 
 	ACharacterStudio_SetCharacter_Params params;
 	params.Character = Character;
@@ -1396,7 +1396,7 @@ void ACharacterStudio::SetCharacter(class ATslCharacter* Character)
 bool ACharacterStudio::IsUsingDynamicResolution()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14725);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14763);
 
 	ACharacterStudio_IsUsingDynamicResolution_Params params;
 
@@ -1419,7 +1419,7 @@ bool ACharacterStudio::IsUsingDynamicResolution()
 bool ACharacterStudio::IsCharacterValid()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14723);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14761);
 
 	ACharacterStudio_IsCharacterValid_Params params;
 
@@ -1442,7 +1442,7 @@ bool ACharacterStudio::IsCharacterValid()
 class UMaterialInstanceDynamic* ACharacterStudio::GetSceneCaptureMaterial()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14721);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14759);
 
 	ACharacterStudio_GetSceneCaptureMaterial_Params params;
 
@@ -1465,7 +1465,7 @@ class UMaterialInstanceDynamic* ACharacterStudio::GetSceneCaptureMaterial()
 class ATslCharacter* ACharacterStudio::GetCharacter()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14719);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14757);
 
 	ACharacterStudio_GetCharacter_Params params;
 
@@ -1488,7 +1488,7 @@ class ATslCharacter* ACharacterStudio::GetCharacter()
 void ACharacterStudio::AddYaw(float Yaw)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14717);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14755);
 
 	ACharacterStudio_AddYaw_Params params;
 	params.Yaw = Yaw;
@@ -1508,7 +1508,7 @@ void ACharacterStudio::AddYaw(float Yaw)
 void UCoherentCommonBinder::Test()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14747);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14785);
 
 	UCoherentCommonBinder_Test_Params params;
 
@@ -1527,7 +1527,7 @@ void UCoherentCommonBinder::Test()
 void UCoherentCommonBinder::OnWebPageOnPlatformFailed()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14746);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14784);
 
 	UCoherentCommonBinder_OnWebPageOnPlatformFailed_Params params;
 
@@ -1546,7 +1546,7 @@ void UCoherentCommonBinder::OnWebPageOnPlatformFailed()
 void UCoherentCommonBinder::BindUI()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14745);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14783);
 
 	UCoherentCommonBinder_BindUI_Params params;
 
@@ -1565,9 +1565,31 @@ void UCoherentCommonBinder::BindUI()
 void UCoherentCommonBinder::BindDelegate()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14744);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(14782);
 
 	UCoherentCommonBinder_BindDelegate_Params params;
+
+	auto flags = fn->FunctionFlags;
+	fn->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function TslGame.TslBasePlayerController.Server_SetBPFactor
+// (Net, NetReliable, Native, Event, Public, NetServer, NetValidate)
+// Parameters:
+// float                          factor                         (Parm, ZeroConstructor, IsPlainOldData)
+
+void ATslBasePlayerController::Server_SetBPFactor(float factor)
+{
+	static UFunction* fn = nullptr; 
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15252);
+
+	ATslBasePlayerController_Server_SetBPFactor_Params params;
+	params.factor = factor;
 
 	auto flags = fn->FunctionFlags;
 	fn->FunctionFlags |= 0x400;
@@ -1584,7 +1606,7 @@ void UCoherentCommonBinder::BindDelegate()
 void ATslBasePlayerController::HandleClipboard()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15213);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15251);
 
 	ATslBasePlayerController_HandleClipboard_Params params;
 
@@ -1606,7 +1628,7 @@ void ATslBasePlayerController::HandleClipboard()
 void ATslPlayerController::UnreliablePong(int SeqID, int64_t DateTimeTickFromServer)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15567);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15610);
 
 	ATslPlayerController_UnreliablePong_Params params;
 	params.SeqID = SeqID;
@@ -1630,7 +1652,7 @@ void ATslPlayerController::UnreliablePong(int SeqID, int64_t DateTimeTickFromSer
 void ATslPlayerController::UnreliablePing(int SeqID, int64_t DateTimeTick)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15564);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15607);
 
 	ATslPlayerController_UnreliablePing_Params params;
 	params.SeqID = SeqID;
@@ -1651,7 +1673,7 @@ void ATslPlayerController::UnreliablePing(int SeqID, int64_t DateTimeTick)
 void ATslPlayerController::ToggleInventory()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15563);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15606);
 
 	ATslPlayerController_ToggleInventory_Params params;
 
@@ -1670,7 +1692,7 @@ void ATslPlayerController::ToggleInventory()
 void ATslPlayerController::Suicide()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15562);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15605);
 
 	ATslPlayerController_Suicide_Params params;
 
@@ -1692,7 +1714,7 @@ void ATslPlayerController::Suicide()
 void ATslPlayerController::SimulateInputKey(const struct FKey& Key, bool bPressed)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15559);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15602);
 
 	ATslPlayerController_SimulateInputKey_Params params;
 	params.Key = Key;
@@ -1713,7 +1735,7 @@ void ATslPlayerController::SimulateInputKey(const struct FKey& Key, bool bPresse
 void ATslPlayerController::ShowTslDebugInfomation()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15558);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15601);
 
 	ATslPlayerController_ShowTslDebugInfomation_Params params;
 
@@ -1732,7 +1754,7 @@ void ATslPlayerController::ShowTslDebugInfomation()
 void ATslPlayerController::ShowTeamDeathPopup()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15557);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15600);
 
 	ATslPlayerController_ShowTeamDeathPopup_Params params;
 
@@ -1751,7 +1773,7 @@ void ATslPlayerController::ShowTeamDeathPopup()
 void ATslPlayerController::ShowPlayerControllerBindActions_Admin()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15556);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15599);
 
 	ATslPlayerController_ShowPlayerControllerBindActions_Admin_Params params;
 
@@ -1770,7 +1792,7 @@ void ATslPlayerController::ShowPlayerControllerBindActions_Admin()
 void ATslPlayerController::ShowMatchResult()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15555);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15598);
 
 	ATslPlayerController_ShowMatchResult_Params params;
 
@@ -1789,7 +1811,7 @@ void ATslPlayerController::ShowMatchResult()
 void ATslPlayerController::ShowInGameMenu_Gamepad()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15554);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15597);
 
 	ATslPlayerController_ShowInGameMenu_Gamepad_Params params;
 
@@ -1808,7 +1830,7 @@ void ATslPlayerController::ShowInGameMenu_Gamepad()
 void ATslPlayerController::ShowInGameMenu()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15553);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15596);
 
 	ATslPlayerController_ShowInGameMenu_Params params;
 
@@ -1829,7 +1851,7 @@ void ATslPlayerController::ShowInGameMenu()
 void ATslPlayerController::ShowGotoLobbyPopUp(EPopupButtonID ButtonID)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15550);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15593);
 
 	ATslPlayerController_ShowGotoLobbyPopUp_Params params;
 	params.ButtonID = ButtonID;
@@ -1851,7 +1873,7 @@ void ATslPlayerController::ShowGotoLobbyPopUp(EPopupButtonID ButtonID)
 void ATslPlayerController::SetDefaultFOV(float NewFOV)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15548);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15591);
 
 	ATslPlayerController_SetDefaultFOV_Params params;
 	params.NewFOV = NewFOV;
@@ -1873,7 +1895,7 @@ void ATslPlayerController::SetDefaultFOV(float NewFOV)
 void ATslPlayerController::SetCustomDepth(bool bOn)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15546);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15589);
 
 	ATslPlayerController_SetCustomDepth_Params params;
 	params.bOn = bOn;
@@ -1895,7 +1917,7 @@ void ATslPlayerController::SetCustomDepth(bool bOn)
 void ATslPlayerController::SetCanSeeTerrainThroughFogInTheAir(bool bCanSee)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15544);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15587);
 
 	ATslPlayerController_SetCanSeeTerrainThroughFogInTheAir_Params params;
 	params.bCanSee = bCanSee;
@@ -1915,7 +1937,7 @@ void ATslPlayerController::SetCanSeeTerrainThroughFogInTheAir(bool bCanSee)
 void ATslPlayerController::ServerViewTargetReplicateUpdate()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15543);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15586);
 
 	ATslPlayerController_ServerViewTargetReplicateUpdate_Params params;
 
@@ -1936,7 +1958,7 @@ void ATslPlayerController::ServerViewTargetReplicateUpdate()
 void ATslPlayerController::ServerTryInteractByComponent(class UActorComponent* TargetComponent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15541);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15584);
 
 	ATslPlayerController_ServerTryInteractByComponent_Params params;
 	params.TargetComponent = TargetComponent;
@@ -1958,7 +1980,7 @@ void ATslPlayerController::ServerTryInteractByComponent(class UActorComponent* T
 void ATslPlayerController::ServerTryInteract(class AActor* TargetObject)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15539);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15582);
 
 	ATslPlayerController_ServerTryInteract_Params params;
 	params.TargetObject = TargetObject;
@@ -1985,7 +2007,7 @@ void ATslPlayerController::ServerTryInteract(class AActor* TargetObject)
 void ATslPlayerController::ServerSystemInfo(const struct FString& OsLanguage, const struct FString& GameLanguage, const struct FString& OsVersion, const struct FString& CpuName, const struct FString& GpuName, uint32_t RamInGB)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15532);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15575);
 
 	ATslPlayerController_ServerSystemInfo_Params params;
 	params.OsLanguage = OsLanguage;
@@ -2010,7 +2032,7 @@ void ATslPlayerController::ServerSystemInfo(const struct FString& OsLanguage, co
 void ATslPlayerController::ServerSuicide()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15531);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15574);
 
 	ATslPlayerController_ServerSuicide_Params params;
 
@@ -2032,7 +2054,7 @@ void ATslPlayerController::ServerSuicide()
 void ATslPlayerController::ServerStopHoldRotation(const struct FRotator& DeltaRotation, bool bUseInterp)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15528);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15571);
 
 	ATslPlayerController_ServerStopHoldRotation_Params params;
 	params.DeltaRotation = DeltaRotation;
@@ -2056,7 +2078,7 @@ void ATslPlayerController::ServerStopHoldRotation(const struct FRotator& DeltaRo
 void ATslPlayerController::ServerStat(TEnumAsByte<EServerStatType> StatType, const struct FString& Password)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15525);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15568);
 
 	ATslPlayerController_ServerStat_Params params;
 	params.StatType = StatType;
@@ -2079,7 +2101,7 @@ void ATslPlayerController::ServerStat(TEnumAsByte<EServerStatType> StatType, con
 void ATslPlayerController::ServerStartInteractionByComponent(class UActorComponent* InteractionComponent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15523);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15566);
 
 	ATslPlayerController_ServerStartInteractionByComponent_Params params;
 	params.InteractionComponent = InteractionComponent;
@@ -2101,7 +2123,7 @@ void ATslPlayerController::ServerStartInteractionByComponent(class UActorCompone
 void ATslPlayerController::ServerStartInteraction(class UInteractionComponent* InteractionComponent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15521);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15564);
 
 	ATslPlayerController_ServerStartInteraction_Params params;
 	params.InteractionComponent = InteractionComponent;
@@ -2123,7 +2145,7 @@ void ATslPlayerController::ServerStartInteraction(class UInteractionComponent* I
 void ATslPlayerController::ServerStartHoldRotation(const struct FRotator& Current)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15519);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15562);
 
 	ATslPlayerController_ServerStartHoldRotation_Params params;
 	params.Current = Current;
@@ -2143,7 +2165,7 @@ void ATslPlayerController::ServerStartHoldRotation(const struct FRotator& Curren
 void ATslPlayerController::ServerSpawnVehicle()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15518);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15561);
 
 	ATslPlayerController_ServerSpawnVehicle_Params params;
 
@@ -2164,7 +2186,7 @@ void ATslPlayerController::ServerSpawnVehicle()
 void ATslPlayerController::ServerSetViewTarget(class AActor* NewViewTarget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15516);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15559);
 
 	ATslPlayerController_ServerSetViewTarget_Params params;
 	params.NewViewTarget = NewViewTarget;
@@ -2186,7 +2208,7 @@ void ATslPlayerController::ServerSetViewTarget(class AActor* NewViewTarget)
 void ATslPlayerController::ServerSetThirdPerson(bool bNewThirdPerson)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15514);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15557);
 
 	ATslPlayerController_ServerSetThirdPerson_Params params;
 	params.bNewThirdPerson = bNewThirdPerson;
@@ -2208,7 +2230,7 @@ void ATslPlayerController::ServerSetThirdPerson(bool bNewThirdPerson)
 void ATslPlayerController::ServerSetIsReviving(bool InbIsReviving)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15512);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15555);
 
 	ATslPlayerController_ServerSetIsReviving_Params params;
 	params.InbIsReviving = InbIsReviving;
@@ -2230,7 +2252,7 @@ void ATslPlayerController::ServerSetIsReviving(bool InbIsReviving)
 void ATslPlayerController::ServerSetControlRotation(const struct FRotator& Rotation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15510);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15553);
 
 	ATslPlayerController_ServerSetControlRotation_Params params;
 	params.Rotation = Rotation;
@@ -2252,7 +2274,7 @@ void ATslPlayerController::ServerSetControlRotation(const struct FRotator& Rotat
 void ATslPlayerController::ServerSetClientFps(float Fps)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15508);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15551);
 
 	ATslPlayerController_ServerSetClientFps_Params params;
 	params.Fps = Fps;
@@ -2274,7 +2296,7 @@ void ATslPlayerController::ServerSetClientFps(float Fps)
 void ATslPlayerController::ServerSetAccumViewRotation(const struct FVector_NetQuantizeNormal& InAccumViewRotation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15506);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15549);
 
 	ATslPlayerController_ServerSetAccumViewRotation_Params params;
 	params.InAccumViewRotation = InAccumViewRotation;
@@ -2296,7 +2318,7 @@ void ATslPlayerController::ServerSetAccumViewRotation(const struct FVector_NetQu
 void ATslPlayerController::ServerSendTPPacketReliable(TArray<unsigned char> Packet)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15503);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15546);
 
 	ATslPlayerController_ServerSendTPPacketReliable_Params params;
 	params.Packet = Packet;
@@ -2318,7 +2340,7 @@ void ATslPlayerController::ServerSendTPPacketReliable(TArray<unsigned char> Pack
 void ATslPlayerController::ServerSendPacketUnreliable(TArray<unsigned char> Packet)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15500);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15543);
 
 	ATslPlayerController_ServerSendPacketUnreliable_Params params;
 	params.Packet = Packet;
@@ -2340,7 +2362,7 @@ void ATslPlayerController::ServerSendPacketUnreliable(TArray<unsigned char> Pack
 void ATslPlayerController::ServerSendPacketReliable(TArray<unsigned char> Packet)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15497);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15540);
 
 	ATslPlayerController_ServerSendPacketReliable_Params params;
 	params.Packet = Packet;
@@ -2362,7 +2384,7 @@ void ATslPlayerController::ServerSendPacketReliable(TArray<unsigned char> Packet
 void ATslPlayerController::ServerSay(const struct FString& Msg)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15495);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15538);
 
 	ATslPlayerController_ServerSay_Params params;
 	params.Msg = Msg;
@@ -2387,7 +2409,7 @@ void ATslPlayerController::ServerSay(const struct FString& Msg)
 void ATslPlayerController::ServerPickUpItemFromPackage(class UItem* Item, class AItemPackage* Package, const struct FName& TargetContainer, const struct FString& Options)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15490);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15533);
 
 	ATslPlayerController_ServerPickUpItemFromPackage_Params params;
 	params.Item = Item;
@@ -2414,7 +2436,7 @@ void ATslPlayerController::ServerPickUpItemFromPackage(class UItem* Item, class 
 void ATslPlayerController::ServerPickUpDroppedItem(class UObject* DroppedItemObject, const struct FName& TargetContainer, const struct FString& Options)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15486);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15529);
 
 	ATslPlayerController_ServerPickUpDroppedItem_Params params;
 	params.DroppedItemObject = DroppedItemObject;
@@ -2439,7 +2461,7 @@ void ATslPlayerController::ServerPickUpDroppedItem(class UObject* DroppedItemObj
 void ATslPlayerController::ServerNotifyHitToGlassWindowInst(class UTslInstancedGlassWindowComponent* GlassWindowInstComponent, const struct FHitResult& Hit)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15483);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15526);
 
 	ATslPlayerController_ServerNotifyHitToGlassWindowInst_Params params;
 	params.GlassWindowInstComponent = GlassWindowInstComponent;
@@ -2463,7 +2485,7 @@ void ATslPlayerController::ServerNotifyHitToGlassWindowInst(class UTslInstancedG
 void ATslPlayerController::ServerNotifyHitToGlassWindow(class UTslGlassWindowComponent* GlassWindowComponent, const struct FHitResult& Hit)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15480);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15523);
 
 	ATslPlayerController_ServerNotifyHitToGlassWindow_Params params;
 	params.GlassWindowComponent = GlassWindowComponent;
@@ -2486,7 +2508,7 @@ void ATslPlayerController::ServerNotifyHitToGlassWindow(class UTslGlassWindowCom
 void ATslPlayerController::ServerNextSetViewTarget(bool bIsPrev)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15478);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15521);
 
 	ATslPlayerController_ServerNextSetViewTarget_Params params;
 	params.bIsPrev = bIsPrev;
@@ -2508,7 +2530,7 @@ void ATslPlayerController::ServerNextSetViewTarget(bool bIsPrev)
 void ATslPlayerController::ServerMoveToVehicleSeat(int SeatIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15476);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15519);
 
 	ATslPlayerController_ServerMoveToVehicleSeat_Params params;
 	params.SeatIndex = SeatIndex;
@@ -2528,7 +2550,7 @@ void ATslPlayerController::ServerMoveToVehicleSeat(int SeatIndex)
 void ATslPlayerController::ServerMapLoadFinishedOnClient()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15475);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15518);
 
 	ATslPlayerController_ServerMapLoadFinishedOnClient_Params params;
 
@@ -2547,7 +2569,7 @@ void ATslPlayerController::ServerMapLoadFinishedOnClient()
 void ATslPlayerController::ServerLeaveMatchIntentionally()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15474);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15517);
 
 	ATslPlayerController_ServerLeaveMatchIntentionally_Params params;
 
@@ -2569,7 +2591,7 @@ void ATslPlayerController::ServerLeaveMatchIntentionally()
 void ATslPlayerController::ServerKickCharacter(class ATslCharacter* TslCharacter, const struct FText& Reason)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15471);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15514);
 
 	ATslPlayerController_ServerKickCharacter_Params params;
 	params.TslCharacter = TslCharacter;
@@ -2592,7 +2614,7 @@ void ATslPlayerController::ServerKickCharacter(class ATslCharacter* TslCharacter
 void ATslPlayerController::ServerCheat(const struct FString& Msg)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15469);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15512);
 
 	ATslPlayerController_ServerCheat_Params params;
 	params.Msg = Msg;
@@ -2614,7 +2636,7 @@ void ATslPlayerController::ServerCheat(const struct FString& Msg)
 void ATslPlayerController::ServerCancelInteraction(class UActorComponent* InteractionComponent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15467);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15510);
 
 	ATslPlayerController_ServerCancelInteraction_Params params;
 	params.InteractionComponent = InteractionComponent;
@@ -2638,7 +2660,7 @@ void ATslPlayerController::ServerCancelInteraction(class UActorComponent* Intera
 void ATslPlayerController::ServerBroadCastUpdateCameraInfo(bool InbFirstPerson, bool InbIsInVehicle, bool InbIsScoping)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15463);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15506);
 
 	ATslPlayerController_ServerBroadCastUpdateCameraInfo_Params params;
 	params.InbFirstPerson = InbFirstPerson;
@@ -2664,7 +2686,7 @@ void ATslPlayerController::ServerBroadCastUpdateCameraInfo(bool InbFirstPerson, 
 void ATslPlayerController::ServerBroadCastCastingBar(float CastTime, const struct FText& CastName, bool OnOff)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15459);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15502);
 
 	ATslPlayerController_ServerBroadCastCastingBar_Params params;
 	params.CastTime = CastTime;
@@ -2691,7 +2713,7 @@ void ATslPlayerController::ServerBroadCastCastingBar(float CastTime, const struc
 void ATslPlayerController::ServerBEServerCommand(const struct FString& Command, const struct FString& Arg0, const struct FString& Arg1, const struct FString& Arg2)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15454);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15497);
 
 	ATslPlayerController_ServerBEServerCommand_Params params;
 	params.Command = Command;
@@ -2716,7 +2738,7 @@ void ATslPlayerController::ServerBEServerCommand(const struct FString& Command, 
 void ATslPlayerController::ServerAdmin(const struct FString& AdminCommand)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15452);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15495);
 
 	ATslPlayerController_ServerAdmin_Params params;
 	params.AdminCommand = AdminCommand;
@@ -2740,7 +2762,7 @@ void ATslPlayerController::ServerAdmin(const struct FString& AdminCommand)
 void ATslPlayerController::SendSystemMessage(ESystemMessageType MessageType, const struct FText& Message, float MessageDuration)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15447);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15490);
 
 	ATslPlayerController_SendSystemMessage_Params params;
 	params.MessageType = MessageType;
@@ -2764,7 +2786,7 @@ void ATslPlayerController::SendSystemMessage(ESystemMessageType MessageType, con
 void ATslPlayerController::Say(const struct FString& Msg)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15445);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15488);
 
 	ATslPlayerController_Say_Params params;
 	params.Msg = Msg;
@@ -2787,7 +2809,7 @@ void ATslPlayerController::Say(const struct FString& Msg)
 void ATslPlayerController::SaveGearProfile(int ProfileIndex, TArray<class UClass*> inArray)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15441);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15484);
 
 	ATslPlayerController_SaveGearProfile_Params params;
 	params.ProfileIndex = ProfileIndex;
@@ -2811,7 +2833,7 @@ void ATslPlayerController::SaveGearProfile(int ProfileIndex, TArray<class UClass
 void ATslPlayerController::ReliablePong(int SeqID, int64_t DateTimeTickFromServer)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15438);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15481);
 
 	ATslPlayerController_ReliablePong_Params params;
 	params.SeqID = SeqID;
@@ -2835,7 +2857,7 @@ void ATslPlayerController::ReliablePong(int SeqID, int64_t DateTimeTickFromServe
 void ATslPlayerController::ReliablePing(int SeqID, int64_t DateTimeTick)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15435);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15478);
 
 	ATslPlayerController_ReliablePing_Params params;
 	params.SeqID = SeqID;
@@ -2860,7 +2882,7 @@ void ATslPlayerController::ReliablePing(int SeqID, int64_t DateTimeTick)
 void ATslPlayerController::OnShowCastingBarWidget(float CastTime, const struct FText& CastName, bool OnOff)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15431);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15474);
 
 	ATslPlayerController_OnShowCastingBarWidget_Params params;
 	params.CastTime = CastTime;
@@ -2882,7 +2904,7 @@ void ATslPlayerController::OnShowCastingBarWidget(float CastTime, const struct F
 void ATslPlayerController::OnRep_Team()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15430);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15473);
 
 	ATslPlayerController_OnRep_Team_Params params;
 
@@ -2901,7 +2923,7 @@ void ATslPlayerController::OnRep_Team()
 void ATslPlayerController::OnRep_CameraViewBehaviour()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15429);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15472);
 
 	ATslPlayerController_OnRep_CameraViewBehaviour_Params params;
 
@@ -2920,7 +2942,7 @@ void ATslPlayerController::OnRep_CameraViewBehaviour()
 void ATslPlayerController::OnRep_bUseTPAntibotClient()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15428);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15471);
 
 	ATslPlayerController_OnRep_bUseTPAntibotClient_Params params;
 
@@ -2941,7 +2963,7 @@ void ATslPlayerController::OnRep_bUseTPAntibotClient()
 void ATslPlayerController::OnMoveToVehicleSeat(unsigned char idx)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15426);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15469);
 
 	ATslPlayerController_OnMoveToVehicleSeat_Params params;
 	params.idx = idx;
@@ -2961,7 +2983,7 @@ void ATslPlayerController::OnMoveToVehicleSeat(unsigned char idx)
 void ATslPlayerController::OnItemStackCountHandlingMode()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15425);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15468);
 
 	ATslPlayerController_OnItemStackCountHandlingMode_Params params;
 
@@ -2982,7 +3004,7 @@ void ATslPlayerController::OnItemStackCountHandlingMode()
 void ATslPlayerController::OnFinishInteractionCast(class UObject* CastObject)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15423);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15466);
 
 	ATslPlayerController_OnFinishInteractionCast_Params params;
 	params.CastObject = CastObject;
@@ -3002,7 +3024,7 @@ void ATslPlayerController::OnFinishInteractionCast(class UObject* CastObject)
 void ATslPlayerController::OnExecuteExitCommand()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15422);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15465);
 
 	ATslPlayerController_OnExecuteExitCommand_Params params;
 
@@ -3020,15 +3042,17 @@ void ATslPlayerController::OnExecuteExitCommand()
 // Parameters:
 // EReportCause                   ReportCause                    (Parm, ZeroConstructor, IsPlainOldData)
 // ESubjectToReport               SubjectToReport                (Parm, ZeroConstructor, IsPlainOldData)
+// TArray<EReportDetailCauseType> ReportDetailCauseTypeList      (Parm, ZeroConstructor)
 
-void ATslPlayerController::OnClickedReportButton(EReportCause ReportCause, ESubjectToReport SubjectToReport)
+void ATslPlayerController::OnClickedReportButton(EReportCause ReportCause, ESubjectToReport SubjectToReport, TArray<EReportDetailCauseType> ReportDetailCauseTypeList)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15417);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15457);
 
 	ATslPlayerController_OnClickedReportButton_Params params;
 	params.ReportCause = ReportCause;
 	params.SubjectToReport = SubjectToReport;
+	params.ReportDetailCauseTypeList = ReportDetailCauseTypeList;
 
 	auto flags = fn->FunctionFlags;
 	fn->FunctionFlags |= 0x400;
@@ -3047,7 +3071,7 @@ void ATslPlayerController::OnClickedReportButton(EReportCause ReportCause, ESubj
 void ATslPlayerController::OnCancelInteractionCast(class UObject* CastObject)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15415);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15455);
 
 	ATslPlayerController_OnCancelInteractionCast_Params params;
 	params.CastObject = CastObject;
@@ -3067,7 +3091,7 @@ void ATslPlayerController::OnCancelInteractionCast(class UObject* CastObject)
 void ATslPlayerController::OffItemStackCountHandlingMode()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15414);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15454);
 
 	ATslPlayerController_OffItemStackCountHandlingMode_Params params;
 
@@ -3088,7 +3112,7 @@ void ATslPlayerController::OffItemStackCountHandlingMode()
 void ATslPlayerController::ObserverTeleportTo(const struct FVector& Location)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15412);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15452);
 
 	ATslPlayerController_ObserverTeleportTo_Params params;
 	params.Location = Location;
@@ -3108,7 +3132,7 @@ void ATslPlayerController::ObserverTeleportTo(const struct FVector& Location)
 void ATslPlayerController::NextSetViewTarget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15411);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15451);
 
 	ATslPlayerController_NextSetViewTarget_Params params;
 
@@ -3130,7 +3154,7 @@ void ATslPlayerController::NextSetViewTarget()
 void ATslPlayerController::KickCharacter(class ATslCharacter* TslCharacter, const struct FText& Reason)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15408);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15448);
 
 	ATslPlayerController_KickCharacter_Params params;
 	params.TslCharacter = TslCharacter;
@@ -3153,7 +3177,7 @@ void ATslPlayerController::KickCharacter(class ATslCharacter* TslCharacter, cons
 bool ATslPlayerController::IsSpectatorState()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15406);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15446);
 
 	ATslPlayerController_IsSpectatorState_Params params;
 
@@ -3176,7 +3200,7 @@ bool ATslPlayerController::IsSpectatorState()
 bool ATslPlayerController::IsSpectating()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15404);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15444);
 
 	ATslPlayerController_IsSpectating_Params params;
 
@@ -3200,7 +3224,7 @@ bool ATslPlayerController::IsSpectating()
 bool ATslPlayerController::IsSameObservingCameraMode(EObserverCameraMode CameraType)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15400);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15440);
 
 	ATslPlayerController_IsSameObservingCameraMode_Params params;
 	params.CameraType = CameraType;
@@ -3224,7 +3248,7 @@ bool ATslPlayerController::IsSameObservingCameraMode(EObserverCameraMode CameraT
 bool ATslPlayerController::IsReplayingKillcam()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15398);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15438);
 
 	ATslPlayerController_IsReplayingKillcam_Params params;
 
@@ -3247,7 +3271,7 @@ bool ATslPlayerController::IsReplayingKillcam()
 bool ATslPlayerController::IsReplaying()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15396);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15436);
 
 	ATslPlayerController_IsReplaying_Params params;
 
@@ -3270,7 +3294,7 @@ bool ATslPlayerController::IsReplaying()
 bool ATslPlayerController::IsObserving()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15394);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15434);
 
 	ATslPlayerController_IsObserving_Params params;
 
@@ -3293,7 +3317,7 @@ bool ATslPlayerController::IsObserving()
 bool ATslPlayerController::IsItemStackCountHandlingMode()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15392);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15432);
 
 	ATslPlayerController_IsItemStackCountHandlingMode_Params params;
 
@@ -3316,7 +3340,7 @@ bool ATslPlayerController::IsItemStackCountHandlingMode()
 bool ATslPlayerController::IsHighPing()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15390);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15430);
 
 	ATslPlayerController_IsHighPing_Params params;
 
@@ -3339,7 +3363,7 @@ bool ATslPlayerController::IsHighPing()
 bool ATslPlayerController::IsGroggying()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15388);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15428);
 
 	ATslPlayerController_IsGroggying_Params params;
 
@@ -3362,7 +3386,7 @@ bool ATslPlayerController::IsGroggying()
 bool ATslPlayerController::IsGamepadHoldProcessing()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15386);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15426);
 
 	ATslPlayerController_IsGamepadHoldProcessing_Params params;
 
@@ -3385,7 +3409,7 @@ bool ATslPlayerController::IsGamepadHoldProcessing()
 bool ATslPlayerController::IsGameInputAllowed()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15384);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15424);
 
 	ATslPlayerController_IsGameInputAllowed_Params params;
 
@@ -3406,7 +3430,7 @@ bool ATslPlayerController::IsGameInputAllowed()
 void ATslPlayerController::HideTslDebugInfomation()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15383);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15423);
 
 	ATslPlayerController_HideTslDebugInfomation_Params params;
 
@@ -3425,7 +3449,7 @@ void ATslPlayerController::HideTslDebugInfomation()
 void ATslPlayerController::HideMatchResult()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15382);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15422);
 
 	ATslPlayerController_HideMatchResult_Params params;
 
@@ -3446,7 +3470,7 @@ void ATslPlayerController::HideMatchResult()
 class UVivoxComponent* ATslPlayerController::GetVivoxComponent()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15380);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15420);
 
 	ATslPlayerController_GetVivoxComponent_Params params;
 
@@ -3469,7 +3493,7 @@ class UVivoxComponent* ATslPlayerController::GetVivoxComponent()
 class ATslCharacter* ATslPlayerController::GetViewTargetTslCharacter()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15378);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15418);
 
 	ATslPlayerController_GetViewTargetTslCharacter_Params params;
 
@@ -3492,7 +3516,7 @@ class ATslCharacter* ATslPlayerController::GetViewTargetTslCharacter()
 class ATeam* ATslPlayerController::GetViewTargetTeam()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15376);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15416);
 
 	ATslPlayerController_GetViewTargetTeam_Params params;
 
@@ -3515,7 +3539,7 @@ class ATeam* ATslPlayerController::GetViewTargetTeam()
 TArray<struct FTslPlayerMatchResultInfo> ATslPlayerController::GetTslZombieMatchResultInfos()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15373);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15413);
 
 	ATslPlayerController_GetTslZombieMatchResultInfos_Params params;
 
@@ -3538,7 +3562,7 @@ TArray<struct FTslPlayerMatchResultInfo> ATslPlayerController::GetTslZombieMatch
 TArray<struct FTslPlayerMatchResultInfo> ATslPlayerController::GetTslPlayerMatchResultInfos()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15370);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15410);
 
 	ATslPlayerController_GetTslPlayerMatchResultInfos_Params params;
 
@@ -3561,7 +3585,7 @@ TArray<struct FTslPlayerMatchResultInfo> ATslPlayerController::GetTslPlayerMatch
 TArray<struct FTslPlayerMatchResultInfo> ATslPlayerController::GetTslHumanMatchResultInfos()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15367);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15407);
 
 	ATslPlayerController_GetTslHumanMatchResultInfos_Params params;
 
@@ -3584,7 +3608,7 @@ TArray<struct FTslPlayerMatchResultInfo> ATslPlayerController::GetTslHumanMatchR
 class ATslCharacter* ATslPlayerController::GetTslCharacter()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15365);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15405);
 
 	ATslPlayerController_GetTslCharacter_Params params;
 
@@ -3607,7 +3631,7 @@ class ATslCharacter* ATslPlayerController::GetTslCharacter()
 int ATslPlayerController::GetTeamOverallKillCountAtObserving()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15363);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15403);
 
 	ATslPlayerController_GetTeamOverallKillCountAtObserving_Params params;
 
@@ -3630,7 +3654,7 @@ int ATslPlayerController::GetTeamOverallKillCountAtObserving()
 int ATslPlayerController::GetTeamMemberCount()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15361);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15401);
 
 	ATslPlayerController_GetTeamMemberCount_Params params;
 
@@ -3653,7 +3677,7 @@ int ATslPlayerController::GetTeamMemberCount()
 struct FRotator ATslPlayerController::GetTargetViewRotation()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15359);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15399);
 
 	ATslPlayerController_GetTargetViewRotation_Params params;
 
@@ -3676,7 +3700,7 @@ struct FRotator ATslPlayerController::GetTargetViewRotation()
 struct FString ATslPlayerController::GetSpectatingPlayerName()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15357);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15397);
 
 	ATslPlayerController_GetSpectatingPlayerName_Params params;
 
@@ -3699,7 +3723,7 @@ struct FString ATslPlayerController::GetSpectatingPlayerName()
 TArray<class ATslCharacter*> ATslPlayerController::GetReplicateTeamMembers()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15354);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15394);
 
 	ATslPlayerController_GetReplicateTeamMembers_Params params;
 
@@ -3722,7 +3746,7 @@ TArray<class ATslCharacter*> ATslPlayerController::GetReplicateTeamMembers()
 TArray<class ATslCharacter*> ATslPlayerController::GetReplicateCharacters()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15351);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15391);
 
 	ATslPlayerController_GetReplicateCharacters_Params params;
 
@@ -3745,7 +3769,7 @@ TArray<class ATslCharacter*> ATslPlayerController::GetReplicateCharacters()
 TArray<class ACarePackageItem*> ATslPlayerController::GetReplicateCarePackageItems()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15348);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15388);
 
 	ATslPlayerController_GetReplicateCarePackageItems_Params params;
 
@@ -3768,7 +3792,7 @@ TArray<class ACarePackageItem*> ATslPlayerController::GetReplicateCarePackageIte
 float ATslPlayerController::GetOtherElapsedCastTime()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15346);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15386);
 
 	ATslPlayerController_GetOtherElapsedCastTime_Params params;
 
@@ -3791,7 +3815,7 @@ float ATslPlayerController::GetOtherElapsedCastTime()
 float ATslPlayerController::GetOtherCastTime()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15344);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15384);
 
 	ATslPlayerController_GetOtherCastTime_Params params;
 
@@ -3814,7 +3838,7 @@ float ATslPlayerController::GetOtherCastTime()
 struct FText ATslPlayerController::GetOtherCastingName()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15342);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15382);
 
 	ATslPlayerController_GetOtherCastingName_Params params;
 
@@ -3837,7 +3861,7 @@ struct FText ATslPlayerController::GetOtherCastingName()
 EObserverCameraMode ATslPlayerController::GetObserverCameraMode()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15339);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15379);
 
 	ATslPlayerController_GetObserverCameraMode_Params params;
 
@@ -3860,7 +3884,7 @@ EObserverCameraMode ATslPlayerController::GetObserverCameraMode()
 EObserverAuthorityType ATslPlayerController::GetObserverAuthorityType()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15336);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15376);
 
 	ATslPlayerController_GetObserverAuthorityType_Params params;
 
@@ -3883,7 +3907,7 @@ EObserverAuthorityType ATslPlayerController::GetObserverAuthorityType()
 struct FString ATslPlayerController::GetKillerName()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15334);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15374);
 
 	ATslPlayerController_GetKillerName_Params params;
 
@@ -3906,7 +3930,7 @@ struct FString ATslPlayerController::GetKillerName()
 struct FText ATslPlayerController::GetHudDebugText()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15332);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15372);
 
 	ATslPlayerController_GetHudDebugText_Params params;
 
@@ -3930,7 +3954,7 @@ struct FText ATslPlayerController::GetHudDebugText()
 TArray<class UClass*> ATslPlayerController::GetGearProfile(int ProfileIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15328);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15368);
 
 	ATslPlayerController_GetGearProfile_Params params;
 	params.ProfileIndex = ProfileIndex;
@@ -3954,7 +3978,7 @@ TArray<class UClass*> ATslPlayerController::GetGearProfile(int ProfileIndex)
 float ATslPlayerController::GetCurrentHoldProgressRate()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15326);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15366);
 
 	ATslPlayerController_GetCurrentHoldProgressRate_Params params;
 
@@ -3978,7 +4002,7 @@ float ATslPlayerController::GetCurrentHoldProgressRate()
 TArray<class ATeam*> ATslPlayerController::GetClientTeam(bool IncludeSelf)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15322);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15362);
 
 	ATslPlayerController_GetClientTeam_Params params;
 	params.IncludeSelf = IncludeSelf;
@@ -4002,7 +4026,7 @@ TArray<class ATeam*> ATslPlayerController::GetClientTeam(bool IncludeSelf)
 bool ATslPlayerController::GetCanAllSpectate()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15320);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15360);
 
 	ATslPlayerController_GetCanAllSpectate_Params params;
 
@@ -4025,7 +4049,7 @@ bool ATslPlayerController::GetCanAllSpectate()
 int ATslPlayerController::GetAliveTeamMemberCount()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15318);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15358);
 
 	ATslPlayerController_GetAliveTeamMemberCount_Params params;
 
@@ -4046,7 +4070,7 @@ int ATslPlayerController::GetAliveTeamMemberCount()
 void ATslPlayerController::DumpActorDetailByRaycast()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15317);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15357);
 
 	ATslPlayerController_DumpActorDetailByRaycast_Params params;
 
@@ -4067,7 +4091,7 @@ void ATslPlayerController::DumpActorDetailByRaycast()
 void ATslPlayerController::DropItem(const struct FString& ItemTypeName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15315);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15355);
 
 	ATslPlayerController_DropItem_Params params;
 	params.ItemTypeName = ItemTypeName;
@@ -4089,7 +4113,7 @@ void ATslPlayerController::DropItem(const struct FString& ItemTypeName)
 bool ATslPlayerController::CompleteReportKiller()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15313);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15353);
 
 	ATslPlayerController_CompleteReportKiller_Params params;
 
@@ -4112,7 +4136,7 @@ bool ATslPlayerController::CompleteReportKiller()
 void ATslPlayerController::ClientWasWarnedTobeKicked(const struct FText& KickReason)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15311);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15351);
 
 	ATslPlayerController_ClientWasWarnedTobeKicked_Params params;
 	params.KickReason = KickReason;
@@ -4134,7 +4158,7 @@ void ATslPlayerController::ClientWasWarnedTobeKicked(const struct FText& KickRea
 void ATslPlayerController::ClientWasKickedAndExit(const struct FText& KickReason)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15309);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15349);
 
 	ATslPlayerController_ClientWasKickedAndExit_Params params;
 	params.KickReason = KickReason;
@@ -4159,7 +4183,7 @@ void ATslPlayerController::ClientWasKickedAndExit(const struct FText& KickReason
 void ATslPlayerController::ClientUpdateSpectatorCameraMode(const struct FName& InCameraName, bool InbFirstPerson, bool InbIsInVehicle, bool InbIsScoping)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15304);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15344);
 
 	ATslPlayerController_ClientUpdateSpectatorCameraMode_Params params;
 	params.InCameraName = InCameraName;
@@ -4182,7 +4206,7 @@ void ATslPlayerController::ClientUpdateSpectatorCameraMode(const struct FName& I
 void ATslPlayerController::ClientStartOnlineGame()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15303);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15343);
 
 	ATslPlayerController_ClientStartOnlineGame_Params params;
 
@@ -4201,7 +4225,7 @@ void ATslPlayerController::ClientStartOnlineGame()
 void ATslPlayerController::ClientShowMatchResult()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15302);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15342);
 
 	ATslPlayerController_ClientShowMatchResult_Params params;
 
@@ -4224,7 +4248,7 @@ void ATslPlayerController::ClientShowMatchResult()
 void ATslPlayerController::ClientShowCastingBar(float CastTime, const struct FText& CastName, bool OnOff)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15298);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15338);
 
 	ATslPlayerController_ClientShowCastingBar_Params params;
 	params.CastTime = CastTime;
@@ -4248,7 +4272,7 @@ void ATslPlayerController::ClientShowCastingBar(float CastTime, const struct FTe
 void ATslPlayerController::ClientSetTslPlayerMatchResultInfos(TArray<struct FTslPlayerMatchResultInfo> InTslPlayerMatchResultInfos)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15295);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15335);
 
 	ATslPlayerController_ClientSetTslPlayerMatchResultInfos_Params params;
 	params.InTslPlayerMatchResultInfos = InTslPlayerMatchResultInfos;
@@ -4270,7 +4294,7 @@ void ATslPlayerController::ClientSetTslPlayerMatchResultInfos(TArray<struct FTsl
 void ATslPlayerController::ClientSetCanAllSpectate(bool InbCanSpectate)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15293);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15333);
 
 	ATslPlayerController_ClientSetCanAllSpectate_Params params;
 	params.InbCanSpectate = InbCanSpectate;
@@ -4292,7 +4316,7 @@ void ATslPlayerController::ClientSetCanAllSpectate(bool InbCanSpectate)
 void ATslPlayerController::ClientSendTPPacketReliable(TArray<unsigned char> Packet)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15290);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15330);
 
 	ATslPlayerController_ClientSendTPPacketReliable_Params params;
 	params.Packet = Packet;
@@ -4315,7 +4339,7 @@ void ATslPlayerController::ClientSendTPPacketReliable(TArray<unsigned char> Pack
 void ATslPlayerController::ClientSendRoundEndEvent(bool bIsWinner, int ExpendedTimeInSeconds)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15287);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15327);
 
 	ATslPlayerController_ClientSendRoundEndEvent_Params params;
 	params.bIsWinner = bIsWinner;
@@ -4338,7 +4362,7 @@ void ATslPlayerController::ClientSendRoundEndEvent(bool bIsWinner, int ExpendedT
 void ATslPlayerController::ClientSendPacketUnreliable(TArray<unsigned char> Packet)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15284);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15324);
 
 	ATslPlayerController_ClientSendPacketUnreliable_Params params;
 	params.Packet = Packet;
@@ -4360,7 +4384,7 @@ void ATslPlayerController::ClientSendPacketUnreliable(TArray<unsigned char> Pack
 void ATslPlayerController::ClientSendPacketReliable(TArray<unsigned char> Packet)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15281);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15321);
 
 	ATslPlayerController_ClientSendPacketReliable_Params params;
 	params.Packet = Packet;
@@ -4380,7 +4404,7 @@ void ATslPlayerController::ClientSendPacketReliable(TArray<unsigned char> Packet
 void ATslPlayerController::ClientOnCharacterRestart()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15280);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15320);
 
 	ATslPlayerController_ClientOnCharacterRestart_Params params;
 
@@ -4404,7 +4428,7 @@ void ATslPlayerController::ClientOnCharacterRestart()
 void ATslPlayerController::ClientOnCharacterDeath(bool bIsTeamMatch, bool bHasAliveTeamMember, const struct FTslReportUserInfo& InKillerInfo, bool InbCanReport)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15275);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15315);
 
 	ATslPlayerController_ClientOnCharacterDeath_Params params;
 	params.bIsTeamMatch = bIsTeamMatch;
@@ -4430,7 +4454,7 @@ void ATslPlayerController::ClientOnCharacterDeath(bool bIsTeamMatch, bool bHasAl
 void ATslPlayerController::ClientNotifyStartBuff(const struct FName& BuffName, bool bStart)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15272);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15312);
 
 	ATslPlayerController_ClientNotifyStartBuff_Params params;
 	params.BuffName = BuffName;
@@ -4453,7 +4477,7 @@ void ATslPlayerController::ClientNotifyStartBuff(const struct FName& BuffName, b
 void ATslPlayerController::ClientNotifySpeedBoost(float Boost)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15270);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15310);
 
 	ATslPlayerController_ClientNotifySpeedBoost_Params params;
 	params.Boost = Boost;
@@ -4473,7 +4497,7 @@ void ATslPlayerController::ClientNotifySpeedBoost(float Boost)
 void ATslPlayerController::ClientNotifyRestrictingPlayArea()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15269);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15309);
 
 	ATslPlayerController_ClientNotifyRestrictingPlayArea_Params params;
 
@@ -4496,7 +4520,7 @@ void ATslPlayerController::ClientNotifyRestrictingPlayArea()
 void ATslPlayerController::ClientNotifyPlayerEndWithoutHitInfo(int Ranking, const struct FTslPlayerStatistics& Statistics, const struct FTslPlayerStatisticsForOwner& StatisticsForOwner)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15265);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15305);
 
 	ATslPlayerController_ClientNotifyPlayerEndWithoutHitInfo_Params params;
 	params.Ranking = Ranking;
@@ -4523,7 +4547,7 @@ void ATslPlayerController::ClientNotifyPlayerEndWithoutHitInfo(int Ranking, cons
 void ATslPlayerController::ClientNotifyPlayerEnd(int Ranking, const struct FTslPlayerStatistics& Statistics, const struct FTslPlayerStatisticsForOwner& StatisticsForOwner, const struct FTakeHitInfo& LastTakeHitInfo)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15260);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15300);
 
 	ATslPlayerController_ClientNotifyPlayerEnd_Params params;
 	params.Ranking = Ranking;
@@ -4549,7 +4573,7 @@ void ATslPlayerController::ClientNotifyPlayerEnd(int Ranking, const struct FTslP
 void ATslPlayerController::ClientNotifyNextGasIn(const struct FVector_NetQuantize& PoisonGasWarningPosition, float PoisonGasWarningRadius)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15257);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15297);
 
 	ATslPlayerController_ClientNotifyNextGasIn_Params params;
 	params.PoisonGasWarningPosition = PoisonGasWarningPosition;
@@ -4572,7 +4596,7 @@ void ATslPlayerController::ClientNotifyNextGasIn(const struct FVector_NetQuantiz
 void ATslPlayerController::ClientNotifyHealAmount_Unreliable(float Heal)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15255);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15295);
 
 	ATslPlayerController_ClientNotifyHealAmount_Unreliable_Params params;
 	params.Heal = Heal;
@@ -4594,7 +4618,7 @@ void ATslPlayerController::ClientNotifyHealAmount_Unreliable(float Heal)
 void ATslPlayerController::ClientNotifyHealAmount_Reliable(float Heal)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15253);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15293);
 
 	ATslPlayerController_ClientNotifyHealAmount_Reliable_Params params;
 	params.Heal = Heal;
@@ -4616,7 +4640,7 @@ void ATslPlayerController::ClientNotifyHealAmount_Reliable(float Heal)
 void ATslPlayerController::ClientNotifyHealAmount(float Heal)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15251);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15291);
 
 	ATslPlayerController_ClientNotifyHealAmount_Params params;
 	params.Heal = Heal;
@@ -4640,7 +4664,7 @@ void ATslPlayerController::ClientNotifyHealAmount(float Heal)
 void ATslPlayerController::ClientNotifyHeal_Unreliable(float HealthStart, float Health, float MaxHealth)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15247);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15287);
 
 	ATslPlayerController_ClientNotifyHeal_Unreliable_Params params;
 	params.HealthStart = HealthStart;
@@ -4666,7 +4690,7 @@ void ATslPlayerController::ClientNotifyHeal_Unreliable(float HealthStart, float 
 void ATslPlayerController::ClientNotifyHeal_Reliable(float HealthStart, float Health, float MaxHealth)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15243);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15283);
 
 	ATslPlayerController_ClientNotifyHeal_Reliable_Params params;
 	params.HealthStart = HealthStart;
@@ -4692,7 +4716,7 @@ void ATslPlayerController::ClientNotifyHeal_Reliable(float HealthStart, float He
 void ATslPlayerController::ClientNotifyHeal(float HealthStart, float Health, float MaxHealth)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15239);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15279);
 
 	ATslPlayerController_ClientNotifyHeal_Params params;
 	params.HealthStart = HealthStart;
@@ -4716,7 +4740,7 @@ void ATslPlayerController::ClientNotifyHeal(float HealthStart, float Health, flo
 void ATslPlayerController::ClientInteractByComponent(class UActorComponent* TargetComponent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15237);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15277);
 
 	ATslPlayerController_ClientInteractByComponent_Params params;
 	params.TargetComponent = TargetComponent;
@@ -4738,7 +4762,7 @@ void ATslPlayerController::ClientInteractByComponent(class UActorComponent* Targ
 void ATslPlayerController::ClientInteract(class AActor* TargetObject)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15235);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15275);
 
 	ATslPlayerController_ClientInteract_Params params;
 	params.TargetObject = TargetObject;
@@ -4758,7 +4782,7 @@ void ATslPlayerController::ClientInteract(class AActor* TargetObject)
 void ATslPlayerController::ClientGameStarted()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15234);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15274);
 
 	ATslPlayerController_ClientGameStarted_Params params;
 
@@ -4777,7 +4801,7 @@ void ATslPlayerController::ClientGameStarted()
 void ATslPlayerController::ClientEndOnlineGame()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15233);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15273);
 
 	ATslPlayerController_ClientEndOnlineGame_Params params;
 
@@ -4798,7 +4822,7 @@ void ATslPlayerController::ClientEndOnlineGame()
 void ATslPlayerController::ClientAdminCopyString(const struct FString& inString)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15231);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15271);
 
 	ATslPlayerController_ClientAdminCopyString_Params params;
 	params.inString = inString;
@@ -4820,7 +4844,7 @@ void ATslPlayerController::ClientAdminCopyString(const struct FString& inString)
 void ATslPlayerController::Cheat_ServerSpawnVehicle(int VehicleIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15229);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15269);
 
 	ATslPlayerController_Cheat_ServerSpawnVehicle_Params params;
 	params.VehicleIndex = VehicleIndex;
@@ -4842,7 +4866,7 @@ void ATslPlayerController::Cheat_ServerSpawnVehicle(int VehicleIndex)
 bool ATslPlayerController::CanSeeTerrainThroughFogInTheAir()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15227);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15267);
 
 	ATslPlayerController_CanSeeTerrainThroughFogInTheAir_Params params;
 
@@ -4865,7 +4889,7 @@ bool ATslPlayerController::CanSeeTerrainThroughFogInTheAir()
 bool ATslPlayerController::CanReport()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15225);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15265);
 
 	ATslPlayerController_CanReport_Params params;
 
@@ -4888,7 +4912,7 @@ bool ATslPlayerController::CanReport()
 void ATslPlayerController::BP_Test_SpawnVehicle(int VehicleIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15223);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15263);
 
 	ATslPlayerController_BP_Test_SpawnVehicle_Params params;
 	params.VehicleIndex = VehicleIndex;
@@ -4913,7 +4937,7 @@ void ATslPlayerController::BP_Test_SpawnVehicle(int VehicleIndex)
 void ATslPlayerController::BEServer(const struct FString& Command, const struct FString& Arg0, const struct FString& Arg1, const struct FString& Arg2)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15218);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15258);
 
 	ATslPlayerController_BEServer_Params params;
 	params.Command = Command;
@@ -4938,7 +4962,7 @@ void ATslPlayerController::BEServer(const struct FString& Command, const struct 
 void ATslPlayerController::BEClient(const struct FString& Command)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15216);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15256);
 
 	ATslPlayerController_BEClient_Params params;
 	params.Command = Command;
@@ -4960,7 +4984,7 @@ void ATslPlayerController::BEClient(const struct FString& Command)
 void ATslPlayerController::Admin(const struct FString& ServerAdminCommand)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15214);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15254);
 
 	ATslPlayerController_Admin_Params params;
 	params.ServerAdminCommand = ServerAdminCommand;
@@ -4982,7 +5006,7 @@ void ATslPlayerController::Admin(const struct FString& ServerAdminCommand)
 void AConsoleCommandExecutor::ExecuteConsoleCommands(TArray<struct FString> Commands)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15599);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15642);
 
 	AConsoleCommandExecutor_ExecuteConsoleCommands_Params params;
 	params.Commands = Commands;
@@ -5004,7 +5028,7 @@ void AConsoleCommandExecutor::ExecuteConsoleCommands(TArray<struct FString> Comm
 bool USlotInterface::IsWeapon()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15644);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15687);
 
 	USlotInterface_IsWeapon_Params params;
 
@@ -5027,7 +5051,7 @@ bool USlotInterface::IsWeapon()
 bool USlotInterface::IsStackable()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15642);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15685);
 
 	USlotInterface_IsStackable_Params params;
 
@@ -5050,7 +5074,7 @@ bool USlotInterface::IsStackable()
 bool USlotInterface::IsPackageItem()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15640);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15683);
 
 	USlotInterface_IsPackageItem_Params params;
 
@@ -5073,7 +5097,7 @@ bool USlotInterface::IsPackageItem()
 bool USlotInterface::IsEquipable()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15638);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15681);
 
 	USlotInterface_IsEquipable_Params params;
 
@@ -5096,7 +5120,7 @@ bool USlotInterface::IsEquipable()
 bool USlotInterface::IsCastableItem()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15636);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15679);
 
 	USlotInterface_IsCastableItem_Params params;
 
@@ -5119,7 +5143,7 @@ bool USlotInterface::IsCastableItem()
 bool USlotInterface::IsAttachment()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15634);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15677);
 
 	USlotInterface_IsAttachment_Params params;
 
@@ -5142,7 +5166,7 @@ bool USlotInterface::IsAttachment()
 float USlotInterface::GetUnitSpace()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15632);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15675);
 
 	USlotInterface_GetUnitSpace_Params params;
 
@@ -5165,7 +5189,7 @@ float USlotInterface::GetUnitSpace()
 class UTexture* USlotInterface::GetToolTipIconTexture()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15630);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15673);
 
 	USlotInterface_GetToolTipIconTexture_Params params;
 
@@ -5188,7 +5212,7 @@ class UTexture* USlotInterface::GetToolTipIconTexture()
 float USlotInterface::GetToolTipIconSizeRatio()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15628);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15671);
 
 	USlotInterface_GetToolTipIconSizeRatio_Params params;
 
@@ -5211,7 +5235,7 @@ float USlotInterface::GetToolTipIconSizeRatio()
 int USlotInterface::GetStackCountMax()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15626);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15669);
 
 	USlotInterface_GetStackCountMax_Params params;
 
@@ -5234,7 +5258,7 @@ int USlotInterface::GetStackCountMax()
 int USlotInterface::GetStackCount()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15624);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15667);
 
 	USlotInterface_GetStackCount_Params params;
 
@@ -5257,7 +5281,7 @@ int USlotInterface::GetStackCount()
 float USlotInterface::GetSpace()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15622);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15665);
 
 	USlotInterface_GetSpace_Params params;
 
@@ -5280,7 +5304,7 @@ float USlotInterface::GetSpace()
 int USlotInterface::GetSortPriority()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15620);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15663);
 
 	USlotInterface_GetSortPriority_Params params;
 
@@ -5303,7 +5327,7 @@ int USlotInterface::GetSortPriority()
 struct FText USlotInterface::GetSlotName()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15618);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15661);
 
 	USlotInterface_GetSlotName_Params params;
 
@@ -5326,7 +5350,7 @@ struct FText USlotInterface::GetSlotName()
 struct FText USlotInterface::GetSlotDetailedName()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15616);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15659);
 
 	USlotInterface_GetSlotDetailedName_Params params;
 
@@ -5349,7 +5373,7 @@ struct FText USlotInterface::GetSlotDetailedName()
 struct FText USlotInterface::GetSlotDescription()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15614);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15657);
 
 	USlotInterface_GetSlotDescription_Params params;
 
@@ -5372,7 +5396,7 @@ struct FText USlotInterface::GetSlotDescription()
 struct FText USlotInterface::GetSlotCategory()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15612);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15655);
 
 	USlotInterface_GetSlotCategory_Params params;
 
@@ -5395,7 +5419,7 @@ struct FText USlotInterface::GetSlotCategory()
 class UTexture* USlotInterface::GetIconTexture()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15610);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15653);
 
 	USlotInterface_GetIconTexture_Params params;
 
@@ -5418,7 +5442,7 @@ class UTexture* USlotInterface::GetIconTexture()
 float USlotInterface::GetIconSizeRatio()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15608);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15651);
 
 	USlotInterface_GetIconSizeRatio_Params params;
 
@@ -5441,7 +5465,7 @@ float USlotInterface::GetIconSizeRatio()
 class UAkAudioEvent* USlotInterface::GetDropSound()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15606);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15649);
 
 	USlotInterface_GetDropSound_Params params;
 
@@ -5464,7 +5488,7 @@ class UAkAudioEvent* USlotInterface::GetDropSound()
 void USlotContainerInterface::ShowSlotContextMenu(const TScriptInterface<class USlotInterface>& Slot)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15686);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15729);
 
 	USlotContainerInterface_ShowSlotContextMenu_Params params;
 	params.Slot = Slot;
@@ -5489,7 +5513,7 @@ void USlotContainerInterface::ShowSlotContextMenu(const TScriptInterface<class U
 bool USlotContainerInterface::IsEnableAction(const TScriptInterface<class USlotInterface>& Slot, const TScriptInterface<class USlotContainerInterface>& OtherContainer, const struct FString& Options)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15681);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15724);
 
 	USlotContainerInterface_IsEnableAction_Params params;
 	params.Slot = Slot;
@@ -5513,7 +5537,7 @@ bool USlotContainerInterface::IsEnableAction(const TScriptInterface<class USlotI
 void USlotContainerInterface::HideSlotContextMenu()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15680);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15723);
 
 	USlotContainerInterface_HideSlotContextMenu_Params params;
 
@@ -5534,7 +5558,7 @@ void USlotContainerInterface::HideSlotContextMenu()
 TScriptInterface<class USlotInterface> USlotContainerInterface::GetSlotContext()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15678);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15721);
 
 	USlotContainerInterface_GetSlotContext_Params params;
 
@@ -5557,7 +5581,7 @@ TScriptInterface<class USlotInterface> USlotContainerInterface::GetSlotContext()
 class AActor* USlotContainerInterface::GetSlotContainerOwner()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15676);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15719);
 
 	USlotContainerInterface_GetSlotContainerOwner_Params params;
 
@@ -5580,7 +5604,7 @@ class AActor* USlotContainerInterface::GetSlotContainerOwner()
 struct FName USlotContainerInterface::GetSlotContainerName()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15674);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15717);
 
 	USlotContainerInterface_GetSlotContainerName_Params params;
 
@@ -5604,7 +5628,7 @@ struct FName USlotContainerInterface::GetSlotContainerName()
 struct FName USlotContainerInterface::GetDefaultActionName(const TScriptInterface<class USlotInterface>& Slot)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15671);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15714);
 
 	USlotContainerInterface_GetDefaultActionName_Params params;
 	params.Slot = Slot;
@@ -5629,7 +5653,7 @@ struct FName USlotContainerInterface::GetDefaultActionName(const TScriptInterfac
 TArray<struct FName> USlotContainerInterface::GetAvailableSlotActions(const TScriptInterface<class USlotInterface>& Slot)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15667);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15710);
 
 	USlotContainerInterface_GetAvailableSlotActions_Params params;
 	params.Slot = Slot;
@@ -5653,7 +5677,7 @@ TArray<struct FName> USlotContainerInterface::GetAvailableSlotActions(const TScr
 TArray<TScriptInterface<class USlotInterface>> USlotContainerInterface::GetAllSlots()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15664);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15707);
 
 	USlotContainerInterface_GetAllSlots_Params params;
 
@@ -5679,7 +5703,7 @@ TArray<TScriptInterface<class USlotInterface>> USlotContainerInterface::GetAllSl
 struct FName USlotContainerInterface::GetActionName(const TScriptInterface<class USlotInterface>& Slot, const TScriptInterface<class USlotContainerInterface>& OtherContainer, const struct FString& Options)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15659);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15702);
 
 	USlotContainerInterface_GetActionName_Params params;
 	params.Slot = Slot;
@@ -5707,7 +5731,7 @@ struct FName USlotContainerInterface::GetActionName(const TScriptInterface<class
 void USlotContainerInterface::DropSlotOnOtherContainer(const TScriptInterface<class USlotInterface>& Slot, const TScriptInterface<class USlotContainerInterface>& OtherContainer, const struct FString& Options)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15655);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15698);
 
 	USlotContainerInterface_DropSlotOnOtherContainer_Params params;
 	params.Slot = Slot;
@@ -5731,7 +5755,7 @@ void USlotContainerInterface::DropSlotOnOtherContainer(const TScriptInterface<cl
 void USlotContainerInterface::DoSlotActionDefault(const TScriptInterface<class USlotInterface>& Slot)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15653);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15696);
 
 	USlotContainerInterface_DoSlotActionDefault_Params params;
 	params.Slot = Slot;
@@ -5754,7 +5778,7 @@ void USlotContainerInterface::DoSlotActionDefault(const TScriptInterface<class U
 void USlotContainerInterface::DoSlotAction(const struct FName& ActionName, const struct FString& Options)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15650);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15693);
 
 	USlotContainerInterface_DoSlotAction_Params params;
 	params.ActionName = ActionName;
@@ -5779,7 +5803,7 @@ void USlotContainerInterface::DoSlotAction(const struct FName& ActionName, const
 void USlotContainerInterface::DoActionWithSlot(const TScriptInterface<class USlotInterface>& Slot, const struct FName& ActionName, const struct FString& Options)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15646);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15689);
 
 	USlotContainerInterface_DoActionWithSlot_Params params;
 	params.Slot = Slot;
@@ -5801,7 +5825,7 @@ void USlotContainerInterface::DoActionWithSlot(const TScriptInterface<class USlo
 void UItemExplorerInterface::UpdateItemList()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15693);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15736);
 
 	UItemExplorerInterface_UpdateItemList_Params params;
 
@@ -5822,7 +5846,7 @@ void UItemExplorerInterface::UpdateItemList()
 TArray<TScriptInterface<class USlotInterface>> UItemExplorerInterface::GetExplorableItemSlotList()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15690);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15733);
 
 	UItemExplorerInterface_GetExplorableItemSlotList_Params params;
 
@@ -5845,7 +5869,7 @@ TArray<TScriptInterface<class USlotInterface>> UItemExplorerInterface::GetExplor
 bool UExplorableItemInterface::IsValidExplorableItem()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15700);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15743);
 
 	UExplorableItemInterface_IsValidExplorableItem_Params params;
 
@@ -5868,7 +5892,7 @@ bool UExplorableItemInterface::IsValidExplorableItem()
 struct FName UExplorableItemInterface::GetInteractiveActionName()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15698);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15741);
 
 	UExplorableItemInterface_GetInteractiveActionName_Params params;
 
@@ -5891,7 +5915,7 @@ struct FName UExplorableItemInterface::GetInteractiveActionName()
 float UExplorableItemInterface::GetExplorationDistance()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15696);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15739);
 
 	UExplorableItemInterface_GetExplorationDistance_Params params;
 
@@ -5915,7 +5939,7 @@ float UExplorableItemInterface::GetExplorationDistance()
 bool UItem::UseBy(class ATslCharacter* Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15721);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15764);
 
 	UItem_UseBy_Params params;
 	params.Character = Character;
@@ -5942,7 +5966,7 @@ bool UItem::UseBy(class ATslCharacter* Character)
 bool UItem::PickUpBy(class ATslCharacter* Character, const struct FName& TargetContainer, const struct FString& Options)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15716);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15759);
 
 	UItem_PickUpBy_Params params;
 	params.Character = Character;
@@ -5968,7 +5992,7 @@ bool UItem::PickUpBy(class ATslCharacter* Character, const struct FName& TargetC
 bool UItem::IsWeapon()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15714);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15757);
 
 	UItem_IsWeapon_Params params;
 
@@ -5991,7 +6015,7 @@ bool UItem::IsWeapon()
 bool UItem::IsToy()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15712);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15755);
 
 	UItem_IsToy_Params params;
 
@@ -6014,7 +6038,7 @@ bool UItem::IsToy()
 bool UItem::IsPackageItem()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15710);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15753);
 
 	UItem_IsPackageItem_Params params;
 
@@ -6037,7 +6061,7 @@ bool UItem::IsPackageItem()
 bool UItem::IsEquipable()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15708);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15751);
 
 	UItem_IsEquipable_Params params;
 
@@ -6060,7 +6084,7 @@ bool UItem::IsEquipable()
 bool UItem::IsCastableItem()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15706);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15749);
 
 	UItem_IsCastableItem_Params params;
 
@@ -6083,7 +6107,7 @@ bool UItem::IsCastableItem()
 bool UItem::IsAttachment()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15704);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15747);
 
 	UItem_IsAttachment_Params params;
 
@@ -6106,7 +6130,7 @@ bool UItem::IsAttachment()
 class UTexture* UItem::GetIconTexture()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15702);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15745);
 
 	UItem_GetIconTexture_Params params;
 
@@ -6127,7 +6151,7 @@ class UTexture* UItem::GetIconTexture()
 void AItemPackage::Items_RepNotify()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15761);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15804);
 
 	AItemPackage_Items_RepNotify_Params params;
 
@@ -6149,7 +6173,7 @@ void AItemPackage::Items_RepNotify()
 bool AItemPackage::IsOpenedBy(class ATslCharacter* Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15758);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15801);
 
 	AItemPackage_IsOpenedBy_Params params;
 	params.Character = Character;
@@ -6173,7 +6197,7 @@ bool AItemPackage::IsOpenedBy(class ATslCharacter* Character)
 void AItemPackage::ClientOnInteractBy(class ATslCharacter* OtherCharacter)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15756);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15799);
 
 	AItemPackage_ClientOnInteractBy_Params params;
 	params.OtherCharacter = OtherCharacter;
@@ -6196,7 +6220,7 @@ void AItemPackage::ClientOnInteractBy(class ATslCharacter* OtherCharacter)
 bool AItemPackage::AllowInteract(class ATslCharacter* OtherCharacter)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15753);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15796);
 
 	AItemPackage_AllowInteract_Params params;
 	params.OtherCharacter = OtherCharacter;
@@ -6220,7 +6244,7 @@ bool AItemPackage::AllowInteract(class ATslCharacter* OtherCharacter)
 class UStaticMesh* UDoorFrameComponent::GetDoorStaticMesh()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15801);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15844);
 
 	UDoorFrameComponent_GetDoorStaticMesh_Params params;
 
@@ -6243,7 +6267,7 @@ class UStaticMesh* UDoorFrameComponent::GetDoorStaticMesh()
 void UDoorFrameComponent::DisableSubComponents(bool bDisable)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15799);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15842);
 
 	UDoorFrameComponent_DisableSubComponents_Params params;
 	params.bDisable = bDisable;
@@ -6263,7 +6287,7 @@ void UDoorFrameComponent::DisableSubComponents(bool bDisable)
 void ADroppedItem::Item_RepNotify()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15810);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15853);
 
 	ADroppedItem_Item_RepNotify_Params params;
 
@@ -6282,7 +6306,7 @@ void ADroppedItem::Item_RepNotify()
 void ADroppedItemGroup::OnItemEndPlay()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15820);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15863);
 
 	ADroppedItemGroup_OnItemEndPlay_Params params;
 
@@ -6301,7 +6325,7 @@ void ADroppedItemGroup::OnItemEndPlay()
 void ADroppedItemGroup::OnItemBeginPlay()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15819);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15862);
 
 	ADroppedItemGroup_OnItemBeginPlay_Params params;
 
@@ -6324,7 +6348,7 @@ void ADroppedItemGroup::OnItemBeginPlay()
 bool ADroppedItemGroup::AddItem(class UItem* NewItem, const struct FVector& NewWorldLocation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15815);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15858);
 
 	ADroppedItemGroup_AddItem_Params params;
 	params.NewItem = NewItem;
@@ -6349,7 +6373,7 @@ bool ADroppedItemGroup::AddItem(class UItem* NewItem, const struct FVector& NewW
 class UItem* UDroppedItemInterface::GetDroppedItem()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15823);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15866);
 
 	UDroppedItemInterface_GetDroppedItem_Params params;
 
@@ -6370,7 +6394,7 @@ class UItem* UDroppedItemInterface::GetDroppedItem()
 void AFlashBangCaptureActor::CaptureScreen()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15839);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15882);
 
 	AFlashBangCaptureActor_CaptureScreen_Params params;
 
@@ -6396,7 +6420,7 @@ void AFlashBangCaptureActor::CaptureScreen()
 void AFlashBangCaptureActor::CaptureINIT(bool bDoDelay, float CaptureDelay, class APawn* PlayerRef, class UTextureRenderTarget2D* RenderTexture, const struct FPostProcessSettings& PP_Settings, bool bHidePawn)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15832);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15875);
 
 	AFlashBangCaptureActor_CaptureINIT_Params params;
 	params.bDoDelay = bDoDelay;
@@ -6423,7 +6447,7 @@ void AFlashBangCaptureActor::CaptureINIT(bool bDoDelay, float CaptureDelay, clas
 TArray<class UItem*> UGeneralItemSpawner::CreateItems()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15860);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15904);
 
 	UGeneralItemSpawner_CreateItems_Params params;
 
@@ -6446,7 +6470,7 @@ TArray<class UItem*> UGeneralItemSpawner::CreateItems()
 TArray<struct FItemInitiator> UGeneralItemSpawner::CreateItemInitiators()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15857);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15901);
 
 	UGeneralItemSpawner_CreateItemInitiators_Params params;
 
@@ -6470,7 +6494,7 @@ TArray<struct FItemInitiator> UGeneralItemSpawner::CreateItemInitiators()
 void UHackReporterComponent::ServerOnWallHackDetected(class ATslCharacter* Victim, float Distance)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15867);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15911);
 
 	UHackReporterComponent_ServerOnWallHackDetected_Params params;
 	params.Victim = Victim;
@@ -6491,7 +6515,7 @@ void UHackReporterComponent::ServerOnWallHackDetected(class ATslCharacter* Victi
 void UHighlightSession::RecordRemainEvents()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15875);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15921);
 
 	UHighlightSession_RecordRemainEvents_Params params;
 
@@ -6510,7 +6534,7 @@ void UHighlightSession::RecordRemainEvents()
 void UHighlightSession::MatchEnded()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15874);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15920);
 
 	UHighlightSession_MatchEnded_Params params;
 
@@ -6531,7 +6555,7 @@ void UHighlightSession::MatchEnded()
 void UHighlightSession::KillOtherPlayer(bool bGroggy)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15872);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15918);
 
 	UHighlightSession_KillOtherPlayer_Params params;
 	params.bGroggy = bGroggy;
@@ -6553,10 +6577,32 @@ void UHighlightSession::KillOtherPlayer(bool bGroggy)
 void UHighlightSession::Die(bool bGroggy)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15870);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15916);
 
 	UHighlightSession_Die_Params params;
 	params.bGroggy = bGroggy;
+
+	auto flags = fn->FunctionFlags;
+	fn->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function TslGame.HighlightSession.DeathCamFinished
+// (Final, Native, Private)
+// Parameters:
+// float                          DeathCamRunningTime            (Parm, ZeroConstructor, IsPlainOldData)
+
+void UHighlightSession::DeathCamFinished(float DeathCamRunningTime)
+{
+	static UFunction* fn = nullptr; 
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15914);
+
+	UHighlightSession_DeathCamFinished_Params params;
+	params.DeathCamRunningTime = DeathCamRunningTime;
 
 	auto flags = fn->FunctionFlags;
 	fn->FunctionFlags |= 0x400;
@@ -6575,7 +6621,7 @@ void UHighlightSession::Die(bool bGroggy)
 struct FText UInteractionInterface::GetInteractiveObjectName()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15887);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15934);
 
 	UInteractionInterface_GetInteractiveObjectName_Params params;
 
@@ -6598,7 +6644,7 @@ struct FText UInteractionInterface::GetInteractiveObjectName()
 struct FText UInteractionInterface::GetInteractionVerb()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15885);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15932);
 
 	UInteractionInterface_GetInteractionVerb_Params params;
 
@@ -6622,7 +6668,7 @@ struct FText UInteractionInterface::GetInteractionVerb()
 bool UInteractionInterface::AllowInteractBy(class ATslCharacter* Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15882);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15929);
 
 	UInteractionInterface_AllowInteractBy_Params params;
 	params.Character = Character;
@@ -6646,7 +6692,7 @@ bool UInteractionInterface::AllowInteractBy(class ATslCharacter* Character)
 struct FText UInteractionComponent::GetInteractiveObjectName()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15894);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15941);
 
 	UInteractionComponent_GetInteractiveObjectName_Params params;
 
@@ -6669,7 +6715,7 @@ struct FText UInteractionComponent::GetInteractiveObjectName()
 struct FText UInteractionComponent::GetInteractionVerb()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15892);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15939);
 
 	UInteractionComponent_GetInteractionVerb_Params params;
 
@@ -6693,7 +6739,7 @@ struct FText UInteractionComponent::GetInteractionVerb()
 bool UInteractionComponent::AllowInteractBy(class ATslCharacter* Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15889);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15936);
 
 	UInteractionComponent_AllowInteractBy_Params params;
 	params.Character = Character;
@@ -6717,7 +6763,7 @@ bool UInteractionComponent::AllowInteractBy(class ATslCharacter* Character)
 void UDroppedItemActorComponent::OnInteractDelegate(class ATslCharacter* OtherCharacter)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15912);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15959);
 
 	UDroppedItemActorComponent_OnInteractDelegate_Params params;
 	params.OtherCharacter = OtherCharacter;
@@ -6740,7 +6786,7 @@ void UDroppedItemActorComponent::OnInteractDelegate(class ATslCharacter* OtherCh
 bool UDroppedItemActorComponent::AllowInteractDelegate(class ATslCharacter* OtherCharacter)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15909);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15956);
 
 	UDroppedItemActorComponent_AllowInteractDelegate_Params params;
 	params.OtherCharacter = OtherCharacter;
@@ -6765,7 +6811,7 @@ bool UDroppedItemActorComponent::AllowInteractDelegate(class ATslCharacter* Othe
 EWeaponAttachmentSlotID UAttachableItem::GetAttachmentSlotID(const struct FName& WeaponTag)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15921);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15968);
 
 	UAttachableItem_GetAttachmentSlotID_Params params;
 	params.WeaponTag = WeaponTag;
@@ -6790,7 +6836,7 @@ EWeaponAttachmentSlotID UAttachableItem::GetAttachmentSlotID(const struct FName&
 struct FWeaponAttachmentData UAttachableItem::GetAttachmentData(const struct FName& WeaponTag)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15918);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15965);
 
 	UAttachableItem_GetAttachmentData_Params params;
 	params.WeaponTag = WeaponTag;
@@ -6815,7 +6861,7 @@ struct FWeaponAttachmentData UAttachableItem::GetAttachmentData(const struct FNa
 float UHealItem::GetHealLimit(class ATslCharacter* TslCharacter)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15935);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15982);
 
 	UHealItem_GetHealLimit_Params params;
 	params.TslCharacter = TslCharacter;
@@ -6840,7 +6886,7 @@ float UHealItem::GetHealLimit(class ATslCharacter* TslCharacter)
 bool USkinItem::CheckSkin(const TScriptInterface<class USkinnableInterface>& SkinnableInterface)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15943);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15990);
 
 	USkinItem_CheckSkin_Params params;
 	params.SkinnableInterface = SkinnableInterface;
@@ -6865,7 +6911,7 @@ bool USkinItem::CheckSkin(const TScriptInterface<class USkinnableInterface>& Ski
 bool USkinItem::ApplySkin(const TScriptInterface<class USkinnableInterface>& SkinnableInterface)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15940);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15987);
 
 	USkinItem_ApplySkin_Params params;
 	params.SkinnableInterface = SkinnableInterface;
@@ -6889,7 +6935,7 @@ bool USkinItem::ApplySkin(const TScriptInterface<class USkinnableInterface>& Ski
 void UEquipableItem::UnequipBy(class ATslCharacter* Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15955);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16002);
 
 	UEquipableItem_UnequipBy_Params params;
 	params.Character = Character;
@@ -6913,7 +6959,7 @@ void UEquipableItem::UnequipBy(class ATslCharacter* Character)
 bool UEquipableItem::EquipBy(class ATslCharacter* Character, const struct FEquipPosition& Position)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15951);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15998);
 
 	UEquipableItem_EquipBy_Params params;
 	params.Character = Character;
@@ -6939,7 +6985,7 @@ bool UEquipableItem::EquipBy(class ATslCharacter* Character, const struct FEquip
 bool UEquipableItem::CanEquipTo(class ATslCharacter* Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15948);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15995);
 
 	UEquipableItem_CanEquipTo_Params params;
 	params.Character = Character;
@@ -6963,7 +7009,7 @@ bool UEquipableItem::CanEquipTo(class ATslCharacter* Character)
 struct FTransform UCustomEquipableItem::GetOffset_Thrown()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15988);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16035);
 
 	UCustomEquipableItem_GetOffset_Thrown_Params params;
 
@@ -6986,7 +7032,7 @@ struct FTransform UCustomEquipableItem::GetOffset_Thrown()
 struct FTransform UCustomEquipableItem::GetOffset_SideArm()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15986);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16033);
 
 	UCustomEquipableItem_GetOffset_SideArm_Params params;
 
@@ -7009,7 +7055,7 @@ struct FTransform UCustomEquipableItem::GetOffset_SideArm()
 struct FTransform UCustomEquipableItem::GetOffset_Secondary()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15984);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16031);
 
 	UCustomEquipableItem_GetOffset_Secondary_Params params;
 
@@ -7032,7 +7078,7 @@ struct FTransform UCustomEquipableItem::GetOffset_Secondary()
 struct FTransform UCustomEquipableItem::GetOffset_Primary()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15982);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16029);
 
 	UCustomEquipableItem_GetOffset_Primary_Params params;
 
@@ -7055,7 +7101,7 @@ struct FTransform UCustomEquipableItem::GetOffset_Primary()
 struct FTransform UCustomEquipableItem::GetOffset_Melee()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15980);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16027);
 
 	UCustomEquipableItem_GetOffset_Melee_Params params;
 
@@ -7078,7 +7124,7 @@ struct FTransform UCustomEquipableItem::GetOffset_Melee()
 int UCustomEquipableItem::GetItemLevel()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15978);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16025);
 
 	UCustomEquipableItem_GetItemLevel_Params params;
 
@@ -7101,7 +7147,7 @@ int UCustomEquipableItem::GetItemLevel()
 class ATslWeapon* UThrowableItem::GetEquippedWeapon()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15999);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16046);
 
 	UThrowableItem_GetEquippedWeapon_Params params;
 
@@ -7124,7 +7170,7 @@ class ATslWeapon* UThrowableItem::GetEquippedWeapon()
 class ATslWeapon* UThrowableItem::GetDefaultWeaponObject()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(15997);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16044);
 
 	UThrowableItem_GetDefaultWeaponObject_Params params;
 
@@ -7148,7 +7194,7 @@ class ATslWeapon* UThrowableItem::GetDefaultWeaponObject()
 bool USkinnableInterface::HasSkin(const struct FSkinData& InSkinData)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16004);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16051);
 
 	USkinnableInterface_HasSkin_Params params;
 	params.InSkinData = InSkinData;
@@ -7170,7 +7216,7 @@ bool USkinnableInterface::HasSkin(const struct FSkinData& InSkinData)
 void USkinnableInterface::ClearSkin()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16003);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16050);
 
 	USkinnableInterface_ClearSkin_Params params;
 
@@ -7189,7 +7235,7 @@ void USkinnableInterface::ClearSkin()
 void ATslWeapon::Weapon_AttachShoulder()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16096);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16143);
 
 	ATslWeapon_Weapon_AttachShoulder_Params params;
 
@@ -7208,7 +7254,7 @@ void ATslWeapon::Weapon_AttachShoulder()
 void ATslWeapon::Weapon_AttachHand()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16095);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16142);
 
 	ATslWeapon_Weapon_AttachHand_Params params;
 
@@ -7230,7 +7276,7 @@ void ATslWeapon::Weapon_AttachHand()
 void ATslWeapon::SimulatePhysicalBodyHit(const struct FHitResult& Impact, const struct FVector& ShotDirection)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16092);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16139);
 
 	ATslWeapon_SimulatePhysicalBodyHit_Params params;
 	params.Impact = Impact;
@@ -7253,7 +7299,7 @@ void ATslWeapon::SimulatePhysicalBodyHit(const struct FHitResult& Impact, const 
 void ATslWeapon::ServerLogFireWeapon(const struct FAttackId& AttackId)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16090);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16137);
 
 	ATslWeapon_ServerLogFireWeapon_Params params;
 	params.AttackId = AttackId;
@@ -7273,7 +7319,7 @@ void ATslWeapon::ServerLogFireWeapon(const struct FAttackId& AttackId)
 void ATslWeapon::OnRep_SkinData()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16089);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16136);
 
 	ATslWeapon_OnRep_SkinData_Params params;
 
@@ -7292,7 +7338,7 @@ void ATslWeapon::OnRep_SkinData()
 void ATslWeapon::OnRep_MyPawn()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16088);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16135);
 
 	ATslWeapon_OnRep_MyPawn_Params params;
 
@@ -7313,7 +7359,7 @@ void ATslWeapon::OnRep_MyPawn()
 void ATslWeapon::OnRep_AttachedItemClasses(TArray<class UClass*> OldVal)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16085);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16132);
 
 	ATslWeapon_OnRep_AttachedItemClasses_Params params;
 	params.OldVal = OldVal;
@@ -7335,7 +7381,7 @@ void ATslWeapon::OnRep_AttachedItemClasses(TArray<class UClass*> OldVal)
 void ATslWeapon::OnAnimationNotify(const struct FName& NotifyName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16083);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16130);
 
 	ATslWeapon_OnAnimationNotify_Params params;
 	params.NotifyName = NotifyName;
@@ -7357,7 +7403,7 @@ void ATslWeapon::OnAnimationNotify(const struct FName& NotifyName)
 bool ATslWeapon::IsWeaponAttachedToShoulder()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16081);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16128);
 
 	ATslWeapon_IsWeaponAttachedToShoulder_Params params;
 
@@ -7381,7 +7427,7 @@ bool ATslWeapon::IsWeaponAttachedToShoulder()
 bool ATslWeapon::IsCustomSightAttached(EWeaponAttachmentSlotID SlotID)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16077);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16124);
 
 	ATslWeapon_IsCustomSightAttached_Params params;
 	params.SlotID = SlotID;
@@ -7405,7 +7451,7 @@ bool ATslWeapon::IsCustomSightAttached(EWeaponAttachmentSlotID SlotID)
 float ATslWeapon::GetWeaponReadyDuration()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16075);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16122);
 
 	ATslWeapon_GetWeaponReadyDuration_Params params;
 
@@ -7428,7 +7474,7 @@ float ATslWeapon::GetWeaponReadyDuration()
 class USkeletalMeshComponent* ATslWeapon::GetWeaponMesh()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16073);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16120);
 
 	ATslWeapon_GetWeaponMesh_Params params;
 
@@ -7451,7 +7497,7 @@ class USkeletalMeshComponent* ATslWeapon::GetWeaponMesh()
 EWeaponGripLeftHand ATslWeapon::GetWeaponGripTypeLeft()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16070);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16117);
 
 	ATslWeapon_GetWeaponGripTypeLeft_Params params;
 
@@ -7474,7 +7520,7 @@ EWeaponGripLeftHand ATslWeapon::GetWeaponGripTypeLeft()
 float ATslWeapon::GetWeaponEquipDuration()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16068);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16115);
 
 	ATslWeapon_GetWeaponEquipDuration_Params params;
 
@@ -7497,7 +7543,7 @@ float ATslWeapon::GetWeaponEquipDuration()
 float ATslWeapon::GetWeaponDamage()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16066);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16113);
 
 	ATslWeapon_GetWeaponDamage_Params params;
 
@@ -7520,7 +7566,7 @@ float ATslWeapon::GetWeaponDamage()
 struct FWeaponData ATslWeapon::GetWeaponConfig()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16064);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16111);
 
 	ATslWeapon_GetWeaponConfig_Params params;
 
@@ -7543,7 +7589,7 @@ struct FWeaponData ATslWeapon::GetWeaponConfig()
 EWeaponClass ATslWeapon::GetWeaponClassEnum()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16061);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16108);
 
 	ATslWeapon_GetWeaponClassEnum_Params params;
 
@@ -7568,7 +7614,7 @@ EWeaponClass ATslWeapon::GetWeaponClassEnum()
 struct FName ATslWeapon::GetWeaponAttachmentPoint(EWeaponAttachmentSlotID SlotID, const struct FName& Tag)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16056);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16103);
 
 	ATslWeapon_GetWeaponAttachmentPoint_Params params;
 	params.SlotID = SlotID;
@@ -7594,7 +7640,7 @@ struct FName ATslWeapon::GetWeaponAttachmentPoint(EWeaponAttachmentSlotID SlotID
 struct FWeaponAttachmentData ATslWeapon::GetWeaponAttachmentData(EWeaponAttachmentSlotID SlotID)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16052);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16099);
 
 	ATslWeapon_GetWeaponAttachmentData_Params params;
 	params.SlotID = SlotID;
@@ -7618,7 +7664,7 @@ struct FWeaponAttachmentData ATslWeapon::GetWeaponAttachmentData(EWeaponAttachme
 TArray<struct FWeaponAttachmentAssetData> ATslWeapon::GetWeaponAttachmentAssetDatas()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16049);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16096);
 
 	ATslWeapon_GetWeaponAttachmentAssetDatas_Params params;
 
@@ -7642,7 +7688,7 @@ TArray<struct FWeaponAttachmentAssetData> ATslWeapon::GetWeaponAttachmentAssetDa
 struct FWeaponAttachmentAssetData ATslWeapon::GetWeaponAttachmentAsset(EWeaponAttachmentSlotID SlotID)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16045);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16092);
 
 	ATslWeapon_GetWeaponAttachmentAsset_Params params;
 	params.SlotID = SlotID;
@@ -7666,7 +7712,7 @@ struct FWeaponAttachmentAssetData ATslWeapon::GetWeaponAttachmentAsset(EWeaponAt
 float ATslWeapon::GetWeaponAnimationKick()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16043);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16090);
 
 	ATslWeapon_GetWeaponAnimationKick_Params params;
 
@@ -7689,7 +7735,7 @@ float ATslWeapon::GetWeaponAnimationKick()
 EThrownWeaponType ATslWeapon::GetThrownType()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16040);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16087);
 
 	ATslWeapon_GetThrownType_Params params;
 
@@ -7712,7 +7758,7 @@ EThrownWeaponType ATslWeapon::GetThrownType()
 struct FVector ATslWeapon::GetSwayModifier()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16038);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16085);
 
 	ATslWeapon_GetSwayModifier_Params params;
 
@@ -7736,7 +7782,7 @@ struct FVector ATslWeapon::GetSwayModifier()
 float ATslWeapon::GetStanceSwayModifier(EAnimStance Stance)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16034);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16081);
 
 	ATslWeapon_GetStanceSwayModifier_Params params;
 	params.Stance = Stance;
@@ -7760,7 +7806,7 @@ float ATslWeapon::GetStanceSwayModifier(EAnimStance Stance)
 class UAnimMontage* ATslWeapon::GetRecoilMontage()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16032);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16079);
 
 	ATslWeapon_GetRecoilMontage_Params params;
 
@@ -7783,7 +7829,7 @@ class UAnimMontage* ATslWeapon::GetRecoilMontage()
 class ATslCharacter* ATslWeapon::GetPawnOwner()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16030);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16077);
 
 	ATslWeapon_GetPawnOwner_Params params;
 
@@ -7806,7 +7852,7 @@ class ATslCharacter* ATslWeapon::GetPawnOwner()
 struct FVector ATslWeapon::GetLowerRailOffset()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16028);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16075);
 
 	ATslWeapon_GetLowerRailOffset_Params params;
 
@@ -7829,7 +7875,7 @@ struct FVector ATslWeapon::GetLowerRailOffset()
 struct FText ATslWeapon::GetItemName()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16026);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16073);
 
 	ATslWeapon_GetItemName_Params params;
 
@@ -7852,7 +7898,7 @@ struct FText ATslWeapon::GetItemName()
 bool ATslWeapon::GetDoGripPose()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16024);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16071);
 
 	ATslWeapon_GetDoGripPose_Params params;
 
@@ -7875,7 +7921,7 @@ bool ATslWeapon::GetDoGripPose()
 TArray<class UAsyncStaticMeshComponent*> ATslWeapon::GetAttachedMesh()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16021);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16068);
 
 	ATslWeapon_GetAttachedMesh_Params params;
 
@@ -7898,7 +7944,7 @@ TArray<class UAsyncStaticMeshComponent*> ATslWeapon::GetAttachedMesh()
 EAnimWeaponType ATslWeapon::GetAnimWeaponType()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16018);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16065);
 
 	ATslWeapon_GetAnimWeaponType_Params params;
 
@@ -7921,7 +7967,7 @@ EAnimWeaponType ATslWeapon::GetAnimWeaponType()
 TArray<struct FWeaponAttachmentData> ATslWeapon::GetAllWeaponAttachmentData()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16015);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16062);
 
 	ATslWeapon_GetAllWeaponAttachmentData_Params params;
 
@@ -7944,7 +7990,7 @@ TArray<struct FWeaponAttachmentData> ATslWeapon::GetAllWeaponAttachmentData()
 TArray<struct FWeaponAttachmentAssetData> ATslWeapon::GetAllWeaponAttachmentAssets()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16012);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16059);
 
 	ATslWeapon_GetAllWeaponAttachmentAssets_Params params;
 
@@ -7967,7 +8013,7 @@ TArray<struct FWeaponAttachmentAssetData> ATslWeapon::GetAllWeaponAttachmentAsse
 void ATslWeapon::ClientInitByReconnection(bool bIsArmed)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16010);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16057);
 
 	ATslWeapon_ClientInitByReconnection_Params params;
 	params.bIsArmed = bIsArmed;
@@ -7989,7 +8035,7 @@ void ATslWeapon::ClientInitByReconnection(bool bIsArmed)
 void ATslWeapon::AttachWeaponToSlot(int SlotIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16008);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16055);
 
 	ATslWeapon_AttachWeaponToSlot_Params params;
 	params.SlotIndex = SlotIndex;
@@ -8009,7 +8055,7 @@ void ATslWeapon::AttachWeaponToSlot(int SlotIndex)
 void ATslWeapon::AttachWeaponToMesh()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16007);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16054);
 
 	ATslWeapon_AttachWeaponToMesh_Params params;
 
@@ -8030,7 +8076,7 @@ void ATslWeapon::AttachWeaponToMesh()
 void UWeaponItem::SetFiringMode(EFiringMode fMode)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16194);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16240);
 
 	UWeaponItem_SetFiringMode_Params params;
 	params.fMode = fMode;
@@ -8053,7 +8099,7 @@ void UWeaponItem::SetFiringMode(EFiringMode fMode)
 bool UWeaponItem::IsAttachable(class UAttachableItem* Item)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16191);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16237);
 
 	UWeaponItem_IsAttachable_Params params;
 	params.Item = Item;
@@ -8078,7 +8124,7 @@ bool UWeaponItem::IsAttachable(class UAttachableItem* Item)
 bool UWeaponItem::HasAttachmentSlot(EWeaponAttachmentSlotID SlotID)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16187);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16233);
 
 	UWeaponItem_HasAttachmentSlot_Params params;
 	params.SlotID = SlotID;
@@ -8102,7 +8148,7 @@ bool UWeaponItem::HasAttachmentSlot(EWeaponAttachmentSlotID SlotID)
 EFiringMode UWeaponItem::GetFiringMode()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16184);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16230);
 
 	UWeaponItem_GetFiringMode_Params params;
 
@@ -8125,7 +8171,7 @@ EFiringMode UWeaponItem::GetFiringMode()
 class ATslWeapon* UWeaponItem::GetEquippedWeapon()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16182);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16228);
 
 	UWeaponItem_GetEquippedWeapon_Params params;
 
@@ -8148,7 +8194,7 @@ class ATslWeapon* UWeaponItem::GetEquippedWeapon()
 class ATslWeapon* UWeaponItem::GetDefaultWeaponObject()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16180);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16226);
 
 	UWeaponItem_GetDefaultWeaponObject_Params params;
 
@@ -8172,7 +8218,7 @@ class ATslWeapon* UWeaponItem::GetDefaultWeaponObject()
 class UAttachableItem* UWeaponItem::GetAttachedItem(EWeaponAttachmentSlotID SlotID)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16176);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16222);
 
 	UWeaponItem_GetAttachedItem_Params params;
 	params.SlotID = SlotID;
@@ -8196,7 +8242,7 @@ class UAttachableItem* UWeaponItem::GetAttachedItem(EWeaponAttachmentSlotID Slot
 int UWeaponItem::GetAttachableItemCount()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16174);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16220);
 
 	UWeaponItem_GetAttachableItemCount_Params params;
 
@@ -8219,7 +8265,7 @@ int UWeaponItem::GetAttachableItemCount()
 TArray<class UAttachableItem*> UWeaponItem::GetAllAttachedItems()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16171);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16217);
 
 	UWeaponItem_GetAllAttachedItems_Params params;
 
@@ -8243,7 +8289,7 @@ TArray<class UAttachableItem*> UWeaponItem::GetAllAttachedItems()
 class UAttachableItem* UWeaponItem::DetachItem(EWeaponAttachmentSlotID SlotID)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16167);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16213);
 
 	UWeaponItem_DetachItem_Params params;
 	params.SlotID = SlotID;
@@ -8268,7 +8314,7 @@ class UAttachableItem* UWeaponItem::DetachItem(EWeaponAttachmentSlotID SlotID)
 bool UWeaponItem::AttachItem(class UAttachableItem* Item)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16164);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16210);
 
 	UWeaponItem_AttachItem_Params params;
 	params.Item = Item;
@@ -8292,7 +8338,7 @@ bool UWeaponItem::AttachItem(class UAttachableItem* Item)
 void UItemSpawnProcessor::ProcessSpawnItem(class UItemSpotGroupComponent* Spawner)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16226);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16272);
 
 	UItemSpawnProcessor_ProcessSpawnItem_Params params;
 	params.Spawner = Spawner;
@@ -8315,7 +8361,7 @@ void UItemSpawnProcessor::ProcessSpawnItem(class UItemSpotGroupComponent* Spawne
 void UItemSpawnProcessor::ProcessGroup(class UItemSpotGroupComponent* SpotGroup, TArray<class UItemSpotComponent*> Spots)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16222);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16268);
 
 	UItemSpawnProcessor_ProcessGroup_Params params;
 	params.SpotGroup = SpotGroup;
@@ -8339,7 +8385,7 @@ void UItemSpawnProcessor::ProcessGroup(class UItemSpotGroupComponent* SpotGroup,
 bool UItemSpawnProcessor::CheckItemGroup(class UItemSpotGroupComponent* SpotGroup)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16219);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16265);
 
 	UItemSpawnProcessor_CheckItemGroup_Params params;
 	params.SpotGroup = SpotGroup;
@@ -8363,7 +8409,7 @@ bool UItemSpawnProcessor::CheckItemGroup(class UItemSpotGroupComponent* SpotGrou
 void AItemStudio::UpdateComponentToWorld(class UMeshComponent* Mesh)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16244);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16290);
 
 	AItemStudio_UpdateComponentToWorld_Params params;
 	params.Mesh = Mesh;
@@ -8385,7 +8431,7 @@ void AItemStudio::UpdateComponentToWorld(class UMeshComponent* Mesh)
 void AItemStudio::SetTextureRenderTarget(class UTextureRenderTarget2D* NewTextureTarget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16242);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16288);
 
 	AItemStudio_SetTextureRenderTarget_Params params;
 	params.NewTextureTarget = NewTextureTarget;
@@ -8407,7 +8453,7 @@ void AItemStudio::SetTextureRenderTarget(class UTextureRenderTarget2D* NewTextur
 void AItemStudio::SetItem(class UItem* Item)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16240);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16286);
 
 	AItemStudio_SetItem_Params params;
 	params.Item = Item;
@@ -8429,7 +8475,7 @@ void AItemStudio::SetItem(class UItem* Item)
 void AItemStudio::AddYaw(float Value)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16238);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16284);
 
 	AItemStudio_AddYaw_Params params;
 	params.Value = Value;
@@ -8452,7 +8498,7 @@ void AItemStudio::AddYaw(float Value)
 void UItemToolTipWidget::UpdateVicinityOrInventorySlotItemToolTip(class UEquipableItem* EquipableItem, class UEquipableItem* EquipmentSlotItem)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16500);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16546);
 
 	UItemToolTipWidget_UpdateVicinityOrInventorySlotItemToolTip_Params params;
 	params.EquipableItem = EquipableItem;
@@ -8475,7 +8521,7 @@ void UItemToolTipWidget::UpdateVicinityOrInventorySlotItemToolTip(class UEquipab
 void UItemToolTipWidget::UpdateToolTipBySlotInterface(const TScriptInterface<class USlotInterface>& SlotInterface, const TScriptInterface<class USlotContainerInterface>& Container)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16497);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16543);
 
 	UItemToolTipWidget_UpdateToolTipBySlotInterface_Params params;
 	params.SlotInterface = SlotInterface;
@@ -8498,7 +8544,7 @@ void UItemToolTipWidget::UpdateToolTipBySlotInterface(const TScriptInterface<cla
 void UItemToolTipWidget::UpdateSlotInfo(const TScriptInterface<class USlotInterface>& SlotInterface)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16495);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16541);
 
 	UItemToolTipWidget_UpdateSlotInfo_Params params;
 	params.SlotInterface = SlotInterface;
@@ -8519,7 +8565,7 @@ void UItemToolTipWidget::UpdateSlotInfo(const TScriptInterface<class USlotInterf
 void UItemToolTipWidget::UpdateEquipmentSlotItemToolTip(class UEquipableItem* EquipableItem)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16493);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16539);
 
 	UItemToolTipWidget_UpdateEquipmentSlotItemToolTip_Params params;
 	params.EquipableItem = EquipableItem;
@@ -8541,7 +8587,7 @@ void UItemToolTipWidget::UpdateEquipmentSlotItemToolTip(class UEquipableItem* Eq
 void ULobbyWidget::GameStateChanging(const struct FName& NewState, const struct FName& OldState)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16507);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16553);
 
 	ULobbyWidget_GameStateChanging_Params params;
 	params.NewState = NewState;
@@ -8561,7 +8607,7 @@ void ULobbyWidget::GameStateChanging(const struct FName& NewState, const struct 
 void UMatchPreparer::TimerGameStartCountDown()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16510);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16556);
 
 	UMatchPreparer_TimerGameStartCountDown_Params params;
 
@@ -8580,7 +8626,7 @@ void UMatchPreparer::TimerGameStartCountDown()
 void UAirborneMatchPreparer::AllowDealDamage()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16513);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16559);
 
 	UAirborneMatchPreparer_AllowDealDamage_Params params;
 
@@ -8603,7 +8649,7 @@ void UAirborneMatchPreparer::AllowDealDamage()
 void AModeController::SendSystemMessageToAll(ESystemMessageType MessageType, const struct FText& Message, float MessageDuration)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16619);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16665);
 
 	AModeController_SendSystemMessageToAll_Params params;
 	params.MessageType = MessageType;
@@ -8627,7 +8673,7 @@ void AModeController::SendSystemMessageToAll(ESystemMessageType MessageType, con
 bool AModeController::IsPlayInEditor()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16617);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16663);
 
 	AModeController_IsPlayInEditor_Params params;
 
@@ -8651,7 +8697,7 @@ bool AModeController::IsPlayInEditor()
 bool AModeController::HandleServerAdminBlueprint(const struct FString& AdminCommand)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16614);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16660);
 
 	AModeController_HandleServerAdminBlueprint_Params params;
 	params.AdminCommand = AdminCommand;
@@ -8674,7 +8720,7 @@ bool AModeController::HandleServerAdminBlueprint(const struct FString& AdminComm
 class ATslGameState* AModeController::GetGameState()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16612);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16658);
 
 	AModeController_GetGameState_Params params;
 
@@ -8697,7 +8743,7 @@ class ATslGameState* AModeController::GetGameState()
 class ATslGameMode* AModeController::GetGameMode()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16610);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16656);
 
 	AModeController_GetGameMode_Params params;
 
@@ -8722,7 +8768,7 @@ class ATslGameMode* AModeController::GetGameMode()
 bool AModeController::CanDealDamage(class ATslPlayerState* DamageInstigator, class ATslPlayerState* DamagedPlayer)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16606);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16652);
 
 	AModeController_CanDealDamage_Params params;
 	params.DamageInstigator = DamageInstigator;
@@ -8747,7 +8793,7 @@ bool AModeController::CanDealDamage(class ATslPlayerState* DamageInstigator, cla
 bool ABattleRoyaleModeController::SetNextGasInBlackboard()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16632);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16678);
 
 	ABattleRoyaleModeController_SetNextGasInBlackboard_Params params;
 
@@ -8768,7 +8814,7 @@ bool ABattleRoyaleModeController::SetNextGasInBlackboard()
 void ABattleRoyaleModeController::InitRadius()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16631);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16677);
 
 	ABattleRoyaleModeController_InitRadius_Params params;
 
@@ -8792,7 +8838,7 @@ void ABattleRoyaleModeController::InitRadius()
 float ABattleRoyaleModeController::GetPoisonGasDamagePerSecond(float CharaterToCenterDistance, float SafetyZoneRadius, float PoisonGasWarningRadius)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16626);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16672);
 
 	ABattleRoyaleModeController_GetPoisonGasDamagePerSecond_Params params;
 	params.CharaterToCenterDistance = CharaterToCenterDistance;
@@ -8818,7 +8864,7 @@ float ABattleRoyaleModeController::GetPoisonGasDamagePerSecond(float CharaterToC
 int ABattleRoyaleModeController::GetMaxPhaseCount()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16624);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16670);
 
 	ABattleRoyaleModeController_GetMaxPhaseCount_Params params;
 
@@ -8842,7 +8888,7 @@ int ABattleRoyaleModeController::GetMaxPhaseCount()
 struct FVector ACarePackageController::SpawnAircraftCarePackageCustom(const struct FVector& DropLocation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16657);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16703);
 
 	ACarePackageController_SpawnAircraftCarePackageCustom_Params params;
 	params.DropLocation = DropLocation;
@@ -8867,7 +8913,7 @@ struct FVector ACarePackageController::SpawnAircraftCarePackageCustom(const stru
 struct FVector ACarePackageController::SpawnAircraftCarePackage(bool CopyIntersectionInfo)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16654);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16700);
 
 	ACarePackageController_SpawnAircraftCarePackage_Params params;
 	params.CopyIntersectionInfo = CopyIntersectionInfo;
@@ -8891,7 +8937,7 @@ struct FVector ACarePackageController::SpawnAircraftCarePackage(bool CopyInterse
 bool ACarePackageController::SetNextCarePackageInBlackboard()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16652);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16698);
 
 	ACarePackageController_SetNextCarePackageInBlackboard_Params params;
 
@@ -8912,7 +8958,7 @@ bool ACarePackageController::SetNextCarePackageInBlackboard()
 void ACarePackageController::InitCarePackageSetting()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16651);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16697);
 
 	ACarePackageController_InitCarePackageSetting_Params params;
 
@@ -8933,7 +8979,7 @@ void ACarePackageController::InitCarePackageSetting()
 float ACarePackageController::GetSpawnInterval()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16649);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16695);
 
 	ACarePackageController_GetSpawnInterval_Params params;
 
@@ -8954,7 +9000,7 @@ float ACarePackageController::GetSpawnInterval()
 void ARedZoneController::SpawnBombProjectile()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16674);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16720);
 
 	ARedZoneController_SpawnBombProjectile_Params params;
 
@@ -8975,7 +9021,7 @@ void ARedZoneController::SpawnBombProjectile()
 bool ARedZoneController::SetNextRedZoneInBlackboard()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16672);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16718);
 
 	ARedZoneController_SetNextRedZoneInBlackboard_Params params;
 
@@ -8998,7 +9044,7 @@ bool ARedZoneController::SetNextRedZoneInBlackboard()
 void ARedZoneController::OnBombingStart(const struct FVector& RedZonePosition)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16670);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16716);
 
 	ARedZoneController_OnBombingStart_Params params;
 	params.RedZonePosition = RedZonePosition;
@@ -9018,7 +9064,7 @@ void ARedZoneController::OnBombingStart(const struct FVector& RedZonePosition)
 void ARedZoneController::InitRedZoneSetting()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16669);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16715);
 
 	ARedZoneController_InitRedZoneSetting_Params params;
 
@@ -9039,7 +9085,7 @@ void ARedZoneController::InitRedZoneSetting()
 float ARedZoneController::GetRandomBombingInterval()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16667);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16713);
 
 	ARedZoneController_GetRandomBombingInterval_Params params;
 
@@ -9060,7 +9106,7 @@ float ARedZoneController::GetRandomBombingInterval()
 void AMutableCharacter::UpdateAppearence()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16882);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16932);
 
 	AMutableCharacter_UpdateAppearence_Params params;
 
@@ -9079,7 +9125,7 @@ void AMutableCharacter::UpdateAppearence()
 void AMutableCharacter::OnRep_InstanceDescriptor()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16881);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16931);
 
 	AMutableCharacter_OnRep_InstanceDescriptor_Params params;
 
@@ -9100,7 +9146,7 @@ void AMutableCharacter::OnRep_InstanceDescriptor()
 EGender AMutableCharacter::GetGender()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16878);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16928);
 
 	AMutableCharacter_GetGender_Params params;
 
@@ -9123,7 +9169,7 @@ EGender AMutableCharacter::GetGender()
 int ALobbyCharacter::GetSlotId()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16893);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16943);
 
 	ALobbyCharacter_GetSlotId_Params params;
 
@@ -9146,7 +9192,7 @@ int ALobbyCharacter::GetSlotId()
 struct FString ALobbyCharacter::GetNickName()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16891);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16941);
 
 	ALobbyCharacter_GetNickName_Params params;
 
@@ -9169,7 +9215,7 @@ struct FString ALobbyCharacter::GetNickName()
 struct FString ALobbyCharacter::GetNetId()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16889);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16939);
 
 	ALobbyCharacter_GetNetId_Params params;
 
@@ -9192,7 +9238,7 @@ struct FString ALobbyCharacter::GetNetId()
 struct FVector ATslVaultingHelper::GetActorAttachScene()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16902);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16952);
 
 	ATslVaultingHelper_GetActorAttachScene_Params params;
 
@@ -9215,7 +9261,7 @@ struct FVector ATslVaultingHelper::GetActorAttachScene()
 bool ATslWeapon_Gun::WeaponCycleDone()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17060);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17114);
 
 	ATslWeapon_Gun_WeaponCycleDone_Params params;
 
@@ -9236,7 +9282,7 @@ bool ATslWeapon_Gun::WeaponCycleDone()
 void ATslWeapon_Gun::StopReloadAnimByOne()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17059);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17113);
 
 	ATslWeapon_Gun_StopReloadAnimByOne_Params params;
 
@@ -9255,7 +9301,7 @@ void ATslWeapon_Gun::StopReloadAnimByOne()
 void ATslWeapon_Gun::StartManualFireCycle()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17058);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17112);
 
 	ATslWeapon_Gun_StartManualFireCycle_Params params;
 
@@ -9276,7 +9322,7 @@ void ATslWeapon_Gun::StartManualFireCycle()
 void ATslWeapon_Gun::SimulateWeaponReload(EWeaponReloadAnimExec ReloadAnimExec)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17055);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17109);
 
 	ATslWeapon_Gun_SimulateWeaponReload_Params params;
 	params.ReloadAnimExec = ReloadAnimExec;
@@ -9298,7 +9344,7 @@ void ATslWeapon_Gun::SimulateWeaponReload(EWeaponReloadAnimExec ReloadAnimExec)
 void ATslWeapon_Gun::SetWeaponReloadInterrupted(bool bIsInterrupted)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17053);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17107);
 
 	ATslWeapon_Gun_SetWeaponReloadInterrupted_Params params;
 	params.bIsInterrupted = bIsInterrupted;
@@ -9320,7 +9366,7 @@ void ATslWeapon_Gun::SetWeaponReloadInterrupted(bool bIsInterrupted)
 void ATslWeapon_Gun::SetSpawnBulletFromBarrel(bool DoSpawnBulletFromBarrel)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17051);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17105);
 
 	ATslWeapon_Gun_SetSpawnBulletFromBarrel_Params params;
 	params.DoSpawnBulletFromBarrel = DoSpawnBulletFromBarrel;
@@ -9342,7 +9388,7 @@ void ATslWeapon_Gun::SetSpawnBulletFromBarrel(bool DoSpawnBulletFromBarrel)
 void ATslWeapon_Gun::SetFiringMode(EFiringMode FiringMode)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17048);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17102);
 
 	ATslWeapon_Gun_SetFiringMode_Params params;
 	params.FiringMode = FiringMode;
@@ -9362,7 +9408,7 @@ void ATslWeapon_Gun::SetFiringMode(EFiringMode FiringMode)
 void ATslWeapon_Gun::ServerStopReload()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17047);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17101);
 
 	ATslWeapon_Gun_ServerStopReload_Params params;
 
@@ -9381,7 +9427,7 @@ void ATslWeapon_Gun::ServerStopReload()
 void ATslWeapon_Gun::ServerStopFire()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17046);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17100);
 
 	ATslWeapon_Gun_ServerStopFire_Params params;
 
@@ -9400,7 +9446,7 @@ void ATslWeapon_Gun::ServerStopFire()
 void ATslWeapon_Gun::ServerStartReload()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17045);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17099);
 
 	ATslWeapon_Gun_ServerStartReload_Params params;
 
@@ -9419,7 +9465,7 @@ void ATslWeapon_Gun::ServerStartReload()
 void ATslWeapon_Gun::ServerStartFire()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17044);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17098);
 
 	ATslWeapon_Gun_ServerStartFire_Params params;
 
@@ -9440,7 +9486,7 @@ void ATslWeapon_Gun::ServerStartFire()
 void ATslWeapon_Gun::ServerSetHip(bool bNewIsHipped)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17042);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17096);
 
 	ATslWeapon_Gun_ServerSetHip_Params params;
 	params.bNewIsHipped = bNewIsHipped;
@@ -9462,7 +9508,7 @@ void ATslWeapon_Gun::ServerSetHip(bool bNewIsHipped)
 void ATslWeapon_Gun::ServerSetCurrentZeroLevel(int ZeroLevel)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17040);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17094);
 
 	ATslWeapon_Gun_ServerSetCurrentZeroLevel_Params params;
 	params.ZeroLevel = ZeroLevel;
@@ -9484,7 +9530,7 @@ void ATslWeapon_Gun::ServerSetCurrentZeroLevel(int ZeroLevel)
 void ATslWeapon_Gun::ServerHandleFiring(const struct FHitResult& ExceptTrajectoryHitResult)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17038);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17092);
 
 	ATslWeapon_Gun_ServerHandleFiring_Params params;
 	params.ExceptTrajectoryHitResult = ExceptTrajectoryHitResult;
@@ -9504,7 +9550,7 @@ void ATslWeapon_Gun::ServerHandleFiring(const struct FHitResult& ExceptTrajector
 void ATslWeapon_Gun::ServerCancelReload()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17037);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17091);
 
 	ATslWeapon_Gun_ServerCancelReload_Params params;
 
@@ -9523,7 +9569,7 @@ void ATslWeapon_Gun::ServerCancelReload()
 void ATslWeapon_Gun::Server_StartManualFireCycle()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17036);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17090);
 
 	ATslWeapon_Gun_Server_StartManualFireCycle_Params params;
 
@@ -9542,7 +9588,7 @@ void ATslWeapon_Gun::Server_StartManualFireCycle()
 void ATslWeapon_Gun::ProcessBoltAction()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17035);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17089);
 
 	ATslWeapon_Gun_ProcessBoltAction_Params params;
 
@@ -9561,7 +9607,7 @@ void ATslWeapon_Gun::ProcessBoltAction()
 void ATslWeapon_Gun::PlayWeaponCycleCameraAnim()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17034);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17088);
 
 	ATslWeapon_Gun_PlayWeaponCycleCameraAnim_Params params;
 
@@ -9580,7 +9626,7 @@ void ATslWeapon_Gun::PlayWeaponCycleCameraAnim()
 void ATslWeapon_Gun::PlayLongTailSound()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17033);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17087);
 
 	ATslWeapon_Gun_PlayLongTailSound_Params params;
 
@@ -9601,7 +9647,7 @@ void ATslWeapon_Gun::PlayLongTailSound()
 void ATslWeapon_Gun::OnRep_TimeBetweenShots(float LastTimeBetweenShots)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17031);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17085);
 
 	ATslWeapon_Gun_OnRep_TimeBetweenShots_Params params;
 	params.LastTimeBetweenShots = LastTimeBetweenShots;
@@ -9621,9 +9667,28 @@ void ATslWeapon_Gun::OnRep_TimeBetweenShots(float LastTimeBetweenShots)
 void ATslWeapon_Gun::OnRep_MyPawn()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17030);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17084);
 
 	ATslWeapon_Gun_OnRep_MyPawn_Params params;
+
+	auto flags = fn->FunctionFlags;
+	fn->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function TslGame.TslWeapon_Gun.OnRep_FiringModeIndex
+// (Final, Native, Public)
+
+void ATslWeapon_Gun::OnRep_FiringModeIndex()
+{
+	static UFunction* fn = nullptr; 
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17083);
+
+	ATslWeapon_Gun_OnRep_FiringModeIndex_Params params;
 
 	auto flags = fn->FunctionFlags;
 	fn->FunctionFlags |= 0x400;
@@ -9642,7 +9707,7 @@ void ATslWeapon_Gun::OnRep_MyPawn()
 void ATslWeapon_Gun::OnRep_CurrentZeroLevel(int LastCurrentZeroLevel)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17028);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17081);
 
 	ATslWeapon_Gun_OnRep_CurrentZeroLevel_Params params;
 	params.LastCurrentZeroLevel = LastCurrentZeroLevel;
@@ -9664,7 +9729,7 @@ void ATslWeapon_Gun::OnRep_CurrentZeroLevel(int LastCurrentZeroLevel)
 void ATslWeapon_Gun::OnRep_AttachedItemClasses(TArray<class UClass*> OldVal)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17025);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17078);
 
 	ATslWeapon_Gun_OnRep_AttachedItemClasses_Params params;
 	params.OldVal = OldVal;
@@ -9686,7 +9751,7 @@ void ATslWeapon_Gun::OnRep_AttachedItemClasses(TArray<class UClass*> OldVal)
 void ATslWeapon_Gun::OnRep_AmmoCount(int LastCurrentAmmoInClip)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17023);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17076);
 
 	ATslWeapon_Gun_OnRep_AmmoCount_Params params;
 	params.LastCurrentAmmoInClip = LastCurrentAmmoInClip;
@@ -9706,7 +9771,7 @@ void ATslWeapon_Gun::OnRep_AmmoCount(int LastCurrentAmmoInClip)
 void ATslWeapon_Gun::OnInventoryUpdated()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17022);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17075);
 
 	ATslWeapon_Gun_OnInventoryUpdated_Params params;
 
@@ -9725,7 +9790,7 @@ void ATslWeapon_Gun::OnInventoryUpdated()
 void ATslWeapon_Gun::OnAttachmentScopeLoaded()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17021);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17074);
 
 	ATslWeapon_Gun_OnAttachmentScopeLoaded_Params params;
 
@@ -9746,7 +9811,7 @@ void ATslWeapon_Gun::OnAttachmentScopeLoaded()
 void ATslWeapon_Gun::OnAnimationNotify(const struct FName& NotifyName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17019);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17072);
 
 	ATslWeapon_Gun_OnAnimationNotify_Params params;
 	params.NotifyName = NotifyName;
@@ -9766,7 +9831,7 @@ void ATslWeapon_Gun::OnAnimationNotify(const struct FName& NotifyName)
 void ATslWeapon_Gun::ManualFireCycleFinished()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17018);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17071);
 
 	ATslWeapon_Gun_ManualFireCycleFinished_Params params;
 
@@ -9787,7 +9852,7 @@ void ATslWeapon_Gun::ManualFireCycleFinished()
 bool ATslWeapon_Gun::IsWeaponCycleInProgress()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17016);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17069);
 
 	ATslWeapon_Gun_IsWeaponCycleInProgress_Params params;
 
@@ -9810,7 +9875,7 @@ bool ATslWeapon_Gun::IsWeaponCycleInProgress()
 bool ATslWeapon_Gun::IsReloadInterrupted()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17014);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17067);
 
 	ATslWeapon_Gun_IsReloadInterrupted_Params params;
 
@@ -9833,7 +9898,7 @@ bool ATslWeapon_Gun::IsReloadInterrupted()
 bool ATslWeapon_Gun::IsReloading()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17012);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17065);
 
 	ATslWeapon_Gun_IsReloading_Params params;
 
@@ -9856,7 +9921,7 @@ bool ATslWeapon_Gun::IsReloading()
 class UAnimMontage* ATslWeapon_Gun::GetWeaponTacticalReload()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17010);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17063);
 
 	ATslWeapon_Gun_GetWeaponTacticalReload_Params params;
 
@@ -9879,7 +9944,7 @@ class UAnimMontage* ATslWeapon_Gun::GetWeaponTacticalReload()
 struct FWeaponPPSettings ATslWeapon_Gun::GetWeaponPostprocessSettings()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17008);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17061);
 
 	ATslWeapon_Gun_GetWeaponPostprocessSettings_Params params;
 
@@ -9902,7 +9967,7 @@ struct FWeaponPPSettings ATslWeapon_Gun::GetWeaponPostprocessSettings()
 struct FWeaponPPSettings ATslWeapon_Gun::GetWeaponOrScopePostprocessSettings()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17006);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17059);
 
 	ATslWeapon_Gun_GetWeaponOrScopePostprocessSettings_Params params;
 
@@ -9925,7 +9990,7 @@ struct FWeaponPPSettings ATslWeapon_Gun::GetWeaponOrScopePostprocessSettings()
 struct FVector ATslWeapon_Gun::GetWeaponHandOffsetFPP()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17004);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17057);
 
 	ATslWeapon_Gun_GetWeaponHandOffsetFPP_Params params;
 
@@ -9948,7 +10013,7 @@ struct FVector ATslWeapon_Gun::GetWeaponHandOffsetFPP()
 struct FVector ATslWeapon_Gun::GetWeaponHandOffset()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17002);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17055);
 
 	ATslWeapon_Gun_GetWeaponHandOffset_Params params;
 
@@ -9971,7 +10036,7 @@ struct FVector ATslWeapon_Gun::GetWeaponHandOffset()
 struct FWeaponGunData ATslWeapon_Gun::GetWeaponGunConfig()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17000);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17053);
 
 	ATslWeapon_Gun_GetWeaponGunConfig_Params params;
 
@@ -9994,7 +10059,7 @@ struct FWeaponGunData ATslWeapon_Gun::GetWeaponGunConfig()
 struct FWeaponGunAnim ATslWeapon_Gun::GetWeaponGunAnimConfig()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16998);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17051);
 
 	ATslWeapon_Gun_GetWeaponGunAnimConfig_Params params;
 
@@ -10017,7 +10082,7 @@ struct FWeaponGunAnim ATslWeapon_Gun::GetWeaponGunAnimConfig()
 float ATslWeapon_Gun::GetWeaponFullReloadTime()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16996);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17049);
 
 	ATslWeapon_Gun_GetWeaponFullReloadTime_Params params;
 
@@ -10040,7 +10105,7 @@ float ATslWeapon_Gun::GetWeaponFullReloadTime()
 float ATslWeapon_Gun::GetWeaponFullRealoadTimeWithAttachments()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16994);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17047);
 
 	ATslWeapon_Gun_GetWeaponFullRealoadTimeWithAttachments_Params params;
 
@@ -10063,7 +10128,7 @@ float ATslWeapon_Gun::GetWeaponFullRealoadTimeWithAttachments()
 float ATslWeapon_Gun::GetWeaponCurrentRecoilValue()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16992);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17045);
 
 	ATslWeapon_Gun_GetWeaponCurrentRecoilValue_Params params;
 
@@ -10086,7 +10151,7 @@ float ATslWeapon_Gun::GetWeaponCurrentRecoilValue()
 float ATslWeapon_Gun::GetWeaponCurrentDeviationValue()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16990);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17043);
 
 	ATslWeapon_Gun_GetWeaponCurrentDeviationValue_Params params;
 
@@ -10109,7 +10174,7 @@ float ATslWeapon_Gun::GetWeaponCurrentDeviationValue()
 class UAnimMontage* ATslWeapon_Gun::GetWeaponChargeReload()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16988);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17041);
 
 	ATslWeapon_Gun_GetWeaponChargeReload_Params params;
 
@@ -10132,7 +10197,7 @@ class UAnimMontage* ATslWeapon_Gun::GetWeaponChargeReload()
 float ATslWeapon_Gun::GetReloadAnimationPlayRate()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16986);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17039);
 
 	ATslWeapon_Gun_GetReloadAnimationPlayRate_Params params;
 
@@ -10155,7 +10220,7 @@ float ATslWeapon_Gun::GetReloadAnimationPlayRate()
 struct FVector ATslWeapon_Gun::GetRecoilADSSocketOffsetScale()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16984);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17037);
 
 	ATslWeapon_Gun_GetRecoilADSSocketOffsetScale_Params params;
 
@@ -10178,7 +10243,7 @@ struct FVector ATslWeapon_Gun::GetRecoilADSSocketOffsetScale()
 int ATslWeapon_Gun::GetNumOfFiringMode()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16982);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17035);
 
 	ATslWeapon_Gun_GetNumOfFiringMode_Params params;
 
@@ -10201,7 +10266,7 @@ int ATslWeapon_Gun::GetNumOfFiringMode()
 float ATslWeapon_Gun::GetMovementModifierScope()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16980);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17033);
 
 	ATslWeapon_Gun_GetMovementModifierScope_Params params;
 
@@ -10224,7 +10289,7 @@ float ATslWeapon_Gun::GetMovementModifierScope()
 float ATslWeapon_Gun::GetMovementModifierAim()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16978);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17031);
 
 	ATslWeapon_Gun_GetMovementModifierAim_Params params;
 
@@ -10247,7 +10312,7 @@ float ATslWeapon_Gun::GetMovementModifierAim()
 int ATslWeapon_Gun::GetMaxAmmo()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16976);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17029);
 
 	ATslWeapon_Gun_GetMaxAmmo_Params params;
 
@@ -10270,7 +10335,7 @@ int ATslWeapon_Gun::GetMaxAmmo()
 float ATslWeapon_Gun::GetMagOutDuration()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16974);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17027);
 
 	ATslWeapon_Gun_GetMagOutDuration_Params params;
 
@@ -10293,7 +10358,7 @@ float ATslWeapon_Gun::GetMagOutDuration()
 struct FVector ATslWeapon_Gun::GetMagDropLinearVelocity()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16972);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17025);
 
 	ATslWeapon_Gun_GetMagDropLinearVelocity_Params params;
 
@@ -10316,7 +10381,7 @@ struct FVector ATslWeapon_Gun::GetMagDropLinearVelocity()
 struct FVector ATslWeapon_Gun::GetMagDropAngularVelocity()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16970);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17023);
 
 	ATslWeapon_Gun_GetMagDropAngularVelocity_Params params;
 
@@ -10339,7 +10404,7 @@ struct FVector ATslWeapon_Gun::GetMagDropAngularVelocity()
 int ATslWeapon_Gun::GetGripTypeIndex()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16968);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17021);
 
 	ATslWeapon_Gun_GetGripTypeIndex_Params params;
 
@@ -10362,7 +10427,7 @@ int ATslWeapon_Gun::GetGripTypeIndex()
 EFiringMode ATslWeapon_Gun::GetFiringMode()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16965);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17018);
 
 	ATslWeapon_Gun_GetFiringMode_Params params;
 
@@ -10385,7 +10450,7 @@ EFiringMode ATslWeapon_Gun::GetFiringMode()
 class UAmmoItem* ATslWeapon_Gun::GetDefaultAmmoObject()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16963);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17016);
 
 	ATslWeapon_Gun_GetDefaultAmmoObject_Params params;
 
@@ -10408,7 +10473,7 @@ class UAmmoItem* ATslWeapon_Gun::GetDefaultAmmoObject()
 float ATslWeapon_Gun::GetCurrentDeviation()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16961);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17014);
 
 	ATslWeapon_Gun_GetCurrentDeviation_Params params;
 
@@ -10431,7 +10496,7 @@ float ATslWeapon_Gun::GetCurrentDeviation()
 int ATslWeapon_Gun::GetCurrentAmmoInInventory()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16959);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17012);
 
 	ATslWeapon_Gun_GetCurrentAmmoInInventory_Params params;
 
@@ -10454,7 +10519,7 @@ int ATslWeapon_Gun::GetCurrentAmmoInInventory()
 int ATslWeapon_Gun::GetCurrentAmmoInClip()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16957);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17010);
 
 	ATslWeapon_Gun_GetCurrentAmmoInClip_Params params;
 
@@ -10477,7 +10542,7 @@ int ATslWeapon_Gun::GetCurrentAmmoInClip()
 int ATslWeapon_Gun::GetCurrentAmmo()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16955);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17008);
 
 	ATslWeapon_Gun_GetCurrentAmmo_Params params;
 
@@ -10500,7 +10565,7 @@ int ATslWeapon_Gun::GetCurrentAmmo()
 class UAnimMontage* ATslWeapon_Gun::GetCharacterTacticalReloadFromAttach()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16953);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17006);
 
 	ATslWeapon_Gun_GetCharacterTacticalReloadFromAttach_Params params;
 
@@ -10523,7 +10588,7 @@ class UAnimMontage* ATslWeapon_Gun::GetCharacterTacticalReloadFromAttach()
 class UAnimMontage* ATslWeapon_Gun::GetCharacterReloadTacticalMontage()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16951);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17004);
 
 	ATslWeapon_Gun_GetCharacterReloadTacticalMontage_Params params;
 
@@ -10546,7 +10611,7 @@ class UAnimMontage* ATslWeapon_Gun::GetCharacterReloadTacticalMontage()
 class UAnimMontage* ATslWeapon_Gun::GetCharacterReloadChargeMontage()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16949);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17002);
 
 	ATslWeapon_Gun_GetCharacterReloadChargeMontage_Params params;
 
@@ -10569,7 +10634,7 @@ class UAnimMontage* ATslWeapon_Gun::GetCharacterReloadChargeMontage()
 class UAnimMontage* ATslWeapon_Gun::GetCharacterReloadByOneStopMontage()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16947);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17000);
 
 	ATslWeapon_Gun_GetCharacterReloadByOneStopMontage_Params params;
 
@@ -10592,7 +10657,7 @@ class UAnimMontage* ATslWeapon_Gun::GetCharacterReloadByOneStopMontage()
 class UAnimMontage* ATslWeapon_Gun::GetCharacterReloadByOneStartMontage()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16945);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16998);
 
 	ATslWeapon_Gun_GetCharacterReloadByOneStartMontage_Params params;
 
@@ -10615,7 +10680,7 @@ class UAnimMontage* ATslWeapon_Gun::GetCharacterReloadByOneStartMontage()
 class UAnimMontage* ATslWeapon_Gun::GetCharacterReloadByOneSingleMontage()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16943);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16996);
 
 	ATslWeapon_Gun_GetCharacterReloadByOneSingleMontage_Params params;
 
@@ -10638,7 +10703,7 @@ class UAnimMontage* ATslWeapon_Gun::GetCharacterReloadByOneSingleMontage()
 class UBlendSpaceBase* ATslWeapon_Gun::GetCharacterLHGripBlendspace()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16941);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16994);
 
 	ATslWeapon_Gun_GetCharacterLHGripBlendspace_Params params;
 
@@ -10661,7 +10726,7 @@ class UBlendSpaceBase* ATslWeapon_Gun::GetCharacterLHGripBlendspace()
 class UBlendSpace1D* ATslWeapon_Gun::GetCharacterGripBlendspace()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16939);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16992);
 
 	ATslWeapon_Gun_GetCharacterGripBlendspace_Params params;
 
@@ -10684,7 +10749,7 @@ class UBlendSpace1D* ATslWeapon_Gun::GetCharacterGripBlendspace()
 class UAnimMontage* ATslWeapon_Gun::GetCharacterFireSelectorMontage()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16937);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16990);
 
 	ATslWeapon_Gun_GetCharacterFireSelectorMontage_Params params;
 
@@ -10707,7 +10772,7 @@ class UAnimMontage* ATslWeapon_Gun::GetCharacterFireSelectorMontage()
 class UAnimMontage* ATslWeapon_Gun::GetCharacterFireMontage()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16935);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16988);
 
 	ATslWeapon_Gun_GetCharacterFireMontage_Params params;
 
@@ -10730,7 +10795,7 @@ class UAnimMontage* ATslWeapon_Gun::GetCharacterFireMontage()
 class UAnimMontage* ATslWeapon_Gun::GetCharacterFireCycle()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16933);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16986);
 
 	ATslWeapon_Gun_GetCharacterFireCycle_Params params;
 
@@ -10753,7 +10818,7 @@ class UAnimMontage* ATslWeapon_Gun::GetCharacterFireCycle()
 class UAnimMontage* ATslWeapon_Gun::GetCharacterChargeReloadFromAttach()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16931);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16984);
 
 	ATslWeapon_Gun_GetCharacterChargeReloadFromAttach_Params params;
 
@@ -10776,7 +10841,7 @@ class UAnimMontage* ATslWeapon_Gun::GetCharacterChargeReloadFromAttach()
 int ATslWeapon_Gun::GetAmmoPerClip()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16929);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16982);
 
 	ATslWeapon_Gun_GetAmmoPerClip_Params params;
 
@@ -10799,7 +10864,7 @@ int ATslWeapon_Gun::GetAmmoPerClip()
 class UClass* ATslWeapon_Gun::GetAmmoItemClass()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16927);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16980);
 
 	ATslWeapon_Gun_GetAmmoItemClass_Params params;
 
@@ -10822,7 +10887,7 @@ class UClass* ATslWeapon_Gun::GetAmmoItemClass()
 float ATslWeapon_Gun::GetADSRecoilKick()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16925);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16978);
 
 	ATslWeapon_Gun_GetADSRecoilKick_Params params;
 
@@ -10843,7 +10908,7 @@ float ATslWeapon_Gun::GetADSRecoilKick()
 void ATslWeapon_Gun::ClientStopSimulatingWeaponFire()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16924);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16977);
 
 	ATslWeapon_Gun_ClientStopSimulatingWeaponFire_Params params;
 
@@ -10864,10 +10929,32 @@ void ATslWeapon_Gun::ClientStopSimulatingWeaponFire()
 void ATslWeapon_Gun::ClientSimulateWeaponFire(const struct FHitResult& ExceptTrajectoryHitResult)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16922);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16975);
 
 	ATslWeapon_Gun_ClientSimulateWeaponFire_Params params;
 	params.ExceptTrajectoryHitResult = ExceptTrajectoryHitResult;
+
+	auto flags = fn->FunctionFlags;
+	fn->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function TslGame.TslWeapon_Gun.ClientSetFiringMode
+// (Net, NetReliable, Native, Event, Public, NetClient)
+// Parameters:
+// EFiringMode                    FiringMode                     (Parm, ZeroConstructor, IsPlainOldData)
+
+void ATslWeapon_Gun::ClientSetFiringMode(EFiringMode FiringMode)
+{
+	static UFunction* fn = nullptr; 
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16972);
+
+	ATslWeapon_Gun_ClientSetFiringMode_Params params;
+	params.FiringMode = FiringMode;
 
 	auto flags = fn->FunctionFlags;
 	fn->FunctionFlags |= 0x400;
@@ -10884,7 +10971,7 @@ void ATslWeapon_Gun::ClientSimulateWeaponFire(const struct FHitResult& ExceptTra
 void ATslWeapon_Gun::ClientNotifyStopReloadByOne()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16921);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16971);
 
 	ATslWeapon_Gun_ClientNotifyStopReloadByOne_Params params;
 
@@ -10903,7 +10990,7 @@ void ATslWeapon_Gun::ClientNotifyStopReloadByOne()
 void ATslWeapon_Gun::ClientNotifyOutOfAmmo()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16920);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16970);
 
 	ATslWeapon_Gun_ClientNotifyOutOfAmmo_Params params;
 
@@ -10924,7 +11011,7 @@ void ATslWeapon_Gun::ClientNotifyOutOfAmmo()
 void ATslWeapon_Gun::ClientNotifyAmmo(int InCurrentAmmoInClip)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16918);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16968);
 
 	ATslWeapon_Gun_ClientNotifyAmmo_Params params;
 	params.InCurrentAmmoInClip = InCurrentAmmoInClip;
@@ -10944,7 +11031,7 @@ void ATslWeapon_Gun::ClientNotifyAmmo(int InCurrentAmmoInClip)
 void ATslWeapon_Gun::ClientCancelReload()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16917);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16967);
 
 	ATslWeapon_Gun_ClientCancelReload_Params params;
 
@@ -10963,7 +11050,7 @@ void ATslWeapon_Gun::ClientCancelReload()
 void ATslWeapon_Gun::Client_StartManualFireCycle()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16916);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16966);
 
 	ATslWeapon_Gun_Client_StartManualFireCycle_Params params;
 
@@ -10984,7 +11071,7 @@ void ATslWeapon_Gun::Client_StartManualFireCycle()
 bool ATslWeapon_Gun::CheckMiddlePointCollision()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16914);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16964);
 
 	ATslWeapon_Gun_CheckMiddlePointCollision_Params params;
 
@@ -11005,7 +11092,7 @@ bool ATslWeapon_Gun::CheckMiddlePointCollision()
 void ATslWeapon_Gun::CancelReloadImpl()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16913);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16963);
 
 	ATslWeapon_Gun_CancelReloadImpl_Params params;
 
@@ -11024,7 +11111,7 @@ void ATslWeapon_Gun::CancelReloadImpl()
 void ATslWeapon_Gun::BroadcastOutOfAmmo()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16912);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16962);
 
 	ATslWeapon_Gun_BroadcastOutOfAmmo_Params params;
 
@@ -11043,7 +11130,7 @@ void ATslWeapon_Gun::BroadcastOutOfAmmo()
 void ATslWeapon_Gun::AnimCall_ToggleFireMode()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16911);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16961);
 
 	ATslWeapon_Gun_AnimCall_ToggleFireMode_Params params;
 
@@ -11062,7 +11149,7 @@ void ATslWeapon_Gun::AnimCall_ToggleFireMode()
 void ATslWeapon_Gun::AnimCall_ReloadTacticalWeapon()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16910);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16960);
 
 	ATslWeapon_Gun_AnimCall_ReloadTacticalWeapon_Params params;
 
@@ -11081,7 +11168,7 @@ void ATslWeapon_Gun::AnimCall_ReloadTacticalWeapon()
 void ATslWeapon_Gun::AnimCall_ReloadChargeWeapon()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16909);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16959);
 
 	ATslWeapon_Gun_AnimCall_ReloadChargeWeapon_Params params;
 
@@ -11100,7 +11187,7 @@ void ATslWeapon_Gun::AnimCall_ReloadChargeWeapon()
 void ATslWeapon_Gun::AnimCall_ReloadByOneStop()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16908);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16958);
 
 	ATslWeapon_Gun_AnimCall_ReloadByOneStop_Params params;
 
@@ -11119,7 +11206,7 @@ void ATslWeapon_Gun::AnimCall_ReloadByOneStop()
 void ATslWeapon_Gun::AnimCall_FireWeaponCycle()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16907);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16957);
 
 	ATslWeapon_Gun_AnimCall_FireWeaponCycle_Params params;
 
@@ -11138,7 +11225,7 @@ void ATslWeapon_Gun::AnimCall_FireWeaponCycle()
 void ATslWeapon_Gun::AnimCall_FireWeapon()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16906);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(16956);
 
 	ATslWeapon_Gun_AnimCall_FireWeapon_Params params;
 
@@ -11157,7 +11244,7 @@ void ATslWeapon_Gun::AnimCall_FireWeapon()
 void AVehicleSeatActor::OnRep_Rider()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17119);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17173);
 
 	AVehicleSeatActor_OnRep_Rider_Params params;
 
@@ -11179,7 +11266,7 @@ void AVehicleSeatActor::OnRep_Rider()
 bool AVehicleSeatActor::IsWeaponClassAllowed(EWeaponClass InClass)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17115);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17169);
 
 	AVehicleSeatActor_IsWeaponClassAllowed_Params params;
 	params.InClass = InClass;
@@ -11203,7 +11290,7 @@ bool AVehicleSeatActor::IsWeaponClassAllowed(EWeaponClass InClass)
 bool AVehicleSeatActor::IsEntryAllowedByVelocity()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17113);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17167);
 
 	AVehicleSeatActor_IsEntryAllowedByVelocity_Params params;
 
@@ -11226,7 +11313,7 @@ bool AVehicleSeatActor::IsEntryAllowedByVelocity()
 class UTslVehicleSeatComponent* AVehicleSeatActor::GetVehicleSeatComponent()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17111);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17165);
 
 	AVehicleSeatActor_GetVehicleSeatComponent_Params params;
 
@@ -11249,7 +11336,7 @@ class UTslVehicleSeatComponent* AVehicleSeatActor::GetVehicleSeatComponent()
 class APawn* AVehicleSeatActor::GetVehiclePawn()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17109);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17163);
 
 	AVehicleSeatActor_GetVehiclePawn_Params params;
 
@@ -11272,7 +11359,7 @@ class APawn* AVehicleSeatActor::GetVehiclePawn()
 TScriptInterface<class UTslVehicleInterface> AVehicleSeatActor::GetVehicleInterface()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17107);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17161);
 
 	AVehicleSeatActor_GetVehicleInterface_Params params;
 
@@ -11295,7 +11382,7 @@ TScriptInterface<class UTslVehicleInterface> AVehicleSeatActor::GetVehicleInterf
 EVehicleAnimType AVehicleSeatActor::GetVehicleAnimType()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17104);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17158);
 
 	AVehicleSeatActor_GetVehicleAnimType_Params params;
 
@@ -11318,7 +11405,7 @@ EVehicleAnimType AVehicleSeatActor::GetVehicleAnimType()
 class UBlendSpaceBase* AVehicleSeatActor::GetTransitionOutBlendspace()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17102);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17156);
 
 	AVehicleSeatActor_GetTransitionOutBlendspace_Params params;
 
@@ -11341,7 +11428,7 @@ class UBlendSpaceBase* AVehicleSeatActor::GetTransitionOutBlendspace()
 class UBlendSpaceBase* AVehicleSeatActor::GetTransitionInBlendspace()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17100);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17154);
 
 	AVehicleSeatActor_GetTransitionInBlendspace_Params params;
 
@@ -11364,7 +11451,7 @@ class UBlendSpaceBase* AVehicleSeatActor::GetTransitionInBlendspace()
 class UAimOffsetBlendSpace* AVehicleSeatActor::GetSeatIdleAO()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17098);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17152);
 
 	AVehicleSeatActor_GetSeatIdleAO_Params params;
 
@@ -11387,7 +11474,7 @@ class UAimOffsetBlendSpace* AVehicleSeatActor::GetSeatIdleAO()
 class UAnimSequenceBase* AVehicleSeatActor::GetSeatIdleAnimation()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17096);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17150);
 
 	AVehicleSeatActor_GetSeatIdleAnimation_Params params;
 
@@ -11410,7 +11497,7 @@ class UAnimSequenceBase* AVehicleSeatActor::GetSeatIdleAnimation()
 class UBlendSpaceBase* AVehicleSeatActor::GetSeatAimingBlendspace()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17094);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17148);
 
 	AVehicleSeatActor_GetSeatAimingBlendspace_Params params;
 
@@ -11433,7 +11520,7 @@ class UBlendSpaceBase* AVehicleSeatActor::GetSeatAimingBlendspace()
 class ATslCharacter* AVehicleSeatActor::GetRider()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17092);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17146);
 
 	AVehicleSeatActor_GetRider_Params params;
 
@@ -11457,7 +11544,7 @@ class ATslCharacter* AVehicleSeatActor::GetRider()
 float AVehicleSeatActor::GetMinPitchByYaw(float CurrentYaw)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17089);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17143);
 
 	AVehicleSeatActor_GetMinPitchByYaw_Params params;
 	params.CurrentYaw = CurrentYaw;
@@ -11482,7 +11569,7 @@ float AVehicleSeatActor::GetMinPitchByYaw(float CurrentYaw)
 float AVehicleSeatActor::GetMaxPitchByYaw(float CurrentYaw)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17086);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17140);
 
 	AVehicleSeatActor_GetMaxPitchByYaw_Params params;
 	params.CurrentYaw = CurrentYaw;
@@ -11506,7 +11593,7 @@ float AVehicleSeatActor::GetMaxPitchByYaw(float CurrentYaw)
 bool AVehicleSeatActor::GetCanFireOnlyWhileAimed()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17084);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17138);
 
 	AVehicleSeatActor_GetCanFireOnlyWhileAimed_Params params;
 
@@ -11530,7 +11617,7 @@ bool AVehicleSeatActor::GetCanFireOnlyWhileAimed()
 struct FText AVehicleSeatActor::GetAdditionalMessage(class ATslCharacter* Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17081);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17135);
 
 	AVehicleSeatActor_GetAdditionalMessage_Params params;
 	params.Character = Character;
@@ -11555,7 +11642,7 @@ struct FText AVehicleSeatActor::GetAdditionalMessage(class ATslCharacter* Charac
 bool AVehicleSeatActor::AllowInteract(class ATslCharacter* OtherCharacter)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17078);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17132);
 
 	AVehicleSeatActor_AllowInteract_Params params;
 	params.OtherCharacter = OtherCharacter;
@@ -11580,7 +11667,7 @@ bool AVehicleSeatActor::AllowInteract(class ATslCharacter* OtherCharacter)
 void AWeaponProcessor::SimulateUnArmWeapon(int WeaponIndex, bool bNeedAnimation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17183);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17237);
 
 	AWeaponProcessor_SimulateUnArmWeapon_Params params;
 	params.WeaponIndex = WeaponIndex;
@@ -11604,7 +11691,7 @@ void AWeaponProcessor::SimulateUnArmWeapon(int WeaponIndex, bool bNeedAnimation)
 void AWeaponProcessor::SimulateArmWeapon(int WeaponIndex, bool bNeedAnimation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17180);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17234);
 
 	AWeaponProcessor_SimulateArmWeapon_Params params;
 	params.WeaponIndex = WeaponIndex;
@@ -11627,7 +11714,7 @@ void AWeaponProcessor::SimulateArmWeapon(int WeaponIndex, bool bNeedAnimation)
 void AWeaponProcessor::ServerUnarmCurrentWeapon(bool bNeedAnimation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17178);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17232);
 
 	AWeaponProcessor_ServerUnarmCurrentWeapon_Params params;
 	params.bNeedAnimation = bNeedAnimation;
@@ -11650,7 +11737,7 @@ void AWeaponProcessor::ServerUnarmCurrentWeapon(bool bNeedAnimation)
 void AWeaponProcessor::ServerArmWeapon(int WeaponIndex, bool bNeedAnimation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17175);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17229);
 
 	AWeaponProcessor_ServerArmWeapon_Params params;
 	params.WeaponIndex = WeaponIndex;
@@ -11673,7 +11760,7 @@ void AWeaponProcessor::ServerArmWeapon(int WeaponIndex, bool bNeedAnimation)
 void AWeaponProcessor::OnRep_EquippedWeapons(TArray<class ATslWeapon*> LastEquippedWeapons)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17172);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17226);
 
 	AWeaponProcessor_OnRep_EquippedWeapons_Params params;
 	params.LastEquippedWeapons = LastEquippedWeapons;
@@ -11693,7 +11780,7 @@ void AWeaponProcessor::OnRep_EquippedWeapons(TArray<class ATslWeapon*> LastEquip
 void AWeaponProcessor::OnRep_CurrentWeaponIndex()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17171);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17225);
 
 	AWeaponProcessor_OnRep_CurrentWeaponIndex_Params params;
 
@@ -11712,7 +11799,7 @@ void AWeaponProcessor::OnRep_CurrentWeaponIndex()
 void AWeaponProcessor::NotifyWeaponUpdate()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17170);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17224);
 
 	AWeaponProcessor_NotifyWeaponUpdate_Params params;
 
@@ -11734,7 +11821,7 @@ void AWeaponProcessor::NotifyWeaponUpdate()
 bool AWeaponProcessor::IsUnarmedWeapon(int WeaponIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17167);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17221);
 
 	AWeaponProcessor_IsUnarmedWeapon_Params params;
 	params.WeaponIndex = WeaponIndex;
@@ -11758,7 +11845,7 @@ bool AWeaponProcessor::IsUnarmedWeapon(int WeaponIndex)
 bool AWeaponProcessor::IsUnarmed()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17165);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17219);
 
 	AWeaponProcessor_IsUnarmed_Params params;
 
@@ -11781,7 +11868,7 @@ bool AWeaponProcessor::IsUnarmed()
 class ATslWeapon_Throwable* AWeaponProcessor::GetWeaponThrowable()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17163);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17217);
 
 	AWeaponProcessor_GetWeaponThrowable_Params params;
 
@@ -11804,7 +11891,7 @@ class ATslWeapon_Throwable* AWeaponProcessor::GetWeaponThrowable()
 int AWeaponProcessor::GetWeaponIndex()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17161);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17215);
 
 	AWeaponProcessor_GetWeaponIndex_Params params;
 
@@ -11827,7 +11914,7 @@ int AWeaponProcessor::GetWeaponIndex()
 class ATslWeapon_Gun* AWeaponProcessor::GetWeaponGun()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17159);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17213);
 
 	AWeaponProcessor_GetWeaponGun_Params params;
 
@@ -11851,7 +11938,7 @@ class ATslWeapon_Gun* AWeaponProcessor::GetWeaponGun()
 class ATslWeapon* AWeaponProcessor::GetWeaponByIndex(int Index)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17156);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17210);
 
 	AWeaponProcessor_GetWeaponByIndex_Params params;
 	params.Index = Index;
@@ -11875,7 +11962,7 @@ class ATslWeapon* AWeaponProcessor::GetWeaponByIndex(int Index)
 class ATslWeapon* AWeaponProcessor::GetWeapon()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17154);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17208);
 
 	AWeaponProcessor_GetWeapon_Params params;
 
@@ -11898,7 +11985,7 @@ class ATslWeapon* AWeaponProcessor::GetWeapon()
 int AWeaponProcessor::GetUnarmedWeaponIndex()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17152);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17206);
 
 	AWeaponProcessor_GetUnarmedWeaponIndex_Params params;
 
@@ -11921,7 +12008,7 @@ int AWeaponProcessor::GetUnarmedWeaponIndex()
 class ATslWeapon* AWeaponProcessor::GetCurrentWeapon()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17150);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17204);
 
 	AWeaponProcessor_GetCurrentWeapon_Params params;
 
@@ -11945,7 +12032,7 @@ class ATslWeapon* AWeaponProcessor::GetCurrentWeapon()
 class ATslWeapon* AWeaponProcessor::FindWeapon(class UClass* WeaponClass)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17147);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17201);
 
 	AWeaponProcessor_FindWeapon_Params params;
 	params.WeaponClass = WeaponClass;
@@ -11969,7 +12056,7 @@ class ATslWeapon* AWeaponProcessor::FindWeapon(class UClass* WeaponClass)
 void AWeaponProcessor::ClientSetWeaponIndex(int WeaponIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17145);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17199);
 
 	AWeaponProcessor_ClientSetWeaponIndex_Params params;
 	params.WeaponIndex = WeaponIndex;
@@ -11991,7 +12078,7 @@ void AWeaponProcessor::ClientSetWeaponIndex(int WeaponIndex)
 void AWeaponProcessor::ClientInitByReconnection(int InitWeaponIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17143);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17197);
 
 	AWeaponProcessor_ClientInitByReconnection_Params params;
 	params.InitWeaponIndex = InitWeaponIndex;
@@ -12013,7 +12100,7 @@ void AWeaponProcessor::ClientInitByReconnection(int InitWeaponIndex)
 void AWeaponProcessor::ClientForceRemoveWeapon(int WeaponIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17141);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17195);
 
 	AWeaponProcessor_ClientForceRemoveWeapon_Params params;
 	params.WeaponIndex = WeaponIndex;
@@ -12036,7 +12123,7 @@ void AWeaponProcessor::ClientForceRemoveWeapon(int WeaponIndex)
 class UAnimSequenceBase* UVaultingData::GetVaultAnimation(bool bHasRifle)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17197);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17251);
 
 	UVaultingData_GetVaultAnimation_Params params;
 	params.bHasRifle = bHasRifle;
@@ -12061,7 +12148,7 @@ class UAnimSequenceBase* UVaultingData::GetVaultAnimation(bool bHasRifle)
 float UVaultingData::GetBlendSpeedByDistance(float InDistance)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17194);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17248);
 
 	UVaultingData_GetBlendSpeedByDistance_Params params;
 	params.InDistance = InDistance;
@@ -12085,7 +12172,7 @@ float UVaultingData::GetBlendSpeedByDistance(float InDistance)
 float UVaultingData::GetAnimationLength()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17192);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17246);
 
 	UVaultingData_GetAnimationLength_Params params;
 
@@ -12108,7 +12195,7 @@ float UVaultingData::GetAnimationLength()
 class UCurveFloat* UVaultingData::GetAnimationCurve()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17190);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17244);
 
 	UVaultingData_GetAnimationCurve_Params params;
 
@@ -12129,7 +12216,7 @@ class UCurveFloat* UVaultingData::GetAnimationCurve()
 void ATslCharacter::UpdateWeaponAttachPoint()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17948);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18002);
 
 	ATslCharacter_UpdateWeaponAttachPoint_Params params;
 
@@ -12150,7 +12237,7 @@ void ATslCharacter::UpdateWeaponAttachPoint()
 void ATslCharacter::UnBindCallbackToHUD(class ATslPlayerController* InController)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17946);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18000);
 
 	ATslCharacter_UnBindCallbackToHUD_Params params;
 	params.InController = InController;
@@ -12170,7 +12257,7 @@ void ATslCharacter::UnBindCallbackToHUD(class ATslPlayerController* InController
 void ATslCharacter::ToggleInvincibility()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17945);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17999);
 
 	ATslCharacter_ToggleInvincibility_Params params;
 
@@ -12188,7 +12275,7 @@ void ATslCharacter::ToggleInvincibility()
 void ATslCharacter::ToggleFreeMode()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17944);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17998);
 
 	ATslCharacter_ToggleFreeMode_Params params;
 
@@ -12206,7 +12293,7 @@ void ATslCharacter::ToggleFreeMode()
 void ATslCharacter::ToggleAnimDynamics()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17943);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17997);
 
 	ATslCharacter_ToggleAnimDynamics_Params params;
 
@@ -12227,7 +12314,7 @@ void ATslCharacter::ToggleAnimDynamics()
 bool ATslCharacter::TickOptimization_ShouldRunMovementUpdate()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17941);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17995);
 
 	ATslCharacter_TickOptimization_ShouldRunMovementUpdate_Params params;
 
@@ -12250,7 +12337,7 @@ bool ATslCharacter::TickOptimization_ShouldRunMovementUpdate()
 bool ATslCharacter::TickOptimization_ShouldRunAnimUpdate()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17939);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17993);
 
 	ATslCharacter_TickOptimization_ShouldRunAnimUpdate_Params params;
 
@@ -12273,7 +12360,7 @@ bool ATslCharacter::TickOptimization_ShouldRunAnimUpdate()
 bool ATslCharacter::TickOptimization_IsOverMinimumDistance()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17937);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17991);
 
 	ATslCharacter_TickOptimization_IsOverMinimumDistance_Params params;
 
@@ -12294,7 +12381,7 @@ bool ATslCharacter::TickOptimization_IsOverMinimumDistance()
 void ATslCharacter::TickOptimization_Eval()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17936);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17990);
 
 	ATslCharacter_TickOptimization_Eval_Params params;
 
@@ -12313,7 +12400,7 @@ void ATslCharacter::TickOptimization_Eval()
 void ATslCharacter::StopAllAnimMontages()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17935);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17989);
 
 	ATslCharacter_StopAllAnimMontages_Params params;
 
@@ -12332,7 +12419,7 @@ void ATslCharacter::StopAllAnimMontages()
 void ATslCharacter::STAT_TickEnd()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17934);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17988);
 
 	ATslCharacter_STAT_TickEnd_Params params;
 
@@ -12351,7 +12438,7 @@ void ATslCharacter::STAT_TickEnd()
 void ATslCharacter::STAT_TickBegin()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17933);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17987);
 
 	ATslCharacter_STAT_TickBegin_Params params;
 
@@ -12373,7 +12460,7 @@ void ATslCharacter::STAT_TickBegin()
 void ATslCharacter::SpawnPunchImpact_Reliable(const struct FVector& InLocation, const struct FRotator& InRotation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17930);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17984);
 
 	ATslCharacter_SpawnPunchImpact_Reliable_Params params;
 	params.InLocation = InLocation;
@@ -12397,7 +12484,7 @@ void ATslCharacter::SpawnPunchImpact_Reliable(const struct FVector& InLocation, 
 void ATslCharacter::SpawnPunchImpact(const struct FVector& InLocation, const struct FRotator& InRotation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17927);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17981);
 
 	ATslCharacter_SpawnPunchImpact_Params params;
 	params.InLocation = InLocation;
@@ -12421,7 +12508,7 @@ void ATslCharacter::SpawnPunchImpact(const struct FVector& InLocation, const str
 void ATslCharacter::SpawnBulletPassByEffect(const struct FVector& Location, float BulletVelocity)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17924);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17978);
 
 	ATslCharacter_SpawnBulletPassByEffect_Params params;
 	params.Location = Location;
@@ -12442,7 +12529,7 @@ void ATslCharacter::SpawnBulletPassByEffect(const struct FVector& Location, floa
 void ATslCharacter::SimulatePhysicalHitRecovery()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17923);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17977);
 
 	ATslCharacter_SimulatePhysicalHitRecovery_Params params;
 
@@ -12464,7 +12551,7 @@ void ATslCharacter::SimulatePhysicalHitRecovery()
 void ATslCharacter::SimulateHeadShot(const struct FTransform& SpawnTransform, const struct FTransform& ImpactTransform)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17920);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17974);
 
 	ATslCharacter_SimulateHeadShot_Params params;
 	params.SpawnTransform = SpawnTransform;
@@ -12486,7 +12573,7 @@ void ATslCharacter::SimulateHeadShot(const struct FTransform& SpawnTransform, co
 void ATslCharacter::ShowDynamicCrosshair(bool bShow)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17918);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17972);
 
 	ATslCharacter_ShowDynamicCrosshair_Params params;
 	params.bShow = bShow;
@@ -12508,7 +12595,7 @@ void ATslCharacter::ShowDynamicCrosshair(bool bShow)
 void ATslCharacter::ShowCharacterInformation(bool bFullInfo)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17916);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17970);
 
 	ATslCharacter_ShowCharacterInformation_Params params;
 	params.bFullInfo = bFullInfo;
@@ -12528,7 +12615,7 @@ void ATslCharacter::ShowCharacterInformation(bool bFullInfo)
 void ATslCharacter::SetWorldTransformIdentity()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17915);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17969);
 
 	ATslCharacter_SetWorldTransformIdentity_Params params;
 
@@ -12549,7 +12636,7 @@ void ATslCharacter::SetWorldTransformIdentity()
 void ATslCharacter::SetWeaponInertia(const struct FRotator& InInertia)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17913);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17967);
 
 	ATslCharacter_SetWeaponInertia_Params params;
 	params.InInertia = InInertia;
@@ -12569,7 +12656,7 @@ void ATslCharacter::SetWeaponInertia(const struct FRotator& InInertia)
 void ATslCharacter::SetupWeaponBlueprint()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17912);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17966);
 
 	ATslCharacter_SetupWeaponBlueprint_Params params;
 
@@ -12589,7 +12676,7 @@ void ATslCharacter::SetupWeaponBlueprint()
 void ATslCharacter::SetTPPSpringarmOffset(float VerticalOffset)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17910);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17964);
 
 	ATslCharacter_SetTPPSpringarmOffset_Params params;
 	params.VerticalOffset = VerticalOffset;
@@ -12611,7 +12698,7 @@ void ATslCharacter::SetTPPSpringarmOffset(float VerticalOffset)
 void ATslCharacter::SetTickOptimization_Movement(bool bActivate)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17908);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17962);
 
 	ATslCharacter_SetTickOptimization_Movement_Params params;
 	params.bActivate = bActivate;
@@ -12633,7 +12720,7 @@ void ATslCharacter::SetTickOptimization_Movement(bool bActivate)
 void ATslCharacter::SetTickOptimization_Anim(bool bActivate)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17906);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17960);
 
 	ATslCharacter_SetTickOptimization_Anim_Params params;
 	params.bActivate = bActivate;
@@ -12655,7 +12742,7 @@ void ATslCharacter::SetTickOptimization_Anim(bool bActivate)
 void ATslCharacter::SetTickOptimization_Actor(bool bActivate)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17904);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17958);
 
 	ATslCharacter_SetTickOptimization_Actor_Params params;
 	params.bActivate = bActivate;
@@ -12679,7 +12766,7 @@ void ATslCharacter::SetTickOptimization_Actor(bool bActivate)
 void ATslCharacter::SetSwayDebuffParameters(float SwaySpeed, float SwayVerticalMultiplier, float SwayHorizontalMultiplier)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17900);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17954);
 
 	ATslCharacter_SetSwayDebuffParameters_Params params;
 	params.SwaySpeed = SwaySpeed;
@@ -12703,7 +12790,7 @@ void ATslCharacter::SetSwayDebuffParameters(float SwaySpeed, float SwayVerticalM
 void ATslCharacter::SetServerVaultFinished(bool InFinished)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17898);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17952);
 
 	ATslCharacter_SetServerVaultFinished_Params params;
 	params.InFinished = InFinished;
@@ -12725,7 +12812,7 @@ void ATslCharacter::SetServerVaultFinished(bool InFinished)
 void ATslCharacter::SetParachuteLandingAssist(bool bAssistActive)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17896);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17950);
 
 	ATslCharacter_SetParachuteLandingAssist_Params params;
 	params.bAssistActive = bAssistActive;
@@ -12747,7 +12834,7 @@ void ATslCharacter::SetParachuteLandingAssist(bool bAssistActive)
 void ATslCharacter::SetMovementEnabled(bool IsEnabled)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17894);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17948);
 
 	ATslCharacter_SetMovementEnabled_Params params;
 	params.IsEnabled = IsEnabled;
@@ -12772,7 +12859,7 @@ void ATslCharacter::SetMovementEnabled(bool IsEnabled)
 void ATslCharacter::SetLaunchEvent(const struct FAttackId& AttackId, class ATslPlayerState* InPlayerState, class AActor* Causer, class UClass* DamageTypeClass)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17889);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17943);
 
 	ATslCharacter_SetLaunchEvent_Params params;
 	params.AttackId = AttackId;
@@ -12798,7 +12885,7 @@ void ATslCharacter::SetLaunchEvent(const struct FAttackId& AttackId, class ATslP
 void ATslCharacter::SetJumpStartLocationAndFallheight(const struct FVector& JumpStartLoc, float FallHeight)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17886);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17940);
 
 	ATslCharacter_SetJumpStartLocationAndFallheight_Params params;
 	params.JumpStartLoc = JumpStartLoc;
@@ -12821,7 +12908,7 @@ void ATslCharacter::SetJumpStartLocationAndFallheight(const struct FVector& Jump
 void ATslCharacter::SetCustomDepth(bool bOn)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17884);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17938);
 
 	ATslCharacter_SetCustomDepth_Params params;
 	params.bOn = bOn;
@@ -12847,7 +12934,7 @@ void ATslCharacter::SetCustomDepth(bool bOn)
 void ATslCharacter::SetCharacterVaultingData(float InVaultTimer, bool InIsVaulting, bool InIsClimbing, bool InEndVaultToFall, float InDirection)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17878);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17932);
 
 	ATslCharacter_SetCharacterVaultingData_Params params;
 	params.InVaultTimer = InVaultTimer;
@@ -12873,7 +12960,7 @@ void ATslCharacter::SetCharacterVaultingData(float InVaultTimer, bool InIsVaulti
 void ATslCharacter::SetCanGroggyDamage(bool bInCanGroggyDamage)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17876);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17930);
 
 	ATslCharacter_SetCanGroggyDamage_Params params;
 	params.bInCanGroggyDamage = bInCanGroggyDamage;
@@ -12895,7 +12982,7 @@ void ATslCharacter::SetCanGroggyDamage(bool bInCanGroggyDamage)
 void ATslCharacter::SetBulletSpawnOverride(bool InOverride)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17874);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17928);
 
 	ATslCharacter_SetBulletSpawnOverride_Params params;
 	params.InOverride = InOverride;
@@ -12917,7 +13004,7 @@ void ATslCharacter::SetBulletSpawnOverride(bool InOverride)
 void ATslCharacter::SetBuffFinalSpreadFactor(float FinalSpreadFactor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17872);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17926);
 
 	ATslCharacter_SetBuffFinalSpreadFactor_Params params;
 	params.FinalSpreadFactor = FinalSpreadFactor;
@@ -12939,7 +13026,7 @@ void ATslCharacter::SetBuffFinalSpreadFactor(float FinalSpreadFactor)
 void ATslCharacter::SetBoostGauge(float NewBoostGauge)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17870);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17924);
 
 	ATslCharacter_SetBoostGauge_Params params;
 	params.NewBoostGauge = NewBoostGauge;
@@ -12962,7 +13049,7 @@ void ATslCharacter::SetBoostGauge(float NewBoostGauge)
 void ATslCharacter::SetAnimationAkSwitch(const struct FString& SwitchGroup, const struct FString& SwitchState)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17867);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17921);
 
 	ATslCharacter_SetAnimationAkSwitch_Params params;
 	params.SwitchGroup = SwitchGroup;
@@ -12986,7 +13073,7 @@ void ATslCharacter::SetAnimationAkSwitch(const struct FString& SwitchGroup, cons
 void ATslCharacter::SetAnimationAkRTPC(const struct FString& RTPCName, float RTPCValue)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17864);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17918);
 
 	ATslCharacter_SetAnimationAkRTPC_Params params;
 	params.RTPCName = RTPCName;
@@ -13009,7 +13096,7 @@ void ATslCharacter::SetAnimationAkRTPC(const struct FString& RTPCName, float RTP
 void ATslCharacter::SetAimStateActive(bool IsActive)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17862);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17916);
 
 	ATslCharacter_SetAimStateActive_Params params;
 	params.IsActive = IsActive;
@@ -13031,7 +13118,7 @@ void ATslCharacter::SetAimStateActive(bool IsActive)
 void ATslCharacter::SetADSSocketOffset(const struct FVector& NewOffset)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17860);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17914);
 
 	ATslCharacter_SetADSSocketOffset_Params params;
 	params.NewOffset = NewOffset;
@@ -13053,7 +13140,7 @@ void ATslCharacter::SetADSSocketOffset(const struct FVector& NewOffset)
 void ATslCharacter::SetActiveRagdoll(bool bIsActive)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17858);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17912);
 
 	ATslCharacter_SetActiveRagdoll_Params params;
 	params.bIsActive = bIsActive;
@@ -13075,7 +13162,7 @@ void ATslCharacter::SetActiveRagdoll(bool bIsActive)
 void ATslCharacter::SetAccessorySlot_Thrown(class UTslAccessoryComponent* AccessoryComponent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17856);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17910);
 
 	ATslCharacter_SetAccessorySlot_Thrown_Params params;
 	params.AccessoryComponent = AccessoryComponent;
@@ -13097,7 +13184,7 @@ void ATslCharacter::SetAccessorySlot_Thrown(class UTslAccessoryComponent* Access
 void ATslCharacter::SetAccessorySlot_SideArm(class UTslAccessoryComponent* AccessoryComponent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17854);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17908);
 
 	ATslCharacter_SetAccessorySlot_SideArm_Params params;
 	params.AccessoryComponent = AccessoryComponent;
@@ -13119,7 +13206,7 @@ void ATslCharacter::SetAccessorySlot_SideArm(class UTslAccessoryComponent* Acces
 void ATslCharacter::SetAccessorySlot_Secondary(class UTslAccessoryComponent* AccessoryComponent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17852);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17906);
 
 	ATslCharacter_SetAccessorySlot_Secondary_Params params;
 	params.AccessoryComponent = AccessoryComponent;
@@ -13141,7 +13228,7 @@ void ATslCharacter::SetAccessorySlot_Secondary(class UTslAccessoryComponent* Acc
 void ATslCharacter::SetAccessorySlot_Primary(class UTslAccessoryComponent* AccessoryComponent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17850);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17904);
 
 	ATslCharacter_SetAccessorySlot_Primary_Params params;
 	params.AccessoryComponent = AccessoryComponent;
@@ -13163,7 +13250,7 @@ void ATslCharacter::SetAccessorySlot_Primary(class UTslAccessoryComponent* Acces
 void ATslCharacter::SetAccessorySlot_Melee(class UTslAccessoryComponent* AccessoryComponent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17848);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17902);
 
 	ATslCharacter_SetAccessorySlot_Melee_Params params;
 	params.AccessoryComponent = AccessoryComponent;
@@ -13186,7 +13273,7 @@ void ATslCharacter::SetAccessorySlot_Melee(class UTslAccessoryComponent* Accesso
 void ATslCharacter::SetAccessorySlot(class UTslAccessoryComponent* AccessoryComponent, EAccessorySlot Slot)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17844);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17898);
 
 	ATslCharacter_SetAccessorySlot_Params params;
 	params.AccessoryComponent = AccessoryComponent;
@@ -13209,7 +13296,7 @@ void ATslCharacter::SetAccessorySlot(class UTslAccessoryComponent* AccessoryComp
 void ATslCharacter::ServerSetVariableZoomLevel(int ZoomLevel)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17842);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17896);
 
 	ATslCharacter_ServerSetVariableZoomLevel_Params params;
 	params.ZoomLevel = ZoomLevel;
@@ -13231,7 +13318,7 @@ void ATslCharacter::ServerSetVariableZoomLevel(int ZoomLevel)
 void ATslCharacter::ServerSetTargeting(ETargetingType NewTargetingType)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17839);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17893);
 
 	ATslCharacter_ServerSetTargeting_Params params;
 	params.NewTargetingType = NewTargetingType;
@@ -13253,7 +13340,7 @@ void ATslCharacter::ServerSetTargeting(ETargetingType NewTargetingType)
 void ATslCharacter::ServerSetSprintingAuto(bool bNewSprintingAuto)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17837);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17891);
 
 	ATslCharacter_ServerSetSprintingAuto_Params params;
 	params.bNewSprintingAuto = bNewSprintingAuto;
@@ -13275,7 +13362,7 @@ void ATslCharacter::ServerSetSprintingAuto(bool bNewSprintingAuto)
 void ATslCharacter::ServerSetSprinting(bool bNewSprinting)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17835);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17889);
 
 	ATslCharacter_ServerSetSprinting_Params params;
 	params.bNewSprinting = bNewSprinting;
@@ -13297,7 +13384,7 @@ void ATslCharacter::ServerSetSprinting(bool bNewSprinting)
 void ATslCharacter::ServerSetRunning(bool bNewRunning)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17833);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17887);
 
 	ATslCharacter_ServerSetRunning_Params params;
 	params.bNewRunning = bNewRunning;
@@ -13320,7 +13407,7 @@ void ATslCharacter::ServerSetRunning(bool bNewRunning)
 void ATslCharacter::ServerSetRolling(bool bNewRolling, bool bIsLeft)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17830);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17884);
 
 	ATslCharacter_ServerSetRolling_Params params;
 	params.bNewRolling = bNewRolling;
@@ -13344,7 +13431,7 @@ void ATslCharacter::ServerSetRolling(bool bNewRolling, bool bIsLeft)
 void ATslCharacter::ServerSetPeekRight(bool bNewPeekRight, bool InbUseRightShoulderAiming)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17827);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17881);
 
 	ATslCharacter_ServerSetPeekRight_Params params;
 	params.bNewPeekRight = bNewPeekRight;
@@ -13368,7 +13455,7 @@ void ATslCharacter::ServerSetPeekRight(bool bNewPeekRight, bool InbUseRightShoul
 void ATslCharacter::ServerSetPeekLeft(bool bNewPeekLeft, bool InbUseRightShoulderAiming)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17824);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17878);
 
 	ATslCharacter_ServerSetPeekLeft_Params params;
 	params.bNewPeekLeft = bNewPeekLeft;
@@ -13391,7 +13478,7 @@ void ATslCharacter::ServerSetPeekLeft(bool bNewPeekLeft, bool InbUseRightShoulde
 void ATslCharacter::ServerSetHoldingBreath(bool bNewHoldingBreath)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17822);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17876);
 
 	ATslCharacter_ServerSetHoldingBreath_Params params;
 	params.bNewHoldingBreath = bNewHoldingBreath;
@@ -13413,7 +13500,7 @@ void ATslCharacter::ServerSetHoldingBreath(bool bNewHoldingBreath)
 void ATslCharacter::ServerSetGunDirectionSway(const struct FRotator& InGunDirectionSway)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17820);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17874);
 
 	ATslCharacter_ServerSetGunDirectionSway_Params params;
 	params.InGunDirectionSway = InGunDirectionSway;
@@ -13435,7 +13522,7 @@ void ATslCharacter::ServerSetGunDirectionSway(const struct FRotator& InGunDirect
 void ATslCharacter::ServerSetAimOffsets(const struct FVector_NetQuantizeNormal& NewAimOffsets)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17818);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17872);
 
 	ATslCharacter_ServerSetAimOffsets_Params params;
 	params.NewAimOffsets = NewAimOffsets;
@@ -13457,7 +13544,7 @@ void ATslCharacter::ServerSetAimOffsets(const struct FVector_NetQuantizeNormal& 
 void ATslCharacter::ServerBroadCastAimingRemote(bool InbIsAming)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17816);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17870);
 
 	ATslCharacter_ServerBroadCastAimingRemote_Params params;
 	params.InbIsAming = InbIsAming;
@@ -13482,7 +13569,7 @@ void ATslCharacter::ServerBroadCastAimingRemote(bool InbIsAming)
 void ATslCharacter::Server_UnarmedHitNotify(const struct FHitResult& Hit, TEnumAsByte<EPunchDamageType> PunchDamageType, TArray<float> AimSpeeds, uint32_t HitSeq)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17810);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17864);
 
 	ATslCharacter_Server_UnarmedHitNotify_Params params;
 	params.Hit = Hit;
@@ -13507,7 +13594,7 @@ void ATslCharacter::Server_UnarmedHitNotify(const struct FHitResult& Hit, TEnumA
 void ATslCharacter::Server_SetWeaponObstruction(bool bNewObstruction)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17808);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17862);
 
 	ATslCharacter_Server_SetWeaponObstruction_Params params;
 	params.bNewObstruction = bNewObstruction;
@@ -13529,7 +13616,7 @@ void ATslCharacter::Server_SetWeaponObstruction(bool bNewObstruction)
 void ATslCharacter::Server_SetVaultCancel(bool InCancel)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17806);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17860);
 
 	ATslCharacter_Server_SetVaultCancel_Params params;
 	params.InCancel = InCancel;
@@ -13551,7 +13638,7 @@ void ATslCharacter::Server_SetVaultCancel(bool InCancel)
 void ATslCharacter::Server_SetThrowMode(bool bNewVal)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17804);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17858);
 
 	ATslCharacter_Server_SetThrowMode_Params params;
 	params.bNewVal = bNewVal;
@@ -13573,7 +13660,7 @@ void ATslCharacter::Server_SetThrowMode(bool bNewVal)
 void ATslCharacter::Server_SetParachuteLandingAssist(bool bAssistActive)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17802);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17856);
 
 	ATslCharacter_Server_SetParachuteLandingAssist_Params params;
 	params.bAssistActive = bAssistActive;
@@ -13595,7 +13682,7 @@ void ATslCharacter::Server_SetParachuteLandingAssist(bool bAssistActive)
 void ATslCharacter::Server_SetFiringMode(EFiringMode fMode)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17799);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17853);
 
 	ATslCharacter_Server_SetFiringMode_Params params;
 	params.fMode = fMode;
@@ -13617,7 +13704,7 @@ void ATslCharacter::Server_SetFiringMode(EFiringMode fMode)
 void ATslCharacter::Server_SetCoatEquipped(bool IsEquipped)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17797);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17851);
 
 	ATslCharacter_Server_SetCoatEquipped_Params params;
 	params.IsEquipped = IsEquipped;
@@ -13639,7 +13726,7 @@ void ATslCharacter::Server_SetCoatEquipped(bool IsEquipped)
 void ATslCharacter::Server_SetCastAnim(ECastAnim InCastAnim)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17794);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17848);
 
 	ATslCharacter_Server_SetCastAnim_Params params;
 	params.InCastAnim = InCastAnim;
@@ -13661,7 +13748,7 @@ void ATslCharacter::Server_SetCastAnim(ECastAnim InCastAnim)
 void ATslCharacter::Server_SetCanGroggyDamage(bool bInCanGroggyDamage)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17792);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17846);
 
 	ATslCharacter_Server_SetCanGroggyDamage_Params params;
 	params.bInCanGroggyDamage = bInCanGroggyDamage;
@@ -13683,7 +13770,7 @@ void ATslCharacter::Server_SetCanGroggyDamage(bool bInCanGroggyDamage)
 void ATslCharacter::Server_SetAimState(bool IsActive)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17790);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17844);
 
 	ATslCharacter_Server_SetAimState_Params params;
 	params.IsActive = IsActive;
@@ -13705,7 +13792,7 @@ void ATslCharacter::Server_SetAimState(bool IsActive)
 void ATslCharacter::Server_PlayUnarmedAttack(int AnimationIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17788);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17842);
 
 	ATslCharacter_Server_PlayUnarmedAttack_Params params;
 	params.AnimationIndex = AnimationIndex;
@@ -13725,7 +13812,7 @@ void ATslCharacter::Server_PlayUnarmedAttack(int AnimationIndex)
 void ATslCharacter::Server_CastFinishNotify()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17787);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17841);
 
 	ATslCharacter_Server_CastFinishNotify_Params params;
 
@@ -13744,7 +13831,7 @@ void ATslCharacter::Server_CastFinishNotify()
 void ATslCharacter::Server_CastCancelNotify()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17786);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17840);
 
 	ATslCharacter_Server_CastCancelNotify_Params params;
 
@@ -13766,7 +13853,7 @@ void ATslCharacter::Server_CastCancelNotify()
 void ATslCharacter::SendSystemMessage(ESystemMessageType MessageType, const struct FText& Message)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17782);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17836);
 
 	ATslCharacter_SendSystemMessage_Params params;
 	params.MessageType = MessageType;
@@ -13787,7 +13874,7 @@ void ATslCharacter::SendSystemMessage(ESystemMessageType MessageType, const stru
 void ATslCharacter::RunVaultCheck_BP()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17781);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17835);
 
 	ATslCharacter_RunVaultCheck_BP_Params params;
 
@@ -13806,7 +13893,7 @@ void ATslCharacter::RunVaultCheck_BP()
 void ATslCharacter::ResetUnarmedAttack()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17780);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17834);
 
 	ATslCharacter_ResetUnarmedAttack_Params params;
 
@@ -13825,7 +13912,7 @@ void ATslCharacter::ResetUnarmedAttack()
 void ATslCharacter::ResetParachute()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17779);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17833);
 
 	ATslCharacter_ResetParachute_Params params;
 
@@ -13844,7 +13931,7 @@ void ATslCharacter::ResetParachute()
 void ATslCharacter::RemoveCrosshair()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17778);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17832);
 
 	ATslCharacter_RemoveCrosshair_Params params;
 
@@ -13862,7 +13949,7 @@ void ATslCharacter::RemoveCrosshair()
 void ATslCharacter::ReevaluaeTargetingState()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17777);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17831);
 
 	ATslCharacter_ReevaluaeTargetingState_Params params;
 
@@ -13886,7 +13973,7 @@ void ATslCharacter::ReevaluaeTargetingState()
 void ATslCharacter::PunchStart(TEnumAsByte<EPunchDamageType> PunchDamageType, float PunchDistance, float PunchRadius, TArray<float> InAimSpeeds)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17771);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17825);
 
 	ATslCharacter_PunchStart_Params params;
 	params.PunchDamageType = PunchDamageType;
@@ -13911,7 +13998,7 @@ void ATslCharacter::PunchStart(TEnumAsByte<EPunchDamageType> PunchDamageType, fl
 void ATslCharacter::ProcessRevive(float RemainGroggyHealthPercent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17769);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17823);
 
 	ATslCharacter_ProcessRevive_Params params;
 	params.RemainGroggyHealthPercent = RemainGroggyHealthPercent;
@@ -13932,7 +14019,7 @@ void ATslCharacter::ProcessRevive(float RemainGroggyHealthPercent)
 void ATslCharacter::ProcessDBNO(float GroggyHealthPercent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17767);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17821);
 
 	ATslCharacter_ProcessDBNO_Params params;
 	params.GroggyHealthPercent = GroggyHealthPercent;
@@ -13953,7 +14040,7 @@ void ATslCharacter::ProcessDBNO(float GroggyHealthPercent)
 void ATslCharacter::PrepareParachute(class UClass* ParachuteType)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17765);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17819);
 
 	ATslCharacter_PrepareParachute_Params params;
 	params.ParachuteType = ParachuteType;
@@ -13975,7 +14062,7 @@ void ATslCharacter::PrepareParachute(class UClass* ParachuteType)
 void ATslCharacter::PlayCameraAnim(class UCameraAnim* CameraAnim)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17763);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17817);
 
 	ATslCharacter_PlayCameraAnim_Params params;
 	params.CameraAnim = CameraAnim;
@@ -14000,7 +14087,7 @@ void ATslCharacter::PlayCameraAnim(class UCameraAnim* CameraAnim)
 bool ATslCharacter::PickUpItem(class UItem* Item, const struct FName& TargetContainer, const struct FString& Options)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17758);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17812);
 
 	ATslCharacter_PickUpItem_Params params;
 	params.Item = Item;
@@ -14024,7 +14111,7 @@ bool ATslCharacter::PickUpItem(class UItem* Item, const struct FName& TargetCont
 void ATslCharacter::OnWeaponChanged()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17757);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17811);
 
 	ATslCharacter_OnWeaponChanged_Params params;
 
@@ -14042,7 +14129,7 @@ void ATslCharacter::OnWeaponChanged()
 void ATslCharacter::OnWeapon_6()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17756);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17810);
 
 	ATslCharacter_OnWeapon_6_Params params;
 
@@ -14061,7 +14148,7 @@ void ATslCharacter::OnWeapon_6()
 void ATslCharacter::OnWeapon_5()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17755);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17809);
 
 	ATslCharacter_OnWeapon_5_Params params;
 
@@ -14080,7 +14167,7 @@ void ATslCharacter::OnWeapon_5()
 void ATslCharacter::OnWeapon_4()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17754);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17808);
 
 	ATslCharacter_OnWeapon_4_Params params;
 
@@ -14099,7 +14186,7 @@ void ATslCharacter::OnWeapon_4()
 void ATslCharacter::OnWeapon_3()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17753);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17807);
 
 	ATslCharacter_OnWeapon_3_Params params;
 
@@ -14118,7 +14205,7 @@ void ATslCharacter::OnWeapon_3()
 void ATslCharacter::OnWeapon_2()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17752);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17806);
 
 	ATslCharacter_OnWeapon_2_Params params;
 
@@ -14137,7 +14224,7 @@ void ATslCharacter::OnWeapon_2()
 void ATslCharacter::OnUnarmPad()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17751);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17805);
 
 	ATslCharacter_OnUnarmPad_Params params;
 
@@ -14156,7 +14243,7 @@ void ATslCharacter::OnUnarmPad()
 void ATslCharacter::OnUnarm()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17750);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17804);
 
 	ATslCharacter_OnUnarm_Params params;
 
@@ -14175,7 +14262,7 @@ void ATslCharacter::OnUnarm()
 void ATslCharacter::OnThrowWeaponPad()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17749);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17803);
 
 	ATslCharacter_OnThrowWeaponPad_Params params;
 
@@ -14194,7 +14281,7 @@ void ATslCharacter::OnThrowWeaponPad()
 void ATslCharacter::OnTest_SetupWeapon()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17748);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17802);
 
 	ATslCharacter_OnTest_SetupWeapon_Params params;
 
@@ -14212,7 +14299,7 @@ void ATslCharacter::OnTest_SetupWeapon()
 void ATslCharacter::OnTest_InspectObject()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17747);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17801);
 
 	ATslCharacter_OnTest_InspectObject_Params params;
 
@@ -14230,7 +14317,7 @@ void ATslCharacter::OnTest_InspectObject()
 void ATslCharacter::OnStopTargeting()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17746);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17800);
 
 	ATslCharacter_OnStopTargeting_Params params;
 
@@ -14249,7 +14336,7 @@ void ATslCharacter::OnStopTargeting()
 void ATslCharacter::OnStopFire()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17745);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17799);
 
 	ATslCharacter_OnStopFire_Params params;
 
@@ -14270,7 +14357,7 @@ void ATslCharacter::OnStopFire()
 void ATslCharacter::OnStartInteractBy(class ATslCharacter* OtherCharacter)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17743);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17797);
 
 	ATslCharacter_OnStartInteractBy_Params params;
 	params.OtherCharacter = OtherCharacter;
@@ -14292,7 +14379,7 @@ void ATslCharacter::OnStartInteractBy(class ATslCharacter* OtherCharacter)
 void ATslCharacter::OnShowDynamicCrosshair(bool bShow)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17741);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17795);
 
 	ATslCharacter_OnShowDynamicCrosshair_Params params;
 	params.bShow = bShow;
@@ -14311,7 +14398,7 @@ void ATslCharacter::OnShowDynamicCrosshair(bool bShow)
 void ATslCharacter::OnRep_WeaponProcessor()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17740);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17794);
 
 	ATslCharacter_OnRep_WeaponProcessor_Params params;
 
@@ -14330,7 +14417,7 @@ void ATslCharacter::OnRep_WeaponProcessor()
 void ATslCharacter::OnRep_VariableZoomLevel()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17739);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17793);
 
 	ATslCharacter_OnRep_VariableZoomLevel_Params params;
 
@@ -14349,7 +14436,7 @@ void ATslCharacter::OnRep_VariableZoomLevel()
 void ATslCharacter::OnRep_TargetingType()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17738);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17792);
 
 	ATslCharacter_OnRep_TargetingType_Params params;
 
@@ -14368,7 +14455,7 @@ void ATslCharacter::OnRep_TargetingType()
 void ATslCharacter::OnRep_ShoesSoundType()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17737);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17791);
 
 	ATslCharacter_OnRep_ShoesSoundType_Params params;
 
@@ -14387,7 +14474,7 @@ void ATslCharacter::OnRep_ShoesSoundType()
 void ATslCharacter::OnRep_ReviveCastingTime()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17736);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17790);
 
 	ATslCharacter_OnRep_ReviveCastingTime_Params params;
 
@@ -14406,7 +14493,7 @@ void ATslCharacter::OnRep_ReviveCastingTime()
 void ATslCharacter::OnRep_LastTakeHitInfo()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17735);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17789);
 
 	ATslCharacter_OnRep_LastTakeHitInfo_Params params;
 
@@ -14425,7 +14512,7 @@ void ATslCharacter::OnRep_LastTakeHitInfo()
 void ATslCharacter::OnRep_IsWeaponObstructed()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17734);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17788);
 
 	ATslCharacter_OnRep_IsWeaponObstructed_Params params;
 
@@ -14444,7 +14531,7 @@ void ATslCharacter::OnRep_IsWeaponObstructed()
 void ATslCharacter::OnRep_IsThrowHigh()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17733);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17787);
 
 	ATslCharacter_OnRep_IsThrowHigh_Params params;
 
@@ -14463,7 +14550,7 @@ void ATslCharacter::OnRep_IsThrowHigh()
 void ATslCharacter::OnRep_IsThirdPerson()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17732);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17786);
 
 	ATslCharacter_OnRep_IsThirdPerson_Params params;
 
@@ -14482,7 +14569,7 @@ void ATslCharacter::OnRep_IsThirdPerson()
 void ATslCharacter::OnRep_IsScopingRemote()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17731);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17785);
 
 	ATslCharacter_OnRep_IsScopingRemote_Params params;
 
@@ -14501,7 +14588,7 @@ void ATslCharacter::OnRep_IsScopingRemote()
 void ATslCharacter::OnRep_IsReviving()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17730);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17784);
 
 	ATslCharacter_OnRep_IsReviving_Params params;
 
@@ -14520,7 +14607,7 @@ void ATslCharacter::OnRep_IsReviving()
 void ATslCharacter::OnRep_IsPeekRight()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17729);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17783);
 
 	ATslCharacter_OnRep_IsPeekRight_Params params;
 
@@ -14539,7 +14626,7 @@ void ATslCharacter::OnRep_IsPeekRight()
 void ATslCharacter::OnRep_IsPeekLeft()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17728);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17782);
 
 	ATslCharacter_OnRep_IsPeekLeft_Params params;
 
@@ -14558,7 +14645,7 @@ void ATslCharacter::OnRep_IsPeekLeft()
 void ATslCharacter::OnRep_IsInVehicleRemote()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17727);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17781);
 
 	ATslCharacter_OnRep_IsInVehicleRemote_Params params;
 
@@ -14577,7 +14664,7 @@ void ATslCharacter::OnRep_IsInVehicleRemote()
 void ATslCharacter::OnRep_IsGroggying()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17726);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17780);
 
 	ATslCharacter_OnRep_IsGroggying_Params params;
 
@@ -14596,7 +14683,7 @@ void ATslCharacter::OnRep_IsGroggying()
 void ATslCharacter::OnRep_IsFirstPersonRemote()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17725);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17779);
 
 	ATslCharacter_OnRep_IsFirstPersonRemote_Params params;
 
@@ -14615,7 +14702,7 @@ void ATslCharacter::OnRep_IsFirstPersonRemote()
 void ATslCharacter::OnRep_IsDemoVaulting()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17724);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17778);
 
 	ATslCharacter_OnRep_IsDemoVaulting_Params params;
 
@@ -14634,7 +14721,7 @@ void ATslCharacter::OnRep_IsDemoVaulting()
 void ATslCharacter::OnRep_IsCrouched()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17723);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17777);
 
 	ATslCharacter_OnRep_IsCrouched_Params params;
 
@@ -14653,7 +14740,7 @@ void ATslCharacter::OnRep_IsCrouched()
 void ATslCharacter::OnRep_IsCoatEquipped()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17722);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17776);
 
 	ATslCharacter_OnRep_IsCoatEquipped_Params params;
 
@@ -14672,7 +14759,7 @@ void ATslCharacter::OnRep_IsCoatEquipped()
 void ATslCharacter::OnRep_IsAimingRemote()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17721);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17775);
 
 	ATslCharacter_OnRep_IsAimingRemote_Params params;
 
@@ -14691,7 +14778,7 @@ void ATslCharacter::OnRep_IsAimingRemote()
 void ATslCharacter::OnRep_IgnoreRotation()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17720);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17774);
 
 	ATslCharacter_OnRep_IgnoreRotation_Params params;
 
@@ -14712,7 +14799,7 @@ void ATslCharacter::OnRep_IgnoreRotation()
 void ATslCharacter::OnRep_Health(float LastHealth)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17718);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17772);
 
 	ATslCharacter_OnRep_Health_Params params;
 	params.LastHealth = LastHealth;
@@ -14734,7 +14821,7 @@ void ATslCharacter::OnRep_Health(float LastHealth)
 void ATslCharacter::OnRep_GroggyHealth(float LastGroggyHealth)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17716);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17770);
 
 	ATslCharacter_OnRep_GroggyHealth_Params params;
 	params.LastGroggyHealth = LastGroggyHealth;
@@ -14754,7 +14841,7 @@ void ATslCharacter::OnRep_GroggyHealth(float LastGroggyHealth)
 void ATslCharacter::OnRep_CharacterState()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17715);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17769);
 
 	ATslCharacter_OnRep_CharacterState_Params params;
 
@@ -14773,7 +14860,7 @@ void ATslCharacter::OnRep_CharacterState()
 void ATslCharacter::OnRep_CastAnim()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17714);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17768);
 
 	ATslCharacter_OnRep_CastAnim_Params params;
 
@@ -14794,7 +14881,7 @@ void ATslCharacter::OnRep_CastAnim()
 void ATslCharacter::OnRep_BoostGauge(float LastBoostGauge)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17712);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17766);
 
 	ATslCharacter_OnRep_BoostGauge_Params params;
 	params.LastBoostGauge = LastBoostGauge;
@@ -14814,7 +14901,7 @@ void ATslCharacter::OnRep_BoostGauge(float LastBoostGauge)
 void ATslCharacter::OnRep_AimStateActive()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17711);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17765);
 
 	ATslCharacter_OnRep_AimStateActive_Params params;
 
@@ -14835,7 +14922,7 @@ void ATslCharacter::OnRep_AimStateActive()
 void ATslCharacter::OnRep_AimOffsets(const struct FVector_NetQuantizeNormal& PrevAimOffsets)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17709);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17763);
 
 	ATslCharacter_OnRep_AimOffsets_Params params;
 	params.PrevAimOffsets = PrevAimOffsets;
@@ -14855,7 +14942,7 @@ void ATslCharacter::OnRep_AimOffsets(const struct FVector_NetQuantizeNormal& Pre
 void ATslCharacter::OnReloadGamepad()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17708);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17762);
 
 	ATslCharacter_OnReloadGamepad_Params params;
 
@@ -14874,7 +14961,7 @@ void ATslCharacter::OnReloadGamepad()
 void ATslCharacter::OnMeleeWeaponPad()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17707);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17761);
 
 	ATslCharacter_OnMeleeWeaponPad_Params params;
 
@@ -14893,7 +14980,7 @@ void ATslCharacter::OnMeleeWeaponPad()
 void ATslCharacter::OnInvulnerable()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17706);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17760);
 
 	ATslCharacter_OnInvulnerable_Params params;
 
@@ -14913,7 +15000,7 @@ void ATslCharacter::OnInvulnerable()
 void ATslCharacter::OnInteractBy(class ATslCharacter* OtherCharacter)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17704);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17758);
 
 	ATslCharacter_OnInteractBy_Params params;
 	params.OtherCharacter = OtherCharacter;
@@ -14933,7 +15020,7 @@ void ATslCharacter::OnInteractBy(class ATslCharacter* OtherCharacter)
 void ATslCharacter::OnIncreaseMaxFlyAccerleration()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17703);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17757);
 
 	ATslCharacter_OnIncreaseMaxFlyAccerleration_Params params;
 
@@ -14951,7 +15038,7 @@ void ATslCharacter::OnIncreaseMaxFlyAccerleration()
 void ATslCharacter::OnFreeMoveMode()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17702);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17756);
 
 	ATslCharacter_OnFreeMoveMode_Params params;
 
@@ -14969,7 +15056,7 @@ void ATslCharacter::OnFreeMoveMode()
 void ATslCharacter::OnDecreaseMaxFlyAccerleration()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17701);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17755);
 
 	ATslCharacter_OnDecreaseMaxFlyAccerleration_Params params;
 
@@ -14991,7 +15078,7 @@ void ATslCharacter::OnDecreaseMaxFlyAccerleration()
 void ATslCharacter::OnChangeBreath(float Breath, float LastBreath, float BreathMax)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17697);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17751);
 
 	ATslCharacter_OnChangeBreath_Params params;
 	params.Breath = Breath;
@@ -15015,7 +15102,7 @@ void ATslCharacter::OnChangeBreath(float Breath, float LastBreath, float BreathM
 void ATslCharacter::OnCancelInteractBy(class ATslCharacter* OtherCharacter)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17695);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17749);
 
 	ATslCharacter_OnCancelInteractBy_Params params;
 	params.OtherCharacter = OtherCharacter;
@@ -15037,7 +15124,7 @@ void ATslCharacter::OnCancelInteractBy(class ATslCharacter* OtherCharacter)
 void ATslCharacter::OnBlockingWidgetOpened(class UWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17693);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17747);
 
 	ATslCharacter_OnBlockingWidgetOpened_Params params;
 	params.Widget = Widget;
@@ -15059,7 +15146,7 @@ void ATslCharacter::OnBlockingWidgetOpened(class UWidget* Widget)
 void ATslCharacter::NotHaveThrowItemNotifyMessage(const struct FText& ItemName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17691);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17745);
 
 	ATslCharacter_NotHaveThrowItemNotifyMessage_Params params;
 	params.ItemName = ItemName;
@@ -15080,7 +15167,7 @@ void ATslCharacter::NotHaveThrowItemNotifyMessage(const struct FText& ItemName)
 void ATslCharacter::NotHaveHealItemNotifyMessage(const struct FText& ItemName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17689);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17743);
 
 	ATslCharacter_NotHaveHealItemNotifyMessage_Params params;
 	params.ItemName = ItemName;
@@ -15099,7 +15186,7 @@ void ATslCharacter::NotHaveHealItemNotifyMessage(const struct FText& ItemName)
 void ATslCharacter::NotHaveBoostItemNotifyMessage()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17688);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17742);
 
 	ATslCharacter_NotHaveBoostItemNotifyMessage_Params params;
 
@@ -15117,7 +15204,7 @@ void ATslCharacter::NotHaveBoostItemNotifyMessage()
 void ATslCharacter::NativeOnWeaponChanged()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17687);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17741);
 
 	ATslCharacter_NativeOnWeaponChanged_Params params;
 
@@ -15138,7 +15225,7 @@ void ATslCharacter::NativeOnWeaponChanged()
 void ATslCharacter::LocalMagazineDrop(const struct FVector& InitialVelocity)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17685);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17739);
 
 	ATslCharacter_LocalMagazineDrop_Params params;
 	params.InitialVelocity = InitialVelocity;
@@ -15168,7 +15255,7 @@ void ATslCharacter::LocalMagazineDrop(const struct FVector& InitialVelocity)
 void ATslCharacter::LocalHandleVault_CP(const struct FVector& V_Start, const struct FVector& V_Apex, const struct FVector& V_ApexAdditive, const struct FVector& V_End, bool bIsClimb, EVaultAnimType InVaultType, bool bEndToFall, float Direction, float PlayerVelocity, float DistanceFromObject)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17673);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17727);
 
 	ATslCharacter_LocalHandleVault_CP_Params params;
 	params.V_Start = V_Start;
@@ -15199,7 +15286,7 @@ void ATslCharacter::LocalHandleVault_CP(const struct FVector& V_Start, const str
 bool ATslCharacter::IsZooming()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17671);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17725);
 
 	ATslCharacter_IsZooming_Params params;
 
@@ -15222,7 +15309,7 @@ bool ATslCharacter::IsZooming()
 bool ATslCharacter::IsZombie()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17669);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17723);
 
 	ATslCharacter_IsZombie_Params params;
 
@@ -15245,7 +15332,7 @@ bool ATslCharacter::IsZombie()
 bool ATslCharacter::IsWeaponUsingHighMagnificationScope()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17667);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17721);
 
 	ATslCharacter_IsWeaponUsingHighMagnificationScope_Params params;
 
@@ -15268,7 +15355,7 @@ bool ATslCharacter::IsWeaponUsingHighMagnificationScope()
 bool ATslCharacter::IsVehiclePassenger()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17665);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17719);
 
 	ATslCharacter_IsVehiclePassenger_Params params;
 
@@ -15291,7 +15378,7 @@ bool ATslCharacter::IsVehiclePassenger()
 bool ATslCharacter::IsVehicleDriver()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17663);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17717);
 
 	ATslCharacter_IsVehicleDriver_Params params;
 
@@ -15314,7 +15401,7 @@ bool ATslCharacter::IsVehicleDriver()
 bool ATslCharacter::IsVaultingEnabled()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17661);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17715);
 
 	ATslCharacter_IsVaultingEnabled_Params params;
 
@@ -15337,7 +15424,7 @@ bool ATslCharacter::IsVaultingEnabled()
 bool ATslCharacter::IsVaultingDebugEnabled()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17659);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17713);
 
 	ATslCharacter_IsVaultingDebugEnabled_Params params;
 
@@ -15360,7 +15447,7 @@ bool ATslCharacter::IsVaultingDebugEnabled()
 bool ATslCharacter::IsVaulting()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17657);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17711);
 
 	ATslCharacter_IsVaulting_Params params;
 
@@ -15383,7 +15470,7 @@ bool ATslCharacter::IsVaulting()
 bool ATslCharacter::IsVaultCancelled()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17655);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17709);
 
 	ATslCharacter_IsVaultCancelled_Params params;
 
@@ -15406,7 +15493,7 @@ bool ATslCharacter::IsVaultCancelled()
 bool ATslCharacter::IsUsingRightShoulderAiming()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17653);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17707);
 
 	ATslCharacter_IsUsingRightShoulderAiming_Params params;
 
@@ -15429,7 +15516,7 @@ bool ATslCharacter::IsUsingRightShoulderAiming()
 bool ATslCharacter::IsUpperCollision()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17651);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17705);
 
 	ATslCharacter_IsUpperCollision_Params params;
 
@@ -15452,7 +15539,7 @@ bool ATslCharacter::IsUpperCollision()
 bool ATslCharacter::IsUnderwater()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17649);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17703);
 
 	ATslCharacter_IsUnderwater_Params params;
 
@@ -15475,7 +15562,7 @@ bool ATslCharacter::IsUnderwater()
 bool ATslCharacter::IsUnderRoof()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17647);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17701);
 
 	ATslCharacter_IsUnderRoof_Params params;
 
@@ -15498,7 +15585,7 @@ bool ATslCharacter::IsUnderRoof()
 bool ATslCharacter::IsTeamMatch()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17645);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17699);
 
 	ATslCharacter_IsTeamMatch_Params params;
 
@@ -15521,7 +15608,7 @@ bool ATslCharacter::IsTeamMatch()
 bool ATslCharacter::IsTargeting()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17643);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17697);
 
 	ATslCharacter_IsTargeting_Params params;
 
@@ -15544,7 +15631,7 @@ bool ATslCharacter::IsTargeting()
 bool ATslCharacter::IsSwimming()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17641);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17695);
 
 	ATslCharacter_IsSwimming_Params params;
 
@@ -15567,7 +15654,7 @@ bool ATslCharacter::IsSwimming()
 bool ATslCharacter::IsSprinting()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17639);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17693);
 
 	ATslCharacter_IsSprinting_Params params;
 
@@ -15590,7 +15677,7 @@ bool ATslCharacter::IsSprinting()
 bool ATslCharacter::IsSpectatingCharacter()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17637);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17691);
 
 	ATslCharacter_IsSpectatingCharacter_Params params;
 
@@ -15613,7 +15700,7 @@ bool ATslCharacter::IsSpectatingCharacter()
 bool ATslCharacter::IsSitting()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17635);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17689);
 
 	ATslCharacter_IsSitting_Params params;
 
@@ -15636,7 +15723,7 @@ bool ATslCharacter::IsSitting()
 bool ATslCharacter::IsScoping()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17633);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17687);
 
 	ATslCharacter_IsScoping_Params params;
 
@@ -15659,7 +15746,7 @@ bool ATslCharacter::IsScoping()
 bool ATslCharacter::IsRunning()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17631);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17685);
 
 	ATslCharacter_IsRunning_Params params;
 
@@ -15682,7 +15769,7 @@ bool ATslCharacter::IsRunning()
 bool ATslCharacter::IsRolling()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17629);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17683);
 
 	ATslCharacter_IsRolling_Params params;
 
@@ -15705,7 +15792,7 @@ bool ATslCharacter::IsRolling()
 bool ATslCharacter::IsReviving()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17627);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17681);
 
 	ATslCharacter_IsReviving_Params params;
 
@@ -15728,7 +15815,7 @@ bool ATslCharacter::IsReviving()
 bool ATslCharacter::IsQuitter()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17625);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17679);
 
 	ATslCharacter_IsQuitter_Params params;
 
@@ -15751,7 +15838,7 @@ bool ATslCharacter::IsQuitter()
 bool ATslCharacter::IsQuickThrowHigh()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17623);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17677);
 
 	ATslCharacter_IsQuickThrowHigh_Params params;
 
@@ -15774,7 +15861,7 @@ bool ATslCharacter::IsQuickThrowHigh()
 bool ATslCharacter::IsPlayingPickUpAnimation()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17621);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17675);
 
 	ATslCharacter_IsPlayingPickUpAnimation_Params params;
 
@@ -15797,7 +15884,7 @@ bool ATslCharacter::IsPlayingPickUpAnimation()
 bool ATslCharacter::IsPeekRight()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17619);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17673);
 
 	ATslCharacter_IsPeekRight_Params params;
 
@@ -15820,7 +15907,7 @@ bool ATslCharacter::IsPeekRight()
 bool ATslCharacter::IsPeekLeft()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17617);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17671);
 
 	ATslCharacter_IsPeekLeft_Params params;
 
@@ -15843,7 +15930,7 @@ bool ATslCharacter::IsPeekLeft()
 bool ATslCharacter::IsParachuting()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17615);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17669);
 
 	ATslCharacter_IsParachuting_Params params;
 
@@ -15866,7 +15953,7 @@ bool ATslCharacter::IsParachuting()
 bool ATslCharacter::IsMoving()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17613);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17667);
 
 	ATslCharacter_IsMoving_Params params;
 
@@ -15889,7 +15976,7 @@ bool ATslCharacter::IsMoving()
 bool ATslCharacter::IsMouseUse()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17611);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17665);
 
 	ATslCharacter_IsMouseUse_Params params;
 
@@ -15912,7 +15999,7 @@ bool ATslCharacter::IsMouseUse()
 bool ATslCharacter::IsMeleeAttacking()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17609);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17663);
 
 	ATslCharacter_IsMeleeAttacking_Params params;
 
@@ -15935,7 +16022,7 @@ bool ATslCharacter::IsMeleeAttacking()
 bool ATslCharacter::IsMagazineHandAttached()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17607);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17661);
 
 	ATslCharacter_IsMagazineHandAttached_Params params;
 
@@ -15958,7 +16045,7 @@ bool ATslCharacter::IsMagazineHandAttached()
 bool ATslCharacter::IsMagazineGunAttached()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17605);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17659);
 
 	ATslCharacter_IsMagazineGunAttached_Params params;
 
@@ -15981,7 +16068,7 @@ bool ATslCharacter::IsMagazineGunAttached()
 bool ATslCharacter::IsLocalOrSpectating()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17603);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17657);
 
 	ATslCharacter_IsLocalOrSpectating_Params params;
 
@@ -16004,7 +16091,7 @@ bool ATslCharacter::IsLocalOrSpectating()
 bool ATslCharacter::IsInWaterVolume()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17601);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17655);
 
 	ATslCharacter_IsInWaterVolume_Params params;
 
@@ -16027,7 +16114,7 @@ bool ATslCharacter::IsInWaterVolume()
 bool ATslCharacter::IsInVehicle()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17599);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17653);
 
 	ATslCharacter_IsInVehicle_Params params;
 
@@ -16050,7 +16137,7 @@ bool ATslCharacter::IsInVehicle()
 bool ATslCharacter::IsInteracting()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17597);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17651);
 
 	ATslCharacter_IsInteracting_Params params;
 
@@ -16073,7 +16160,7 @@ bool ATslCharacter::IsInteracting()
 bool ATslCharacter::IsIndoor()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17595);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17649);
 
 	ATslCharacter_IsIndoor_Params params;
 
@@ -16096,7 +16183,7 @@ bool ATslCharacter::IsIndoor()
 bool ATslCharacter::IsInAircraft()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17593);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17647);
 
 	ATslCharacter_IsInAircraft_Params params;
 
@@ -16119,7 +16206,7 @@ bool ATslCharacter::IsInAircraft()
 bool ATslCharacter::IsHoldingBreath()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17591);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17645);
 
 	ATslCharacter_IsHoldingBreath_Params params;
 
@@ -16142,7 +16229,7 @@ bool ATslCharacter::IsHoldingBreath()
 bool ATslCharacter::IsHitted()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17589);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17643);
 
 	ATslCharacter_IsHitted_Params params;
 
@@ -16165,7 +16252,7 @@ bool ATslCharacter::IsHitted()
 bool ATslCharacter::IsHipped()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17587);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17641);
 
 	ATslCharacter_IsHipped_Params params;
 
@@ -16188,7 +16275,7 @@ bool ATslCharacter::IsHipped()
 bool ATslCharacter::IsGroggying()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17585);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17639);
 
 	ATslCharacter_IsGroggying_Params params;
 
@@ -16211,7 +16298,7 @@ bool ATslCharacter::IsGroggying()
 bool ATslCharacter::IsFreelooking()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17583);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17637);
 
 	ATslCharacter_IsFreelooking_Params params;
 
@@ -16234,7 +16321,7 @@ bool ATslCharacter::IsFreelooking()
 bool ATslCharacter::IsForcingFall()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17581);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17635);
 
 	ATslCharacter_IsForcingFall_Params params;
 
@@ -16257,7 +16344,7 @@ bool ATslCharacter::IsForcingFall()
 bool ATslCharacter::IsForceRotation()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17579);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17633);
 
 	ATslCharacter_IsForceRotation_Params params;
 
@@ -16280,7 +16367,7 @@ bool ATslCharacter::IsForceRotation()
 bool ATslCharacter::IsForcedProneAfterFall()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17577);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17631);
 
 	ATslCharacter_IsForcedProneAfterFall_Params params;
 
@@ -16303,7 +16390,7 @@ bool ATslCharacter::IsForcedProneAfterFall()
 bool ATslCharacter::IsFollowingCharacter()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17575);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17629);
 
 	ATslCharacter_IsFollowingCharacter_Params params;
 
@@ -16326,7 +16413,7 @@ bool ATslCharacter::IsFollowingCharacter()
 bool ATslCharacter::IsFloating()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17573);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17627);
 
 	ATslCharacter_IsFloating_Params params;
 
@@ -16349,7 +16436,7 @@ bool ATslCharacter::IsFloating()
 bool ATslCharacter::IsFirstPerson()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17571);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17625);
 
 	ATslCharacter_IsFirstPerson_Params params;
 
@@ -16372,7 +16459,7 @@ bool ATslCharacter::IsFirstPerson()
 bool ATslCharacter::IsFiring()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17569);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17623);
 
 	ATslCharacter_IsFiring_Params params;
 
@@ -16395,7 +16482,7 @@ bool ATslCharacter::IsFiring()
 bool ATslCharacter::IsFallingWithParachute()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17567);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17621);
 
 	ATslCharacter_IsFallingWithParachute_Params params;
 
@@ -16418,7 +16505,7 @@ bool ATslCharacter::IsFallingWithParachute()
 bool ATslCharacter::IsFallingFromHighAltitude()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17565);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17619);
 
 	ATslCharacter_IsFallingFromHighAltitude_Params params;
 
@@ -16441,7 +16528,7 @@ bool ATslCharacter::IsFallingFromHighAltitude()
 bool ATslCharacter::IsDying()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17563);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17617);
 
 	ATslCharacter_IsDying_Params params;
 
@@ -16464,7 +16551,7 @@ bool ATslCharacter::IsDying()
 bool ATslCharacter::IsCycleInProgress()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17561);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17615);
 
 	ATslCharacter_IsCycleInProgress_Params params;
 
@@ -16487,7 +16574,7 @@ bool ATslCharacter::IsCycleInProgress()
 bool ATslCharacter::IsCoatEquipped()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17559);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17613);
 
 	ATslCharacter_IsCoatEquipped_Params params;
 
@@ -16510,7 +16597,7 @@ bool ATslCharacter::IsCoatEquipped()
 bool ATslCharacter::IsCasting()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17557);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17611);
 
 	ATslCharacter_IsCasting_Params params;
 
@@ -16533,7 +16620,7 @@ bool ATslCharacter::IsCasting()
 bool ATslCharacter::IsCameraUnderwater()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17555);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17609);
 
 	ATslCharacter_IsCameraUnderwater_Params params;
 
@@ -16556,7 +16643,7 @@ bool ATslCharacter::IsCameraUnderwater()
 bool ATslCharacter::IsAudioTestEnabled()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17553);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17607);
 
 	ATslCharacter_IsAudioTestEnabled_Params params;
 
@@ -16579,7 +16666,7 @@ bool ATslCharacter::IsAudioTestEnabled()
 bool ATslCharacter::IsAttacked()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17551);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17605);
 
 	ATslCharacter_IsAttacked_Params params;
 
@@ -16602,7 +16689,7 @@ bool ATslCharacter::IsAttacked()
 bool ATslCharacter::IsAnimDynamicsEnabled()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17549);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17603);
 
 	ATslCharacter_IsAnimDynamicsEnabled_Params params;
 
@@ -16625,7 +16712,7 @@ bool ATslCharacter::IsAnimDynamicsEnabled()
 bool ATslCharacter::IsAlive()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17547);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17601);
 
 	ATslCharacter_IsAlive_Params params;
 
@@ -16648,7 +16735,7 @@ bool ATslCharacter::IsAlive()
 bool ATslCharacter::IsActiveRagdoll()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17545);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17599);
 
 	ATslCharacter_IsActiveRagdoll_Params params;
 
@@ -16669,7 +16756,7 @@ bool ATslCharacter::IsActiveRagdoll()
 void ATslCharacter::HaveNotAnyHealItemNotifyMessage()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17544);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17598);
 
 	ATslCharacter_HaveNotAnyHealItemNotifyMessage_Params params;
 
@@ -16689,7 +16776,7 @@ void ATslCharacter::HaveNotAnyHealItemNotifyMessage()
 bool ATslCharacter::HasWeaponLeftHandIKSocket()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17542);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17596);
 
 	ATslCharacter_HasWeaponLeftHandIKSocket_Params params;
 
@@ -16713,7 +16800,7 @@ bool ATslCharacter::HasWeaponLeftHandIKSocket()
 bool ATslCharacter::HasWeapon(class UClass* WeaponClass)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17539);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17593);
 
 	ATslCharacter_HasWeapon_Params params;
 	params.WeaponClass = WeaponClass;
@@ -16738,7 +16825,7 @@ bool ATslCharacter::HasWeapon(class UClass* WeaponClass)
 bool ATslCharacter::HasAnimatableObject(EAnimatableCustomizableTypes InParamType)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17535);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17589);
 
 	ATslCharacter_HasAnimatableObject_Params params;
 	params.InParamType = InParamType;
@@ -16769,7 +16856,7 @@ bool ATslCharacter::HasAnimatableObject(EAnimatableCustomizableTypes InParamType
 void ATslCharacter::HandleVaulting_BP(const struct FVector& ImpactLocation, const struct FVector& CapsulePredictedLocation, const struct FVector& Normal2D, const struct FVector& DirectionVecotor, bool bForceVault, float JumpDistance, bool bBlockVault, bool bBlockClimb)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17526);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17580);
 
 	ATslCharacter_HandleVaulting_BP_Params params;
 	params.ImpactLocation = ImpactLocation;
@@ -16798,7 +16885,7 @@ void ATslCharacter::HandleVaulting_BP(const struct FVector& ImpactLocation, cons
 void ATslCharacter::HandleVaultEnd_CP(const struct FVector& InVaultEndVelocity)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17524);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17578);
 
 	ATslCharacter_HandleVaultEnd_CP_Params params;
 	params.InVaultEndVelocity = InVaultEndVelocity;
@@ -16818,7 +16905,7 @@ void ATslCharacter::HandleVaultEnd_CP(const struct FVector& InVaultEndVelocity)
 void ATslCharacter::HandleCapsuleCollision()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17523);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17577);
 
 	ATslCharacter_HandleCapsuleCollision_Params params;
 
@@ -16839,7 +16926,7 @@ void ATslCharacter::HandleCapsuleCollision()
 void ATslCharacter::GiveWeapon(class UClass* WeaponClass)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17521);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17575);
 
 	ATslCharacter_GiveWeapon_Params params;
 	params.WeaponClass = WeaponClass;
@@ -16861,7 +16948,7 @@ void ATslCharacter::GiveWeapon(class UClass* WeaponClass)
 class ATslWeapon_Throwable* ATslCharacter::GetWeaponThrowable()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17519);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17573);
 
 	ATslCharacter_GetWeaponThrowable_Params params;
 
@@ -16884,7 +16971,7 @@ class ATslWeapon_Throwable* ATslCharacter::GetWeaponThrowable()
 float ATslCharacter::GetWeaponReloadPlayRate()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17517);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17571);
 
 	ATslCharacter_GetWeaponReloadPlayRate_Params params;
 
@@ -16907,7 +16994,7 @@ float ATslCharacter::GetWeaponReloadPlayRate()
 class AWeaponProcessor* ATslCharacter::GetWeaponProcessor()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17515);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17569);
 
 	ATslCharacter_GetWeaponProcessor_Params params;
 
@@ -16930,7 +17017,7 @@ class AWeaponProcessor* ATslCharacter::GetWeaponProcessor()
 bool ATslCharacter::GetWeaponObstructionRemote()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17513);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17567);
 
 	ATslCharacter_GetWeaponObstructionRemote_Params params;
 
@@ -16953,7 +17040,7 @@ bool ATslCharacter::GetWeaponObstructionRemote()
 float ATslCharacter::GetWeaponMovementModifierScope()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17511);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17565);
 
 	ATslCharacter_GetWeaponMovementModifierScope_Params params;
 
@@ -16976,7 +17063,7 @@ float ATslCharacter::GetWeaponMovementModifierScope()
 float ATslCharacter::GetWeaponMovementModifierAim()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17509);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17563);
 
 	ATslCharacter_GetWeaponMovementModifierAim_Params params;
 
@@ -16999,7 +17086,7 @@ float ATslCharacter::GetWeaponMovementModifierAim()
 struct FTransform ATslCharacter::GetWeaponLeftHandIKTransform()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17507);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17561);
 
 	ATslCharacter_GetWeaponLeftHandIKTransform_Params params;
 
@@ -17022,7 +17109,7 @@ struct FTransform ATslCharacter::GetWeaponLeftHandIKTransform()
 struct FRotator ATslCharacter::GetWeaponInertia()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17505);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17559);
 
 	ATslCharacter_GetWeaponInertia_Params params;
 
@@ -17045,7 +17132,7 @@ struct FRotator ATslCharacter::GetWeaponInertia()
 struct FTransform ATslCharacter::GetWeaponHandIK_Right()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17503);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17557);
 
 	ATslCharacter_GetWeaponHandIK_Right_Params params;
 
@@ -17068,7 +17155,7 @@ struct FTransform ATslCharacter::GetWeaponHandIK_Right()
 struct FTransform ATslCharacter::GetWeaponHandIK_Left()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17501);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17555);
 
 	ATslCharacter_GetWeaponHandIK_Left_Params params;
 
@@ -17091,7 +17178,7 @@ struct FTransform ATslCharacter::GetWeaponHandIK_Left()
 float ATslCharacter::GetWeaponGunCollisionAlpha()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17499);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17553);
 
 	ATslCharacter_GetWeaponGunCollisionAlpha_Params params;
 
@@ -17114,7 +17201,7 @@ float ATslCharacter::GetWeaponGunCollisionAlpha()
 class ATslWeapon_Gun* ATslCharacter::GetWeaponGun()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17497);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17551);
 
 	ATslCharacter_GetWeaponGun_Params params;
 
@@ -17137,7 +17224,7 @@ class ATslWeapon_Gun* ATslCharacter::GetWeaponGun()
 float ATslCharacter::GetWeaponADSTimeModifier()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17495);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17549);
 
 	ATslCharacter_GetWeaponADSTimeModifier_Params params;
 
@@ -17160,7 +17247,7 @@ float ATslCharacter::GetWeaponADSTimeModifier()
 class ATslWeapon* ATslCharacter::GetWeapon()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17493);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17547);
 
 	ATslCharacter_GetWeapon_Params params;
 
@@ -17183,7 +17270,7 @@ class ATslWeapon* ATslCharacter::GetWeapon()
 bool ATslCharacter::GetWantsToJump()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17491);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17545);
 
 	ATslCharacter_GetWantsToJump_Params params;
 
@@ -17206,7 +17293,7 @@ bool ATslCharacter::GetWantsToJump()
 class UTslVehicleSeatComponent* ATslCharacter::GetVehicleSeatComponent()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17489);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17543);
 
 	ATslCharacter_GetVehicleSeatComponent_Params params;
 
@@ -17229,7 +17316,7 @@ class UTslVehicleSeatComponent* ATslCharacter::GetVehicleSeatComponent()
 class UVehicleSeatInteractionComponent* ATslCharacter::GetVehicleSeat()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17487);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17541);
 
 	ATslCharacter_GetVehicleSeat_Params params;
 
@@ -17252,7 +17339,7 @@ class UVehicleSeatInteractionComponent* ATslCharacter::GetVehicleSeat()
 class UVehicleRiderComponent* ATslCharacter::GetVehicleRiderComponent()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17485);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17539);
 
 	ATslCharacter_GetVehicleRiderComponent_Params params;
 
@@ -17275,7 +17362,7 @@ class UVehicleRiderComponent* ATslCharacter::GetVehicleRiderComponent()
 class APawn* ATslCharacter::GetVehiclePawn()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17483);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17537);
 
 	ATslCharacter_GetVehiclePawn_Params params;
 
@@ -17298,7 +17385,7 @@ class APawn* ATslCharacter::GetVehiclePawn()
 TScriptInterface<class UTslVehicleInterface> ATslCharacter::GetVehicleInterface()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17481);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17535);
 
 	ATslCharacter_GetVehicleInterface_Params params;
 
@@ -17321,7 +17408,7 @@ TScriptInterface<class UTslVehicleInterface> ATslCharacter::GetVehicleInterface(
 float ATslCharacter::GetVaultTimer()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17479);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17533);
 
 	ATslCharacter_GetVaultTimer_Params params;
 
@@ -17344,7 +17431,7 @@ float ATslCharacter::GetVaultTimer()
 float ATslCharacter::GetVaultingDirection()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17477);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17531);
 
 	ATslCharacter_GetVaultingDirection_Params params;
 
@@ -17367,7 +17454,7 @@ float ATslCharacter::GetVaultingDirection()
 int ATslCharacter::GetVaultingDebugType()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17475);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17529);
 
 	ATslCharacter_GetVaultingDebugType_Params params;
 
@@ -17391,7 +17478,7 @@ int ATslCharacter::GetVaultingDebugType()
 class UVaultingData* ATslCharacter::GetVaultingDataByEnum(EVaultAnimType InVaultType)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17471);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17525);
 
 	ATslCharacter_GetVaultingDataByEnum_Params params;
 	params.InVaultType = InVaultType;
@@ -17415,7 +17502,7 @@ class UVaultingData* ATslCharacter::GetVaultingDataByEnum(EVaultAnimType InVault
 class ATslPlayerState* ATslCharacter::GetTslPlayerState()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17469);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17523);
 
 	ATslCharacter_GetTslPlayerState_Params params;
 
@@ -17438,7 +17525,7 @@ class ATslPlayerState* ATslCharacter::GetTslPlayerState()
 class ATslPlayerController* ATslCharacter::GetTslPlayerController()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17467);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17521);
 
 	ATslCharacter_GetTslPlayerController_Params params;
 
@@ -17461,7 +17548,7 @@ class ATslPlayerController* ATslCharacter::GetTslPlayerController()
 class UTslCharacterMovement* ATslCharacter::GetTslCharacterMovement()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17465);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17519);
 
 	ATslCharacter_GetTslCharacterMovement_Params params;
 
@@ -17484,7 +17571,7 @@ class UTslCharacterMovement* ATslCharacter::GetTslCharacterMovement()
 float ATslCharacter::GetTPPSpringarmOffset()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17463);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17517);
 
 	ATslCharacter_GetTPPSpringarmOffset_Params params;
 
@@ -17507,7 +17594,7 @@ float ATslCharacter::GetTPPSpringarmOffset()
 class UCurveFloat* ATslCharacter::GetTPPCameraCurve()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17461);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17515);
 
 	ATslCharacter_GetTPPCameraCurve_Params params;
 
@@ -17530,7 +17617,7 @@ class UCurveFloat* ATslCharacter::GetTPPCameraCurve()
 class ATeam* ATslCharacter::GetTeam()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17459);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17513);
 
 	ATslCharacter_GetTeam_Params params;
 
@@ -17553,7 +17640,7 @@ class ATeam* ATslCharacter::GetTeam()
 float ATslCharacter::GetTargetingSpeedModifier()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17457);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17511);
 
 	ATslCharacter_GetTargetingSpeedModifier_Params params;
 
@@ -17576,7 +17663,7 @@ float ATslCharacter::GetTargetingSpeedModifier()
 TEnumAsByte<EStanceMode> ATslCharacter::GetStance()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17455);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17509);
 
 	ATslCharacter_GetStance_Params params;
 
@@ -17599,7 +17686,7 @@ TEnumAsByte<EStanceMode> ATslCharacter::GetStance()
 float ATslCharacter::GetSprintingSpeedModifier_Stand()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17453);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17507);
 
 	ATslCharacter_GetSprintingSpeedModifier_Stand_Params params;
 
@@ -17622,7 +17709,7 @@ float ATslCharacter::GetSprintingSpeedModifier_Stand()
 float ATslCharacter::GetSprintingSpeedModifier_Prone()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17451);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17505);
 
 	ATslCharacter_GetSprintingSpeedModifier_Prone_Params params;
 
@@ -17645,7 +17732,7 @@ float ATslCharacter::GetSprintingSpeedModifier_Prone()
 float ATslCharacter::GetSprintingSpeedModifier_Crouch()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17449);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17503);
 
 	ATslCharacter_GetSprintingSpeedModifier_Crouch_Params params;
 
@@ -17668,7 +17755,7 @@ float ATslCharacter::GetSprintingSpeedModifier_Crouch()
 float ATslCharacter::GetSprintCurrentValue()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17447);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17501);
 
 	ATslCharacter_GetSprintCurrentValue_Params params;
 
@@ -17691,7 +17778,7 @@ float ATslCharacter::GetSprintCurrentValue()
 float ATslCharacter::GetSpeedModifierByWeaponClass()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17445);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17499);
 
 	ATslCharacter_GetSpeedModifierByWeaponClass_Params params;
 
@@ -17714,7 +17801,7 @@ float ATslCharacter::GetSpeedModifierByWeaponClass()
 float ATslCharacter::GetSpeedKmPerHour2D()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17443);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17497);
 
 	ATslCharacter_GetSpeedKmPerHour2D_Params params;
 
@@ -17737,7 +17824,7 @@ float ATslCharacter::GetSpeedKmPerHour2D()
 struct FString ATslCharacter::GetShortPlayerName()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17441);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17495);
 
 	ATslCharacter_GetShortPlayerName_Params params;
 
@@ -17760,7 +17847,7 @@ struct FString ATslCharacter::GetShortPlayerName()
 bool ATslCharacter::GetServerVaultFinished()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17439);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17493);
 
 	ATslCharacter_GetServerVaultFinished_Params params;
 
@@ -17783,7 +17870,7 @@ bool ATslCharacter::GetServerVaultFinished()
 float ATslCharacter::GetRunningSpeedModifier_Stand()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17437);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17491);
 
 	ATslCharacter_GetRunningSpeedModifier_Stand_Params params;
 
@@ -17806,7 +17893,7 @@ float ATslCharacter::GetRunningSpeedModifier_Stand()
 float ATslCharacter::GetRunningSpeedModifier_Prone()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17435);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17489);
 
 	ATslCharacter_GetRunningSpeedModifier_Prone_Params params;
 
@@ -17829,7 +17916,7 @@ float ATslCharacter::GetRunningSpeedModifier_Prone()
 float ATslCharacter::GetRunningSpeedModifier_Crouch()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17433);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17487);
 
 	ATslCharacter_GetRunningSpeedModifier_Crouch_Params params;
 
@@ -17853,7 +17940,7 @@ float ATslCharacter::GetRunningSpeedModifier_Crouch()
 struct FName ATslCharacter::GetReactionBone(const struct FName& BoneName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17430);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17484);
 
 	ATslCharacter_GetReactionBone_Params params;
 	params.BoneName = BoneName;
@@ -17877,7 +17964,7 @@ struct FName ATslCharacter::GetReactionBone(const struct FName& BoneName)
 struct FString ATslCharacter::GetPlayerName()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17428);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17482);
 
 	ATslCharacter_GetPlayerName_Params params;
 
@@ -17900,7 +17987,7 @@ struct FString ATslCharacter::GetPlayerName()
 bool ATslCharacter::GetParachuteLandingAssist()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17426);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17480);
 
 	ATslCharacter_GetParachuteLandingAssist_Params params;
 
@@ -17923,7 +18010,7 @@ bool ATslCharacter::GetParachuteLandingAssist()
 class AParachuteVehicle* ATslCharacter::GetParachute()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17424);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17478);
 
 	ATslCharacter_GetParachute_Params params;
 
@@ -17946,7 +18033,7 @@ class AParachuteVehicle* ATslCharacter::GetParachute()
 TScriptInterface<class UInteractionInterface> ATslCharacter::GetObjectCanInteract()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17422);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17476);
 
 	ATslCharacter_GetObjectCanInteract_Params params;
 
@@ -17969,7 +18056,7 @@ TScriptInterface<class UInteractionInterface> ATslCharacter::GetObjectCanInterac
 float ATslCharacter::GetMaxSprintSpeed()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17420);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17474);
 
 	ATslCharacter_GetMaxSprintSpeed_Params params;
 
@@ -17992,7 +18079,7 @@ float ATslCharacter::GetMaxSprintSpeed()
 float ATslCharacter::GetMaxGroundSpeedOnSlope()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17418);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17472);
 
 	ATslCharacter_GetMaxGroundSpeedOnSlope_Params params;
 
@@ -18015,7 +18102,7 @@ float ATslCharacter::GetMaxGroundSpeedOnSlope()
 struct FString ATslCharacter::GetLocationString()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17416);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17470);
 
 	ATslCharacter_GetLocationString_Params params;
 
@@ -18038,7 +18125,7 @@ struct FString ATslCharacter::GetLocationString()
 float ATslCharacter::GetLeanRightAlpha()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17414);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17468);
 
 	ATslCharacter_GetLeanRightAlpha_Params params;
 
@@ -18061,7 +18148,7 @@ float ATslCharacter::GetLeanRightAlpha()
 float ATslCharacter::GetLeanLeftAlpha()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17412);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17466);
 
 	ATslCharacter_GetLeanLeftAlpha_Params params;
 
@@ -18084,7 +18171,7 @@ float ATslCharacter::GetLeanLeftAlpha()
 struct FRotator ATslCharacter::GetLastMoveRotation()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17410);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17464);
 
 	ATslCharacter_GetLastMoveRotation_Params params;
 
@@ -18107,7 +18194,7 @@ struct FRotator ATslCharacter::GetLastMoveRotation()
 class AInventoryFacade* ATslCharacter::GetInventoryFacade()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17408);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17462);
 
 	ATslCharacter_GetInventoryFacade_Params params;
 
@@ -18130,7 +18217,7 @@ class AInventoryFacade* ATslCharacter::GetInventoryFacade()
 struct FVector ATslCharacter::GetInteractObjectLocation()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17406);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17460);
 
 	ATslCharacter_GetInteractObjectLocation_Params params;
 
@@ -18153,7 +18240,7 @@ struct FVector ATslCharacter::GetInteractObjectLocation()
 struct FString ATslCharacter::GetInteractionString()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17404);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17458);
 
 	ATslCharacter_GetInteractionString_Params params;
 
@@ -18176,7 +18263,7 @@ struct FString ATslCharacter::GetInteractionString()
 float ATslCharacter::GetIndoorFactor()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17402);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17456);
 
 	ATslCharacter_GetIndoorFactor_Params params;
 
@@ -18199,7 +18286,7 @@ float ATslCharacter::GetIndoorFactor()
 struct FRotator ATslCharacter::GetFreelookSavedRotation()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17400);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17454);
 
 	ATslCharacter_GetFreelookSavedRotation_Params params;
 
@@ -18222,7 +18309,7 @@ struct FRotator ATslCharacter::GetFreelookSavedRotation()
 struct FRotator ATslCharacter::GetFreelookDeltaRotation()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17398);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17452);
 
 	ATslCharacter_GetFreelookDeltaRotation_Params params;
 
@@ -18245,7 +18332,7 @@ struct FRotator ATslCharacter::GetFreelookDeltaRotation()
 bool ATslCharacter::GetDynamicCrosshairHidden()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17396);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17450);
 
 	ATslCharacter_GetDynamicCrosshairHidden_Params params;
 
@@ -18268,7 +18355,7 @@ bool ATslCharacter::GetDynamicCrosshairHidden()
 class UClass* ATslCharacter::GetDropPackageType()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17394);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17448);
 
 	ATslCharacter_GetDropPackageType_Params params;
 
@@ -18291,7 +18378,7 @@ class UClass* ATslCharacter::GetDropPackageType()
 struct FString ATslCharacter::GetDirectionString()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17392);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17446);
 
 	ATslCharacter_GetDirectionString_Params params;
 
@@ -18315,7 +18402,7 @@ struct FString ATslCharacter::GetDirectionString()
 float ATslCharacter::GetDirectionalSpeedModifier(TEnumAsByte<EMovementType> StanceType)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17389);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17443);
 
 	ATslCharacter_GetDirectionalSpeedModifier_Params params;
 	params.StanceType = StanceType;
@@ -18339,7 +18426,7 @@ float ATslCharacter::GetDirectionalSpeedModifier(TEnumAsByte<EMovementType> Stan
 struct FRotator ATslCharacter::GetDesiredRotation()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17387);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17441);
 
 	ATslCharacter_GetDesiredRotation_Params params;
 
@@ -18362,7 +18449,7 @@ struct FRotator ATslCharacter::GetDesiredRotation()
 class ATslWeapon* ATslCharacter::GetCurrentWeapon()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17385);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17439);
 
 	ATslCharacter_GetCurrentWeapon_Params params;
 
@@ -18385,7 +18472,7 @@ class ATslWeapon* ATslCharacter::GetCurrentWeapon()
 float ATslCharacter::GetCurrentWaterSurfaceZ()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17383);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17437);
 
 	ATslCharacter_GetCurrentWaterSurfaceZ_Params params;
 
@@ -18408,7 +18495,7 @@ float ATslCharacter::GetCurrentWaterSurfaceZ()
 float ATslCharacter::GetCurrentWaterSurfaceBaseZ()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17381);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17435);
 
 	ATslCharacter_GetCurrentWaterSurfaceBaseZ_Params params;
 
@@ -18431,7 +18518,7 @@ float ATslCharacter::GetCurrentWaterSurfaceBaseZ()
 float ATslCharacter::GetCurrentWaterDepth()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17379);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17433);
 
 	ATslCharacter_GetCurrentWaterDepth_Params params;
 
@@ -18454,7 +18541,7 @@ float ATslCharacter::GetCurrentWaterDepth()
 struct FRotator ATslCharacter::GetCurrentSway()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17377);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17431);
 
 	ATslCharacter_GetCurrentSway_Params params;
 
@@ -18477,7 +18564,7 @@ struct FRotator ATslCharacter::GetCurrentSway()
 class UStaticMesh* ATslCharacter::GetCurrentMagazineMesh()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17375);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17429);
 
 	ATslCharacter_GetCurrentMagazineMesh_Params params;
 
@@ -18500,7 +18587,7 @@ class UStaticMesh* ATslCharacter::GetCurrentMagazineMesh()
 struct FTransform ATslCharacter::GetCurrentMagazineLocation()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17373);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17427);
 
 	ATslCharacter_GetCurrentMagazineLocation_Params params;
 
@@ -18523,7 +18610,7 @@ struct FTransform ATslCharacter::GetCurrentMagazineLocation()
 float ATslCharacter::GetCurrentHeightFromWaterFloor()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17371);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17425);
 
 	ATslCharacter_GetCurrentHeightFromWaterFloor_Params params;
 
@@ -18546,7 +18633,7 @@ float ATslCharacter::GetCurrentHeightFromWaterFloor()
 bool ATslCharacter::GetCtrlShortCutOnOff()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17369);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17423);
 
 	ATslCharacter_GetCtrlShortCutOnOff_Params params;
 
@@ -18569,7 +18656,7 @@ bool ATslCharacter::GetCtrlShortCutOnOff()
 TScriptInterface<class UInteractionInterface> ATslCharacter::GetComponentCanInteract()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17367);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17421);
 
 	ATslCharacter_GetComponentCanInteract_Params params;
 
@@ -18592,7 +18679,7 @@ TScriptInterface<class UInteractionInterface> ATslCharacter::GetComponentCanInte
 class ATslPlayerState* ATslCharacter::GetClientTslPlayerState()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17365);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17419);
 
 	ATslCharacter_GetClientTslPlayerState_Params params;
 
@@ -18615,7 +18702,7 @@ class ATslPlayerState* ATslCharacter::GetClientTslPlayerState()
 struct FString ATslCharacter::GetCharacterNetId()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17363);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17417);
 
 	ATslCharacter_GetCharacterNetId_Params params;
 
@@ -18638,7 +18725,7 @@ struct FString ATslCharacter::GetCharacterNetId()
 class UObject* ATslCharacter::GetCastObject()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17361);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17415);
 
 	ATslCharacter_GetCastObject_Params params;
 
@@ -18661,7 +18748,7 @@ class UObject* ATslCharacter::GetCastObject()
 struct FVector ATslCharacter::GetCameraDOF()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17359);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17413);
 
 	ATslCharacter_GetCameraDOF_Params params;
 
@@ -18684,7 +18771,7 @@ struct FVector ATslCharacter::GetCameraDOF()
 float ATslCharacter::GetCameraAnimOverrideAlpha()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17357);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17411);
 
 	ATslCharacter_GetCameraAnimOverrideAlpha_Params params;
 
@@ -18707,7 +18794,7 @@ float ATslCharacter::GetCameraAnimOverrideAlpha()
 bool ATslCharacter::GetBulletSpawnOverride()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17355);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17409);
 
 	ATslCharacter_GetBulletSpawnOverride_Params params;
 
@@ -18730,7 +18817,7 @@ bool ATslCharacter::GetBulletSpawnOverride()
 class UBuffComponet* ATslCharacter::GetBuffComponent()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17353);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17407);
 
 	ATslCharacter_GetBuffComponent_Params params;
 
@@ -18753,7 +18840,7 @@ class UBuffComponet* ATslCharacter::GetBuffComponent()
 class UCharacterBreathComponent* ATslCharacter::GetBreathComponent()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17351);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17405);
 
 	ATslCharacter_GetBreathComponent_Params params;
 
@@ -18776,7 +18863,7 @@ class UCharacterBreathComponent* ATslCharacter::GetBreathComponent()
 EAnimWeaponType ATslCharacter::GetAnimWeaponType()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17348);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17402);
 
 	ATslCharacter_GetAnimWeaponType_Params params;
 
@@ -18799,7 +18886,7 @@ EAnimWeaponType ATslCharacter::GetAnimWeaponType()
 EAnimStance ATslCharacter::GetAnimStance()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17345);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17399);
 
 	ATslCharacter_GetAnimStance_Params params;
 
@@ -18822,7 +18909,7 @@ EAnimStance ATslCharacter::GetAnimStance()
 float ATslCharacter::GetAimStateTimer()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17343);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17397);
 
 	ATslCharacter_GetAimStateTimer_Params params;
 
@@ -18845,7 +18932,7 @@ float ATslCharacter::GetAimStateTimer()
 float ATslCharacter::GetAimStateAlpha()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17341);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17395);
 
 	ATslCharacter_GetAimStateAlpha_Params params;
 
@@ -18868,7 +18955,7 @@ float ATslCharacter::GetAimStateAlpha()
 struct FRotator ATslCharacter::GetAimOffsets()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17339);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17393);
 
 	ATslCharacter_GetAimOffsets_Params params;
 
@@ -18891,7 +18978,7 @@ struct FRotator ATslCharacter::GetAimOffsets()
 struct FVector ATslCharacter::GetADSSocketOffset()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17337);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17391);
 
 	ATslCharacter_GetADSSocketOffset_Params params;
 
@@ -18914,7 +19001,7 @@ struct FVector ATslCharacter::GetADSSocketOffset()
 class AActor* ATslCharacter::GetActorCanInteract()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17335);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17389);
 
 	ATslCharacter_GetActorCanInteract_Params params;
 
@@ -18937,7 +19024,7 @@ class AActor* ATslCharacter::GetActorCanInteract()
 class UCameraComponent* ATslCharacter::GetActiveCamera()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17333);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17387);
 
 	ATslCharacter_GetActiveCamera_Params params;
 
@@ -18961,7 +19048,7 @@ class UCameraComponent* ATslCharacter::GetActiveCamera()
 class UTslAccessoryComponent* ATslCharacter::GetAccessorySlot(EAccessorySlot Slot)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17329);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17383);
 
 	ATslCharacter_GetAccessorySlot_Params params;
 	params.Slot = Slot;
@@ -18983,7 +19070,7 @@ class UTslAccessoryComponent* ATslCharacter::GetAccessorySlot(EAccessorySlot Slo
 void ATslCharacter::FixupCamera()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17328);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17382);
 
 	ATslCharacter_FixupCamera_Params params;
 
@@ -19005,7 +19092,7 @@ void ATslCharacter::FixupCamera()
 class ATslWeapon* ATslCharacter::FindWeapon(class UClass* WeaponClass)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17325);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17379);
 
 	ATslCharacter_FindWeapon_Params params;
 	params.WeaponClass = WeaponClass;
@@ -19029,7 +19116,7 @@ class ATslWeapon* ATslCharacter::FindWeapon(class UClass* WeaponClass)
 bool ATslCharacter::EnableScopeOutsideBlur()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17323);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17377);
 
 	ATslCharacter_EnableScopeOutsideBlur_Params params;
 
@@ -19050,7 +19137,7 @@ bool ATslCharacter::EnableScopeOutsideBlur()
 void ATslCharacter::EnableAudioTest()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17322);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17376);
 
 	ATslCharacter_EnableAudioTest_Params params;
 
@@ -19069,7 +19156,7 @@ void ATslCharacter::EnableAudioTest()
 void ATslCharacter::DisableCollision()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17321);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17375);
 
 	ATslCharacter_DisableCollision_Params params;
 
@@ -19088,7 +19175,7 @@ void ATslCharacter::DisableCollision()
 void ATslCharacter::DelayedFire()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17320);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17374);
 
 	ATslCharacter_DelayedFire_Params params;
 
@@ -19109,7 +19196,7 @@ void ATslCharacter::DelayedFire()
 void ATslCharacter::ClientSoundPlayMulticast(class UAkAudioEvent* SoundAk)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17318);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17372);
 
 	ATslCharacter_ClientSoundPlayMulticast_Params params;
 	params.SoundAk = SoundAk;
@@ -19131,7 +19218,7 @@ void ATslCharacter::ClientSoundPlayMulticast(class UAkAudioEvent* SoundAk)
 void ATslCharacter::ClientSoundPlay(class UAkAudioEvent* SoundAk)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17316);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17370);
 
 	ATslCharacter_ClientSoundPlay_Params params;
 	params.SoundAk = SoundAk;
@@ -19154,7 +19241,7 @@ void ATslCharacter::ClientSoundPlay(class UAkAudioEvent* SoundAk)
 void ATslCharacter::ClientSimulationArmorDestruction(EEquipSlotID SlotID, const struct FTransform& Impact)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17312);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17366);
 
 	ATslCharacter_ClientSimulationArmorDestruction_Params params;
 	params.SlotID = SlotID;
@@ -19177,7 +19264,7 @@ void ATslCharacter::ClientSimulationArmorDestruction(EEquipSlotID SlotID, const 
 void ATslCharacter::ClientSetTargeting(ETargetingType NewTargetingType)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17309);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17363);
 
 	ATslCharacter_ClientSetTargeting_Params params;
 	params.NewTargetingType = NewTargetingType;
@@ -19204,7 +19291,7 @@ void ATslCharacter::ClientSetTargeting(ETargetingType NewTargetingType)
 void ATslCharacter::ClientSendGroggyMessage(class ATslPlayerState* GroggyCauserPlayerState, class ATslPlayerState* VictimPlayerState, class UDamageType* GroggyCauserDamageType, EDamageReason DamageReason, const struct FText& DamageCauserName, class UClass* DamageCauserClass)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17301);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17355);
 
 	ATslCharacter_ClientSendGroggyMessage_Params params;
 	params.GroggyCauserPlayerState = GroggyCauserPlayerState;
@@ -19231,7 +19318,7 @@ void ATslCharacter::ClientSendGroggyMessage(class ATslPlayerState* GroggyCauserP
 void ATslCharacter::ClientRevivedCastingWidgetShow(bool bVisible)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17299);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17353);
 
 	ATslCharacter_ClientRevivedCastingWidgetShow_Params params;
 	params.bVisible = bVisible;
@@ -19253,7 +19340,7 @@ void ATslCharacter::ClientRevivedCastingWidgetShow(bool bVisible)
 void ATslCharacter::ClientProcessRevive(float RemainGroggyHealth)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17297);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17351);
 
 	ATslCharacter_ClientProcessRevive_Params params;
 	params.RemainGroggyHealth = RemainGroggyHealth;
@@ -19275,7 +19362,7 @@ void ATslCharacter::ClientProcessRevive(float RemainGroggyHealth)
 void ATslCharacter::ClientPlayPickUpAnimation(const struct FVector_NetQuantize& InteractionObject)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17295);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17349);
 
 	ATslCharacter_ClientPlayPickUpAnimation_Params params;
 	params.InteractionObject = InteractionObject;
@@ -19298,7 +19385,7 @@ void ATslCharacter::ClientPlayPickUpAnimation(const struct FVector_NetQuantize& 
 void ATslCharacter::ClientNotifyCrack(const struct FVector_NetQuantize& LocationRelative, float BulletVelocity)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17292);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17346);
 
 	ATslCharacter_ClientNotifyCrack_Params params;
 	params.LocationRelative = LocationRelative;
@@ -19322,7 +19409,7 @@ void ATslCharacter::ClientNotifyCrack(const struct FVector_NetQuantize& Location
 void ATslCharacter::ClientMyCharacterPlayPickUpAnimation(const struct FVector_NetQuantize& InteractionObject, float Duration)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17289);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17343);
 
 	ATslCharacter_ClientMyCharacterPlayPickUpAnimation_Params params;
 	params.InteractionObject = InteractionObject;
@@ -19345,7 +19432,7 @@ void ATslCharacter::ClientMyCharacterPlayPickUpAnimation(const struct FVector_Ne
 void ATslCharacter::ClientForceInitStance(TEnumAsByte<EStanceMode> ToStance)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17287);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17341);
 
 	ATslCharacter_ClientForceInitStance_Params params;
 	params.ToStance = ToStance;
@@ -19368,7 +19455,7 @@ void ATslCharacter::ClientForceInitStance(TEnumAsByte<EStanceMode> ToStance)
 void ATslCharacter::ClientDrawDamageInfo(float Damage, class UTslDamageType* DamageType)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17284);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17338);
 
 	ATslCharacter_ClientDrawDamageInfo_Params params;
 	params.Damage = Damage;
@@ -19391,7 +19478,7 @@ void ATslCharacter::ClientDrawDamageInfo(float Damage, class UTslDamageType* Dam
 void ATslCharacter::Client_PlayUnarmedAttack(int AnimationIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17282);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17336);
 
 	ATslCharacter_Client_PlayUnarmedAttack_Params params;
 	params.AnimationIndex = AnimationIndex;
@@ -19411,7 +19498,7 @@ void ATslCharacter::Client_PlayUnarmedAttack(int AnimationIndex)
 void ATslCharacter::Client_CastFinishNotify()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17281);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17335);
 
 	ATslCharacter_Client_CastFinishNotify_Params params;
 
@@ -19430,7 +19517,7 @@ void ATslCharacter::Client_CastFinishNotify()
 void ATslCharacter::Client_CastCancelNotify()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17280);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17334);
 
 	ATslCharacter_Client_CastCancelNotify_Params params;
 
@@ -19449,7 +19536,7 @@ void ATslCharacter::Client_CastCancelNotify()
 void ATslCharacter::CheckScopePP()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17279);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17333);
 
 	ATslCharacter_CheckScopePP_Params params;
 
@@ -19468,7 +19555,7 @@ void ATslCharacter::CheckScopePP()
 void ATslCharacter::CheckMuzzleCollision()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17278);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17332);
 
 	ATslCharacter_CheckMuzzleCollision_Params params;
 
@@ -19487,7 +19574,7 @@ void ATslCharacter::CheckMuzzleCollision()
 void ATslCharacter::CheckMuzzleBulletSpawn()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17277);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17331);
 
 	ATslCharacter_CheckMuzzleBulletSpawn_Params params;
 
@@ -19509,7 +19596,7 @@ void ATslCharacter::CheckMuzzleBulletSpawn()
 void ATslCharacter::CheckJumpAndVault(bool bForceVelocity, const struct FVector& InForcedVelocity)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17274);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17328);
 
 	ATslCharacter_CheckJumpAndVault_Params params;
 	params.bForceVelocity = bForceVelocity;
@@ -19530,7 +19617,7 @@ void ATslCharacter::CheckJumpAndVault(bool bForceVelocity, const struct FVector&
 void ATslCharacter::CheckForCoat()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17273);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17327);
 
 	ATslCharacter_CheckForCoat_Params params;
 
@@ -19552,7 +19639,7 @@ void ATslCharacter::CheckForCoat()
 bool ATslCharacter::CheckEquipmentSlot(const struct FEquipPosition& InSlotData)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17270);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17324);
 
 	ATslCharacter_CheckEquipmentSlot_Params params;
 	params.InSlotData = InSlotData;
@@ -19576,7 +19663,7 @@ bool ATslCharacter::CheckEquipmentSlot(const struct FEquipPosition& InSlotData)
 bool ATslCharacter::CanSwim()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17268);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17322);
 
 	ATslCharacter_CanSwim_Params params;
 
@@ -19597,7 +19684,7 @@ bool ATslCharacter::CanSwim()
 void ATslCharacter::Camera_AimoffsetFix_TppToFpp()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17267);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17321);
 
 	ATslCharacter_Camera_AimoffsetFix_TppToFpp_Params params;
 
@@ -19616,7 +19703,7 @@ void ATslCharacter::Camera_AimoffsetFix_TppToFpp()
 void ATslCharacter::Camera_AimoffsetFix_FppToTpp()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17266);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17320);
 
 	ATslCharacter_Camera_AimoffsetFix_FppToTpp_Params params;
 
@@ -19637,7 +19724,7 @@ void ATslCharacter::Camera_AimoffsetFix_FppToTpp()
 void ATslCharacter::BindCallbackToHUD(class ATslPlayerController* InController)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17264);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17318);
 
 	ATslCharacter_BindCallbackToHUD_Params params;
 	params.InController = InController;
@@ -19657,7 +19744,7 @@ void ATslCharacter::BindCallbackToHUD(class ATslPlayerController* InController)
 void ATslCharacter::ApplyRagdollPhysicsForce()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17263);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17317);
 
 	ATslCharacter_ApplyRagdollPhysicsForce_Params params;
 
@@ -19678,7 +19765,7 @@ void ATslCharacter::ApplyRagdollPhysicsForce()
 void ATslCharacter::Anim_MagazineShow(bool bShow)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17261);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17315);
 
 	ATslCharacter_Anim_MagazineShow_Params params;
 	params.bShow = bShow;
@@ -19700,7 +19787,7 @@ void ATslCharacter::Anim_MagazineShow(bool bShow)
 void ATslCharacter::Anim_MagazineHandAttach(bool bAttach)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17259);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17313);
 
 	ATslCharacter_Anim_MagazineHandAttach_Params params;
 	params.bAttach = bAttach;
@@ -19722,7 +19809,7 @@ void ATslCharacter::Anim_MagazineHandAttach(bool bAttach)
 bool ATslCharacter::Anim_IsMagazineVisible()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17257);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17311);
 
 	ATslCharacter_Anim_IsMagazineVisible_Params params;
 
@@ -19746,7 +19833,7 @@ bool ATslCharacter::Anim_IsMagazineVisible()
 bool ATslCharacter::AllowInteract(class ATslCharacter* OtherCharacter)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17254);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17308);
 
 	ATslCharacter_AllowInteract_Params params;
 	params.OtherCharacter = OtherCharacter;
@@ -19768,7 +19855,7 @@ bool ATslCharacter::AllowInteract(class ATslCharacter* OtherCharacter)
 void ATslCharacter::AdminSetUpWeapon()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17253);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17307);
 
 	ATslCharacter_AdminSetUpWeapon_Params params;
 
@@ -19786,7 +19873,7 @@ void ATslCharacter::AdminSetUpWeapon()
 void ATslCharacter::AdminInvulnerable()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17252);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17306);
 
 	ATslCharacter_AdminInvulnerable_Params params;
 
@@ -19804,7 +19891,7 @@ void ATslCharacter::AdminInvulnerable()
 void ATslCharacter::AdminFreeMoveMode()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17251);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17305);
 
 	ATslCharacter_AdminFreeMoveMode_Params params;
 
@@ -19824,13 +19911,55 @@ void ATslCharacter::AdminFreeMoveMode()
 void ATslCharacter::AddBuffMoveSpeedFactor(float MoveSpeedFactor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17249);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(17303);
 
 	ATslCharacter_AddBuffMoveSpeedFactor_Params params;
 	params.MoveSpeedFactor = MoveSpeedFactor;
 
 	auto flags = fn->FunctionFlags;
 	fn->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function TslGame.ObserverTagWidget.UpdateWeaponIcon_Imp
+// (Final, Native, Public, BlueprintCallable)
+// Parameters:
+// class USizeBox*                weaponBox                      (Parm, ZeroConstructor, InstancedReference, IsPlainOldData)
+// class UImage*                  weaponImage                    (Parm, ZeroConstructor, InstancedReference, IsPlainOldData)
+
+void UObserverTagWidget::UpdateWeaponIcon_Imp(class USizeBox* weaponBox, class UImage* weaponImage)
+{
+	static UFunction* fn = nullptr; 
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18367);
+
+	UObserverTagWidget_UpdateWeaponIcon_Imp_Params params;
+	params.weaponBox = weaponBox;
+	params.weaponImage = weaponImage;
+
+	auto flags = fn->FunctionFlags;
+	fn->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function TslGame.ObserverTagWidget.UpdateWeaponIcon
+// (Event, Public, BlueprintEvent)
+
+void UObserverTagWidget::UpdateWeaponIcon()
+{
+	static UFunction* fn = nullptr; 
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18366);
+
+	UObserverTagWidget_UpdateWeaponIcon_Params params;
+
+	auto flags = fn->FunctionFlags;
 
 	UObject::ProcessEvent(fn, &params);
 
@@ -19847,7 +19976,7 @@ void ATslCharacter::AddBuffMoveSpeedFactor(float MoveSpeedFactor)
 void UObserverTagWidget::SetTeamNumber(int TeamNumber, const struct FLinearColor& teamColor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18307);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18363);
 
 	UObserverTagWidget_SetTeamNumber_Params params;
 	params.TeamNumber = TeamNumber;
@@ -19869,7 +19998,7 @@ void UObserverTagWidget::SetTeamNumber(int TeamNumber, const struct FLinearColor
 void UObserverTagWidget::SetPlayerNameTag(const struct FName& PlayerName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18305);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18361);
 
 	UObserverTagWidget_SetPlayerNameTag_Params params;
 	params.PlayerName = PlayerName;
@@ -19890,7 +20019,7 @@ void UObserverTagWidget::SetPlayerNameTag(const struct FName& PlayerName)
 void UObserverTagWidget::SetIndicatorColor(const struct FLinearColor& teamColor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18303);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18359);
 
 	UObserverTagWidget_SetIndicatorColor_Params params;
 	params.teamColor = teamColor;
@@ -19912,7 +20041,7 @@ void UObserverTagWidget::SetIndicatorColor(const struct FLinearColor& teamColor)
 void UObserverTagWidget::SetCharacterIconPosition_UC(const struct FVector2D& Pos_UC, bool IsHidden)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18300);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18356);
 
 	UObserverTagWidget_SetCharacterIconPosition_UC_Params params;
 	params.Pos_UC = Pos_UC;
@@ -19937,7 +20066,7 @@ void UObserverTagWidget::SetCharacterIconPosition_UC(const struct FVector2D& Pos
 void UObserverTagWidget::OnUpdateWidgetTransform(class UWidget* CharacterNameWidget, class UWidget* IndicatorWidget, const struct FVector2D& Pos_UC, bool IsHidden)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18295);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18351);
 
 	UObserverTagWidget_OnUpdateWidgetTransform_Params params;
 	params.CharacterNameWidget = CharacterNameWidget;
@@ -19962,7 +20091,7 @@ void UObserverTagWidget::OnUpdateWidgetTransform(class UWidget* CharacterNameWid
 bool UObserverTagWidget::IsTeamMember()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18293);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18349);
 
 	UObserverTagWidget_IsTeamMember_Params params;
 
@@ -19985,7 +20114,7 @@ bool UObserverTagWidget::IsTeamMember()
 bool UObserverTagWidget::IsLastSpectatedCharacter()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18291);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18347);
 
 	UObserverTagWidget_IsLastSpectatedCharacter_Params params;
 
@@ -20008,9 +20137,31 @@ bool UObserverTagWidget::IsLastSpectatedCharacter()
 void UObserverTagWidget::HandleWidgetPrepass(class UWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18289);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18345);
 
 	UObserverTagWidget_HandleWidgetPrepass_Params params;
+	params.Widget = Widget;
+
+	auto flags = fn->FunctionFlags;
+	fn->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function TslGame.ObserverTagWidget.HandleWeaponImagePrepass
+// (Final, Native, Public, BlueprintCallable)
+// Parameters:
+// class UWidget*                 Widget                         (Parm, ZeroConstructor, InstancedReference, IsPlainOldData)
+
+void UObserverTagWidget::HandleWeaponImagePrepass(class UWidget* Widget)
+{
+	static UFunction* fn = nullptr; 
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18343);
+
+	UObserverTagWidget_HandleWeaponImagePrepass_Params params;
 	params.Widget = Widget;
 
 	auto flags = fn->FunctionFlags;
@@ -20030,7 +20181,7 @@ void UObserverTagWidget::HandleWidgetPrepass(class UWidget* Widget)
 void UObserverTagWidget::HandleTeamNumberPrepass(class UWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18287);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18341);
 
 	UObserverTagWidget_HandleTeamNumberPrepass_Params params;
 	params.Widget = Widget;
@@ -20053,7 +20204,7 @@ void UObserverTagWidget::HandleTeamNumberPrepass(class UWidget* Widget)
 int UObserverTagWidget::GetTeamId(class ATslCharacter* TslCharacter)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18284);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18338);
 
 	UObserverTagWidget_GetTeamId_Params params;
 	params.TslCharacter = TslCharacter;
@@ -20078,7 +20229,7 @@ int UObserverTagWidget::GetTeamId(class ATslCharacter* TslCharacter)
 struct FLinearColor UObserverTagWidget::GetTeamColor(class ATslCharacter* TslCharacter)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18281);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18335);
 
 	UObserverTagWidget_GetTeamColor_Params params;
 	params.TslCharacter = TslCharacter;
@@ -20100,7 +20251,7 @@ struct FLinearColor UObserverTagWidget::GetTeamColor(class ATslCharacter* TslCha
 void UObserverTagManagerBaseWidget::UpdateReplicateCharacter()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18322);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18384);
 
 	UObserverTagManagerBaseWidget_UpdateReplicateCharacter_Params params;
 
@@ -20121,7 +20272,7 @@ void UObserverTagManagerBaseWidget::UpdateReplicateCharacter()
 void UObserverTagManagerBaseWidget::RemoveReplicateCharacter(TArray<class ATslCharacter*> Characters)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18319);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18381);
 
 	UObserverTagManagerBaseWidget_RemoveReplicateCharacter_Params params;
 	params.Characters = Characters;
@@ -20143,7 +20294,7 @@ void UObserverTagManagerBaseWidget::RemoveReplicateCharacter(TArray<class ATslCh
 void UObserverTagManagerBaseWidget::AddReplicateCharacter(TArray<class ATslCharacter*> Characters)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18316);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18378);
 
 	UObserverTagManagerBaseWidget_AddReplicateCharacter_Params params;
 	params.Characters = Characters;
@@ -20165,7 +20316,7 @@ void UObserverTagManagerBaseWidget::AddReplicateCharacter(TArray<class ATslChara
 class USkeletalMeshComponent* UTslVehicleInterface::GetVehicleMeshComponent()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18326);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18388);
 
 	UTslVehicleInterface_GetVehicleMeshComponent_Params params;
 
@@ -20188,7 +20339,7 @@ class USkeletalMeshComponent* UTslVehicleInterface::GetVehicleMeshComponent()
 class ATslPlayerController* UTslVehicleInterface::GetTslPlayerController()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18324);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18386);
 
 	UTslVehicleInterface_GetTslPlayerController_Params params;
 
@@ -20209,7 +20360,7 @@ class ATslPlayerController* UTslVehicleInterface::GetTslPlayerController()
 void AParachuteVehicle::ServerRelease()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18362);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18424);
 
 	AParachuteVehicle_ServerRelease_Params params;
 
@@ -20230,7 +20381,7 @@ void AParachuteVehicle::ServerRelease()
 void AParachuteVehicle::PhysicsVolumeChanged(class APhysicsVolume* NewVolume)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18360);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18422);
 
 	AParachuteVehicle_PhysicsVolumeChanged_Params params;
 	params.NewVolume = NewVolume;
@@ -20252,7 +20403,7 @@ void AParachuteVehicle::PhysicsVolumeChanged(class APhysicsVolume* NewVolume)
 void AParachuteVehicle::OnSecondInteractBy(class ATslCharacter* Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18358);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18420);
 
 	AParachuteVehicle_OnSecondInteractBy_Params params;
 	params.Character = Character;
@@ -20275,7 +20426,7 @@ void AParachuteVehicle::OnSecondInteractBy(class ATslCharacter* Character)
 void AParachuteVehicle::OnRide(class ATslCharacter* Rider, class UVehicleSeatInteractionComponent* Seat)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18355);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18417);
 
 	AParachuteVehicle_OnRide_Params params;
 	params.Rider = Rider;
@@ -20296,7 +20447,7 @@ void AParachuteVehicle::OnRide(class ATslCharacter* Rider, class UVehicleSeatInt
 void AParachuteVehicle::OnRep_SkinData()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18354);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18416);
 
 	AParachuteVehicle_OnRep_SkinData_Params params;
 
@@ -20315,7 +20466,7 @@ void AParachuteVehicle::OnRep_SkinData()
 void AParachuteVehicle::OnRep_IsReleased()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18353);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18415);
 
 	AParachuteVehicle_OnRep_IsReleased_Params params;
 
@@ -20334,7 +20485,7 @@ void AParachuteVehicle::OnRep_IsReleased()
 void AParachuteVehicle::OnRep_IsDriven()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18352);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18414);
 
 	AParachuteVehicle_OnRep_IsDriven_Params params;
 
@@ -20353,7 +20504,7 @@ void AParachuteVehicle::OnRep_IsDriven()
 void AParachuteVehicle::OnPostDriverLeave()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18351);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18413);
 
 	AParachuteVehicle_OnPostDriverLeave_Params params;
 
@@ -20374,7 +20525,7 @@ void AParachuteVehicle::OnPostDriverLeave()
 void AParachuteVehicle::OnInteractBy(class ATslCharacter* Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18349);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18411);
 
 	AParachuteVehicle_OnInteractBy_Params params;
 	params.Character = Character;
@@ -20394,7 +20545,7 @@ void AParachuteVehicle::OnInteractBy(class ATslCharacter* Character)
 void AParachuteVehicle::OnDriverRide()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18348);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18410);
 
 	AParachuteVehicle_OnDriverRide_Params params;
 
@@ -20413,7 +20564,7 @@ void AParachuteVehicle::OnDriverRide()
 void AParachuteVehicle::OnDriverLeave()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18347);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18409);
 
 	AParachuteVehicle_OnDriverLeave_Params params;
 
@@ -20432,7 +20583,7 @@ void AParachuteVehicle::OnDriverLeave()
 void AParachuteVehicle::Land()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18346);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18408);
 
 	AParachuteVehicle_Land_Params params;
 
@@ -20453,7 +20604,7 @@ void AParachuteVehicle::Land()
 bool AParachuteVehicle::IsStuck()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18344);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18406);
 
 	AParachuteVehicle_IsStuck_Params params;
 
@@ -20476,7 +20627,7 @@ bool AParachuteVehicle::IsStuck()
 bool AParachuteVehicle::IsReleased()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18342);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18404);
 
 	AParachuteVehicle_IsReleased_Params params;
 
@@ -20499,7 +20650,7 @@ bool AParachuteVehicle::IsReleased()
 bool AParachuteVehicle::IsDriven()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18340);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18402);
 
 	AParachuteVehicle_IsDriven_Params params;
 
@@ -20522,7 +20673,7 @@ bool AParachuteVehicle::IsDriven()
 float AParachuteVehicle::GetAltitudeFromFloor()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18338);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18400);
 
 	AParachuteVehicle_GetAltitudeFromFloor_Params params;
 
@@ -20545,7 +20696,7 @@ float AParachuteVehicle::GetAltitudeFromFloor()
 bool AParachuteVehicle::CanReleaseByInput()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18336);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18398);
 
 	AParachuteVehicle_CanReleaseByInput_Params params;
 
@@ -20568,7 +20719,7 @@ bool AParachuteVehicle::CanReleaseByInput()
 bool AParachuteVehicle::CanRelease()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18334);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18396);
 
 	AParachuteVehicle_CanRelease_Params params;
 
@@ -20592,7 +20743,7 @@ bool AParachuteVehicle::CanRelease()
 bool AParachuteVehicle::AllowSecondInteractBy(class ATslCharacter* Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18331);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18393);
 
 	AParachuteVehicle_AllowSecondInteractBy_Params params;
 	params.Character = Character;
@@ -20617,7 +20768,7 @@ bool AParachuteVehicle::AllowSecondInteractBy(class ATslCharacter* Character)
 bool AParachuteVehicle::AllowInteractBy(class ATslCharacter* Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18328);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18390);
 
 	AParachuteVehicle_AllowInteractBy_Params params;
 	params.Character = Character;
@@ -20639,7 +20790,7 @@ bool AParachuteVehicle::AllowInteractBy(class ATslCharacter* Character)
 void AReplicationTrigger::EnableReplicationGroup()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18402);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18465);
 
 	AReplicationTrigger_EnableReplicationGroup_Params params;
 
@@ -20660,7 +20811,7 @@ void AReplicationTrigger::EnableReplicationGroup()
 struct FText USceneInteractionComponent::GetInteractiveObjectName()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18424);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18487);
 
 	USceneInteractionComponent_GetInteractiveObjectName_Params params;
 
@@ -20683,7 +20834,7 @@ struct FText USceneInteractionComponent::GetInteractiveObjectName()
 struct FText USceneInteractionComponent::GetInteractionVerb()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18422);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18485);
 
 	USceneInteractionComponent_GetInteractionVerb_Params params;
 
@@ -20707,7 +20858,7 @@ struct FText USceneInteractionComponent::GetInteractionVerb()
 bool USceneInteractionComponent::AllowInteractBy(class ATslCharacter* Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18419);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18482);
 
 	USceneInteractionComponent_AllowInteractBy_Params params;
 	params.Character = Character;
@@ -20731,7 +20882,7 @@ bool USceneInteractionComponent::AllowInteractBy(class ATslCharacter* Character)
 void UDoorInteractionComponent::OnRep_DoorState(EDoorState PrevDoorState)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18436);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18499);
 
 	UDoorInteractionComponent_OnRep_DoorState_Params params;
 	params.PrevDoorState = PrevDoorState;
@@ -20754,7 +20905,7 @@ void UDoorInteractionComponent::OnRep_DoorState(EDoorState PrevDoorState)
 bool UDoorInteractionComponent::AllowInteract(class ATslCharacter* OtherCharacter)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18433);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18496);
 
 	UDoorInteractionComponent_AllowInteract_Params params;
 	params.OtherCharacter = OtherCharacter;
@@ -20776,7 +20927,7 @@ bool UDoorInteractionComponent::AllowInteract(class ATslCharacter* OtherCharacte
 void UDroppedItemInteractionComponent::OnRep_Item()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18449);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18512);
 
 	UDroppedItemInteractionComponent_OnRep_Item_Params params;
 
@@ -20798,7 +20949,7 @@ void UDroppedItemInteractionComponent::OnRep_Item()
 bool UDroppedItemInteractionComponent::AllowInteractBy(class ATslCharacter* Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18446);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18509);
 
 	UDroppedItemInteractionComponent_AllowInteractBy_Params params;
 	params.Character = Character;
@@ -20820,7 +20971,7 @@ bool UDroppedItemInteractionComponent::AllowInteractBy(class ATslCharacter* Char
 void UVehicleSeatInteractionComponent::OnRep_Rider()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18503);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18566);
 
 	UVehicleSeatInteractionComponent_OnRep_Rider_Params params;
 
@@ -20841,7 +20992,7 @@ void UVehicleSeatInteractionComponent::OnRep_Rider()
 void UVehicleSeatInteractionComponent::OnInteractDelegate(class ATslCharacter* OtherCharacter)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18501);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18564);
 
 	UVehicleSeatInteractionComponent_OnInteractDelegate_Params params;
 	params.OtherCharacter = OtherCharacter;
@@ -20864,7 +21015,7 @@ void UVehicleSeatInteractionComponent::OnInteractDelegate(class ATslCharacter* O
 bool UVehicleSeatInteractionComponent::IsWeaponClassAllowed(EWeaponClass InClass)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18497);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18560);
 
 	UVehicleSeatInteractionComponent_IsWeaponClassAllowed_Params params;
 	params.InClass = InClass;
@@ -20888,7 +21039,7 @@ bool UVehicleSeatInteractionComponent::IsWeaponClassAllowed(EWeaponClass InClass
 bool UVehicleSeatInteractionComponent::IsEntryAllowedByVelocity()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18495);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18558);
 
 	UVehicleSeatInteractionComponent_IsEntryAllowedByVelocity_Params params;
 
@@ -20911,7 +21062,7 @@ bool UVehicleSeatInteractionComponent::IsEntryAllowedByVelocity()
 class UTslVehicleSeatComponent* UVehicleSeatInteractionComponent::GetVehicleSeatComponent()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18493);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18556);
 
 	UVehicleSeatInteractionComponent_GetVehicleSeatComponent_Params params;
 
@@ -20934,7 +21085,7 @@ class UTslVehicleSeatComponent* UVehicleSeatInteractionComponent::GetVehicleSeat
 class APawn* UVehicleSeatInteractionComponent::GetVehiclePawn()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18491);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18554);
 
 	UVehicleSeatInteractionComponent_GetVehiclePawn_Params params;
 
@@ -20957,7 +21108,7 @@ class APawn* UVehicleSeatInteractionComponent::GetVehiclePawn()
 TScriptInterface<class UTslVehicleInterface> UVehicleSeatInteractionComponent::GetVehicleInterface()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18489);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18552);
 
 	UVehicleSeatInteractionComponent_GetVehicleInterface_Params params;
 
@@ -20980,7 +21131,7 @@ TScriptInterface<class UTslVehicleInterface> UVehicleSeatInteractionComponent::G
 EVehicleAnimType UVehicleSeatInteractionComponent::GetVehicleAnimType()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18486);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18549);
 
 	UVehicleSeatInteractionComponent_GetVehicleAnimType_Params params;
 
@@ -21003,7 +21154,7 @@ EVehicleAnimType UVehicleSeatInteractionComponent::GetVehicleAnimType()
 class UBlendSpaceBase* UVehicleSeatInteractionComponent::GetTransitionOutBlendspace()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18484);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18547);
 
 	UVehicleSeatInteractionComponent_GetTransitionOutBlendspace_Params params;
 
@@ -21026,7 +21177,7 @@ class UBlendSpaceBase* UVehicleSeatInteractionComponent::GetTransitionOutBlendsp
 class UBlendSpaceBase* UVehicleSeatInteractionComponent::GetTransitionInBlendspace()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18482);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18545);
 
 	UVehicleSeatInteractionComponent_GetTransitionInBlendspace_Params params;
 
@@ -21049,7 +21200,7 @@ class UBlendSpaceBase* UVehicleSeatInteractionComponent::GetTransitionInBlendspa
 class UAimOffsetBlendSpace* UVehicleSeatInteractionComponent::GetSeatIdleAO()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18480);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18543);
 
 	UVehicleSeatInteractionComponent_GetSeatIdleAO_Params params;
 
@@ -21072,7 +21223,7 @@ class UAimOffsetBlendSpace* UVehicleSeatInteractionComponent::GetSeatIdleAO()
 class UAnimSequenceBase* UVehicleSeatInteractionComponent::GetSeatIdleAnimation_Unarmed()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18478);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18541);
 
 	UVehicleSeatInteractionComponent_GetSeatIdleAnimation_Unarmed_Params params;
 
@@ -21095,7 +21246,7 @@ class UAnimSequenceBase* UVehicleSeatInteractionComponent::GetSeatIdleAnimation_
 class UAnimSequenceBase* UVehicleSeatInteractionComponent::GetSeatIdleAnimation_Rifle()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18476);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18539);
 
 	UVehicleSeatInteractionComponent_GetSeatIdleAnimation_Rifle_Params params;
 
@@ -21118,7 +21269,7 @@ class UAnimSequenceBase* UVehicleSeatInteractionComponent::GetSeatIdleAnimation_
 class UAnimSequenceBase* UVehicleSeatInteractionComponent::GetSeatIdleAnimation_Melee()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18474);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18537);
 
 	UVehicleSeatInteractionComponent_GetSeatIdleAnimation_Melee_Params params;
 
@@ -21141,7 +21292,7 @@ class UAnimSequenceBase* UVehicleSeatInteractionComponent::GetSeatIdleAnimation_
 class UAnimSequenceBase* UVehicleSeatInteractionComponent::GetSeatIdleAnimation_Grenade()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18472);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18535);
 
 	UVehicleSeatInteractionComponent_GetSeatIdleAnimation_Grenade_Params params;
 
@@ -21164,7 +21315,7 @@ class UAnimSequenceBase* UVehicleSeatInteractionComponent::GetSeatIdleAnimation_
 class UBlendSpaceBase* UVehicleSeatInteractionComponent::GetSeatAimingFPPBlendspace()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18470);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18533);
 
 	UVehicleSeatInteractionComponent_GetSeatAimingFPPBlendspace_Params params;
 
@@ -21187,7 +21338,7 @@ class UBlendSpaceBase* UVehicleSeatInteractionComponent::GetSeatAimingFPPBlendsp
 class UBlendSpaceBase* UVehicleSeatInteractionComponent::GetSeatAimingBlendspace()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18468);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18531);
 
 	UVehicleSeatInteractionComponent_GetSeatAimingBlendspace_Params params;
 
@@ -21210,7 +21361,7 @@ class UBlendSpaceBase* UVehicleSeatInteractionComponent::GetSeatAimingBlendspace
 class ATslCharacter* UVehicleSeatInteractionComponent::GetRider()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18466);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18529);
 
 	UVehicleSeatInteractionComponent_GetRider_Params params;
 
@@ -21234,7 +21385,7 @@ class ATslCharacter* UVehicleSeatInteractionComponent::GetRider()
 float UVehicleSeatInteractionComponent::GetMinPitchByYaw(float CurrentYaw)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18463);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18526);
 
 	UVehicleSeatInteractionComponent_GetMinPitchByYaw_Params params;
 	params.CurrentYaw = CurrentYaw;
@@ -21259,7 +21410,7 @@ float UVehicleSeatInteractionComponent::GetMinPitchByYaw(float CurrentYaw)
 float UVehicleSeatInteractionComponent::GetMaxPitchByYaw(float CurrentYaw)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18460);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18523);
 
 	UVehicleSeatInteractionComponent_GetMaxPitchByYaw_Params params;
 	params.CurrentYaw = CurrentYaw;
@@ -21283,7 +21434,7 @@ float UVehicleSeatInteractionComponent::GetMaxPitchByYaw(float CurrentYaw)
 bool UVehicleSeatInteractionComponent::GetCanFireOnlyWhileAimed()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18458);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18521);
 
 	UVehicleSeatInteractionComponent_GetCanFireOnlyWhileAimed_Params params;
 
@@ -21307,7 +21458,7 @@ bool UVehicleSeatInteractionComponent::GetCanFireOnlyWhileAimed()
 struct FText UVehicleSeatInteractionComponent::GetAdditionalMessage(class ATslCharacter* Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18455);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18518);
 
 	UVehicleSeatInteractionComponent_GetAdditionalMessage_Params params;
 	params.Character = Character;
@@ -21332,7 +21483,7 @@ struct FText UVehicleSeatInteractionComponent::GetAdditionalMessage(class ATslCh
 bool UVehicleSeatInteractionComponent::AllowInteractDelegate(class ATslCharacter* OtherCharacter)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18452);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18515);
 
 	UVehicleSeatInteractionComponent_AllowInteractDelegate_Params params;
 	params.OtherCharacter = OtherCharacter;
@@ -21357,7 +21508,7 @@ bool UVehicleSeatInteractionComponent::AllowInteractDelegate(class ATslCharacter
 bool UMotorbikeVehicleSeatInteraction::IsEntryAllowed(class ATslCharacter* InCharacter)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18537);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18600);
 
 	UMotorbikeVehicleSeatInteraction_IsEntryAllowed_Params params;
 	params.InCharacter = InCharacter;
@@ -21379,7 +21530,7 @@ bool UMotorbikeVehicleSeatInteraction::IsEntryAllowed(class ATslCharacter* InCha
 void UMotorbikeVehicleSeatInteraction::HandleFlipAndKickstand()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18536);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18599);
 
 	UMotorbikeVehicleSeatInteraction_HandleFlipAndKickstand_Params params;
 
@@ -21403,7 +21554,7 @@ void UMotorbikeVehicleSeatInteraction::HandleFlipAndKickstand()
 void UFreeFallMovement::ServerUpdateInput(float InForwardInput, float InRightInput, float InDesiredPitchRotation, float InDesiredYawRotation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18584);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18647);
 
 	UFreeFallMovement_ServerUpdateInput_Params params;
 	params.InForwardInput = InForwardInput;
@@ -21428,7 +21579,7 @@ void UFreeFallMovement::ServerUpdateInput(float InForwardInput, float InRightInp
 float UFreeFallMovement::GetRightInput()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18582);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18645);
 
 	UFreeFallMovement_GetRightInput_Params params;
 
@@ -21451,7 +21602,7 @@ float UFreeFallMovement::GetRightInput()
 float UFreeFallMovement::GetForwardInput()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18580);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18643);
 
 	UFreeFallMovement_GetForwardInput_Params params;
 
@@ -21475,7 +21626,7 @@ float UFreeFallMovement::GetForwardInput()
 void UParachuteVehicleMovement::ServerUpdateInput(float InForwardInput, float InRotationInput)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18610);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18673);
 
 	UParachuteVehicleMovement_ServerUpdateInput_Params params;
 	params.InForwardInput = InForwardInput;
@@ -21498,7 +21649,7 @@ void UParachuteVehicleMovement::ServerUpdateInput(float InForwardInput, float In
 float UParachuteVehicleMovement::GetRotationYawRate()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18608);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18671);
 
 	UParachuteVehicleMovement_GetRotationYawRate_Params params;
 
@@ -21521,7 +21672,7 @@ float UParachuteVehicleMovement::GetRotationYawRate()
 float UParachuteVehicleMovement::GetRotationInput()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18606);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18669);
 
 	UParachuteVehicleMovement_GetRotationInput_Params params;
 
@@ -21544,7 +21695,7 @@ float UParachuteVehicleMovement::GetRotationInput()
 float UParachuteVehicleMovement::GetForwardInput()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18604);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18667);
 
 	UParachuteVehicleMovement_GetForwardInput_Params params;
 
@@ -21567,7 +21718,7 @@ float UParachuteVehicleMovement::GetForwardInput()
 struct FRotator UParachuteVehicleMovement::GetClientRotation()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18602);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18665);
 
 	UParachuteVehicleMovement_GetClientRotation_Params params;
 
@@ -21588,7 +21739,7 @@ struct FRotator UParachuteVehicleMovement::GetClientRotation()
 void UStanceComponent::ServerForceInitStance()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18685);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18748);
 
 	UStanceComponent_ServerForceInitStance_Params params;
 
@@ -21609,7 +21760,7 @@ void UStanceComponent::ServerForceInitStance()
 void UStanceComponent::ServerChangeStance(TEnumAsByte<EStanceMode> ToStance)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18683);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18746);
 
 	UStanceComponent_ServerChangeStance_Params params;
 	params.ToStance = ToStance;
@@ -21629,7 +21780,7 @@ void UStanceComponent::ServerChangeStance(TEnumAsByte<EStanceMode> ToStance)
 void UStanceComponent::OnRep_CurrentStance()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18682);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18745);
 
 	UStanceComponent_OnRep_CurrentStance_Params params;
 
@@ -21650,7 +21801,7 @@ void UStanceComponent::OnRep_CurrentStance()
 void UStanceComponent::ClientInitByReconnection(TEnumAsByte<EStanceMode> InitStance)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18680);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18743);
 
 	UStanceComponent_ClientInitByReconnection_Params params;
 	params.InitStance = InitStance;
@@ -21672,7 +21823,7 @@ void UStanceComponent::ClientInitByReconnection(TEnumAsByte<EStanceMode> InitSta
 float ATslPlayerStart::GetRandomStartYawRotation()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18695);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18758);
 
 	ATslPlayerStart_GetRandomStartYawRotation_Params params;
 
@@ -21695,7 +21846,7 @@ float ATslPlayerStart::GetRandomStartYawRotation()
 struct FVector ATslPlayerStart::GetRandomStartLocation()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18693);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18756);
 
 	ATslPlayerStart_GetRandomStartLocation_Params params;
 
@@ -21719,7 +21870,7 @@ struct FVector ATslPlayerStart::GetRandomStartLocation()
 bool AInventoryFacade::IsAutoSwappable(EEquipSlotID SlotID)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18726);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18789);
 
 	AInventoryFacade_IsAutoSwappable_Params params;
 	params.SlotID = SlotID;
@@ -21744,7 +21895,7 @@ bool AInventoryFacade::IsAutoSwappable(EEquipSlotID SlotID)
 bool AInventoryFacade::HasItemByClass(class UClass* ItemClass)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18723);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18786);
 
 	AInventoryFacade_HasItemByClass_Params params;
 	params.ItemClass = ItemClass;
@@ -21768,7 +21919,7 @@ bool AInventoryFacade::HasItemByClass(class UClass* ItemClass)
 void AInventoryFacade::GiveItem_Admin(class UClass* ItemClass)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18721);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18784);
 
 	AInventoryFacade_GiveItem_Admin_Params params;
 	params.ItemClass = ItemClass;
@@ -21790,7 +21941,7 @@ void AInventoryFacade::GiveItem_Admin(class UClass* ItemClass)
 class ATslCharacter* AInventoryFacade::GetOwnerCharacter()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18719);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18782);
 
 	AInventoryFacade_GetOwnerCharacter_Params params;
 
@@ -21813,7 +21964,7 @@ class ATslCharacter* AInventoryFacade::GetOwnerCharacter()
 class AInventory* AInventoryFacade::GetInventory()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18717);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18780);
 
 	AInventoryFacade_GetInventory_Params params;
 
@@ -21836,7 +21987,7 @@ class AInventory* AInventoryFacade::GetInventory()
 class AEquipment* AInventoryFacade::GetEquipment()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18715);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18778);
 
 	AInventoryFacade_GetEquipment_Params params;
 
@@ -21860,7 +22011,7 @@ class AEquipment* AInventoryFacade::GetEquipment()
 struct FEquipPosition AEquipment::WeaponIndexToEquipPosition(int WeaponIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18824);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18887);
 
 	AEquipment_WeaponIndexToEquipPosition_Params params;
 	params.WeaponIndex = WeaponIndex;
@@ -21888,7 +22039,7 @@ struct FEquipPosition AEquipment::WeaponIndexToEquipPosition(int WeaponIndex)
 void AEquipment::WeaponAttachmentSwap(const struct FEquipPosition& SourceWeapon, const struct FEquipPosition& TargetWeapon, const struct FName& ItemClassForVerify, EWeaponAttachmentSlotID AttachmentSlotID, bool bSoundPlay)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18817);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18880);
 
 	AEquipment_WeaponAttachmentSwap_Params params;
 	params.SourceWeapon = SourceWeapon;
@@ -21916,7 +22067,7 @@ void AEquipment::WeaponAttachmentSwap(const struct FEquipPosition& SourceWeapon,
 void AEquipment::UnequipItem(const struct FEquipPosition& Position, const struct FName& ItemClassForVerify, bool bSoundPlay)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18813);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18876);
 
 	AEquipment_UnequipItem_Params params;
 	params.Position = Position;
@@ -21943,7 +22094,7 @@ void AEquipment::UnequipItem(const struct FEquipPosition& Position, const struct
 bool AEquipment::TryEquipItem(class UItem* Item, bool bSoundPlay, bool bSwap)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18808);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18871);
 
 	AEquipment_TryEquipItem_Params params;
 	params.Item = Item;
@@ -21970,7 +22121,7 @@ bool AEquipment::TryEquipItem(class UItem* Item, bool bSoundPlay, bool bSwap)
 void AEquipment::PrimaryWeaponSwap(const struct FEquipPosition& EquipPosition, const struct FString& Options)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18805);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18868);
 
 	AEquipment_PrimaryWeaponSwap_Params params;
 	params.EquipPosition = EquipPosition;
@@ -21991,7 +22142,7 @@ void AEquipment::PrimaryWeaponSwap(const struct FEquipPosition& EquipPosition, c
 void AEquipment::Items_RepNotify()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18804);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18867);
 
 	AEquipment_Items_RepNotify_Params params;
 
@@ -22014,7 +22165,7 @@ void AEquipment::Items_RepNotify()
 bool AEquipment::IsSwapablePrimaryWeapon(const struct FEquipPosition& EquipPosition, const struct FString& Options)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18800);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18863);
 
 	AEquipment_IsSwapablePrimaryWeapon_Params params;
 	params.EquipPosition = EquipPosition;
@@ -22042,7 +22193,7 @@ bool AEquipment::IsSwapablePrimaryWeapon(const struct FEquipPosition& EquipPosit
 bool AEquipment::IsAttachableToWeapon(int WeaponIndex, class UAttachableItem* AttachableItem, bool bOnlyFree)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18795);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18858);
 
 	AEquipment_IsAttachableToWeapon_Params params;
 	params.WeaponIndex = WeaponIndex;
@@ -22068,7 +22219,7 @@ bool AEquipment::IsAttachableToWeapon(int WeaponIndex, class UAttachableItem* At
 class ATslCharacter* AEquipment::GetOwnerCharacter()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18793);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18856);
 
 	AEquipment_GetOwnerCharacter_Params params;
 
@@ -22092,7 +22243,7 @@ class ATslCharacter* AEquipment::GetOwnerCharacter()
 int AEquipment::GetItemCountByClass(class UClass* ItemClass)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18790);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18853);
 
 	AEquipment_GetItemCountByClass_Params params;
 	params.ItemClass = ItemClass;
@@ -22117,7 +22268,7 @@ int AEquipment::GetItemCountByClass(class UClass* ItemClass)
 class UEquipableItem* AEquipment::GetItem(const struct FEquipPosition& Position)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18787);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18850);
 
 	AEquipment_GetItem_Params params;
 	params.Position = Position;
@@ -22141,7 +22292,7 @@ class UEquipableItem* AEquipment::GetItem(const struct FEquipPosition& Position)
 class AInventoryFacade* AEquipment::GetInventoryFacade()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18785);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18848);
 
 	AEquipment_GetInventoryFacade_Params params;
 
@@ -22165,7 +22316,7 @@ class AInventoryFacade* AEquipment::GetInventoryFacade()
 struct FEquipPosition AEquipment::FindPosition(class UItem* Item)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18782);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18845);
 
 	AEquipment_FindPosition_Params params;
 	params.Item = Item;
@@ -22191,7 +22342,7 @@ struct FEquipPosition AEquipment::FindPosition(class UItem* Item)
 struct FEquipPosition AEquipment::FindEquipPosition(EEquipSlotID SlotID, bool bOnlyFree)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18777);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18840);
 
 	AEquipment_FindEquipPosition_Params params;
 	params.SlotID = SlotID;
@@ -22218,7 +22369,7 @@ struct FEquipPosition AEquipment::FindEquipPosition(EEquipSlotID SlotID, bool bO
 struct FEquipPosition AEquipment::FindEquipableWeaponPosition(class UEquipableItem* EquipableItem, const struct FString& Options)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18773);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18836);
 
 	AEquipment_FindEquipableWeaponPosition_Params params;
 	params.EquipableItem = EquipableItem;
@@ -22245,7 +22396,7 @@ struct FEquipPosition AEquipment::FindEquipableWeaponPosition(class UEquipableIt
 int AEquipment::FindAttachableWeaponIndex(class UAttachableItem* AttachableItem, const struct FString& Options)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18769);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18832);
 
 	AEquipment_FindAttachableWeaponIndex_Params params;
 	params.AttachableItem = AttachableItem;
@@ -22271,7 +22422,7 @@ int AEquipment::FindAttachableWeaponIndex(class UAttachableItem* AttachableItem,
 int AEquipment::EquipPositionToWeaponIndex(const struct FEquipPosition& Position)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18766);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18829);
 
 	AEquipment_EquipPositionToWeaponIndex_Params params;
 	params.Position = Position;
@@ -22299,7 +22450,7 @@ int AEquipment::EquipPositionToWeaponIndex(const struct FEquipPosition& Position
 bool AEquipment::EquipItem(const struct FEquipPosition& Position, class UEquipableItem* Item, bool bCheckViaCanEquipTo, bool bSoundPlay)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18760);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18823);
 
 	AEquipment_EquipItem_Params params;
 	params.Position = Position;
@@ -22329,7 +22480,7 @@ bool AEquipment::EquipItem(const struct FEquipPosition& Position, class UEquipab
 void AEquipment::DropItem(const struct FEquipPosition& Position, const struct FName& ItemClassForVerify, bool bIsForce, bool bSoundPlay)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18755);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18818);
 
 	AEquipment_DropItem_Params params;
 	params.Position = Position;
@@ -22356,7 +22507,7 @@ void AEquipment::DropItem(const struct FEquipPosition& Position, const struct FN
 void AEquipment::DropAttachedItemAll(const struct FEquipPosition& EquipPosition, const struct FName& ItemClassForVerify, bool bSoundPlay)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18751);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18814);
 
 	AEquipment_DropAttachedItemAll_Params params;
 	params.EquipPosition = EquipPosition;
@@ -22383,7 +22534,7 @@ void AEquipment::DropAttachedItemAll(const struct FEquipPosition& EquipPosition,
 void AEquipment::DropAttachedItem(const struct FEquipPosition& EquipPosition, const struct FName& ItemClassForVerify, EWeaponAttachmentSlotID SlotID, bool bSoundPlay)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18745);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18808);
 
 	AEquipment_DropAttachedItem_Params params;
 	params.EquipPosition = EquipPosition;
@@ -22410,7 +22561,7 @@ void AEquipment::DropAttachedItem(const struct FEquipPosition& EquipPosition, co
 void AEquipment::DetachItemAll(const struct FEquipPosition& EquipPosition, const struct FName& ItemClassForVerify, bool bSoundPlay)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18741);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18804);
 
 	AEquipment_DetachItemAll_Params params;
 	params.EquipPosition = EquipPosition;
@@ -22437,7 +22588,7 @@ void AEquipment::DetachItemAll(const struct FEquipPosition& EquipPosition, const
 void AEquipment::DetachItem(const struct FEquipPosition& EquipPosition, const struct FName& ItemClassForVerify, EWeaponAttachmentSlotID SlotID, bool bSoundPlay)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18735);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18798);
 
 	AEquipment_DetachItem_Params params;
 	params.EquipPosition = EquipPosition;
@@ -22463,7 +22614,7 @@ void AEquipment::DetachItem(const struct FEquipPosition& EquipPosition, const st
 void AInventory::UseItem(int Index, const struct FName& ItemClassForVerify)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18892);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18955);
 
 	AInventory_UseItem_Params params;
 	params.Index = Index;
@@ -22486,7 +22637,7 @@ void AInventory::UseItem(int Index, const struct FName& ItemClassForVerify)
 void AInventory::OnFinishUseCast(class UObject* CastObject)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18890);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18953);
 
 	AInventory_OnFinishUseCast_Params params;
 	params.CastObject = CastObject;
@@ -22506,7 +22657,7 @@ void AInventory::OnFinishUseCast(class UObject* CastObject)
 void AInventory::Items_RepNotify()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18889);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18952);
 
 	AInventory_Items_RepNotify_Params params;
 
@@ -22527,7 +22678,7 @@ void AInventory::Items_RepNotify()
 class ATslCharacter* AInventory::GetOwnerCharacter()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18887);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18950);
 
 	AInventory_GetOwnerCharacter_Params params;
 
@@ -22550,7 +22701,7 @@ class ATslCharacter* AInventory::GetOwnerCharacter()
 float AInventory::GetMaxSpace()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18885);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18948);
 
 	AInventory_GetMaxSpace_Params params;
 
@@ -22574,7 +22725,7 @@ float AInventory::GetMaxSpace()
 int AInventory::GetItemCountByClass(class UClass* ItemClass)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18882);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18945);
 
 	AInventory_GetItemCountByClass_Params params;
 	params.ItemClass = ItemClass;
@@ -22598,7 +22749,7 @@ int AInventory::GetItemCountByClass(class UClass* ItemClass)
 int AInventory::GetItemCount()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18880);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18943);
 
 	AInventory_GetItemCount_Params params;
 
@@ -22621,7 +22772,7 @@ int AInventory::GetItemCount()
 class AInventoryFacade* AInventory::GetInventoryFacade()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18878);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18941);
 
 	AInventory_GetInventoryFacade_Params params;
 
@@ -22644,7 +22795,7 @@ class AInventoryFacade* AInventory::GetInventoryFacade()
 float AInventory::GetCurrentSpace()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18876);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18939);
 
 	AInventory_GetCurrentSpace_Params params;
 
@@ -22668,7 +22819,7 @@ float AInventory::GetCurrentSpace()
 TArray<struct FInventoryItem> AInventory::GetAllItemsByType(class UClass* ItemSuperClass)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18872);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18935);
 
 	AInventory_GetAllItemsByType_Params params;
 	params.ItemSuperClass = ItemSuperClass;
@@ -22692,7 +22843,7 @@ TArray<struct FInventoryItem> AInventory::GetAllItemsByType(class UClass* ItemSu
 TArray<struct FInventoryItem> AInventory::GetAllItems()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18869);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18932);
 
 	AInventory_GetAllItems_Params params;
 
@@ -22716,7 +22867,7 @@ TArray<struct FInventoryItem> AInventory::GetAllItems()
 int AInventory::GetAdditionalMaxCount(class UItem* Item)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18866);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18929);
 
 	AInventory_GetAdditionalMaxCount_Params params;
 	params.Item = Item;
@@ -22741,7 +22892,7 @@ int AInventory::GetAdditionalMaxCount(class UItem* Item)
 int AInventory::FindItemIndex(class UItem* Item)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18863);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18926);
 
 	AInventory_FindItemIndex_Params params;
 	params.Item = Item;
@@ -22766,7 +22917,7 @@ int AInventory::FindItemIndex(class UItem* Item)
 class UItem* AInventory::FindItemHasMinStack(class UClass* ItemClass)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18860);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18923);
 
 	AInventory_FindItemHasMinStack_Params params;
 	params.ItemClass = ItemClass;
@@ -22791,7 +22942,7 @@ class UItem* AInventory::FindItemHasMinStack(class UClass* ItemClass)
 class UItem* AInventory::FindItem(class UClass* ItemClass)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18857);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18920);
 
 	AInventory_FindItem_Params params;
 	params.ItemClass = ItemClass;
@@ -22817,7 +22968,7 @@ class UItem* AInventory::FindItem(class UClass* ItemClass)
 void AInventory::EquipOrDropItem(int Index, const struct FName& ItemClassForVerify, bool bSoundPlay)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18853);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18916);
 
 	AInventory_EquipOrDropItem_Params params;
 	params.Index = Index;
@@ -22843,7 +22994,7 @@ void AInventory::EquipOrDropItem(int Index, const struct FName& ItemClassForVeri
 void AInventory::EquipItem(int Index, const struct FName& ItemClassForVerify, bool bSoundPlay)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18849);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18912);
 
 	AInventory_EquipItem_Params params;
 	params.Index = Index;
@@ -22870,7 +23021,7 @@ void AInventory::EquipItem(int Index, const struct FName& ItemClassForVerify, bo
 void AInventory::DropItem(int Index, const struct FName& ItemClassForVerify, const struct FString& Options, bool bSoundPlay)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18844);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18907);
 
 	AInventory_DropItem_Params params;
 	params.Index = Index;
@@ -22897,7 +23048,7 @@ void AInventory::DropItem(int Index, const struct FName& ItemClassForVerify, con
 bool AInventory::ConsumeItemByClass(class UClass* ItemClass, int Count)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18840);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18903);
 
 	AInventory_ConsumeItemByClass_Params params;
 	params.ItemClass = ItemClass;
@@ -22920,7 +23071,7 @@ bool AInventory::ConsumeItemByClass(class UClass* ItemClass, int Count)
 void AInventory::ClientBroadcastNoBagSpaceEvent()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18839);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18902);
 
 	AInventory_ClientBroadcastNoBagSpaceEvent_Params params;
 
@@ -22943,7 +23094,7 @@ void AInventory::ClientBroadcastNoBagSpaceEvent()
 void AInventory::AttachOrDropItem(int Index, const struct FName& ItemClassForVerify, bool bSoundPlay)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18835);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18898);
 
 	AInventory_AttachOrDropItem_Params params;
 	params.Index = Index;
@@ -22970,7 +23121,7 @@ void AInventory::AttachOrDropItem(int Index, const struct FName& ItemClassForVer
 void AInventory::AttachItem(int Index, const struct FName& ItemClassForVerify, const struct FEquipPosition& EquipPosition, bool bSoundPlay)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18830);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18893);
 
 	AInventory_AttachItem_Params params;
 	params.Index = Index;
@@ -22993,7 +23144,7 @@ void AInventory::AttachItem(int Index, const struct FName& ItemClassForVerify, c
 void AItemExplorerProxy::PropagateUpdateItemList()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18905);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18968);
 
 	AItemExplorerProxy_PropagateUpdateItemList_Params params;
 
@@ -23012,7 +23163,7 @@ void AItemExplorerProxy::PropagateUpdateItemList()
 void AItemExplorerProxy::PropagateDestroyContextMenuWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18904);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18967);
 
 	AItemExplorerProxy_PropagateDestroyContextMenuWidget_Params params;
 
@@ -23033,7 +23184,7 @@ void AItemExplorerProxy::PropagateDestroyContextMenuWidget()
 void AItemExplorerProxy::PropagateCreateAndShowContextMenuWidget(const TScriptInterface<class USlotContainerInterface>& Param)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18902);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18965);
 
 	AItemExplorerProxy_PropagateCreateAndShowContextMenuWidget_Params params;
 	params.Param = Param;
@@ -23053,7 +23204,7 @@ void AItemExplorerProxy::PropagateCreateAndShowContextMenuWidget(const TScriptIn
 void AItemExplorerProxy::Pop()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18901);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18964);
 
 	AItemExplorerProxy_Pop_Params params;
 
@@ -23074,7 +23225,7 @@ void AItemExplorerProxy::Pop()
 bool AItemExplorerProxy::IsBaseExplorer()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18899);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18962);
 
 	AItemExplorerProxy_IsBaseExplorer_Params params;
 
@@ -23097,7 +23248,7 @@ bool AItemExplorerProxy::IsBaseExplorer()
 bool ACarePackageItem::IsPickupedItem()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18909);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18972);
 
 	ACarePackageItem_IsPickupedItem_Params params;
 
@@ -23120,7 +23271,7 @@ bool ACarePackageItem::IsPickupedItem()
 bool ACarePackageItem::IsFalling()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18907);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18970);
 
 	ACarePackageItem_IsFalling_Params params;
 
@@ -23143,7 +23294,7 @@ bool ACarePackageItem::IsFalling()
 void ATeam::ServerSetShowMapMarker(bool bNewShowMapMarker)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18988);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19051);
 
 	ATeam_ServerSetShowMapMarker_Params params;
 	params.bNewShowMapMarker = bNewShowMapMarker;
@@ -23165,7 +23316,7 @@ void ATeam::ServerSetShowMapMarker(bool bNewShowMapMarker)
 void ATeam::ServerSetMapMarkerPosition(const struct FVector2D& NewMapMarkerPosition)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18986);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19049);
 
 	ATeam_ServerSetMapMarkerPosition_Params params;
 	params.NewMapMarkerPosition = NewMapMarkerPosition;
@@ -23187,7 +23338,7 @@ void ATeam::ServerSetMapMarkerPosition(const struct FVector2D& NewMapMarkerPosit
 void ATeam::OnRep_Dying(bool bLastDying)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18984);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19047);
 
 	ATeam_OnRep_Dying_Params params;
 	params.bLastDying = bLastDying;
@@ -23209,7 +23360,7 @@ void ATeam::OnRep_Dying(bool bLastDying)
 bool ATeam::IsShowMapMarker()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18982);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19045);
 
 	ATeam_IsShowMapMarker_Params params;
 
@@ -23232,7 +23383,7 @@ bool ATeam::IsShowMapMarker()
 bool ATeam::IsQuitter()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18980);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19043);
 
 	ATeam_IsQuitter_Params params;
 
@@ -23255,7 +23406,7 @@ bool ATeam::IsQuitter()
 bool ATeam::IsGroggying()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18978);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19041);
 
 	ATeam_IsGroggying_Params params;
 
@@ -23278,7 +23429,7 @@ bool ATeam::IsGroggying()
 bool ATeam::IsDying()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18976);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19039);
 
 	ATeam_IsDying_Params params;
 
@@ -23301,7 +23452,7 @@ bool ATeam::IsDying()
 class ATslCharacter* ATeam::GetTslCharacter()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18974);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19037);
 
 	ATeam_GetTslCharacter_Params params;
 
@@ -23324,7 +23475,7 @@ class ATslCharacter* ATeam::GetTslCharacter()
 ETeamVehicleType ATeam::GetRideVehicle()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18971);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19034);
 
 	ATeam_GetRideVehicle_Params params;
 
@@ -23347,7 +23498,7 @@ ETeamVehicleType ATeam::GetRideVehicle()
 struct FString ATeam::GetPlayerUniqueId()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18969);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19032);
 
 	ATeam_GetPlayerUniqueId_Params params;
 
@@ -23370,7 +23521,7 @@ struct FString ATeam::GetPlayerUniqueId()
 struct FRotator ATeam::GetPlayerRotation()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18967);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19030);
 
 	ATeam_GetPlayerRotation_Params params;
 
@@ -23393,7 +23544,7 @@ struct FRotator ATeam::GetPlayerRotation()
 struct FString ATeam::GetPlayerName()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18965);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19028);
 
 	ATeam_GetPlayerName_Params params;
 
@@ -23416,7 +23567,7 @@ struct FString ATeam::GetPlayerName()
 struct FVector ATeam::GetPlayerLocation()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18963);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19026);
 
 	ATeam_GetPlayerLocation_Params params;
 
@@ -23439,7 +23590,7 @@ struct FVector ATeam::GetPlayerLocation()
 int ATeam::GetMemberNumber()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18961);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19024);
 
 	ATeam_GetMemberNumber_Params params;
 
@@ -23462,7 +23613,7 @@ int ATeam::GetMemberNumber()
 struct FVector2D ATeam::GetMapMarkerPosition()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18959);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19022);
 
 	ATeam_GetMapMarkerPosition_Params params;
 
@@ -23485,7 +23636,7 @@ struct FVector2D ATeam::GetMapMarkerPosition()
 float ATeam::GetHealthMax()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18957);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19020);
 
 	ATeam_GetHealthMax_Params params;
 
@@ -23508,7 +23659,7 @@ float ATeam::GetHealthMax()
 float ATeam::GetHealth()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18955);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19018);
 
 	ATeam_GetHealth_Params params;
 
@@ -23531,7 +23682,7 @@ float ATeam::GetHealth()
 float ATeam::GetGroggyHealthMax()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18953);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19016);
 
 	ATeam_GetGroggyHealthMax_Params params;
 
@@ -23554,7 +23705,7 @@ float ATeam::GetGroggyHealthMax()
 float ATeam::GetGroggyHealth()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(18951);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19014);
 
 	ATeam_GetGroggyHealth_Params params;
 
@@ -23577,7 +23728,7 @@ float ATeam::GetGroggyHealth()
 void UTslAccessoryComponent::SetPhysicsSimulation(bool bSimulatePhysics)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19014);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19077);
 
 	UTslAccessoryComponent_SetPhysicsSimulation_Params params;
 	params.bSimulatePhysics = bSimulatePhysics;
@@ -23599,7 +23750,7 @@ void UTslAccessoryComponent::SetPhysicsSimulation(bool bSimulatePhysics)
 void UTslAccessoryComponent::InitSetupComponent(bool bSimulatePhysics)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19012);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19075);
 
 	UTslAccessoryComponent_InitSetupComponent_Params params;
 	params.bSimulatePhysics = bSimulatePhysics;
@@ -23619,7 +23770,7 @@ void UTslAccessoryComponent::InitSetupComponent(bool bSimulatePhysics)
 void ATslAIController::ShootEnemy()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19021);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19084);
 
 	ATslAIController_ShootEnemy_Params params;
 
@@ -23641,7 +23792,7 @@ void ATslAIController::ShootEnemy()
 bool ATslAIController::FindClosestEnemyWithLOS(class ATslCharacter* ExcludeEnemy)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19018);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19081);
 
 	ATslAIController_FindClosestEnemyWithLOS_Params params;
 	params.ExcludeEnemy = ExcludeEnemy;
@@ -23663,7 +23814,7 @@ bool ATslAIController::FindClosestEnemyWithLOS(class ATslCharacter* ExcludeEnemy
 void ATslAIController::FindClosestEnemy()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19017);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19080);
 
 	ATslAIController_FindClosestEnemy_Params params;
 
@@ -23684,7 +23835,7 @@ void ATslAIController::FindClosestEnemy()
 bool AAircraftCarePackage::IsPlayInEditor()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19032);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19095);
 
 	AAircraftCarePackage_IsPlayInEditor_Params params;
 
@@ -23708,7 +23859,7 @@ bool AAircraftCarePackage::IsPlayInEditor()
 void ATransportAircraftVehicle::OnRide(class ATslCharacter* Rider, class UVehicleSeatInteractionComponent* Seat)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19058);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19121);
 
 	ATransportAircraftVehicle_OnRide_Params params;
 	params.Rider = Rider;
@@ -23729,7 +23880,7 @@ void ATransportAircraftVehicle::OnRide(class ATslCharacter* Rider, class UVehicl
 void ATransportAircraftVehicle::OnRep_IsVisible()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19057);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19120);
 
 	ATransportAircraftVehicle_OnRep_IsVisible_Params params;
 
@@ -23748,7 +23899,7 @@ void ATransportAircraftVehicle::OnRep_IsVisible()
 void ATransportAircraftVehicle::OnLocalPlayerRide()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19056);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19119);
 
 	ATransportAircraftVehicle_OnLocalPlayerRide_Params params;
 
@@ -23766,7 +23917,7 @@ void ATransportAircraftVehicle::OnLocalPlayerRide()
 void ATransportAircraftVehicle::OnLocalPlayerLeave()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19055);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19118);
 
 	ATransportAircraftVehicle_OnLocalPlayerLeave_Params params;
 
@@ -23787,7 +23938,7 @@ void ATransportAircraftVehicle::OnLocalPlayerLeave()
 void ATransportAircraftVehicle::OnLeave(class ATslCharacter* Rider, class UVehicleSeatInteractionComponent* Seat)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19052);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19115);
 
 	ATransportAircraftVehicle_OnLeave_Params params;
 	params.Rider = Rider;
@@ -23810,7 +23961,7 @@ void ATransportAircraftVehicle::OnLeave(class ATslCharacter* Rider, class UVehic
 void ATransportAircraftVehicle::OnInteractBy(class ATslCharacter* Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19050);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19113);
 
 	ATransportAircraftVehicle_OnInteractBy_Params params;
 	params.Character = Character;
@@ -23832,7 +23983,7 @@ void ATransportAircraftVehicle::OnInteractBy(class ATslCharacter* Character)
 bool ATransportAircraftVehicle::IsInEjectionArea()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19048);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19111);
 
 	ATransportAircraftVehicle_IsInEjectionArea_Params params;
 
@@ -23853,7 +24004,7 @@ bool ATransportAircraftVehicle::IsInEjectionArea()
 void ATransportAircraftVehicle::EnterAtEjectionArea()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19047);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19110);
 
 	ATransportAircraftVehicle_EnterAtEjectionArea_Params params;
 
@@ -23872,7 +24023,7 @@ void ATransportAircraftVehicle::EnterAtEjectionArea()
 void ATransportAircraftVehicle::EjectAll()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19046);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19109);
 
 	ATransportAircraftVehicle_EjectAll_Params params;
 
@@ -23894,7 +24045,7 @@ void ATransportAircraftVehicle::EjectAll()
 bool ATransportAircraftVehicle::AllowInteractBy(class ATslCharacter* Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19043);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19106);
 
 	ATransportAircraftVehicle_AllowInteractBy_Params params;
 	params.Character = Character;
@@ -23916,7 +24067,7 @@ bool ATransportAircraftVehicle::AllowInteractBy(class ATslCharacter* Character)
 void ATslWheeledVehicle::UpdateWheelSound()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19133);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19196);
 
 	ATslWheeledVehicle_UpdateWheelSound_Params params;
 
@@ -23935,7 +24086,7 @@ void ATslWheeledVehicle::UpdateWheelSound()
 void ATslWheeledVehicle::UpdateWheelCaching()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19132);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19195);
 
 	ATslWheeledVehicle_UpdateWheelCaching_Params params;
 
@@ -23954,7 +24105,7 @@ void ATslWheeledVehicle::UpdateWheelCaching()
 void ATslWheeledVehicle::UpdateBasicInfoCaching()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19131);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19194);
 
 	ATslWheeledVehicle_UpdateBasicInfoCaching_Params params;
 
@@ -23975,7 +24126,7 @@ void ATslWheeledVehicle::UpdateBasicInfoCaching()
 void ATslWheeledVehicle::UnBindCallbackToHUD(class ATslPlayerController* InController)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19129);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19192);
 
 	ATslWheeledVehicle_UnBindCallbackToHUD_Params params;
 	params.InController = InController;
@@ -23997,7 +24148,7 @@ void ATslWheeledVehicle::UnBindCallbackToHUD(class ATslPlayerController* InContr
 void ATslWheeledVehicle::SetAirControlPitchInput(float InInput)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19127);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19190);
 
 	ATslWheeledVehicle_SetAirControlPitchInput_Params params;
 	params.InInput = InInput;
@@ -24019,7 +24170,7 @@ void ATslWheeledVehicle::SetAirControlPitchInput(float InInput)
 void ATslWheeledVehicle::ServerSetBoosting(bool bNewBoosting)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19125);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19188);
 
 	ATslWheeledVehicle_ServerSetBoosting_Params params;
 	params.bNewBoosting = bNewBoosting;
@@ -24039,7 +24190,7 @@ void ATslWheeledVehicle::ServerSetBoosting(bool bNewBoosting)
 void ATslWheeledVehicle::OnVehicleEjected()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19124);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19187);
 
 	ATslWheeledVehicle_OnVehicleEjected_Params params;
 
@@ -24061,7 +24212,7 @@ void ATslWheeledVehicle::OnVehicleEjected()
 void ATslWheeledVehicle::OnRide(class ATslCharacter* Rider, class UVehicleSeatInteractionComponent* Seat)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19121);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19184);
 
 	ATslWheeledVehicle_OnRide_Params params;
 	params.Rider = Rider;
@@ -24082,7 +24233,7 @@ void ATslWheeledVehicle::OnRide(class ATslCharacter* Rider, class UVehicleSeatIn
 void ATslWheeledVehicle::OnPostDriverRide()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19120);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19183);
 
 	ATslWheeledVehicle_OnPostDriverRide_Params params;
 
@@ -24101,7 +24252,7 @@ void ATslWheeledVehicle::OnPostDriverRide()
 void ATslWheeledVehicle::OnPostDriverLeave()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19119);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19182);
 
 	ATslWheeledVehicle_OnPostDriverLeave_Params params;
 
@@ -24123,7 +24274,7 @@ void ATslWheeledVehicle::OnPostDriverLeave()
 void ATslWheeledVehicle::OnLeave(class ATslCharacter* Rider, class UVehicleSeatInteractionComponent* Seat)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19116);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19179);
 
 	ATslWheeledVehicle_OnLeave_Params params;
 	params.Rider = Rider;
@@ -24147,7 +24298,7 @@ void ATslWheeledVehicle::OnLeave(class ATslCharacter* Rider, class UVehicleSeatI
 void ATslWheeledVehicle::OnCharacterHit(class ATslCharacter* HitCharacter, float HitDamage)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19113);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19176);
 
 	ATslWheeledVehicle_OnCharacterHit_Params params;
 	params.HitCharacter = HitCharacter;
@@ -24168,7 +24319,7 @@ void ATslWheeledVehicle::OnCharacterHit(class ATslCharacter* HitCharacter, float
 void ATslWheeledVehicle::OnBreak()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19112);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19175);
 
 	ATslWheeledVehicle_OnBreak_Params params;
 
@@ -24189,7 +24340,7 @@ void ATslWheeledVehicle::OnBreak()
 void ATslWheeledVehicle::OnBlockingWidgetOpened(class UWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19110);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19173);
 
 	ATslWheeledVehicle_OnBlockingWidgetOpened_Params params;
 	params.Widget = Widget;
@@ -24212,7 +24363,7 @@ void ATslWheeledVehicle::OnBlockingWidgetOpened(class UWidget* Widget)
 void ATslWheeledVehicle::MulticastCharacterHitEffects(class ATslCharacter* CharacterHit, float HitDamage)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19107);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19170);
 
 	ATslWheeledVehicle_MulticastCharacterHitEffects_Params params;
 	params.CharacterHit = CharacterHit;
@@ -24235,7 +24386,7 @@ void ATslWheeledVehicle::MulticastCharacterHitEffects(class ATslCharacter* Chara
 bool ATslWheeledVehicle::IsSunken()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19105);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19168);
 
 	ATslWheeledVehicle_IsSunken_Params params;
 
@@ -24258,7 +24409,7 @@ bool ATslWheeledVehicle::IsSunken()
 bool ATslWheeledVehicle::IsStablizeOverrideActive()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19103);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19166);
 
 	ATslWheeledVehicle_IsStablizeOverrideActive_Params params;
 
@@ -24281,7 +24432,7 @@ bool ATslWheeledVehicle::IsStablizeOverrideActive()
 bool ATslWheeledVehicle::IsStabilizeOverrideEnabled()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19101);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19164);
 
 	ATslWheeledVehicle_IsStabilizeOverrideEnabled_Params params;
 
@@ -24304,7 +24455,7 @@ bool ATslWheeledVehicle::IsStabilizeOverrideEnabled()
 bool ATslWheeledVehicle::IsInWaterVolume()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19099);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19162);
 
 	ATslWheeledVehicle_IsInWaterVolume_Params params;
 
@@ -24327,7 +24478,7 @@ bool ATslWheeledVehicle::IsInWaterVolume()
 bool ATslWheeledVehicle::IsEnabledOptimizeTick()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19097);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19160);
 
 	ATslWheeledVehicle_IsEnabledOptimizeTick_Params params;
 
@@ -24350,7 +24501,7 @@ bool ATslWheeledVehicle::IsEnabledOptimizeTick()
 bool ATslWheeledVehicle::IsBoosting()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19095);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19158);
 
 	ATslWheeledVehicle_IsBoosting_Params params;
 
@@ -24373,7 +24524,7 @@ bool ATslWheeledVehicle::IsBoosting()
 class UTslWheeledVehicleMovement* ATslWheeledVehicle::GetTslVehicleMovement()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19093);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19156);
 
 	ATslWheeledVehicle_GetTslVehicleMovement_Params params;
 
@@ -24396,7 +24547,7 @@ class UTslWheeledVehicleMovement* ATslWheeledVehicle::GetTslVehicleMovement()
 float ATslWheeledVehicle::GetSteeringInput()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19091);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19154);
 
 	ATslWheeledVehicle_GetSteeringInput_Params params;
 
@@ -24419,7 +24570,7 @@ float ATslWheeledVehicle::GetSteeringInput()
 float ATslWheeledVehicle::GetCurrentWaterSurfaceZ()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19089);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19152);
 
 	ATslWheeledVehicle_GetCurrentWaterSurfaceZ_Params params;
 
@@ -24442,7 +24593,7 @@ float ATslWheeledVehicle::GetCurrentWaterSurfaceZ()
 class UBuffComponet* ATslWheeledVehicle::GetBuffComponent()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19087);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19150);
 
 	ATslWheeledVehicle_GetBuffComponent_Params params;
 
@@ -24465,7 +24616,7 @@ class UBuffComponet* ATslWheeledVehicle::GetBuffComponent()
 float ATslWheeledVehicle::GetAirControlPitchInput()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19085);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19148);
 
 	ATslWheeledVehicle_GetAirControlPitchInput_Params params;
 
@@ -24488,7 +24639,7 @@ float ATslWheeledVehicle::GetAirControlPitchInput()
 void ATslWheeledVehicle::BindCallbackToHUD(class ATslPlayerController* InController)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19083);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19146);
 
 	ATslWheeledVehicle_BindCallbackToHUD_Params params;
 	params.InController = InController;
@@ -24512,7 +24663,7 @@ void ATslWheeledVehicle::BindCallbackToHUD(class ATslPlayerController* InControl
 void ATslWheeledVehicle::ActivationTriggerEndOverlap(class AActor* Other, class UPrimitiveComponent* OtherComp, int OtherBodyIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19079);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19142);
 
 	ATslWheeledVehicle_ActivationTriggerEndOverlap_Params params;
 	params.Other = Other;
@@ -24540,7 +24691,7 @@ void ATslWheeledVehicle::ActivationTriggerEndOverlap(class AActor* Other, class 
 void ATslWheeledVehicle::ActivationTriggerBeginOverlap(class AActor* Other, class UPrimitiveComponent* OtherComp, int OtherBodyIndex, bool bFromSweep, const struct FHitResult& OverlapInfo)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19073);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19136);
 
 	ATslWheeledVehicle_ActivationTriggerBeginOverlap_Params params;
 	params.Other = Other;
@@ -24566,7 +24717,7 @@ void ATslWheeledVehicle::ActivationTriggerBeginOverlap(class AActor* Other, clas
 void ATslFloatingVehicle::UnBindCallbackToHUD(class ATslPlayerController* InController)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19232);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19295);
 
 	ATslFloatingVehicle_UnBindCallbackToHUD_Params params;
 	params.InController = InController;
@@ -24589,7 +24740,7 @@ void ATslFloatingVehicle::UnBindCallbackToHUD(class ATslPlayerController* InCont
 void ATslFloatingVehicle::OnRide(class ATslCharacter* Rider, class UVehicleSeatInteractionComponent* Seat)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19229);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19292);
 
 	ATslFloatingVehicle_OnRide_Params params;
 	params.Rider = Rider;
@@ -24610,7 +24761,7 @@ void ATslFloatingVehicle::OnRide(class ATslCharacter* Rider, class UVehicleSeatI
 void ATslFloatingVehicle::OnPostDriverRide()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19228);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19291);
 
 	ATslFloatingVehicle_OnPostDriverRide_Params params;
 
@@ -24629,7 +24780,7 @@ void ATslFloatingVehicle::OnPostDriverRide()
 void ATslFloatingVehicle::OnPostDriverLeave()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19227);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19290);
 
 	ATslFloatingVehicle_OnPostDriverLeave_Params params;
 
@@ -24651,7 +24802,7 @@ void ATslFloatingVehicle::OnPostDriverLeave()
 void ATslFloatingVehicle::OnLeave(class ATslCharacter* Rider, class UVehicleSeatInteractionComponent* Seat)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19224);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19287);
 
 	ATslFloatingVehicle_OnLeave_Params params;
 	params.Rider = Rider;
@@ -24674,7 +24825,7 @@ void ATslFloatingVehicle::OnLeave(class ATslCharacter* Rider, class UVehicleSeat
 void ATslFloatingVehicle::OnBlockingWidgetOpened(class UWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19222);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19285);
 
 	ATslFloatingVehicle_OnBlockingWidgetOpened_Params params;
 	params.Widget = Widget;
@@ -24696,7 +24847,7 @@ void ATslFloatingVehicle::OnBlockingWidgetOpened(class UWidget* Widget)
 bool ATslFloatingVehicle::IsBoosting()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19220);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19283);
 
 	ATslFloatingVehicle_IsBoosting_Params params;
 
@@ -24719,7 +24870,7 @@ bool ATslFloatingVehicle::IsBoosting()
 float ATslFloatingVehicle::GetVehicleEngineImmersionDepth()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19218);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19281);
 
 	ATslFloatingVehicle_GetVehicleEngineImmersionDepth_Params params;
 
@@ -24742,7 +24893,7 @@ float ATslFloatingVehicle::GetVehicleEngineImmersionDepth()
 struct FVector ATslFloatingVehicle::GetVehicleAcceleration()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19216);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19279);
 
 	ATslFloatingVehicle_GetVehicleAcceleration_Params params;
 
@@ -24765,7 +24916,7 @@ struct FVector ATslFloatingVehicle::GetVehicleAcceleration()
 float ATslFloatingVehicle::GetSteerYawAngle()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19214);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19277);
 
 	ATslFloatingVehicle_GetSteerYawAngle_Params params;
 
@@ -24788,7 +24939,7 @@ float ATslFloatingVehicle::GetSteerYawAngle()
 float ATslFloatingVehicle::GetMaxSteerYawAngle()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19212);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19275);
 
 	ATslFloatingVehicle_GetMaxSteerYawAngle_Params params;
 
@@ -24811,7 +24962,7 @@ float ATslFloatingVehicle::GetMaxSteerYawAngle()
 void ATslFloatingVehicle::BindCallbackToHUD(class ATslPlayerController* InController)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19210);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19273);
 
 	ATslFloatingVehicle_BindCallbackToHUD_Params params;
 	params.InController = InController;
@@ -24833,7 +24984,7 @@ void ATslFloatingVehicle::BindCallbackToHUD(class ATslPlayerController* InContro
 void UTslWheeledVehicleMovement::SetSimulateVehicle(bool bSimulate)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19428);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19491);
 
 	UTslWheeledVehicleMovement_SetSimulateVehicle_Params params;
 	params.bSimulate = bSimulate;
@@ -24855,7 +25006,7 @@ void UTslWheeledVehicleMovement::SetSimulateVehicle(bool bSimulate)
 void UTslWheeledVehicleMovement::ServerUpdateAdditionalState(int TargetGear)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19426);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19489);
 
 	UTslWheeledVehicleMovement_ServerUpdateAdditionalState_Params params;
 	params.TargetGear = TargetGear;
@@ -24881,7 +25032,7 @@ void UTslWheeledVehicleMovement::ServerUpdateAdditionalState(int TargetGear)
 void UTslWheeledVehicleMovement::Server_SetMovementParameters(float InThrottle, float InSteer, float InBreak, float InHandbrake, int Gear)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19420);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19483);
 
 	UTslWheeledVehicleMovement_Server_SetMovementParameters_Params params;
 	params.InThrottle = InThrottle;
@@ -24907,7 +25058,7 @@ void UTslWheeledVehicleMovement::Server_SetMovementParameters(float InThrottle, 
 void UTslWheeledVehicleMovement::ProcessCustomTransmission(float InVelocity)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19418);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19481);
 
 	UTslWheeledVehicleMovement_ProcessCustomTransmission_Params params;
 	params.InVelocity = InVelocity;
@@ -24927,7 +25078,7 @@ void UTslWheeledVehicleMovement::ProcessCustomTransmission(float InVelocity)
 void UTslWheeledVehicleMovement::OnDriverRide()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19417);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19480);
 
 	UTslWheeledVehicleMovement_OnDriverRide_Params params;
 
@@ -24946,7 +25097,7 @@ void UTslWheeledVehicleMovement::OnDriverRide()
 void UTslWheeledVehicleMovement::OnDriverLeave()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19416);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19479);
 
 	UTslWheeledVehicleMovement_OnDriverLeave_Params params;
 
@@ -24965,7 +25116,7 @@ void UTslWheeledVehicleMovement::OnDriverLeave()
 void UTslWheeledVehicleMovement::OnBreak()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19415);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19478);
 
 	UTslWheeledVehicleMovement_OnBreak_Params params;
 
@@ -24986,7 +25137,7 @@ void UTslWheeledVehicleMovement::OnBreak()
 bool UTslWheeledVehicleMovement::IsSimulatingVehicle()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19413);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19476);
 
 	UTslWheeledVehicleMovement_IsSimulatingVehicle_Params params;
 
@@ -25010,7 +25161,7 @@ bool UTslWheeledVehicleMovement::IsSimulatingVehicle()
 float UTslWheeledVehicleMovement::GetWheelWaterDepth(int Index)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19410);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19473);
 
 	UTslWheeledVehicleMovement_GetWheelWaterDepth_Params params;
 	params.Index = Index;
@@ -25035,7 +25186,7 @@ float UTslWheeledVehicleMovement::GetWheelWaterDepth(int Index)
 float UTslWheeledVehicleMovement::GetWheelSuspensionMaxRaise(int Index)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19407);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19470);
 
 	UTslWheeledVehicleMovement_GetWheelSuspensionMaxRaise_Params params;
 	params.Index = Index;
@@ -25060,7 +25211,7 @@ float UTslWheeledVehicleMovement::GetWheelSuspensionMaxRaise(int Index)
 float UTslWheeledVehicleMovement::GetWheelSuspensionMaxDrop(int Index)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19404);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19467);
 
 	UTslWheeledVehicleMovement_GetWheelSuspensionMaxDrop_Params params;
 	params.Index = Index;
@@ -25085,7 +25236,7 @@ float UTslWheeledVehicleMovement::GetWheelSuspensionMaxDrop(int Index)
 float UTslWheeledVehicleMovement::GetWheelRotationSpeed(int Index)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19401);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19464);
 
 	UTslWheeledVehicleMovement_GetWheelRotationSpeed_Params params;
 	params.Index = Index;
@@ -25109,7 +25260,7 @@ float UTslWheeledVehicleMovement::GetWheelRotationSpeed(int Index)
 TArray<float> UTslWheeledVehicleMovement::GetWheelHealthPercentages()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19398);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19461);
 
 	UTslWheeledVehicleMovement_GetWheelHealthPercentages_Params params;
 
@@ -25137,7 +25288,7 @@ TArray<float> UTslWheeledVehicleMovement::GetWheelHealthPercentages()
 TEnumAsByte<EWheelContactType> UTslWheeledVehicleMovement::GetWheelContactType(int Index, float MinVelocity, float MinSkid, float MinSpin, float SuspOffsetForContact)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19391);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19454);
 
 	UTslWheeledVehicleMovement_GetWheelContactType_Params params;
 	params.Index = Index;
@@ -25166,7 +25317,7 @@ TEnumAsByte<EWheelContactType> UTslWheeledVehicleMovement::GetWheelContactType(i
 class UPhysicalMaterial* UTslWheeledVehicleMovement::GetWheelContactSurfaceMaterial(int Index)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19388);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19451);
 
 	UTslWheeledVehicleMovement_GetWheelContactSurfaceMaterial_Params params;
 	params.Index = Index;
@@ -25197,7 +25348,7 @@ class UPhysicalMaterial* UTslWheeledVehicleMovement::GetWheelContactSurfaceMater
 struct FWheelContactData UTslWheeledVehicleMovement::GetWheelContactData(int Index, float MinVelocity, float MinSkid, float MinSpin, float SuspOffsetForContact, float MinBrake, float MinRotationSpeed)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19379);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19442);
 
 	UTslWheeledVehicleMovement_GetWheelContactData_Params params;
 	params.Index = Index;
@@ -25227,7 +25378,7 @@ struct FWheelContactData UTslWheeledVehicleMovement::GetWheelContactData(int Ind
 float UTslWheeledVehicleMovement::GetThrottleInput()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19377);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19440);
 
 	UTslWheeledVehicleMovement_GetThrottleInput_Params params;
 
@@ -25250,7 +25401,7 @@ float UTslWheeledVehicleMovement::GetThrottleInput()
 float UTslWheeledVehicleMovement::GetSteeringInputClamped()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19375);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19438);
 
 	UTslWheeledVehicleMovement_GetSteeringInputClamped_Params params;
 
@@ -25273,7 +25424,7 @@ float UTslWheeledVehicleMovement::GetSteeringInputClamped()
 float UTslWheeledVehicleMovement::GetSteeringInput()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19373);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19436);
 
 	UTslWheeledVehicleMovement_GetSteeringInput_Params params;
 
@@ -25296,7 +25447,7 @@ float UTslWheeledVehicleMovement::GetSteeringInput()
 float UTslWheeledVehicleMovement::GetHandbrakeInput()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19371);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19434);
 
 	UTslWheeledVehicleMovement_GetHandbrakeInput_Params params;
 
@@ -25319,7 +25470,7 @@ float UTslWheeledVehicleMovement::GetHandbrakeInput()
 float UTslWheeledVehicleMovement::GetBrakeInput()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19369);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19432);
 
 	UTslWheeledVehicleMovement_GetBrakeInput_Params params;
 
@@ -25342,7 +25493,7 @@ float UTslWheeledVehicleMovement::GetBrakeInput()
 void UTslWheeledVehicleMovement::ClientPunctureTire(int WheelIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19367);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19430);
 
 	UTslWheeledVehicleMovement_ClientPunctureTire_Params params;
 	params.WheelIndex = WheelIndex;
@@ -25366,7 +25517,7 @@ void UTslWheeledVehicleMovement::ClientPunctureTire(int WheelIndex)
 void UTslFloatingVehicleMovement::ServerUpdateInput(float InForwardInput, float InRotationInput, bool bInIsBoosting)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19451);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19514);
 
 	UTslFloatingVehicleMovement_ServerUpdateInput_Params params;
 	params.InForwardInput = InForwardInput;
@@ -25388,7 +25539,7 @@ void UTslFloatingVehicleMovement::ServerUpdateInput(float InForwardInput, float 
 void UTslFloatingVehicleMovement::OnDriverLeave()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19450);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19513);
 
 	UTslFloatingVehicleMovement_OnDriverLeave_Params params;
 
@@ -25409,7 +25560,7 @@ void UTslFloatingVehicleMovement::OnDriverLeave()
 bool UTslFloatingVehicleMovement::IsBoosting()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19448);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19511);
 
 	UTslFloatingVehicleMovement_IsBoosting_Params params;
 
@@ -25432,7 +25583,7 @@ bool UTslFloatingVehicleMovement::IsBoosting()
 float UTslFloatingVehicleMovement::GetRotationYawAngle()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19446);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19509);
 
 	UTslFloatingVehicleMovement_GetRotationYawAngle_Params params;
 
@@ -25455,7 +25606,7 @@ float UTslFloatingVehicleMovement::GetRotationYawAngle()
 float UTslFloatingVehicleMovement::GetMaxRotationYawAngle()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19444);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19507);
 
 	UTslFloatingVehicleMovement_GetMaxRotationYawAngle_Params params;
 
@@ -25478,7 +25629,7 @@ float UTslFloatingVehicleMovement::GetMaxRotationYawAngle()
 float UTslFloatingVehicleMovement::GetMaxAcceleration()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19442);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19505);
 
 	UTslFloatingVehicleMovement_GetMaxAcceleration_Params params;
 
@@ -25501,7 +25652,7 @@ float UTslFloatingVehicleMovement::GetMaxAcceleration()
 struct FVector UTslFloatingVehicleMovement::GetCalculatedAcceleration()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19440);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19503);
 
 	UTslFloatingVehicleMovement_GetCalculatedAcceleration_Params params;
 
@@ -25524,7 +25675,7 @@ struct FVector UTslFloatingVehicleMovement::GetCalculatedAcceleration()
 float UTslFloatingVehicleMovement::GetAcceleration()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19438);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19501);
 
 	UTslFloatingVehicleMovement_GetAcceleration_Params params;
 
@@ -25555,7 +25706,7 @@ float UTslFloatingVehicleMovement::GetAcceleration()
 bool UTslCharacterMovement::TraceSphereForVaulting(const struct FVector& Start, const struct FVector& End, float Radius, TEnumAsByte<EDrawDebugTrace> DrawDebugType, const struct FLinearColor& TraceColor, const struct FLinearColor& TraceHitColor, float DrawTime, struct FHitResult* OutHit)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19865);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19928);
 
 	UTslCharacterMovement_TraceSphereForVaulting_Params params;
 	params.Start = Start;
@@ -25595,7 +25746,7 @@ bool UTslCharacterMovement::TraceSphereForVaulting(const struct FVector& Start, 
 bool UTslCharacterMovement::TraceLineForVaulting(const struct FVector& Start, const struct FVector& End, TEnumAsByte<EDrawDebugTrace> DrawDebugType, const struct FLinearColor& TraceColor, const struct FLinearColor& TraceHitColor, float DrawTime, struct FHitResult* OutHit)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19856);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19919);
 
 	UTslCharacterMovement_TraceLineForVaulting_Params params;
 	params.Start = Start;
@@ -25634,7 +25785,7 @@ bool UTslCharacterMovement::TraceLineForVaulting(const struct FVector& Start, co
 bool UTslCharacterMovement::TraceCapsuleForVaulting(const struct FVector& Start, const struct FVector& End, TEnumAsByte<EDrawDebugTrace> DrawDebugType, const struct FLinearColor& TraceColor, const struct FLinearColor& TraceHitColor, float DrawTime, struct FHitResult* OutHit)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19847);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19910);
 
 	UTslCharacterMovement_TraceCapsuleForVaulting_Params params;
 	params.Start = Start;
@@ -25666,7 +25817,7 @@ bool UTslCharacterMovement::TraceCapsuleForVaulting(const struct FVector& Start,
 void UTslCharacterMovement::StartVaultingTask(const struct FVaultingTask& InVaultTask)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19845);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19908);
 
 	UTslCharacterMovement_StartVaultingTask_Params params;
 	params.InVaultTask = InVaultTask;
@@ -25698,7 +25849,7 @@ void UTslCharacterMovement::StartVaultingTask(const struct FVaultingTask& InVaul
 void UTslCharacterMovement::PredictCapsulePathForVaulting(const struct FVector& StartPos, const struct FVector& LaunchVelocity, TEnumAsByte<EDrawDebugTrace> DrawDebugType, float DrawDebugTime, float CapsuleRadiusOverride, float CapsuleHalfHeightOverride, float SimFrequency, float MaxSimTime, struct FHitResult* OutHit, TArray<struct FVector>* OutPathPositions, struct FVector* OutLastTraceDestination)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19832);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19895);
 
 	UTslCharacterMovement_PredictCapsulePathForVaulting_Params params;
 	params.StartPos = StartPos;
@@ -25743,7 +25894,7 @@ void UTslCharacterMovement::PredictCapsulePathForVaulting(const struct FVector& 
 void UTslCharacterMovement::LocalHandleVault_CP(const struct FVector& VaultStart, const struct FVector& VaultApex, const struct FVector& VaultApexAdditive, const struct FVector& VaultEnd, bool bIsClimb, EVaultAnimType VaultAnimType, bool bEndToFall, float Direction, float PlayerVelocity, float DistanceFromObject)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19820);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19883);
 
 	UTslCharacterMovement_LocalHandleVault_CP_Params params;
 	params.VaultStart = VaultStart;
@@ -25774,7 +25925,7 @@ void UTslCharacterMovement::LocalHandleVault_CP(const struct FVector& VaultStart
 bool UTslCharacterMovement::IsVaulting()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19818);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19881);
 
 	UTslCharacterMovement_IsVaulting_Params params;
 
@@ -25798,7 +25949,7 @@ bool UTslCharacterMovement::IsVaulting()
 void UTslCharacterMovement::HandleVaultPreEvaluation(bool bForceVelocity, const struct FVector& InForcedVelocity)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19815);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19878);
 
 	UTslCharacterMovement_HandleVaultPreEvaluation_Params params;
 	params.bForceVelocity = bForceVelocity;
@@ -25822,7 +25973,7 @@ void UTslCharacterMovement::HandleVaultPreEvaluation(bool bForceVelocity, const 
 struct FVaultingHandleResult UTslCharacterMovement::HandleVaulting(const struct FVaultingHandleInput& Input)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19812);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19875);
 
 	UTslCharacterMovement_HandleVaulting_Params params;
 	params.Input = Input;
@@ -25846,7 +25997,7 @@ struct FVaultingHandleResult UTslCharacterMovement::HandleVaulting(const struct 
 float UTslCharacterMovement::GetVTimer()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19810);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19873);
 
 	UTslCharacterMovement_GetVTimer_Params params;
 
@@ -25870,7 +26021,7 @@ float UTslCharacterMovement::GetVTimer()
 class UVaultingData* UTslCharacterMovement::GetVaultingDataFromAnim(EVaultAnimType InVaultType)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19806);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19869);
 
 	UTslCharacterMovement_GetVaultingDataFromAnim_Params params;
 	params.InVaultType = InVaultType;
@@ -25894,7 +26045,7 @@ class UVaultingData* UTslCharacterMovement::GetVaultingDataFromAnim(EVaultAnimTy
 float UTslCharacterMovement::GetMaxVaultDistanceBySpeed()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19804);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19867);
 
 	UTslCharacterMovement_GetMaxVaultDistanceBySpeed_Params params;
 
@@ -25917,7 +26068,7 @@ float UTslCharacterMovement::GetMaxVaultDistanceBySpeed()
 float UTslCharacterMovement::GetGlobalVaultingSpeedMultiplier()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19802);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19865);
 
 	UTslCharacterMovement_GetGlobalVaultingSpeedMultiplier_Params params;
 
@@ -25940,7 +26091,7 @@ float UTslCharacterMovement::GetGlobalVaultingSpeedMultiplier()
 EVaultAnimType UTslCharacterMovement::GetCurrentVaultType()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19799);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19862);
 
 	UTslCharacterMovement_GetCurrentVaultType_Params params;
 
@@ -25969,7 +26120,7 @@ EVaultAnimType UTslCharacterMovement::GetCurrentVaultType()
 EVaultAnimType UTslCharacterMovement::EvaluateVaultAnimType(int FirstRow, int ApexAdditiveStepCounter, float AverageCellCount, bool bForceVault, bool bForceClimb, float CharVelocity)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19790);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19853);
 
 	UTslCharacterMovement_EvaluateVaultAnimType_Params params;
 	params.FirstRow = FirstRow;
@@ -25998,7 +26149,7 @@ EVaultAnimType UTslCharacterMovement::EvaluateVaultAnimType(int FirstRow, int Ap
 bool UTslCharacterMovement::EndCurrentTaskToFall()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19788);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19851);
 
 	UTslCharacterMovement_EndCurrentTaskToFall_Params params;
 
@@ -26021,7 +26172,7 @@ bool UTslCharacterMovement::EndCurrentTaskToFall()
 void UTslAnimInstance::SetWeaponStatesEvaluationCooldown(float Time)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20343);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20406);
 
 	UTslAnimInstance_SetWeaponStatesEvaluationCooldown_Params params;
 	params.Time = Time;
@@ -26043,7 +26194,7 @@ void UTslAnimInstance::SetWeaponStatesEvaluationCooldown(float Time)
 void UTslAnimInstance::SetLandPredictionVector(const struct FVector& newLandVector)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20341);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20404);
 
 	UTslAnimInstance_SetLandPredictionVector_Params params;
 	params.newLandVector = newLandVector;
@@ -26066,7 +26217,7 @@ void UTslAnimInstance::SetLandPredictionVector(const struct FVector& newLandVect
 void UTslAnimInstance::SetJumpStartLocation(const struct FVector& NewLocation, float DefaultFallHeight)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20338);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20401);
 
 	UTslAnimInstance_SetJumpStartLocation_Params params;
 	params.NewLocation = NewLocation;
@@ -26087,7 +26238,7 @@ void UTslAnimInstance::SetJumpStartLocation(const struct FVector& NewLocation, f
 void UTslAnimInstance::ResetRecoilRoll()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20337);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20400);
 
 	UTslAnimInstance_ResetRecoilRoll_Params params;
 
@@ -26106,7 +26257,7 @@ void UTslAnimInstance::ResetRecoilRoll()
 void UTslAnimInstance::ResetIdle()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20336);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20399);
 
 	UTslAnimInstance_ResetIdle_Params params;
 
@@ -26127,7 +26278,7 @@ void UTslAnimInstance::ResetIdle()
 void UTslAnimInstance::RandomizeIdleIndex_CP(bool ExludeLastIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20334);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20397);
 
 	UTslAnimInstance_RandomizeIdleIndex_CP_Params params;
 	params.ExludeLastIndex = ExludeLastIndex;
@@ -26147,7 +26298,7 @@ void UTslAnimInstance::RandomizeIdleIndex_CP(bool ExludeLastIndex)
 void UTslAnimInstance::ProcessCodePaths()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20333);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20396);
 
 	UTslAnimInstance_ProcessCodePaths_Params params;
 
@@ -26166,7 +26317,7 @@ void UTslAnimInstance::ProcessCodePaths()
 void UTslAnimInstance::PreEvaluatePawnState()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20332);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20395);
 
 	UTslAnimInstance_PreEvaluatePawnState_Params params;
 
@@ -26189,7 +26340,7 @@ void UTslAnimInstance::PreEvaluatePawnState()
 void UTslAnimInstance::OnHitReaction(EAnimWeaponType WeaponType, const struct FName& BoneName, const struct FVector& Direction)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20327);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20390);
 
 	UTslAnimInstance_OnHitReaction_Params params;
 	params.WeaponType = WeaponType;
@@ -26210,7 +26361,7 @@ void UTslAnimInstance::OnHitReaction(EAnimWeaponType WeaponType, const struct FN
 void UTslAnimInstance::HandleSpeedAndDirection_CP()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20326);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20389);
 
 	UTslAnimInstance_HandleSpeedAndDirection_CP_Params params;
 
@@ -26229,7 +26380,7 @@ void UTslAnimInstance::HandleSpeedAndDirection_CP()
 void UTslAnimInstance::HandleItemOffsets_CP()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20325);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20388);
 
 	UTslAnimInstance_HandleItemOffsets_CP_Params params;
 
@@ -26251,7 +26402,7 @@ void UTslAnimInstance::HandleItemOffsets_CP()
 unsigned char UTslAnimInstance::HandleCardinalDirection90(float InDirection)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20322);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20385);
 
 	UTslAnimInstance_HandleCardinalDirection90_Params params;
 	params.InDirection = InDirection;
@@ -26273,7 +26424,7 @@ unsigned char UTslAnimInstance::HandleCardinalDirection90(float InDirection)
 void UTslAnimInstance::HandleAnimCurves()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20321);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20384);
 
 	UTslAnimInstance_HandleAnimCurves_Params params;
 
@@ -26292,7 +26443,7 @@ void UTslAnimInstance::HandleAnimCurves()
 void UTslAnimInstance::HandleADSSocketOffset()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20320);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20383);
 
 	UTslAnimInstance_HandleADSSocketOffset_Params params;
 
@@ -26314,7 +26465,7 @@ void UTslAnimInstance::HandleADSSocketOffset()
 void UTslAnimInstance::GetVehicleAO(float* Yaw, float* Pitch)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20317);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20380);
 
 	UTslAnimInstance_GetVehicleAO_Params params;
 
@@ -26343,7 +26494,7 @@ void UTslAnimInstance::GetVehicleAO(float* Yaw, float* Pitch)
 class UBlendSpace* UTslAnimInstance::GetBlendSpaceRelaxed_TS(TEnumAsByte<EAnimStanceType> AnimStance, bool bIsFPP, class UAnimDB* InAnimDB)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20312);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20375);
 
 	UTslAnimInstance_GetBlendSpaceRelaxed_TS_Params params;
 	params.AnimStance = AnimStance;
@@ -26372,7 +26523,7 @@ class UBlendSpace* UTslAnimInstance::GetBlendSpaceRelaxed_TS(TEnumAsByte<EAnimSt
 class UBlendSpace* UTslAnimInstance::GetBlendSpace_TS(TEnumAsByte<EAnimStanceType> AnimStance, bool bIsFPP, class UAnimDB* InAnimDB)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20307);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20370);
 
 	UTslAnimInstance_GetBlendSpace_TS_Params params;
 	params.AnimStance = AnimStance;
@@ -26405,7 +26556,7 @@ class UBlendSpace* UTslAnimInstance::GetBlendSpace_TS(TEnumAsByte<EAnimStanceTyp
 float UTslAnimInstance::GetAnimSpeed_TS(TEnumAsByte<EAnimStanceType> AnimStance, float Direction, float InSpeed, class UAnimDB* InAnimDB, bool bIsSprinting, float* PlayRate, float* SprintAlpha)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20298);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20361);
 
 	UTslAnimInstance_GetAnimSpeed_TS_Params params;
 	params.AnimStance = AnimStance;
@@ -26440,7 +26591,7 @@ float UTslAnimInstance::GetAnimSpeed_TS(TEnumAsByte<EAnimStanceType> AnimStance,
 bool UTslAnimInstance::GetAbsActorToBaseRotation(bool bInUseMin, float InAngle)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20294);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20357);
 
 	UTslAnimInstance_GetAbsActorToBaseRotation_Params params;
 	params.bInUseMin = bInUseMin;
@@ -26467,7 +26618,7 @@ bool UTslAnimInstance::GetAbsActorToBaseRotation(bool bInUseMin, float InAngle)
 float UTslAnimInstance::FindPositionFromDistanceCurve(float Distance, class UAnimSequenceBase* InAnimSequence)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20290);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20353);
 
 	UTslAnimInstance_FindPositionFromDistanceCurve_Params params;
 	params.Distance = Distance;
@@ -26490,7 +26641,7 @@ float UTslAnimInstance::FindPositionFromDistanceCurve(float Distance, class UAni
 void UTslAnimInstance::EvaluateWeaponStates()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20289);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20352);
 
 	UTslAnimInstance_EvaluateWeaponStates_Params params;
 
@@ -26509,7 +26660,7 @@ void UTslAnimInstance::EvaluateWeaponStates()
 void UTslAnimInstance::EvaluateWeaponStability()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20288);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20351);
 
 	UTslAnimInstance_EvaluateWeaponStability_Params params;
 
@@ -26528,7 +26679,7 @@ void UTslAnimInstance::EvaluateWeaponStability()
 void UTslAnimInstance::EvaluateWeaponInertia()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20287);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20350);
 
 	UTslAnimInstance_EvaluateWeaponInertia_Params params;
 
@@ -26547,7 +26698,7 @@ void UTslAnimInstance::EvaluateWeaponInertia()
 void UTslAnimInstance::EvaluateWeaponCollision()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20286);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20349);
 
 	UTslAnimInstance_EvaluateWeaponCollision_Params params;
 
@@ -26566,7 +26717,7 @@ void UTslAnimInstance::EvaluateWeaponCollision()
 void UTslAnimInstance::EvaluateVehicle()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20285);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20348);
 
 	UTslAnimInstance_EvaluateVehicle_Params params;
 
@@ -26585,7 +26736,7 @@ void UTslAnimInstance::EvaluateVehicle()
 void UTslAnimInstance::EvaluateVaulting()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20284);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20347);
 
 	UTslAnimInstance_EvaluateVaulting_Params params;
 
@@ -26604,7 +26755,7 @@ void UTslAnimInstance::EvaluateVaulting()
 void UTslAnimInstance::EvaluateSwimming()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20283);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20346);
 
 	UTslAnimInstance_EvaluateSwimming_Params params;
 
@@ -26623,7 +26774,7 @@ void UTslAnimInstance::EvaluateSwimming()
 void UTslAnimInstance::EvaluateRotations()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20282);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20345);
 
 	UTslAnimInstance_EvaluateRotations_Params params;
 
@@ -26642,7 +26793,7 @@ void UTslAnimInstance::EvaluateRotations()
 void UTslAnimInstance::EvaluateRecoilRoll()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20281);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20344);
 
 	UTslAnimInstance_EvaluateRecoilRoll_Params params;
 
@@ -26661,7 +26812,7 @@ void UTslAnimInstance::EvaluateRecoilRoll()
 void UTslAnimInstance::EvaluatePawnStates()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20280);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20343);
 
 	UTslAnimInstance_EvaluatePawnStates_Params params;
 
@@ -26680,7 +26831,7 @@ void UTslAnimInstance::EvaluatePawnStates()
 void UTslAnimInstance::EvaluateMeleeAttack()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20279);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20342);
 
 	UTslAnimInstance_EvaluateMeleeAttack_Params params;
 
@@ -26699,7 +26850,7 @@ void UTslAnimInstance::EvaluateMeleeAttack()
 void UTslAnimInstance::EvaluateLocalPawnStates()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20278);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20341);
 
 	UTslAnimInstance_EvaluateLocalPawnStates_Params params;
 
@@ -26718,7 +26869,7 @@ void UTslAnimInstance::EvaluateLocalPawnStates()
 void UTslAnimInstance::EvaluateLeaning()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20277);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20340);
 
 	UTslAnimInstance_EvaluateLeaning_Params params;
 
@@ -26737,7 +26888,7 @@ void UTslAnimInstance::EvaluateLeaning()
 void UTslAnimInstance::EvaluateJumping()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20276);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20339);
 
 	UTslAnimInstance_EvaluateJumping_Params params;
 
@@ -26756,7 +26907,7 @@ void UTslAnimInstance::EvaluateJumping()
 void UTslAnimInstance::EvaluateJumpCamera()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20275);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20338);
 
 	UTslAnimInstance_EvaluateJumpCamera_Params params;
 
@@ -26775,7 +26926,7 @@ void UTslAnimInstance::EvaluateJumpCamera()
 void UTslAnimInstance::EvaluateItemOffsets()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20274);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20337);
 
 	UTslAnimInstance_EvaluateItemOffsets_Params params;
 
@@ -26794,7 +26945,7 @@ void UTslAnimInstance::EvaluateItemOffsets()
 void UTslAnimInstance::EvaluateIdle()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20273);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20336);
 
 	UTslAnimInstance_EvaluateIdle_Params params;
 
@@ -26813,7 +26964,7 @@ void UTslAnimInstance::EvaluateIdle()
 void UTslAnimInstance::EvaluateFreelook()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20272);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20335);
 
 	UTslAnimInstance_EvaluateFreelook_Params params;
 
@@ -26832,7 +26983,7 @@ void UTslAnimInstance::EvaluateFreelook()
 void UTslAnimInstance::EvaluateFreefallAndParachute()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20271);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20334);
 
 	UTslAnimInstance_EvaluateFreefallAndParachute_Params params;
 
@@ -26851,7 +27002,7 @@ void UTslAnimInstance::EvaluateFreefallAndParachute()
 void UTslAnimInstance::EvaluateFallingAndLanding()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20270);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20333);
 
 	UTslAnimInstance_EvaluateFallingAndLanding_Params params;
 
@@ -26870,7 +27021,7 @@ void UTslAnimInstance::EvaluateFallingAndLanding()
 void UTslAnimInstance::EvaluateCoatExternalForce()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20269);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20332);
 
 	UTslAnimInstance_EvaluateCoatExternalForce_Params params;
 
@@ -26889,7 +27040,7 @@ void UTslAnimInstance::EvaluateCoatExternalForce()
 void UTslAnimInstance::EvaluateCharacterStates()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20268);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20331);
 
 	UTslAnimInstance_EvaluateCharacterStates_Params params;
 
@@ -26908,7 +27059,7 @@ void UTslAnimInstance::EvaluateCharacterStates()
 void UTslAnimInstance::EvaluateCasting()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20267);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20330);
 
 	UTslAnimInstance_EvaluateCasting_Params params;
 
@@ -26927,7 +27078,7 @@ void UTslAnimInstance::EvaluateCasting()
 void UTslAnimInstance::EvaluateAnimDynamics()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20266);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20329);
 
 	UTslAnimInstance_EvaluateAnimDynamics_Params params;
 
@@ -26946,7 +27097,7 @@ void UTslAnimInstance::EvaluateAnimDynamics()
 void UTslAnimInstance::EvaluateAimStates()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20265);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20328);
 
 	UTslAnimInstance_EvaluateAimStates_Params params;
 
@@ -26965,7 +27116,7 @@ void UTslAnimInstance::EvaluateAimStates()
 void UTslAnimInstance::EvaluateAimOffsets()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20264);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20327);
 
 	UTslAnimInstance_EvaluateAimOffsets_Params params;
 
@@ -26986,7 +27137,7 @@ void UTslAnimInstance::EvaluateAimOffsets()
 void UTslAnimInstance::CacheCharacterReference(class ATslCharacter* InCharacter)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20262);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20325);
 
 	UTslAnimInstance_CacheCharacterReference_Params params;
 	params.InCharacter = InCharacter;
@@ -27009,7 +27160,7 @@ void UTslAnimInstance::CacheCharacterReference(class ATslCharacter* InCharacter)
 void ATslHUD::TestSendSystemMessage(const struct FText& Message, float Duration)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20739);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20802);
 
 	ATslHUD_TestSendSystemMessage_Params params;
 	params.Message = Message;
@@ -27033,7 +27184,7 @@ void ATslHUD::TestSendSystemMessage(const struct FText& Message, float Duration)
 void ATslHUD::TestSendImportantMessage(const struct FText& Message, float Duration)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20736);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20799);
 
 	ATslHUD_TestSendImportantMessage_Params params;
 	params.Message = Message;
@@ -27059,7 +27210,7 @@ void ATslHUD::TestSendImportantMessage(const struct FText& Message, float Durati
 void ATslHUD::TestKillMessage(const struct FString& KillerName, const struct FString& VictimName, bool bKillerIsOwner, bool bVictimIsOwner)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20731);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20794);
 
 	ATslHUD_TestKillMessage_Params params;
 	params.KillerName = KillerName;
@@ -27082,7 +27233,7 @@ void ATslHUD::TestKillMessage(const struct FString& KillerName, const struct FSt
 void ATslHUD::TestGameEvent_MatchEnded()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20730);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20793);
 
 	ATslHUD_TestGameEvent_MatchEnded_Params params;
 
@@ -27103,7 +27254,7 @@ void ATslHUD::TestGameEvent_MatchEnded()
 void ATslHUD::TestGameEvent_KillOtherPlayer(bool bGroggy)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20728);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20791);
 
 	ATslHUD_TestGameEvent_KillOtherPlayer_Params params;
 	params.bGroggy = bGroggy;
@@ -27125,7 +27276,7 @@ void ATslHUD::TestGameEvent_KillOtherPlayer(bool bGroggy)
 void ATslHUD::TestGameEvent_Die(bool bGroggy)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20726);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20789);
 
 	ATslHUD_TestGameEvent_Die_Params params;
 	params.bGroggy = bGroggy;
@@ -27149,7 +27300,7 @@ void ATslHUD::TestGameEvent_Die(bool bGroggy)
 void ATslHUD::SpawnActorInSceneCaptureWorld(class UClass* ActorClass, const struct FTransform& SpawnTransform, const struct FScriptDelegate& DelegateToCall)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20722);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20785);
 
 	ATslHUD_SpawnActorInSceneCaptureWorld_Params params;
 	params.ActorClass = ActorClass;
@@ -27173,7 +27324,7 @@ void ATslHUD::SpawnActorInSceneCaptureWorld(class UClass* ActorClass, const stru
 void ATslHUD::SetHighlightProvider(const struct FString& Provider)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20720);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20783);
 
 	ATslHUD_SetHighlightProvider_Params params;
 	params.Provider = Provider;
@@ -27195,7 +27346,7 @@ void ATslHUD::SetHighlightProvider(const struct FString& Provider)
 void ATslHUD::RecordReplayHighlightSession(float timeLength)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20718);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20781);
 
 	ATslHUD_RecordReplayHighlightSession_Params params;
 	params.timeLength = timeLength;
@@ -27219,7 +27370,7 @@ void ATslHUD::RecordReplayHighlightSession(float timeLength)
 void ATslHUD::NotifyDropSlotOnOtherContainer(const TScriptInterface<class USlotContainerInterface>& Container, const TScriptInterface<class USlotInterface>& Slot, const TScriptInterface<class USlotContainerInterface>& OtherContainer)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20714);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20777);
 
 	ATslHUD_NotifyDropSlotOnOtherContainer_Params params;
 	params.Container = Container;
@@ -27243,7 +27394,7 @@ void ATslHUD::NotifyDropSlotOnOtherContainer(const TScriptInterface<class USlotC
 bool ATslHUD::IsGameEnded()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20712);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20775);
 
 	ATslHUD_IsGameEnded_Params params;
 
@@ -27264,7 +27415,7 @@ bool ATslHUD::IsGameEnded()
 void ATslHUD::InitCaptureWorld()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20711);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20774);
 
 	ATslHUD_InitCaptureWorld_Params params;
 
@@ -27283,7 +27434,7 @@ void ATslHUD::InitCaptureWorld()
 void ATslHUD::GoToLobby()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20710);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20773);
 
 	ATslHUD_GoToLobby_Params params;
 
@@ -27304,7 +27455,7 @@ void ATslHUD::GoToLobby()
 class APawn* ATslHUD::GetPossessPawn()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20708);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20771);
 
 	ATslHUD_GetPossessPawn_Params params;
 
@@ -27327,7 +27478,7 @@ class APawn* ATslHUD::GetPossessPawn()
 class ATslCharacter* ATslHUD::GetPossessCharacter()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20706);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20769);
 
 	ATslHUD_GetPossessCharacter_Params params;
 
@@ -27350,7 +27501,7 @@ class ATslCharacter* ATslHUD::GetPossessCharacter()
 float ATslHUD::GetHealAmount()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20704);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20767);
 
 	ATslHUD_GetHealAmount_Params params;
 
@@ -27373,7 +27524,7 @@ float ATslHUD::GetHealAmount()
 void UTslSettings::SetCharacterStudioRenderTarget(class UTextureRenderTarget2D* rt)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20798);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20865);
 
 	UTslSettings_SetCharacterStudioRenderTarget_Params params;
 	params.rt = rt;
@@ -27387,6 +27538,29 @@ void UTslSettings::SetCharacterStudioRenderTarget(class UTextureRenderTarget2D* 
 }
 
 
+// Function TslGame.TslSettings.IsUsingGappLobby
+// (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
+// Parameters:
+// bool                           ReturnValue                    (ConstParm, Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData)
+
+bool UTslSettings::IsUsingGappLobby()
+{
+	static UFunction* fn = nullptr; 
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20863);
+
+	UTslSettings_IsUsingGappLobby_Params params;
+
+	auto flags = fn->FunctionFlags;
+	fn->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	return params.ReturnValue;
+}
+
+
 // Function TslGame.TslSettings.IsForKoreanRating
 // (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -27395,7 +27569,7 @@ void UTslSettings::SetCharacterStudioRenderTarget(class UTextureRenderTarget2D* 
 bool UTslSettings::IsForKoreanRating()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20796);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20861);
 
 	UTslSettings_IsForKoreanRating_Params params;
 
@@ -27418,7 +27592,7 @@ bool UTslSettings::IsForKoreanRating()
 bool UTslSettings::IsForChineseLicensing()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20794);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20859);
 
 	UTslSettings_IsForChineseLicensing_Params params;
 
@@ -27441,7 +27615,7 @@ bool UTslSettings::IsForChineseLicensing()
 bool UTslSettings::IsESports()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20792);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20857);
 
 	UTslSettings_IsESports_Params params;
 
@@ -27464,7 +27638,7 @@ bool UTslSettings::IsESports()
 class UTslSettings* UTslSettings::STATIC_GetTslSettings()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20790);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20855);
 
 	UTslSettings_GetTslSettings_Params params;
 
@@ -27488,10 +27662,33 @@ class UTslSettings* UTslSettings::STATIC_GetTslSettings()
 float UTslSettings::GetNotifyMaxDistanceByName(const struct FName& InName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20787);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20852);
 
 	UTslSettings_GetNotifyMaxDistanceByName_Params params;
 	params.InName = InName;
+
+	auto flags = fn->FunctionFlags;
+	fn->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	return params.ReturnValue;
+}
+
+
+// Function TslGame.TslSettings.GetGappLobbyUrl
+// (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
+// Parameters:
+// struct FString                 ReturnValue                    (ConstParm, Parm, OutParm, ZeroConstructor, ReturnParm)
+
+struct FString UTslSettings::GetGappLobbyUrl()
+{
+	static UFunction* fn = nullptr; 
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20850);
+
+	UTslSettings_GetGappLobbyUrl_Params params;
 
 	auto flags = fn->FunctionFlags;
 	fn->FunctionFlags |= 0x400;
@@ -27512,7 +27709,7 @@ float UTslSettings::GetNotifyMaxDistanceByName(const struct FName& InName)
 class UTextureRenderTarget2D* UTslSettings::GetCharacterStudioRenderTarget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20785);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20848);
 
 	UTslSettings_GetCharacterStudioRenderTarget_Params params;
 
@@ -27535,7 +27732,7 @@ class UTextureRenderTarget2D* UTslSettings::GetCharacterStudioRenderTarget()
 bool UTslGameInstance::UseLobbyWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4363);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4370);
 
 	UTslGameInstance_UseLobbyWidget_Params params;
 
@@ -27561,12 +27758,41 @@ bool UTslGameInstance::UseLobbyWidget()
 bool UTslGameInstance::UpdateReplayShouldKeepBP(const struct FString& RegionOrLocal, const struct FString& SessionName, bool bShouldKeep)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4358);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4365);
 
 	UTslGameInstance_UpdateReplayShouldKeepBP_Params params;
 	params.RegionOrLocal = RegionOrLocal;
 	params.SessionName = SessionName;
 	params.bShouldKeep = bShouldKeep;
+
+	auto flags = fn->FunctionFlags;
+	fn->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	return params.ReturnValue;
+}
+
+
+// Function TslGame.TslGameInstance.UpdateReplayAllDeadOrWinBP
+// (Final, Native, Public, BlueprintCallable)
+// Parameters:
+// struct FString                 RegionOrLocal                  (Parm, ZeroConstructor)
+// struct FString                 SessionName                    (Parm, ZeroConstructor)
+// bool                           bAllDeadOrWin                  (Parm, ZeroConstructor, IsPlainOldData)
+// bool                           ReturnValue                    (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData)
+
+bool UTslGameInstance::UpdateReplayAllDeadOrWinBP(const struct FString& RegionOrLocal, const struct FString& SessionName, bool bAllDeadOrWin)
+{
+	static UFunction* fn = nullptr; 
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4360);
+
+	UTslGameInstance_UpdateReplayAllDeadOrWinBP_Params params;
+	params.RegionOrLocal = RegionOrLocal;
+	params.SessionName = SessionName;
+	params.bAllDeadOrWin = bAllDeadOrWin;
 
 	auto flags = fn->FunctionFlags;
 	fn->FunctionFlags |= 0x400;
@@ -27587,7 +27813,7 @@ bool UTslGameInstance::UpdateReplayShouldKeepBP(const struct FString& RegionOrLo
 bool UTslGameInstance::UnPause()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4356);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4358);
 
 	UTslGameInstance_UnPause_Params params;
 
@@ -27610,7 +27836,7 @@ bool UTslGameInstance::UnPause()
 void UTslGameInstance::StopStat(TEnumAsByte<EServerStatType> StatType)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4354);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4356);
 
 	UTslGameInstance_StopStat_Params params;
 	params.StatType = StatType;
@@ -27630,7 +27856,7 @@ void UTslGameInstance::StopStat(TEnumAsByte<EServerStatType> StatType)
 void UTslGameInstance::StopIfReplaying()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4353);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4355);
 
 	UTslGameInstance_StopIfReplaying_Params params;
 
@@ -27652,7 +27878,7 @@ void UTslGameInstance::StopIfReplaying()
 bool UTslGameInstance::StartStat(TEnumAsByte<EServerStatType> StatType)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4349);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4351);
 
 	UTslGameInstance_StartStat_Params params;
 	params.StatType = StatType;
@@ -27678,7 +27904,7 @@ bool UTslGameInstance::StartStat(TEnumAsByte<EServerStatType> StatType)
 bool UTslGameInstance::ShowYesNoMessage(const struct FString& strTitle, const struct FString& strMsg)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4345);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4347);
 
 	UTslGameInstance_ShowYesNoMessage_Params params;
 	params.strTitle = strTitle;
@@ -27704,7 +27930,7 @@ bool UTslGameInstance::ShowYesNoMessage(const struct FString& strTitle, const st
 void UTslGameInstance::ShowSystemMessage(const struct FString& strTitle, const struct FString& strMsg)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4342);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4344);
 
 	UTslGameInstance_ShowSystemMessage_Params params;
 	params.strTitle = strTitle;
@@ -27729,7 +27955,7 @@ void UTslGameInstance::ShowSystemMessage(const struct FString& strTitle, const s
 bool UTslGameInstance::ShowOkCancelMessage(const struct FString& strTitle, const struct FString& strMsg)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4338);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4340);
 
 	UTslGameInstance_ShowOkCancelMessage_Params params;
 	params.strTitle = strTitle;
@@ -27752,7 +27978,7 @@ bool UTslGameInstance::ShowOkCancelMessage(const struct FString& strTitle, const
 void UTslGameInstance::ShowLoadingScreen()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4337);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4339);
 
 	UTslGameInstance_ShowLoadingScreen_Params params;
 
@@ -27773,7 +27999,7 @@ void UTslGameInstance::ShowLoadingScreen()
 void UTslGameInstance::SetStartedFromReplayListMap(bool bSet)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4335);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4337);
 
 	UTslGameInstance_SetStartedFromReplayListMap_Params params;
 	params.bSet = bSet;
@@ -27795,7 +28021,7 @@ void UTslGameInstance::SetStartedFromReplayListMap(bool bSet)
 void UTslGameInstance::SetReplayTimeSpeed(float TimeSpeed)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4333);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4335);
 
 	UTslGameInstance_SetReplayTimeSpeed_Params params;
 	params.TimeSpeed = TimeSpeed;
@@ -27817,7 +28043,7 @@ void UTslGameInstance::SetReplayTimeSpeed(float TimeSpeed)
 void UTslGameInstance::SetReplayBusy(bool bBusy)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4331);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4333);
 
 	UTslGameInstance_SetReplayBusy_Params params;
 	params.bBusy = bBusy;
@@ -27837,7 +28063,7 @@ void UTslGameInstance::SetReplayBusy(bool bBusy)
 void UTslGameInstance::SetMaxReplaysForNullStreamer()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4330);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4332);
 
 	UTslGameInstance_SetMaxReplaysForNullStreamer_Params params;
 
@@ -27856,7 +28082,7 @@ void UTslGameInstance::SetMaxReplaysForNullStreamer()
 void UTslGameInstance::ResetReplayStreamer()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4329);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4331);
 
 	UTslGameInstance_ResetReplayStreamer_Params params;
 
@@ -27877,7 +28103,7 @@ void UTslGameInstance::ResetReplayStreamer()
 void UTslGameInstance::RequestReplayAKillEvent(const struct FString& EventID)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4327);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4329);
 
 	UTslGameInstance_RequestReplayAKillEvent_Params params;
 	params.EventID = EventID;
@@ -27899,7 +28125,7 @@ void UTslGameInstance::RequestReplayAKillEvent(const struct FString& EventID)
 void UTslGameInstance::RequestReplayAGroggyEvent(const struct FString& EventID)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4325);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4327);
 
 	UTslGameInstance_RequestReplayAGroggyEvent_Params params;
 	params.EventID = EventID;
@@ -27919,7 +28145,7 @@ void UTslGameInstance::RequestReplayAGroggyEvent(const struct FString& EventID)
 void UTslGameInstance::ReplayProblemDelegate__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4324);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4326);
 
 	UTslGameInstance_ReplayProblemDelegate__DelegateSignature_Params params;
 
@@ -27939,7 +28165,7 @@ void UTslGameInstance::ReplayProblemDelegate__DelegateSignature()
 void UTslGameInstance::ReplayJumpInt(int second)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4322);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4324);
 
 	UTslGameInstance_ReplayJumpInt_Params params;
 	params.second = second;
@@ -27961,7 +28187,7 @@ void UTslGameInstance::ReplayJumpInt(int second)
 void UTslGameInstance::ReplayJump(float TimelinePercentage)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4320);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4322);
 
 	UTslGameInstance_ReplayJump_Params params;
 	params.TimelinePercentage = TimelinePercentage;
@@ -27981,7 +28207,7 @@ void UTslGameInstance::ReplayJump(float TimelinePercentage)
 void UTslGameInstance::RemoveAllKillEvents()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4319);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4321);
 
 	UTslGameInstance_RemoveAllKillEvents_Params params;
 
@@ -28000,7 +28226,7 @@ void UTslGameInstance::RemoveAllKillEvents()
 void UTslGameInstance::RemoveAllGroggyEvents()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4318);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4320);
 
 	UTslGameInstance_RemoveAllGroggyEvents_Params params;
 
@@ -28019,7 +28245,7 @@ void UTslGameInstance::RemoveAllGroggyEvents()
 void UTslGameInstance::RecordStartedDelegate__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4317);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4319);
 
 	UTslGameInstance_RecordStartedDelegate__DelegateSignature_Params params;
 
@@ -28039,7 +28265,7 @@ void UTslGameInstance::RecordStartedDelegate__DelegateSignature()
 void UTslGameInstance::QuitApplication(bool bShowMessage)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4315);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4317);
 
 	UTslGameInstance_QuitApplication_Params params;
 	params.bShowMessage = bShowMessage;
@@ -28062,7 +28288,7 @@ void UTslGameInstance::QuitApplication(bool bShowMessage)
 void UTslGameInstance::PlayReplayCommand(const struct FString& RegionOrLocal, const struct FString& SessionName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4312);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4314);
 
 	UTslGameInstance_PlayReplayCommand_Params params;
 	params.RegionOrLocal = RegionOrLocal;
@@ -28086,7 +28312,7 @@ void UTslGameInstance::PlayReplayCommand(const struct FString& RegionOrLocal, co
 void UTslGameInstance::PlayReplayBPByRegionOrLocal(const struct FString& Region, const struct FString& SessionName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4309);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4311);
 
 	UTslGameInstance_PlayReplayBPByRegionOrLocal_Params params;
 	params.Region = Region;
@@ -28109,7 +28335,7 @@ void UTslGameInstance::PlayReplayBPByRegionOrLocal(const struct FString& Region,
 void UTslGameInstance::PlayReplayBP(const struct FString& SessionName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4307);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4309);
 
 	UTslGameInstance_PlayReplayBP_Params params;
 	params.SessionName = SessionName;
@@ -28131,7 +28357,7 @@ void UTslGameInstance::PlayReplayBP(const struct FString& SessionName)
 bool UTslGameInstance::Pause()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4305);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4307);
 
 	UTslGameInstance_Pause_Params params;
 
@@ -28154,7 +28380,7 @@ bool UTslGameInstance::Pause()
 void UTslGameInstance::OnPressedPopupConfirmInvite(EPopupButtonID ButtonID)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4302);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4304);
 
 	UTslGameInstance_OnPressedPopupConfirmInvite_Params params;
 	params.ButtonID = ButtonID;
@@ -28176,7 +28402,7 @@ void UTslGameInstance::OnPressedPopupConfirmInvite(EPopupButtonID ButtonID)
 void UTslGameInstance::OnPressedPopupCommon(EPopupButtonID ButtonID)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4299);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4301);
 
 	UTslGameInstance_OnPressedPopupCommon_Params params;
 	params.ButtonID = ButtonID;
@@ -28196,7 +28422,7 @@ void UTslGameInstance::OnPressedPopupCommon(EPopupButtonID ButtonID)
 void UTslGameInstance::KeepMaxReplaysAndDeleteOldestReplaysForNullStreamer()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4298);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4300);
 
 	UTslGameInstance_KeepMaxReplaysAndDeleteOldestReplaysForNullStreamer_Params params;
 
@@ -28217,7 +28443,7 @@ void UTslGameInstance::KeepMaxReplaysAndDeleteOldestReplaysForNullStreamer()
 void UTslGameInstance::KeepAndDeleteOldestReplaysForNullStreamer(int nReplaysToKeep)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4296);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4298);
 
 	UTslGameInstance_KeepAndDeleteOldestReplaysForNullStreamer_Params params;
 	params.nReplaysToKeep = nReplaysToKeep;
@@ -28239,7 +28465,7 @@ void UTslGameInstance::KeepAndDeleteOldestReplaysForNullStreamer(int nReplaysToK
 void UTslGameInstance::KeepAndDeleteOldestReplaysDoneDelegate__DelegateSignature(int nRemains)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4294);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4296);
 
 	UTslGameInstance_KeepAndDeleteOldestReplaysDoneDelegate__DelegateSignature_Params params;
 	params.nRemains = nRemains;
@@ -28260,7 +28486,7 @@ void UTslGameInstance::KeepAndDeleteOldestReplaysDoneDelegate__DelegateSignature
 bool UTslGameInstance::IsReplaying()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4292);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4294);
 
 	UTslGameInstance_IsReplaying_Params params;
 
@@ -28283,7 +28509,7 @@ bool UTslGameInstance::IsReplaying()
 bool UTslGameInstance::IsReplayError()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4290);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4292);
 
 	UTslGameInstance_IsReplayError_Params params;
 
@@ -28306,7 +28532,7 @@ bool UTslGameInstance::IsReplayError()
 bool UTslGameInstance::IsRecording()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4288);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4290);
 
 	UTslGameInstance_IsRecording_Params params;
 
@@ -28329,7 +28555,7 @@ bool UTslGameInstance::IsRecording()
 bool UTslGameInstance::IsPaused()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4286);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4288);
 
 	UTslGameInstance_IsPaused_Params params;
 
@@ -28352,7 +28578,7 @@ bool UTslGameInstance::IsPaused()
 bool UTslGameInstance::IsLive()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4284);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4286);
 
 	UTslGameInstance_IsLive_Params params;
 
@@ -28375,7 +28601,7 @@ bool UTslGameInstance::IsLive()
 bool UTslGameInstance::IsKillcamPlayback()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4282);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4284);
 
 	UTslGameInstance_IsKillcamPlayback_Params params;
 
@@ -28396,7 +28622,7 @@ bool UTslGameInstance::IsKillcamPlayback()
 void UTslGameInstance::GotoTimelineDoneDelegate__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4281);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4283);
 
 	UTslGameInstance_GotoTimelineDoneDelegate__DelegateSignature_Params params;
 
@@ -28414,7 +28640,7 @@ void UTslGameInstance::GotoTimelineDoneDelegate__DelegateSignature()
 void UTslGameInstance::GotoReplayList()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4280);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4282);
 
 	UTslGameInstance_GotoReplayList_Params params;
 
@@ -28437,7 +28663,7 @@ void UTslGameInstance::GotoReplayList()
 struct FString UTslGameInstance::GetStartParameterStringValue(const struct FString& Key, const struct FString& NotFoundValue)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4276);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4278);
 
 	UTslGameInstance_GetStartParameterStringValue_Params params;
 	params.Key = Key;
@@ -28462,7 +28688,7 @@ struct FString UTslGameInstance::GetStartParameterStringValue(const struct FStri
 struct FTslStartParameter UTslGameInstance::GetStartParameter()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4264);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4266);
 
 	UTslGameInstance_GetStartParameter_Params params;
 
@@ -28485,7 +28711,7 @@ struct FTslStartParameter UTslGameInstance::GetStartParameter()
 bool UTslGameInstance::GetStartedFromReplayListMap()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4262);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4264);
 
 	UTslGameInstance_GetStartedFromReplayListMap_Params params;
 
@@ -28508,7 +28734,7 @@ bool UTslGameInstance::GetStartedFromReplayListMap()
 float UTslGameInstance::GetReplayTotalTime()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4260);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4262);
 
 	UTslGameInstance_GetReplayTotalTime_Params params;
 
@@ -28531,7 +28757,7 @@ float UTslGameInstance::GetReplayTotalTime()
 void UTslGameInstance::GetReplaySummaryDoneDelegate__DelegateSignature(const struct FTslReplaySummary& aTslReplaySummary)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4258);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4260);
 
 	UTslGameInstance_GetReplaySummaryDoneDelegate__DelegateSignature_Params params;
 	params.aTslReplaySummary = aTslReplaySummary;
@@ -28553,7 +28779,7 @@ void UTslGameInstance::GetReplaySummaryDoneDelegate__DelegateSignature(const str
 void UTslGameInstance::GetReplaySummary(const struct FString& RegionOrLocal, const struct FString& SessionName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4255);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4257);
 
 	UTslGameInstance_GetReplaySummary_Params params;
 	params.RegionOrLocal = RegionOrLocal;
@@ -28577,7 +28803,7 @@ void UTslGameInstance::GetReplaySummary(const struct FString& RegionOrLocal, con
 void UTslGameInstance::GetReplayListLocal(int PageIndex, int PageSize)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4252);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4254);
 
 	UTslGameInstance_GetReplayListLocal_Params params;
 	params.PageIndex = PageIndex;
@@ -28598,7 +28824,7 @@ void UTslGameInstance::GetReplayListLocal(int PageIndex, int PageSize)
 void UTslGameInstance::GetReplayListDoneDelegate__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4251);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4253);
 
 	UTslGameInstance_GetReplayListDoneDelegate__DelegateSignature_Params params;
 
@@ -28620,7 +28846,7 @@ void UTslGameInstance::GetReplayListDoneDelegate__DelegateSignature()
 void UTslGameInstance::GetReplayListByRegionOrLocal(const struct FString& RegionOrLocal, int PageIndex, int PageSize)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4247);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4249);
 
 	UTslGameInstance_GetReplayListByRegionOrLocal_Params params;
 	params.RegionOrLocal = RegionOrLocal;
@@ -28642,7 +28868,7 @@ void UTslGameInstance::GetReplayListByRegionOrLocal(const struct FString& Region
 void UTslGameInstance::GetReplayList()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4246);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4248);
 
 	UTslGameInstance_GetReplayList_Params params;
 
@@ -28661,7 +28887,7 @@ void UTslGameInstance::GetReplayList()
 void UTslGameInstance::GetReplayKill__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4245);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4247);
 
 	UTslGameInstance_GetReplayKill__DelegateSignature_Params params;
 
@@ -28681,7 +28907,7 @@ void UTslGameInstance::GetReplayKill__DelegateSignature()
 float UTslGameInstance::GetReplayCurrentTime()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4243);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4245);
 
 	UTslGameInstance_GetReplayCurrentTime_Params params;
 
@@ -28704,7 +28930,7 @@ float UTslGameInstance::GetReplayCurrentTime()
 bool UTslGameInstance::GetReplayBusy()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4241);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4243);
 
 	UTslGameInstance_GetReplayBusy_Params params;
 
@@ -28728,7 +28954,7 @@ bool UTslGameInstance::GetReplayBusy()
 struct FTslPlayerStateSummary UTslGameInstance::GetRecordUserFromReplaySummary(const struct FTslReplaySummary& inReplaySummary)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4238);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4240);
 
 	UTslGameInstance_GetRecordUserFromReplaySummary_Params params;
 	params.inReplaySummary = inReplaySummary;
@@ -28753,7 +28979,7 @@ struct FTslPlayerStateSummary UTslGameInstance::GetRecordUserFromReplaySummary(c
 TArray<struct FTslPlayerStateSummary> UTslGameInstance::GetRecorderTeamMembersFromReplaySummary(const struct FTslReplaySummary& inReplaySummary)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4234);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4236);
 
 	UTslGameInstance_GetRecorderTeamMembersFromReplaySummary_Params params;
 	params.inReplaySummary = inReplaySummary;
@@ -28777,7 +29003,7 @@ TArray<struct FTslPlayerStateSummary> UTslGameInstance::GetRecorderTeamMembersFr
 int UTslGameInstance::GetNumTotalReplays()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4232);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4234);
 
 	UTslGameInstance_GetNumTotalReplays_Params params;
 
@@ -28798,7 +29024,7 @@ int UTslGameInstance::GetNumTotalReplays()
 void UTslGameInstance::GetNumReplaysForNullStreamer()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4231);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4233);
 
 	UTslGameInstance_GetNumReplaysForNullStreamer_Params params;
 
@@ -28819,7 +29045,7 @@ void UTslGameInstance::GetNumReplaysForNullStreamer()
 class UGameEventObserver* UTslGameInstance::GetGameEventObserver()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4229);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4231);
 
 	UTslGameInstance_GetGameEventObserver_Params params;
 
@@ -28842,7 +29068,7 @@ class UGameEventObserver* UTslGameInstance::GetGameEventObserver()
 float UTslGameInstance::GetDemoDiskFreeSpace()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4227);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4229);
 
 	UTslGameInstance_GetDemoDiskFreeSpace_Params params;
 
@@ -28865,7 +29091,7 @@ float UTslGameInstance::GetDemoDiskFreeSpace()
 struct FName UTslGameInstance::GetCurrentGameState()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4225);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4227);
 
 	UTslGameInstance_GetCurrentGameState_Params params;
 
@@ -28889,7 +29115,7 @@ struct FName UTslGameInstance::GetCurrentGameState()
 class ATslCharacter* UTslGameInstance::FindRecorderCharacterForPlayback(TArray<class ATslCharacter*> ReplicatedCharacterList)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4221);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4223);
 
 	UTslGameInstance_FindRecorderCharacterForPlayback_Params params;
 	params.ReplicatedCharacterList = ReplicatedCharacterList;
@@ -28911,7 +29137,7 @@ class ATslCharacter* UTslGameInstance::FindRecorderCharacterForPlayback(TArray<c
 void UTslGameInstance::EnumerateReplayKillEvents()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4220);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4222);
 
 	UTslGameInstance_EnumerateReplayKillEvents_Params params;
 
@@ -28930,7 +29156,7 @@ void UTslGameInstance::EnumerateReplayKillEvents()
 void UTslGameInstance::EnumerateReplayGroggyEvents()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4219);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4221);
 
 	UTslGameInstance_EnumerateReplayGroggyEvents_Params params;
 
@@ -28953,7 +29179,7 @@ void UTslGameInstance::EnumerateReplayGroggyEvents()
 void UTslGameInstance::DownloadZippedReplayProgressDelegate__DelegateSignature(const struct FString& strFileName, int nReceived, int nTotal)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4215);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4217);
 
 	UTslGameInstance_DownloadZippedReplayProgressDelegate__DelegateSignature_Params params;
 	params.strFileName = strFileName;
@@ -28977,7 +29203,7 @@ void UTslGameInstance::DownloadZippedReplayProgressDelegate__DelegateSignature(c
 void UTslGameInstance::DownloadZippedReplayCompleteDelegate__DelegateSignature(const struct FString& strFullPath, const struct FString& strDirToExtract)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4212);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4214);
 
 	UTslGameInstance_DownloadZippedReplayCompleteDelegate__DelegateSignature_Params params;
 	params.strFullPath = strFullPath;
@@ -29002,7 +29228,7 @@ void UTslGameInstance::DownloadZippedReplayCompleteDelegate__DelegateSignature(c
 bool UTslGameInstance::DownloadZippedReplayBPByRegion(const struct FString& Region, const struct FString& SessionName, int nTotalSize)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4207);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4209);
 
 	UTslGameInstance_DownloadZippedReplayBPByRegion_Params params;
 	params.Region = Region;
@@ -29029,7 +29255,7 @@ bool UTslGameInstance::DownloadZippedReplayBPByRegion(const struct FString& Regi
 bool UTslGameInstance::DeleteZippedReplayBP(const struct FString& ArchiveName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4204);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4206);
 
 	UTslGameInstance_DeleteZippedReplayBP_Params params;
 	params.ArchiveName = ArchiveName;
@@ -29055,7 +29281,7 @@ bool UTslGameInstance::DeleteZippedReplayBP(const struct FString& ArchiveName)
 bool UTslGameInstance::DeleteReplayBPByRegionOrLocal(const struct FString& RegionOrLocal, const struct FString& SessionName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4200);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4202);
 
 	UTslGameInstance_DeleteReplayBPByRegionOrLocal_Params params;
 	params.RegionOrLocal = RegionOrLocal;
@@ -29081,7 +29307,7 @@ bool UTslGameInstance::DeleteReplayBPByRegionOrLocal(const struct FString& Regio
 bool UTslGameInstance::CancelDownloadingZippedReplay(const struct FString& SessionName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4197);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4199);
 
 	UTslGameInstance_CancelDownloadingZippedReplay_Params params;
 	params.SessionName = SessionName;
@@ -29106,7 +29332,7 @@ bool UTslGameInstance::CancelDownloadingZippedReplay(const struct FString& Sessi
 void UTslGameInstance::AddPlayerStateToReplaySummary(class ATslPlayerState* pPlayerState, struct FTslReplaySummary* inReplaySummary)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4172);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4174);
 
 	UTslGameInstance_AddPlayerStateToReplaySummary_Params params;
 	params.pPlayerState = pPlayerState;
@@ -29131,7 +29357,7 @@ void UTslGameInstance::AddPlayerStateToReplaySummary(class ATslPlayerState* pPla
 void ALobbyHUD::TickFadeInOutEffect(float DeltaTime)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21059);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21133);
 
 	ALobbyHUD_TickFadeInOutEffect_Params params;
 	params.DeltaTime = DeltaTime;
@@ -29153,7 +29379,7 @@ void ALobbyHUD::TickFadeInOutEffect(float DeltaTime)
 void ALobbyHUD::TickCameraTransition(float DeltaTime)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21057);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21131);
 
 	ALobbyHUD_TickCameraTransition_Params params;
 	params.DeltaTime = DeltaTime;
@@ -29176,7 +29402,7 @@ void ALobbyHUD::TickCameraTransition(float DeltaTime)
 void ALobbyHUD::TestLobbyCharacterReady(uint32_t SlotIndex, bool bReady)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21054);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21128);
 
 	ALobbyHUD_TestLobbyCharacterReady_Params params;
 	params.SlotIndex = SlotIndex;
@@ -29199,7 +29425,7 @@ void ALobbyHUD::TestLobbyCharacterReady(uint32_t SlotIndex, bool bReady)
 void ALobbyHUD::TestLobbyCharacterHost(uint32_t SlotIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21052);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21126);
 
 	ALobbyHUD_TestLobbyCharacterHost_Params params;
 	params.SlotIndex = SlotIndex;
@@ -29222,7 +29448,7 @@ void ALobbyHUD::TestLobbyCharacterHost(uint32_t SlotIndex)
 void ALobbyHUD::TestLobbyCharacterAddAngle(int SlotIndex, float InYawInDegree)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21049);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21123);
 
 	ALobbyHUD_TestLobbyCharacterAddAngle_Params params;
 	params.SlotIndex = SlotIndex;
@@ -29245,7 +29471,7 @@ void ALobbyHUD::TestLobbyCharacterAddAngle(int SlotIndex, float InYawInDegree)
 void ALobbyHUD::TestLobbyCamera_TeleportTo(int Index)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21047);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21121);
 
 	ALobbyHUD_TestLobbyCamera_TeleportTo_Params params;
 	params.Index = Index;
@@ -29267,7 +29493,7 @@ void ALobbyHUD::TestLobbyCamera_TeleportTo(int Index)
 void ALobbyHUD::TestLobbyCamera_StartTransitionTo(int ToIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21045);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21119);
 
 	ALobbyHUD_TestLobbyCamera_StartTransitionTo_Params params;
 	params.ToIndex = ToIndex;
@@ -29290,7 +29516,7 @@ void ALobbyHUD::TestLobbyCamera_StartTransitionTo(int ToIndex)
 void ALobbyHUD::TestLobbyCamera_StartTransitionFromTo(int FromIndex, int ToIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21042);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21116);
 
 	ALobbyHUD_TestLobbyCamera_StartTransitionFromTo_Params params;
 	params.FromIndex = FromIndex;
@@ -29313,7 +29539,7 @@ void ALobbyHUD::TestLobbyCamera_StartTransitionFromTo(int FromIndex, int ToIndex
 void ALobbyHUD::TestLobbyCamera_SpawnCharacters(int Num)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21040);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21114);
 
 	ALobbyHUD_TestLobbyCamera_SpawnCharacters_Params params;
 	params.Num = Num;
@@ -29333,7 +29559,7 @@ void ALobbyHUD::TestLobbyCamera_SpawnCharacters(int Num)
 void ALobbyHUD::TestLobbyCamera_Init()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21039);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21113);
 
 	ALobbyHUD_TestLobbyCamera_Init_Params params;
 
@@ -29354,7 +29580,7 @@ void ALobbyHUD::TestLobbyCamera_Init()
 void ALobbyHUD::TeleportCameraTo(ELobbyCameraStates InCameraState)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21036);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21110);
 
 	ALobbyHUD_TeleportCameraTo_Params params;
 	params.InCameraState = InCameraState;
@@ -29374,7 +29600,7 @@ void ALobbyHUD::TeleportCameraTo(ELobbyCameraStates InCameraState)
 void ALobbyHUD::StopFadeInOutEffect()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21035);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21109);
 
 	ALobbyHUD_StopFadeInOutEffect_Params params;
 
@@ -29393,7 +29619,7 @@ void ALobbyHUD::StopFadeInOutEffect()
 void ALobbyHUD::StopCameraTransition()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21034);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21108);
 
 	ALobbyHUD_StopCameraTransition_Params params;
 
@@ -29412,7 +29638,7 @@ void ALobbyHUD::StopCameraTransition()
 void ALobbyHUD::StartFadeInOutEffect()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21033);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21107);
 
 	ALobbyHUD_StartFadeInOutEffect_Params params;
 
@@ -29433,7 +29659,7 @@ void ALobbyHUD::StartFadeInOutEffect()
 void ALobbyHUD::StartCameraTransitionTo(ELobbyCameraStates InToCameraState)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21030);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21104);
 
 	ALobbyHUD_StartCameraTransitionTo_Params params;
 	params.InToCameraState = InToCameraState;
@@ -29456,7 +29682,7 @@ void ALobbyHUD::StartCameraTransitionTo(ELobbyCameraStates InToCameraState)
 void ALobbyHUD::StartCameraTransitionFromTo(ELobbyCameraStates InFromCameraState, ELobbyCameraStates InToCameraState)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21025);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21099);
 
 	ALobbyHUD_StartCameraTransitionFromTo_Params params;
 	params.InFromCameraState = InFromCameraState;
@@ -29480,7 +29706,7 @@ void ALobbyHUD::StartCameraTransitionFromTo(ELobbyCameraStates InFromCameraState
 void ALobbyHUD::SetWidgetForBinding(int ViewIndex, class UCoherentUIGTWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21022);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21096);
 
 	ALobbyHUD_SetWidgetForBinding_Params params;
 	params.ViewIndex = ViewIndex;
@@ -29504,7 +29730,7 @@ void ALobbyHUD::SetWidgetForBinding(int ViewIndex, class UCoherentUIGTWidget* Wi
 void ALobbyHUD::SetLobbyCharacterHiddenInGame(uint32_t SlotIndex, bool bNewHidden)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21019);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21093);
 
 	ALobbyHUD_SetLobbyCharacterHiddenInGame_Params params;
 	params.SlotIndex = SlotIndex;
@@ -29525,7 +29751,7 @@ void ALobbyHUD::SetLobbyCharacterHiddenInGame(uint32_t SlotIndex, bool bNewHidde
 void ALobbyHUD::RequestSystemMenu()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21018);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21092);
 
 	ALobbyHUD_RequestSystemMenu_Params params;
 
@@ -29546,7 +29772,7 @@ void ALobbyHUD::RequestSystemMenu()
 void ALobbyHUD::OnReplaySummary(const struct FTslReplaySummary& ReplaySummary)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21016);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21090);
 
 	ALobbyHUD_OnReplaySummary_Params params;
 	params.ReplaySummary = ReplaySummary;
@@ -29566,7 +29792,7 @@ void ALobbyHUD::OnReplaySummary(const struct FTslReplaySummary& ReplaySummary)
 void ALobbyHUD::OnReplayList()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21015);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21089);
 
 	ALobbyHUD_OnReplayList_Params params;
 
@@ -29587,7 +29813,7 @@ void ALobbyHUD::OnReplayList()
 void ALobbyHUD::OnDeleteOldReplays(int RemainedReplayNum)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21013);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21087);
 
 	ALobbyHUD_OnDeleteOldReplays_Params params;
 	params.RemainedReplayNum = RemainedReplayNum;
@@ -29609,7 +29835,7 @@ void ALobbyHUD::OnDeleteOldReplays(int RemainedReplayNum)
 void ALobbyHUD::NotifyLobbySceneChanged(bool bIsCustomizationScene)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21011);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21085);
 
 	ALobbyHUD_NotifyLobbySceneChanged_Params params;
 	params.bIsCustomizationScene = bIsCustomizationScene;
@@ -29631,7 +29857,7 @@ void ALobbyHUD::NotifyLobbySceneChanged(bool bIsCustomizationScene)
 void ALobbyHUD::NotifyLobbyCharacterCreated(int InSlotIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21009);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21083);
 
 	ALobbyHUD_NotifyLobbyCharacterCreated_Params params;
 	params.InSlotIndex = InSlotIndex;
@@ -29654,7 +29880,7 @@ void ALobbyHUD::NotifyLobbyCharacterCreated(int InSlotIndex)
 void ALobbyHUD::LeaveCustomizationMenu(ELobbyCameraStates InFromCameraState, ELobbyCameraStates InToCameraState)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21004);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21078);
 
 	ALobbyHUD_LeaveCustomizationMenu_Params params;
 	params.InFromCameraState = InFromCameraState;
@@ -29678,7 +29904,7 @@ void ALobbyHUD::LeaveCustomizationMenu(ELobbyCameraStates InFromCameraState, ELo
 bool ALobbyHUD::IsCameraHasBlurEffect(ELobbyCameraStates InLobbyCameraState)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21000);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21074);
 
 	ALobbyHUD_IsCameraHasBlurEffect_Params params;
 	params.InLobbyCameraState = InLobbyCameraState;
@@ -29700,7 +29926,7 @@ bool ALobbyHUD::IsCameraHasBlurEffect(ELobbyCameraStates InLobbyCameraState)
 void ALobbyHUD::InitLobbyTransition()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20999);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21073);
 
 	ALobbyHUD_InitLobbyTransition_Params params;
 
@@ -29719,7 +29945,7 @@ void ALobbyHUD::InitLobbyTransition()
 void ALobbyHUD::InitFadeInOutEffect()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20998);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21072);
 
 	ALobbyHUD_InitFadeInOutEffect_Params params;
 
@@ -29738,7 +29964,7 @@ void ALobbyHUD::InitFadeInOutEffect()
 void ALobbyHUD::InitCameraTransition()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20997);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21071);
 
 	ALobbyHUD_InitCameraTransition_Params params;
 
@@ -29759,7 +29985,7 @@ void ALobbyHUD::InitCameraTransition()
 struct FString ALobbyHUD::GetStartUrl()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20995);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21069);
 
 	ALobbyHUD_GetStartUrl_Params params;
 
@@ -29782,7 +30008,7 @@ struct FString ALobbyHUD::GetStartUrl()
 int ALobbyHUD::GetLobbyCharacterNum()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20993);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21067);
 
 	ALobbyHUD_GetLobbyCharacterNum_Params params;
 
@@ -29806,7 +30032,7 @@ int ALobbyHUD::GetLobbyCharacterNum()
 class ALobbyCharacter* ALobbyHUD::GetLobbyCharacter(int SlotIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20990);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21064);
 
 	ALobbyHUD_GetLobbyCharacter_Params params;
 	params.SlotIndex = SlotIndex;
@@ -29830,7 +30056,7 @@ class ALobbyCharacter* ALobbyHUD::GetLobbyCharacter(int SlotIndex)
 ELobbyCameraStates ALobbyHUD::GetLobbyCameraState()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20987);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21061);
 
 	ALobbyHUD_GetLobbyCameraState_Params params;
 
@@ -29854,7 +30080,7 @@ ELobbyCameraStates ALobbyHUD::GetLobbyCameraState()
 class ACameraActor* ALobbyHUD::GetLobbyCamera(ELobbyCameraStates InLobbyCameraState)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20983);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21057);
 
 	ALobbyHUD_GetLobbyCamera_Params params;
 	params.InLobbyCameraState = InLobbyCameraState;
@@ -29879,7 +30105,7 @@ class ACameraActor* ALobbyHUD::GetLobbyCamera(ELobbyCameraStates InLobbyCameraSt
 float ALobbyHUD::GetCurveDuration(class UCurveFloat* InCurve)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20980);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21054);
 
 	ALobbyHUD_GetCurveDuration_Params params;
 	params.InCurve = InCurve;
@@ -29904,7 +30130,7 @@ float ALobbyHUD::GetCurveDuration(class UCurveFloat* InCurve)
 void ALobbyHUD::EnterCustomizationMenu(ELobbyCameraStates InFromCameraState, ELobbyCameraStates InToCameraState)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20975);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21049);
 
 	ALobbyHUD_EnterCustomizationMenu_Params params;
 	params.InFromCameraState = InFromCameraState;
@@ -29929,7 +30155,7 @@ void ALobbyHUD::EnterCustomizationMenu(ELobbyCameraStates InFromCameraState, ELo
 ELobbyBlurChangingStates ALobbyHUD::DecideBlurChangingState(ELobbyCameraStates InFromState, ELobbyCameraStates InToState)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20968);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21042);
 
 	ALobbyHUD_DecideBlurChangingState_Params params;
 	params.InFromState = InFromState;
@@ -29952,7 +30178,7 @@ ELobbyBlurChangingStates ALobbyHUD::DecideBlurChangingState(ELobbyCameraStates I
 void ALobbyHUD::ClearAllWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20967);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21041);
 
 	ALobbyHUD_ClearAllWidget_Params params;
 
@@ -29971,7 +30197,7 @@ void ALobbyHUD::ClearAllWidget()
 void ALobbyHUD::CacheSubLevelNames()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20966);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21040);
 
 	ALobbyHUD_CacheSubLevelNames_Params params;
 
@@ -29990,7 +30216,7 @@ void ALobbyHUD::CacheSubLevelNames()
 void ALobbyHUD::CachePostProcessEffectFromLevel()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20965);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21039);
 
 	ALobbyHUD_CachePostProcessEffectFromLevel_Params params;
 
@@ -30009,7 +30235,7 @@ void ALobbyHUD::CachePostProcessEffectFromLevel()
 void ALobbyHUD::CacheMainCameraFromLevel()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20964);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21038);
 
 	ALobbyHUD_CacheMainCameraFromLevel_Params params;
 
@@ -30028,7 +30254,7 @@ void ALobbyHUD::CacheMainCameraFromLevel()
 void ALobbyHUD::CacheLobbyCharacterTransforms()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20963);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21037);
 
 	ALobbyHUD_CacheLobbyCharacterTransforms_Params params;
 
@@ -30047,7 +30273,7 @@ void ALobbyHUD::CacheLobbyCharacterTransforms()
 void ALobbyHUD::CacheLobbyCamarasFromLevel()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20962);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21036);
 
 	ALobbyHUD_CacheLobbyCamarasFromLevel_Params params;
 
@@ -30069,7 +30295,7 @@ void ALobbyHUD::CacheLobbyCamarasFromLevel()
 void ALobbyHUD::AddLobbyCharacterAngle(int SlotIndex, float AngleInDegree)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20959);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21033);
 
 	ALobbyHUD_AddLobbyCharacterAngle_Params params;
 	params.SlotIndex = SlotIndex;
@@ -30092,7 +30318,7 @@ void ALobbyHUD::AddLobbyCharacterAngle(int SlotIndex, float AngleInDegree)
 void ATslWelcomeBaseHUD::OnPressedPopupCommon(EPopupButtonID ButtonID)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21098);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21172);
 
 	ATslWelcomeBaseHUD_OnPressedPopupCommon_Params params;
 	params.ButtonID = ButtonID;
@@ -30114,7 +30340,7 @@ void ATslWelcomeBaseHUD::OnPressedPopupCommon(EPopupButtonID ButtonID)
 void ATslEntryPlayerController::LoadReplay(const struct FString& SessionName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21105);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21179);
 
 	ATslEntryPlayerController_LoadReplay_Params params;
 	params.SessionName = SessionName;
@@ -30134,7 +30360,7 @@ void ATslEntryPlayerController::LoadReplay(const struct FString& SessionName)
 void ATslEntryPlayerController::HandleLobbySystemMenu()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21104);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21178);
 
 	ATslEntryPlayerController_HandleLobbySystemMenu_Params params;
 
@@ -30155,7 +30381,7 @@ void ATslEntryPlayerController::HandleLobbySystemMenu()
 void APerfBotPlayerController::ServerMoveToLocation(const struct FVector& Location)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21109);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21183);
 
 	APerfBotPlayerController_ServerMoveToLocation_Params params;
 	params.Location = Location;
@@ -30175,7 +30401,7 @@ void APerfBotPlayerController::ServerMoveToLocation(const struct FVector& Locati
 void APerfBotPlayerController::ClientQuit()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21108);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21182);
 
 	APerfBotPlayerController_ClientQuit_Params params;
 
@@ -30196,7 +30422,7 @@ void APerfBotPlayerController::ClientQuit()
 class ATslCharacter* ACharacterBreathBuff::GetCharacter()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21119);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21193);
 
 	ACharacterBreathBuff_GetCharacter_Params params;
 
@@ -30219,7 +30445,7 @@ class ATslCharacter* ACharacterBreathBuff::GetCharacter()
 class UCharacterBreathComponent* ACharacterBreathBuff::GetBreathComponent()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21117);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21191);
 
 	ACharacterBreathBuff_GetBreathComponent_Params params;
 
@@ -30240,7 +30466,7 @@ class UCharacterBreathComponent* ACharacterBreathBuff::GetBreathComponent()
 void ATslCharacterProxy::UpdateEquippedWeapons()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21198);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21272);
 
 	ATslCharacterProxy_UpdateEquippedWeapons_Params params;
 
@@ -30259,7 +30485,7 @@ void ATslCharacterProxy::UpdateEquippedWeapons()
 void ATslCharacterProxy::UpdateCharacterAppearance()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21197);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21271);
 
 	ATslCharacterProxy_UpdateCharacterAppearance_Params params;
 
@@ -30278,7 +30504,7 @@ void ATslCharacterProxy::UpdateCharacterAppearance()
 void ATslCharacterProxy::UpdateArmedWeapons()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21196);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21270);
 
 	ATslCharacterProxy_UpdateArmedWeapons_Params params;
 
@@ -30300,7 +30526,7 @@ void ATslCharacterProxy::UpdateArmedWeapons()
 void ATslCharacterProxy::SetAccessorySlot(class UTslAccessoryComponent* AccessoryComponent, EAccessorySlot Slot)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21192);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21266);
 
 	ATslCharacterProxy_SetAccessorySlot_Params params;
 	params.AccessoryComponent = AccessoryComponent;
@@ -30324,7 +30550,7 @@ void ATslCharacterProxy::SetAccessorySlot(class UTslAccessoryComponent* Accessor
 class UTslAccessoryComponent* ATslCharacterProxy::GetAccessorySlot(EAccessorySlot Slot)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21188);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21262);
 
 	ATslCharacterProxy_GetAccessorySlot_Params params;
 	params.Slot = Slot;
@@ -30346,7 +30572,7 @@ class UTslAccessoryComponent* ATslCharacterProxy::GetAccessorySlot(EAccessorySlo
 void UTslCheatManager::ToggleVisibilityOfDestructibleComponents()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21373);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21449);
 
 	UTslCheatManager_ToggleVisibilityOfDestructibleComponents_Params params;
 
@@ -30365,7 +30591,7 @@ void UTslCheatManager::ToggleVisibilityOfDestructibleComponents()
 void UTslCheatManager::ToggleMatchTimer()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21372);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21448);
 
 	UTslCheatManager_ToggleMatchTimer_Params params;
 
@@ -30386,7 +30612,7 @@ void UTslCheatManager::ToggleMatchTimer()
 void UTslCheatManager::ToggleII(float Interval)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21370);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21446);
 
 	UTslCheatManager_ToggleII_Params params;
 	params.Interval = Interval;
@@ -30406,7 +30632,7 @@ void UTslCheatManager::ToggleII(float Interval)
 void UTslCheatManager::ToggleFreeMode()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21369);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21445);
 
 	UTslCheatManager_ToggleFreeMode_Params params;
 
@@ -30425,7 +30651,7 @@ void UTslCheatManager::ToggleFreeMode()
 void UTslCheatManager::ToggleCollisionOfDestructibleComponents()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21368);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21444);
 
 	UTslCheatManager_ToggleCollisionOfDestructibleComponents_Params params;
 
@@ -30444,7 +30670,7 @@ void UTslCheatManager::ToggleCollisionOfDestructibleComponents()
 void UTslCheatManager::TestVoiceAccessToken()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21367);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21443);
 
 	UTslCheatManager_TestVoiceAccessToken_Params params;
 
@@ -30463,7 +30689,7 @@ void UTslCheatManager::TestVoiceAccessToken()
 void UTslCheatManager::SpawnBot()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21366);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21442);
 
 	UTslCheatManager_SpawnBot_Params params;
 
@@ -30486,7 +30712,7 @@ void UTslCheatManager::SpawnBot()
 void UTslCheatManager::SetVehicleRepRotCorrection(float AngularDeltaThreshold, float AngularInterpAlpha, float AngularRecipFixTime)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21362);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21438);
 
 	UTslCheatManager_SetVehicleRepRotCorrection_Params params;
 	params.AngularDeltaThreshold = AngularDeltaThreshold;
@@ -30513,7 +30739,7 @@ void UTslCheatManager::SetVehicleRepRotCorrection(float AngularDeltaThreshold, f
 void UTslCheatManager::SetVehicleRepPosCorrection(float LinearDeltaThresholdSq, float LinearInterpAlpha, float LinearRecipFixTime, float BodySpeedThresholdSq)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21357);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21433);
 
 	UTslCheatManager_SetVehicleRepPosCorrection_Params params;
 	params.LinearDeltaThresholdSq = LinearDeltaThresholdSq;
@@ -30540,7 +30766,7 @@ void UTslCheatManager::SetVehicleRepPosCorrection(float LinearDeltaThresholdSq, 
 void UTslCheatManager::SetSpectatorYawAndPitch(float Yaw, float Pitch, float RevertSmoothSpeed)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21353);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21429);
 
 	UTslCheatManager_SetSpectatorYawAndPitch_Params params;
 	params.Yaw = Yaw;
@@ -30564,10 +30790,32 @@ void UTslCheatManager::SetSpectatorYawAndPitch(float Yaw, float Pitch, float Rev
 void UTslCheatManager::SetClientConnectionTimeout(float TimeoutSeconds)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21351);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21427);
 
 	UTslCheatManager_SetClientConnectionTimeout_Params params;
 	params.TimeoutSeconds = TimeoutSeconds;
+
+	auto flags = fn->FunctionFlags;
+	fn->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function TslGame.TslCheatManager.SetBPFactor
+// (Final, Exec, Native, Public)
+// Parameters:
+// float                          factor                         (Parm, ZeroConstructor, IsPlainOldData)
+
+void UTslCheatManager::SetBPFactor(float factor)
+{
+	static UFunction* fn = nullptr; 
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21425);
+
+	UTslCheatManager_SetBPFactor_Params params;
+	params.factor = factor;
 
 	auto flags = fn->FunctionFlags;
 	fn->FunctionFlags |= 0x400;
@@ -30584,7 +30832,7 @@ void UTslCheatManager::SetClientConnectionTimeout(float TimeoutSeconds)
 void UTslCheatManager::ReturnLookAt()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21350);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21424);
 
 	UTslCheatManager_ReturnLookAt_Params params;
 
@@ -30603,7 +30851,7 @@ void UTslCheatManager::ReturnLookAt()
 void UTslCheatManager::OnInteract()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21349);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21423);
 
 	UTslCheatManager_OnInteract_Params params;
 
@@ -30622,7 +30870,7 @@ void UTslCheatManager::OnInteract()
 void UTslCheatManager::OnFullMapSequenceStop()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21348);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21422);
 
 	UTslCheatManager_OnFullMapSequenceStop_Params params;
 
@@ -30645,7 +30893,7 @@ void UTslCheatManager::OnFullMapSequenceStop()
 void UTslCheatManager::MoveVehicleOnClient(float X, float Y, float Z)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21344);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21418);
 
 	UTslCheatManager_MoveVehicleOnClient_Params params;
 	params.X = X;
@@ -30671,7 +30919,7 @@ void UTslCheatManager::MoveVehicleOnClient(float X, float Y, float Z)
 void UTslCheatManager::LookAt(float Pitch, float Yaw, float Roll)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21340);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21414);
 
 	UTslCheatManager_LookAt_Params params;
 	params.Pitch = Pitch;
@@ -30693,7 +30941,7 @@ void UTslCheatManager::LookAt(float Pitch, float Yaw, float Roll)
 void UTslCheatManager::InsertCrashMeCommand()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21339);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21413);
 
 	UTslCheatManager_InsertCrashMeCommand_Params params;
 
@@ -30712,7 +30960,7 @@ void UTslCheatManager::InsertCrashMeCommand()
 void UTslCheatManager::ForceMatchStart()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21338);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21412);
 
 	UTslCheatManager_ForceMatchStart_Params params;
 
@@ -30731,7 +30979,7 @@ void UTslCheatManager::ForceMatchStart()
 void UTslCheatManager::DumpVoiceDevices()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21337);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21411);
 
 	UTslCheatManager_DumpVoiceDevices_Params params;
 
@@ -30750,7 +30998,7 @@ void UTslCheatManager::DumpVoiceDevices()
 void UTslCheatManager::DumpReplicatedItems()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21336);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21410);
 
 	UTslCheatManager_DumpReplicatedItems_Params params;
 
@@ -30769,7 +31017,7 @@ void UTslCheatManager::DumpReplicatedItems()
 void UTslCheatManager::DumpDestructibleComponents()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21335);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21409);
 
 	UTslCheatManager_DumpDestructibleComponents_Params params;
 
@@ -30788,7 +31036,7 @@ void UTslCheatManager::DumpDestructibleComponents()
 void UTslCheatManager::DrawVehicleCenterOfMass()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21334);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21408);
 
 	UTslCheatManager_DrawVehicleCenterOfMass_Params params;
 
@@ -30809,7 +31057,7 @@ void UTslCheatManager::DrawVehicleCenterOfMass()
 void UTslCheatManager::DelayCrash(float DelaySeconds)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21332);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21406);
 
 	UTslCheatManager_DelayCrash_Params params;
 	params.DelaySeconds = DelaySeconds;
@@ -30831,7 +31079,7 @@ void UTslCheatManager::DelayCrash(float DelaySeconds)
 void UTslCheatManager::CtrlShortCutOnOff(bool OnOff)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21330);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21404);
 
 	UTslCheatManager_CtrlShortCutOnOff_Params params;
 	params.OnOff = OnOff;
@@ -30851,7 +31099,7 @@ void UTslCheatManager::CtrlShortCutOnOff(bool OnOff)
 void UTslCheatManager::CopyDebugInfoRotation()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21329);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21403);
 
 	UTslCheatManager_CopyDebugInfoRotation_Params params;
 
@@ -30870,7 +31118,7 @@ void UTslCheatManager::CopyDebugInfoRotation()
 void UTslCheatManager::CopyDebugInfoLocation()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21328);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21402);
 
 	UTslCheatManager_CopyDebugInfoLocation_Params params;
 
@@ -30889,7 +31137,7 @@ void UTslCheatManager::CopyDebugInfoLocation()
 void UTslCheatManager::CopyDebugInfo()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21327);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21401);
 
 	UTslCheatManager_CopyDebugInfo_Params params;
 
@@ -30910,7 +31158,7 @@ void UTslCheatManager::CopyDebugInfo()
 void UTslCheatManager::Cheat(const struct FString& Msg)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21325);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21399);
 
 	UTslCheatManager_Cheat_Params params;
 	params.Msg = Msg;
@@ -30932,7 +31180,7 @@ void UTslCheatManager::Cheat(const struct FString& Msg)
 void UTslCheatManager::ChangeTeam(int NewTeamNumber)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21323);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21397);
 
 	UTslCheatManager_ChangeTeam_Params params;
 	params.NewTeamNumber = NewTeamNumber;
@@ -30952,7 +31200,7 @@ void UTslCheatManager::ChangeTeam(int NewTeamNumber)
 void UTslCheatManager::ActivatePakOrderingMode()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21322);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21396);
 
 	UTslCheatManager_ActivatePakOrderingMode_Params params;
 
@@ -30971,7 +31219,7 @@ void UTslCheatManager::ActivatePakOrderingMode()
 void UTslCoherentWidget::GoBack()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21425);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21501);
 
 	UTslCoherentWidget_GoBack_Params params;
 
@@ -30995,7 +31243,7 @@ void UTslCoherentWidget::GoBack()
 void UTslDestructibleComponent::ClientReceiveComponentDamage(float DamageAmount, const struct FDamageEvent& DamageEvent, class AController* EventInstigator, class AActor* DamageCauser)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21613);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21689);
 
 	UTslDestructibleComponent_ClientReceiveComponentDamage_Params params;
 	params.DamageAmount = DamageAmount;
@@ -31018,7 +31266,7 @@ void UTslDestructibleComponent::ClientReceiveComponentDamage(float DamageAmount,
 void ATslDestructibleContainer::OnRep_Flag()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21618);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21694);
 
 	ATslDestructibleContainer_OnRep_Flag_Params params;
 
@@ -31037,7 +31285,7 @@ void ATslDestructibleContainer::OnRep_Flag()
 void ATslDoor::OnRep_DoorOpened()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21628);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21704);
 
 	ATslDoor_OnRep_DoorOpened_Params params;
 
@@ -31056,7 +31304,7 @@ void ATslDoor::OnRep_DoorOpened()
 void ATslDoor::OnRep_DoorBreakingState()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21627);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21703);
 
 	ATslDoor_OnRep_DoorBreakingState_Params params;
 
@@ -31077,7 +31325,7 @@ void ATslDoor::OnRep_DoorBreakingState()
 void ATslDoor::OnInteractBy(class ATslCharacter* OtherCharacter)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21625);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21701);
 
 	ATslDoor_OnInteractBy_Params params;
 	params.OtherCharacter = OtherCharacter;
@@ -31102,7 +31350,7 @@ void ATslDoor::OnInteractBy(class ATslCharacter* OtherCharacter)
 void ATslDoor::ClientTakeDamage(float Damage, const struct FVector_NetQuantize& HitLocation, float DamageRadius, float Impulse)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21620);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21696);
 
 	ATslDoor_ClientTakeDamage_Params params;
 	params.Damage = Damage;
@@ -31134,7 +31382,7 @@ void ATslDoor::ClientTakeDamage(float Damage, const struct FVector_NetQuantize& 
 void ATslExplosionEffect::OnParticleCollide(const struct FName& EventName, float EmitterTime, int ParticleTime, const struct FVector& Location, const struct FVector& Velocity, const struct FVector& Direction, const struct FVector& Normal, const struct FName& BoneName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22002);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22078);
 
 	ATslExplosionEffect_OnParticleCollide_Params params;
 	params.EventName = EventName;
@@ -31167,7 +31415,7 @@ void ATslExplosionEffect::OnParticleCollide(const struct FName& EventName, float
 void UTslExplosionReactionInterface::OnExplode(float DamageAmout, const struct FVector& Origin, TArray<struct FHitResult> ComponentHits, class AController* EventInstigator, class AActor* DamageCauser)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22018);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22094);
 
 	UTslExplosionReactionInterface_OnExplode_Params params;
 	params.DamageAmout = DamageAmout;
@@ -31192,7 +31440,7 @@ void UTslExplosionReactionInterface::OnExplode(float DamageAmout, const struct F
 class USplineComponent* ATslFence::GetSplineComponent()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22025);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22101);
 
 	ATslFence_GetSplineComponent_Params params;
 
@@ -31215,7 +31463,7 @@ class USplineComponent* ATslFence::GetSplineComponent()
 void UTslReactionComponent::OnRep_PendingDestroy(bool PrevPendingDestroy)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22072);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22148);
 
 	UTslReactionComponent_OnRep_PendingDestroy_Params params;
 	params.PrevPendingDestroy = PrevPendingDestroy;
@@ -31239,7 +31487,7 @@ void UTslReactionComponent::OnRep_PendingDestroy(bool PrevPendingDestroy)
 void UTslReactionComponent::Client_ReactByVehicle(const struct FVector& Impact, const struct FVector& ImpulseDir, const struct FVector& Velocity)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22068);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22144);
 
 	UTslReactionComponent_Client_ReactByVehicle_Params params;
 	params.Impact = Impact;
@@ -31267,7 +31515,7 @@ void UTslReactionComponent::Client_ReactByVehicle(const struct FVector& Impact, 
 void UTslReactionComponent::Client_ReactByRadialDamage(float DamageAmount, const struct FVector& Origin, const struct FVector& Impact, const struct FVector& ImpulseDir, float OuterRadius)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22062);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22138);
 
 	UTslReactionComponent_Client_ReactByRadialDamage_Params params;
 	params.DamageAmount = DamageAmount;
@@ -31295,7 +31543,7 @@ void UTslReactionComponent::Client_ReactByRadialDamage(float DamageAmount, const
 void UTslReactionComponent::Client_ReactByPointDamage(float DamageAmount, const struct FVector& Impact, const struct FVector& ImpulseDir)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22058);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22134);
 
 	UTslReactionComponent_Client_ReactByPointDamage_Params params;
 	params.DamageAmount = DamageAmount;
@@ -31319,7 +31567,7 @@ void UTslReactionComponent::Client_ReactByPointDamage(float DamageAmount, const 
 bool UTslFocusableWidgetInterface::Up()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22131);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22207);
 
 	UTslFocusableWidgetInterface_Up_Params params;
 
@@ -31342,7 +31590,7 @@ bool UTslFocusableWidgetInterface::Up()
 bool UTslFocusableWidgetInterface::SetFocus(bool NewFocus)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22128);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22204);
 
 	UTslFocusableWidgetInterface_SetFocus_Params params;
 	params.NewFocus = NewFocus;
@@ -31365,7 +31613,7 @@ bool UTslFocusableWidgetInterface::SetFocus(bool NewFocus)
 bool UTslFocusableWidgetInterface::Right()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22126);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22202);
 
 	UTslFocusableWidgetInterface_Right_Params params;
 
@@ -31387,7 +31635,7 @@ bool UTslFocusableWidgetInterface::Right()
 bool UTslFocusableWidgetInterface::Left()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22124);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22200);
 
 	UTslFocusableWidgetInterface_Left_Params params;
 
@@ -31409,7 +31657,7 @@ bool UTslFocusableWidgetInterface::Left()
 bool UTslFocusableWidgetInterface::IsFocusable()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22122);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22198);
 
 	UTslFocusableWidgetInterface_IsFocusable_Params params;
 
@@ -31431,7 +31679,7 @@ bool UTslFocusableWidgetInterface::IsFocusable()
 bool UTslFocusableWidgetInterface::IsFocus()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22120);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22196);
 
 	UTslFocusableWidgetInterface_IsFocus_Params params;
 
@@ -31453,7 +31701,7 @@ bool UTslFocusableWidgetInterface::IsFocus()
 bool UTslFocusableWidgetInterface::InputY()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22118);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22194);
 
 	UTslFocusableWidgetInterface_InputY_Params params;
 
@@ -31475,7 +31723,7 @@ bool UTslFocusableWidgetInterface::InputY()
 bool UTslFocusableWidgetInterface::InputX()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22116);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22192);
 
 	UTslFocusableWidgetInterface_InputX_Params params;
 
@@ -31497,7 +31745,7 @@ bool UTslFocusableWidgetInterface::InputX()
 bool UTslFocusableWidgetInterface::InputRT()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22114);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22190);
 
 	UTslFocusableWidgetInterface_InputRT_Params params;
 
@@ -31519,7 +31767,7 @@ bool UTslFocusableWidgetInterface::InputRT()
 bool UTslFocusableWidgetInterface::InputRB()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22112);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22188);
 
 	UTslFocusableWidgetInterface_InputRB_Params params;
 
@@ -31541,7 +31789,7 @@ bool UTslFocusableWidgetInterface::InputRB()
 bool UTslFocusableWidgetInterface::InputLT()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22110);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22186);
 
 	UTslFocusableWidgetInterface_InputLT_Params params;
 
@@ -31563,7 +31811,7 @@ bool UTslFocusableWidgetInterface::InputLT()
 bool UTslFocusableWidgetInterface::InputLB()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22108);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22184);
 
 	UTslFocusableWidgetInterface_InputLB_Params params;
 
@@ -31585,7 +31833,7 @@ bool UTslFocusableWidgetInterface::InputLB()
 bool UTslFocusableWidgetInterface::InputB()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22106);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22182);
 
 	UTslFocusableWidgetInterface_InputB_Params params;
 
@@ -31607,7 +31855,7 @@ bool UTslFocusableWidgetInterface::InputB()
 bool UTslFocusableWidgetInterface::InputA()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22104);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22180);
 
 	UTslFocusableWidgetInterface_InputA_Params params;
 
@@ -31629,7 +31877,7 @@ bool UTslFocusableWidgetInterface::InputA()
 class UUserWidget* UTslFocusableWidgetInterface::GetUpWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22102);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22178);
 
 	UTslFocusableWidgetInterface_GetUpWidget_Params params;
 
@@ -31651,7 +31899,7 @@ class UUserWidget* UTslFocusableWidgetInterface::GetUpWidget()
 class UUserWidget* UTslFocusableWidgetInterface::GetRightWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22100);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22176);
 
 	UTslFocusableWidgetInterface_GetRightWidget_Params params;
 
@@ -31673,7 +31921,7 @@ class UUserWidget* UTslFocusableWidgetInterface::GetRightWidget()
 class UUserWidget* UTslFocusableWidgetInterface::GetLeftWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22098);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22174);
 
 	UTslFocusableWidgetInterface_GetLeftWidget_Params params;
 
@@ -31695,7 +31943,7 @@ class UUserWidget* UTslFocusableWidgetInterface::GetLeftWidget()
 class UUserWidget* UTslFocusableWidgetInterface::GetFocusingChildWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22096);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22172);
 
 	UTslFocusableWidgetInterface_GetFocusingChildWidget_Params params;
 
@@ -31717,7 +31965,7 @@ class UUserWidget* UTslFocusableWidgetInterface::GetFocusingChildWidget()
 class UUserWidget* UTslFocusableWidgetInterface::GetDownWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22094);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22170);
 
 	UTslFocusableWidgetInterface_GetDownWidget_Params params;
 
@@ -31739,7 +31987,7 @@ class UUserWidget* UTslFocusableWidgetInterface::GetDownWidget()
 bool UTslFocusableWidgetInterface::Down()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22092);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22168);
 
 	UTslFocusableWidgetInterface_Down_Params params;
 
@@ -31763,7 +32011,7 @@ bool UTslFocusableWidgetInterface::Down()
 void ATslGameMode::SendSystemMessageToAll(ESystemMessageType MessageType, const struct FText& Message, float MessageDuration)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22164);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22240);
 
 	ATslGameMode_SendSystemMessageToAll_Params params;
 	params.MessageType = MessageType;
@@ -31785,7 +32033,7 @@ void ATslGameMode::SendSystemMessageToAll(ESystemMessageType MessageType, const 
 void ATslGameMode::NotifyRestrictingPlayAreaToAll()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22163);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22239);
 
 	ATslGameMode_NotifyRestrictingPlayAreaToAll_Params params;
 
@@ -31807,7 +32055,7 @@ void ATslGameMode::NotifyRestrictingPlayAreaToAll()
 void ATslGameMode::NotifyNextGasInToAll(const struct FVector& PoisonGasWarningPosition, float PoisonGasWarningRadius)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22160);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22236);
 
 	ATslGameMode_NotifyNextGasInToAll_Params params;
 	params.PoisonGasWarningPosition = PoisonGasWarningPosition;
@@ -31830,7 +32078,7 @@ void ATslGameMode::NotifyNextGasInToAll(const struct FVector& PoisonGasWarningPo
 bool ATslGameMode::IsPreventFinishMatch()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22158);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22234);
 
 	ATslGameMode_IsPreventFinishMatch_Params params;
 
@@ -31853,7 +32101,7 @@ bool ATslGameMode::IsPreventFinishMatch()
 bool ATslGameMode::IsPlayInEditor()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22156);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22232);
 
 	ATslGameMode_IsPlayInEditor_Params params;
 
@@ -31876,7 +32124,7 @@ bool ATslGameMode::IsPlayInEditor()
 class UVivoxManager* ATslGameMode::GetVivoxManager()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22154);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22230);
 
 	ATslGameMode_GetVivoxManager_Params params;
 
@@ -31899,7 +32147,7 @@ class UVivoxManager* ATslGameMode::GetVivoxManager()
 class UThingSpawnProcessor* ATslGameMode::GetThingSpawnProcessor()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22152);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22228);
 
 	ATslGameMode_GetThingSpawnProcessor_Params params;
 
@@ -31922,7 +32170,7 @@ class UThingSpawnProcessor* ATslGameMode::GetThingSpawnProcessor()
 class ULobbyLink* ATslGameMode::GetLobbyLink()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22150);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22226);
 
 	ATslGameMode_GetLobbyLink_Params params;
 
@@ -31945,7 +32193,7 @@ class ULobbyLink* ATslGameMode::GetLobbyLink()
 class UItemSpawnProcessor* ATslGameMode::GetItemSpawnProcessor()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22148);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22224);
 
 	ATslGameMode_GetItemSpawnProcessor_Params params;
 
@@ -31968,7 +32216,7 @@ class UItemSpawnProcessor* ATslGameMode::GetItemSpawnProcessor()
 void ATslGameMode::GetAllPawns(TArray<class APawn*>* OutPawns)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22145);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22221);
 
 	ATslGameMode_GetAllPawns_Params params;
 
@@ -31990,7 +32238,7 @@ void ATslGameMode::GetAllPawns(TArray<class APawn*>* OutPawns)
 void ATslGameMode::FinishMatch()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22144);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22220);
 
 	ATslGameMode_FinishMatch_Params params;
 
@@ -32012,7 +32260,7 @@ void ATslGameMode::FinishMatch()
 class ATslCharacter* ATslGameMode::FindCharacterByPlayerState(class APlayerState* State)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22141);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22217);
 
 	ATslGameMode_FindCharacterByPlayerState_Params params;
 	params.State = State;
@@ -32038,7 +32286,7 @@ class ATslCharacter* ATslGameMode::FindCharacterByPlayerState(class APlayerState
 bool ATslGameMode::CanDealDamage(class ATslPlayerState* DamageInstigator, class ATslPlayerState* DamagedPlayer)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22137);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22213);
 
 	ATslGameMode_CanDealDamage_Params params;
 	params.DamageInstigator = DamageInstigator;
@@ -32064,7 +32312,7 @@ bool ATslGameMode::CanDealDamage(class ATslPlayerState* DamageInstigator, class 
 void ATslGameMode::BroadcastGameModeEvent(const struct FName& EventName, const struct FString& Parameter)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22134);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22210);
 
 	ATslGameMode_BroadcastGameModeEvent_Params params;
 	params.EventName = EventName;
@@ -32085,7 +32333,7 @@ void ATslGameMode::BroadcastGameModeEvent(const struct FName& EventName, const s
 void ATslGameMode::BenchmarkFinished()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22133);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22209);
 
 	ATslGameMode_BenchmarkFinished_Params params;
 
@@ -32108,7 +32356,7 @@ void ATslGameMode::BenchmarkFinished()
 struct FText UTslGameOption::STATIC_WheelAxisNameToWheelActionName(const struct FTslInputKey& Key, float InAxisScale)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22858);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22934);
 
 	UTslGameOption_WheelAxisNameToWheelActionName_Params params;
 	params.Key = Key;
@@ -32133,7 +32381,7 @@ struct FText UTslGameOption::STATIC_WheelAxisNameToWheelActionName(const struct 
 void UTslGameOption::STATIC_SetWorldMapZoomLevel(int NewZoomLevel)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22856);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22932);
 
 	UTslGameOption_SetWorldMapZoomLevel_Params params;
 	params.NewZoomLevel = NewZoomLevel;
@@ -32155,7 +32403,7 @@ void UTslGameOption::STATIC_SetWorldMapZoomLevel(int NewZoomLevel)
 void UTslGameOption::STATIC_SetVSyncEnabled(bool bEnable)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22854);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22930);
 
 	UTslGameOption_SetVSyncEnabled_Params params;
 	params.bEnable = bEnable;
@@ -32177,7 +32425,7 @@ void UTslGameOption::STATIC_SetVSyncEnabled(bool bEnable)
 void UTslGameOption::STATIC_SetVoiceOutputVolume(int Volume)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22852);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22928);
 
 	UTslGameOption_SetVoiceOutputVolume_Params params;
 	params.Volume = Volume;
@@ -32199,7 +32447,7 @@ void UTslGameOption::STATIC_SetVoiceOutputVolume(int Volume)
 void UTslGameOption::STATIC_SetVoiceOutputMute(bool bIsMute)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22850);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22926);
 
 	UTslGameOption_SetVoiceOutputMute_Params params;
 	params.bIsMute = bIsMute;
@@ -32221,7 +32469,7 @@ void UTslGameOption::STATIC_SetVoiceOutputMute(bool bIsMute)
 void UTslGameOption::STATIC_SetVoiceInputVolume(int Volume)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22848);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22924);
 
 	UTslGameOption_SetVoiceInputVolume_Params params;
 	params.Volume = Volume;
@@ -32243,7 +32491,7 @@ void UTslGameOption::STATIC_SetVoiceInputVolume(int Volume)
 void UTslGameOption::STATIC_SetVoiceInputMute(bool bIsMute)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22846);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22922);
 
 	UTslGameOption_SetVoiceInputMute_Params params;
 	params.bIsMute = bIsMute;
@@ -32265,7 +32513,7 @@ void UTslGameOption::STATIC_SetVoiceInputMute(bool bIsMute)
 void UTslGameOption::STATIC_SetUseTeamVoice(bool bUse)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22844);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22920);
 
 	UTslGameOption_SetUseTeamVoice_Params params;
 	params.bUse = bUse;
@@ -32287,7 +32535,7 @@ void UTslGameOption::STATIC_SetUseTeamVoice(bool bUse)
 void UTslGameOption::STATIC_SetUsePushToTalk(bool bUse)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22842);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22918);
 
 	UTslGameOption_SetUsePushToTalk_Params params;
 	params.bUse = bUse;
@@ -32309,7 +32557,7 @@ void UTslGameOption::STATIC_SetUsePushToTalk(bool bUse)
 void UTslGameOption::STATIC_SetUseGlobalVoice(bool bUse)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22840);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22916);
 
 	UTslGameOption_SetUseGlobalVoice_Params params;
 	params.bUse = bUse;
@@ -32331,7 +32579,7 @@ void UTslGameOption::STATIC_SetUseGlobalVoice(bool bUse)
 void UTslGameOption::STATIC_SetUseCharacterCapture(bool bUseCharacterCapture)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22838);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22914);
 
 	UTslGameOption_SetUseCharacterCapture_Params params;
 	params.bUseCharacterCapture = bUseCharacterCapture;
@@ -32353,7 +32601,7 @@ void UTslGameOption::STATIC_SetUseCharacterCapture(bool bUseCharacterCapture)
 void UTslGameOption::STATIC_SetUISoundVolume(float Volume)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22836);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22912);
 
 	UTslGameOption_SetUISoundVolume_Params params;
 	params.Volume = Volume;
@@ -32375,7 +32623,7 @@ void UTslGameOption::STATIC_SetUISoundVolume(float Volume)
 void UTslGameOption::STATIC_SetUISoundMute(bool bIsMute)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22834);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22910);
 
 	UTslGameOption_SetUISoundMute_Params params;
 	params.bIsMute = bIsMute;
@@ -32398,7 +32646,7 @@ void UTslGameOption::STATIC_SetUISoundMute(bool bIsMute)
 void UTslGameOption::STATIC_SetTslInputMode(EInputModeSettingActions eAction, ETslInputModes eTslInputMode)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22829);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22905);
 
 	UTslGameOption_SetTslInputMode_Params params;
 	params.eAction = eAction;
@@ -32421,7 +32669,7 @@ void UTslGameOption::STATIC_SetTslInputMode(EInputModeSettingActions eAction, ET
 void UTslGameOption::STATIC_SetTpsWeaponIconShowType(EUiShowType NewShowType)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22826);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22902);
 
 	UTslGameOption_SetTpsWeaponIconShowType_Params params;
 	params.NewShowType = NewShowType;
@@ -32443,7 +32691,7 @@ void UTslGameOption::STATIC_SetTpsWeaponIconShowType(EUiShowType NewShowType)
 void UTslGameOption::STATIC_SetSelectMinimapTypeIndex(int Index)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22824);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22900);
 
 	UTslGameOption_SetSelectMinimapTypeIndex_Params params;
 	params.Index = Index;
@@ -32465,7 +32713,7 @@ void UTslGameOption::STATIC_SetSelectMinimapTypeIndex(int Index)
 void UTslGameOption::STATIC_SetScreenScale(float Value)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22822);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22898);
 
 	UTslGameOption_SetScreenScale_Params params;
 	params.Value = Value;
@@ -32487,7 +32735,7 @@ void UTslGameOption::STATIC_SetScreenScale(float Value)
 void UTslGameOption::STATIC_SetScreenResoultion(const struct FScreenResolution& ScreenResolution)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22820);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22896);
 
 	UTslGameOption_SetScreenResoultion_Params params;
 	params.ScreenResolution = ScreenResolution;
@@ -32510,7 +32758,7 @@ void UTslGameOption::STATIC_SetScreenResoultion(const struct FScreenResolution& 
 void UTslGameOption::STATIC_SetQualityLevel(EQualityType Quality, int QualityLevel)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22816);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22892);
 
 	UTslGameOption_SetQualityLevel_Params params;
 	params.Quality = Quality;
@@ -32533,7 +32781,7 @@ void UTslGameOption::STATIC_SetQualityLevel(EQualityType Quality, int QualityLev
 void UTslGameOption::STATIC_SetOverallScalabilityLevel(int Value)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22814);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22890);
 
 	UTslGameOption_SetOverallScalabilityLevel_Params params;
 	params.Value = Value;
@@ -32556,7 +32804,7 @@ void UTslGameOption::STATIC_SetOverallScalabilityLevel(int Value)
 void UTslGameOption::STATIC_SetMouseSensitivity(const struct FName& InMouseSensitiveName, float InMouseSensitivity)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22811);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22887);
 
 	UTslGameOption_SetMouseSensitivity_Params params;
 	params.InMouseSensitiveName = InMouseSensitiveName;
@@ -32579,7 +32827,7 @@ void UTslGameOption::STATIC_SetMouseSensitivity(const struct FName& InMouseSensi
 void UTslGameOption::STATIC_SetMotionBlur(bool bEnabled)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22809);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22885);
 
 	UTslGameOption_SetMotionBlur_Params params;
 	params.bEnabled = bEnabled;
@@ -32601,7 +32849,7 @@ void UTslGameOption::STATIC_SetMotionBlur(bool bEnabled)
 void UTslGameOption::STATIC_SetMasterSoundVolume(float Volume)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22807);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22883);
 
 	UTslGameOption_SetMasterSoundVolume_Params params;
 	params.Volume = Volume;
@@ -32623,7 +32871,7 @@ void UTslGameOption::STATIC_SetMasterSoundVolume(float Volume)
 void UTslGameOption::STATIC_SetMasterSoundMute(bool bIsMute)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22805);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22881);
 
 	UTslGameOption_SetMasterSoundMute_Params params;
 	params.bIsMute = bIsMute;
@@ -32645,7 +32893,7 @@ void UTslGameOption::STATIC_SetMasterSoundMute(bool bIsMute)
 void UTslGameOption::STATIC_SetInvertMouse(bool bInvert)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22803);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22879);
 
 	UTslGameOption_SetInvertMouse_Params params;
 	params.bInvert = bInvert;
@@ -32667,7 +32915,7 @@ void UTslGameOption::STATIC_SetInvertMouse(bool bInvert)
 void UTslGameOption::STATIC_SetInvertGamePadY(bool bInvert)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22801);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22877);
 
 	UTslGameOption_SetInvertGamePadY_Params params;
 	params.bInvert = bInvert;
@@ -32689,7 +32937,7 @@ void UTslGameOption::STATIC_SetInvertGamePadY(bool bInvert)
 void UTslGameOption::STATIC_SetInvertGamePadX(bool bInvert)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22799);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22875);
 
 	UTslGameOption_SetInvertGamePadX_Params params;
 	params.bInvert = bInvert;
@@ -32714,7 +32962,7 @@ void UTslGameOption::STATIC_SetInvertGamePadX(bool bInvert)
 void UTslGameOption::STATIC_SetInputKey_Internal(const struct FTslInputKey& NewKey, EKeyBindingSlot InKeyBindingSlot, bool bGamepad, TArray<struct FTslInputKey>* OutKeyList)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22792);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22868);
 
 	UTslGameOption_SetInputKey_Internal_Params params;
 	params.NewKey = NewKey;
@@ -32741,7 +32989,7 @@ void UTslGameOption::STATIC_SetInputKey_Internal(const struct FTslInputKey& NewK
 void UTslGameOption::STATIC_SetIconKillfeedEnabled(bool bEnable)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22790);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22866);
 
 	UTslGameOption_SetIconKillfeedEnabled_Params params;
 	params.bEnable = bEnable;
@@ -32763,7 +33011,7 @@ void UTslGameOption::STATIC_SetIconKillfeedEnabled(bool bEnable)
 void UTslGameOption::STATIC_SetGamma(float Gamma)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22788);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22864);
 
 	UTslGameOption_SetGamma_Params params;
 	params.Gamma = Gamma;
@@ -32786,7 +33034,7 @@ void UTslGameOption::STATIC_SetGamma(float Gamma)
 void UTslGameOption::STATIC_SetGamePadSensitivity(const struct FName& InGamePadSensitiveName, float InGamePadSensitivity)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22785);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22861);
 
 	UTslGameOption_SetGamePadSensitivity_Params params;
 	params.InGamePadSensitiveName = InGamePadSensitiveName;
@@ -32809,7 +33057,7 @@ void UTslGameOption::STATIC_SetGamePadSensitivity(const struct FName& InGamePadS
 void UTslGameOption::STATIC_SetGamePadDeadZone(float InGamePadDeadZone)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22783);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22859);
 
 	UTslGameOption_SetGamePadDeadZone_Params params;
 	params.InGamePadDeadZone = InGamePadDeadZone;
@@ -32831,7 +33079,7 @@ void UTslGameOption::STATIC_SetGamePadDeadZone(float InGamePadDeadZone)
 void UTslGameOption::STATIC_SetFullScreen(TEnumAsByte<EWindowMode> InFullscreenMode)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22781);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22857);
 
 	UTslGameOption_SetFullScreen_Params params;
 	params.InFullscreenMode = InFullscreenMode;
@@ -32853,7 +33101,7 @@ void UTslGameOption::STATIC_SetFullScreen(TEnumAsByte<EWindowMode> InFullscreenM
 void UTslGameOption::STATIC_SetFpsWeaponSlotShow(bool bNewShow)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22779);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22855);
 
 	UTslGameOption_SetFpsWeaponSlotShow_Params params;
 	params.bNewShow = bNewShow;
@@ -32875,7 +33123,7 @@ void UTslGameOption::STATIC_SetFpsWeaponSlotShow(bool bNewShow)
 void UTslGameOption::STATIC_SetFpsCameraFov(float NewFovValue)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22777);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22853);
 
 	UTslGameOption_SetFpsCameraFov_Params params;
 	params.NewFovValue = NewFovValue;
@@ -32897,7 +33145,7 @@ void UTslGameOption::STATIC_SetFpsCameraFov(float NewFovValue)
 void UTslGameOption::STATIC_SetFppWeaponIconShowType(EUiShowType NewShowType)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22774);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22850);
 
 	UTslGameOption_SetFppWeaponIconShowType_Params params;
 	params.NewShowType = NewShowType;
@@ -32919,7 +33167,7 @@ void UTslGameOption::STATIC_SetFppWeaponIconShowType(EUiShowType NewShowType)
 void UTslGameOption::STATIC_SetFppEquipableItemIconShowType(EUiShowType NewShowType)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22771);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22847);
 
 	UTslGameOption_SetFppEquipableItemIconShowType_Params params;
 	params.NewShowType = NewShowType;
@@ -32941,7 +33189,7 @@ void UTslGameOption::STATIC_SetFppEquipableItemIconShowType(EUiShowType NewShowT
 void UTslGameOption::STATIC_SetForceFeedbackEffectEnabled(bool bEnabled)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22769);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22845);
 
 	UTslGameOption_SetForceFeedbackEffectEnabled_Params params;
 	params.bEnabled = bEnabled;
@@ -32963,7 +33211,7 @@ void UTslGameOption::STATIC_SetForceFeedbackEffectEnabled(bool bEnabled)
 void UTslGameOption::STATIC_SetEquipableIteIconShow(bool bNewShow)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22767);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22843);
 
 	UTslGameOption_SetEquipableIteIconShow_Params params;
 	params.bNewShow = bNewShow;
@@ -32985,7 +33233,7 @@ void UTslGameOption::STATIC_SetEquipableIteIconShow(bool bNewShow)
 void UTslGameOption::STATIC_SetEnablePreloadingMap(bool bEnabled)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22765);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22841);
 
 	UTslGameOption_SetEnablePreloadingMap_Params params;
 	params.bEnabled = bEnabled;
@@ -33008,7 +33256,7 @@ void UTslGameOption::STATIC_SetEnablePreloadingMap(bool bEnabled)
 void UTslGameOption::STATIC_SetEnableFunctionality(EGameplayFunctionalities eAction, bool bValue)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22761);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22837);
 
 	UTslGameOption_SetEnableFunctionality_Params params;
 	params.eAction = eAction;
@@ -33032,7 +33280,7 @@ void UTslGameOption::STATIC_SetEnableFunctionality(EGameplayFunctionalities eAct
 void UTslGameOption::STATIC_SetEnableClientReplay(EGameplayClientReplay eAction, bool bValue)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22757);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22833);
 
 	UTslGameOption_SetEnableClientReplay_Params params;
 	params.eAction = eAction;
@@ -33055,7 +33303,7 @@ void UTslGameOption::STATIC_SetEnableClientReplay(EGameplayClientReplay eAction,
 void UTslGameOption::STATIC_SetEffectSoundVolume(float Volume)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22755);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22831);
 
 	UTslGameOption_SetEffectSoundVolume_Params params;
 	params.Volume = Volume;
@@ -33077,7 +33325,7 @@ void UTslGameOption::STATIC_SetEffectSoundVolume(float Volume)
 void UTslGameOption::STATIC_SetEffectSoundMute(bool bIsMute)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22753);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22829);
 
 	UTslGameOption_SetEffectSoundMute_Params params;
 	params.bIsMute = bIsMute;
@@ -33099,7 +33347,7 @@ void UTslGameOption::STATIC_SetEffectSoundMute(bool bIsMute)
 void UTslGameOption::STATIC_SetCurrentProvider(const struct FString& ProviderName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22751);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22827);
 
 	UTslGameOption_SetCurrentProvider_Params params;
 	params.ProviderName = ProviderName;
@@ -33121,7 +33369,7 @@ void UTslGameOption::STATIC_SetCurrentProvider(const struct FString& ProviderNam
 void UTslGameOption::STATIC_SetCurrentCultureName(const struct FString& InCultureName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22749);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22825);
 
 	UTslGameOption_SetCurrentCultureName_Params params;
 	params.InCultureName = InCultureName;
@@ -33143,7 +33391,7 @@ void UTslGameOption::STATIC_SetCurrentCultureName(const struct FString& InCultur
 void UTslGameOption::STATIC_SetCurrentCrosshairColorString(const struct FString& CrosshairColorStr)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22747);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22823);
 
 	UTslGameOption_SetCurrentCrosshairColorString_Params params;
 	params.CrosshairColorStr = CrosshairColorStr;
@@ -33165,7 +33413,7 @@ void UTslGameOption::STATIC_SetCurrentCrosshairColorString(const struct FString&
 void UTslGameOption::STATIC_SetCurrentColorBlindKeyByInt(int ColorBlindKey)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22745);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22821);
 
 	UTslGameOption_SetCurrentColorBlindKeyByInt_Params params;
 	params.ColorBlindKey = ColorBlindKey;
@@ -33187,7 +33435,7 @@ void UTslGameOption::STATIC_SetCurrentColorBlindKeyByInt(int ColorBlindKey)
 void UTslGameOption::STATIC_SetCurrentColorBlindKey(EColorBlindType ColorBlindKey)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22742);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22818);
 
 	UTslGameOption_SetCurrentColorBlindKey_Params params;
 	params.ColorBlindKey = ColorBlindKey;
@@ -33209,7 +33457,7 @@ void UTslGameOption::STATIC_SetCurrentColorBlindKey(EColorBlindType ColorBlindKe
 void UTslGameOption::STATIC_SetBGMSoundVolume(float Volume)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22740);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22816);
 
 	UTslGameOption_SetBGMSoundVolume_Params params;
 	params.Volume = Volume;
@@ -33231,7 +33479,7 @@ void UTslGameOption::STATIC_SetBGMSoundVolume(float Volume)
 void UTslGameOption::STATIC_SetBGMSoundMute(bool bIsMute)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22738);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22814);
 
 	UTslGameOption_SetBGMSoundMute_Params params;
 	params.bIsMute = bIsMute;
@@ -33254,7 +33502,7 @@ void UTslGameOption::STATIC_SetBGMSoundMute(bool bIsMute)
 void UTslGameOption::STATIC_SetAxisKeysToDefault(const struct FName& AxisName, float Scale)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22735);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22811);
 
 	UTslGameOption_SetAxisKeysToDefault_Params params;
 	params.AxisName = AxisName;
@@ -33279,7 +33527,7 @@ void UTslGameOption::STATIC_SetAxisKeysToDefault(const struct FName& AxisName, f
 void UTslGameOption::STATIC_SetAxisKeys(const struct FName& AxisName, float Scale, TArray<struct FTslInputKey> NewKeys)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22730);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22806);
 
 	UTslGameOption_SetAxisKeys_Params params;
 	params.AxisName = AxisName;
@@ -33307,7 +33555,7 @@ void UTslGameOption::STATIC_SetAxisKeys(const struct FName& AxisName, float Scal
 void UTslGameOption::STATIC_SetAxisKey(const struct FName& AxisName, float Scale, const struct FTslInputKey& NewKey, EKeyBindingSlot InKeyBindingSlot, bool bGamepad)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22723);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22799);
 
 	UTslGameOption_SetAxisKey_Params params;
 	params.AxisName = AxisName;
@@ -33333,7 +33581,7 @@ void UTslGameOption::STATIC_SetAxisKey(const struct FName& AxisName, float Scale
 void UTslGameOption::STATIC_SetActionKeysToDefault(const struct FName& ActionName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22721);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22797);
 
 	UTslGameOption_SetActionKeysToDefault_Params params;
 	params.ActionName = ActionName;
@@ -33356,7 +33604,7 @@ void UTslGameOption::STATIC_SetActionKeysToDefault(const struct FName& ActionNam
 void UTslGameOption::STATIC_SetActionKeys(const struct FName& ActionName, TArray<struct FTslInputKey> NewKeys)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22717);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22793);
 
 	UTslGameOption_SetActionKeys_Params params;
 	params.ActionName = ActionName;
@@ -33382,7 +33630,7 @@ void UTslGameOption::STATIC_SetActionKeys(const struct FName& ActionName, TArray
 void UTslGameOption::STATIC_SetActionKey(const struct FName& ActionName, const struct FTslInputKey& NewKey, EKeyBindingSlot InKeyBindingSlot, bool bGamepad)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22711);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22787);
 
 	UTslGameOption_SetActionKey_Params params;
 	params.ActionName = ActionName;
@@ -33408,7 +33656,7 @@ void UTslGameOption::STATIC_SetActionKey(const struct FName& ActionName, const s
 TArray<struct FName> UTslGameOption::STATIC_NotDuplicateCategoryNames(const struct FName& CatecoryName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22707);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22783);
 
 	UTslGameOption_NotDuplicateCategoryNames_Params params;
 	params.CatecoryName = CatecoryName;
@@ -33432,7 +33680,7 @@ TArray<struct FName> UTslGameOption::STATIC_NotDuplicateCategoryNames(const stru
 bool UTslGameOption::STATIC_IsVSyncEnabled()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22705);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22781);
 
 	UTslGameOption_IsVSyncEnabled_Params params;
 
@@ -33455,7 +33703,7 @@ bool UTslGameOption::STATIC_IsVSyncEnabled()
 bool UTslGameOption::STATIC_IsVoiceOutputMute()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22703);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22779);
 
 	UTslGameOption_IsVoiceOutputMute_Params params;
 
@@ -33478,7 +33726,7 @@ bool UTslGameOption::STATIC_IsVoiceOutputMute()
 bool UTslGameOption::STATIC_IsVoiceInputMute()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22701);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22777);
 
 	UTslGameOption_IsVoiceInputMute_Params params;
 
@@ -33501,7 +33749,7 @@ bool UTslGameOption::STATIC_IsVoiceInputMute()
 bool UTslGameOption::STATIC_IsUISoundMute()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22699);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22775);
 
 	UTslGameOption_IsUISoundMute_Params params;
 
@@ -33525,7 +33773,7 @@ bool UTslGameOption::STATIC_IsUISoundMute()
 bool UTslGameOption::STATIC_IsMouseWheelInput(const struct FTslInputKey& InInputedKey)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22696);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22772);
 
 	UTslGameOption_IsMouseWheelInput_Params params;
 	params.InInputedKey = InInputedKey;
@@ -33550,7 +33798,7 @@ bool UTslGameOption::STATIC_IsMouseWheelInput(const struct FTslInputKey& InInput
 bool UTslGameOption::STATIC_IsModifierKey(const struct FTslInputKey& Key)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22693);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22769);
 
 	UTslGameOption_IsModifierKey_Params params;
 	params.Key = Key;
@@ -33574,7 +33822,7 @@ bool UTslGameOption::STATIC_IsModifierKey(const struct FTslInputKey& Key)
 bool UTslGameOption::STATIC_IsMasterSoundMute()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22691);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22767);
 
 	UTslGameOption_IsMasterSoundMute_Params params;
 
@@ -33598,7 +33846,7 @@ bool UTslGameOption::STATIC_IsMasterSoundMute()
 bool UTslGameOption::STATIC_IsKeyValid(const struct FTslInputKey& Key)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22688);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22764);
 
 	UTslGameOption_IsKeyValid_Params params;
 	params.Key = Key;
@@ -33623,7 +33871,7 @@ bool UTslGameOption::STATIC_IsKeyValid(const struct FTslInputKey& Key)
 bool UTslGameOption::STATIC_IsKeyUsed(const struct FTslInputKey& Key)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22685);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22761);
 
 	UTslGameOption_IsKeyUsed_Params params;
 	params.Key = Key;
@@ -33647,7 +33895,7 @@ bool UTslGameOption::STATIC_IsKeyUsed(const struct FTslInputKey& Key)
 bool UTslGameOption::STATIC_IsInvertMouse()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22683);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22759);
 
 	UTslGameOption_IsInvertMouse_Params params;
 
@@ -33670,7 +33918,7 @@ bool UTslGameOption::STATIC_IsInvertMouse()
 bool UTslGameOption::STATIC_IsInvertGamePadY()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22681);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22757);
 
 	UTslGameOption_IsInvertGamePadY_Params params;
 
@@ -33693,7 +33941,7 @@ bool UTslGameOption::STATIC_IsInvertGamePadY()
 bool UTslGameOption::STATIC_IsInvertGamePadX()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22679);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22755);
 
 	UTslGameOption_IsInvertGamePadX_Params params;
 
@@ -33716,7 +33964,7 @@ bool UTslGameOption::STATIC_IsInvertGamePadX()
 bool UTslGameOption::STATIC_IsIconKillfeedEnabled()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22677);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22753);
 
 	UTslGameOption_IsIconKillfeedEnabled_Params params;
 
@@ -33740,7 +33988,7 @@ bool UTslGameOption::STATIC_IsIconKillfeedEnabled()
 bool UTslGameOption::STATIC_IsGamepadKey(const struct FTslInputKey& Key)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22674);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22750);
 
 	UTslGameOption_IsGamepadKey_Params params;
 	params.Key = Key;
@@ -33765,7 +34013,7 @@ bool UTslGameOption::STATIC_IsGamepadKey(const struct FTslInputKey& Key)
 bool UTslGameOption::STATIC_IsFunctionalityEnabled(EGameplayFunctionalities eAction)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22670);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22746);
 
 	UTslGameOption_IsFunctionalityEnabled_Params params;
 	params.eAction = eAction;
@@ -33789,7 +34037,7 @@ bool UTslGameOption::STATIC_IsFunctionalityEnabled(EGameplayFunctionalities eAct
 bool UTslGameOption::STATIC_IsForceFeedbackEffectEnabled()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22668);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22744);
 
 	UTslGameOption_IsForceFeedbackEffectEnabled_Params params;
 
@@ -33812,7 +34060,7 @@ bool UTslGameOption::STATIC_IsForceFeedbackEffectEnabled()
 bool UTslGameOption::STATIC_IsEnabledPreloadingMap()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22666);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22742);
 
 	UTslGameOption_IsEnabledPreloadingMap_Params params;
 
@@ -33835,7 +34083,7 @@ bool UTslGameOption::STATIC_IsEnabledPreloadingMap()
 bool UTslGameOption::STATIC_IsEnabledMotionBlur()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22664);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22740);
 
 	UTslGameOption_IsEnabledMotionBlur_Params params;
 
@@ -33858,7 +34106,7 @@ bool UTslGameOption::STATIC_IsEnabledMotionBlur()
 bool UTslGameOption::STATIC_IsEffectSoundMute()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22662);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22738);
 
 	UTslGameOption_IsEffectSoundMute_Params params;
 
@@ -33882,7 +34130,7 @@ bool UTslGameOption::STATIC_IsEffectSoundMute()
 bool UTslGameOption::STATIC_IsDoubleTapSupported(EInputModeSettingActions eAction)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22658);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22734);
 
 	UTslGameOption_IsDoubleTapSupported_Params params;
 	params.eAction = eAction;
@@ -33907,7 +34155,7 @@ bool UTslGameOption::STATIC_IsDoubleTapSupported(EInputModeSettingActions eActio
 bool UTslGameOption::STATIC_IsDefaultFunctionalityEnabled(EGameplayFunctionalities eAction)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22654);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22730);
 
 	UTslGameOption_IsDefaultFunctionalityEnabled_Params params;
 	params.eAction = eAction;
@@ -33932,7 +34180,7 @@ bool UTslGameOption::STATIC_IsDefaultFunctionalityEnabled(EGameplayFunctionaliti
 bool UTslGameOption::STATIC_IsDefaultClientReplayEnabled(EGameplayClientReplay eAction)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22650);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22726);
 
 	UTslGameOption_IsDefaultClientReplayEnabled_Params params;
 	params.eAction = eAction;
@@ -33957,7 +34205,7 @@ bool UTslGameOption::STATIC_IsDefaultClientReplayEnabled(EGameplayClientReplay e
 bool UTslGameOption::STATIC_IsClientReplayEnabled(EGameplayClientReplay eAction)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22646);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22722);
 
 	UTslGameOption_IsClientReplayEnabled_Params params;
 	params.eAction = eAction;
@@ -33981,7 +34229,7 @@ bool UTslGameOption::STATIC_IsClientReplayEnabled(EGameplayClientReplay eAction)
 bool UTslGameOption::STATIC_IsBGMSoundMute()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22644);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22720);
 
 	UTslGameOption_IsBGMSoundMute_Params params;
 
@@ -34004,7 +34252,7 @@ bool UTslGameOption::STATIC_IsBGMSoundMute()
 int UTslGameOption::STATIC_GetWorldMapZoomSpeedLevel()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22642);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22718);
 
 	UTslGameOption_GetWorldMapZoomSpeedLevel_Params params;
 
@@ -34027,7 +34275,7 @@ int UTslGameOption::STATIC_GetWorldMapZoomSpeedLevel()
 int UTslGameOption::STATIC_GetVoiceOutputVolume()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22640);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22716);
 
 	UTslGameOption_GetVoiceOutputVolume_Params params;
 
@@ -34050,7 +34298,7 @@ int UTslGameOption::STATIC_GetVoiceOutputVolume()
 int UTslGameOption::STATIC_GetVoiceInputVolume()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22638);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22714);
 
 	UTslGameOption_GetVoiceInputVolume_Params params;
 
@@ -34073,7 +34321,7 @@ int UTslGameOption::STATIC_GetVoiceInputVolume()
 bool UTslGameOption::STATIC_GetUseTeamVoice()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22636);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22712);
 
 	UTslGameOption_GetUseTeamVoice_Params params;
 
@@ -34096,7 +34344,7 @@ bool UTslGameOption::STATIC_GetUseTeamVoice()
 bool UTslGameOption::STATIC_GetUsePushToTalk()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22634);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22710);
 
 	UTslGameOption_GetUsePushToTalk_Params params;
 
@@ -34119,7 +34367,7 @@ bool UTslGameOption::STATIC_GetUsePushToTalk()
 bool UTslGameOption::STATIC_GetUseGlobalVoice()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22632);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22708);
 
 	UTslGameOption_GetUseGlobalVoice_Params params;
 
@@ -34142,7 +34390,7 @@ bool UTslGameOption::STATIC_GetUseGlobalVoice()
 bool UTslGameOption::STATIC_GetUseCharacterCapture()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22630);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22706);
 
 	UTslGameOption_GetUseCharacterCapture_Params params;
 
@@ -34165,7 +34413,7 @@ bool UTslGameOption::STATIC_GetUseCharacterCapture()
 float UTslGameOption::STATIC_GetUISoundVolume()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22628);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22704);
 
 	UTslGameOption_GetUISoundVolume_Params params;
 
@@ -34189,7 +34437,7 @@ float UTslGameOption::STATIC_GetUISoundVolume()
 ETslInputModes UTslGameOption::STATIC_GetTslInputMode(EInputModeSettingActions eAction)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22623);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22699);
 
 	UTslGameOption_GetTslInputMode_Params params;
 	params.eAction = eAction;
@@ -34213,7 +34461,7 @@ ETslInputModes UTslGameOption::STATIC_GetTslInputMode(EInputModeSettingActions e
 EUiShowType UTslGameOption::STATIC_GetTpsWeaponIconShowType()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22620);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22696);
 
 	UTslGameOption_GetTpsWeaponIconShowType_Params params;
 
@@ -34236,7 +34484,7 @@ EUiShowType UTslGameOption::STATIC_GetTpsWeaponIconShowType()
 TArray<struct FScreenResolution> UTslGameOption::STATIC_GetSupportedScreenResolutions()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22617);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22693);
 
 	UTslGameOption_GetSupportedScreenResolutions_Params params;
 
@@ -34259,7 +34507,7 @@ TArray<struct FScreenResolution> UTslGameOption::STATIC_GetSupportedScreenResolu
 TArray<struct FSurportQualityLevel> UTslGameOption::STATIC_GetSupportedQualityLevels()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22614);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22690);
 
 	UTslGameOption_GetSupportedQualityLevels_Params params;
 
@@ -34282,7 +34530,7 @@ TArray<struct FSurportQualityLevel> UTslGameOption::STATIC_GetSupportedQualityLe
 bool UTslGameOption::STATIC_GetSupportedKillcam()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22612);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22688);
 
 	UTslGameOption_GetSupportedKillcam_Params params;
 
@@ -34305,7 +34553,7 @@ bool UTslGameOption::STATIC_GetSupportedKillcam()
 float UTslGameOption::STATIC_GetSupportedFpsCameraFovRangeMin()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22610);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22686);
 
 	UTslGameOption_GetSupportedFpsCameraFovRangeMin_Params params;
 
@@ -34328,7 +34576,7 @@ float UTslGameOption::STATIC_GetSupportedFpsCameraFovRangeMin()
 float UTslGameOption::STATIC_GetSupportedFpsCameraFovRangeMax()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22608);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22684);
 
 	UTslGameOption_GetSupportedFpsCameraFovRangeMax_Params params;
 
@@ -34351,7 +34599,7 @@ float UTslGameOption::STATIC_GetSupportedFpsCameraFovRangeMax()
 bool UTslGameOption::STATIC_GetSupportedClientReplay()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22606);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22682);
 
 	UTslGameOption_GetSupportedClientReplay_Params params;
 
@@ -34374,7 +34622,7 @@ bool UTslGameOption::STATIC_GetSupportedClientReplay()
 int UTslGameOption::STATIC_GetSelectMiniMapTypeIndex()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22604);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22680);
 
 	UTslGameOption_GetSelectMiniMapTypeIndex_Params params;
 
@@ -34397,7 +34645,7 @@ int UTslGameOption::STATIC_GetSelectMiniMapTypeIndex()
 float UTslGameOption::STATIC_GetScreenScale()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22602);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22678);
 
 	UTslGameOption_GetScreenScale_Params params;
 
@@ -34420,7 +34668,7 @@ float UTslGameOption::STATIC_GetScreenScale()
 struct FScreenResolution UTslGameOption::STATIC_GetScreenResolution()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22600);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22676);
 
 	UTslGameOption_GetScreenResolution_Params params;
 
@@ -34443,7 +34691,7 @@ struct FScreenResolution UTslGameOption::STATIC_GetScreenResolution()
 bool UTslGameOption::STATIC_GetReplayOptionEditable()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22598);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22674);
 
 	UTslGameOption_GetReplayOptionEditable_Params params;
 
@@ -34467,7 +34715,7 @@ bool UTslGameOption::STATIC_GetReplayOptionEditable()
 int UTslGameOption::STATIC_GetQualityLevel(EQualityType Quality)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22594);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22670);
 
 	UTslGameOption_GetQualityLevel_Params params;
 	params.Quality = Quality;
@@ -34491,7 +34739,7 @@ int UTslGameOption::STATIC_GetQualityLevel(EQualityType Quality)
 int UTslGameOption::STATIC_GetOverallScalabilityLevel()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22592);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22668);
 
 	UTslGameOption_GetOverallScalabilityLevel_Params params;
 
@@ -34515,7 +34763,7 @@ int UTslGameOption::STATIC_GetOverallScalabilityLevel()
 struct FString UTslGameOption::STATIC_GetNativeName(const struct FString& InCultureName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22589);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22665);
 
 	UTslGameOption_GetNativeName_Params params;
 	params.InCultureName = InCultureName;
@@ -34540,7 +34788,7 @@ struct FString UTslGameOption::STATIC_GetNativeName(const struct FString& InCult
 struct FString UTslGameOption::STATIC_GetNativeLanguage(const struct FString& InCultureName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22586);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22662);
 
 	UTslGameOption_GetNativeLanguage_Params params;
 	params.InCultureName = InCultureName;
@@ -34565,7 +34813,7 @@ struct FString UTslGameOption::STATIC_GetNativeLanguage(const struct FString& In
 float UTslGameOption::STATIC_GetMouseSensitivity(const struct FName& InMouseSensitiveName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22583);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22659);
 
 	UTslGameOption_GetMouseSensitivity_Params params;
 	params.InMouseSensitiveName = InMouseSensitiveName;
@@ -34589,7 +34837,7 @@ float UTslGameOption::STATIC_GetMouseSensitivity(const struct FName& InMouseSens
 TArray<struct FUiType> UTslGameOption::STATIC_GetMiniMapTypes()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22580);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22656);
 
 	UTslGameOption_GetMiniMapTypes_Params params;
 
@@ -34612,7 +34860,7 @@ TArray<struct FUiType> UTslGameOption::STATIC_GetMiniMapTypes()
 float UTslGameOption::STATIC_GetMasterSoundVolume()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22578);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22654);
 
 	UTslGameOption_GetMasterSoundVolume_Params params;
 
@@ -34636,7 +34884,7 @@ float UTslGameOption::STATIC_GetMasterSoundVolume()
 struct FText UTslGameOption::STATIC_GetKeyName(const struct FTslInputKey& Key)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22575);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22651);
 
 	UTslGameOption_GetKeyName_Params params;
 	params.Key = Key;
@@ -34660,7 +34908,7 @@ struct FText UTslGameOption::STATIC_GetKeyName(const struct FTslInputKey& Key)
 TArray<struct FKeyInputModeName> UTslGameOption::STATIC_GetKeyInputModeNames()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22572);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22648);
 
 	UTslGameOption_GetKeyInputModeNames_Params params;
 
@@ -34683,7 +34931,7 @@ TArray<struct FKeyInputModeName> UTslGameOption::STATIC_GetKeyInputModeNames()
 float UTslGameOption::STATIC_GetGamma()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22570);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22646);
 
 	UTslGameOption_GetGamma_Params params;
 
@@ -34707,7 +34955,7 @@ float UTslGameOption::STATIC_GetGamma()
 float UTslGameOption::STATIC_GetGamePadSensitivity(const struct FName& InGamePadSensitiveName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22567);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22643);
 
 	UTslGameOption_GetGamePadSensitivity_Params params;
 	params.InGamePadSensitiveName = InGamePadSensitiveName;
@@ -34731,7 +34979,7 @@ float UTslGameOption::STATIC_GetGamePadSensitivity(const struct FName& InGamePad
 float UTslGameOption::STATIC_GetGamePadDeadZone()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22565);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22641);
 
 	UTslGameOption_GetGamePadDeadZone_Params params;
 
@@ -34754,7 +35002,7 @@ float UTslGameOption::STATIC_GetGamePadDeadZone()
 TEnumAsByte<EWindowMode> UTslGameOption::STATIC_GetFullscreenMode()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22563);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22639);
 
 	UTslGameOption_GetFullscreenMode_Params params;
 
@@ -34777,7 +35025,7 @@ TEnumAsByte<EWindowMode> UTslGameOption::STATIC_GetFullscreenMode()
 float UTslGameOption::STATIC_GetFpsCameraFov()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22561);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22637);
 
 	UTslGameOption_GetFpsCameraFov_Params params;
 
@@ -34800,7 +35048,7 @@ float UTslGameOption::STATIC_GetFpsCameraFov()
 EUiShowType UTslGameOption::STATIC_GetFppWeaponIconShowType()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22558);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22634);
 
 	UTslGameOption_GetFppWeaponIconShowType_Params params;
 
@@ -34823,7 +35071,7 @@ EUiShowType UTslGameOption::STATIC_GetFppWeaponIconShowType()
 EUiShowType UTslGameOption::STATIC_GetFppEquipableItemIconShowType()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22555);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22631);
 
 	UTslGameOption_GetFppEquipableItemIconShowType_Params params;
 
@@ -34846,7 +35094,7 @@ EUiShowType UTslGameOption::STATIC_GetFppEquipableItemIconShowType()
 float UTslGameOption::STATIC_GetEffectSoundVolume()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22553);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22629);
 
 	UTslGameOption_GetEffectSoundVolume_Params params;
 
@@ -34870,7 +35118,7 @@ float UTslGameOption::STATIC_GetEffectSoundVolume()
 ETslInputModes UTslGameOption::STATIC_GetDefaultInputModeSetting(EInputModeSettingActions eAction)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22548);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22624);
 
 	UTslGameOption_GetDefaultInputModeSetting_Params params;
 	params.eAction = eAction;
@@ -34894,7 +35142,7 @@ ETslInputModes UTslGameOption::STATIC_GetDefaultInputModeSetting(EInputModeSetti
 struct FString UTslGameOption::STATIC_GetDefaultCultureName()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22546);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22622);
 
 	UTslGameOption_GetDefaultCultureName_Params params;
 
@@ -34917,7 +35165,7 @@ struct FString UTslGameOption::STATIC_GetDefaultCultureName()
 struct FString UTslGameOption::STATIC_GetCurrentProvider()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22544);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22620);
 
 	UTslGameOption_GetCurrentProvider_Params params;
 
@@ -34940,7 +35188,7 @@ struct FString UTslGameOption::STATIC_GetCurrentProvider()
 struct FString UTslGameOption::STATIC_GetCurrentCultureName()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22542);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22618);
 
 	UTslGameOption_GetCurrentCultureName_Params params;
 
@@ -34963,7 +35211,7 @@ struct FString UTslGameOption::STATIC_GetCurrentCultureName()
 struct FString UTslGameOption::STATIC_GetCurrentCrosshairColorStr()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22540);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22616);
 
 	UTslGameOption_GetCurrentCrosshairColorStr_Params params;
 
@@ -34986,7 +35234,7 @@ struct FString UTslGameOption::STATIC_GetCurrentCrosshairColorStr()
 EColorBlindType UTslGameOption::STATIC_GetCurrentColorBlindKey()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22537);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22613);
 
 	UTslGameOption_GetCurrentColorBlindKey_Params params;
 
@@ -35009,7 +35257,7 @@ EColorBlindType UTslGameOption::STATIC_GetCurrentColorBlindKey()
 TArray<struct FPresetColor> UTslGameOption::STATIC_GetCrosshairColors()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22534);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22610);
 
 	UTslGameOption_GetCrosshairColors_Params params;
 
@@ -35033,7 +35281,7 @@ TArray<struct FPresetColor> UTslGameOption::STATIC_GetCrosshairColors()
 float UTslGameOption::STATIC_GetConvertedMouseSensitivity(const struct FName& InMouseSensitiveName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22531);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22607);
 
 	UTslGameOption_GetConvertedMouseSensitivity_Params params;
 	params.InMouseSensitiveName = InMouseSensitiveName;
@@ -35058,7 +35306,7 @@ float UTslGameOption::STATIC_GetConvertedMouseSensitivity(const struct FName& In
 float UTslGameOption::STATIC_GetConvertedGamePadSensitivity(const struct FName& InGamePadSensitiveName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22528);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22604);
 
 	UTslGameOption_GetConvertedGamePadSensitivity_Params params;
 	params.InGamePadSensitiveName = InGamePadSensitiveName;
@@ -35082,7 +35330,7 @@ float UTslGameOption::STATIC_GetConvertedGamePadSensitivity(const struct FName& 
 TArray<struct FColorBlindType> UTslGameOption::STATIC_GetColorBlindTypes()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22525);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22601);
 
 	UTslGameOption_GetColorBlindTypes_Params params;
 
@@ -35105,7 +35353,7 @@ TArray<struct FColorBlindType> UTslGameOption::STATIC_GetColorBlindTypes()
 float UTslGameOption::STATIC_GetBGMSoundVolume()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22523);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22599);
 
 	UTslGameOption_GetBGMSoundVolume_Params params;
 
@@ -35131,7 +35379,7 @@ float UTslGameOption::STATIC_GetBGMSoundVolume()
 TArray<struct FTslInputKey> UTslGameOption::STATIC_GetAxisKeys(const struct FName& AxisName, float Scale, bool bDefault)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22517);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22593);
 
 	UTslGameOption_GetAxisKeys_Params params;
 	params.AxisName = AxisName;
@@ -35163,7 +35411,7 @@ TArray<struct FTslInputKey> UTslGameOption::STATIC_GetAxisKeys(const struct FNam
 struct FTslInputKey UTslGameOption::STATIC_GetAxisKey(const struct FName& AxisName, float Scale, bool bGamepad, bool bDefault, bool bWantAnyKey, EKeyBindingSlot eKeySlot)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22508);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22584);
 
 	UTslGameOption_GetAxisKey_Params params;
 	params.AxisName = AxisName;
@@ -35192,7 +35440,7 @@ struct FTslInputKey UTslGameOption::STATIC_GetAxisKey(const struct FName& AxisNa
 TArray<struct FString> UTslGameOption::STATIC_GetAvailableProviderNames()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22505);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22581);
 
 	UTslGameOption_GetAvailableProviderNames_Params params;
 
@@ -35215,7 +35463,7 @@ TArray<struct FString> UTslGameOption::STATIC_GetAvailableProviderNames()
 TArray<struct FText> UTslGameOption::STATIC_GetAvailableProviderDisplayNames()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22502);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22578);
 
 	UTslGameOption_GetAvailableProviderDisplayNames_Params params;
 
@@ -35241,7 +35489,7 @@ TArray<struct FText> UTslGameOption::STATIC_GetAvailableProviderDisplayNames()
 TArray<struct FQualityLevelInfo> UTslGameOption::STATIC_GetAutoQualityLevels(int WorkScale, float CPUMultiplier, float GPUMultiplier)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22496);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22572);
 
 	UTslGameOption_GetAutoQualityLevels_Params params;
 	params.WorkScale = WorkScale;
@@ -35269,7 +35517,7 @@ TArray<struct FQualityLevelInfo> UTslGameOption::STATIC_GetAutoQualityLevels(int
 TArray<struct FTslInputKey> UTslGameOption::STATIC_GetActionKeys(const struct FName& ActionName, bool bDefault)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22491);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22567);
 
 	UTslGameOption_GetActionKeys_Params params;
 	params.ActionName = ActionName;
@@ -35299,7 +35547,7 @@ TArray<struct FTslInputKey> UTslGameOption::STATIC_GetActionKeys(const struct FN
 struct FTslInputKey UTslGameOption::STATIC_GetActionKey(const struct FName& ActionName, bool bGamepad, bool bDefault, bool bWantAnyKey, EKeyBindingSlot eKeySlot)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22483);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22559);
 
 	UTslGameOption_GetActionKey_Params params;
 	params.ActionName = ActionName;
@@ -35327,7 +35575,7 @@ struct FTslInputKey UTslGameOption::STATIC_GetActionKey(const struct FName& Acti
 float UTslGameOption::STATIC_DefaultGamePadInnerDeadZone()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22481);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22557);
 
 	UTslGameOption_DefaultGamePadInnerDeadZone_Params params;
 
@@ -35350,7 +35598,7 @@ float UTslGameOption::STATIC_DefaultGamePadInnerDeadZone()
 TArray<struct FCustomizableMouseSensitiveName> UTslGameOption::STATIC_CustomizableMouseSensitiveNames()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22478);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22554);
 
 	UTslGameOption_CustomizableMouseSensitiveNames_Params params;
 
@@ -35373,7 +35621,7 @@ TArray<struct FCustomizableMouseSensitiveName> UTslGameOption::STATIC_Customizab
 TArray<struct FCustomizableGamePadSensitiveName> UTslGameOption::STATIC_CustomizableGamePadSensitiveNames()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22475);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22551);
 
 	UTslGameOption_CustomizableGamePadSensitiveNames_Params params;
 
@@ -35396,7 +35644,7 @@ TArray<struct FCustomizableGamePadSensitiveName> UTslGameOption::STATIC_Customiz
 TArray<struct FTslGame_FCustomizableCategoryData> UTslGameOption::STATIC_CustomizableCategoryData()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22472);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22548);
 
 	UTslGameOption_CustomizableCategoryData_Params params;
 
@@ -35419,7 +35667,7 @@ TArray<struct FTslGame_FCustomizableCategoryData> UTslGameOption::STATIC_Customi
 TArray<struct FTslGame_FCustomizableAxisName> UTslGameOption::STATIC_CustomizableAxisName()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22469);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22545);
 
 	UTslGameOption_CustomizableAxisName_Params params;
 
@@ -35442,7 +35690,7 @@ TArray<struct FTslGame_FCustomizableAxisName> UTslGameOption::STATIC_Customizabl
 TArray<struct FCustomizableActionName> UTslGameOption::STATIC_CustomizableActionNames()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22466);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22542);
 
 	UTslGameOption_CustomizableActionNames_Params params;
 
@@ -35465,7 +35713,7 @@ TArray<struct FCustomizableActionName> UTslGameOption::STATIC_CustomizableAction
 TArray<struct FString> UTslGameOption::STATIC_CultureNames()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22463);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22539);
 
 	UTslGameOption_CultureNames_Params params;
 
@@ -35489,7 +35737,7 @@ TArray<struct FString> UTslGameOption::STATIC_CultureNames()
 ETslInputModes UTslGameOption::STATIC_CastTslInputModeFromName(const struct FName& InputModeName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22459);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22535);
 
 	UTslGameOption_CastTslInputModeFromName_Params params;
 	params.InputModeName = InputModeName;
@@ -35511,7 +35759,7 @@ ETslInputModes UTslGameOption::STATIC_CastTslInputModeFromName(const struct FNam
 void UTslGameOption::STATIC_ApplyMouseSensitivity()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22458);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22534);
 
 	UTslGameOption_ApplyMouseSensitivity_Params params;
 
@@ -35532,7 +35780,7 @@ void UTslGameOption::STATIC_ApplyMouseSensitivity()
 void UTslGameOption::STATIC_ApplyGameUserSettings(bool bCheckForCommandLineOverrides)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22456);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22532);
 
 	UTslGameOption_ApplyGameUserSettings_Params params;
 	params.bCheckForCommandLineOverrides = bCheckForCommandLineOverrides;
@@ -35552,7 +35800,7 @@ void UTslGameOption::STATIC_ApplyGameUserSettings(bool bCheckForCommandLineOverr
 void UTslGameOption::STATIC_ApplyGamePadSensitivity()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22455);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22531);
 
 	UTslGameOption_ApplyGamePadSensitivity_Params params;
 
@@ -35571,7 +35819,7 @@ void UTslGameOption::STATIC_ApplyGamePadSensitivity()
 void UTslGameOption::STATIC_ApplyGamePadDeadZone()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22454);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22530);
 
 	UTslGameOption_ApplyGamePadDeadZone_Params params;
 
@@ -35590,7 +35838,7 @@ void UTslGameOption::STATIC_ApplyGamePadDeadZone()
 void UTslGameOption::STATIC_ApplyAutoQualitySetting()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22453);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22529);
 
 	UTslGameOption_ApplyAutoQualitySetting_Params params;
 
@@ -35611,7 +35859,7 @@ void UTslGameOption::STATIC_ApplyAutoQualitySetting()
 void ATslGameState::UpdateWorldTimeSecondsDelta(float DeltaSeconds)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22910);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22986);
 
 	ATslGameState_UpdateWorldTimeSecondsDelta_Params params;
 	params.DeltaSeconds = DeltaSeconds;
@@ -35631,7 +35879,7 @@ void ATslGameState::UpdateWorldTimeSecondsDelta(float DeltaSeconds)
 void ATslGameState::ShowPlayerStateList()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22909);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22985);
 
 	ATslGameState_ShowPlayerStateList_Params params;
 
@@ -35652,7 +35900,7 @@ void ATslGameState::ShowPlayerStateList()
 void ATslGameState::OnStartGasRelease(bool InbIsGasRelease)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22907);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22983);
 
 	ATslGameState_OnStartGasRelease_Params params;
 	params.InbIsGasRelease = InbIsGasRelease;
@@ -35672,7 +35920,7 @@ void ATslGameState::OnStartGasRelease(bool InbIsGasRelease)
 void ATslGameState::OnRep_NumAlivePlayers()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22906);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22982);
 
 	ATslGameState_OnRep_NumAlivePlayers_Params params;
 
@@ -35691,7 +35939,7 @@ void ATslGameState::OnRep_NumAlivePlayers()
 void ATslGameState::OnRep_MatchShortGuid()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22905);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22981);
 
 	ATslGameState_OnRep_MatchShortGuid_Params params;
 
@@ -35710,7 +35958,7 @@ void ATslGameState::OnRep_MatchShortGuid()
 void ATslGameState::OnRep_MatchId()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22904);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22980);
 
 	ATslGameState_OnRep_MatchId_Params params;
 
@@ -35731,7 +35979,7 @@ void ATslGameState::OnRep_MatchId()
 void ATslGameState::OnRep_GasRelease(bool bLastIsGasRelease)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22902);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22978);
 
 	ATslGameState_OnRep_GasRelease_Params params;
 	params.bLastIsGasRelease = bLastIsGasRelease;
@@ -35753,7 +36001,7 @@ void ATslGameState::OnRep_GasRelease(bool bLastIsGasRelease)
 bool ATslGameState::IsMatchInProgressBP()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22900);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22976);
 
 	ATslGameState_IsMatchInProgressBP_Params params;
 
@@ -35776,7 +36024,7 @@ bool ATslGameState::IsMatchInProgressBP()
 class ALevelAttribute* ATslGameState::GetLevelAttribute()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22898);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22974);
 
 	ATslGameState_GetLevelAttribute_Params params;
 
@@ -35799,7 +36047,7 @@ class ALevelAttribute* ATslGameState::GetLevelAttribute()
 void UTslGlassWindowComponent::OnRep_ReplicatedOnClient(bool bLastReplicatedOnClient)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22963);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23039);
 
 	UTslGlassWindowComponent_OnRep_ReplicatedOnClient_Params params;
 	params.bLastReplicatedOnClient = bLastReplicatedOnClient;
@@ -35821,7 +36069,7 @@ void UTslGlassWindowComponent::OnRep_ReplicatedOnClient(bool bLastReplicatedOnCl
 void UTslGlassWindowComponent::OnRep_Destroyed(bool bLastDestroyed)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22961);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23037);
 
 	UTslGlassWindowComponent_OnRep_Destroyed_Params params;
 	params.bLastDestroyed = bLastDestroyed;
@@ -35845,7 +36093,7 @@ void UTslGlassWindowComponent::OnRep_Destroyed(bool bLastDestroyed)
 void UTslGlassWindowComponent::ClientNotifyHit(bool bBlockingHit, const struct FVector_NetQuantize& Location, const struct FVector_NetQuantizeNormal& ImpactNormal)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22957);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23033);
 
 	UTslGlassWindowComponent_ClientNotifyHit_Params params;
 	params.bBlockingHit = bBlockingHit;
@@ -35869,7 +36117,7 @@ void UTslGlassWindowComponent::ClientNotifyHit(bool bBlockingHit, const struct F
 void UTslGunAnimInstance::HandleFiremodeMontage(class UAnimMontage* FireModeMontage)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22972);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23048);
 
 	UTslGunAnimInstance_HandleFiremodeMontage_Params params;
 	params.FireModeMontage = FireModeMontage;
@@ -35892,7 +36140,7 @@ void UTslGunAnimInstance::HandleFiremodeMontage(class UAnimMontage* FireModeMont
 struct FLinearColor UTslHealthGaugeData::GetGaugeColor(float HealthPercent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22989);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23065);
 
 	UTslHealthGaugeData_GetGaugeColor_Params params;
 	params.HealthPercent = HealthPercent;
@@ -35916,7 +36164,7 @@ struct FLinearColor UTslHealthGaugeData::GetGaugeColor(float HealthPercent)
 void UTslHornComponent::TickHorn(float DeltaSeconds)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23010);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23086);
 
 	UTslHornComponent_TickHorn_Params params;
 	params.DeltaSeconds = DeltaSeconds;
@@ -35938,7 +36186,7 @@ void UTslHornComponent::TickHorn(float DeltaSeconds)
 void UTslHornComponent::ServerSetHorn(const struct FHornPlayInfo& InHornPlayInfo)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23008);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23084);
 
 	UTslHornComponent_ServerSetHorn_Params params;
 	params.InHornPlayInfo = InHornPlayInfo;
@@ -35958,7 +36206,7 @@ void UTslHornComponent::ServerSetHorn(const struct FHornPlayInfo& InHornPlayInfo
 void UTslHornComponent::PlayInstantHorn()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23007);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23083);
 
 	UTslHornComponent_PlayInstantHorn_Params params;
 
@@ -35980,7 +36228,7 @@ void UTslHornComponent::PlayInstantHorn()
 void UTslHornComponent::PlayHorn(bool bIsLocalPlay, EHornSoundType InHornSoundType)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23003);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23079);
 
 	UTslHornComponent_PlayHorn_Params params;
 	params.bIsLocalPlay = bIsLocalPlay;
@@ -36001,7 +36249,7 @@ void UTslHornComponent::PlayHorn(bool bIsLocalPlay, EHornSoundType InHornSoundTy
 void UTslHornComponent::OnRep_SetHornPlayInfo()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23002);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23078);
 
 	UTslHornComponent_OnRep_SetHornPlayInfo_Params params;
 
@@ -36020,7 +36268,7 @@ void UTslHornComponent::OnRep_SetHornPlayInfo()
 void UTslHornComponent::OnPostDriverLeave()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23001);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23077);
 
 	UTslHornComponent_OnPostDriverLeave_Params params;
 
@@ -36039,7 +36287,7 @@ void UTslHornComponent::OnPostDriverLeave()
 void UTslHornComponent::OnHornKeyUp()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23000);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23076);
 
 	UTslHornComponent_OnHornKeyUp_Params params;
 
@@ -36058,7 +36306,7 @@ void UTslHornComponent::OnHornKeyUp()
 void UTslHornComponent::OnHornKeyDown()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22999);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23075);
 
 	UTslHornComponent_OnHornKeyDown_Params params;
 
@@ -36077,7 +36325,7 @@ void UTslHornComponent::OnHornKeyDown()
 void UTslHornComponent::OnHornEnd()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22998);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23074);
 
 	UTslHornComponent_OnHornEnd_Params params;
 
@@ -36098,7 +36346,7 @@ void UTslHornComponent::OnHornEnd()
 void UTslHornComponent::MulticastSetInstantHorn(const struct FHornPlayInfo& InHornPlayInfo)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(22996);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23072);
 
 	UTslHornComponent_MulticastSetInstantHorn_Params params;
 	params.InHornPlayInfo = InHornPlayInfo;
@@ -36120,7 +36368,7 @@ void UTslHornComponent::MulticastSetInstantHorn(const struct FHornPlayInfo& InHo
 void UTslInstancedGlassWindowComponent::OnRep_ReplicatedOnClient(bool bLastReplicatedOnClient)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23108);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23184);
 
 	UTslInstancedGlassWindowComponent_OnRep_ReplicatedOnClient_Params params;
 	params.bLastReplicatedOnClient = bLastReplicatedOnClient;
@@ -36140,7 +36388,7 @@ void UTslInstancedGlassWindowComponent::OnRep_ReplicatedOnClient(bool bLastRepli
 void UTslInstancedGlassWindowComponent::OnRep_PendingDestroy()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23107);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23183);
 
 	UTslInstancedGlassWindowComponent_OnRep_PendingDestroy_Params params;
 
@@ -36159,7 +36407,7 @@ void UTslInstancedGlassWindowComponent::OnRep_PendingDestroy()
 void UTslInstancedGlassWindowComponent::OnRep_Destroyed()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23106);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23182);
 
 	UTslInstancedGlassWindowComponent_OnRep_Destroyed_Params params;
 
@@ -36183,7 +36431,7 @@ void UTslInstancedGlassWindowComponent::OnRep_Destroyed()
 void UTslInstancedGlassWindowComponent::ClientNotifyHit(bool bBlockingHit, const struct FVector_NetQuantize& Location, const struct FVector_NetQuantizeNormal& ImpactNormal, int InstanceIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23101);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23177);
 
 	UTslInstancedGlassWindowComponent_ClientNotifyHit_Params params;
 	params.bBlockingHit = bBlockingHit;
@@ -36206,7 +36454,7 @@ void UTslInstancedGlassWindowComponent::ClientNotifyHit(bool bBlockingHit, const
 void UTslInstancedReactionComponent::OnRep_PendingDestroy()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23136);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23212);
 
 	UTslInstancedReactionComponent_OnRep_PendingDestroy_Params params;
 
@@ -36230,7 +36478,7 @@ void UTslInstancedReactionComponent::OnRep_PendingDestroy()
 void UTslInstancedReactionComponent::Client_ReactByVehicle(int InstanceIndex, const struct FVector& Impact, const struct FVector& ImpulseDir, const struct FVector& Velocity)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23131);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23207);
 
 	UTslInstancedReactionComponent_Client_ReactByVehicle_Params params;
 	params.InstanceIndex = InstanceIndex;
@@ -36260,7 +36508,7 @@ void UTslInstancedReactionComponent::Client_ReactByVehicle(int InstanceIndex, co
 void UTslInstancedReactionComponent::Client_ReactByRadialDamage(int InstanceIndex, float DamageAmount, const struct FVector& Origin, const struct FVector& Impact, const struct FVector& ImpulseDir, float OuterRadius)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23124);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23200);
 
 	UTslInstancedReactionComponent_Client_ReactByRadialDamage_Params params;
 	params.InstanceIndex = InstanceIndex;
@@ -36290,7 +36538,7 @@ void UTslInstancedReactionComponent::Client_ReactByRadialDamage(int InstanceInde
 void UTslInstancedReactionComponent::Client_ReactByPointDamage(int InstanceIndex, float DamageAmount, const struct FVector& Impact, const struct FVector& ImpulseDir)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23119);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23195);
 
 	UTslInstancedReactionComponent_Client_ReactByPointDamage_Params params;
 	params.InstanceIndex = InstanceIndex;
@@ -36315,7 +36563,7 @@ void UTslInstancedReactionComponent::Client_ReactByPointDamage(int InstanceIndex
 void ATslLevelScriptActor::RequestReplayALevelWeatherEvent(const struct FString& EventID)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23164);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23240);
 
 	ATslLevelScriptActor_RequestReplayALevelWeatherEvent_Params params;
 	params.EventID = EventID;
@@ -36335,7 +36583,7 @@ void ATslLevelScriptActor::RequestReplayALevelWeatherEvent(const struct FString&
 void ATslLevelScriptActor::RecordWeatherAsCustomEvent()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23163);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23239);
 
 	ATslLevelScriptActor_RecordWeatherAsCustomEvent_Params params;
 
@@ -36354,7 +36602,7 @@ void ATslLevelScriptActor::RecordWeatherAsCustomEvent()
 void ATslLevelScriptActor::OnRep_SelectedWeatherIndex()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23162);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23238);
 
 	ATslLevelScriptActor_OnRep_SelectedWeatherIndex_Params params;
 
@@ -36373,7 +36621,7 @@ void ATslLevelScriptActor::OnRep_SelectedWeatherIndex()
 void ATslLevelScriptActor::EnumerateReplayLevelEvents()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23161);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23237);
 
 	ATslLevelScriptActor_EnumerateReplayLevelEvents_Params params;
 
@@ -36392,7 +36640,7 @@ void ATslLevelScriptActor::EnumerateReplayLevelEvents()
 void ATslLobbyLevelScriptActor::LatentLoadCustomizationLevel()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23170);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23246);
 
 	ATslLobbyLevelScriptActor_LatentLoadCustomizationLevel_Params params;
 
@@ -36413,7 +36661,7 @@ void ATslLobbyLevelScriptActor::LatentLoadCustomizationLevel()
 void ATslModularBuilding::PassSeparatedFloors(TArray<class UChildActorComponent*> Floors)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23209);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23285);
 
 	ATslModularBuilding_PassSeparatedFloors_Params params;
 	params.Floors = Floors;
@@ -36437,7 +36685,7 @@ void ATslModularBuilding::PassSeparatedFloors(TArray<class UChildActorComponent*
 TArray<class UStaticMeshComponent*> ATslModularBuilding::GetMeshOnSapartedFloor(int SepartedFloor, const struct FString& Keyword)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23204);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23280);
 
 	ATslModularBuilding_GetMeshOnSapartedFloor_Params params;
 	params.SepartedFloor = SepartedFloor;
@@ -36463,7 +36711,7 @@ TArray<class UStaticMeshComponent*> ATslModularBuilding::GetMeshOnSapartedFloor(
 TArray<class UStaticMeshComponent*> ATslModularBuilding::GetBuildingModuleFromTable(const struct FString& Keyword)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23200);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23276);
 
 	ATslModularBuilding_GetBuildingModuleFromTable_Params params;
 	params.Keyword = Keyword;
@@ -36488,7 +36736,7 @@ TArray<class UStaticMeshComponent*> ATslModularBuilding::GetBuildingModuleFromTa
 TArray<class UStaticMeshComponent*> ATslModularBuilding::GetAttachmentsFromTable(const struct FString& Keyword)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23196);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23272);
 
 	ATslModularBuilding_GetAttachmentsFromTable_Params params;
 	params.Keyword = Keyword;
@@ -36510,7 +36758,7 @@ TArray<class UStaticMeshComponent*> ATslModularBuilding::GetAttachmentsFromTable
 void ATslModularBuilding::ClearBuildingModuleTable()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23195);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23271);
 
 	ATslModularBuilding_ClearBuildingModuleTable_Params params;
 
@@ -36529,7 +36777,7 @@ void ATslModularBuilding::ClearBuildingModuleTable()
 void ATslModularBuilding::ClearAttachmentTable()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23194);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23270);
 
 	ATslModularBuilding_ClearAttachmentTable_Params params;
 
@@ -36551,7 +36799,7 @@ void ATslModularBuilding::ClearAttachmentTable()
 void ATslModularBuilding::AddBuildingModuleToTable(const struct FString& Keyword, class UStaticMeshComponent* Building)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23191);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23267);
 
 	ATslModularBuilding_AddBuildingModuleToTable_Params params;
 	params.Keyword = Keyword;
@@ -36575,7 +36823,7 @@ void ATslModularBuilding::AddBuildingModuleToTable(const struct FString& Keyword
 void ATslModularBuilding::AddAttachmentToTable(const struct FString& Keyword, class UStaticMeshComponent* Attachment)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23188);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23264);
 
 	ATslModularBuilding_AddAttachmentToTable_Params params;
 	params.Keyword = Keyword;
@@ -36600,7 +36848,7 @@ void ATslModularBuilding::AddAttachmentToTable(const struct FString& Keyword, cl
 void ATslParticle::SetParticleParameter(const struct FString& Name, float Value, bool bEnableRTPC)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23235);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23311);
 
 	ATslParticle_SetParticleParameter_Params params;
 	params.Name = Name;
@@ -36624,7 +36872,7 @@ void ATslParticle::SetParticleParameter(const struct FString& Name, float Value,
 void ATslParticle::OnParticleFinish(class UParticleSystemComponent* PSystem)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23233);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23309);
 
 	ATslParticle_OnParticleFinish_Params params;
 	params.PSystem = PSystem;
@@ -36654,7 +36902,7 @@ void ATslParticle::OnParticleFinish(class UParticleSystemComponent* PSystem)
 void ATslParticle::OnParticleCollide(const struct FName& EventName, float EmitterTime, int ParticleTime, const struct FVector& Location, const struct FVector& Velocity, const struct FVector& Direction, const struct FVector& Normal, const struct FName& BoneName, class UPhysicalMaterial* PhysMat)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23223);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23299);
 
 	ATslParticle_OnParticleCollide_Params params;
 	params.EventName = EventName;
@@ -36682,7 +36930,7 @@ void ATslParticle::OnParticleCollide(const struct FName& EventName, float Emitte
 void ATslParticle::OnParameterUpdated()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23222);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23298);
 
 	ATslParticle_OnParameterUpdated_Params params;
 
@@ -36704,7 +36952,7 @@ void ATslParticle::OnParameterUpdated()
 float ATslParticle::GetParticleParamter(const struct FString& Name, float DefaultValue)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23218);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23294);
 
 	ATslParticle_GetParticleParamter_Params params;
 	params.Name = Name;
@@ -36729,7 +36977,7 @@ float ATslParticle::GetParticleParamter(const struct FString& Name, float Defaul
 float ATslParticle::STATIC_GetEmitterGlobalSpawnRateScale()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23216);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23292);
 
 	ATslParticle_GetEmitterGlobalSpawnRateScale_Params params;
 
@@ -36753,7 +37001,7 @@ float ATslParticle::STATIC_GetEmitterGlobalSpawnRateScale()
 void ATslParticle::ForceSpawn(int emitterIndex, const struct FVector& InLocation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23213);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23289);
 
 	ATslParticle_ForceSpawn_Params params;
 	params.emitterIndex = emitterIndex;
@@ -36774,7 +37022,7 @@ void ATslParticle::ForceSpawn(int emitterIndex, const struct FVector& InLocation
 void ATslParticle::AttachToParent()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23212);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23288);
 
 	ATslParticle_AttachToParent_Params params;
 
@@ -36795,7 +37043,7 @@ void ATslParticle::AttachToParent()
 void UTslPawnInputBindingComponent::NotifyOwnerUnPossessed(class ATslPlayerController* InController)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23268);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23344);
 
 	UTslPawnInputBindingComponent_NotifyOwnerUnPossessed_Params params;
 	params.InController = InController;
@@ -36817,7 +37065,7 @@ void UTslPawnInputBindingComponent::NotifyOwnerUnPossessed(class ATslPlayerContr
 void UTslPawnInputBindingComponent::NotifyOwnerPossessed(class ATslPlayerController* InController)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23266);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23342);
 
 	UTslPawnInputBindingComponent_NotifyOwnerPossessed_Params params;
 	params.InController = InController;
@@ -36837,7 +37085,7 @@ void UTslPawnInputBindingComponent::NotifyOwnerPossessed(class ATslPlayerControl
 void UTslPawnInputBindingComponent::MoveVehicleNextSeat_Gamepad()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23265);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23341);
 
 	UTslPawnInputBindingComponent_MoveVehicleNextSeat_Gamepad_Params params;
 
@@ -36856,7 +37104,7 @@ void UTslPawnInputBindingComponent::MoveVehicleNextSeat_Gamepad()
 void UTslPawnInputBindingComponent::MoveVehicleDriverSeat_Gamepad()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23264);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23340);
 
 	UTslPawnInputBindingComponent_MoveVehicleDriverSeat_Gamepad_Params params;
 
@@ -36877,7 +37125,7 @@ void UTslPawnInputBindingComponent::MoveVehicleDriverSeat_Gamepad()
 void ATslPlayerState::OnRep_Ranking(int OldRanking)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23469);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23553);
 
 	ATslPlayerState_OnRep_Ranking_Params params;
 	params.OldRanking = OldRanking;
@@ -36899,7 +37147,7 @@ void ATslPlayerState::OnRep_Ranking(int OldRanking)
 void ATslPlayerState::OnRep_PlayerStatistics(const struct FTslPlayerStatistics& OldPlayerStatistics)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23467);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23551);
 
 	ATslPlayerState_OnRep_PlayerStatistics_Params params;
 	params.OldPlayerStatistics = OldPlayerStatistics;
@@ -36919,7 +37167,7 @@ void ATslPlayerState::OnRep_PlayerStatistics(const struct FTslPlayerStatistics& 
 void ATslPlayerState::OnRep_LastHitTime()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23466);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23550);
 
 	ATslPlayerState_OnRep_LastHitTime_Params params;
 
@@ -36940,7 +37188,7 @@ void ATslPlayerState::OnRep_LastHitTime()
 bool ATslPlayerState::IsZombie()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23464);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23548);
 
 	ATslPlayerState_IsZombie_Params params;
 
@@ -36963,7 +37211,7 @@ bool ATslPlayerState::IsZombie()
 bool ATslPlayerState::IsQuitter()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23462);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23546);
 
 	ATslPlayerState_IsQuitter_Params params;
 
@@ -36986,7 +37234,7 @@ bool ATslPlayerState::IsQuitter()
 bool ATslPlayerState::IsObserver()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23460);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23544);
 
 	ATslPlayerState_IsObserver_Params params;
 
@@ -37009,7 +37257,7 @@ bool ATslPlayerState::IsObserver()
 void ATslPlayerState::InformAboutKill(EDamageReason DamageReason)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23457);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23541);
 
 	ATslPlayerState_InformAboutKill_Params params;
 	params.DamageReason = DamageReason;
@@ -37023,6 +37271,29 @@ void ATslPlayerState::InformAboutKill(EDamageReason DamageReason)
 }
 
 
+// Function TslGame.TslPlayerState.GetTotalScore
+// (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
+// Parameters:
+// float                          ReturnValue                    (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData)
+
+float ATslPlayerState::GetTotalScore()
+{
+	static UFunction* fn = nullptr; 
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23539);
+
+	ATslPlayerState_GetTotalScore_Params params;
+
+	auto flags = fn->FunctionFlags;
+	fn->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	return params.ReturnValue;
+}
+
+
 // Function TslGame.TslPlayerState.GetTeamNum
 // (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -37031,7 +37302,7 @@ void ATslPlayerState::InformAboutKill(EDamageReason DamageReason)
 int ATslPlayerState::GetTeamNum()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23455);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23537);
 
 	ATslPlayerState_GetTeamNum_Params params;
 
@@ -37054,9 +37325,78 @@ int ATslPlayerState::GetTeamNum()
 struct FString ATslPlayerState::GetShortPlayerName()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23453);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23535);
 
 	ATslPlayerState_GetShortPlayerName_Params params;
+
+	auto flags = fn->FunctionFlags;
+	fn->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	return params.ReturnValue;
+}
+
+
+// Function TslGame.TslPlayerState.GetScoreByRanking
+// (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
+// Parameters:
+// float                          ReturnValue                    (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData)
+
+float ATslPlayerState::GetScoreByRanking()
+{
+	static UFunction* fn = nullptr; 
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23533);
+
+	ATslPlayerState_GetScoreByRanking_Params params;
+
+	auto flags = fn->FunctionFlags;
+	fn->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	return params.ReturnValue;
+}
+
+
+// Function TslGame.TslPlayerState.GetScoreByKill
+// (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
+// Parameters:
+// float                          ReturnValue                    (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData)
+
+float ATslPlayerState::GetScoreByKill()
+{
+	static UFunction* fn = nullptr; 
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23531);
+
+	ATslPlayerState_GetScoreByKill_Params params;
+
+	auto flags = fn->FunctionFlags;
+	fn->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	return params.ReturnValue;
+}
+
+
+// Function TslGame.TslPlayerState.GetScoreByDamage
+// (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
+// Parameters:
+// float                          ReturnValue                    (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData)
+
+float ATslPlayerState::GetScoreByDamage()
+{
+	static UFunction* fn = nullptr; 
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23529);
+
+	ATslPlayerState_GetScoreByDamage_Params params;
 
 	auto flags = fn->FunctionFlags;
 	fn->FunctionFlags |= 0x400;
@@ -37072,12 +37412,12 @@ struct FString ATslPlayerState::GetShortPlayerName()
 // Function TslGame.TslPlayerState.GetPlayerScores
 // (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
-// struct FTslPlayerScores        ReturnValue                    (Parm, OutParm, ReturnParm, IsPlainOldData)
+// struct FTslPlayerScores        ReturnValue                    (Parm, OutParm, ReturnParm)
 
 struct FTslPlayerScores ATslPlayerState::GetPlayerScores()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23451);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23527);
 
 	ATslPlayerState_GetPlayerScores_Params params;
 
@@ -37100,7 +37440,7 @@ struct FTslPlayerScores ATslPlayerState::GetPlayerScores()
 float ATslPlayerState::GetPing()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23449);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23525);
 
 	ATslPlayerState_GetPing_Params params;
 
@@ -37123,7 +37463,7 @@ float ATslPlayerState::GetPing()
 class ATslPlayerController* ATslPlayerState::GetOwningTslPlayerController()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23447);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23523);
 
 	ATslPlayerState_GetOwningTslPlayerController_Params params;
 
@@ -37146,7 +37486,7 @@ class ATslPlayerController* ATslPlayerState::GetOwningTslPlayerController()
 EObserverAuthorityType ATslPlayerState::GetObserverAuthorityType()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23444);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23520);
 
 	ATslPlayerState_GetObserverAuthorityType_Params params;
 
@@ -37169,7 +37509,7 @@ EObserverAuthorityType ATslPlayerState::GetObserverAuthorityType()
 int ATslPlayerState::GetKills()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23442);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23518);
 
 	ATslPlayerState_GetKills_Params params;
 
@@ -37192,7 +37532,7 @@ int ATslPlayerState::GetKills()
 void ATslPlayerState::ClientUpdateRankingOnlineEvent(int InRanking)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23440);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23516);
 
 	ATslPlayerState_ClientUpdateRankingOnlineEvent_Params params;
 	params.InRanking = InRanking;
@@ -37222,7 +37562,7 @@ void ATslPlayerState::ClientUpdateRankingOnlineEvent(int InRanking)
 void ATslPlayerState::BroadcastDeath(class ATslPlayerState* KillerPlayerState, class ATslPlayerState* GroggyPlayerInstigator, class UDamageType* KillerDamageType, EDamageReason DamageReason, const struct FText& DamageCauserName, class UClass* DamageCauserClass, int AlivePlayerNum, int AliveTeamNum, bool InbIsStealKilled)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23429);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23505);
 
 	ATslPlayerState_BroadcastDeath_Params params;
 	params.KillerPlayerState = KillerPlayerState;
@@ -37255,7 +37595,7 @@ void ATslPlayerState::BroadcastDeath(class ATslPlayerState* KillerPlayerState, c
 bool ATslPostProcessEffect::SetMaterialVectorParameter(int idx, const struct FName& ParameterName, const struct FLinearColor& Value)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23516);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23600);
 
 	ATslPostProcessEffect_SetMaterialVectorParameter_Params params;
 	params.idx = idx;
@@ -37284,7 +37624,7 @@ bool ATslPostProcessEffect::SetMaterialVectorParameter(int idx, const struct FNa
 bool ATslPostProcessEffect::SetMaterialParameter(int idx, const struct FName& ParameterName, float Value)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23511);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23595);
 
 	ATslPostProcessEffect_SetMaterialParameter_Params params;
 	params.idx = idx;
@@ -37312,7 +37652,7 @@ bool ATslPostProcessEffect::SetMaterialParameter(int idx, const struct FName& Pa
 bool ATslPostProcessEffect::SetMaterialBlendWeight(int idx, float Value)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23507);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23591);
 
 	ATslPostProcessEffect_SetMaterialBlendWeight_Params params;
 	params.idx = idx;
@@ -37339,7 +37679,7 @@ bool ATslPostProcessEffect::SetMaterialBlendWeight(int idx, float Value)
 bool ATslPostProcessEffect::SetEffectParameter(const struct FString& ParameterName, float Value)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23503);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23587);
 
 	ATslPostProcessEffect_SetEffectParameter_Params params;
 	params.ParameterName = ParameterName;
@@ -37365,7 +37705,7 @@ bool ATslPostProcessEffect::SetEffectParameter(const struct FString& ParameterNa
 bool ATslPostProcessEffect::SetDepthOfFieldFarBlurSize(float NewBlurSize)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23500);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23584);
 
 	ATslPostProcessEffect_SetDepthOfFieldFarBlurSize_Params params;
 	params.NewBlurSize = NewBlurSize;
@@ -37390,7 +37730,7 @@ bool ATslPostProcessEffect::SetDepthOfFieldFarBlurSize(float NewBlurSize)
 void ATslPostProcessEffect::OnSetEffectParameter(const struct FString& ParameterName, float Value)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23497);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23581);
 
 	ATslPostProcessEffect_OnSetEffectParameter_Params params;
 	params.ParameterName = ParameterName;
@@ -37414,7 +37754,7 @@ void ATslPostProcessEffect::OnSetEffectParameter(const struct FString& Parameter
 float ATslPostProcessEffect::GetEffectParameter(const struct FString& ParameterName, float DefaultValue)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23493);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23577);
 
 	ATslPostProcessEffect_GetEffectParameter_Params params;
 	params.ParameterName = ParameterName;
@@ -37439,7 +37779,7 @@ float ATslPostProcessEffect::GetEffectParameter(const struct FString& ParameterN
 float ATslPostProcessEffect::GetDepthOfFieldFarBlurSize()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23491);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23575);
 
 	ATslPostProcessEffect_GetDepthOfFieldFarBlurSize_Params params;
 
@@ -37463,7 +37803,7 @@ float ATslPostProcessEffect::GetDepthOfFieldFarBlurSize()
 void ATslWeapon_Projectile::ServerFireProjectile(const struct FVector& Origin, const struct FVector_NetQuantizeNormal& ShootDir)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23529);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23613);
 
 	ATslWeapon_Projectile_ServerFireProjectile_Params params;
 	params.Origin = Origin;
@@ -37484,7 +37824,7 @@ void ATslWeapon_Projectile::ServerFireProjectile(const struct FVector& Origin, c
 void ATslWeapon_Throwable::ServerStartPinOff()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23554);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23638);
 
 	ATslWeapon_Throwable_ServerStartPinOff_Params params;
 
@@ -37503,7 +37843,7 @@ void ATslWeapon_Throwable::ServerStartPinOff()
 void ATslWeapon_Throwable::ServerStartCooking()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23553);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23637);
 
 	ATslWeapon_Throwable_ServerStartCooking_Params params;
 
@@ -37522,7 +37862,7 @@ void ATslWeapon_Throwable::ServerStartCooking()
 void ATslWeapon_Throwable::ServerRequestCancelThrow()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23552);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23636);
 
 	ATslWeapon_Throwable_ServerRequestCancelThrow_Params params;
 
@@ -37544,7 +37884,7 @@ void ATslWeapon_Throwable::ServerRequestCancelThrow()
 void ATslWeapon_Throwable::ServerFireProjectile(const struct FVector& RelativeLocation, const struct FVector& AimDirection)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23549);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23633);
 
 	ATslWeapon_Throwable_ServerFireProjectile_Params params;
 	params.RelativeLocation = RelativeLocation;
@@ -37567,7 +37907,7 @@ void ATslWeapon_Throwable::ServerFireProjectile(const struct FVector& RelativeLo
 void ATslWeapon_Throwable::OnRep_ThrowableState(EThrowableState LastThrowableState)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23546);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23630);
 
 	ATslWeapon_Throwable_OnRep_ThrowableState_Params params;
 	params.LastThrowableState = LastThrowableState;
@@ -37589,7 +37929,7 @@ void ATslWeapon_Throwable::OnRep_ThrowableState(EThrowableState LastThrowableSta
 void ATslWeapon_Throwable::OnAnimationNotify(const struct FName& NotifyName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23544);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23628);
 
 	ATslWeapon_Throwable_OnAnimationNotify_Params params;
 	params.NotifyName = NotifyName;
@@ -37611,7 +37951,7 @@ void ATslWeapon_Throwable::OnAnimationNotify(const struct FName& NotifyName)
 EThrowableState ATslWeapon_Throwable::GetThrowableState()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23541);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23625);
 
 	ATslWeapon_Throwable_GetThrowableState_Params params;
 
@@ -37634,7 +37974,7 @@ EThrowableState ATslWeapon_Throwable::GetThrowableState()
 int ATslWeapon_Throwable::GetThrowableCountInInventory()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23539);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23623);
 
 	ATslWeapon_Throwable_GetThrowableCountInInventory_Params params;
 
@@ -37657,7 +37997,7 @@ int ATslWeapon_Throwable::GetThrowableCountInInventory()
 int ATslWeapon_Throwable::GetThrowableCount()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23537);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23621);
 
 	ATslWeapon_Throwable_GetThrowableCount_Params params;
 
@@ -37678,7 +38018,7 @@ int ATslWeapon_Throwable::GetThrowableCount()
 void ATslWeapon_Throwable::ClientNotifyReset()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23536);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23620);
 
 	ATslWeapon_Throwable_ClientNotifyReset_Params params;
 
@@ -37700,7 +38040,7 @@ void ATslWeapon_Throwable::ClientNotifyReset()
 struct FVector ATslWeapon_Throwable::CalculateFinalThrowVelocity(const struct FVector& AimDirection)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23533);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23617);
 
 	ATslWeapon_Throwable_CalculateFinalThrowVelocity_Params params;
 	params.AimDirection = AimDirection;
@@ -37722,7 +38062,7 @@ struct FVector ATslWeapon_Throwable::CalculateFinalThrowVelocity(const struct FV
 void ATslProjectile::SetMeshRotationFromServer()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23582);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23666);
 
 	ATslProjectile_SetMeshRotationFromServer_Params params;
 
@@ -37741,7 +38081,7 @@ void ATslProjectile::SetMeshRotationFromServer()
 void ATslProjectile::PropagateEffectActor_BP()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23581);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23665);
 
 	ATslProjectile_PropagateEffectActor_BP_Params params;
 
@@ -37759,7 +38099,7 @@ void ATslProjectile::PropagateEffectActor_BP()
 void ATslProjectile::PropagateEffectActor()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23580);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23664);
 
 	ATslProjectile_PropagateEffectActor_Params params;
 
@@ -37778,7 +38118,7 @@ void ATslProjectile::PropagateEffectActor()
 void ATslProjectile::OnRep_Exploded()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23579);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23663);
 
 	ATslProjectile_OnRep_Exploded_Params params;
 
@@ -37797,7 +38137,7 @@ void ATslProjectile::OnRep_Exploded()
 void ATslProjectile::OnRep_ClientActivate()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23578);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23662);
 
 	ATslProjectile_OnRep_ClientActivate_Params params;
 
@@ -37816,7 +38156,7 @@ void ATslProjectile::OnRep_ClientActivate()
 void ATslProjectile::OnRep_ActiveParticle()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23577);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23661);
 
 	ATslProjectile_OnRep_ActiveParticle_Params params;
 
@@ -37838,7 +38178,7 @@ void ATslProjectile::OnRep_ActiveParticle()
 void ATslProjectile::OnImpact(const struct FHitResult& ImpactResult, const struct FVector& ImpactVelocity)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23574);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23658);
 
 	ATslProjectile_OnImpact_Params params;
 	params.ImpactResult = ImpactResult;
@@ -37865,7 +38205,7 @@ void ATslProjectile::OnImpact(const struct FHitResult& ImpactResult, const struc
 void ATslProjectile::OnHit(class UPrimitiveComponent* HitComponent, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, const struct FVector& NormalImpulse, const struct FHitResult& Hit)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23568);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23652);
 
 	ATslProjectile_OnHit_Params params;
 	params.HitComponent = HitComponent;
@@ -37894,7 +38234,7 @@ void ATslProjectile::OnHit(class UPrimitiveComponent* HitComponent, class AActor
 void ATslProjectile::ExplodeBP(const struct FVector& Location, const struct FRotator& Rotation, const struct FHitResult& Impact, float Radius)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23563);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23647);
 
 	ATslProjectile_ExplodeBP_Params params;
 	params.Location = Location;
@@ -37916,7 +38256,7 @@ void ATslProjectile::ExplodeBP(const struct FVector& Location, const struct FRot
 void ATslProjectile::CheckVelocityForStart()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23562);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23646);
 
 	ATslProjectile_CheckVelocityForStart_Params params;
 
@@ -37937,7 +38277,7 @@ void ATslProjectile::CheckVelocityForStart()
 void ATslProjectile_Flare::Server_SpawnCarePackageCustom(const struct FVector& InLocation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23627);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23711);
 
 	ATslProjectile_Flare_Server_SpawnCarePackageCustom_Params params;
 	params.InLocation = InLocation;
@@ -37959,7 +38299,7 @@ void ATslProjectile_Flare::Server_SpawnCarePackageCustom(const struct FVector& I
 void ATslProjectile_Flare::ApplyBurn(const struct FVector& InLocation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23625);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23709);
 
 	ATslProjectile_Flare_ApplyBurn_Params params;
 	params.InLocation = InLocation;
@@ -37979,7 +38319,7 @@ void ATslProjectile_Flare::ApplyBurn(const struct FVector& InLocation)
 void UTslReactionDoorComponent::OnRep_DoorBreakingState()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23636);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23720);
 
 	UTslReactionDoorComponent_OnRep_DoorBreakingState_Params params;
 
@@ -38003,7 +38343,7 @@ void UTslReactionDoorComponent::OnRep_DoorBreakingState()
 void UTslReactionDoorComponent::ClientTakeDamage(float Damage, const struct FVector_NetQuantize& HitLocation, float DamageRadius, float Impulse)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23631);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23715);
 
 	UTslReactionDoorComponent_ClientTakeDamage_Params params;
 	params.Damage = Damage;
@@ -38026,7 +38366,7 @@ void UTslReactionDoorComponent::ClientTakeDamage(float Damage, const struct FVec
 void UTslSceneCaptureComponent2D::CaptureScene()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23703);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23787);
 
 	UTslSceneCaptureComponent2D_CaptureScene_Params params;
 
@@ -38048,7 +38388,7 @@ void UTslSceneCaptureComponent2D::CaptureScene()
 void UTslSceneCaptureWorld::InitWorld(class UGameInstance* GameInstance, const struct FString& SceneCapturePackageName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23706);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23790);
 
 	UTslSceneCaptureWorld_InitWorld_Params params;
 	params.GameInstance = GameInstance;
@@ -38069,7 +38409,7 @@ void UTslSceneCaptureWorld::InitWorld(class UGameInstance* GameInstance, const s
 void UTslSceneCaptureWorld::DestroyWorld()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23705);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23789);
 
 	UTslSceneCaptureWorld_DestroyWorld_Params params;
 
@@ -38088,7 +38428,7 @@ void UTslSceneCaptureWorld::DestroyWorld()
 void ATslServerParticle::StopParticleMulticast()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23712);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23796);
 
 	ATslServerParticle_StopParticleMulticast_Params params;
 
@@ -38109,7 +38449,7 @@ void ATslServerParticle::StopParticleMulticast()
 void ATslServerParticle::OnParticleFinish(class UParticleSystemComponent* PSystem)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23710);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23794);
 
 	ATslServerParticle_OnParticleFinish_Params params;
 	params.PSystem = PSystem;
@@ -38133,7 +38473,7 @@ void ATslServerParticle::OnParticleFinish(class UParticleSystemComponent* PSyste
 void UTslSmokeParticleSystemComponent::ForceSpawn(int InEmitterIndex, const struct FVector& InLocation, const struct FVector& InVelocity)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23878);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23962);
 
 	UTslSmokeParticleSystemComponent_ForceSpawn_Params params;
 	params.InEmitterIndex = InEmitterIndex;
@@ -38155,7 +38495,7 @@ void UTslSmokeParticleSystemComponent::ForceSpawn(int InEmitterIndex, const stru
 void UTslSmokePropagationComponent::InitScan()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23882);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23966);
 
 	UTslSmokePropagationComponent_InitScan_Params params;
 
@@ -38174,7 +38514,7 @@ void UTslSmokePropagationComponent::InitScan()
 void ATslSpectatorPawn::TickMonitoring()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23999);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24083);
 
 	ATslSpectatorPawn_TickMonitoring_Params params;
 
@@ -38195,7 +38535,7 @@ void ATslSpectatorPawn::TickMonitoring()
 void ATslSpectatorPawn::SetShowPlayerInfoDistance(float Distance)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23997);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24081);
 
 	ATslSpectatorPawn_SetShowPlayerInfoDistance_Params params;
 	params.Distance = Distance;
@@ -38217,7 +38557,7 @@ void ATslSpectatorPawn::SetShowPlayerInfoDistance(float Distance)
 void ATslSpectatorPawn::SetPlayerCamera(class AActor* NewViewTarget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23995);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24079);
 
 	ATslSpectatorPawn_SetPlayerCamera_Params params;
 	params.NewViewTarget = NewViewTarget;
@@ -38240,7 +38580,7 @@ void ATslSpectatorPawn::SetPlayerCamera(class AActor* NewViewTarget)
 void ATslSpectatorPawn::SetObserverCameraMode(EObserverCameraMode NewCameraMode, class AActor* NewViewTarget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23991);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24075);
 
 	ATslSpectatorPawn_SetObserverCameraMode_Params params;
 	params.NewCameraMode = NewCameraMode;
@@ -38267,7 +38607,7 @@ void ATslSpectatorPawn::SetObserverCameraMode(EObserverCameraMode NewCameraMode,
 bool ATslSpectatorPawn::SetKillerOrVictimCamera(const struct FString& strKillerID, const struct FString& strKillerName, const struct FString& strVictimID, const struct FString& strVictimName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23985);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24069);
 
 	ATslSpectatorPawn_SetKillerOrVictimCamera_Params params;
 	params.strKillerID = strKillerID;
@@ -38295,7 +38635,7 @@ bool ATslSpectatorPawn::SetKillerOrVictimCamera(const struct FString& strKillerI
 void ATslSpectatorPawn::SetFreeCamBattleLocation(const struct FVector& HitterLoc, const struct FVector& AttackedLoc)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23982);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24066);
 
 	ATslSpectatorPawn_SetFreeCamBattleLocation_Params params;
 	params.HitterLoc = HitterLoc;
@@ -38318,7 +38658,7 @@ void ATslSpectatorPawn::SetFreeCamBattleLocation(const struct FVector& HitterLoc
 bool ATslSpectatorPawn::RestoreTargetCharacter()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23980);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24064);
 
 	ATslSpectatorPawn_RestoreTargetCharacter_Params params;
 
@@ -38341,7 +38681,7 @@ bool ATslSpectatorPawn::RestoreTargetCharacter()
 void ATslSpectatorPawn::OnViewTargetUpdate(class AActor* NewViewTarget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23978);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24062);
 
 	ATslSpectatorPawn_OnViewTargetUpdate_Params params;
 	params.NewViewTarget = NewViewTarget;
@@ -38361,7 +38701,7 @@ void ATslSpectatorPawn::OnViewTargetUpdate(class AActor* NewViewTarget)
 void ATslSpectatorPawn::OnToggleShowObseverTagWeapon()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23977);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24061);
 
 	ATslSpectatorPawn_OnToggleShowObseverTagWeapon_Params params;
 
@@ -38380,7 +38720,7 @@ void ATslSpectatorPawn::OnToggleShowObseverTagWeapon()
 void ATslSpectatorPawn::OnToggleObseverTagWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23976);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24060);
 
 	ATslSpectatorPawn_OnToggleObseverTagWidget_Params params;
 
@@ -38399,7 +38739,7 @@ void ATslSpectatorPawn::OnToggleObseverTagWidget()
 void ATslSpectatorPawn::OnSwitchCameraSpectator()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23975);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24059);
 
 	ATslSpectatorPawn_OnSwitchCameraSpectator_Params params;
 
@@ -38418,7 +38758,7 @@ void ATslSpectatorPawn::OnSwitchCameraSpectator()
 void ATslSpectatorPawn::OnSwitchCameraFollow()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23974);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24058);
 
 	ATslSpectatorPawn_OnSwitchCameraFollow_Params params;
 
@@ -38437,7 +38777,7 @@ void ATslSpectatorPawn::OnSwitchCameraFollow()
 void ATslSpectatorPawn::OnStopSlowMove()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23973);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24057);
 
 	ATslSpectatorPawn_OnStopSlowMove_Params params;
 
@@ -38456,7 +38796,7 @@ void ATslSpectatorPawn::OnStopSlowMove()
 void ATslSpectatorPawn::OnStopFastMove()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23972);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24056);
 
 	ATslSpectatorPawn_OnStopFastMove_Params params;
 
@@ -38475,7 +38815,7 @@ void ATslSpectatorPawn::OnStopFastMove()
 void ATslSpectatorPawn::OnStartSlowMove()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23971);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24055);
 
 	ATslSpectatorPawn_OnStartSlowMove_Params params;
 
@@ -38494,7 +38834,7 @@ void ATslSpectatorPawn::OnStartSlowMove()
 void ATslSpectatorPawn::OnStartFastMove()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23970);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24054);
 
 	ATslSpectatorPawn_OnStartFastMove_Params params;
 
@@ -38515,7 +38855,7 @@ void ATslSpectatorPawn::OnStartFastMove()
 void ATslSpectatorPawn::OnSetLocation(unsigned char idx)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23968);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24052);
 
 	ATslSpectatorPawn_OnSetLocation_Params params;
 	params.idx = idx;
@@ -38535,7 +38875,7 @@ void ATslSpectatorPawn::OnSetLocation(unsigned char idx)
 void ATslSpectatorPawn::OnSetFree()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23967);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24051);
 
 	ATslSpectatorPawn_OnSetFree_Params params;
 
@@ -38556,7 +38896,7 @@ void ATslSpectatorPawn::OnSetFree()
 void ATslSpectatorPawn::OnSetCharacterSpec(unsigned char idx)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23965);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24049);
 
 	ATslSpectatorPawn_OnSetCharacterSpec_Params params;
 	params.idx = idx;
@@ -38578,7 +38918,7 @@ void ATslSpectatorPawn::OnSetCharacterSpec(unsigned char idx)
 void ATslSpectatorPawn::OnSetCharacter(unsigned char idx)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23963);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24047);
 
 	ATslSpectatorPawn_OnSetCharacter_Params params;
 	params.idx = idx;
@@ -38600,7 +38940,7 @@ void ATslSpectatorPawn::OnSetCharacter(unsigned char idx)
 void ATslSpectatorPawn::OnSaveLocation(unsigned char idx)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23961);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24045);
 
 	ATslSpectatorPawn_OnSaveLocation_Params params;
 	params.idx = idx;
@@ -38622,7 +38962,7 @@ void ATslSpectatorPawn::OnSaveLocation(unsigned char idx)
 void ATslSpectatorPawn::OnSaveCharacter(unsigned char idx)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23959);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24043);
 
 	ATslSpectatorPawn_OnSaveCharacter_Params params;
 	params.idx = idx;
@@ -38642,7 +38982,7 @@ void ATslSpectatorPawn::OnSaveCharacter(unsigned char idx)
 void ATslSpectatorPawn::OnPlayerInfoDistanceUpHold()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23958);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24042);
 
 	ATslSpectatorPawn_OnPlayerInfoDistanceUpHold_Params params;
 
@@ -38661,7 +39001,7 @@ void ATslSpectatorPawn::OnPlayerInfoDistanceUpHold()
 void ATslSpectatorPawn::OnPlayerInfoDistanceUp()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23957);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24041);
 
 	ATslSpectatorPawn_OnPlayerInfoDistanceUp_Params params;
 
@@ -38680,7 +39020,7 @@ void ATslSpectatorPawn::OnPlayerInfoDistanceUp()
 void ATslSpectatorPawn::OnPlayerInfoDistanceDownHold()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23956);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24040);
 
 	ATslSpectatorPawn_OnPlayerInfoDistanceDownHold_Params params;
 
@@ -38699,7 +39039,7 @@ void ATslSpectatorPawn::OnPlayerInfoDistanceDownHold()
 void ATslSpectatorPawn::OnPlayerInfoDistanceDown()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23955);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24039);
 
 	ATslSpectatorPawn_OnPlayerInfoDistanceDown_Params params;
 
@@ -38718,7 +39058,7 @@ void ATslSpectatorPawn::OnPlayerInfoDistanceDown()
 void ATslSpectatorPawn::OnGotoTimelineDone()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23954);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24038);
 
 	ATslSpectatorPawn_OnGotoTimelineDone_Params params;
 
@@ -38739,7 +39079,7 @@ void ATslSpectatorPawn::OnGotoTimelineDone()
 bool ATslSpectatorPawn::IsObserverTagWeaponShow()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23952);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24036);
 
 	ATslSpectatorPawn_IsObserverTagWeaponShow_Params params;
 
@@ -38760,7 +39100,7 @@ bool ATslSpectatorPawn::IsObserverTagWeaponShow()
 void ATslSpectatorPawn::HandleClipboard()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23951);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24035);
 
 	ATslSpectatorPawn_HandleClipboard_Params params;
 
@@ -38781,7 +39121,7 @@ void ATslSpectatorPawn::HandleClipboard()
 class ATslCharacter* ATslSpectatorPawn::GetSpectatableCharacter()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23949);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24033);
 
 	ATslSpectatorPawn_GetSpectatableCharacter_Params params;
 
@@ -38804,7 +39144,7 @@ class ATslCharacter* ATslSpectatorPawn::GetSpectatableCharacter()
 class ACarePackageItem* ATslSpectatorPawn::GetSpectableCarePackageItem()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23947);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24031);
 
 	ATslSpectatorPawn_GetSpectableCarePackageItem_Params params;
 
@@ -38827,7 +39167,7 @@ class ACarePackageItem* ATslSpectatorPawn::GetSpectableCarePackageItem()
 float ATslSpectatorPawn::GetShowPlayerInfoDistance()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23945);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24029);
 
 	ATslSpectatorPawn_GetShowPlayerInfoDistance_Params params;
 
@@ -38850,7 +39190,7 @@ float ATslSpectatorPawn::GetShowPlayerInfoDistance()
 bool ATslSpectatorPawn::GetObserverTagShow()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23943);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24027);
 
 	ATslSpectatorPawn_GetObserverTagShow_Params params;
 
@@ -38873,7 +39213,7 @@ bool ATslSpectatorPawn::GetObserverTagShow()
 class ATslCharacter* ATslSpectatorPawn::GetLastSpectatedCharacter()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23941);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24025);
 
 	ATslSpectatorPawn_GetLastSpectatedCharacter_Params params;
 
@@ -38896,7 +39236,7 @@ class ATslCharacter* ATslSpectatorPawn::GetLastSpectatedCharacter()
 EObserverCameraMode ATslSpectatorPawn::GetCameraMode()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23938);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24022);
 
 	ATslSpectatorPawn_GetCameraMode_Params params;
 
@@ -38919,7 +39259,7 @@ EObserverCameraMode ATslSpectatorPawn::GetCameraMode()
 void ATslSpectatorPawn::BackupTargetCharacter(class AActor* ViewTarget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(23936);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24020);
 
 	ATslSpectatorPawn_BackupTargetCharacter_Params params;
 	params.ViewTarget = ViewTarget;
@@ -38941,7 +39281,7 @@ void ATslSpectatorPawn::BackupTargetCharacter(class AActor* ViewTarget)
 void UTslStatics::STATIC_UseHighPrecisionMouseMovement(class APlayerController* PlayerController)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24325);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24420);
 
 	UTslStatics_UseHighPrecisionMouseMovement_Params params;
 	params.PlayerController = PlayerController;
@@ -38963,7 +39303,7 @@ void UTslStatics::STATIC_UseHighPrecisionMouseMovement(class APlayerController* 
 void UTslStatics::STATIC_UnloadTextureByPtr(TAssetPtr<class UTexture> TexturePtr)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24323);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24418);
 
 	UTslStatics_UnloadTextureByPtr_Params params;
 	params.TexturePtr = TexturePtr;
@@ -38986,7 +39326,7 @@ void UTslStatics::STATIC_UnloadTextureByPtr(TAssetPtr<class UTexture> TexturePtr
 void UTslStatics::STATIC_SetWorldOriginByDistance(class APlayerController* Controller, float XYDistanceToShift)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24320);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24415);
 
 	UTslStatics_SetWorldOriginByDistance_Params params;
 	params.Controller = Controller;
@@ -39009,7 +39349,7 @@ void UTslStatics::STATIC_SetWorldOriginByDistance(class APlayerController* Contr
 void UTslStatics::STATIC_SetWorldOrigin(class APlayerController* Controller)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24318);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24413);
 
 	UTslStatics_SetWorldOrigin_Params params;
 	params.Controller = Controller;
@@ -39024,7 +39364,7 @@ void UTslStatics::STATIC_SetWorldOrigin(class APlayerController* Controller)
 
 
 // Function TslGame.TslStatics.SetReportUserInfo
-// (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
+// (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 // Parameters:
 // class UObject*                 WorldContextObject             (Parm, ZeroConstructor, IsPlainOldData)
 // ESubjectToReport               Key                            (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData)
@@ -39033,7 +39373,7 @@ void UTslStatics::STATIC_SetWorldOrigin(class APlayerController* Controller)
 void UTslStatics::STATIC_SetReportUserInfo(class UObject* WorldContextObject, ESubjectToReport Key, const struct FTslReportUserInfo& UserInfo)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24313);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24408);
 
 	UTslStatics_SetReportUserInfo_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -39059,7 +39399,7 @@ void UTslStatics::STATIC_SetReportUserInfo(class UObject* WorldContextObject, ES
 void UTslStatics::STATIC_SetAnimationAkSwitch(class ACharacter* Character, const struct FString& SwitchGroup, const struct FString& SwitchState)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24309);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24404);
 
 	UTslStatics_SetAnimationAkSwitch_Params params;
 	params.Character = Character;
@@ -39085,7 +39425,7 @@ void UTslStatics::STATIC_SetAnimationAkSwitch(class ACharacter* Character, const
 void UTslStatics::STATIC_SetAnimationAkRTPC(class ACharacter* Character, const struct FString& RTPCName, float RTPCValue)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24305);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24400);
 
 	UTslStatics_SetAnimationAkRTPC_Params params;
 	params.Character = Character;
@@ -39111,7 +39451,7 @@ void UTslStatics::STATIC_SetAnimationAkRTPC(class ACharacter* Character, const s
 struct FVector UTslStatics::STATIC_ServerPositionToLocal(class UObject* WorldContextObject, const struct FVector& Server)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24301);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24396);
 
 	UTslStatics_ServerPositionToLocal_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -39139,7 +39479,7 @@ struct FVector UTslStatics::STATIC_ServerPositionToLocal(class UObject* WorldCon
 int UTslStatics::STATIC_SafeDivide_IntInt(int A, int B, int DivideByZeroValue)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24296);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24391);
 
 	UTslStatics_SafeDivide_IntInt_Params params;
 	params.A = A;
@@ -39168,7 +39508,7 @@ int UTslStatics::STATIC_SafeDivide_IntInt(int A, int B, int DivideByZeroValue)
 float UTslStatics::STATIC_SafeDivide_FloatFloat(float A, float B, float DivideByZeroValue)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24291);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24386);
 
 	UTslStatics_SafeDivide_FloatFloat_Params params;
 	params.A = A;
@@ -39194,7 +39534,7 @@ float UTslStatics::STATIC_SafeDivide_FloatFloat(float A, float B, float DivideBy
 void UTslStatics::STATIC_ReleaseMouseCaptureFromPlayerController(class APlayerController* PlayerController)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24289);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24384);
 
 	UTslStatics_ReleaseMouseCaptureFromPlayerController_Params params;
 	params.PlayerController = PlayerController;
@@ -39220,7 +39560,7 @@ void UTslStatics::STATIC_ReleaseMouseCaptureFromPlayerController(class APlayerCo
 struct FVector UTslStatics::STATIC_ProjectPointToFloor(class UObject* WorldContextObject, const struct FVector& Origin, float Length, bool* bOutHit)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24283);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24378);
 
 	UTslStatics_ProjectPointToFloor_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -39254,7 +39594,7 @@ struct FVector UTslStatics::STATIC_ProjectPointToFloor(class UObject* WorldConte
 struct FVector UTslStatics::STATIC_ProjectPointsToHighFloor(class UObject* WorldContextObject, const struct FVector& Origin, float AroundLength, float RayLength, bool* bOutHit)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24276);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24371);
 
 	UTslStatics_ProjectPointsToHighFloor_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -39300,7 +39640,7 @@ struct FVector UTslStatics::STATIC_ProjectPointsToHighFloor(class UObject* World
 bool UTslStatics::STATIC_PredictProjectilePathBox(class UObject* WorldContextObject, const struct FVector& StartPos, const struct FVector& LaunchVelocity, bool bTracePath, const struct FVector& ProjectileBox, TArray<TEnumAsByte<EObjectTypeQuery>> ObjectTypes, bool bTraceComplex, TArray<class AActor*> ActorsToIgnore, TEnumAsByte<EDrawDebugTrace> DrawDebugType, float DrawDebugTime, float SimFrequency, float MaxSimTime, float OverrideGravityZ, struct FHitResult* OutHit, TArray<struct FVector>* OutPathPositions, struct FVector* OutLastTraceDestination)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24255);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24350);
 
 	UTslStatics_PredictProjectilePathBox_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -39335,6 +39675,31 @@ bool UTslStatics::STATIC_PredictProjectilePathBox(class UObject* WorldContextObj
 }
 
 
+// Function TslGame.TslStatics.PlayerStateToReportReportUserInfo
+// (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
+// Parameters:
+// class ATslPlayerState*         TslPlayerState                 (Parm, ZeroConstructor, IsPlainOldData)
+// struct FTslReportUserInfo      ReturnValue                    (Parm, OutParm, ReturnParm)
+
+struct FTslReportUserInfo UTslStatics::STATIC_PlayerStateToReportReportUserInfo(class ATslPlayerState* TslPlayerState)
+{
+	static UFunction* fn = nullptr; 
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24347);
+
+	UTslStatics_PlayerStateToReportReportUserInfo_Params params;
+	params.TslPlayerState = TslPlayerState;
+
+	auto flags = fn->FunctionFlags;
+	fn->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	return params.ReturnValue;
+}
+
+
 // Function TslGame.TslStatics.PhysicalSurfaceToString
 // (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -39344,7 +39709,7 @@ bool UTslStatics::STATIC_PredictProjectilePathBox(class UObject* WorldContextObj
 struct FString UTslStatics::STATIC_PhysicalSurfaceToString(TEnumAsByte<EPhysicalSurface> Type)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24252);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24344);
 
 	UTslStatics_PhysicalSurfaceToString_Params params;
 	params.Type = Type;
@@ -39369,7 +39734,7 @@ struct FString UTslStatics::STATIC_PhysicalSurfaceToString(TEnumAsByte<EPhysical
 struct FName UTslStatics::STATIC_PhysicalSurfaceToName(TEnumAsByte<EPhysicalSurface> Type)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24249);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24341);
 
 	UTslStatics_PhysicalSurfaceToName_Params params;
 	params.Type = Type;
@@ -39395,7 +39760,7 @@ struct FName UTslStatics::STATIC_PhysicalSurfaceToName(TEnumAsByte<EPhysicalSurf
 struct FVector UTslStatics::STATIC_LocalPositionToServer(class UObject* WorldContextObject, const struct FVector& Local)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24245);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24337);
 
 	UTslStatics_LocalPositionToServer_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -39421,7 +39786,7 @@ struct FVector UTslStatics::STATIC_LocalPositionToServer(class UObject* WorldCon
 class UTexture* UTslStatics::STATIC_LoadTextureByPtr(TAssetPtr<class UTexture> TexturePtr)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24242);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24334);
 
 	UTslStatics_LoadTextureByPtr_Params params;
 	params.TexturePtr = TexturePtr;
@@ -39451,7 +39816,7 @@ class UTexture* UTslStatics::STATIC_LoadTextureByPtr(TAssetPtr<class UTexture> T
 bool UTslStatics::STATIC_LineSphereIntersection(const struct FVector& Center, const struct FVector& Origion, const struct FVector& Direction, float Radius, struct FVector* Intersection1, struct FVector* Intersection2)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24234);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24326);
 
 	UTslStatics_LineSphereIntersection_Params params;
 	params.Center = Center;
@@ -39475,6 +39840,29 @@ bool UTslStatics::STATIC_LineSphereIntersection(const struct FVector& Center, co
 }
 
 
+// Function TslGame.TslStatics.IsUsingGappLobby
+// (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
+// Parameters:
+// bool                           ReturnValue                    (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData)
+
+bool UTslStatics::STATIC_IsUsingGappLobby()
+{
+	static UFunction* fn = nullptr; 
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24324);
+
+	UTslStatics_IsUsingGappLobby_Params params;
+
+	auto flags = fn->FunctionFlags;
+	fn->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	return params.ReturnValue;
+}
+
+
 // Function TslGame.TslStatics.IsShipping
 // (Final, Native, Static, Public, BlueprintCallable)
 // Parameters:
@@ -39483,7 +39871,7 @@ bool UTslStatics::STATIC_LineSphereIntersection(const struct FVector& Center, co
 bool UTslStatics::STATIC_IsShipping()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24232);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24322);
 
 	UTslStatics_IsShipping_Params params;
 
@@ -39507,7 +39895,7 @@ bool UTslStatics::STATIC_IsShipping()
 bool UTslStatics::STATIC_IsServerActor(class AActor* Actor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24229);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24319);
 
 	UTslStatics_IsServerActor_Params params;
 	params.Actor = Actor;
@@ -39533,7 +39921,7 @@ bool UTslStatics::STATIC_IsServerActor(class AActor* Actor)
 bool UTslStatics::STATIC_IsReportUserValid(class UObject* WorldContextObject, ESubjectToReport Key)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24224);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24314);
 
 	UTslStatics_IsReportUserValid_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -39560,11 +39948,36 @@ bool UTslStatics::STATIC_IsReportUserValid(class UObject* WorldContextObject, ES
 bool UTslStatics::STATIC_IsReportUserApplied(class UObject* WorldContextObject, ESubjectToReport Key)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24219);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24309);
 
 	UTslStatics_IsReportUserApplied_Params params;
 	params.WorldContextObject = WorldContextObject;
 	params.Key = Key;
+
+	auto flags = fn->FunctionFlags;
+	fn->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	return params.ReturnValue;
+}
+
+
+// Function TslGame.TslStatics.IsPIE
+// (Final, Native, Static, Public, BlueprintCallable)
+// Parameters:
+// class UObject*                 WorldContextObject             (Parm, ZeroConstructor, IsPlainOldData)
+// bool                           ReturnValue                    (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData)
+
+bool UTslStatics::STATIC_IsPIE(class UObject* WorldContextObject)
+{
+	static UFunction* fn = nullptr; 
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24306);
+
+	UTslStatics_IsPIE_Params params;
+	params.WorldContextObject = WorldContextObject;
 
 	auto flags = fn->FunctionFlags;
 	fn->FunctionFlags |= 0x400;
@@ -39586,7 +39999,7 @@ bool UTslStatics::STATIC_IsReportUserApplied(class UObject* WorldContextObject, 
 bool UTslStatics::STATIC_IsNextPlayzoneOnTheMap(class UUserWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24216);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24303);
 
 	UTslStatics_IsNextPlayzoneOnTheMap_Params params;
 	params.Widget = Widget;
@@ -39611,7 +40024,7 @@ bool UTslStatics::STATIC_IsNextPlayzoneOnTheMap(class UUserWidget* Widget)
 bool UTslStatics::STATIC_IsMapFullyLoaded(class UWorld* World)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24213);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24300);
 
 	UTslStatics_IsMapFullyLoaded_Params params;
 	params.World = World;
@@ -39636,7 +40049,7 @@ bool UTslStatics::STATIC_IsMapFullyLoaded(class UWorld* World)
 bool UTslStatics::STATIC_IsLastInputGamepad(class UObject* WorldContextObject)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24210);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24297);
 
 	UTslStatics_IsLastInputGamepad_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -39661,7 +40074,7 @@ bool UTslStatics::STATIC_IsLastInputGamepad(class UObject* WorldContextObject)
 bool UTslStatics::STATIC_IsKoreaRegion(class UObject* WorldContextObject)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24207);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24294);
 
 	UTslStatics_IsKoreaRegion_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -39685,7 +40098,7 @@ bool UTslStatics::STATIC_IsKoreaRegion(class UObject* WorldContextObject)
 bool UTslStatics::STATIC_IsGamepadConnected()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24205);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24292);
 
 	UTslStatics_IsGamepadConnected_Params params;
 
@@ -39708,7 +40121,7 @@ bool UTslStatics::STATIC_IsGamepadConnected()
 bool UTslStatics::STATIC_IsForKoreanRating()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24203);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24290);
 
 	UTslStatics_IsForKoreanRating_Params params;
 
@@ -39731,7 +40144,7 @@ bool UTslStatics::STATIC_IsForKoreanRating()
 bool UTslStatics::STATIC_IsForChineseLicensing()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24201);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24288);
 
 	UTslStatics_IsForChineseLicensing_Params params;
 
@@ -39754,7 +40167,7 @@ bool UTslStatics::STATIC_IsForChineseLicensing()
 bool UTslStatics::STATIC_IsESports()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24199);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24286);
 
 	UTslStatics_IsESports_Params params;
 
@@ -39777,7 +40190,7 @@ bool UTslStatics::STATIC_IsESports()
 bool UTslStatics::STATIC_IsEditor()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24197);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24284);
 
 	UTslStatics_IsEditor_Params params;
 
@@ -39801,7 +40214,7 @@ bool UTslStatics::STATIC_IsEditor()
 bool UTslStatics::STATIC_IsClientActor(class AActor* Actor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24194);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24281);
 
 	UTslStatics_IsClientActor_Params params;
 	params.Actor = Actor;
@@ -39827,7 +40240,7 @@ bool UTslStatics::STATIC_IsClientActor(class AActor* Actor)
 class APhysicsVolume* UTslStatics::STATIC_GetWaterVolumeAtLocation(class UObject* WorldContextObject, const struct FVector& Point)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24190);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24277);
 
 	UTslStatics_GetWaterVolumeAtLocation_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -39854,7 +40267,7 @@ class APhysicsVolume* UTslStatics::STATIC_GetWaterVolumeAtLocation(class UObject
 float UTslStatics::STATIC_GetWaterSurfaceHeight(class APhysicsVolume* PhysicsVolume, const struct FVector& CurLocation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24186);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24273);
 
 	UTslStatics_GetWaterSurfaceHeight_Params params;
 	params.PhysicsVolume = PhysicsVolume;
@@ -39880,7 +40293,7 @@ float UTslStatics::STATIC_GetWaterSurfaceHeight(class APhysicsVolume* PhysicsVol
 class UTslVehicleSeatComponent* UTslStatics::STATIC_GetVehicleSeatComponent(class AActor* Actor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24183);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24270);
 
 	UTslStatics_GetVehicleSeatComponent_Params params;
 	params.Actor = Actor;
@@ -39905,7 +40318,7 @@ class UTslVehicleSeatComponent* UTslStatics::STATIC_GetVehicleSeatComponent(clas
 class UTslVehicleCommonComponent* UTslStatics::STATIC_GetVehicleCommonComponent(class AActor* Actor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24180);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24267);
 
 	UTslStatics_GetVehicleCommonComponent_Params params;
 	params.Actor = Actor;
@@ -39930,7 +40343,7 @@ class UTslVehicleCommonComponent* UTslStatics::STATIC_GetVehicleCommonComponent(
 class ATslPlayerController* UTslStatics::STATIC_GetTslPlayerController(class APawn* Pawn)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24177);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24264);
 
 	UTslStatics_GetTslPlayerController_Params params;
 	params.Pawn = Pawn;
@@ -39954,7 +40367,7 @@ class ATslPlayerController* UTslStatics::STATIC_GetTslPlayerController(class APa
 struct FString UTslStatics::STATIC_GetTslPlatformName()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24175);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24262);
 
 	UTslStatics_GetTslPlatformName_Params params;
 
@@ -39978,7 +40391,7 @@ struct FString UTslStatics::STATIC_GetTslPlatformName()
 class ATslGameState* UTslStatics::STATIC_GetTslGameState(class UObject* WorldContextObject)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24172);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24259);
 
 	UTslStatics_GetTslGameState_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -40003,7 +40416,7 @@ class ATslGameState* UTslStatics::STATIC_GetTslGameState(class UObject* WorldCon
 class ATslCharacter* UTslStatics::STATIC_GetTslCharacter(class UObject* WorldContextObject)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24169);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24256);
 
 	UTslStatics_GetTslCharacter_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -40028,7 +40441,7 @@ class ATslCharacter* UTslStatics::STATIC_GetTslCharacter(class UObject* WorldCon
 class UPhysicalMaterial* UTslStatics::STATIC_GetSimplePhysicalMaterial(class UPrimitiveComponent* PrimitiveComponent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24166);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24253);
 
 	UTslStatics_GetSimplePhysicalMaterial_Params params;
 	params.PrimitiveComponent = PrimitiveComponent;
@@ -40053,7 +40466,7 @@ class UPhysicalMaterial* UTslStatics::STATIC_GetSimplePhysicalMaterial(class UPr
 struct FVector UTslStatics::STATIC_GetServerLocation(class UObject* ActorOrComponent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24163);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24250);
 
 	UTslStatics_GetServerLocation_Params params;
 	params.ActorOrComponent = ActorOrComponent;
@@ -40079,7 +40492,7 @@ struct FVector UTslStatics::STATIC_GetServerLocation(class UObject* ActorOrCompo
 struct FTslReportUserInfo UTslStatics::STATIC_GetReportUserInfo(class UObject* WorldContextObject, ESubjectToReport Key)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24158);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24245);
 
 	UTslStatics_GetReportUserInfo_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -40104,7 +40517,7 @@ struct FTslReportUserInfo UTslStatics::STATIC_GetReportUserInfo(class UObject* W
 float UTslStatics::STATIC_GetRecoilControlScale()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24156);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24243);
 
 	UTslStatics_GetRecoilControlScale_Params params;
 
@@ -40127,7 +40540,7 @@ float UTslStatics::STATIC_GetRecoilControlScale()
 float UTslStatics::STATIC_GetRecoilAnimScale()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24154);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24241);
 
 	UTslStatics_GetRecoilAnimScale_Params params;
 
@@ -40151,7 +40564,7 @@ float UTslStatics::STATIC_GetRecoilAnimScale()
 float UTslStatics::STATIC_GetNextPlayzoneRadius(class UObject* WorldContextObject)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24151);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24238);
 
 	UTslStatics_GetNextPlayzoneRadius_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -40176,7 +40589,7 @@ float UTslStatics::STATIC_GetNextPlayzoneRadius(class UObject* WorldContextObjec
 struct FVector UTslStatics::STATIC_GetNextPlayzonePosition(class UObject* WorldContextObject)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24148);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24235);
 
 	UTslStatics_GetNextPlayzonePosition_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -40200,9 +40613,32 @@ struct FVector UTslStatics::STATIC_GetNextPlayzonePosition(class UObject* WorldC
 float UTslStatics::STATIC_GetMOAScale()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24146);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24233);
 
 	UTslStatics_GetMOAScale_Params params;
+
+	auto flags = fn->FunctionFlags;
+	fn->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	return params.ReturnValue;
+}
+
+
+// Function TslGame.TslStatics.GetGappLobbyUrl
+// (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
+// Parameters:
+// struct FString                 ReturnValue                    (Parm, OutParm, ZeroConstructor, ReturnParm)
+
+struct FString UTslStatics::STATIC_GetGappLobbyUrl()
+{
+	static UFunction* fn = nullptr; 
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24231);
+
+	UTslStatics_GetGappLobbyUrl_Params params;
 
 	auto flags = fn->FunctionFlags;
 	fn->FunctionFlags |= 0x400;
@@ -40223,7 +40659,7 @@ float UTslStatics::STATIC_GetMOAScale()
 struct FString UTslStatics::STATIC_GetGameVersion()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24144);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24229);
 
 	UTslStatics_GetGameVersion_Params params;
 
@@ -40247,7 +40683,7 @@ struct FString UTslStatics::STATIC_GetGameVersion()
 float UTslStatics::STATIC_GetGamepadTabMaximumDelay(class ATslPlayerController* TslPlayerController)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24141);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24226);
 
 	UTslStatics_GetGamepadTabMaximumDelay_Params params;
 	params.TslPlayerController = TslPlayerController;
@@ -40271,7 +40707,7 @@ float UTslStatics::STATIC_GetGamepadTabMaximumDelay(class ATslPlayerController* 
 struct FString UTslStatics::STATIC_GetFullGameVersion()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24139);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24224);
 
 	UTslStatics_GetFullGameVersion_Params params;
 
@@ -40298,7 +40734,7 @@ struct FString UTslStatics::STATIC_GetFullGameVersion()
 bool UTslStatics::STATIC_GetConsoleValue(const struct FString& ConsloeName, float* OutValueFloat, int* OutValueInt, struct FString* OutValueString)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24133);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24218);
 
 	UTslStatics_GetConsoleValue_Params params;
 	params.ConsloeName = ConsloeName;
@@ -40330,7 +40766,7 @@ bool UTslStatics::STATIC_GetConsoleValue(const struct FString& ConsloeName, floa
 float UTslStatics::STATIC_GetBluezoneRadius(class UObject* WorldContextObject)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24130);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24215);
 
 	UTslStatics_GetBluezoneRadius_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -40355,7 +40791,7 @@ float UTslStatics::STATIC_GetBluezoneRadius(class UObject* WorldContextObject)
 struct FVector UTslStatics::STATIC_GetBluezonePosition(class UObject* WorldContextObject)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24127);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24212);
 
 	UTslStatics_GetBluezonePosition_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -40379,7 +40815,7 @@ struct FVector UTslStatics::STATIC_GetBluezonePosition(class UObject* WorldConte
 float UTslStatics::STATIC_GetBallisticDropScale()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24125);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24210);
 
 	UTslStatics_GetBallisticDropScale_Params params;
 
@@ -40402,7 +40838,7 @@ float UTslStatics::STATIC_GetBallisticDropScale()
 float UTslStatics::STATIC_GetBallisticDragScale()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24123);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24208);
 
 	UTslStatics_GetBallisticDragScale_Params params;
 
@@ -40430,7 +40866,7 @@ float UTslStatics::STATIC_GetBallisticDragScale()
 bool UTslStatics::STATIC_ConeVolumeLineTraceSingle(class UObject* WorldContextObject, const struct FVector& Origin, float HalfConeAngle, float RayLength, struct FVector* OutHitPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24116);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24201);
 
 	UTslStatics_ConeVolumeLineTraceSingle_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -40466,7 +40902,7 @@ bool UTslStatics::STATIC_ConeVolumeLineTraceSingle(class UObject* WorldContextOb
 int UTslStatics::STATIC_ConeVolumeLineTraceMulti(class UObject* WorldContextObject, const struct FVector& Origin, int SamplingNum, float HalfConeAngle, float RayLength, TArray<struct FVector>* OutHitPoints)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24107);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24192);
 
 	UTslStatics_ConeVolumeLineTraceMulti_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -40498,7 +40934,7 @@ int UTslStatics::STATIC_ConeVolumeLineTraceMulti(class UObject* WorldContextObje
 bool UTslStatics::STATIC_CanVehicleSeatInteraction(class ATslCharacter* InTslCharacter)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24104);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24189);
 
 	UTslStatics_CanVehicleSeatInteraction_Params params;
 	params.InTslCharacter = InTslCharacter;
@@ -40523,7 +40959,7 @@ bool UTslStatics::STATIC_CanVehicleSeatInteraction(class ATslCharacter* InTslCha
 bool UTslStatics::STATIC_CanCancelCasting(class ATslCharacter* InTslCharacter)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24101);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24186);
 
 	UTslStatics_CanCancelCasting_Params params;
 	params.InTslCharacter = InTslCharacter;
@@ -40562,7 +40998,7 @@ bool UTslStatics::STATIC_CanCancelCasting(class ATslCharacter* InTslCharacter)
 bool UTslStatics::STATIC_ApplyRadialDamageWithFalloff(class UObject* WorldContextObject, float BaseDamage, float MinimumDamage, const struct FVector& Origin, float DamageInnerRadius, float DamageOuterRadius, float DamageFalloff, class UClass* DamageTypeClass, TArray<class AActor*> IgnoreActors, const struct FAttackId& AttackId, bool bIsTargetDestructible, class AActor* DamageCauser, class AController* InstigatedByController, TEnumAsByte<ECollisionChannel> DamagePreventionChannel, bool bExplode)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24083);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24168);
 
 	UTslStatics_ApplyRadialDamageWithFalloff_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -40613,7 +41049,7 @@ bool UTslStatics::STATIC_ApplyRadialDamageWithFalloff(class UObject* WorldContex
 bool UTslStatics::STATIC_ApplyRadialDamageWithCurve(class UObject* WorldContextObject, float BaseDamage, const struct FVector& Origin, float DamageRadius, class UCurveFloat* DamageCurve, class UClass* DamageTypeClass, TArray<class AActor*> IgnoreActors, const struct FAttackId& AttackId, bool bIsTargetDestructible, class AActor* DamageCauser, class AController* InstigatedByController, TEnumAsByte<ECollisionChannel> DamagePreventionChannel, bool bExplode)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24067);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24152);
 
 	UTslStatics_ApplyRadialDamageWithCurve_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -40662,7 +41098,7 @@ bool UTslStatics::STATIC_ApplyRadialDamageWithCurve(class UObject* WorldContextO
 bool UTslStatics::STATIC_ApplyRadialDamage(class UObject* WorldContextObject, float BaseDamage, const struct FVector& Origin, float DamageRadius, class UClass* DamageTypeClass, TArray<class AActor*> IgnoreActors, const struct FAttackId& AttackId, bool bIsTargetDestructible, class AActor* DamageCauser, class AController* InstigatedByController, bool bDoFullDamage, TEnumAsByte<ECollisionChannel> DamagePreventionChannel, bool bExplode)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24051);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24136);
 
 	UTslStatics_ApplyRadialDamage_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -40703,7 +41139,7 @@ bool UTslStatics::STATIC_ApplyRadialDamage(class UObject* WorldContextObject, fl
 void UTslStatics::STATIC_ApplyDamage(class AActor* DamagedActor, float BaseDamage, class AController* EventInstigator, class AActor* DamageCauser, class UClass* DamageTypeClass, const struct FAttackId& AttackId)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24044);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24129);
 
 	UTslStatics_ApplyDamage_Params params;
 	params.DamagedActor = DamagedActor;
@@ -40732,7 +41168,7 @@ void UTslStatics::STATIC_ApplyDamage(class AActor* DamagedActor, float BaseDamag
 void UTslStreamer::OnOriginShiftedInternal(class UWorld* InWorld, const struct FIntVector& From, const struct FIntVector& To)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24328);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24423);
 
 	UTslStreamer_OnOriginShiftedInternal_Params params;
 	params.InWorld = InWorld;
@@ -40754,7 +41190,7 @@ void UTslStreamer::OnOriginShiftedInternal(class UWorld* InWorld, const struct F
 void UTslStreamer::OnLevelChangedInternal()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24327);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24422);
 
 	UTslStreamer_OnLevelChangedInternal_Params params;
 
@@ -40775,7 +41211,7 @@ void UTslStreamer::OnLevelChangedInternal()
 void UTslThrowableTrajectoryViewComponent::AttachToThrowable(class ATslWeapon_Throwable* ThrowableIn)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24665);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24760);
 
 	UTslThrowableTrajectoryViewComponent_AttachToThrowable_Params params;
 	params.ThrowableIn = ThrowableIn;
@@ -40801,7 +41237,7 @@ void UTslThrowableTrajectoryViewComponent::AttachToThrowable(class ATslWeapon_Th
 struct FEventReply UTslUserWidget::STATIC_TransferUserFocusThroughReply(const struct FFocusEvent& AcceptedFocusEvent, class UWidget* FocusWidget, bool bInAllUsers, struct FEventReply* Reply)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24713);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24811);
 
 	UTslUserWidget_TransferUserFocusThroughReply_Params params;
 	params.AcceptedFocusEvent = AcceptedFocusEvent;
@@ -40828,7 +41264,7 @@ struct FEventReply UTslUserWidget::STATIC_TransferUserFocusThroughReply(const st
 void UTslUserWidget::StopListeningForAllInputAxises()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24712);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24810);
 
 	UTslUserWidget_StopListeningForAllInputAxises_Params params;
 
@@ -40851,7 +41287,7 @@ void UTslUserWidget::StopListeningForAllInputAxises()
 bool UTslUserWidget::STATIC_NavigateUserFocus(class ULocalPlayer* Player, class UWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24708);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24806);
 
 	UTslUserWidget_NavigateUserFocus_Params params;
 	params.Player = Player;
@@ -40879,7 +41315,7 @@ bool UTslUserWidget::STATIC_NavigateUserFocus(class ULocalPlayer* Player, class 
 void UTslUserWidget::ListenForInputAxis(const struct FName& AxisName, float Scale, bool bConsume, const struct FScriptDelegate& Callback)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24703);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24801);
 
 	UTslUserWidget_ListenForInputAxis_Params params;
 	params.AxisName = AxisName;
@@ -40904,9 +41340,34 @@ void UTslUserWidget::ListenForInputAxis(const struct FName& AxisName, float Scal
 bool UTslUserWidget::IsReplaying()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24701);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24799);
 
 	UTslUserWidget_IsReplaying_Params params;
+
+	auto flags = fn->FunctionFlags;
+	fn->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	return params.ReturnValue;
+}
+
+
+// Function TslGame.TslUserWidget.GetRawKeyValue
+// (Final, Native, Public, BlueprintCallable, BlueprintPure)
+// Parameters:
+// struct FKey                    InKey                          (Parm)
+// float                          ReturnValue                    (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData)
+
+float UTslUserWidget::GetRawKeyValue(const struct FKey& InKey)
+{
+	static UFunction* fn = nullptr; 
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24796);
+
+	UTslUserWidget_GetRawKeyValue_Params params;
+	params.InKey = InKey;
 
 	auto flags = fn->FunctionFlags;
 	fn->FunctionFlags |= 0x400;
@@ -40928,7 +41389,7 @@ bool UTslUserWidget::IsReplaying()
 class ATslPlayerState* UTslUserWidget::GetDemoPlayerState(bool IsForMatchResult)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24698);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24793);
 
 	UTslUserWidget_GetDemoPlayerState_Params params;
 	params.IsForMatchResult = IsForMatchResult;
@@ -40952,7 +41413,7 @@ class ATslPlayerState* UTslUserWidget::GetDemoPlayerState(bool IsForMatchResult)
 class ATslCharacter* UTslUserWidget::GetCachedViewTargetTslCharacter()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24696);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24791);
 
 	UTslUserWidget_GetCachedViewTargetTslCharacter_Params params;
 
@@ -40975,7 +41436,7 @@ class ATslCharacter* UTslUserWidget::GetCachedViewTargetTslCharacter()
 class ATslGameState* UTslUserWidget::GetCachedGameState()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24694);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24789);
 
 	UTslUserWidget_GetCachedGameState_Params params;
 
@@ -40998,7 +41459,7 @@ class ATslGameState* UTslUserWidget::GetCachedGameState()
 class ATslCharacter* UTslUserWidget::GetCachedCharacter()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24692);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24787);
 
 	UTslUserWidget_GetCachedCharacter_Params params;
 
@@ -41023,7 +41484,7 @@ class ATslCharacter* UTslUserWidget::GetCachedCharacter()
 bool UTslUserWidget::STATIC_ContainUserFocus(class ULocalPlayer* Player, class UWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24688);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24783);
 
 	UTslUserWidget_ContainUserFocus_Params params;
 	params.Player = Player;
@@ -41048,7 +41509,7 @@ bool UTslUserWidget::STATIC_ContainUserFocus(class ULocalPlayer* Player, class U
 bool UTslUserWidget::ContainOwnerUserFocus()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24686);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24781);
 
 	UTslUserWidget_ContainOwnerUserFocus_Params params;
 
@@ -41071,7 +41532,7 @@ bool UTslUserWidget::ContainOwnerUserFocus()
 void UTslUserWidget::STATIC_ClearUserFocus(class ULocalPlayer* Player)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24684);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24779);
 
 	UTslUserWidget_ClearUserFocus_Params params;
 	params.Player = Player;
@@ -41093,7 +41554,7 @@ void UTslUserWidget::STATIC_ClearUserFocus(class ULocalPlayer* Player)
 bool UUmgBaseWidget::IsMouseOn()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24732);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24830);
 
 	UUmgBaseWidget_IsMouseOn_Params params;
 
@@ -41116,7 +41577,7 @@ bool UUmgBaseWidget::IsMouseOn()
 void UUmgBaseWidget::HandleMainPrepass(class UWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24730);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24828);
 
 	UUmgBaseWidget_HandleMainPrepass_Params params;
 	params.Widget = Widget;
@@ -41138,7 +41599,7 @@ void UUmgBaseWidget::HandleMainPrepass(class UWidget* Widget)
 void UTslXboxTeamManageWidget::ToggleVoiceChat(int MemberNumber)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24753);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24851);
 
 	UTslXboxTeamManageWidget_ToggleVoiceChat_Params params;
 	params.MemberNumber = MemberNumber;
@@ -41162,7 +41623,7 @@ void UTslXboxTeamManageWidget::ToggleVoiceChat(int MemberNumber)
 void UTslXboxTeamManageWidget::TeamMemberMuteChanged(const struct FString& PlayerId, const struct FString& ChannelId, bool bIsMuted)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24749);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24847);
 
 	UTslXboxTeamManageWidget_TeamMemberMuteChanged_Params params;
 	params.PlayerId = PlayerId;
@@ -41186,7 +41647,7 @@ void UTslXboxTeamManageWidget::TeamMemberMuteChanged(const struct FString& Playe
 void UTslXboxTeamManageWidget::ShowGamerCard(int MemberNumber)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24747);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24845);
 
 	UTslXboxTeamManageWidget_ShowGamerCard_Params params;
 	params.MemberNumber = MemberNumber;
@@ -41209,7 +41670,7 @@ void UTslXboxTeamManageWidget::ShowGamerCard(int MemberNumber)
 class UTslXboxTeamManageInfoWidget* UTslXboxTeamManageWidget::GetTeamManageInfoWidgetBySlot(int SlotIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24744);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24842);
 
 	UTslXboxTeamManageWidget_GetTeamManageInfoWidgetBySlot_Params params;
 	params.SlotIndex = SlotIndex;
@@ -41234,7 +41695,7 @@ class UTslXboxTeamManageInfoWidget* UTslXboxTeamManageWidget::GetTeamManageInfoW
 class UTslXboxTeamManageInfoWidget* UTslXboxTeamManageWidget::GetTeamManageInfoWidgetByMemberNum(int MemberNum)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24741);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24839);
 
 	UTslXboxTeamManageWidget_GetTeamManageInfoWidgetByMemberNum_Params params;
 	params.MemberNum = MemberNum;
@@ -41256,7 +41717,7 @@ class UTslXboxTeamManageInfoWidget* UTslXboxTeamManageWidget::GetTeamManageInfoW
 void UBluezoneGpsBaseWidget::UpdateBluezoneGpsWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24759);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24857);
 
 	UBluezoneGpsBaseWidget_UpdateBluezoneGpsWidget_Params params;
 
@@ -41278,7 +41739,7 @@ void UBluezoneGpsBaseWidget::UpdateBluezoneGpsWidget()
 void UBluezoneGpsBaseWidget::OnNotifyNextGasIn(const struct FVector& PoisonGasWarningPosition, float PoisonGasWarningRadius)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24756);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24854);
 
 	UBluezoneGpsBaseWidget_OnNotifyNextGasIn_Params params;
 	params.PoisonGasWarningPosition = PoisonGasWarningPosition;
@@ -41299,7 +41760,7 @@ void UBluezoneGpsBaseWidget::OnNotifyNextGasIn(const struct FVector& PoisonGasWa
 void UEquipableItemIconBaseWidget::OnNoBagSpaceEvent()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24785);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24883);
 
 	UEquipableItemIconBaseWidget_OnNoBagSpaceEvent_Params params;
 
@@ -41321,7 +41782,7 @@ void UEquipableItemIconBaseWidget::OnNoBagSpaceEvent()
 bool UHudMainBaseWidget::OnInit_Widget(class ATslBaseHUD* TslBaseHUD)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24808);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24906);
 
 	UHudMainBaseWidget_OnInit_Widget_Params params;
 	params.TslBaseHUD = TslBaseHUD;
@@ -41345,7 +41806,7 @@ bool UHudMainBaseWidget::OnInit_Widget(class ATslBaseHUD* TslBaseHUD)
 bool UHudMainBaseWidget::OnInit_Replay(class ATslBaseHUD* TslBaseHUD)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24805);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24903);
 
 	UHudMainBaseWidget_OnInit_Replay_Params params;
 	params.TslBaseHUD = TslBaseHUD;
@@ -41369,7 +41830,7 @@ bool UHudMainBaseWidget::OnInit_Replay(class ATslBaseHUD* TslBaseHUD)
 bool UHudMainBaseWidget::OnInit_Input(class ATslBaseHUD* TslBaseHUD)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24802);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24900);
 
 	UHudMainBaseWidget_OnInit_Input_Params params;
 	params.TslBaseHUD = TslBaseHUD;
@@ -41393,7 +41854,7 @@ bool UHudMainBaseWidget::OnInit_Input(class ATslBaseHUD* TslBaseHUD)
 bool UHudMainBaseWidget::OnInit_Delegate(class ATslBaseHUD* TslBaseHUD)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24799);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24897);
 
 	UHudMainBaseWidget_OnInit_Delegate_Params params;
 	params.TslBaseHUD = TslBaseHUD;
@@ -41416,7 +41877,7 @@ bool UHudMainBaseWidget::OnInit_Delegate(class ATslBaseHUD* TslBaseHUD)
 void UInteractionBaseWidget::OnNotifyInteractionItemChanged(bool bIsInteractEnable)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24813);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24911);
 
 	UInteractionBaseWidget_OnNotifyInteractionItemChanged_Params params;
 	params.bIsInteractEnable = bIsInteractEnable;
@@ -41437,7 +41898,7 @@ void UInteractionBaseWidget::OnNotifyInteractionItemChanged(bool bIsInteractEnab
 int UKillCountBaseWidget::GetLastKillCount()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24837);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24937);
 
 	UKillCountBaseWidget_GetLastKillCount_Params params;
 
@@ -41461,7 +41922,7 @@ int UKillCountBaseWidget::GetLastKillCount()
 void ULifeGaugeBaseWidget::OnNotifyHit(float Damage, EDamageTypeCategory DamageType)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24849);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24949);
 
 	ULifeGaugeBaseWidget_OnNotifyHit_Params params;
 	params.Damage = Damage;
@@ -41486,7 +41947,7 @@ void ULifeGaugeBaseWidget::OnNotifyHit(float Damage, EDamageTypeCategory DamageT
 void ULifeGaugeBaseWidget::OnNotifyHeal(float StartHealth, float GoalHealth, float MaxHealth)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24845);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24945);
 
 	ULifeGaugeBaseWidget_OnNotifyHeal_Params params;
 	params.StartHealth = StartHealth;
@@ -41514,7 +41975,7 @@ void ULifeGaugeBaseWidget::OnNotifyHeal(float StartHealth, float GoalHealth, flo
 void ULifeGaugeTemplateBaseWidget::Update(float Life, float MaxLife, bool bIsGroggy, float HealAmount, bool bDisableEffect)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24895);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24995);
 
 	ULifeGaugeTemplateBaseWidget_Update_Params params;
 	params.Life = Life;
@@ -41540,7 +42001,7 @@ void ULifeGaugeTemplateBaseWidget::Update(float Life, float MaxLife, bool bIsGro
 void ULifeGaugeTemplateBaseWidget::OnDestoryHealEffect(class ULifeGaugeEffectBaseWidget* HealEffect)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24893);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24993);
 
 	ULifeGaugeTemplateBaseWidget_OnDestoryHealEffect_Params params;
 	params.HealEffect = HealEffect;
@@ -41562,7 +42023,7 @@ void ULifeGaugeTemplateBaseWidget::OnDestoryHealEffect(class ULifeGaugeEffectBas
 void ULifeGaugeTemplateBaseWidget::OnDestoryDamageEffect(class ULifeGaugeEffectBaseWidget* DamageEffect)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24891);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24991);
 
 	ULifeGaugeTemplateBaseWidget_OnDestoryDamageEffect_Params params;
 	params.DamageEffect = DamageEffect;
@@ -41586,7 +42047,7 @@ void ULifeGaugeTemplateBaseWidget::OnDestoryDamageEffect(class ULifeGaugeEffectB
 struct FEventReply UMapCarePackageItemIconBaseWidget::OnButtonDown(const struct FGeometry& Geometry, const struct FPointerEvent& MouseEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24923);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25023);
 
 	UMapCarePackageItemIconBaseWidget_OnButtonDown_Params params;
 	params.Geometry = Geometry;
@@ -41613,7 +42074,7 @@ struct FEventReply UMapCarePackageItemIconBaseWidget::OnButtonDown(const struct 
 struct FEventReply UMapCharacterIconBaseWidget::OnButtonDown(const struct FGeometry& Geometry, const struct FPointerEvent& MouseEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24931);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25031);
 
 	UMapCharacterIconBaseWidget_OnButtonDown_Params params;
 	params.Geometry = Geometry;
@@ -41639,7 +42100,7 @@ struct FEventReply UMapCharacterIconBaseWidget::OnButtonDown(const struct FGeome
 void UMapGridWidget::UpdateZoomAndWidgetSize(float Zoom, const struct FVector2D& WidgetSize)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25029);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25129);
 
 	UMapGridWidget_UpdateZoomAndWidgetSize_Params params;
 	params.Zoom = Zoom;
@@ -41662,7 +42123,7 @@ void UMapGridWidget::UpdateZoomAndWidgetSize(float Zoom, const struct FVector2D&
 void UMapGridWidget::UpdateWidgetSize_UC(const struct FVector2D& WidgetSize)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25027);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25127);
 
 	UMapGridWidget_UpdateWidgetSize_UC_Params params;
 	params.WidgetSize = WidgetSize;
@@ -41682,7 +42143,7 @@ void UMapGridWidget::UpdateWidgetSize_UC(const struct FVector2D& WidgetSize)
 void UMapGridWidget::UpdateReplicatedCharacterList()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25026);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25126);
 
 	UMapGridWidget_UpdateReplicatedCharacterList_Params params;
 
@@ -41701,7 +42162,7 @@ void UMapGridWidget::UpdateReplicatedCharacterList()
 void UMapGridWidget::UpdateReplicatedCarePackageItemList()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25025);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25125);
 
 	UMapGridWidget_UpdateReplicatedCarePackageItemList_Params params;
 
@@ -41722,7 +42183,7 @@ void UMapGridWidget::UpdateReplicatedCarePackageItemList()
 void UMapGridWidget::UpdateRectangleViewByWidgetSize(const struct FVector2D& WidgetSize)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25023);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25123);
 
 	UMapGridWidget_UpdateRectangleViewByWidgetSize_Params params;
 	params.WidgetSize = WidgetSize;
@@ -41741,7 +42202,7 @@ void UMapGridWidget::UpdateRectangleViewByWidgetSize(const struct FVector2D& Wid
 void UMapGridWidget::UpdateRectangleView()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25022);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25122);
 
 	UMapGridWidget_UpdateRectangleView_Params params;
 
@@ -41762,7 +42223,7 @@ void UMapGridWidget::UpdateRectangleView()
 struct FVector2D UMapGridWidget::UCtoMC(const struct FVector2D& UC)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25019);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25119);
 
 	UMapGridWidget_UCtoMC_Params params;
 	params.UC = UC;
@@ -41786,7 +42247,7 @@ struct FVector2D UMapGridWidget::UCtoMC(const struct FVector2D& UC)
 void UMapGridWidget::SetZoomLevel(float NewZoomLevel)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25017);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25117);
 
 	UMapGridWidget_SetZoomLevel_Params params;
 	params.NewZoomLevel = NewZoomLevel;
@@ -41808,7 +42269,7 @@ void UMapGridWidget::SetZoomLevel(float NewZoomLevel)
 void UMapGridWidget::SetImageBrush(class UMaterialInstanceDynamic* NewMatInst)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25015);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25115);
 
 	UMapGridWidget_SetImageBrush_Params params;
 	params.NewMatInst = NewMatInst;
@@ -41830,7 +42291,7 @@ void UMapGridWidget::SetImageBrush(class UMaterialInstanceDynamic* NewMatInst)
 void UMapGridWidget::SetCharacterIconPositionAndRotation_UC(const struct FVector2D& Pos_UC, float Angle)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25012);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25112);
 
 	UMapGridWidget_SetCharacterIconPositionAndRotation_UC_Params params;
 	params.Pos_UC = Pos_UC;
@@ -41852,7 +42313,7 @@ void UMapGridWidget::SetCharacterIconPositionAndRotation_UC(const struct FVector
 void UMapGridWidget::SetCenter_MC(const struct FVector2D& Center)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25010);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25110);
 
 	UMapGridWidget_SetCenter_MC_Params params;
 	params.Center = Center;
@@ -41874,7 +42335,7 @@ void UMapGridWidget::SetCenter_MC(const struct FVector2D& Center)
 void UMapGridWidget::OnMapIconClicked(class UMapCharacterIconBaseWidget* MapIconWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25008);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25108);
 
 	UMapGridWidget_OnMapIconClicked_Params params;
 	params.MapIconWidget = MapIconWidget;
@@ -41896,7 +42357,7 @@ void UMapGridWidget::OnMapIconClicked(class UMapCharacterIconBaseWidget* MapIcon
 void UMapGridWidget::OnMapCarePackageItemIconClicked(class UMapCarePackageItemIconBaseWidget* MapIconWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25006);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25106);
 
 	UMapGridWidget_OnMapCarePackageItemIconClicked_Params params;
 	params.MapIconWidget = MapIconWidget;
@@ -41916,7 +42377,7 @@ void UMapGridWidget::OnMapCarePackageItemIconClicked(class UMapCarePackageItemIc
 void UMapGridWidget::OnGotoTimelineDone()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25005);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25105);
 
 	UMapGridWidget_OnGotoTimelineDone_Params params;
 
@@ -41938,7 +42399,7 @@ void UMapGridWidget::OnGotoTimelineDone()
 struct FVector2D UMapGridWidget::MCtoUC(const struct FVector2D& MapCoord)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25002);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25102);
 
 	UMapGridWidget_MCtoUC_Params params;
 	params.MapCoord = MapCoord;
@@ -41962,7 +42423,7 @@ struct FVector2D UMapGridWidget::MCtoUC(const struct FVector2D& MapCoord)
 bool UMapGridWidget::IsMouseInMarker()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25000);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25100);
 
 	UMapGridWidget_IsMouseInMarker_Params params;
 
@@ -41985,7 +42446,7 @@ bool UMapGridWidget::IsMouseInMarker()
 float UMapGridWidget::GetZoomLevel()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24998);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25098);
 
 	UMapGridWidget_GetZoomLevel_Params params;
 
@@ -42008,7 +42469,7 @@ float UMapGridWidget::GetZoomLevel()
 struct FVector2D UMapGridWidget::GetWidgetSize()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24996);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25096);
 
 	UMapGridWidget_GetWidgetSize_Params params;
 
@@ -42031,7 +42492,7 @@ struct FVector2D UMapGridWidget::GetWidgetSize()
 struct FVector2D UMapGridWidget::GetWidgetPosition()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24994);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25094);
 
 	UMapGridWidget_GetWidgetPosition_Params params;
 
@@ -42054,7 +42515,7 @@ struct FVector2D UMapGridWidget::GetWidgetPosition()
 struct FVector2D UMapGridWidget::GetScreenOffset()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24992);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25092);
 
 	UMapGridWidget_GetScreenOffset_Params params;
 
@@ -42078,7 +42539,7 @@ struct FVector2D UMapGridWidget::GetScreenOffset()
 void UMapGridWidget::GetMapImageWigetSizeAndImageOffset(struct FVector2D* WidgetSize, struct FVector2D* ImageOffset)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24989);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25089);
 
 	UMapGridWidget_GetMapImageWigetSizeAndImageOffset_Params params;
 
@@ -42103,7 +42564,7 @@ void UMapGridWidget::GetMapImageWigetSizeAndImageOffset(struct FVector2D* Widget
 struct FVector2D UMapGridWidget::GetLocalMousePosition()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24987);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25087);
 
 	UMapGridWidget_GetLocalMousePosition_Params params;
 
@@ -42126,7 +42587,7 @@ struct FVector2D UMapGridWidget::GetLocalMousePosition()
 struct FString UMapGridWidget::GetCharacterGridVertical()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24985);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25085);
 
 	UMapGridWidget_GetCharacterGridVertical_Params params;
 
@@ -42149,7 +42610,7 @@ struct FString UMapGridWidget::GetCharacterGridVertical()
 struct FString UMapGridWidget::GetCharacterGridTextHorizental()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24983);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25083);
 
 	UMapGridWidget_GetCharacterGridTextHorizental_Params params;
 
@@ -42172,7 +42633,7 @@ struct FString UMapGridWidget::GetCharacterGridTextHorizental()
 struct FVector2D UMapGridWidget::GetAlignment()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24981);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25081);
 
 	UMapGridWidget_GetAlignment_Params params;
 
@@ -42196,7 +42657,7 @@ struct FVector2D UMapGridWidget::GetAlignment()
 void UMapGridWidget::DrawRedZone_UC(const struct FVector2D& Center_UC, float Radius_UC)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24978);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25078);
 
 	UMapGridWidget_DrawRedZone_UC_Params params;
 	params.Center_UC = Center_UC;
@@ -42218,7 +42679,7 @@ void UMapGridWidget::DrawRedZone_UC(const struct FVector2D& Center_UC, float Rad
 void UMapGridWidget::DrawMarker_UC(const struct FVector2D& MarkerCenter_UC)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24976);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25076);
 
 	UMapGridWidget_DrawMarker_UC_Params params;
 	params.MarkerCenter_UC = MarkerCenter_UC;
@@ -42241,7 +42702,7 @@ void UMapGridWidget::DrawMarker_UC(const struct FVector2D& MarkerCenter_UC)
 void UMapGridWidget::CursorUCtoCenterMC(const struct FVector2D& UC, struct FVector2D* Offest_MC, bool* bUpdate)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24972);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25072);
 
 	UMapGridWidget_CursorUCtoCenterMC_Params params;
 	params.UC = UC;
@@ -42270,7 +42731,7 @@ void UMapGridWidget::CursorUCtoCenterMC(const struct FVector2D& UC, struct FVect
 struct FVector2D UMapGridWidget::ClampPositionByWidgetSize_UC(const struct FVector2D& Positon, const struct FVector2D& WidgetSize)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24968);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25068);
 
 	UMapGridWidget_ClampPositionByWidgetSize_UC_Params params;
 	params.Positon = Positon;
@@ -42296,7 +42757,7 @@ struct FVector2D UMapGridWidget::ClampPositionByWidgetSize_UC(const struct FVect
 struct FVector2D UMapGridWidget::ClampPosition_UC(const struct FVector2D& Positon)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24965);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25065);
 
 	UMapGridWidget_ClampPosition_UC_Params params;
 	params.Positon = Positon;
@@ -42320,7 +42781,7 @@ struct FVector2D UMapGridWidget::ClampPosition_UC(const struct FVector2D& Posito
 void UMapGridWidget::AddCenter_UC(const struct FVector2D& Offset_UC)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(24963);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25063);
 
 	UMapGridWidget_AddCenter_UC_Params params;
 	params.Offset_UC = Offset_UC;
@@ -42340,7 +42801,7 @@ void UMapGridWidget::AddCenter_UC(const struct FVector2D& Offset_UC)
 void UTeamMarkWidget::InitializeTeamMarkGrid()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25112);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25212);
 
 	UTeamMarkWidget_InitializeTeamMarkGrid_Params params;
 
@@ -42361,7 +42822,7 @@ void UTeamMarkWidget::InitializeTeamMarkGrid()
 int UTeamOverallKillCountBaseWidget::GetLastTeamOverallKillCount()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25142);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25242);
 
 	UTeamOverallKillCountBaseWidget_GetLastTeamOverallKillCount_Params params;
 
@@ -42384,7 +42845,7 @@ int UTeamOverallKillCountBaseWidget::GetLastTeamOverallKillCount()
 void UTslAdaptiveCrosshairWidget::SetShowCrosshairWidget(bool bShow)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25162);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25262);
 
 	UTslAdaptiveCrosshairWidget_SetShowCrosshairWidget_Params params;
 	params.bShow = bShow;
@@ -42406,7 +42867,7 @@ void UTslAdaptiveCrosshairWidget::SetShowCrosshairWidget(bool bShow)
 void UTslAdaptiveCrosshairWidget::SetCenterCrosshairVisibility(bool bVisible)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25160);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25260);
 
 	UTslAdaptiveCrosshairWidget_SetCenterCrosshairVisibility_Params params;
 	params.bVisible = bVisible;
@@ -42428,7 +42889,7 @@ void UTslAdaptiveCrosshairWidget::SetCenterCrosshairVisibility(bool bVisible)
 void UTslAdaptiveCrosshairWidget::SetCenterCrosshairDeviation(float InDeviation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25158);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25258);
 
 	UTslAdaptiveCrosshairWidget_SetCenterCrosshairDeviation_Params params;
 	params.InDeviation = InDeviation;
@@ -42451,7 +42912,7 @@ void UTslAdaptiveCrosshairWidget::SetCenterCrosshairDeviation(float InDeviation)
 void UTslAdaptiveCrosshairWidget::SetCenterCrosshairClass(EWeaponClass InWeaponClass, bool bHasWeapon)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25154);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25254);
 
 	UTslAdaptiveCrosshairWidget_SetCenterCrosshairClass_Params params;
 	params.InWeaponClass = InWeaponClass;
@@ -42474,7 +42935,7 @@ void UTslAdaptiveCrosshairWidget::SetCenterCrosshairClass(EWeaponClass InWeaponC
 void UTslAdaptiveCrosshairWidget::SetAdaptiveCrosshairVisibility(bool bVisible)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25152);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25252);
 
 	UTslAdaptiveCrosshairWidget_SetAdaptiveCrosshairVisibility_Params params;
 	params.bVisible = bVisible;
@@ -42497,7 +42958,7 @@ void UTslAdaptiveCrosshairWidget::SetAdaptiveCrosshairVisibility(bool bVisible)
 void UTslAdaptiveCrosshairWidget::SetAdaptiveCrosshairPosition(const struct FVector2D& ScreenPosition, float Distance)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25149);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25249);
 
 	UTslAdaptiveCrosshairWidget_SetAdaptiveCrosshairPosition_Params params;
 	params.ScreenPosition = ScreenPosition;
@@ -42518,7 +42979,7 @@ void UTslAdaptiveCrosshairWidget::SetAdaptiveCrosshairPosition(const struct FVec
 void UTslAdaptiveCrosshairWidget::HandleGameUserSettingApplied()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25148);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25248);
 
 	UTslAdaptiveCrosshairWidget_HandleGameUserSettingApplied_Params params;
 
@@ -42537,7 +42998,7 @@ void UTslAdaptiveCrosshairWidget::HandleGameUserSettingApplied()
 void UTslAdaptiveCrosshairWidget::DecideAdaptiveCrosshairColor()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25147);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25247);
 
 	UTslAdaptiveCrosshairWidget_DecideAdaptiveCrosshairColor_Params params;
 
@@ -42556,7 +43017,7 @@ void UTslAdaptiveCrosshairWidget::DecideAdaptiveCrosshairColor()
 void UTslBaseOptionWidget::OnReset()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25214);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25314);
 
 	UTslBaseOptionWidget_OnReset_Params params;
 
@@ -42575,7 +43036,7 @@ void UTslBaseOptionWidget::OnReset()
 void UTslBaseOptionWidget::OnDefault()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25213);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25313);
 
 	UTslBaseOptionWidget_OnDefault_Params params;
 
@@ -42594,7 +43055,7 @@ void UTslBaseOptionWidget::OnDefault()
 void UTslBaseOptionWidget::OnApply()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25212);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25312);
 
 	UTslBaseOptionWidget_OnApply_Params params;
 
@@ -42615,7 +43076,7 @@ void UTslBaseOptionWidget::OnApply()
 bool UTslBaseOptionWidget::IsKeyUp()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25210);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25310);
 
 	UTslBaseOptionWidget_IsKeyUp_Params params;
 
@@ -42638,7 +43099,7 @@ bool UTslBaseOptionWidget::IsKeyUp()
 bool UTslBaseOptionWidget::IsEnableApply()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25208);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25308);
 
 	UTslBaseOptionWidget_IsEnableApply_Params params;
 
@@ -42661,7 +43122,7 @@ bool UTslBaseOptionWidget::IsEnableApply()
 bool UTslBaseOptionWidget::IsChanged()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25206);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25306);
 
 	UTslBaseOptionWidget_IsChanged_Params params;
 
@@ -42684,7 +43145,7 @@ bool UTslBaseOptionWidget::IsChanged()
 void UTslKeyDisplayWidget::TransferInputEvent(const struct FTslInputKey& TslInputKey)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25225);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25325);
 
 	UTslKeyDisplayWidget_TransferInputEvent_Params params;
 	params.TslInputKey = TslInputKey;
@@ -42711,7 +43172,7 @@ void UTslKeyDisplayWidget::TransferInputEvent(const struct FTslInputKey& TslInpu
 void UTslKeyDisplayWidget::SetupKeyDisplayWidget(const struct FName& InInputName, const struct FText& InDisplayName, const struct FName& InCategoryName, bool InbAxisInput, float InAxisScale, bool InbGamepad)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25218);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25318);
 
 	UTslKeyDisplayWidget_SetupKeyDisplayWidget_Params params;
 	params.InInputName = InInputName;
@@ -42738,7 +43199,7 @@ void UTslKeyDisplayWidget::SetupKeyDisplayWidget(const struct FName& InInputName
 void UTslKeyDisplayWidget::InitializeKeyDisplayWidget(bool bDefault)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25216);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25316);
 
 	UTslKeyDisplayWidget_InitializeKeyDisplayWidget_Params params;
 	params.bDefault = bDefault;
@@ -42758,7 +43219,7 @@ void UTslKeyDisplayWidget::InitializeKeyDisplayWidget(bool bDefault)
 void UTslKeyDisplayWidget::ApplyKey()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25215);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25315);
 
 	UTslKeyDisplayWidget_ApplyKey_Params params;
 
@@ -42780,7 +43241,7 @@ void UTslKeyDisplayWidget::ApplyKey()
 void UTslKeyOptionWidget::OnKeyChanged(class UTslKeyDisplayWidget* InKeyDisplayWidget, const struct FTslInputKey& InInputedKey)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25239);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25339);
 
 	UTslKeyOptionWidget_OnKeyChanged_Params params;
 	params.InKeyDisplayWidget = InKeyDisplayWidget;
@@ -42801,7 +43262,7 @@ void UTslKeyOptionWidget::OnKeyChanged(class UTslKeyDisplayWidget* InKeyDisplayW
 void UTslKeyOptionWidget::InitializeKeyAndMouseSetting()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25238);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25338);
 
 	UTslKeyOptionWidget_InitializeKeyAndMouseSetting_Params params;
 
@@ -42823,7 +43284,7 @@ void UTslKeyOptionWidget::InitializeKeyAndMouseSetting()
 void UTslKeySettingWidget::TransferInputEvent(class UTslKeyDisplayWidget* KeyDisplayWidget, const struct FTslInputKey& TslInputKey)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25257);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25357);
 
 	UTslKeySettingWidget_TransferInputEvent_Params params;
 	params.KeyDisplayWidget = KeyDisplayWidget;
@@ -42847,7 +43308,7 @@ void UTslKeySettingWidget::TransferInputEvent(class UTslKeyDisplayWidget* KeyDis
 void UTslKeySettingWidget::StartupKeySettingWidget(const struct FName& InCategoryName, const struct FText& InDisplayText)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25254);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25354);
 
 	UTslKeySettingWidget_StartupKeySettingWidget_Params params;
 	params.InCategoryName = InCategoryName;
@@ -42868,7 +43329,7 @@ void UTslKeySettingWidget::StartupKeySettingWidget(const struct FName& InCategor
 void UTslKeySettingWidget::SetToDefault()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25253);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25353);
 
 	UTslKeySettingWidget_SetToDefault_Params params;
 
@@ -42887,7 +43348,7 @@ void UTslKeySettingWidget::SetToDefault()
 void UTslKeySettingWidget::InitializeKeySettingWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25252);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25352);
 
 	UTslKeySettingWidget_InitializeKeySettingWidget_Params params;
 
@@ -42909,7 +43370,7 @@ void UTslKeySettingWidget::InitializeKeySettingWidget()
 void UTslBreatheBarWidget::OnStartBuff(const struct FName& BuffName, bool bStart)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25281);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25381);
 
 	UTslBreatheBarWidget_OnStartBuff_Params params;
 	params.BuffName = BuffName;
@@ -42932,7 +43393,7 @@ void UTslBreatheBarWidget::OnStartBuff(const struct FName& BuffName, bool bStart
 void UTslBuffIconListWidget::UpdateRunBuffIconVisibility(float InBoostPercentage)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25315);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25415);
 
 	UTslBuffIconListWidget_UpdateRunBuffIconVisibility_Params params;
 	params.InBoostPercentage = InBoostPercentage;
@@ -42954,7 +43415,7 @@ void UTslBuffIconListWidget::UpdateRunBuffIconVisibility(float InBoostPercentage
 void UTslBuffIconListWidget::UpdateRunBuffIcon(float InBoostPercentage)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25313);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25413);
 
 	UTslBuffIconListWidget_UpdateRunBuffIcon_Params params;
 	params.InBoostPercentage = InBoostPercentage;
@@ -42976,7 +43437,7 @@ void UTslBuffIconListWidget::UpdateRunBuffIcon(float InBoostPercentage)
 void UTslBuffIconListWidget::UpdateHealBuffIconVisibility(float InBoostPercentage)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25311);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25411);
 
 	UTslBuffIconListWidget_UpdateHealBuffIconVisibility_Params params;
 	params.InBoostPercentage = InBoostPercentage;
@@ -42998,7 +43459,7 @@ void UTslBuffIconListWidget::UpdateHealBuffIconVisibility(float InBoostPercentag
 void UTslBuffIconListWidget::UpdateHealBuffIcon(float InBoostPercentage)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25309);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25409);
 
 	UTslBuffIconListWidget_UpdateHealBuffIcon_Params params;
 	params.InBoostPercentage = InBoostPercentage;
@@ -43021,7 +43482,7 @@ void UTslBuffIconListWidget::UpdateHealBuffIcon(float InBoostPercentage)
 struct FLinearColor UTslBuffIconListWidget::GetRunBuffIconOpacity(float InBoostPercentage)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25306);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25406);
 
 	UTslBuffIconListWidget_GetRunBuffIconOpacity_Params params;
 	params.InBoostPercentage = InBoostPercentage;
@@ -43046,7 +43507,7 @@ struct FLinearColor UTslBuffIconListWidget::GetRunBuffIconOpacity(float InBoostP
 struct FLinearColor UTslBuffIconListWidget::GetHealBuffIconOpacity(float InBoostPercentage)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25303);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25403);
 
 	UTslBuffIconListWidget_GetHealBuffIconOpacity_Params params;
 	params.InBoostPercentage = InBoostPercentage;
@@ -43071,7 +43532,7 @@ struct FLinearColor UTslBuffIconListWidget::GetHealBuffIconOpacity(float InBoost
 int UTslCastableItemIconWidget::GetCastableItemCount(ECastableItemType InItemType)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25323);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25423);
 
 	UTslCastableItemIconWidget_GetCastableItemCount_Params params;
 	params.InItemType = InItemType;
@@ -43095,7 +43556,7 @@ int UTslCastableItemIconWidget::GetCastableItemCount(ECastableItemType InItemTyp
 void UTslConfirmationDialogWidget::OnButtonClick(EPopupButtonID ButtonID)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25363);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25463);
 
 	UTslConfirmationDialogWidget_OnButtonClick_Params params;
 	params.ButtonID = ButtonID;
@@ -43115,7 +43576,7 @@ void UTslConfirmationDialogWidget::OnButtonClick(EPopupButtonID ButtonID)
 void UTslHealItemSelectorWidget::OnTapAction()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25374);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25474);
 
 	UTslHealItemSelectorWidget_OnTapAction_Params params;
 
@@ -43134,7 +43595,7 @@ void UTslHealItemSelectorWidget::OnTapAction()
 void UTslHealItemSelectorWidget::OnHoldAction()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25373);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25473);
 
 	UTslHealItemSelectorWidget_OnHoldAction_Params params;
 
@@ -43153,7 +43614,7 @@ void UTslHealItemSelectorWidget::OnHoldAction()
 void UTslHealItemSelectorWidget::OnHideWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25372);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25472);
 
 	UTslHealItemSelectorWidget_OnHideWidget_Params params;
 
@@ -43174,7 +43635,7 @@ void UTslHealItemSelectorWidget::OnHideWidget()
 void UTslHealItemSelectorWidget::NotifyHealItemSelectorInput(bool bPressed)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25370);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25470);
 
 	UTslHealItemSelectorWidget_NotifyHealItemSelectorInput_Params params;
 	params.bPressed = bPressed;
@@ -43196,7 +43657,7 @@ void UTslHealItemSelectorWidget::NotifyHealItemSelectorInput(bool bPressed)
 class AInventory* UTslInventoryCapacityWidget::GetInventoryCached()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25418);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25518);
 
 	UTslInventoryCapacityWidget_GetInventoryCached_Params params;
 
@@ -43224,7 +43685,7 @@ class AInventory* UTslInventoryCapacityWidget::GetInventoryCached()
 void UTslInventoryCapacityWidget::GetFeedbackParamsFromVicinityItem(float CurrMaxSpace, float CurrSpace, float ItemSpace, float* OutFeedbackStart, float* OutFeedbackEnd, bool* OutIsPositive)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25411);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25511);
 
 	UTslInventoryCapacityWidget_GetFeedbackParamsFromVicinityItem_Params params;
 	params.CurrMaxSpace = CurrMaxSpace;
@@ -43260,7 +43721,7 @@ void UTslInventoryCapacityWidget::GetFeedbackParamsFromVicinityItem(float CurrMa
 void UTslInventoryCapacityWidget::GetFeedbackParamsFromVicinityEquipment(float CurrMaxSpace, float CurrSpace, class UEquipableItem* EquipableItem, float* OutFeedbackStart, float* OutFeedbackEnd, bool* OutIsPositive)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25404);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25504);
 
 	UTslInventoryCapacityWidget_GetFeedbackParamsFromVicinityEquipment_Params params;
 	params.CurrMaxSpace = CurrMaxSpace;
@@ -43296,7 +43757,7 @@ void UTslInventoryCapacityWidget::GetFeedbackParamsFromVicinityEquipment(float C
 void UTslInventoryCapacityWidget::GetFeedbackParamsFromInventoryItem(float CurrMaxSpace, float CurrSpace, float ItemSpace, float* OutFeedbackStart, float* OutFeedbackEnd, bool* OutIsPositive)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25397);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25497);
 
 	UTslInventoryCapacityWidget_GetFeedbackParamsFromInventoryItem_Params params;
 	params.CurrMaxSpace = CurrMaxSpace;
@@ -43332,7 +43793,7 @@ void UTslInventoryCapacityWidget::GetFeedbackParamsFromInventoryItem(float CurrM
 void UTslInventoryCapacityWidget::GetFeedbackParamsFromEquipmentSlot(float CurrMaxSpace, float CurrSpace, class UEquipableItem* EquipableItem, float* OutFeedbackStart, float* OutFeedbackEnd, bool* OutIsPositive)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25390);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25490);
 
 	UTslInventoryCapacityWidget_GetFeedbackParamsFromEquipmentSlot_Params params;
 	params.CurrMaxSpace = CurrMaxSpace;
@@ -43366,7 +43827,7 @@ void UTslInventoryCapacityWidget::GetFeedbackParamsFromEquipmentSlot(float CurrM
 void UTslInventoryCapacityWidget::GetCapacityParams(float CurrMaxSpace, float CurrSpace, float* OutCurrMaxSpaceStart, float* OutCurrSpaceStart)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25385);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25485);
 
 	UTslInventoryCapacityWidget_GetCapacityParams_Params params;
 	params.CurrMaxSpace = CurrMaxSpace;
@@ -43394,7 +43855,7 @@ void UTslInventoryCapacityWidget::GetCapacityParams(float CurrMaxSpace, float Cu
 void UTslKeyGuideWidget::ShowKeyGuideWidget(EKeyGuideShowCases eShowCase)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25423);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25523);
 
 	UTslKeyGuideWidget_ShowKeyGuideWidget_Params params;
 	params.eShowCase = eShowCase;
@@ -43414,7 +43875,7 @@ void UTslKeyGuideWidget::ShowKeyGuideWidget(EKeyGuideShowCases eShowCase)
 void UTslKeyGuideWidget::HideKeyGuideWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25422);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25522);
 
 	UTslKeyGuideWidget_HideKeyGuideWidget_Params params;
 
@@ -43435,7 +43896,7 @@ void UTslKeyGuideWidget::HideKeyGuideWidget()
 void UTslKeyReceiverWidget::UpdateKeyUp(const struct FKey& InKey)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25442);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25542);
 
 	UTslKeyReceiverWidget_UpdateKeyUp_Params params;
 	params.InKey = InKey;
@@ -43457,7 +43918,7 @@ void UTslKeyReceiverWidget::UpdateKeyUp(const struct FKey& InKey)
 void UTslKeyReceiverWidget::UpdateKeyDown(const struct FKey& InKey)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25440);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25540);
 
 	UTslKeyReceiverWidget_UpdateKeyDown_Params params;
 	params.InKey = InKey;
@@ -43479,7 +43940,7 @@ void UTslKeyReceiverWidget::UpdateKeyDown(const struct FKey& InKey)
 void UTslKeyReceiverWidget::KeyUp(const struct FKey& InKey)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25438);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25538);
 
 	UTslKeyReceiverWidget_KeyUp_Params params;
 	params.InKey = InKey;
@@ -43501,7 +43962,7 @@ void UTslKeyReceiverWidget::KeyUp(const struct FKey& InKey)
 void UTslKeyReceiverWidget::KeyDown(const struct FKey& InKey)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25436);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25536);
 
 	UTslKeyReceiverWidget_KeyDown_Params params;
 	params.InKey = InKey;
@@ -43523,7 +43984,7 @@ void UTslKeyReceiverWidget::KeyDown(const struct FKey& InKey)
 bool UTslKeyReceiverWidget::IsInputKeyDown()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25434);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25534);
 
 	UTslKeyReceiverWidget_IsInputKeyDown_Params params;
 
@@ -43546,7 +44007,7 @@ bool UTslKeyReceiverWidget::IsInputKeyDown()
 struct FText UTslKeyReceiverWidget::GetLastDownedKeyName()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25432);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25532);
 
 	UTslKeyReceiverWidget_GetLastDownedKeyName_Params params;
 
@@ -43567,7 +44028,7 @@ struct FText UTslKeyReceiverWidget::GetLastDownedKeyName()
 void UTslKillMessageListWidget::UpdateMessageListWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25462);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25562);
 
 	UTslKillMessageListWidget_UpdateMessageListWidget_Params params;
 
@@ -43587,7 +44048,7 @@ void UTslKillMessageListWidget::UpdateMessageListWidget()
 void UTslKillMessageListWidget::OnVanishAnimationFinished(class UWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25460);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25560);
 
 	UTslKillMessageListWidget_OnVanishAnimationFinished_Params params;
 	params.Widget = Widget;
@@ -43609,7 +44070,7 @@ void UTslKillMessageListWidget::OnVanishAnimationFinished(class UWidget* Widget)
 void UTslKillMessageListWidget::EnqueueDeathMessage(const struct FDeathMessage& DeathMessage)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25458);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25558);
 
 	UTslKillMessageListWidget_EnqueueDeathMessage_Params params;
 	params.DeathMessage = DeathMessage;
@@ -43631,7 +44092,7 @@ void UTslKillMessageListWidget::EnqueueDeathMessage(const struct FDeathMessage& 
 void UTslKillMessageListWidget::DequeueDeathMessage(class UWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25456);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25556);
 
 	UTslKillMessageListWidget_DequeueDeathMessage_Params params;
 	params.Widget = Widget;
@@ -43653,7 +44114,7 @@ void UTslKillMessageListWidget::DequeueDeathMessage(class UWidget* Widget)
 void UTslKillMessageWidget::SetVanishTimer(float TimeDelay)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25480);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25580);
 
 	UTslKillMessageWidget_SetVanishTimer_Params params;
 	params.TimeDelay = TimeDelay;
@@ -43675,7 +44136,7 @@ void UTslKillMessageWidget::SetVanishTimer(float TimeDelay)
 void UTslKillMessageWidget::SetDeathMessage(const struct FDeathMessage& InDeathMessage)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25478);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25578);
 
 	UTslKillMessageWidget_SetDeathMessage_Params params;
 	params.InDeathMessage = InDeathMessage;
@@ -43694,7 +44155,7 @@ void UTslKillMessageWidget::SetDeathMessage(const struct FDeathMessage& InDeathM
 void UTslKillMessageWidget::PlayVanishAnimation()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25477);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25577);
 
 	UTslKillMessageWidget_PlayVanishAnimation_Params params;
 
@@ -43717,7 +44178,7 @@ void UTslKillMessageWidget::PlayVanishAnimation()
 void UTslKillMessageWidget::GetTextureFromDamageTypeCategory(EDamageTypeCategory InDamageTypeCategory, class UTexture** OutTexture, float* OutRatio)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25472);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25572);
 
 	UTslKillMessageWidget_GetTextureFromDamageTypeCategory_Params params;
 	params.InDamageTypeCategory = InDamageTypeCategory;
@@ -43746,7 +44207,7 @@ void UTslKillMessageWidget::GetTextureFromDamageTypeCategory(EDamageTypeCategory
 void UTslKillMessageWidget::GetTextureFromConditionOfDeathCategory(EConditionOfDeath InConditionOfDeathCategory, class UTexture** OutTexture, float* OutRatio)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25467);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25567);
 
 	UTslKillMessageWidget_GetTextureFromConditionOfDeathCategory_Params params;
 	params.InConditionOfDeathCategory = InConditionOfDeathCategory;
@@ -43771,7 +44232,7 @@ void UTslKillMessageWidget::GetTextureFromConditionOfDeathCategory(EConditionOfD
 void UTslLobbyNameTagWidget::UpdateWidgetsVisibilities()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25506);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25606);
 
 	UTslLobbyNameTagWidget_UpdateWidgetsVisibilities_Params params;
 
@@ -43792,7 +44253,7 @@ void UTslLobbyNameTagWidget::UpdateWidgetsVisibilities()
 void UTslLobbyNameTagWidget::SetSpeaking(bool InbSpeaking)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25504);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25604);
 
 	UTslLobbyNameTagWidget_SetSpeaking_Params params;
 	params.InbSpeaking = InbSpeaking;
@@ -43814,7 +44275,7 @@ void UTslLobbyNameTagWidget::SetSpeaking(bool InbSpeaking)
 void UTslLobbyNameTagWidget::SetReady(bool InbReady)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25502);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25602);
 
 	UTslLobbyNameTagWidget_SetReady_Params params;
 	params.InbReady = InbReady;
@@ -43836,7 +44297,7 @@ void UTslLobbyNameTagWidget::SetReady(bool InbReady)
 void UTslLobbyNameTagWidget::SetNickName(const struct FString& InNickName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25500);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25600);
 
 	UTslLobbyNameTagWidget_SetNickName_Params params;
 	params.InNickName = InNickName;
@@ -43858,7 +44319,7 @@ void UTslLobbyNameTagWidget::SetNickName(const struct FString& InNickName)
 void UTslLobbyNameTagWidget::SetHost(bool InbHost)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25498);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25598);
 
 	UTslLobbyNameTagWidget_SetHost_Params params;
 	params.InbHost = InbHost;
@@ -43878,7 +44339,7 @@ void UTslLobbyNameTagWidget::SetHost(bool InbHost)
 void UTslLobbyNameTagWidget::SetBinding()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25497);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25597);
 
 	UTslLobbyNameTagWidget_SetBinding_Params params;
 
@@ -43902,7 +44363,7 @@ void UTslLobbyNameTagWidget::SetBinding()
 void UTslLobbyNameTagWidget::OnVoiceChatUpdated(const struct FString& InUniqueId, bool InbTeamChannel, bool InbSpeaking, float InEnergy)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25492);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25592);
 
 	UTslLobbyNameTagWidget_OnVoiceChatUpdated_Params params;
 	params.InUniqueId = InUniqueId;
@@ -43927,7 +44388,7 @@ void UTslLobbyNameTagWidget::OnVoiceChatUpdated(const struct FString& InUniqueId
 bool UTslLobbyNameTagWidget::IsAlone()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25490);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25590);
 
 	UTslLobbyNameTagWidget_IsAlone_Params params;
 
@@ -43950,7 +44411,7 @@ bool UTslLobbyNameTagWidget::IsAlone()
 void UTslLobbyNameTagWidget::InitWidget(const struct FString& InNickName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25488);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25588);
 
 	UTslLobbyNameTagWidget_InitWidget_Params params;
 	params.InNickName = InNickName;
@@ -43970,7 +44431,7 @@ void UTslLobbyNameTagWidget::InitWidget(const struct FString& InNickName)
 void UTslTeamInfoWidget::UpdateVoiceImage()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25580);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25680);
 
 	UTslTeamInfoWidget_UpdateVoiceImage_Params params;
 
@@ -43994,7 +44455,7 @@ void UTslTeamInfoWidget::UpdateVoiceImage()
 void UTslTeamInfoWidget::UpdateVivoxChat(const struct FString& UniqueId, bool bIsTeamChannel, bool InbSpeaking, float InMeterEnergy)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25575);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25675);
 
 	UTslTeamInfoWidget_UpdateVivoxChat_Params params;
 	params.UniqueId = UniqueId;
@@ -44017,7 +44478,7 @@ void UTslTeamInfoWidget::UpdateVivoxChat(const struct FString& UniqueId, bool bI
 void UTslTeamInfoWidget::UpdateTeamMemberName()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25574);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25674);
 
 	UTslTeamInfoWidget_UpdateTeamMemberName_Params params;
 
@@ -44036,7 +44497,7 @@ void UTslTeamInfoWidget::UpdateTeamMemberName()
 void UTslTeamInfoWidget::UpdateTeamMemberIcon()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25573);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25673);
 
 	UTslTeamInfoWidget_UpdateTeamMemberIcon_Params params;
 
@@ -44055,7 +44516,7 @@ void UTslTeamInfoWidget::UpdateTeamMemberIcon()
 void UTslTeamInfoWidget::UpdateTeamMemberColor()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25572);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25672);
 
 	UTslTeamInfoWidget_UpdateTeamMemberColor_Params params;
 
@@ -44074,7 +44535,7 @@ void UTslTeamInfoWidget::UpdateTeamMemberColor()
 void UTslTeamInfoWidget::UpdateTeamMarkerBorder()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25571);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25671);
 
 	UTslTeamInfoWidget_UpdateTeamMarkerBorder_Params params;
 
@@ -44093,7 +44554,7 @@ void UTslTeamInfoWidget::UpdateTeamMarkerBorder()
 void UTslTeamInfoWidget::UpdateTeamMarker()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25570);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25670);
 
 	UTslTeamInfoWidget_UpdateTeamMarker_Params params;
 
@@ -44112,7 +44573,7 @@ void UTslTeamInfoWidget::UpdateTeamMarker()
 void UTslTeamInfoWidget::UpdateTeamInfoIcon()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25569);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25669);
 
 	UTslTeamInfoWidget_UpdateTeamInfoIcon_Params params;
 
@@ -44131,7 +44592,7 @@ void UTslTeamInfoWidget::UpdateTeamInfoIcon()
 void UTslTeamInfoWidget::UpdateTeamInfoArea()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25568);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25668);
 
 	UTslTeamInfoWidget_UpdateTeamInfoArea_Params params;
 
@@ -44150,7 +44611,7 @@ void UTslTeamInfoWidget::UpdateTeamInfoArea()
 void UTslTeamInfoWidget::UpdatePlayerIcon()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25567);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25667);
 
 	UTslTeamInfoWidget_UpdatePlayerIcon_Params params;
 
@@ -44169,7 +44630,7 @@ void UTslTeamInfoWidget::UpdatePlayerIcon()
 void UTslTeamInfoWidget::UpdateHealthGaugeAndVisibility()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25566);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25666);
 
 	UTslTeamInfoWidget_UpdateHealthGaugeAndVisibility_Params params;
 
@@ -44188,7 +44649,7 @@ void UTslTeamInfoWidget::UpdateHealthGaugeAndVisibility()
 void UTslTeamInfoWidget::UpdateBoostGauge()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25565);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25665);
 
 	UTslTeamInfoWidget_UpdateBoostGauge_Params params;
 
@@ -44209,7 +44670,7 @@ void UTslTeamInfoWidget::UpdateBoostGauge()
 void UTslTeamInfoWidget::SetTeam(class ATeam* InTeam)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25563);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25663);
 
 	UTslTeamInfoWidget_SetTeam_Params params;
 	params.InTeam = InTeam;
@@ -44232,7 +44693,7 @@ void UTslTeamInfoWidget::SetTeam(class ATeam* InTeam)
 void UTslTeamInfoWidget::OnVoiceChat(bool InbSpeaking, float InMeterEnergy)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25560);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25660);
 
 	UTslTeamInfoWidget_OnVoiceChat_Params params;
 	params.InbSpeaking = InbSpeaking;
@@ -44257,7 +44718,7 @@ void UTslTeamInfoWidget::OnVoiceChat(bool InbSpeaking, float InMeterEnergy)
 void UTslTeamInfoWidget::OnParticipantRestrictionChanged(class ATeam* Team, const struct FString& UniqueId, bool bIsRestricted)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25556);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25656);
 
 	UTslTeamInfoWidget_OnParticipantRestrictionChanged_Params params;
 	params.Team = Team;
@@ -44283,7 +44744,7 @@ void UTslTeamInfoWidget::OnParticipantRestrictionChanged(class ATeam* Team, cons
 void UTslTeamInfoWidget::OnParticipantMuteChanged(class ATeam* Team, const struct FString& ParticipantId, const struct FString& ChannelId, bool bIsMuted)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25551);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25651);
 
 	UTslTeamInfoWidget_OnParticipantMuteChanged_Params params;
 	params.Team = Team;
@@ -44308,7 +44769,7 @@ void UTslTeamInfoWidget::OnParticipantMuteChanged(class ATeam* Team, const struc
 void UTslTeamInfoWidget::OnNativeParticipantRestrictionChanged(const struct FString& UniqueId, bool bIsRestricted)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25548);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25648);
 
 	UTslTeamInfoWidget_OnNativeParticipantRestrictionChanged_Params params;
 	params.UniqueId = UniqueId;
@@ -44333,7 +44794,7 @@ void UTslTeamInfoWidget::OnNativeParticipantRestrictionChanged(const struct FStr
 void UTslTeamInfoWidget::OnNativeParticipantMuteChanged(const struct FString& ParticipantId, const struct FString& ChannelId, bool bIsMuted)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25544);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25644);
 
 	UTslTeamInfoWidget_OnNativeParticipantMuteChanged_Params params;
 	params.ParticipantId = ParticipantId;
@@ -44355,7 +44816,7 @@ void UTslTeamInfoWidget::OnNativeParticipantMuteChanged(const struct FString& Pa
 void UTslTeamInfoWidget::DecideTeamNameColor()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25543);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25643);
 
 	UTslTeamInfoWidget_DecideTeamNameColor_Params params;
 
@@ -44374,7 +44835,7 @@ void UTslTeamInfoWidget::DecideTeamNameColor()
 void UTslTeamInfoWidget::BindVoiceChatIfNeed()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25542);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25642);
 
 	UTslTeamInfoWidget_BindVoiceChatIfNeed_Params params;
 
@@ -44395,7 +44856,7 @@ void UTslTeamInfoWidget::BindVoiceChatIfNeed()
 void UTslXboxTeamManageInfoWidget::UpdateVoiceIcon(bool InbVoiceMute)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25608);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25708);
 
 	UTslXboxTeamManageInfoWidget_UpdateVoiceIcon_Params params;
 	params.InbVoiceMute = InbVoiceMute;
@@ -44416,7 +44877,7 @@ void UTslXboxTeamManageInfoWidget::UpdateVoiceIcon(bool InbVoiceMute)
 void UTslXboxTeamManageInfoWidget::UpdateUserNameText(const struct FName& InUserName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25606);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25706);
 
 	UTslXboxTeamManageInfoWidget_UpdateUserNameText_Params params;
 	params.InUserName = InUserName;
@@ -44437,7 +44898,7 @@ void UTslXboxTeamManageInfoWidget::UpdateUserNameText(const struct FName& InUser
 void UWeaponSlotHudBaseWidget::OnNotifyWeaponUnarm(bool bIsUnarmed)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25689);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25789);
 
 	UWeaponSlotHudBaseWidget_OnNotifyWeaponUnarm_Params params;
 	params.bIsUnarmed = bIsUnarmed;
@@ -44460,7 +44921,7 @@ void UWeaponSlotHudBaseWidget::OnNotifyWeaponUnarm(bool bIsUnarmed)
 void UWeaponSlotHudBaseWidget::OnNotifyWeaponChange(int WeaponIndex, float Duration)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25686);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25786);
 
 	UWeaponSlotHudBaseWidget_OnNotifyWeaponChange_Params params;
 	params.WeaponIndex = WeaponIndex;
@@ -44481,7 +44942,7 @@ void UWeaponSlotHudBaseWidget::OnNotifyWeaponChange(int WeaponIndex, float Durat
 void UWeaponSlotHudBaseWidget::OnNotifyWeaponArmed()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25685);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25785);
 
 	UWeaponSlotHudBaseWidget_OnNotifyWeaponArmed_Params params;
 
@@ -44500,7 +44961,7 @@ void UWeaponSlotHudBaseWidget::OnNotifyWeaponArmed()
 void UWeaponSlotHudBaseWidget::OnMovingStarted()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25684);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25784);
 
 	UWeaponSlotHudBaseWidget_OnMovingStarted_Params params;
 
@@ -44519,7 +44980,7 @@ void UWeaponSlotHudBaseWidget::OnMovingStarted()
 void UWeaponSlotHudBaseWidget::OnMovingFinished()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25683);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25783);
 
 	UWeaponSlotHudBaseWidget_OnMovingFinished_Params params;
 
@@ -44540,7 +45001,7 @@ void UWeaponSlotHudBaseWidget::OnMovingFinished()
 void UTslVehicleCommonComponent::SetVehicleHealth(float NewHealth)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25760);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25860);
 
 	UTslVehicleCommonComponent_SetVehicleHealth_Params params;
 	params.NewHealth = NewHealth;
@@ -44562,7 +45023,7 @@ void UTslVehicleCommonComponent::SetVehicleHealth(float NewHealth)
 void UTslVehicleCommonComponent::SetVehicleFuelPercent(float Percent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25758);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25858);
 
 	UTslVehicleCommonComponent_SetVehicleFuelPercent_Params params;
 	params.Percent = Percent;
@@ -44584,7 +45045,7 @@ void UTslVehicleCommonComponent::SetVehicleFuelPercent(float Percent)
 void UTslVehicleCommonComponent::SetVehicleFuel(float NewFuel)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25756);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25856);
 
 	UTslVehicleCommonComponent_SetVehicleFuel_Params params;
 	params.NewFuel = NewFuel;
@@ -44604,7 +45065,7 @@ void UTslVehicleCommonComponent::SetVehicleFuel(float NewFuel)
 void UTslVehicleCommonComponent::Repair()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25755);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25855);
 
 	UTslVehicleCommonComponent_Repair_Params params;
 
@@ -44625,7 +45086,7 @@ void UTslVehicleCommonComponent::Repair()
 void UTslVehicleCommonComponent::OnRep_Health(float LastHealth)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25753);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25853);
 
 	UTslVehicleCommonComponent_OnRep_Health_Params params;
 	params.LastHealth = LastHealth;
@@ -44647,7 +45108,7 @@ void UTslVehicleCommonComponent::OnRep_Health(float LastHealth)
 void UTslVehicleCommonComponent::OnRep_Fuel(float LastFuel)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25751);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25851);
 
 	UTslVehicleCommonComponent_OnRep_Fuel_Params params;
 	params.LastFuel = LastFuel;
@@ -44667,7 +45128,7 @@ void UTslVehicleCommonComponent::OnRep_Fuel(float LastFuel)
 void UTslVehicleCommonComponent::OnRep_Dying()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25750);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25850);
 
 	UTslVehicleCommonComponent_OnRep_Dying_Params params;
 
@@ -44686,7 +45147,7 @@ void UTslVehicleCommonComponent::OnRep_Dying()
 void UTslVehicleCommonComponent::OnRep_Broken()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25749);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25849);
 
 	UTslVehicleCommonComponent_OnRep_Broken_Params params;
 
@@ -44707,7 +45168,7 @@ void UTslVehicleCommonComponent::OnRep_Broken()
 bool UTslVehicleCommonComponent::IsDying()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25747);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25847);
 
 	UTslVehicleCommonComponent_IsDying_Params params;
 
@@ -44730,7 +45191,7 @@ bool UTslVehicleCommonComponent::IsDying()
 bool UTslVehicleCommonComponent::IsBroken()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25745);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25845);
 
 	UTslVehicleCommonComponent_IsBroken_Params params;
 
@@ -44753,7 +45214,7 @@ bool UTslVehicleCommonComponent::IsBroken()
 class UClass* UTslVehicleCommonComponent::GetVehicleUI()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25743);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25843);
 
 	UTslVehicleCommonComponent_GetVehicleUI_Params params;
 
@@ -44776,7 +45237,7 @@ class UClass* UTslVehicleCommonComponent::GetVehicleUI()
 float UTslVehicleCommonComponent::GetVehicleHealthPercent()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25741);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25841);
 
 	UTslVehicleCommonComponent_GetVehicleHealthPercent_Params params;
 
@@ -44799,7 +45260,7 @@ float UTslVehicleCommonComponent::GetVehicleHealthPercent()
 float UTslVehicleCommonComponent::GetVehicleHealth()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25739);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25839);
 
 	UTslVehicleCommonComponent_GetVehicleHealth_Params params;
 
@@ -44822,7 +45283,7 @@ float UTslVehicleCommonComponent::GetVehicleHealth()
 float UTslVehicleCommonComponent::GetVehicleFuelPercent()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25737);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25837);
 
 	UTslVehicleCommonComponent_GetVehicleFuelPercent_Params params;
 
@@ -44845,7 +45306,7 @@ float UTslVehicleCommonComponent::GetVehicleFuelPercent()
 float UTslVehicleCommonComponent::GetVehicleFuel()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25735);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25835);
 
 	UTslVehicleCommonComponent_GetVehicleFuel_Params params;
 
@@ -44868,7 +45329,7 @@ float UTslVehicleCommonComponent::GetVehicleFuel()
 float UTslVehicleCommonComponent::GetVehicleBaseHealth()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25733);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25833);
 
 	UTslVehicleCommonComponent_GetVehicleBaseHealth_Params params;
 
@@ -44891,7 +45352,7 @@ float UTslVehicleCommonComponent::GetVehicleBaseHealth()
 float UTslVehicleCommonComponent::GetVehicleBaseFuel()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25731);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25831);
 
 	UTslVehicleCommonComponent_GetVehicleBaseFuel_Params params;
 
@@ -44915,7 +45376,7 @@ float UTslVehicleCommonComponent::GetVehicleBaseFuel()
 bool UTslVehicleCommonComponent::CanIgnoreCharacterDamage(EDamageTypeCategory DamageTypeCategory)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25727);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25827);
 
 	UTslVehicleCommonComponent_CanIgnoreCharacterDamage_Params params;
 	params.DamageTypeCategory = DamageTypeCategory;
@@ -44937,7 +45398,7 @@ bool UTslVehicleCommonComponent::CanIgnoreCharacterDamage(EDamageTypeCategory Da
 void UTslVehicleCommonComponent::Break()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25726);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25826);
 
 	UTslVehicleCommonComponent_Break_Params params;
 
@@ -44958,7 +45419,7 @@ void UTslVehicleCommonComponent::Break()
 void UTslVehicleCommonComponent::AddVehicleFuel(float Delta)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25724);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25824);
 
 	UTslVehicleCommonComponent_AddVehicleFuel_Params params;
 	params.Delta = Delta;
@@ -44978,7 +45439,7 @@ void UTslVehicleCommonComponent::AddVehicleFuel(float Delta)
 void UTslVehicleEffectComponent::SetVehicleMaterialsToDestroyed()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25808);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25908);
 
 	UTslVehicleEffectComponent_SetVehicleMaterialsToDestroyed_Params params;
 
@@ -45000,7 +45461,7 @@ void UTslVehicleEffectComponent::SetVehicleMaterialsToDestroyed()
 void UTslVehicleEffectComponent::SetEngineSoundRTPC(const struct FString& RTPC, float Value)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25805);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25905);
 
 	UTslVehicleEffectComponent_SetEngineSoundRTPC_Params params;
 	params.RTPC = RTPC;
@@ -45026,7 +45487,7 @@ void UTslVehicleEffectComponent::SetEngineSoundRTPC(const struct FString& RTPC, 
 void UTslVehicleEffectComponent::OnHit(class AActor* SelfActor, class AActor* OtherActor, const struct FVector& NormalImpulse, const struct FHitResult& Hit)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25800);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25900);
 
 	UTslVehicleEffectComponent_OnHit_Params params;
 	params.SelfActor = SelfActor;
@@ -45054,7 +45515,7 @@ void UTslVehicleEffectComponent::OnHit(class AActor* SelfActor, class AActor* Ot
 void UTslVehicleEffectComponent::OnHealthChange(float CurrentHealth, float LastHealth, float HealthMax, bool bIsDying)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25795);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25895);
 
 	UTslVehicleEffectComponent_OnHealthChange_Params params;
 	params.CurrentHealth = CurrentHealth;
@@ -45079,7 +45540,7 @@ void UTslVehicleEffectComponent::OnHealthChange(float CurrentHealth, float LastH
 void UTslVehicleEffectComponent::OnDestroyedImpactEffect(class AActor* DestroyedActor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25793);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25893);
 
 	UTslVehicleEffectComponent_OnDestroyedImpactEffect_Params params;
 	params.DestroyedActor = DestroyedActor;
@@ -45104,7 +45565,7 @@ void UTslVehicleEffectComponent::OnDestroyedImpactEffect(class AActor* Destroyed
 void UTslVehicleEffectComponent::OnDeath(float KillingDamage, const struct FDamageEvent& DamageEvent, class ATslPlayerState* PlayerInstigator, class AActor* DamageCauser)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25788);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25888);
 
 	UTslVehicleEffectComponent_OnDeath_Params params;
 	params.KillingDamage = KillingDamage;
@@ -45129,7 +45590,7 @@ void UTslVehicleEffectComponent::OnDeath(float KillingDamage, const struct FDama
 class UAkComponent* UTslVehicleEffectComponent::GetEngineSoundComponent()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25786);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25886);
 
 	UTslVehicleEffectComponent_GetEngineSoundComponent_Params params;
 
@@ -45150,7 +45611,7 @@ class UAkComponent* UTslVehicleEffectComponent::GetEngineSoundComponent()
 void UTslVehicleEffectComponent::ApplyDestoyedMaterialWithDelay()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25785);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25885);
 
 	UTslVehicleEffectComponent_ApplyDestoyedMaterialWithDelay_Params params;
 
@@ -45172,7 +45633,7 @@ void UTslVehicleEffectComponent::ApplyDestoyedMaterialWithDelay()
 void UTslVehicleHitComponent::OnSyncHit(const struct FVector& NormalImpulse, const struct FHitResult& Hit)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25883);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25983);
 
 	UTslVehicleHitComponent_OnSyncHit_Params params;
 	params.NormalImpulse = NormalImpulse;
@@ -45198,7 +45659,7 @@ void UTslVehicleHitComponent::OnSyncHit(const struct FVector& NormalImpulse, con
 void UTslVehicleHitComponent::OnHit(class AActor* SelfActor, class AActor* OtherActor, const struct FVector& NormalImpulse, const struct FHitResult& Hit)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25878);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25978);
 
 	UTslVehicleHitComponent_OnHit_Params params;
 	params.SelfActor = SelfActor;
@@ -45226,7 +45687,7 @@ void UTslVehicleHitComponent::OnHit(class AActor* SelfActor, class AActor* Other
 void UTslVehicleHitComponent::OnDeath(float KillingDamage, const struct FDamageEvent& DamageEvent, class ATslPlayerState* PlayerInstigator, class AActor* DamageCauser)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25873);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25973);
 
 	UTslVehicleHitComponent_OnDeath_Params params;
 	params.KillingDamage = KillingDamage;
@@ -45252,7 +45713,7 @@ void UTslVehicleHitComponent::OnDeath(float KillingDamage, const struct FDamageE
 void UTslVehicleReactionInterface::OnImpactedByVehicle(const struct FHitResult& Hit, const struct FVector& Velocity)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25922);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26022);
 
 	UTslVehicleReactionInterface_OnImpactedByVehicle_Params params;
 	params.Hit = Hit;
@@ -45272,7 +45733,7 @@ void UTslVehicleReactionInterface::OnImpactedByVehicle(const struct FHitResult& 
 void UTslVehicleSeatComponent::TryToStabilize()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25967);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26067);
 
 	UTslVehicleSeatComponent_TryToStabilize_Params params;
 
@@ -45294,7 +45755,7 @@ void UTslVehicleSeatComponent::TryToStabilize()
 void UTslVehicleSeatComponent::TryToRide(class ATslCharacter* Rider, class UVehicleSeatInteractionComponent* Seat)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25964);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26064);
 
 	UTslVehicleSeatComponent_TryToRide_Params params;
 	params.Rider = Rider;
@@ -45318,7 +45779,7 @@ void UTslVehicleSeatComponent::TryToRide(class ATslCharacter* Rider, class UVehi
 void UTslVehicleSeatComponent::TryToLeave(class ATslCharacter* Rider, bool bForce)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25961);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26061);
 
 	UTslVehicleSeatComponent_TryToLeave_Params params;
 	params.Rider = Rider;
@@ -45339,7 +45800,7 @@ void UTslVehicleSeatComponent::TryToLeave(class ATslCharacter* Rider, bool bForc
 void UTslVehicleSeatComponent::TryToFlip()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25960);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26060);
 
 	UTslVehicleSeatComponent_TryToFlip_Params params;
 
@@ -45361,7 +45822,7 @@ void UTslVehicleSeatComponent::TryToFlip()
 void UTslVehicleSeatComponent::Ride(class ATslCharacter* Rider, class UVehicleSeatInteractionComponent* Seat)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25957);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26057);
 
 	UTslVehicleSeatComponent_Ride_Params params;
 	params.Rider = Rider;
@@ -45382,7 +45843,7 @@ void UTslVehicleSeatComponent::Ride(class ATslCharacter* Rider, class UVehicleSe
 void UTslVehicleSeatComponent::PostDriverRide()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25956);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26056);
 
 	UTslVehicleSeatComponent_PostDriverRide_Params params;
 
@@ -45401,7 +45862,7 @@ void UTslVehicleSeatComponent::PostDriverRide()
 void UTslVehicleSeatComponent::PostDriverLeave()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25955);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26055);
 
 	UTslVehicleSeatComponent_PostDriverLeave_Params params;
 
@@ -45424,7 +45885,7 @@ void UTslVehicleSeatComponent::PostDriverLeave()
 void UTslVehicleSeatComponent::OnFuelChange(float CurrentFuel, float LastFuel, float FuelMax)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25951);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26051);
 
 	UTslVehicleSeatComponent_OnFuelChange_Params params;
 	params.CurrentFuel = CurrentFuel;
@@ -45450,7 +45911,7 @@ void UTslVehicleSeatComponent::OnFuelChange(float CurrentFuel, float LastFuel, f
 void UTslVehicleSeatComponent::Leave(class ATslCharacter* Rider, class UVehicleSeatInteractionComponent* Seat, bool bForce)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25947);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26047);
 
 	UTslVehicleSeatComponent_Leave_Params params;
 	params.Rider = Rider;
@@ -45477,7 +45938,7 @@ void UTslVehicleSeatComponent::Leave(class ATslCharacter* Rider, class UVehicleS
 void UTslVehicleSeatComponent::KillAllRiders(float KillingDamage, const struct FDamageEvent& DamageEvent, class ATslPlayerState* PlayerInstigator, class AActor* DamageCauser)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25942);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26042);
 
 	UTslVehicleSeatComponent_KillAllRiders_Params params;
 	params.KillingDamage = KillingDamage;
@@ -45503,7 +45964,7 @@ void UTslVehicleSeatComponent::KillAllRiders(float KillingDamage, const struct F
 int UTslVehicleSeatComponent::GetVehicleSeatIndex(class UVehicleSeatInteractionComponent* Seat)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25939);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26039);
 
 	UTslVehicleSeatComponent_GetVehicleSeatIndex_Params params;
 	params.Seat = Seat;
@@ -45527,7 +45988,7 @@ int UTslVehicleSeatComponent::GetVehicleSeatIndex(class UVehicleSeatInteractionC
 TArray<class UVehicleSeatInteractionComponent*> UTslVehicleSeatComponent::GetSeats()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25936);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26036);
 
 	UTslVehicleSeatComponent_GetSeats_Params params;
 
@@ -45551,7 +46012,7 @@ TArray<class UVehicleSeatInteractionComponent*> UTslVehicleSeatComponent::GetSea
 class UVehicleSeatInteractionComponent* UTslVehicleSeatComponent::GetSeat(int SeatIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25933);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26033);
 
 	UTslVehicleSeatComponent_GetSeat_Params params;
 	params.SeatIndex = SeatIndex;
@@ -45575,7 +46036,7 @@ class UVehicleSeatInteractionComponent* UTslVehicleSeatComponent::GetSeat(int Se
 TArray<class ATslCharacter*> UTslVehicleSeatComponent::GetRiders()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25930);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26030);
 
 	UTslVehicleSeatComponent_GetRiders_Params params;
 
@@ -45599,7 +46060,7 @@ TArray<class ATslCharacter*> UTslVehicleSeatComponent::GetRiders()
 class ATslCharacter* UTslVehicleSeatComponent::GetLastDriver(float LastDuration)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25927);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26027);
 
 	UTslVehicleSeatComponent_GetLastDriver_Params params;
 	params.LastDuration = LastDuration;
@@ -45623,7 +46084,7 @@ class ATslCharacter* UTslVehicleSeatComponent::GetLastDriver(float LastDuration)
 class ATslCharacter* UTslVehicleSeatComponent::GetDriver()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25925);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26025);
 
 	UTslVehicleSeatComponent_GetDriver_Params params;
 
@@ -45651,7 +46112,7 @@ class ATslCharacter* UTslVehicleSeatComponent::GetDriver()
 void UTslVehicleSyncComponent::SendServerMoveToClient(int InCorrectionId, const struct FVector_NetQuantize100& ServerLocation, const struct FVector_NetQuantize100& ServerLinearVelocity, const struct FVector_NetQuantizeNormal& ServerRotator, const struct FVector_NetQuantize100& ServerAngularVelocity, bool bIsSnap)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26026);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26127);
 
 	UTslVehicleSyncComponent_SendServerMoveToClient_Params params;
 	params.InCorrectionId = InCorrectionId;
@@ -45682,7 +46143,7 @@ void UTslVehicleSyncComponent::SendServerMoveToClient(int InCorrectionId, const 
 void UTslVehicleSyncComponent::SendClientMoveToServerUnreliably(int InCorrectionId, const struct FVector_NetQuantize100& ClientLocation, const struct FVector_NetQuantize100& ClientLinearVelocity, const struct FVector_NetQuantizeNormal& ClientRotator, const struct FVector_NetQuantize100& ClientAngularVelocity)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26020);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26121);
 
 	UTslVehicleSyncComponent_SendClientMoveToServerUnreliably_Params params;
 	params.InCorrectionId = InCorrectionId;
@@ -45712,7 +46173,7 @@ void UTslVehicleSyncComponent::SendClientMoveToServerUnreliably(int InCorrection
 void UTslVehicleSyncComponent::SendClientMoveToServerReliably(int InCorrectionId, const struct FVector_NetQuantize100& ClientLocation, const struct FVector_NetQuantize100& ClientLinearVelocity, const struct FVector_NetQuantizeNormal& ClientRotator, const struct FVector_NetQuantize100& ClientAngularVelocity)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26014);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26115);
 
 	UTslVehicleSyncComponent_SendClientMoveToServerReliably_Params params;
 	params.InCorrectionId = InCorrectionId;
@@ -45744,7 +46205,7 @@ void UTslVehicleSyncComponent::SendClientMoveToServerReliably(int InCorrectionId
 void UTslVehicleSyncComponent::SendClientHitToServerUnreliably(int InCorrectionId, const struct FVector_NetQuantize100& ClientLocation, const struct FVector_NetQuantize100& ClientLinearVelocity, const struct FVector_NetQuantizeNormal& ClientRotator, const struct FVector_NetQuantize100& ClientAngularVelocity, const struct FVector_NetQuantize100& NormalImpulse, const struct FHitResult& Hit)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26006);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26107);
 
 	UTslVehicleSyncComponent_SendClientHitToServerUnreliably_Params params;
 	params.InCorrectionId = InCorrectionId;
@@ -45778,7 +46239,7 @@ void UTslVehicleSyncComponent::SendClientHitToServerUnreliably(int InCorrectionI
 void UTslVehicleSyncComponent::SendClientHitToServerReliably(int InCorrectionId, const struct FVector_NetQuantize100& ClientLocation, const struct FVector_NetQuantize100& ClientLinearVelocity, const struct FVector_NetQuantizeNormal& ClientRotator, const struct FVector_NetQuantize100& ClientAngularVelocity, const struct FVector_NetQuantize100& NormalImpulse, const struct FHitResult& Hit)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25998);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26099);
 
 	UTslVehicleSyncComponent_SendClientHitToServerReliably_Params params;
 	params.InCorrectionId = InCorrectionId;
@@ -45809,7 +46270,7 @@ void UTslVehicleSyncComponent::SendClientHitToServerReliably(int InCorrectionId,
 void UTslVehicleSyncComponent::OnHitAtServer(class AActor* SelfActor, class AActor* OtherActor, const struct FVector& NormalImpulse, const struct FHitResult& Hit)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25993);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26094);
 
 	UTslVehicleSyncComponent_OnHitAtServer_Params params;
 	params.SelfActor = SelfActor;
@@ -45837,7 +46298,7 @@ void UTslVehicleSyncComponent::OnHitAtServer(class AActor* SelfActor, class AAct
 void UTslVehicleSyncComponent::OnHitAtClient(class AActor* SelfActor, class AActor* OtherActor, const struct FVector& NormalImpulse, const struct FHitResult& Hit)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25988);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26089);
 
 	UTslVehicleSyncComponent_OnHitAtClient_Params params;
 	params.SelfActor = SelfActor;
@@ -45860,7 +46321,7 @@ void UTslVehicleSyncComponent::OnHitAtClient(class AActor* SelfActor, class AAct
 void UTslVehicleSyncComponent::OnDriverRide()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25987);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26088);
 
 	UTslVehicleSyncComponent_OnDriverRide_Params params;
 
@@ -45882,7 +46343,7 @@ void UTslVehicleSyncComponent::OnDriverRide()
 void UTslViewTargetTempComponent::AddTempComponentWithDelegate(class USceneComponent* TempComponent, const struct FScriptDelegate& DelegateToCall)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26044);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26145);
 
 	UTslViewTargetTempComponent_AddTempComponentWithDelegate_Params params;
 	params.TempComponent = TempComponent;
@@ -45905,7 +46366,7 @@ void UTslViewTargetTempComponent::AddTempComponentWithDelegate(class USceneCompo
 void UTslViewTargetTempComponent::AddTempComponent(class USceneComponent* TempComponent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26042);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26143);
 
 	UTslViewTargetTempComponent_AddTempComponent_Params params;
 	params.TempComponent = TempComponent;
@@ -45925,7 +46386,7 @@ void UTslViewTargetTempComponent::AddTempComponent(class USceneComponent* TempCo
 void ATslWeapon_Gun_Projectile::SimulateFire_BP()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26049);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26150);
 
 	ATslWeapon_Gun_Projectile_SimulateFire_BP_Params params;
 
@@ -45948,7 +46409,7 @@ void ATslWeapon_Gun_Projectile::SimulateFire_BP()
 void ATslWeapon_Trajectory::SimulateUnderwaterTrail(const struct FVector& SurfaceImpactPoint, const struct FVector& ShootDirection, float TravelDistance)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26114);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26219);
 
 	ATslWeapon_Trajectory_SimulateUnderwaterTrail_Params params;
 	params.SurfaceImpactPoint = SurfaceImpactPoint;
@@ -45973,7 +46434,7 @@ void ATslWeapon_Trajectory::SimulateUnderwaterTrail(const struct FVector& Surfac
 void ATslWeapon_Trajectory::SimulateUnderwaterHit(const struct FVector& UnderwaterImpactPoint, const struct FVector& ShootOrigin)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26111);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26216);
 
 	ATslWeapon_Trajectory_SimulateUnderwaterHit_Params params;
 	params.UnderwaterImpactPoint = UnderwaterImpactPoint;
@@ -45997,7 +46458,7 @@ void ATslWeapon_Trajectory::SimulateUnderwaterHit(const struct FVector& Underwat
 void ATslWeapon_Trajectory::SimulateHit_UnReliable(const struct FHitResult& Impact, const struct FVector& RelLocation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26108);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26213);
 
 	ATslWeapon_Trajectory_SimulateHit_UnReliable_Params params;
 	params.Impact = Impact;
@@ -46021,7 +46482,7 @@ void ATslWeapon_Trajectory::SimulateHit_UnReliable(const struct FHitResult& Impa
 void ATslWeapon_Trajectory::SimulateHit_Reliable(const struct FHitResult& Impact, const struct FVector& RelLocation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26105);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26210);
 
 	ATslWeapon_Trajectory_SimulateHit_Reliable_Params params;
 	params.Impact = Impact;
@@ -46046,7 +46507,7 @@ void ATslWeapon_Trajectory::SimulateHit_Reliable(const struct FHitResult& Impact
 void ATslWeapon_Trajectory::Simulate_CreateAmmoInstance(const struct FVector& ServerStartTrace, const struct FVector& Dir, const struct FAttackId& AttackId)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26101);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26206);
 
 	ATslWeapon_Trajectory_Simulate_CreateAmmoInstance_Params params;
 	params.ServerStartTrace = ServerStartTrace;
@@ -46071,7 +46532,7 @@ void ATslWeapon_Trajectory::Simulate_CreateAmmoInstance(const struct FVector& Se
 void ATslWeapon_Trajectory::ServerWallCheckTest(const struct FVector& TraceStart, const struct FVector& TraceEnd)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26098);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26203);
 
 	ATslWeapon_Trajectory_ServerWallCheckTest_Params params;
 	params.TraceStart = TraceStart;
@@ -46107,7 +46568,7 @@ void ATslWeapon_Trajectory::ServerWallCheckTest(const struct FVector& TraceStart
 void ATslWeapon_Trajectory::ServerNotifyHit(const struct FVector& ClientImpactLocation, const struct FVector& RelativeImpact, float HandOffsetValue, const struct FHitResult& Impact, TArray<uint32_t> Checksums, const struct FVector_NetQuantize& Origin, const struct FVector& TraceStart, const struct FVector& PreLocation, const struct FVector_NetQuantizeNormal& ShootDir, float TravelDistance, const struct FAttackId& AttackId, uint32_t HitSeq, const struct FVector& RelLocation, float SpeedLoss)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26082);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26187);
 
 	ATslWeapon_Trajectory_ServerNotifyHit_Params params;
 	params.ClientImpactLocation = ClientImpactLocation;
@@ -46144,7 +46605,7 @@ void ATslWeapon_Trajectory::ServerNotifyHit(const struct FVector& ClientImpactLo
 void ATslWeapon_Trajectory::ServerNotifyCrack(class ATslCharacter* TargetCharacter, const struct FVector_NetQuantize& LocationRelative, float BulletVelocity)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26078);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26183);
 
 	ATslWeapon_Trajectory_ServerNotifyCrack_Params params;
 	params.TargetCharacter = TargetCharacter;
@@ -46170,12 +46631,36 @@ void ATslWeapon_Trajectory::ServerNotifyCrack(class ATslCharacter* TargetCharact
 void ATslWeapon_Trajectory::ServerNotifyAmmoSpawned(const struct FVector& ServerStartTrace, const struct FVector& Dir, const struct FAttackId& AttackId)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26074);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26179);
 
 	ATslWeapon_Trajectory_ServerNotifyAmmoSpawned_Params params;
 	params.ServerStartTrace = ServerStartTrace;
 	params.Dir = Dir;
 	params.AttackId = AttackId;
+
+	auto flags = fn->FunctionFlags;
+	fn->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function TslGame.TslWeapon_Trajectory.ServerChecksumTest
+// (Final, Net, NetReliable, Native, Event, Private, NetServer, HasDefaults, NetValidate)
+// Parameters:
+// struct FVector                 Location                       (ConstParm, Parm, ReferenceParm, IsPlainOldData)
+// TArray<uint32_t>               ClientChecksums                (ConstParm, Parm, ZeroConstructor, ReferenceParm)
+
+void ATslWeapon_Trajectory::ServerChecksumTest(const struct FVector& Location, TArray<uint32_t> ClientChecksums)
+{
+	static UFunction* fn = nullptr; 
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26175);
+
+	ATslWeapon_Trajectory_ServerChecksumTest_Params params;
+	params.Location = Location;
+	params.ClientChecksums = ClientChecksums;
 
 	auto flags = fn->FunctionFlags;
 	fn->FunctionFlags |= 0x400;
@@ -46194,7 +46679,7 @@ void ATslWeapon_Trajectory::ServerNotifyAmmoSpawned(const struct FVector& Server
 void ATslWeapon_Trajectory::OnRep_WeaponSpread(float LastWeaponSpread)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26072);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26173);
 
 	ATslWeapon_Trajectory_OnRep_WeaponSpread_Params params;
 	params.LastWeaponSpread = LastWeaponSpread;
@@ -46216,7 +46701,7 @@ void ATslWeapon_Trajectory::OnRep_WeaponSpread(float LastWeaponSpread)
 bool ATslWeapon_Trajectory::IsBulletInAir()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26070);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26171);
 
 	ATslWeapon_Trajectory_IsBulletInAir_Params params;
 
@@ -46239,7 +46724,7 @@ bool ATslWeapon_Trajectory::IsBulletInAir()
 struct FTrajectoryWeaponData ATslWeapon_Trajectory::GetTrajectoryConfig()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26068);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26169);
 
 	ATslWeapon_Trajectory_GetTrajectoryConfig_Params params;
 
@@ -46262,7 +46747,7 @@ struct FTrajectoryWeaponData ATslWeapon_Trajectory::GetTrajectoryConfig()
 struct FRecoilInfo ATslWeapon_Trajectory::GetRecoilInfo()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26066);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26167);
 
 	ATslWeapon_Trajectory_GetRecoilInfo_Params params;
 
@@ -46285,7 +46770,7 @@ struct FRecoilInfo ATslWeapon_Trajectory::GetRecoilInfo()
 float ATslWeapon_Trajectory::GetCurrentStabilityVar()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26064);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26165);
 
 	ATslWeapon_Trajectory_GetCurrentStabilityVar_Params params;
 
@@ -46308,7 +46793,7 @@ float ATslWeapon_Trajectory::GetCurrentStabilityVar()
 float ATslWeapon_Trajectory::GetCurrentReoveryTarget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26062);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26163);
 
 	ATslWeapon_Trajectory_GetCurrentReoveryTarget_Params params;
 
@@ -46331,7 +46816,7 @@ float ATslWeapon_Trajectory::GetCurrentReoveryTarget()
 float ATslWeapon_Trajectory::GetCurrentRecoilValue()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26060);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26161);
 
 	ATslWeapon_Trajectory_GetCurrentRecoilValue_Params params;
 
@@ -46354,7 +46839,7 @@ float ATslWeapon_Trajectory::GetCurrentRecoilValue()
 struct FVector2D ATslWeapon_Trajectory::GetCurrentRecoilTarget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26058);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26159);
 
 	ATslWeapon_Trajectory_GetCurrentRecoilTarget_Params params;
 
@@ -46377,7 +46862,7 @@ struct FVector2D ATslWeapon_Trajectory::GetCurrentRecoilTarget()
 struct FRotator ATslWeapon_Trajectory::GetBulletRotation()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26056);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26157);
 
 	ATslWeapon_Trajectory_GetBulletRotation_Params params;
 
@@ -46400,7 +46885,7 @@ struct FRotator ATslWeapon_Trajectory::GetBulletRotation()
 struct FVector ATslWeapon_Trajectory::GetBulletLocation()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26054);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26155);
 
 	ATslWeapon_Trajectory_GetBulletLocation_Params params;
 
@@ -46425,7 +46910,7 @@ struct FVector ATslWeapon_Trajectory::GetBulletLocation()
 void ATslWeapon_Trajectory::ClientWallCheckFail(const struct FVector& TraceStart, const struct FVector& TraceEnd, const struct FVector& Impact)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26050);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26151);
 
 	ATslWeapon_Trajectory_ClientWallCheckFail_Params params;
 	params.TraceStart = TraceStart;
@@ -46452,7 +46937,7 @@ void ATslWeapon_Trajectory::ClientWallCheckFail(const struct FVector& TraceStart
 void ATslWeapon_Melee::ServerNotifyHit(TArray<float> AimSpeeds, TArray<struct FHitResult> Impacts, const struct FAttackId& AttackId, uint32_t HitSeq)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26152);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26252);
 
 	ATslWeapon_Melee_ServerNotifyHit_Params params;
 	params.AimSpeeds = AimSpeeds;
@@ -46477,7 +46962,7 @@ void ATslWeapon_Melee::ServerNotifyHit(TArray<float> AimSpeeds, TArray<struct FH
 void ATslWeapon_Melee::ServerAttack(int AnimIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26150);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26250);
 
 	ATslWeapon_Melee_ServerAttack_Params params;
 	params.AnimIndex = AnimIndex;
@@ -46500,7 +46985,7 @@ void ATslWeapon_Melee::ServerAttack(int AnimIndex)
 void ATslWeapon_Melee::OnMontageEnded(class UAnimMontage* Montage, bool bInterrupted)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26147);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26247);
 
 	ATslWeapon_Melee_OnMontageEnded_Params params;
 	params.Montage = Montage;
@@ -46523,7 +47008,7 @@ void ATslWeapon_Melee::OnMontageEnded(class UAnimMontage* Montage, bool bInterru
 void ATslWeapon_Melee::OnAnimationNotify(const struct FName& NotifyName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26145);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26245);
 
 	ATslWeapon_Melee_OnAnimationNotify_Params params;
 	params.NotifyName = NotifyName;
@@ -46545,7 +47030,7 @@ void ATslWeapon_Melee::OnAnimationNotify(const struct FName& NotifyName)
 void ATslWeapon_Melee::ClientHit_Confirmed(const struct FHitResult& Impact)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26143);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26243);
 
 	ATslWeapon_Melee_ClientHit_Confirmed_Params params;
 	params.Impact = Impact;
@@ -46567,7 +47052,7 @@ void ATslWeapon_Melee::ClientHit_Confirmed(const struct FHitResult& Impact)
 void ATslWeapon_Melee::ClientAttack(int AnimIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26141);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26241);
 
 	ATslWeapon_Melee_ClientAttack_Params params;
 	params.AnimIndex = AnimIndex;
@@ -46589,7 +47074,7 @@ void ATslWeapon_Melee::ClientAttack(int AnimIndex)
 void UTslWebPopupInterface::ShowWebPopup(const struct FWebPopupParam& Param)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26170);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26270);
 
 	UTslWebPopupInterface_ShowWebPopup_Params params;
 	params.Param = Param;
@@ -46610,7 +47095,7 @@ void UTslWebPopupInterface::ShowWebPopup(const struct FWebPopupParam& Param)
 bool ATslMotorbikeVehicle::VehicleHasDriver()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26204);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26304);
 
 	ATslMotorbikeVehicle_VehicleHasDriver_Params params;
 
@@ -46633,7 +47118,7 @@ bool ATslMotorbikeVehicle::VehicleHasDriver()
 void ATslMotorbikeVehicle::SetAirControlR(float inFloat)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26202);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26302);
 
 	ATslMotorbikeVehicle_SetAirControlR_Params params;
 	params.inFloat = inFloat;
@@ -46655,7 +47140,7 @@ void ATslMotorbikeVehicle::SetAirControlR(float inFloat)
 void ATslMotorbikeVehicle::SetAirControlQ(float inFloat)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26200);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26300);
 
 	ATslMotorbikeVehicle_SetAirControlQ_Params params;
 	params.inFloat = inFloat;
@@ -46677,7 +47162,7 @@ void ATslMotorbikeVehicle::SetAirControlQ(float inFloat)
 void ATslMotorbikeVehicle::SetAirControlL(float inFloat)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26198);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26298);
 
 	ATslMotorbikeVehicle_SetAirControlL_Params params;
 	params.inFloat = inFloat;
@@ -46699,7 +47184,7 @@ void ATslMotorbikeVehicle::SetAirControlL(float inFloat)
 void ATslMotorbikeVehicle::SetAirControlF(float inFloat)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26196);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26296);
 
 	ATslMotorbikeVehicle_SetAirControlF_Params params;
 	params.inFloat = inFloat;
@@ -46721,7 +47206,7 @@ void ATslMotorbikeVehicle::SetAirControlF(float inFloat)
 void ATslMotorbikeVehicle::SetAirControlE(float inFloat)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26194);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26294);
 
 	ATslMotorbikeVehicle_SetAirControlE_Params params;
 	params.inFloat = inFloat;
@@ -46743,7 +47228,7 @@ void ATslMotorbikeVehicle::SetAirControlE(float inFloat)
 void ATslMotorbikeVehicle::SetAirControlB(float inFloat)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26192);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26292);
 
 	ATslMotorbikeVehicle_SetAirControlB_Params params;
 	params.inFloat = inFloat;
@@ -46763,7 +47248,7 @@ void ATslMotorbikeVehicle::SetAirControlB(float inFloat)
 void ATslMotorbikeVehicle::ProcessFlipAndStabilize()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26191);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26291);
 
 	ATslMotorbikeVehicle_ProcessFlipAndStabilize_Params params;
 
@@ -46782,7 +47267,7 @@ void ATslMotorbikeVehicle::ProcessFlipAndStabilize()
 void ATslMotorbikeVehicle::OnVehicleEjected()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26190);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26290);
 
 	ATslMotorbikeVehicle_OnVehicleEjected_Params params;
 
@@ -46801,7 +47286,7 @@ void ATslMotorbikeVehicle::OnVehicleEjected()
 void ATslMotorbikeVehicle::OnPostDriverRide()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26189);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26289);
 
 	ATslMotorbikeVehicle_OnPostDriverRide_Params params;
 
@@ -46820,7 +47305,7 @@ void ATslMotorbikeVehicle::OnPostDriverRide()
 void ATslMotorbikeVehicle::OnPostDriverLeave()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26188);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26288);
 
 	ATslMotorbikeVehicle_OnPostDriverLeave_Params params;
 
@@ -46845,7 +47330,7 @@ void ATslMotorbikeVehicle::OnPostDriverLeave()
 void ATslMotorbikeVehicle::OnMeshHit(class UPrimitiveComponent* HitComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, const struct FVector& NormalImpulse, const struct FHitResult& Hit)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26182);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26282);
 
 	ATslMotorbikeVehicle_OnMeshHit_Params params;
 	params.HitComp = HitComp;
@@ -46871,7 +47356,7 @@ void ATslMotorbikeVehicle::OnMeshHit(class UPrimitiveComponent* HitComp, class A
 bool ATslMotorbikeVehicle::IsUsingActiveStabilize()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26180);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26280);
 
 	ATslMotorbikeVehicle_IsUsingActiveStabilize_Params params;
 
@@ -46894,7 +47379,7 @@ bool ATslMotorbikeVehicle::IsUsingActiveStabilize()
 bool ATslMotorbikeVehicle::IsKickstandActive()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26178);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26278);
 
 	ATslMotorbikeVehicle_IsKickstandActive_Params params;
 
@@ -46917,7 +47402,7 @@ bool ATslMotorbikeVehicle::IsKickstandActive()
 bool ATslMotorbikeVehicle::IsFlippingEnabled()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26176);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26276);
 
 	ATslMotorbikeVehicle_IsFlippingEnabled_Params params;
 
@@ -46940,7 +47425,7 @@ bool ATslMotorbikeVehicle::IsFlippingEnabled()
 bool ATslMotorbikeVehicle::HasContact()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26174);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26274);
 
 	ATslMotorbikeVehicle_HasContact_Params params;
 
@@ -46963,7 +47448,7 @@ bool ATslMotorbikeVehicle::HasContact()
 float ATslMotorbikeVehicle::GetCOMSteerOffset()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26172);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26272);
 
 	ATslMotorbikeVehicle_GetCOMSteerOffset_Params params;
 
@@ -46978,6 +47463,34 @@ float ATslMotorbikeVehicle::GetCOMSteerOffset()
 }
 
 
+// Function TslGame.UiHelperFunctions.WidgetShow
+// (Final, Native, Static, Public, BlueprintCallable)
+// Parameters:
+// class UUserWidget*             Widget                         (Parm, ZeroConstructor, InstancedReference, IsPlainOldData)
+// struct FString                 WidgetName                     (Parm, ZeroConstructor)
+// EWidgetShowType                WidgetShowType                 (Parm, ZeroConstructor, IsPlainOldData)
+// class UObject*                 OptionalParam                  (Parm, ZeroConstructor, IsPlainOldData)
+
+void UUiHelperFunctions::STATIC_WidgetShow(class UUserWidget* Widget, const struct FString& WidgetName, EWidgetShowType WidgetShowType, class UObject* OptionalParam)
+{
+	static UFunction* fn = nullptr; 
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26703);
+
+	UUiHelperFunctions_WidgetShow_Params params;
+	params.Widget = Widget;
+	params.WidgetName = WidgetName;
+	params.WidgetShowType = WidgetShowType;
+	params.OptionalParam = OptionalParam;
+
+	auto flags = fn->FunctionFlags;
+	fn->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
 // Function TslGame.UiHelperFunctions.SortWidgetFormPositionY
 // (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
@@ -46988,7 +47501,7 @@ float ATslMotorbikeVehicle::GetCOMSteerOffset()
 TArray<class UWidget*> UUiHelperFunctions::STATIC_SortWidgetFormPositionY(TArray<class UWidget*> Widgets, bool bDescendingOrder)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26581);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26697);
 
 	UUiHelperFunctions_SortWidgetFormPositionY_Params params;
 	params.Widgets = Widgets;
@@ -47015,7 +47528,7 @@ TArray<class UWidget*> UUiHelperFunctions::STATIC_SortWidgetFormPositionY(TArray
 TArray<class UWidget*> UUiHelperFunctions::STATIC_SortWidgetFormPositionX(TArray<class UWidget*> Widgets, bool bDescendingOrder)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26575);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26691);
 
 	UUiHelperFunctions_SortWidgetFormPositionX_Params params;
 	params.Widgets = Widgets;
@@ -47041,7 +47554,7 @@ TArray<class UWidget*> UUiHelperFunctions::STATIC_SortWidgetFormPositionX(TArray
 TArray<struct FTslPlayerMatchResultInfo> UUiHelperFunctions::STATIC_SortPlayerMatchResultInfosByRanking(TArray<struct FTslPlayerMatchResultInfo> PlayerMatchResultInfos)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26570);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26686);
 
 	UUiHelperFunctions_SortPlayerMatchResultInfosByRanking_Params params;
 	params.PlayerMatchResultInfos = PlayerMatchResultInfos;
@@ -47066,7 +47579,7 @@ TArray<struct FTslPlayerMatchResultInfo> UUiHelperFunctions::STATIC_SortPlayerMa
 TArray<TScriptInterface<class USlotInterface>> UUiHelperFunctions::STATIC_SortItem(TArray<TScriptInterface<class USlotInterface>> InItemList)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26565);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26681);
 
 	UUiHelperFunctions_SortItem_Params params;
 	params.InItemList = InItemList;
@@ -47093,7 +47606,7 @@ TArray<TScriptInterface<class USlotInterface>> UUiHelperFunctions::STATIC_SortIt
 void UUiHelperFunctions::STATIC_SetTslBlur(class UObject* WorldContextObject, float BlurLevel, float DepthBlurBlackPoint, float DepthBlurWhitePoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26560);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26676);
 
 	UUiHelperFunctions_SetTslBlur_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -47119,7 +47632,7 @@ void UUiHelperFunctions::STATIC_SetTslBlur(class UObject* WorldContextObject, fl
 bool UUiHelperFunctions::STATIC_IsWarning(class UUserWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26557);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26673);
 
 	UUiHelperFunctions_IsWarning_Params params;
 	params.Widget = Widget;
@@ -47145,7 +47658,7 @@ bool UUiHelperFunctions::STATIC_IsWarning(class UUserWidget* Widget)
 bool UUiHelperFunctions::STATIC_IsThereAnyPlayingAnimation(class UUserWidget* Widget, TArray<class UWidgetAnimation*> AnimationArray)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26552);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26668);
 
 	UUiHelperFunctions_IsThereAnyPlayingAnimation_Params params;
 	params.Widget = Widget;
@@ -47171,7 +47684,7 @@ bool UUiHelperFunctions::STATIC_IsThereAnyPlayingAnimation(class UUserWidget* Wi
 bool UUiHelperFunctions::STATIC_IsReplayingKillcam(class UUserWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26549);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26665);
 
 	UUiHelperFunctions_IsReplayingKillcam_Params params;
 	params.Widget = Widget;
@@ -47196,7 +47709,7 @@ bool UUiHelperFunctions::STATIC_IsReplayingKillcam(class UUserWidget* Widget)
 bool UUiHelperFunctions::STATIC_IsReplaying(class UUserWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26546);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26662);
 
 	UUiHelperFunctions_IsReplaying_Params params;
 	params.Widget = Widget;
@@ -47221,7 +47734,7 @@ bool UUiHelperFunctions::STATIC_IsReplaying(class UUserWidget* Widget)
 bool UUiHelperFunctions::STATIC_IsObserverSpectating(class UUserWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26543);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26659);
 
 	UUiHelperFunctions_IsObserverSpectating_Params params;
 	params.Widget = Widget;
@@ -47246,7 +47759,7 @@ bool UUiHelperFunctions::STATIC_IsObserverSpectating(class UUserWidget* Widget)
 bool UUiHelperFunctions::STATIC_IsNavigateKey(const struct FKey& InKey)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26540);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26656);
 
 	UUiHelperFunctions_IsNavigateKey_Params params;
 	params.InKey = InKey;
@@ -47272,7 +47785,7 @@ bool UUiHelperFunctions::STATIC_IsNavigateKey(const struct FKey& InKey)
 bool UUiHelperFunctions::STATIC_IsLastSpectatorTeam(class UUserWidget* Widget, class ATslCharacter* Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26536);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26652);
 
 	UUiHelperFunctions_IsLastSpectatorTeam_Params params;
 	params.Widget = Widget;
@@ -47299,7 +47812,7 @@ bool UUiHelperFunctions::STATIC_IsLastSpectatorTeam(class UUserWidget* Widget, c
 bool UUiHelperFunctions::STATIC_IsLastSpectatedCharacter(class UUserWidget* Widget, class ATslCharacter* Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26532);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26648);
 
 	UUiHelperFunctions_IsLastSpectatedCharacter_Params params;
 	params.Widget = Widget;
@@ -47325,7 +47838,7 @@ bool UUiHelperFunctions::STATIC_IsLastSpectatedCharacter(class UUserWidget* Widg
 bool UUiHelperFunctions::STATIC_IsKickEnableCharacter(class ATslCharacter* Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26529);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26645);
 
 	UUiHelperFunctions_IsKickEnableCharacter_Params params;
 	params.Character = Character;
@@ -47350,7 +47863,7 @@ bool UUiHelperFunctions::STATIC_IsKickEnableCharacter(class ATslCharacter* Chara
 bool UUiHelperFunctions::STATIC_IsInNextPlayzone(class UUserWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26526);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26642);
 
 	UUiHelperFunctions_IsInNextPlayzone_Params params;
 	params.Widget = Widget;
@@ -47375,7 +47888,7 @@ bool UUiHelperFunctions::STATIC_IsInNextPlayzone(class UUserWidget* Widget)
 bool UUiHelperFunctions::STATIC_IsHitted(int State)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26523);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26639);
 
 	UUiHelperFunctions_IsHitted_Params params;
 	params.State = State;
@@ -47400,7 +47913,7 @@ bool UUiHelperFunctions::STATIC_IsHitted(int State)
 bool UUiHelperFunctions::STATIC_IsGroggyByTeam(class ATeam* Team)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26520);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26636);
 
 	UUiHelperFunctions_IsGroggyByTeam_Params params;
 	params.Team = Team;
@@ -47425,7 +47938,7 @@ bool UUiHelperFunctions::STATIC_IsGroggyByTeam(class ATeam* Team)
 bool UUiHelperFunctions::STATIC_IsGamepadY(const struct FKey& InKey)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26517);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26633);
 
 	UUiHelperFunctions_IsGamepadY_Params params;
 	params.InKey = InKey;
@@ -47450,7 +47963,7 @@ bool UUiHelperFunctions::STATIC_IsGamepadY(const struct FKey& InKey)
 bool UUiHelperFunctions::STATIC_IsGamepadX(const struct FKey& InKey)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26514);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26630);
 
 	UUiHelperFunctions_IsGamepadX_Params params;
 	params.InKey = InKey;
@@ -47475,7 +47988,7 @@ bool UUiHelperFunctions::STATIC_IsGamepadX(const struct FKey& InKey)
 bool UUiHelperFunctions::STATIC_IsGamepadUp(const struct FKey& InKey)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26511);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26627);
 
 	UUiHelperFunctions_IsGamepadUp_Params params;
 	params.InKey = InKey;
@@ -47500,7 +48013,7 @@ bool UUiHelperFunctions::STATIC_IsGamepadUp(const struct FKey& InKey)
 bool UUiHelperFunctions::STATIC_IsGamepadRight(const struct FKey& InKey)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26508);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26624);
 
 	UUiHelperFunctions_IsGamepadRight_Params params;
 	params.InKey = InKey;
@@ -47525,7 +48038,7 @@ bool UUiHelperFunctions::STATIC_IsGamepadRight(const struct FKey& InKey)
 bool UUiHelperFunctions::STATIC_IsGamepadLeft(const struct FKey& InKey)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26505);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26621);
 
 	UUiHelperFunctions_IsGamepadLeft_Params params;
 	params.InKey = InKey;
@@ -47550,7 +48063,7 @@ bool UUiHelperFunctions::STATIC_IsGamepadLeft(const struct FKey& InKey)
 bool UUiHelperFunctions::STATIC_IsGamepadDown(const struct FKey& InKey)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26502);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26618);
 
 	UUiHelperFunctions_IsGamepadDown_Params params;
 	params.InKey = InKey;
@@ -47575,7 +48088,7 @@ bool UUiHelperFunctions::STATIC_IsGamepadDown(const struct FKey& InKey)
 bool UUiHelperFunctions::STATIC_IsGamepadB(const struct FKey& InKey)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26499);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26615);
 
 	UUiHelperFunctions_IsGamepadB_Params params;
 	params.InKey = InKey;
@@ -47600,7 +48113,7 @@ bool UUiHelperFunctions::STATIC_IsGamepadB(const struct FKey& InKey)
 bool UUiHelperFunctions::STATIC_IsGamepadA(const struct FKey& InKey)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26496);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26612);
 
 	UUiHelperFunctions_IsGamepadA_Params params;
 	params.InKey = InKey;
@@ -47625,7 +48138,7 @@ bool UUiHelperFunctions::STATIC_IsGamepadA(const struct FKey& InKey)
 bool UUiHelperFunctions::STATIC_IsBluezoneGpsReset(class UUserWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26493);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26609);
 
 	UUiHelperFunctions_IsBluezoneGpsReset_Params params;
 	params.Widget = Widget;
@@ -47650,7 +48163,7 @@ bool UUiHelperFunctions::STATIC_IsBluezoneGpsReset(class UUserWidget* Widget)
 bool UUiHelperFunctions::STATIC_IsAttacked(int State)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26490);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26606);
 
 	UUiHelperFunctions_IsAttacked_Params params;
 	params.State = State;
@@ -47675,7 +48188,7 @@ bool UUiHelperFunctions::STATIC_IsAttacked(int State)
 bool UUiHelperFunctions::STATIC_HaveDurability(const TScriptInterface<class USlotInterface>& ItemSlot)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26487);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26603);
 
 	UUiHelperFunctions_HaveDurability_Params params;
 	params.ItemSlot = ItemSlot;
@@ -47700,7 +48213,7 @@ bool UUiHelperFunctions::STATIC_HaveDurability(const TScriptInterface<class USlo
 class AWeaponProcessor* UUiHelperFunctions::STATIC_GetWeaponProcessor(class UUserWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26484);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26600);
 
 	UUiHelperFunctions_GetWeaponProcessor_Params params;
 	params.Widget = Widget;
@@ -47725,7 +48238,7 @@ class AWeaponProcessor* UUiHelperFunctions::STATIC_GetWeaponProcessor(class UUse
 class ATslCharacter* UUiHelperFunctions::STATIC_GetViewTargetTslCharacter(class UUserWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26481);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26597);
 
 	UUiHelperFunctions_GetViewTargetTslCharacter_Params params;
 	params.Widget = Widget;
@@ -47750,7 +48263,7 @@ class ATslCharacter* UUiHelperFunctions::STATIC_GetViewTargetTslCharacter(class 
 class UClass* UUiHelperFunctions::STATIC_GetVehicleUI(class APawn* VehiclePawn)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26478);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26594);
 
 	UUiHelperFunctions_GetVehicleUI_Params params;
 	params.VehiclePawn = VehiclePawn;
@@ -47775,7 +48288,7 @@ class UClass* UUiHelperFunctions::STATIC_GetVehicleUI(class APawn* VehiclePawn)
 class UWidget* UUiHelperFunctions::STATIC_GetUpWidgetByTslFocusableWidget(class UWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26475);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26591);
 
 	UUiHelperFunctions_GetUpWidgetByTslFocusableWidget_Params params;
 	params.Widget = Widget;
@@ -47800,7 +48313,7 @@ class UWidget* UUiHelperFunctions::STATIC_GetUpWidgetByTslFocusableWidget(class 
 class ATslSpectatorPawn* UUiHelperFunctions::STATIC_GetTslSpectatorPawn(class UUserWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26472);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26588);
 
 	UUiHelperFunctions_GetTslSpectatorPawn_Params params;
 	params.Widget = Widget;
@@ -47825,7 +48338,7 @@ class ATslSpectatorPawn* UUiHelperFunctions::STATIC_GetTslSpectatorPawn(class UU
 class ATslPlayerState* UUiHelperFunctions::STATIC_GetTslPlayerState(class ATslCharacter* Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26469);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26585);
 
 	UUiHelperFunctions_GetTslPlayerState_Params params;
 	params.Character = Character;
@@ -47850,7 +48363,7 @@ class ATslPlayerState* UUiHelperFunctions::STATIC_GetTslPlayerState(class ATslCh
 class ATslHUD* UUiHelperFunctions::STATIC_GetTslHUD(class UUserWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26466);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26582);
 
 	UUiHelperFunctions_GetTslHUD_Params params;
 	params.Widget = Widget;
@@ -47876,7 +48389,7 @@ class ATslHUD* UUiHelperFunctions::STATIC_GetTslHUD(class UUserWidget* Widget)
 class ATslCharacter* UUiHelperFunctions::STATIC_GetTslCharacterByNetId(class UUserWidget* Widget, const struct FString& NetId)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26462);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26578);
 
 	UUiHelperFunctions_GetTslCharacterByNetId_Params params;
 	params.Widget = Widget;
@@ -47902,7 +48415,7 @@ class ATslCharacter* UUiHelperFunctions::STATIC_GetTslCharacterByNetId(class UUs
 int UUiHelperFunctions::STATIC_GetTeamId(class ATslCharacter* Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26459);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26575);
 
 	UUiHelperFunctions_GetTeamId_Params params;
 	params.Character = Character;
@@ -47927,7 +48440,7 @@ int UUiHelperFunctions::STATIC_GetTeamId(class ATslCharacter* Character)
 TArray<struct FLinearColor> UUiHelperFunctions::STATIC_GetTeamColors(int TeamCount)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26455);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26571);
 
 	UUiHelperFunctions_GetTeamColors_Params params;
 	params.TeamCount = TeamCount;
@@ -47952,7 +48465,7 @@ TArray<struct FLinearColor> UUiHelperFunctions::STATIC_GetTeamColors(int TeamCou
 struct FLinearColor UUiHelperFunctions::STATIC_GetTeamColor(class ATslCharacter* TslCharacter)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26452);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26568);
 
 	UUiHelperFunctions_GetTeamColor_Params params;
 	params.TslCharacter = TslCharacter;
@@ -47977,7 +48490,7 @@ struct FLinearColor UUiHelperFunctions::STATIC_GetTeamColor(class ATslCharacter*
 ESubjectToReport UUiHelperFunctions::STATIC_GetSubjectToReportType(class UUserWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26448);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26564);
 
 	UUiHelperFunctions_GetSubjectToReportType_Params params;
 	params.Widget = Widget;
@@ -48001,7 +48514,7 @@ ESubjectToReport UUiHelperFunctions::STATIC_GetSubjectToReportType(class UUserWi
 TArray<struct FSubjectToReport> UUiHelperFunctions::STATIC_GetSubjectToReport()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26445);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26561);
 
 	UUiHelperFunctions_GetSubjectToReport_Params params;
 
@@ -48025,7 +48538,7 @@ TArray<struct FSubjectToReport> UUiHelperFunctions::STATIC_GetSubjectToReport()
 TArray<class ATslCharacter*> UUiHelperFunctions::STATIC_GetSortedReplicateCharactersBySpectatorPawnDistance(class UUserWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26441);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26557);
 
 	UUiHelperFunctions_GetSortedReplicateCharactersBySpectatorPawnDistance_Params params;
 	params.Widget = Widget;
@@ -48050,7 +48563,7 @@ TArray<class ATslCharacter*> UUiHelperFunctions::STATIC_GetSortedReplicateCharac
 TArray<class ATslCharacter*> UUiHelperFunctions::STATIC_GetSortedReplicateCharactersByLastHitTime(class UUserWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26437);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26553);
 
 	UUiHelperFunctions_GetSortedReplicateCharactersByLastHitTime_Params params;
 	params.Widget = Widget;
@@ -48075,7 +48588,7 @@ TArray<class ATslCharacter*> UUiHelperFunctions::STATIC_GetSortedReplicateCharac
 class UWidget* UUiHelperFunctions::STATIC_GetRightWidgetByTslFocusableWidget(class UWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26434);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26550);
 
 	UUiHelperFunctions_GetRightWidgetByTslFocusableWidget_Params params;
 	params.Widget = Widget;
@@ -48094,14 +48607,16 @@ class UWidget* UUiHelperFunctions::STATIC_GetRightWidgetByTslFocusableWidget(cla
 // Function TslGame.UiHelperFunctions.GetReportCauses
 // (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 // Parameters:
+// class UUserWidget*             Widget                         (Parm, ZeroConstructor, InstancedReference, IsPlainOldData)
 // TArray<struct FReportCauseData> ReturnValue                    (Parm, OutParm, ZeroConstructor, ReturnParm)
 
-TArray<struct FReportCauseData> UUiHelperFunctions::STATIC_GetReportCauses()
+TArray<struct FReportCauseData> UUiHelperFunctions::STATIC_GetReportCauses(class UUserWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26431);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26546);
 
 	UUiHelperFunctions_GetReportCauses_Params params;
+	params.Widget = Widget;
 
 	auto flags = fn->FunctionFlags;
 	fn->FunctionFlags |= 0x400;
@@ -48123,7 +48638,7 @@ TArray<struct FReportCauseData> UUiHelperFunctions::STATIC_GetReportCauses()
 struct FString UUiHelperFunctions::STATIC_GetPlayerNetID(class ATslCharacter* Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26428);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26543);
 
 	UUiHelperFunctions_GetPlayerNetID_Params params;
 	params.Character = Character;
@@ -48148,7 +48663,7 @@ struct FString UUiHelperFunctions::STATIC_GetPlayerNetID(class ATslCharacter* Ch
 struct FString UUiHelperFunctions::STATIC_GetPlayerName(class ATslCharacter* Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26425);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26540);
 
 	UUiHelperFunctions_GetPlayerName_Params params;
 	params.Character = Character;
@@ -48173,7 +48688,7 @@ struct FString UUiHelperFunctions::STATIC_GetPlayerName(class ATslCharacter* Cha
 class UTexture* UUiHelperFunctions::STATIC_GetPlayerIcon(int MarkerNum)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26422);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26537);
 
 	UUiHelperFunctions_GetPlayerIcon_Params params;
 	params.MarkerNum = MarkerNum;
@@ -48198,7 +48713,7 @@ class UTexture* UUiHelperFunctions::STATIC_GetPlayerIcon(int MarkerNum)
 class ATslPlayerController* UUiHelperFunctions::STATIC_GetOwningTslPlayerController(class UUserWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26419);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26534);
 
 	UUiHelperFunctions_GetOwningTslPlayerController_Params params;
 	params.Widget = Widget;
@@ -48223,7 +48738,7 @@ class ATslPlayerController* UUiHelperFunctions::STATIC_GetOwningTslPlayerControl
 class ATslCharacter* UUiHelperFunctions::STATIC_GetOwningTslCharacter(class UUserWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26416);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26531);
 
 	UUiHelperFunctions_GetOwningTslCharacter_Params params;
 	params.Widget = Widget;
@@ -48248,7 +48763,7 @@ class ATslCharacter* UUiHelperFunctions::STATIC_GetOwningTslCharacter(class UUse
 float UUiHelperFunctions::STATIC_GetNextPlayzoneRadius_BluezoneGPS(class UUserWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26413);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26528);
 
 	UUiHelperFunctions_GetNextPlayzoneRadius_BluezoneGPS_Params params;
 	params.Widget = Widget;
@@ -48273,10 +48788,37 @@ float UUiHelperFunctions::STATIC_GetNextPlayzoneRadius_BluezoneGPS(class UUserWi
 struct FVector UUiHelperFunctions::STATIC_GetNextPlayzonePosition_BluezoneGPS(class UUserWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26410);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26525);
 
 	UUiHelperFunctions_GetNextPlayzonePosition_BluezoneGPS_Params params;
 	params.Widget = Widget;
+
+	auto flags = fn->FunctionFlags;
+	fn->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	return params.ReturnValue;
+}
+
+
+// Function TslGame.UiHelperFunctions.GetNetIdByControllerId
+// (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
+// Parameters:
+// class UObject*                 WorldContextObject             (Parm, ZeroConstructor, IsPlainOldData)
+// int                            ControllerId                   (Parm, ZeroConstructor, IsPlainOldData)
+// struct FString                 ReturnValue                    (Parm, OutParm, ZeroConstructor, ReturnParm)
+
+struct FString UUiHelperFunctions::STATIC_GetNetIdByControllerId(class UObject* WorldContextObject, int ControllerId)
+{
+	static UFunction* fn = nullptr; 
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26521);
+
+	UUiHelperFunctions_GetNetIdByControllerId_Params params;
+	params.WorldContextObject = WorldContextObject;
+	params.ControllerId = ControllerId;
 
 	auto flags = fn->FunctionFlags;
 	fn->FunctionFlags |= 0x400;
@@ -48298,7 +48840,7 @@ struct FVector UUiHelperFunctions::STATIC_GetNextPlayzonePosition_BluezoneGPS(cl
 class UTexture* UUiHelperFunctions::STATIC_GetMarkerIcon(int MarkerNum)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26407);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26518);
 
 	UUiHelperFunctions_GetMarkerIcon_Params params;
 	params.MarkerNum = MarkerNum;
@@ -48323,7 +48865,7 @@ class UTexture* UUiHelperFunctions::STATIC_GetMarkerIcon(int MarkerNum)
 struct FLinearColor UUiHelperFunctions::STATIC_GetMarkerColor(int MarkerNum)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26404);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26515);
 
 	UUiHelperFunctions_GetMarkerColor_Params params;
 	params.MarkerNum = MarkerNum;
@@ -48348,7 +48890,7 @@ struct FLinearColor UUiHelperFunctions::STATIC_GetMarkerColor(int MarkerNum)
 class UTexture* UUiHelperFunctions::STATIC_GetMapDeathIcon(int MarkerNum)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26401);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26512);
 
 	UUiHelperFunctions_GetMapDeathIcon_Params params;
 	params.MarkerNum = MarkerNum;
@@ -48373,7 +48915,7 @@ class UTexture* UUiHelperFunctions::STATIC_GetMapDeathIcon(int MarkerNum)
 class UWidget* UUiHelperFunctions::STATIC_GetLeftWidgetByTslFocusableWidget(class UWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26398);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26509);
 
 	UUiHelperFunctions_GetLeftWidgetByTslFocusableWidget_Params params;
 	params.Widget = Widget;
@@ -48398,7 +48940,7 @@ class UWidget* UUiHelperFunctions::STATIC_GetLeftWidgetByTslFocusableWidget(clas
 class ATslCharacter* UUiHelperFunctions::STATIC_GetLastSpectatedCharacter(class UUserWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26395);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26506);
 
 	UUiHelperFunctions_GetLastSpectatedCharacter_Params params;
 	params.Widget = Widget;
@@ -48423,7 +48965,7 @@ class ATslCharacter* UUiHelperFunctions::STATIC_GetLastSpectatedCharacter(class 
 class AInventoryFacade* UUiHelperFunctions::STATIC_GetInventoryFacade(class UUserWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26392);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26503);
 
 	UUiHelperFunctions_GetInventoryFacade_Params params;
 	params.Widget = Widget;
@@ -48448,7 +48990,7 @@ class AInventoryFacade* UUiHelperFunctions::STATIC_GetInventoryFacade(class UUse
 class AInventory* UUiHelperFunctions::STATIC_GetInventory(class UUserWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26389);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26500);
 
 	UUiHelperFunctions_GetInventory_Params params;
 	params.Widget = Widget;
@@ -48473,7 +49015,7 @@ class AInventory* UUiHelperFunctions::STATIC_GetInventory(class UUserWidget* Wid
 class UTexture* UUiHelperFunctions::STATIC_GetIndicatorIcon(int MarkerNum)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26386);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26497);
 
 	UUiHelperFunctions_GetIndicatorIcon_Params params;
 	params.MarkerNum = MarkerNum;
@@ -48498,7 +49040,7 @@ class UTexture* UUiHelperFunctions::STATIC_GetIndicatorIcon(int MarkerNum)
 float UUiHelperFunctions::STATIC_GetHealthRatioByTeam(class ATeam* Team)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26383);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26494);
 
 	UUiHelperFunctions_GetHealthRatioByTeam_Params params;
 	params.Team = Team;
@@ -48523,7 +49065,7 @@ float UUiHelperFunctions::STATIC_GetHealthRatioByTeam(class ATeam* Team)
 float UUiHelperFunctions::STATIC_GetHealLimit(class UUserWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26380);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26491);
 
 	UUiHelperFunctions_GetHealLimit_Params params;
 	params.Widget = Widget;
@@ -48548,7 +49090,7 @@ float UUiHelperFunctions::STATIC_GetHealLimit(class UUserWidget* Widget)
 float UUiHelperFunctions::STATIC_GetGroggyHealthRatioByTeam(class ATeam* Team)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26377);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26488);
 
 	UUiHelperFunctions_GetGroggyHealthRatioByTeam_Params params;
 	params.Team = Team;
@@ -48573,7 +49115,7 @@ float UUiHelperFunctions::STATIC_GetGroggyHealthRatioByTeam(class ATeam* Team)
 class AEquipment* UUiHelperFunctions::STATIC_GetEquipment(class UUserWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26374);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26485);
 
 	UUiHelperFunctions_GetEquipment_Params params;
 	params.Widget = Widget;
@@ -48598,7 +49140,7 @@ class AEquipment* UUiHelperFunctions::STATIC_GetEquipment(class UUserWidget* Wid
 float UUiHelperFunctions::STATIC_GetDurabilityRatio(const TScriptInterface<class USlotInterface>& ItemSlot)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26371);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26482);
 
 	UUiHelperFunctions_GetDurabilityRatio_Params params;
 	params.ItemSlot = ItemSlot;
@@ -48623,7 +49165,7 @@ float UUiHelperFunctions::STATIC_GetDurabilityRatio(const TScriptInterface<class
 class UWidget* UUiHelperFunctions::STATIC_GetDownWidgetByTslFocusableWidget(class UWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26368);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26479);
 
 	UUiHelperFunctions_GetDownWidgetByTslFocusableWidget_Params params;
 	params.Widget = Widget;
@@ -48649,11 +49191,36 @@ class UWidget* UUiHelperFunctions::STATIC_GetDownWidgetByTslFocusableWidget(clas
 float UUiHelperFunctions::STATIC_GetDistanceFromSpectatorPawn(class UUserWidget* Widget, class ATslCharacter* Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26364);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26475);
 
 	UUiHelperFunctions_GetDistanceFromSpectatorPawn_Params params;
 	params.Widget = Widget;
 	params.Character = Character;
+
+	auto flags = fn->FunctionFlags;
+	fn->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	return params.ReturnValue;
+}
+
+
+// Function TslGame.UiHelperFunctions.GetDetailCauseTypeDescriptionList
+// (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
+// Parameters:
+// EReportCause                   ReportCause                    (Parm, ZeroConstructor, IsPlainOldData)
+// TArray<struct FReportDetailCauseTypeDescription> ReturnValue                    (Parm, OutParm, ZeroConstructor, ReturnParm)
+
+TArray<struct FReportDetailCauseTypeDescription> UUiHelperFunctions::STATIC_GetDetailCauseTypeDescriptionList(EReportCause ReportCause)
+{
+	static UFunction* fn = nullptr; 
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26470);
+
+	UUiHelperFunctions_GetDetailCauseTypeDescriptionList_Params params;
+	params.ReportCause = ReportCause;
 
 	auto flags = fn->FunctionFlags;
 	fn->FunctionFlags |= 0x400;
@@ -48675,7 +49242,7 @@ float UUiHelperFunctions::STATIC_GetDistanceFromSpectatorPawn(class UUserWidget*
 float UUiHelperFunctions::STATIC_GetCurrentPlayzoneRadius_BluezoneGPS(class UUserWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26361);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26467);
 
 	UUiHelperFunctions_GetCurrentPlayzoneRadius_BluezoneGPS_Params params;
 	params.Widget = Widget;
@@ -48700,7 +49267,7 @@ float UUiHelperFunctions::STATIC_GetCurrentPlayzoneRadius_BluezoneGPS(class UUse
 struct FVector UUiHelperFunctions::STATIC_GetCurrentPlayzonePosition_BluezoneGPS(class UUserWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26358);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26464);
 
 	UUiHelperFunctions_GetCurrentPlayzonePosition_BluezoneGPS_Params params;
 	params.Widget = Widget;
@@ -48725,7 +49292,7 @@ struct FVector UUiHelperFunctions::STATIC_GetCurrentPlayzonePosition_BluezoneGPS
 class UTexture* UUiHelperFunctions::STATIC_GetCompassIcon(int MarkerNum)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26355);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26461);
 
 	UUiHelperFunctions_GetCompassIcon_Params params;
 	params.MarkerNum = MarkerNum;
@@ -48750,7 +49317,7 @@ class UTexture* UUiHelperFunctions::STATIC_GetCompassIcon(int MarkerNum)
 TArray<class UWidget*> UUiHelperFunctions::STATIC_GetChildrenOfPanel(class UPanelWidget* PanelWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26351);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26457);
 
 	UUiHelperFunctions_GetChildrenOfPanel_Params params;
 	params.PanelWidget = PanelWidget;
@@ -48775,7 +49342,7 @@ TArray<class UWidget*> UUiHelperFunctions::STATIC_GetChildrenOfPanel(class UPane
 int UUiHelperFunctions::STATIC_GetCharacterStateByTeam(class ATeam* Team)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26348);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26454);
 
 	UUiHelperFunctions_GetCharacterStateByTeam_Params params;
 	params.Team = Team;
@@ -48800,7 +49367,7 @@ int UUiHelperFunctions::STATIC_GetCharacterStateByTeam(class ATeam* Team)
 float UUiHelperFunctions::STATIC_GetBluezoneWarningTime(class UUserWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26345);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26451);
 
 	UUiHelperFunctions_GetBluezoneWarningTime_Params params;
 	params.Widget = Widget;
@@ -48825,7 +49392,7 @@ float UUiHelperFunctions::STATIC_GetBluezoneWarningTime(class UUserWidget* Widge
 float UUiHelperFunctions::STATIC_GetBluezoneReleaseTime(class UUserWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26342);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26448);
 
 	UUiHelperFunctions_GetBluezoneReleaseTime_Params params;
 	params.Widget = Widget;
@@ -48850,7 +49417,7 @@ float UUiHelperFunctions::STATIC_GetBluezoneReleaseTime(class UUserWidget* Widge
 int UUiHelperFunctions::STATIC_GetBluezoneGpsState(class UUserWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26339);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26445);
 
 	UUiHelperFunctions_GetBluezoneGpsState_Params params;
 	params.Widget = Widget;
@@ -48877,7 +49444,7 @@ int UUiHelperFunctions::STATIC_GetBluezoneGpsState(class UUserWidget* Widget)
 int UUiHelperFunctions::STATIC_FindNextWidgetIndexInPanel(class UPanelWidget* PanelWidget, class UWidget* StartWidget, bool bReverseDir)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26334);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26440);
 
 	UUiHelperFunctions_FindNextWidgetIndexInPanel_Params params;
 	params.PanelWidget = PanelWidget;
@@ -48910,7 +49477,7 @@ int UUiHelperFunctions::STATIC_FindNextWidgetIndexInPanel(class UPanelWidget* Pa
 void UUiHelperFunctions::STATIC_DrawDottedLine(const struct FBox2D& Rect, const struct FVector2D& PositionA, const struct FVector2D& PositionB, float DottedLength, float DottedInterval, const struct FLinearColor& Tint, bool bAntiAlias, struct FPaintContext* Context)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26325);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26431);
 
 	UUiHelperFunctions_DrawDottedLine_Params params;
 	params.Rect = Rect;
@@ -48942,7 +49509,7 @@ void UUiHelperFunctions::STATIC_DrawDottedLine(const struct FBox2D& Rect, const 
 class UWeaponItem* UUiHelperFunctions::STATIC_CastWeaponItem(const TScriptInterface<class USlotInterface>& ItemSlot)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26322);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26428);
 
 	UUiHelperFunctions_CastWeaponItem_Params params;
 	params.ItemSlot = ItemSlot;
@@ -48967,7 +49534,7 @@ class UWeaponItem* UUiHelperFunctions::STATIC_CastWeaponItem(const TScriptInterf
 class UEquipableItem* UUiHelperFunctions::STATIC_CastEquipableItem(const TScriptInterface<class USlotInterface>& ItemSlot)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26319);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26425);
 
 	UUiHelperFunctions_CastEquipableItem_Params params;
 	params.ItemSlot = ItemSlot;
@@ -48992,7 +49559,7 @@ class UEquipableItem* UUiHelperFunctions::STATIC_CastEquipableItem(const TScript
 class UAttachableItem* UUiHelperFunctions::STATIC_CastAttachableItem(const TScriptInterface<class USlotInterface>& ItemSlot)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26316);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26422);
 
 	UUiHelperFunctions_CastAttachableItem_Params params;
 	params.ItemSlot = ItemSlot;
@@ -49023,7 +49590,7 @@ class UAttachableItem* UUiHelperFunctions::STATIC_CastAttachableItem(const TScri
 void UUiHelperFunctions::STATIC_CalculateWeightGaugeUpParamsByItem(float TotalMaxSpace, float CurrMaxSpace, float CurrSpace, float FocusedItemWeight, float* OutCurrMaxSpaceStart, float* OutCurrSpaceStart, float* OutFeedbackStart, bool* OutIsPositive)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26307);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26413);
 
 	UUiHelperFunctions_CalculateWeightGaugeUpParamsByItem_Params params;
 	params.TotalMaxSpace = TotalMaxSpace;
@@ -49049,6 +49616,33 @@ void UUiHelperFunctions::STATIC_CalculateWeightGaugeUpParamsByItem(float TotalMa
 }
 
 
+// Function TslGame.UiHelperFunctions.BuildFocusableWidgetList
+// (Final, Native, Static, Public, BlueprintCallable)
+// Parameters:
+// class UPanelWidget*            Panel                          (Parm, ZeroConstructor, InstancedReference, IsPlainOldData)
+// TArray<class UWidget*>         FocusableWidgetList            (Parm, ZeroConstructor)
+// TArray<class UWidget*>         ReturnValue                    (ExportObject, Parm, OutParm, ZeroConstructor, ReturnParm)
+
+TArray<class UWidget*> UUiHelperFunctions::STATIC_BuildFocusableWidgetList(class UPanelWidget* Panel, TArray<class UWidget*> FocusableWidgetList)
+{
+	static UFunction* fn = nullptr; 
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26407);
+
+	UUiHelperFunctions_BuildFocusableWidgetList_Params params;
+	params.Panel = Panel;
+	params.FocusableWidgetList = FocusableWidgetList;
+
+	auto flags = fn->FunctionFlags;
+	fn->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	return params.ReturnValue;
+}
+
+
 // Function TslGame.TslMotoSeatActor.IsEntryAllowed
 // (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -49057,7 +49651,7 @@ void UUiHelperFunctions::STATIC_CalculateWeightGaugeUpParamsByItem(float TotalMa
 bool ATslMotoSeatActor::IsEntryAllowed()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26592);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26714);
 
 	ATslMotoSeatActor_IsEntryAllowed_Params params;
 
@@ -49078,7 +49672,7 @@ bool ATslMotoSeatActor::IsEntryAllowed()
 void ATslMotoSeatActor::HandleFlipAndKickstand()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26591);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26713);
 
 	ATslMotoSeatActor_HandleFlipAndKickstand_Params params;
 
@@ -49097,7 +49691,7 @@ void ATslMotoSeatActor::HandleFlipAndKickstand()
 void UVivoxBaseComponent::UpdatePosition()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26639);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26761);
 
 	UVivoxBaseComponent_UpdatePosition_Params params;
 
@@ -49118,7 +49712,7 @@ void UVivoxBaseComponent::UpdatePosition()
 void UVivoxBaseComponent::SetVoiceChannelType(EVivoxChannelType ChannelType)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26636);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26758);
 
 	UVivoxBaseComponent_SetVoiceChannelType_Params params;
 	params.ChannelType = ChannelType;
@@ -49141,7 +49735,7 @@ void UVivoxBaseComponent::SetVoiceChannelType(EVivoxChannelType ChannelType)
 void UVivoxBaseComponent::SetParticipantMute(const struct FString& TargetUniqueId, bool bIsMuted)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26633);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26755);
 
 	UVivoxBaseComponent_SetParticipantMute_Params params;
 	params.TargetUniqueId = TargetUniqueId;
@@ -49164,7 +49758,7 @@ void UVivoxBaseComponent::SetParticipantMute(const struct FString& TargetUniqueI
 void UVivoxBaseComponent::SetLocalVoiceOutputVolume(int UserSettingVolume)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26631);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26753);
 
 	UVivoxBaseComponent_SetLocalVoiceOutputVolume_Params params;
 	params.UserSettingVolume = UserSettingVolume;
@@ -49186,7 +49780,7 @@ void UVivoxBaseComponent::SetLocalVoiceOutputVolume(int UserSettingVolume)
 void UVivoxBaseComponent::SetLocalVoiceOutputMuted(bool bIsMuted)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26629);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26751);
 
 	UVivoxBaseComponent_SetLocalVoiceOutputMuted_Params params;
 	params.bIsMuted = bIsMuted;
@@ -49208,7 +49802,7 @@ void UVivoxBaseComponent::SetLocalVoiceOutputMuted(bool bIsMuted)
 void UVivoxBaseComponent::SetLocalVoiceInputVolume(int UserSettingVolume)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26627);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26749);
 
 	UVivoxBaseComponent_SetLocalVoiceInputVolume_Params params;
 	params.UserSettingVolume = UserSettingVolume;
@@ -49230,7 +49824,7 @@ void UVivoxBaseComponent::SetLocalVoiceInputVolume(int UserSettingVolume)
 void UVivoxBaseComponent::SetLocalVoiceInputMuted(bool bIsMuted)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26625);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26747);
 
 	UVivoxBaseComponent_SetLocalVoiceInputMuted_Params params;
 	params.bIsMuted = bIsMuted;
@@ -49250,7 +49844,7 @@ void UVivoxBaseComponent::SetLocalVoiceInputMuted(bool bIsMuted)
 void UVivoxBaseComponent::ServerLogin()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26624);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26746);
 
 	UVivoxBaseComponent_ServerLogin_Params params;
 
@@ -49269,7 +49863,7 @@ void UVivoxBaseComponent::ServerLogin()
 void UVivoxBaseComponent::ServerJoinTeamChannel()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26623);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26745);
 
 	UVivoxBaseComponent_ServerJoinTeamChannel_Params params;
 
@@ -49288,7 +49882,7 @@ void UVivoxBaseComponent::ServerJoinTeamChannel()
 void UVivoxBaseComponent::ServerJoinGlobalChannel()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26622);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26744);
 
 	UVivoxBaseComponent_ServerJoinGlobalChannel_Params params;
 
@@ -49307,7 +49901,7 @@ void UVivoxBaseComponent::ServerJoinGlobalChannel()
 void UVivoxBaseComponent::ResetTeamChannelJoinState()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26621);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26743);
 
 	UVivoxBaseComponent_ResetTeamChannelJoinState_Params params;
 
@@ -49326,7 +49920,7 @@ void UVivoxBaseComponent::ResetTeamChannelJoinState()
 void UVivoxBaseComponent::ResetLoginState()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26620);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26742);
 
 	UVivoxBaseComponent_ResetLoginState_Params params;
 
@@ -49345,7 +49939,7 @@ void UVivoxBaseComponent::ResetLoginState()
 void UVivoxBaseComponent::ResetGlobalChannelJoinState()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26619);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26741);
 
 	UVivoxBaseComponent_ResetGlobalChannelJoinState_Params params;
 
@@ -49364,7 +49958,7 @@ void UVivoxBaseComponent::ResetGlobalChannelJoinState()
 void UVivoxBaseComponent::ResetConnectionState()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26618);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26740);
 
 	UVivoxBaseComponent_ResetConnectionState_Params params;
 
@@ -49383,7 +49977,7 @@ void UVivoxBaseComponent::ResetConnectionState()
 void UVivoxBaseComponent::RefreshDevices()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26617);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26739);
 
 	UVivoxBaseComponent_RefreshDevices_Params params;
 
@@ -49404,7 +49998,7 @@ void UVivoxBaseComponent::RefreshDevices()
 EVivoxChannelType UVivoxBaseComponent::GetVoiceChannelType()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26614);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26736);
 
 	UVivoxBaseComponent_GetVoiceChannelType_Params params;
 
@@ -49427,7 +50021,7 @@ EVivoxChannelType UVivoxBaseComponent::GetVoiceChannelType()
 int UVivoxBaseComponent::GetLocalVoiceOutputVolume()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26612);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26734);
 
 	UVivoxBaseComponent_GetLocalVoiceOutputVolume_Params params;
 
@@ -49450,7 +50044,7 @@ int UVivoxBaseComponent::GetLocalVoiceOutputVolume()
 bool UVivoxBaseComponent::GetLocalVoiceOutputMuted()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26610);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26732);
 
 	UVivoxBaseComponent_GetLocalVoiceOutputMuted_Params params;
 
@@ -49473,7 +50067,7 @@ bool UVivoxBaseComponent::GetLocalVoiceOutputMuted()
 int UVivoxBaseComponent::GetLocalVoiceInputVolume()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26608);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26730);
 
 	UVivoxBaseComponent_GetLocalVoiceInputVolume_Params params;
 
@@ -49496,7 +50090,7 @@ int UVivoxBaseComponent::GetLocalVoiceInputVolume()
 bool UVivoxBaseComponent::GetLocalVoiceInputMuted()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26606);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26728);
 
 	UVivoxBaseComponent_GetLocalVoiceInputMuted_Params params;
 
@@ -49519,7 +50113,7 @@ bool UVivoxBaseComponent::GetLocalVoiceInputMuted()
 void UVivoxBaseComponent::ClientLogin(const struct FString& AccessToken)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26604);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26726);
 
 	UVivoxBaseComponent_ClientLogin_Params params;
 	params.AccessToken = AccessToken;
@@ -49539,7 +50133,7 @@ void UVivoxBaseComponent::ClientLogin(const struct FString& AccessToken)
 void UVivoxBaseComponent::ClientLeaveTeamChannel()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26603);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26725);
 
 	UVivoxBaseComponent_ClientLeaveTeamChannel_Params params;
 
@@ -49558,7 +50152,7 @@ void UVivoxBaseComponent::ClientLeaveTeamChannel()
 void UVivoxBaseComponent::ClientLeaveGlobalChannel()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26602);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26724);
 
 	UVivoxBaseComponent_ClientLeaveGlobalChannel_Params params;
 
@@ -49579,7 +50173,7 @@ void UVivoxBaseComponent::ClientLeaveGlobalChannel()
 void UVivoxBaseComponent::ClientJoinTeamChannel(const struct FString& AccessToken)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26600);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26722);
 
 	UVivoxBaseComponent_ClientJoinTeamChannel_Params params;
 	params.AccessToken = AccessToken;
@@ -49601,7 +50195,7 @@ void UVivoxBaseComponent::ClientJoinTeamChannel(const struct FString& AccessToke
 void UVivoxBaseComponent::ClientJoinGlobalChannel(const struct FString& AccessToken)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26598);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26720);
 
 	UVivoxBaseComponent_ClientJoinGlobalChannel_Params params;
 	params.AccessToken = AccessToken;
@@ -49623,7 +50217,7 @@ void UVivoxBaseComponent::ClientJoinGlobalChannel(const struct FString& AccessTo
 float UVivoxBaseComponent::CalculateOutputVolumeFromModifiers()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26596);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26718);
 
 	UVivoxBaseComponent_CalculateOutputVolumeFromModifiers_Params params;
 
@@ -49646,7 +50240,7 @@ float UVivoxBaseComponent::CalculateOutputVolumeFromModifiers()
 float UVivoxBaseComponent::CalculateInputVolumeFromModifiers()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26594);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26716);
 
 	UVivoxBaseComponent_CalculateInputVolumeFromModifiers_Params params;
 
@@ -49667,7 +50261,7 @@ float UVivoxBaseComponent::CalculateInputVolumeFromModifiers()
 void UVivoxComponent::ServerTestAccessToken()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26658);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26780);
 
 	UVivoxComponent_ServerTestAccessToken_Params params;
 
@@ -49688,7 +50282,7 @@ void UVivoxComponent::ServerTestAccessToken()
 void UVivoxComponent::ServerSetObserverTeamNum(int NewTeamNum)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26656);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26778);
 
 	UVivoxComponent_ServerSetObserverTeamNum_Params params;
 	params.NewTeamNum = NewTeamNum;
@@ -49713,7 +50307,7 @@ void UVivoxComponent::ServerSetObserverTeamNum(int NewTeamNum)
 void UVivoxComponent::ApplyTimedVolumeModifier(EVivoxChannelType ChannelType, float NewModifier, float Duration, float RestoreDuration)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26650);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26772);
 
 	UVivoxComponent_ApplyTimedVolumeModifier_Params params;
 	params.ChannelType = ChannelType;
@@ -49738,7 +50332,7 @@ void UVivoxComponent::ApplyTimedVolumeModifier(EVivoxChannelType ChannelType, fl
 void UVivoxManager::OnRevokeKeySuccess(class UVivoxResponse* Response)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26674);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26796);
 
 	UVivoxManager_OnRevokeKeySuccess_Params params;
 	params.Response = Response;
@@ -49760,7 +50354,7 @@ void UVivoxManager::OnRevokeKeySuccess(class UVivoxResponse* Response)
 void UVivoxManager::OnRevokeKeyFail(class UVivoxResponse* Response)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26672);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26794);
 
 	UVivoxManager_OnRevokeKeyFail_Params params;
 	params.Response = Response;
@@ -49782,7 +50376,7 @@ void UVivoxManager::OnRevokeKeyFail(class UVivoxResponse* Response)
 void UVivoxManager::OnChannelSuccess(class UVivoxResponse* Response)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26670);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26792);
 
 	UVivoxManager_OnChannelSuccess_Params params;
 	params.Response = Response;
@@ -49804,7 +50398,7 @@ void UVivoxManager::OnChannelSuccess(class UVivoxResponse* Response)
 void UVivoxManager::OnChannelFail(class UVivoxResponse* Response)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26668);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26790);
 
 	UVivoxManager_OnChannelFail_Params params;
 	params.Response = Response;
@@ -49826,7 +50420,7 @@ void UVivoxManager::OnChannelFail(class UVivoxResponse* Response)
 void UVivoxManager::OnAddKeySuccess(class UVivoxResponse* Response)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26666);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26788);
 
 	UVivoxManager_OnAddKeySuccess_Params params;
 	params.Response = Response;
@@ -49848,7 +50442,7 @@ void UVivoxManager::OnAddKeySuccess(class UVivoxResponse* Response)
 void UVivoxManager::OnAddKeyFail(class UVivoxResponse* Response)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26664);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26786);
 
 	UVivoxManager_OnAddKeyFail_Params params;
 	params.Response = Response;
@@ -49871,7 +50465,7 @@ void UVivoxManager::OnAddKeyFail(class UVivoxResponse* Response)
 void UWeaponAnimInfoComponent::SetAccessorySlot(class UTslAccessoryComponent* NewAccessoryComponent, EAccessorySlot Slot)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26712);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26834);
 
 	UWeaponAnimInfoComponent_SetAccessorySlot_Params params;
 	params.NewAccessoryComponent = NewAccessoryComponent;
@@ -49895,7 +50489,7 @@ void UWeaponAnimInfoComponent::SetAccessorySlot(class UTslAccessoryComponent* Ne
 bool UWeaponAnimInfoComponent::HasWeaponLeftHandIKSocket(class ATslWeapon* Weapon)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26709);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26831);
 
 	UWeaponAnimInfoComponent_HasWeaponLeftHandIKSocket_Params params;
 	params.Weapon = Weapon;
@@ -49920,7 +50514,7 @@ bool UWeaponAnimInfoComponent::HasWeaponLeftHandIKSocket(class ATslWeapon* Weapo
 struct FTransform UWeaponAnimInfoComponent::GetWeaponLeftHandIKTransform(class ATslWeapon* Weapon)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26706);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26828);
 
 	UWeaponAnimInfoComponent_GetWeaponLeftHandIKTransform_Params params;
 	params.Weapon = Weapon;
@@ -49945,7 +50539,7 @@ struct FTransform UWeaponAnimInfoComponent::GetWeaponLeftHandIKTransform(class A
 struct FTransform UWeaponAnimInfoComponent::GetWeaponHandIK_Right(class ATslWeapon* Weapon)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26703);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26825);
 
 	UWeaponAnimInfoComponent_GetWeaponHandIK_Right_Params params;
 	params.Weapon = Weapon;
@@ -49970,7 +50564,7 @@ struct FTransform UWeaponAnimInfoComponent::GetWeaponHandIK_Right(class ATslWeap
 struct FTransform UWeaponAnimInfoComponent::GetWeaponHandIK_Left(class ATslWeapon* Weapon)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26700);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26822);
 
 	UWeaponAnimInfoComponent_GetWeaponHandIK_Left_Params params;
 	params.Weapon = Weapon;
@@ -49994,7 +50588,7 @@ struct FTransform UWeaponAnimInfoComponent::GetWeaponHandIK_Left(class ATslWeapo
 class ATslWeapon* UWeaponAnimInfoComponent::GetCurrentWeapon()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26698);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26820);
 
 	UWeaponAnimInfoComponent_GetCurrentWeapon_Params params;
 
@@ -50018,7 +50612,7 @@ class ATslWeapon* UWeaponAnimInfoComponent::GetCurrentWeapon()
 class UTslAccessoryComponent* UWeaponAnimInfoComponent::GetAccessorySlot(EAccessorySlot Slot)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26694);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26816);
 
 	UWeaponAnimInfoComponent_GetAccessorySlot_Params params;
 	params.Slot = Slot;
@@ -50040,7 +50634,7 @@ class UTslAccessoryComponent* UWeaponAnimInfoComponent::GetAccessorySlot(EAccess
 void UWeaponClone::Update()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26734);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26856);
 
 	UWeaponClone_Update_Params params;
 

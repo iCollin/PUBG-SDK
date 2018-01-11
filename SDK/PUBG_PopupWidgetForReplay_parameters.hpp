@@ -14,6 +14,12 @@ namespace Classes
 //Parameters
 //---------------------------------------------------------------------------
 
+// Function PopupWidgetForReplay.PopupWidgetForReplay_C.Get_TextCancel_Text_1
+struct UPopupWidgetForReplay_C_Get_TextCancel_Text_1_Params
+{
+	struct FText                                       ReturnValue;                                              // (Parm, OutParm, ReturnParm)
+};
+
 // Function PopupWidgetForReplay.PopupWidgetForReplay_C.SetPopup
 struct UPopupWidgetForReplay_C_SetPopup_Params
 {

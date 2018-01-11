@@ -20,7 +20,7 @@ namespace Classes
 struct FLinearColor UKeyReceiverWidget_BP_C::GetBorderColorAndOpacity()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67992);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61530);
 
 	UKeyReceiverWidget_BP_C_GetBorderColorAndOpacity_Params params;
 

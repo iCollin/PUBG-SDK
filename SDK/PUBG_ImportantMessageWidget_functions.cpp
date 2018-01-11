@@ -20,7 +20,7 @@ namespace Classes
 void UImportantMessageWidget_C::GetFadeInAnimation(class UWidgetAnimation** Animation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71230);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70400);
 
 	UImportantMessageWidget_C_GetFadeInAnimation_Params params;
 
@@ -43,7 +43,7 @@ void UImportantMessageWidget_C::GetFadeInAnimation(class UWidgetAnimation** Anim
 void UImportantMessageWidget_C::GetFadeOutAnimation(class UWidgetAnimation** Animation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71228);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70398);
 
 	UImportantMessageWidget_C_GetFadeOutAnimation_Params params;
 
@@ -64,7 +64,7 @@ void UImportantMessageWidget_C::GetFadeOutAnimation(class UWidgetAnimation** Ani
 void UImportantMessageWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71204);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70374);
 
 	UImportantMessageWidget_C_Construct_Params params;
 
@@ -84,7 +84,7 @@ void UImportantMessageWidget_C::Construct()
 void UImportantMessageWidget_C::ExecuteUbergraph_ImportantMessageWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71169);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70339);
 
 	UImportantMessageWidget_C_ExecuteUbergraph_ImportantMessageWidget_Params params;
 	params.EntryPoint = EntryPoint;

@@ -20,7 +20,7 @@ namespace Classes
 void UMessageHudWidget_C::Icon_DisplayKilledMessage(const struct FDeathMessage& Input)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(75137);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74332);
 
 	UMessageHudWidget_C_Icon_DisplayKilledMessage_Params params;
 	params.Input = Input;
@@ -41,7 +41,7 @@ void UMessageHudWidget_C::Icon_DisplayKilledMessage(const struct FDeathMessage& 
 void UMessageHudWidget_C::Normal_DisplayKilledMessage(const struct FDeathMessage& InputPin)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(75092);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74287);
 
 	UMessageHudWidget_C_Normal_DisplayKilledMessage_Params params;
 	params.InputPin = InputPin;
@@ -68,7 +68,7 @@ void UMessageHudWidget_C::Normal_DisplayKilledMessage(const struct FDeathMessage
 void UMessageHudWidget_C::CreateGamePlayMessage(const struct FText& Message, TEnumAsByte<ETextJustify> TextAlignment, int TextSize, float Duration, bool bUseFade_In, class UAkAudioEvent* Sound, class UNewSystemMessageWidget_C** MessageWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(75083);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74278);
 
 	UMessageHudWidget_C_CreateGamePlayMessage_Params params;
 	params.Message = Message;
@@ -100,7 +100,7 @@ void UMessageHudWidget_C::CreateGamePlayMessage(const struct FText& Message, TEn
 void UMessageHudWidget_C::OnDisplayMessage(ESystemMessageType MessageType, const struct FText& Message, float Duration, class UAkAudioEvent* Sound)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(75073);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74268);
 
 	UMessageHudWidget_C_OnDisplayMessage_Params params;
 	params.MessageType = MessageType;
@@ -132,7 +132,7 @@ void UMessageHudWidget_C::OnDisplayMessage(ESystemMessageType MessageType, const
 void UMessageHudWidget_C::CreateKillMessage(const struct FDeathMessage& DeathMessage, TEnumAsByte<ETextJustify> TextAlignment, const struct FSlateColor& TextColor, int TextSize, float Duration, bool bUseFade_In, bool bShowMyKillCount, bool bUseMessagePool, class UNewSystemMessageWidget_C** MessageWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(75055);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74250);
 
 	UMessageHudWidget_C_CreateKillMessage_Params params;
 	params.DeathMessage = DeathMessage;
@@ -170,7 +170,7 @@ void UMessageHudWidget_C::CreateKillMessage(const struct FDeathMessage& DeathMes
 void UMessageHudWidget_C::CreateSystemMessage(const struct FText& Message, TEnumAsByte<ETextJustify> TextAlignment, const struct FSlateColor& TextColor, int TextSize, float Duration, bool bUseFade_In, class UAkAudioEvent* Sound, class UNewSystemMessageWidget_C** MessageWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(75045);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74240);
 
 	UMessageHudWidget_C_CreateSystemMessage_Params params;
 	params.Message = Message;
@@ -200,7 +200,7 @@ void UMessageHudWidget_C::CreateSystemMessage(const struct FText& Message, TEnum
 void UMessageHudWidget_C::OnDisplayKilledMessage(const struct FDeathMessage& DeathMessage)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(75041);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74236);
 
 	UMessageHudWidget_C_OnDisplayKilledMessage_Params params;
 	params.DeathMessage = DeathMessage;
@@ -222,7 +222,7 @@ void UMessageHudWidget_C::OnDisplayKilledMessage(const struct FDeathMessage& Dea
 void UMessageHudWidget_C::OnDisplaySystemMessage(ESystemMessageType MessageType, const struct FText& Message)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(75028);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74223);
 
 	UMessageHudWidget_C_OnDisplaySystemMessage_Params params;
 	params.MessageType = MessageType;
@@ -242,7 +242,7 @@ void UMessageHudWidget_C::OnDisplaySystemMessage(ESystemMessageType MessageType,
 void UMessageHudWidget_C::InitializeMessageHUD()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(75021);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74216);
 
 	UMessageHudWidget_C_InitializeMessageHUD_Params params;
 
@@ -260,7 +260,7 @@ void UMessageHudWidget_C::InitializeMessageHUD()
 void UMessageHudWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(75020);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74215);
 
 	UMessageHudWidget_C_Construct_Params params;
 
@@ -280,7 +280,7 @@ void UMessageHudWidget_C::Construct()
 void UMessageHudWidget_C::ExecuteUbergraph_MessageHudWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(75018);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74213);
 
 	UMessageHudWidget_C_ExecuteUbergraph_MessageHudWidget_Params params;
 	params.EntryPoint = EntryPoint;

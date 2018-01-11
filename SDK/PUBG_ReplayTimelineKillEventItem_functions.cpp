@@ -20,7 +20,7 @@ namespace Classes
 void UReplayTimelineKillEventItem_C::OnPrepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72063);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71930);
 
 	UReplayTimelineKillEventItem_C_OnPrepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -43,7 +43,7 @@ void UReplayTimelineKillEventItem_C::OnPrepass_1(class UWidget* BoundWidget)
 struct FEventReply UReplayTimelineKillEventItem_C::OnMouseButtonDown_1(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72050);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71917);
 
 	UReplayTimelineKillEventItem_C_OnMouseButtonDown_1_Params params;
 	params.MyGeometry = MyGeometry;
@@ -67,7 +67,7 @@ struct FEventReply UReplayTimelineKillEventItem_C::OnMouseButtonDown_1(const str
 struct FText UReplayTimelineKillEventItem_C::GetToolTipText()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72048);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71915);
 
 	UReplayTimelineKillEventItem_C_GetToolTipText_Params params;
 

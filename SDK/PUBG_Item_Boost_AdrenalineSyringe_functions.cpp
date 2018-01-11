@@ -18,7 +18,7 @@ namespace Classes
 void UItem_Boost_AdrenalineSyringe_C::BoostGaugeUp()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54928);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55083);
 
 	UItem_Boost_AdrenalineSyringe_C_BoostGaugeUp_Params params;
 
@@ -39,7 +39,7 @@ void UItem_Boost_AdrenalineSyringe_C::BoostGaugeUp()
 bool UItem_Boost_AdrenalineSyringe_C::IsCastable(class ATslCharacter** Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54922);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55077);
 
 	UItem_Boost_AdrenalineSyringe_C_IsCastable_Params params;
 	params.Character = Character;
@@ -60,7 +60,7 @@ bool UItem_Boost_AdrenalineSyringe_C::IsCastable(class ATslCharacter** Character
 void UItem_Boost_AdrenalineSyringe_C::PrintCastingTime()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54914);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55069);
 
 	UItem_Boost_AdrenalineSyringe_C_PrintCastingTime_Params params;
 
@@ -81,7 +81,7 @@ void UItem_Boost_AdrenalineSyringe_C::PrintCastingTime()
 bool UItem_Boost_AdrenalineSyringe_C::UseBy(class ATslCharacter** Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54910);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55065);
 
 	UItem_Boost_AdrenalineSyringe_C_UseBy_Params params;
 	params.Character = Character;

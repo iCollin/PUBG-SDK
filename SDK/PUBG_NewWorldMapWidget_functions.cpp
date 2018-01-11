@@ -18,7 +18,7 @@ namespace Classes
 void UNewWorldMapWidget_C::CheckObserverStatus()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79302);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78531);
 
 	UNewWorldMapWidget_C_CheckObserverStatus_Params params;
 
@@ -36,7 +36,7 @@ void UNewWorldMapWidget_C::CheckObserverStatus()
 void UNewWorldMapWidget_C::OnInteract()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79301);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78530);
 
 	UNewWorldMapWidget_C_OnInteract_Params params;
 
@@ -56,7 +56,7 @@ void UNewWorldMapWidget_C::OnInteract()
 void UNewWorldMapWidget_C::GetZoomMultiplier(float* Multiplier)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79295);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78524);
 
 	UNewWorldMapWidget_C_GetZoomMultiplier_Params params;
 
@@ -79,7 +79,7 @@ void UNewWorldMapWidget_C::GetZoomMultiplier(float* Multiplier)
 struct FVector2D UNewWorldMapWidget_C::GetMoveMapGridViewCenterToMyIconCenterDir()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79267);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78496);
 
 	UNewWorldMapWidget_C_GetMoveMapGridViewCenterToMyIconCenterDir_Params params;
 
@@ -99,7 +99,7 @@ struct FVector2D UNewWorldMapWidget_C::GetMoveMapGridViewCenterToMyIconCenterDir
 void UNewWorldMapWidget_C::OnMoveMapGridViewCenterToMyIconCenter()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79265);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78494);
 
 	UNewWorldMapWidget_C_OnMoveMapGridViewCenterToMyIconCenter_Params params;
 
@@ -119,7 +119,7 @@ void UNewWorldMapWidget_C::OnMoveMapGridViewCenterToMyIconCenter()
 void UNewWorldMapWidget_C::SetMapGridPositoin(const struct FVector2D& Position)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79241);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78470);
 
 	UNewWorldMapWidget_C_SetMapGridPositoin_Params params;
 	params.Position = Position;
@@ -138,7 +138,7 @@ void UNewWorldMapWidget_C::SetMapGridPositoin(const struct FVector2D& Position)
 void UNewWorldMapWidget_C::OnHideWorldMap()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79238);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78467);
 
 	UNewWorldMapWidget_C_OnHideWorldMap_Params params;
 
@@ -156,7 +156,7 @@ void UNewWorldMapWidget_C::OnHideWorldMap()
 void UNewWorldMapWidget_C::CheckReplayStatus()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79234);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78463);
 
 	UNewWorldMapWidget_C_CheckReplayStatus_Params params;
 
@@ -176,7 +176,7 @@ void UNewWorldMapWidget_C::CheckReplayStatus()
 void UNewWorldMapWidget_C::PadGuideMoveRight(float Add)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79191);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78418);
 
 	UNewWorldMapWidget_C_PadGuideMoveRight_Params params;
 	params.Add = Add;
@@ -197,7 +197,7 @@ void UNewWorldMapWidget_C::PadGuideMoveRight(float Add)
 void UNewWorldMapWidget_C::PadGuideMoveUp(float Add)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79147);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78372);
 
 	UNewWorldMapWidget_C_PadGuideMoveUp_Params params;
 	params.Add = Add;
@@ -216,7 +216,7 @@ void UNewWorldMapWidget_C::PadGuideMoveUp(float Add)
 void UNewWorldMapWidget_C::OnPadGuideMoveingReayReleased()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79146);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78371);
 
 	UNewWorldMapWidget_C_OnPadGuideMoveingReayReleased_Params params;
 
@@ -234,7 +234,7 @@ void UNewWorldMapWidget_C::OnPadGuideMoveingReayReleased()
 void UNewWorldMapWidget_C::OnPadGuideMoveingReayPressed()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79145);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78370);
 
 	UNewWorldMapWidget_C_OnPadGuideMoveingReayPressed_Params params;
 
@@ -254,7 +254,7 @@ void UNewWorldMapWidget_C::OnPadGuideMoveingReayPressed()
 void UNewWorldMapWidget_C::IsInPadGuideInMap(bool* bIsIn)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79104);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78329);
 
 	UNewWorldMapWidget_C_IsInPadGuideInMap_Params params;
 
@@ -277,7 +277,7 @@ void UNewWorldMapWidget_C::IsInPadGuideInMap(bool* bIsIn)
 void UNewWorldMapWidget_C::MapZoomPad(float AdditaionalZoom)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79096);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78321);
 
 	UNewWorldMapWidget_C_MapZoomPad_Params params;
 	params.AdditaionalZoom = AdditaionalZoom;
@@ -296,7 +296,7 @@ void UNewWorldMapWidget_C::MapZoomPad(float AdditaionalZoom)
 void UNewWorldMapWidget_C::OnPutMarkerPad()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79081);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78306);
 
 	UNewWorldMapWidget_C_OnPutMarkerPad_Params params;
 
@@ -316,7 +316,7 @@ void UNewWorldMapWidget_C::OnPutMarkerPad()
 struct FVector2D UNewWorldMapWidget_C::GetPadGuidePos_MC()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79077);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78302);
 
 	UNewWorldMapWidget_C_GetPadGuidePos_MC_Params params;
 
@@ -338,7 +338,7 @@ struct FVector2D UNewWorldMapWidget_C::GetPadGuidePos_MC()
 struct FVector2D UNewWorldMapWidget_C::GetPadGuidePos_UC()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79058);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78283);
 
 	UNewWorldMapWidget_C_GetPadGuidePos_UC_Params params;
 
@@ -358,7 +358,7 @@ struct FVector2D UNewWorldMapWidget_C::GetPadGuidePos_UC()
 void UNewWorldMapWidget_C::OnMarkerDelete()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79054);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78273);
 
 	UNewWorldMapWidget_C_OnMarkerDelete_Params params;
 
@@ -378,7 +378,7 @@ void UNewWorldMapWidget_C::OnMarkerDelete()
 void UNewWorldMapWidget_C::OnPrepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79042);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78261);
 
 	UNewWorldMapWidget_C_OnPrepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -399,7 +399,7 @@ void UNewWorldMapWidget_C::OnPrepass_1(class UWidget* BoundWidget)
 void UNewWorldMapWidget_C::MapMoveGamepadY(float Value)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79038);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78257);
 
 	UNewWorldMapWidget_C_MapMoveGamepadY_Params params;
 	params.Value = Value;
@@ -420,7 +420,7 @@ void UNewWorldMapWidget_C::MapMoveGamepadY(float Value)
 void UNewWorldMapWidget_C::MapMoveGamepadX(float Value)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79034);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78253);
 
 	UNewWorldMapWidget_C_MapMoveGamepadX_Params params;
 	params.Value = Value;
@@ -442,7 +442,7 @@ void UNewWorldMapWidget_C::MapMoveGamepadX(float Value)
 struct FVector UNewWorldMapWidget_C::ComputeServerToLocalPosition(const struct FVector& Server)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79030);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78249);
 
 	UNewWorldMapWidget_C_ComputeServerToLocalPosition_Params params;
 	params.Server = Server;
@@ -465,7 +465,7 @@ struct FVector UNewWorldMapWidget_C::ComputeServerToLocalPosition(const struct F
 void UNewWorldMapWidget_C::MapZoom(float AdditaionalZoom)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79022);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78240);
 
 	UNewWorldMapWidget_C_MapZoom_Params params;
 	params.AdditaionalZoom = AdditaionalZoom;
@@ -486,7 +486,7 @@ void UNewWorldMapWidget_C::MapZoom(float AdditaionalZoom)
 void UNewWorldMapWidget_C::MapMoveY(float Value)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79014);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78232);
 
 	UNewWorldMapWidget_C_MapMoveY_Params params;
 	params.Value = Value;
@@ -507,7 +507,7 @@ void UNewWorldMapWidget_C::MapMoveY(float Value)
 void UNewWorldMapWidget_C::MapMoveX(float Value)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79010);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78228);
 
 	UNewWorldMapWidget_C_MapMoveX_Params params;
 	params.Value = Value;
@@ -526,7 +526,7 @@ void UNewWorldMapWidget_C::MapMoveX(float Value)
 void UNewWorldMapWidget_C::OffMapMove()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79003);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78221);
 
 	UNewWorldMapWidget_C_OffMapMove_Params params;
 
@@ -544,7 +544,7 @@ void UNewWorldMapWidget_C::OffMapMove()
 void UNewWorldMapWidget_C::OnMapMove()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78997);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78215);
 
 	UNewWorldMapWidget_C_OnMapMove_Params params;
 
@@ -564,7 +564,7 @@ void UNewWorldMapWidget_C::OnMapMove()
 void UNewWorldMapWidget_C::MoveMapGrid(const struct FVector2D& AdditionalPos)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78972);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78190);
 
 	UNewWorldMapWidget_C_MoveMapGrid_Params params;
 	params.AdditionalPos = AdditionalPos;
@@ -583,7 +583,7 @@ void UNewWorldMapWidget_C::MoveMapGrid(const struct FVector2D& AdditionalPos)
 void UNewWorldMapWidget_C::OnMarker()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78918);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78136);
 
 	UNewWorldMapWidget_C_OnMarker_Params params;
 
@@ -601,7 +601,7 @@ void UNewWorldMapWidget_C::OnMarker()
 void UNewWorldMapWidget_C::DestoryNewWorldMapWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78917);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78135);
 
 	UNewWorldMapWidget_C_DestoryNewWorldMapWidget_Params params;
 
@@ -619,7 +619,7 @@ void UNewWorldMapWidget_C::DestoryNewWorldMapWidget()
 void UNewWorldMapWidget_C::InitNewWorldMapWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78891);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78109);
 
 	UNewWorldMapWidget_C_InitNewWorldMapWidget_Params params;
 
@@ -641,7 +641,7 @@ void UNewWorldMapWidget_C::InitNewWorldMapWidget()
 void UNewWorldMapWidget_C::GetMapWidgetScreenLocation(const struct FVector2D& Position, struct FVector2D* LeftTop, struct FVector2D* RightBottom)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78861);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78079);
 
 	UNewWorldMapWidget_C_GetMapWidgetScreenLocation_Params params;
 	params.Position = Position;
@@ -667,7 +667,7 @@ void UNewWorldMapWidget_C::GetMapWidgetScreenLocation(const struct FVector2D& Po
 void UNewWorldMapWidget_C::GetWheelUpAlignment(struct FVector2D* Alignment)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78821);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78039);
 
 	UNewWorldMapWidget_C_GetWheelUpAlignment_Params params;
 
@@ -688,7 +688,7 @@ void UNewWorldMapWidget_C::GetWheelUpAlignment(struct FVector2D* Alignment)
 void UNewWorldMapWidget_C::TestClear()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78819);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78037);
 
 	UNewWorldMapWidget_C_TestClear_Params params;
 
@@ -709,7 +709,7 @@ void UNewWorldMapWidget_C::TestClear()
 void UNewWorldMapWidget_C::UpdateMapAlignment(const struct FVector2D& Aligment, const struct FVector2D& Size)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78799);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78017);
 
 	UNewWorldMapWidget_C_UpdateMapAlignment_Params params;
 	params.Aligment = Aligment;
@@ -731,7 +731,7 @@ void UNewWorldMapWidget_C::UpdateMapAlignment(const struct FVector2D& Aligment, 
 void UNewWorldMapWidget_C::PlayFadeInAnim(float Playback_Speed)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78797);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78015);
 
 	UNewWorldMapWidget_C_PlayFadeInAnim_Params params;
 	params.Playback_Speed = Playback_Speed;
@@ -752,7 +752,7 @@ void UNewWorldMapWidget_C::PlayFadeInAnim(float Playback_Speed)
 void UNewWorldMapWidget_C::TickMapPositionMove(float DeltaTime)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78719);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77937);
 
 	UNewWorldMapWidget_C_TickMapPositionMove_Params params;
 	params.DeltaTime = DeltaTime;
@@ -774,7 +774,7 @@ void UNewWorldMapWidget_C::TickMapPositionMove(float DeltaTime)
 void UNewWorldMapWidget_C::IsInMapWidget(const struct FVector2D& Position, bool* IsIn)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78716);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77934);
 
 	UNewWorldMapWidget_C_IsInMapWidget_Params params;
 	params.Position = Position;
@@ -799,7 +799,7 @@ void UNewWorldMapWidget_C::IsInMapWidget(const struct FVector2D& Position, bool*
 void UNewWorldMapWidget_C::ClampPosition(const struct FVector2D& Position, struct FVector2D* ConvertedPosition)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78711);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77929);
 
 	UNewWorldMapWidget_C_ClampPosition_Params params;
 	params.Position = Position;
@@ -823,7 +823,7 @@ void UNewWorldMapWidget_C::ClampPosition(const struct FVector2D& Position, struc
 void UNewWorldMapWidget_C::TickChangeMapSize(float DeltaTime)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78634);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77852);
 
 	UNewWorldMapWidget_C_TickChangeMapSize_Params params;
 	params.DeltaTime = DeltaTime;
@@ -845,7 +845,7 @@ void UNewWorldMapWidget_C::TickChangeMapSize(float DeltaTime)
 void UNewWorldMapWidget_C::GetZoomRange(float* ZoomMin, float* ZoomMax)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78622);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77840);
 
 	UNewWorldMapWidget_C_GetZoomRange_Params params;
 
@@ -872,7 +872,7 @@ void UNewWorldMapWidget_C::GetZoomRange(float* ZoomMin, float* ZoomMax)
 struct FEventReply UNewWorldMapWidget_C::OnMouseButtonUp(struct FGeometry* MyGeometry, struct FPointerEvent* MouseEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78617);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77835);
 
 	UNewWorldMapWidget_C_OnMouseButtonUp_Params params;
 	params.MyGeometry = MyGeometry;
@@ -898,7 +898,7 @@ struct FEventReply UNewWorldMapWidget_C::OnMouseButtonUp(struct FGeometry* MyGeo
 struct FEventReply UNewWorldMapWidget_C::OnMouseMove(struct FGeometry* MyGeometry, struct FPointerEvent* MouseEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78612);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77830);
 
 	UNewWorldMapWidget_C_OnMouseMove_Params params;
 	params.MyGeometry = MyGeometry;
@@ -924,7 +924,7 @@ struct FEventReply UNewWorldMapWidget_C::OnMouseMove(struct FGeometry* MyGeometr
 struct FEventReply UNewWorldMapWidget_C::OnMouseButtonDown(struct FGeometry* MyGeometry, struct FPointerEvent* MouseEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78607);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77825);
 
 	UNewWorldMapWidget_C_OnMouseButtonDown_Params params;
 	params.MyGeometry = MyGeometry;
@@ -946,7 +946,7 @@ struct FEventReply UNewWorldMapWidget_C::OnMouseButtonDown(struct FGeometry* MyG
 void UNewWorldMapWidget_C::InitializeWorldMap()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78604);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77822);
 
 	UNewWorldMapWidget_C_InitializeWorldMap_Params params;
 
@@ -966,7 +966,7 @@ void UNewWorldMapWidget_C::InitializeWorldMap()
 void UNewWorldMapWidget_C::UpdateMap(const struct FVector2D& MapSize)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78593);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77811);
 
 	UNewWorldMapWidget_C_UpdateMap_Params params;
 	params.MapSize = MapSize;
@@ -988,7 +988,7 @@ void UNewWorldMapWidget_C::UpdateMap(const struct FVector2D& MapSize)
 void UNewWorldMapWidget_C::GetMapSize(float Zoom, struct FVector2D* MapSize)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78586);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77804);
 
 	UNewWorldMapWidget_C_GetMapSize_Params params;
 	params.Zoom = Zoom;
@@ -1014,7 +1014,7 @@ void UNewWorldMapWidget_C::GetMapSize(float Zoom, struct FVector2D* MapSize)
 struct FEventReply UNewWorldMapWidget_C::OnMouseWheel(struct FGeometry* MyGeometry, struct FPointerEvent* MouseEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78581);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77799);
 
 	UNewWorldMapWidget_C_OnMouseWheel_Params params;
 	params.MyGeometry = MyGeometry;
@@ -1038,7 +1038,7 @@ struct FEventReply UNewWorldMapWidget_C::OnMouseWheel(struct FGeometry* MyGeomet
 void UNewWorldMapWidget_C::UpdateZoom(float ZoomOffset)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78574);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77792);
 
 	UNewWorldMapWidget_C_UpdateZoom_Params params;
 	params.ZoomOffset = ZoomOffset;
@@ -1057,7 +1057,7 @@ void UNewWorldMapWidget_C::UpdateZoom(float ZoomOffset)
 void UNewWorldMapWidget_C::OnMarkerForReplay()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78573);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77791);
 
 	UNewWorldMapWidget_C_OnMarkerForReplay_Params params;
 
@@ -1078,7 +1078,7 @@ void UNewWorldMapWidget_C::OnMarkerForReplay()
 void UNewWorldMapWidget_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78570);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77788);
 
 	UNewWorldMapWidget_C_Tick_Params params;
 	params.MyGeometry = MyGeometry;
@@ -1100,7 +1100,7 @@ void UNewWorldMapWidget_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime
 void UNewWorldMapWidget_C::StartChangeMapSize(bool bIsPad)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78568);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77786);
 
 	UNewWorldMapWidget_C_StartChangeMapSize_Params params;
 	params.bIsPad = bIsPad;
@@ -1119,7 +1119,7 @@ void UNewWorldMapWidget_C::StartChangeMapSize(bool bIsPad)
 void UNewWorldMapWidget_C::BndEvt__Button_77_K2Node_ComponentBoundEvent_240_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78567);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77785);
 
 	UNewWorldMapWidget_C_BndEvt__Button_77_K2Node_ComponentBoundEvent_240_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -1137,7 +1137,7 @@ void UNewWorldMapWidget_C::BndEvt__Button_77_K2Node_ComponentBoundEvent_240_OnBu
 void UNewWorldMapWidget_C::BndEvt__MinimizeHelpButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78566);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77784);
 
 	UNewWorldMapWidget_C_BndEvt__MinimizeHelpButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -1155,7 +1155,7 @@ void UNewWorldMapWidget_C::BndEvt__MinimizeHelpButton_K2Node_ComponentBoundEvent
 void UNewWorldMapWidget_C::BndEvt__RestoreHelpButton_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78565);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77783);
 
 	UNewWorldMapWidget_C_BndEvt__RestoreHelpButton_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -1173,7 +1173,7 @@ void UNewWorldMapWidget_C::BndEvt__RestoreHelpButton_K2Node_ComponentBoundEvent_
 void UNewWorldMapWidget_C::MovePosition()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78564);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77782);
 
 	UNewWorldMapWidget_C_MovePosition_Params params;
 
@@ -1191,7 +1191,7 @@ void UNewWorldMapWidget_C::MovePosition()
 void UNewWorldMapWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78563);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77781);
 
 	UNewWorldMapWidget_C_Construct_Params params;
 
@@ -1209,7 +1209,7 @@ void UNewWorldMapWidget_C::Construct()
 void UNewWorldMapWidget_C::Destruct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78562);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77780);
 
 	UNewWorldMapWidget_C_Destruct_Params params;
 
@@ -1229,7 +1229,7 @@ void UNewWorldMapWidget_C::Destruct()
 void UNewWorldMapWidget_C::OnInputAxis(float* Scale)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78560);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77778);
 
 	UNewWorldMapWidget_C_OnInputAxis_Params params;
 	params.Scale = Scale;
@@ -1250,7 +1250,7 @@ void UNewWorldMapWidget_C::OnInputAxis(float* Scale)
 void UNewWorldMapWidget_C::ExecuteUbergraph_NewWorldMapWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78453);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77671);
 
 	UNewWorldMapWidget_C_ExecuteUbergraph_NewWorldMapWidget_Params params;
 	params.EntryPoint = EntryPoint;
@@ -1269,7 +1269,7 @@ void UNewWorldMapWidget_C::ExecuteUbergraph_NewWorldMapWidget(int EntryPoint)
 void UNewWorldMapWidget_C::OnHideMyself__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(78452);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77670);
 
 	UNewWorldMapWidget_C_OnHideMyself__DelegateSignature_Params params;
 

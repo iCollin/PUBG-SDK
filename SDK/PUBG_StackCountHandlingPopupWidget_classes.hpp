@@ -53,6 +53,7 @@ public:
 	}
 
 
+	void NotifyToCapacityWidget();
 	void NotifyStackCountUpdated();
 	void AddStackCount(int AddCount);
 	void OnPrepass_1(class UWidget* BoundWidget);
@@ -85,6 +86,7 @@ public:
 	void CustomEvent_4();
 	void CustomEvent_5();
 	void BndEvt__InputAmountText_K2Node_ComponentBoundEvent_0_OnEditableTextChangedEvent__DelegateSignature(const struct FText& Text);
+	void OnStackCountActionPerformed();
 	void ExecuteUbergraph_StackCountHandlingPopupWidget(int EntryPoint);
 	void OnStackCountUpdated__DelegateSignature(const TScriptInterface<class USlotInterface>& SlotInterface, const TScriptInterface<class USlotContainerInterface>& SlotContainer, int StackCount);
 };

@@ -20,7 +20,7 @@ namespace Classes
 ESlateVisibility UReplaySettings_C::Get_KillcamComboBox_Visibility_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69417);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91499);
 
 	UReplaySettings_C_Get_KillcamComboBox_Visibility_1_Params params;
 
@@ -42,7 +42,7 @@ ESlateVisibility UReplaySettings_C::Get_KillcamComboBox_Visibility_1()
 ESlateVisibility UReplaySettings_C::Get_ReplayComboBox_Visibility_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69406);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91488);
 
 	UReplaySettings_C_Get_ReplayComboBox_Visibility_1_Params params;
 
@@ -64,7 +64,7 @@ ESlateVisibility UReplaySettings_C::Get_ReplayComboBox_Visibility_1()
 bool UReplaySettings_C::Get_ReplayOption_Editable()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69403);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91485);
 
 	UReplaySettings_C_Get_ReplayOption_Editable_Params params;
 
@@ -84,7 +84,7 @@ bool UReplaySettings_C::Get_ReplayOption_Editable()
 void UReplaySettings_C::ApplyByCurrentSelectedSettings()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69392);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91257);
 
 	UReplaySettings_C_ApplyByCurrentSelectedSettings_Params params;
 
@@ -97,12 +97,12 @@ void UReplaySettings_C::ApplyByCurrentSelectedSettings()
 
 
 // Function ReplaySettings.ReplaySettings_C.InitReplaySettings
-// (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
+// (Public, BlueprintCallable, BlueprintEvent)
 
 void UReplaySettings_C::InitReplaySettings()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69377);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91244);
 
 	UReplaySettings_C_InitReplaySettings_Params params;
 
@@ -122,7 +122,7 @@ void UReplaySettings_C::InitReplaySettings()
 bool UReplaySettings_C::IsChanged()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69363);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91230);
 
 	UReplaySettings_C_IsChanged_Params params;
 
@@ -144,7 +144,7 @@ bool UReplaySettings_C::IsChanged()
 bool UReplaySettings_C::IsEnableApply()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69360);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91227);
 
 	UReplaySettings_C_IsEnableApply_Params params;
 
@@ -164,7 +164,7 @@ bool UReplaySettings_C::IsEnableApply()
 void UReplaySettings_C::SetToDefault()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69344);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91210);
 
 	UReplaySettings_C_SetToDefault_Params params;
 
@@ -182,7 +182,7 @@ void UReplaySettings_C::SetToDefault()
 void UReplaySettings_C::OnDefault()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69343);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91209);
 
 	UReplaySettings_C_OnDefault_Params params;
 
@@ -200,7 +200,7 @@ void UReplaySettings_C::OnDefault()
 void UReplaySettings_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69342);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91208);
 
 	UReplaySettings_C_Construct_Params params;
 
@@ -218,7 +218,7 @@ void UReplaySettings_C::Construct()
 void UReplaySettings_C::OnApply()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69341);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91207);
 
 	UReplaySettings_C_OnApply_Params params;
 
@@ -238,7 +238,7 @@ void UReplaySettings_C::OnApply()
 void UReplaySettings_C::ExecuteUbergraph_ReplaySettings(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69339);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91205);
 
 	UReplaySettings_C_ExecuteUbergraph_ReplaySettings_Params params;
 	params.EntryPoint = EntryPoint;

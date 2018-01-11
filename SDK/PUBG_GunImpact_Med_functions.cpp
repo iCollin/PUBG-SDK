@@ -18,7 +18,7 @@ namespace Classes
 void AGunImpact_Med_C::UserConstructionScript()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(53010);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(53127);
 
 	AGunImpact_Med_C_UserConstructionScript_Params params;
 

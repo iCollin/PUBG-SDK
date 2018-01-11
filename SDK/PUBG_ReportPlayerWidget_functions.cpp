@@ -12,15 +12,39 @@ namespace Classes
 //Functions
 //---------------------------------------------------------------------------
 
-// Function ReportPlayerWidget.ReportPlayerWidget_C.InitPlayerNameSetting
+// Function ReportPlayerWidget.ReportPlayerWidget_C.OnChangeCauser
 // (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// struct FString                 SelectCauser                   (Parm, ZeroConstructor)
 
-void UReportPlayerWidget_C::InitPlayerNameSetting()
+void UReportPlayerWidget_C::OnChangeCauser(const struct FString& SelectCauser)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72474);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72351);
+
+	UReportPlayerWidget_C_OnChangeCauser_Params params;
+	params.SelectCauser = SelectCauser;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function ReportPlayerWidget.ReportPlayerWidget_C.InitPlayerNameSetting
+// (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// ESubjectToReport               Key                            (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData)
+
+void UReportPlayerWidget_C::InitPlayerNameSetting(ESubjectToReport Key)
+{
+	static UFunction* fn = nullptr; 
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72346);
 
 	UReportPlayerWidget_C_InitPlayerNameSetting_Params params;
+	params.Key = Key;
 
 	auto flags = fn->FunctionFlags;
 
@@ -36,7 +60,7 @@ void UReportPlayerWidget_C::InitPlayerNameSetting()
 void UReportPlayerWidget_C::InitComboboxSetting()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72463);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72335);
 
 	UReportPlayerWidget_C_InitComboboxSetting_Params params;
 
@@ -50,13 +74,16 @@ void UReportPlayerWidget_C::InitComboboxSetting()
 
 // Function ReportPlayerWidget.ReportPlayerWidget_C.InitSubjectToReport
 // (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// ESubjectToReport               SubjectToReportType            (Parm, ZeroConstructor, IsPlainOldData)
 
-void UReportPlayerWidget_C::InitSubjectToReport()
+void UReportPlayerWidget_C::InitSubjectToReport(ESubjectToReport SubjectToReportType)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72448);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72320);
 
 	UReportPlayerWidget_C_InitSubjectToReport_Params params;
+	params.SubjectToReportType = SubjectToReportType;
 
 	auto flags = fn->FunctionFlags;
 
@@ -74,7 +101,7 @@ void UReportPlayerWidget_C::InitSubjectToReport()
 bool UReportPlayerWidget_C::GetbIsEnabled_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72444);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72316);
 
 	UReportPlayerWidget_C_GetbIsEnabled_1_Params params;
 
@@ -94,7 +121,7 @@ bool UReportPlayerWidget_C::GetbIsEnabled_1()
 void UReportPlayerWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72443);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72315);
 
 	UReportPlayerWidget_C_Construct_Params params;
 
@@ -115,7 +142,7 @@ void UReportPlayerWidget_C::Construct()
 void UReportPlayerWidget_C::BndEvt__ReportCausesComboBox_K2Node_ComponentBoundEvent_59_OnSelectionChangedEvent__DelegateSignature(const struct FString& SelectedItem, TEnumAsByte<ESelectInfo> SelectionType)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72440);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72312);
 
 	UReportPlayerWidget_C_BndEvt__ReportCausesComboBox_K2Node_ComponentBoundEvent_59_OnSelectionChangedEvent__DelegateSignature_Params params;
 	params.SelectedItem = SelectedItem;
@@ -135,7 +162,7 @@ void UReportPlayerWidget_C::BndEvt__ReportCausesComboBox_K2Node_ComponentBoundEv
 void UReportPlayerWidget_C::BndEvt__ButtonClose_K2Node_ComponentBoundEvent_8_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72439);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72311);
 
 	UReportPlayerWidget_C_BndEvt__ButtonClose_K2Node_ComponentBoundEvent_8_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -153,7 +180,7 @@ void UReportPlayerWidget_C::BndEvt__ButtonClose_K2Node_ComponentBoundEvent_8_OnB
 void UReportPlayerWidget_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_21_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72438);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72310);
 
 	UReportPlayerWidget_C_BndEvt__Button_0_K2Node_ComponentBoundEvent_21_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -165,15 +192,36 @@ void UReportPlayerWidget_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_21_OnBut
 }
 
 
+// Function ReportPlayerWidget.ReportPlayerWidget_C.UpdateSubjectToReportType
+// (BlueprintCallable, BlueprintEvent)
+// Parameters:
+// ESubjectToReport               SubjectToReportType            (Parm, ZeroConstructor, IsPlainOldData)
+
+void UReportPlayerWidget_C::UpdateSubjectToReportType(ESubjectToReport SubjectToReportType)
+{
+	static UFunction* fn = nullptr; 
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72307);
+
+	UReportPlayerWidget_C_UpdateSubjectToReportType_Params params;
+	params.SubjectToReportType = SubjectToReportType;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
 // Function ReportPlayerWidget.ReportPlayerWidget_C.ExecuteUbergraph_ReportPlayerWidget
-// (HasDefaults)
+// ()
 // Parameters:
 // int                            EntryPoint                     (Parm, ZeroConstructor, IsPlainOldData)
 
 void UReportPlayerWidget_C::ExecuteUbergraph_ReportPlayerWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72411);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72283);
 
 	UReportPlayerWidget_C_ExecuteUbergraph_ReportPlayerWidget_Params params;
 	params.EntryPoint = EntryPoint;

@@ -241,6 +241,7 @@ struct UItemListWidget_Gamepad_C_GetSlotItem_Params
 	TScriptInterface<class USlotInterface>             Item_SlotInterface;                                       // (Parm, ZeroConstructor, IsPlainOldData)
 	TScriptInterface<class USlotContainerInterface>    SlotContainer;                                            // (Parm, ZeroConstructor, IsPlainOldData)
 	class UItemSlotWidget_Gamepad_C*                   ItemSlotWidget;                                           // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
+	bool                                               bIsNew;                                                   // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
 };
 
 // Function ItemListWidget_Gamepad.ItemListWidget_Gamepad_C.RefreshList_Visinity

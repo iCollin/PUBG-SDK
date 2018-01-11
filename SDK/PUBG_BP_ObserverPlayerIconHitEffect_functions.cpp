@@ -18,7 +18,7 @@ namespace Classes
 void UBP_ObserverPlayerIconHitEffect_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69977);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67876);
 
 	UBP_ObserverPlayerIconHitEffect_C_Construct_Params params;
 
@@ -38,7 +38,7 @@ void UBP_ObserverPlayerIconHitEffect_C::Construct()
 void UBP_ObserverPlayerIconHitEffect_C::ExecuteUbergraph_BP_ObserverPlayerIconHitEffect(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69975);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67874);
 
 	UBP_ObserverPlayerIconHitEffect_C_ExecuteUbergraph_BP_ObserverPlayerIconHitEffect_Params params;
 	params.EntryPoint = EntryPoint;

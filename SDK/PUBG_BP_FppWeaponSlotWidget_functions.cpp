@@ -18,7 +18,7 @@ namespace Classes
 void UBP_FppWeaponSlotWidget_C::HIddenEnd__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99409);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(102274);
 
 	UBP_FppWeaponSlotWidget_C_HIddenEnd__DelegateSignature_Params params;
 
@@ -36,7 +36,7 @@ void UBP_FppWeaponSlotWidget_C::HIddenEnd__DelegateSignature()
 void UBP_FppWeaponSlotWidget_C::HIddenStart__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99408);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(102273);
 
 	UBP_FppWeaponSlotWidget_C_HIddenStart__DelegateSignature_Params params;
 
@@ -54,7 +54,7 @@ void UBP_FppWeaponSlotWidget_C::HIddenStart__DelegateSignature()
 void UBP_FppWeaponSlotWidget_C::ShowEnd__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99407);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(102272);
 
 	UBP_FppWeaponSlotWidget_C_ShowEnd__DelegateSignature_Params params;
 
@@ -72,7 +72,7 @@ void UBP_FppWeaponSlotWidget_C::ShowEnd__DelegateSignature()
 void UBP_FppWeaponSlotWidget_C::ShowStart__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99406);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(102271);
 
 	UBP_FppWeaponSlotWidget_C_ShowStart__DelegateSignature_Params params;
 

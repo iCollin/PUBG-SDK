@@ -20,7 +20,7 @@ namespace Classes
 struct FText UNewLobbySystemMenuWidget_C::Get_PUBGVersionText_Text_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(104843);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105916);
 
 	UNewLobbySystemMenuWidget_C_Get_PUBGVersionText_Text_1_Params params;
 
@@ -42,7 +42,7 @@ struct FText UNewLobbySystemMenuWidget_C::Get_PUBGVersionText_Text_1()
 ESlateVisibility UNewLobbySystemMenuWidget_C::GetVisibility_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(104832);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105905);
 
 	UNewLobbySystemMenuWidget_C_GetVisibility_1_Params params;
 
@@ -64,7 +64,7 @@ ESlateVisibility UNewLobbySystemMenuWidget_C::GetVisibility_1()
 void UNewLobbySystemMenuWidget_C::QuitGame(EPopupButtonID Button)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(104827);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105900);
 
 	UNewLobbySystemMenuWidget_C_QuitGame_Params params;
 	params.Button = Button;
@@ -85,7 +85,7 @@ void UNewLobbySystemMenuWidget_C::QuitGame(EPopupButtonID Button)
 struct FText UNewLobbySystemMenuWidget_C::GetVersionText()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(104815);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105888);
 
 	UNewLobbySystemMenuWidget_C_GetVersionText_Params params;
 
@@ -107,7 +107,7 @@ struct FText UNewLobbySystemMenuWidget_C::GetVersionText()
 void UNewLobbySystemMenuWidget_C::GetMainCoherentWidget(class UCoherentUIGTWidget** Browser)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(104810);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105883);
 
 	UNewLobbySystemMenuWidget_C_GetMainCoherentWidget_Params params;
 
@@ -128,7 +128,7 @@ void UNewLobbySystemMenuWidget_C::GetMainCoherentWidget(class UCoherentUIGTWidge
 void UNewLobbySystemMenuWidget_C::LobbyReoload()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(104795);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105868);
 
 	UNewLobbySystemMenuWidget_C_LobbyReoload_Params params;
 
@@ -146,7 +146,7 @@ void UNewLobbySystemMenuWidget_C::LobbyReoload()
 void UNewLobbySystemMenuWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(104794);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105867);
 
 	UNewLobbySystemMenuWidget_C_Construct_Params params;
 
@@ -164,7 +164,7 @@ void UNewLobbySystemMenuWidget_C::Construct()
 void UNewLobbySystemMenuWidget_C::BndEvt__ButtonReload_K2Node_ComponentBoundEvent_110_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(104793);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105866);
 
 	UNewLobbySystemMenuWidget_C_BndEvt__ButtonReload_K2Node_ComponentBoundEvent_110_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -182,7 +182,7 @@ void UNewLobbySystemMenuWidget_C::BndEvt__ButtonReload_K2Node_ComponentBoundEven
 void UNewLobbySystemMenuWidget_C::BndEvt__ButtonSettings_K2Node_ComponentBoundEvent_155_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(104792);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105865);
 
 	UNewLobbySystemMenuWidget_C_BndEvt__ButtonSettings_K2Node_ComponentBoundEvent_155_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -200,7 +200,7 @@ void UNewLobbySystemMenuWidget_C::BndEvt__ButtonSettings_K2Node_ComponentBoundEv
 void UNewLobbySystemMenuWidget_C::BndEvt__ButtonExit_K2Node_ComponentBoundEvent_176_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(104791);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105864);
 
 	UNewLobbySystemMenuWidget_C_BndEvt__ButtonExit_K2Node_ComponentBoundEvent_176_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -218,7 +218,7 @@ void UNewLobbySystemMenuWidget_C::BndEvt__ButtonExit_K2Node_ComponentBoundEvent_
 void UNewLobbySystemMenuWidget_C::BndEvt__ButtonResume_K2Node_ComponentBoundEvent_574_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(104790);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105863);
 
 	UNewLobbySystemMenuWidget_C_BndEvt__ButtonResume_K2Node_ComponentBoundEvent_574_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -236,7 +236,7 @@ void UNewLobbySystemMenuWidget_C::BndEvt__ButtonResume_K2Node_ComponentBoundEven
 void UNewLobbySystemMenuWidget_C::BndEvt__Button_1_K2Node_ComponentBoundEvent_66_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(104789);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105862);
 
 	UNewLobbySystemMenuWidget_C_BndEvt__Button_1_K2Node_ComponentBoundEvent_66_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -254,7 +254,7 @@ void UNewLobbySystemMenuWidget_C::BndEvt__Button_1_K2Node_ComponentBoundEvent_66
 void UNewLobbySystemMenuWidget_C::Custom_Event_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(104788);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105861);
 
 	UNewLobbySystemMenuWidget_C_Custom_Event_1_Params params;
 
@@ -274,7 +274,7 @@ void UNewLobbySystemMenuWidget_C::Custom_Event_1()
 void UNewLobbySystemMenuWidget_C::ExecuteUbergraph_NewLobbySystemMenuWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(104771);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105844);
 
 	UNewLobbySystemMenuWidget_C_ExecuteUbergraph_NewLobbySystemMenuWidget_Params params;
 	params.EntryPoint = EntryPoint;

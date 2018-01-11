@@ -20,7 +20,7 @@ namespace Classes
 struct FText UBattleListSubTitle_C::Get_TextSubTitle_Text_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54769);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54924);
 
 	UBattleListSubTitle_C_Get_TextSubTitle_Text_1_Params params;
 

@@ -18,7 +18,7 @@ namespace Classes
 void AParachuteVehicle_Seat_C::UserConstructionScript()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55784);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56078);
 
 	AParachuteVehicle_Seat_C_UserConstructionScript_Params params;
 

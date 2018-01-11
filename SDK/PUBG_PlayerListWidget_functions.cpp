@@ -18,7 +18,7 @@ namespace Classes
 void UPlayerListWidget_C::InitForReplay()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73245);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73231);
 
 	UPlayerListWidget_C_InitForReplay_Params params;
 
@@ -38,7 +38,7 @@ void UPlayerListWidget_C::InitForReplay()
 void UPlayerListWidget_C::CheckChangeList(bool* bChange)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73228);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73214);
 
 	UPlayerListWidget_C_CheckChangeList_Params params;
 
@@ -63,7 +63,7 @@ void UPlayerListWidget_C::CheckChangeList(bool* bChange)
 struct FEventReply UPlayerListWidget_C::OnPreviewKeyDown(struct FGeometry* MyGeometry, struct FKeyEvent* InKeyEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73223);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73209);
 
 	UPlayerListWidget_C_OnPreviewKeyDown_Params params;
 	params.MyGeometry = MyGeometry;
@@ -87,7 +87,7 @@ struct FEventReply UPlayerListWidget_C::OnPreviewKeyDown(struct FGeometry* MyGeo
 void UPlayerListWidget_C::IsIncludeDyingPlayer(bool* NewParam)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73220);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73206);
 
 	UPlayerListWidget_C_IsIncludeDyingPlayer_Params params;
 
@@ -110,7 +110,7 @@ void UPlayerListWidget_C::IsIncludeDyingPlayer(bool* NewParam)
 void UPlayerListWidget_C::UpdatePlayerList(float InputPin)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73156);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73142);
 
 	UPlayerListWidget_C_UpdatePlayerList_Params params;
 	params.InputPin = InputPin;
@@ -131,7 +131,7 @@ void UPlayerListWidget_C::UpdatePlayerList(float InputPin)
 void UPlayerListWidget_C::GetPlayersInDistance(TArray<class ATslCharacter*>* PlayerList)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73121);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73107);
 
 	UPlayerListWidget_C_GetPlayersInDistance_Params params;
 
@@ -152,7 +152,7 @@ void UPlayerListWidget_C::GetPlayersInDistance(TArray<class ATslCharacter*>* Pla
 void UPlayerListWidget_C::CheckUpdate()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73102);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73088);
 
 	UPlayerListWidget_C_CheckUpdate_Params params;
 
@@ -174,7 +174,7 @@ void UPlayerListWidget_C::CheckUpdate()
 class UPlayerInfoWidget_C* UPlayerListWidget_C::CreateOrUpdatePlayerInfo(int IndexToTest, class ATslCharacter* Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73093);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73079);
 
 	UPlayerListWidget_C_CreateOrUpdatePlayerInfo_Params params;
 	params.IndexToTest = IndexToTest;
@@ -196,7 +196,7 @@ class UPlayerInfoWidget_C* UPlayerListWidget_C::CreateOrUpdatePlayerInfo(int Ind
 void UPlayerListWidget_C::RefreshList()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73075);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73061);
 
 	UPlayerListWidget_C_RefreshList_Params params;
 
@@ -214,7 +214,7 @@ void UPlayerListWidget_C::RefreshList()
 void UPlayerListWidget_C::OnGotoTimelineDone_PlayerList()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73074);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73060);
 
 	UPlayerListWidget_C_OnGotoTimelineDone_PlayerList_Params params;
 
@@ -232,7 +232,7 @@ void UPlayerListWidget_C::OnGotoTimelineDone_PlayerList()
 void UPlayerListWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73073);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73059);
 
 	UPlayerListWidget_C_Construct_Params params;
 
@@ -253,7 +253,7 @@ void UPlayerListWidget_C::Construct()
 void UPlayerListWidget_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73070);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73056);
 
 	UPlayerListWidget_C_Tick_Params params;
 	params.MyGeometry = MyGeometry;
@@ -276,7 +276,7 @@ void UPlayerListWidget_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
 void UPlayerListWidget_C::BndEvt__DistanceSliderWidget_K2Node_ComponentBoundEvent_81_ChagedDistance__DelegateSignature(float NewDistance, float Value)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73067);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73053);
 
 	UPlayerListWidget_C_BndEvt__DistanceSliderWidget_K2Node_ComponentBoundEvent_81_ChagedDistance__DelegateSignature_Params params;
 	params.NewDistance = NewDistance;
@@ -296,7 +296,7 @@ void UPlayerListWidget_C::BndEvt__DistanceSliderWidget_K2Node_ComponentBoundEven
 void UPlayerListWidget_C::CheckChangeTimer()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73066);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73052);
 
 	UPlayerListWidget_C_CheckChangeTimer_Params params;
 
@@ -316,7 +316,7 @@ void UPlayerListWidget_C::CheckChangeTimer()
 void UPlayerListWidget_C::OnTurn(float Scale)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73064);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73050);
 
 	UPlayerListWidget_C_OnTurn_Params params;
 	params.Scale = Scale;
@@ -337,7 +337,7 @@ void UPlayerListWidget_C::OnTurn(float Scale)
 void UPlayerListWidget_C::OnLookUp(float Scale)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73062);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73048);
 
 	UPlayerListWidget_C_OnLookUp_Params params;
 	params.Scale = Scale;
@@ -356,7 +356,7 @@ void UPlayerListWidget_C::OnLookUp(float Scale)
 void UPlayerListWidget_C::Custom_Event_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73061);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73047);
 
 	UPlayerListWidget_C_Custom_Event_1_Params params;
 
@@ -374,7 +374,7 @@ void UPlayerListWidget_C::Custom_Event_1()
 void UPlayerListWidget_C::Custom_Event_2()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73060);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73046);
 
 	UPlayerListWidget_C_Custom_Event_2_Params params;
 
@@ -392,7 +392,7 @@ void UPlayerListWidget_C::Custom_Event_2()
 void UPlayerListWidget_C::Destruct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73059);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73045);
 
 	UPlayerListWidget_C_Destruct_Params params;
 
@@ -412,7 +412,7 @@ void UPlayerListWidget_C::Destruct()
 void UPlayerListWidget_C::ExecuteUbergraph_PlayerListWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73011);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72997);
 
 	UPlayerListWidget_C_ExecuteUbergraph_PlayerListWidget_Params params;
 	params.EntryPoint = EntryPoint;

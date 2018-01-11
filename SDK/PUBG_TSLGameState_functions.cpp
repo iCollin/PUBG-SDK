@@ -18,7 +18,7 @@ namespace Classes
 void ATSLGameState_C::UserConstructionScript()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80503);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79876);
 
 	ATSLGameState_C_UserConstructionScript_Params params;
 
@@ -38,7 +38,7 @@ void ATSLGameState_C::UserConstructionScript()
 void ATSLGameState_C::UpdateWorldTimeSecondsDelta(float* DeltaSeconds)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80501);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79874);
 
 	ATSLGameState_C_UpdateWorldTimeSecondsDelta_Params params;
 	params.DeltaSeconds = DeltaSeconds;
@@ -59,7 +59,7 @@ void ATSLGameState_C::UpdateWorldTimeSecondsDelta(float* DeltaSeconds)
 void ATSLGameState_C::ExecuteUbergraph_TSLGameState(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80498);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79871);
 
 	ATSLGameState_C_ExecuteUbergraph_TSLGameState_Params params;
 	params.EntryPoint = EntryPoint;

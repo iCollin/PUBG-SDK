@@ -21,7 +21,7 @@ namespace Classes
 void ULobbyWidgetMain_C::SendGameStateChangingToWeb(const struct FName& InName, const struct FName& InName2)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(41225);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(41353);
 
 	ULobbyWidgetMain_C_SendGameStateChangingToWeb_Params params;
 	params.InName = InName;
@@ -44,7 +44,7 @@ void ULobbyWidgetMain_C::SendGameStateChangingToWeb(const struct FName& InName, 
 void ULobbyWidgetMain_C::GameStateChanging(struct FName* NewState, struct FName* OldState)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(41222);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(41350);
 
 	ULobbyWidgetMain_C_GameStateChanging_Params params;
 	params.NewState = NewState;
@@ -66,7 +66,7 @@ void ULobbyWidgetMain_C::GameStateChanging(struct FName* NewState, struct FName*
 void ULobbyWidgetMain_C::ExecuteUbergraph_LobbyWidgetMain(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(41218);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(41346);
 
 	ULobbyWidgetMain_C_ExecuteUbergraph_LobbyWidgetMain_Params params;
 	params.EntryPoint = EntryPoint;

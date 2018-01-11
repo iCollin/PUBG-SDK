@@ -20,7 +20,7 @@ namespace Classes
 void UInGameMenuWidget_C::IsPCOnly(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77800);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77017);
 
 	UInGameMenuWidget_C_IsPCOnly_Params params;
 	params.BoundWidget = BoundWidget;
@@ -41,7 +41,7 @@ void UInGameMenuWidget_C::IsPCOnly(class UWidget* BoundWidget)
 void UInGameMenuWidget_C::IsGamepadOnly(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77791);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77008);
 
 	UInGameMenuWidget_C_IsGamepadOnly_Params params;
 	params.BoundWidget = BoundWidget;
@@ -62,7 +62,7 @@ void UInGameMenuWidget_C::IsGamepadOnly(class UWidget* BoundWidget)
 struct FText UInGameMenuWidget_C::GetVersionText_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77775);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76992);
 
 	UInGameMenuWidget_C_GetVersionText_1_Params params;
 
@@ -84,7 +84,7 @@ struct FText UInGameMenuWidget_C::GetVersionText_1()
 void UInGameMenuWidget_C::QuitGame(EPopupButtonID ButtonID)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77764);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76981);
 
 	UInGameMenuWidget_C_QuitGame_Params params;
 	params.ButtonID = ButtonID;
@@ -105,7 +105,7 @@ void UInGameMenuWidget_C::QuitGame(EPopupButtonID ButtonID)
 void UInGameMenuWidget_C::GoToLobby(EPopupButtonID ButtonID)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77756);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76973);
 
 	UInGameMenuWidget_C_GoToLobby_Params params;
 	params.ButtonID = ButtonID;
@@ -124,7 +124,7 @@ void UInGameMenuWidget_C::GoToLobby(EPopupButtonID ButtonID)
 void UInGameMenuWidget_C::BndEvt__Resume_K2Node_ComponentBoundEvent_195_OnClickedEventDispatcher__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77755);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76972);
 
 	UInGameMenuWidget_C_BndEvt__Resume_K2Node_ComponentBoundEvent_195_OnClickedEventDispatcher__DelegateSignature_Params params;
 
@@ -142,7 +142,7 @@ void UInGameMenuWidget_C::BndEvt__Resume_K2Node_ComponentBoundEvent_195_OnClicke
 void UInGameMenuWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77754);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76971);
 
 	UInGameMenuWidget_C_Construct_Params params;
 
@@ -160,7 +160,7 @@ void UInGameMenuWidget_C::Construct()
 void UInGameMenuWidget_C::OnHiddenWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77753);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76970);
 
 	UInGameMenuWidget_C_OnHiddenWidget_Params params;
 
@@ -178,7 +178,7 @@ void UInGameMenuWidget_C::OnHiddenWidget()
 void UInGameMenuWidget_C::BndEvt__OptionButton_K2Node_ComponentBoundEvent_107_OnClickedEventDispatcher__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77752);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76969);
 
 	UInGameMenuWidget_C_BndEvt__OptionButton_K2Node_ComponentBoundEvent_107_OnClickedEventDispatcher__DelegateSignature_Params params;
 
@@ -196,7 +196,7 @@ void UInGameMenuWidget_C::BndEvt__OptionButton_K2Node_ComponentBoundEvent_107_On
 void UInGameMenuWidget_C::CustomEvent_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77751);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76968);
 
 	UInGameMenuWidget_C_CustomEvent_1_Params params;
 
@@ -214,7 +214,7 @@ void UInGameMenuWidget_C::CustomEvent_1()
 void UInGameMenuWidget_C::CustomEvent_2()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77750);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76967);
 
 	UInGameMenuWidget_C_CustomEvent_2_Params params;
 
@@ -235,7 +235,7 @@ void UInGameMenuWidget_C::CustomEvent_2()
 void UInGameMenuWidget_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77747);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76964);
 
 	UInGameMenuWidget_C_Tick_Params params;
 	params.MyGeometry = MyGeometry;
@@ -255,7 +255,7 @@ void UInGameMenuWidget_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
 void UInGameMenuWidget_C::BndEvt__ButtonWidget_108_K2Node_ComponentBoundEvent_96_OnClickedEventDispatcher__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77746);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76963);
 
 	UInGameMenuWidget_C_BndEvt__ButtonWidget_108_K2Node_ComponentBoundEvent_96_OnClickedEventDispatcher__DelegateSignature_Params params;
 
@@ -273,7 +273,7 @@ void UInGameMenuWidget_C::BndEvt__ButtonWidget_108_K2Node_ComponentBoundEvent_96
 void UInGameMenuWidget_C::BndEvt__GotoLobbyButton_K2Node_ComponentBoundEvent_89_OnClickedEventDispatcher__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77745);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76962);
 
 	UInGameMenuWidget_C_BndEvt__GotoLobbyButton_K2Node_ComponentBoundEvent_89_OnClickedEventDispatcher__DelegateSignature_Params params;
 
@@ -291,7 +291,7 @@ void UInGameMenuWidget_C::BndEvt__GotoLobbyButton_K2Node_ComponentBoundEvent_89_
 void UInGameMenuWidget_C::OpenGamepadOption()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77744);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76961);
 
 	UInGameMenuWidget_C_OpenGamepadOption_Params params;
 
@@ -309,7 +309,7 @@ void UInGameMenuWidget_C::OpenGamepadOption()
 void UInGameMenuWidget_C::BndEvt__GamepadGuide_K2Node_ComponentBoundEvent_123_OnClickedEventDispatcher__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77743);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76960);
 
 	UInGameMenuWidget_C_BndEvt__GamepadGuide_K2Node_ComponentBoundEvent_123_OnClickedEventDispatcher__DelegateSignature_Params params;
 
@@ -329,7 +329,7 @@ void UInGameMenuWidget_C::BndEvt__GamepadGuide_K2Node_ComponentBoundEvent_123_On
 void UInGameMenuWidget_C::ExecuteUbergraph_InGameMenuWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77702);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76919);
 
 	UInGameMenuWidget_C_ExecuteUbergraph_InGameMenuWidget_Params params;
 	params.EntryPoint = EntryPoint;
@@ -350,7 +350,7 @@ void UInGameMenuWidget_C::ExecuteUbergraph_InGameMenuWidget(int EntryPoint)
 void UInGameMenuWidget_C::TestDispatcher__DelegateSignature(bool NewParam)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77700);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76917);
 
 	UInGameMenuWidget_C_TestDispatcher__DelegateSignature_Params params;
 	params.NewParam = NewParam;

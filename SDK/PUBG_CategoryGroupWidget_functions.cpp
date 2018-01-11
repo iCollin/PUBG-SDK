@@ -20,7 +20,7 @@ namespace Classes
 void UCategoryGroupWidget_C::AddChild(class UWidget** Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57551);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57902);
 
 	UCategoryGroupWidget_C_AddChild_Params params;
 
@@ -43,7 +43,7 @@ void UCategoryGroupWidget_C::AddChild(class UWidget** Widget)
 void UCategoryGroupWidget_C::GetChilderenCount(int* Count)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57548);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57899);
 
 	UCategoryGroupWidget_C_GetChilderenCount_Params params;
 
@@ -64,7 +64,7 @@ void UCategoryGroupWidget_C::GetChilderenCount(int* Count)
 void UCategoryGroupWidget_C::Clear()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57547);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57898);
 
 	UCategoryGroupWidget_C_Clear_Params params;
 
@@ -84,7 +84,7 @@ void UCategoryGroupWidget_C::Clear()
 void UCategoryGroupWidget_C::OnPrepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57536);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57887);
 
 	UCategoryGroupWidget_C_OnPrepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -105,7 +105,7 @@ void UCategoryGroupWidget_C::OnPrepass_1(class UWidget* BoundWidget)
 void UCategoryGroupWidget_C::AddItemSlot(class UItemSlotWidget_C** ItemSlotWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57533);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57884);
 
 	UCategoryGroupWidget_C_AddItemSlot_Params params;
 

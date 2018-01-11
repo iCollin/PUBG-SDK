@@ -140,7 +140,6 @@ public:
 		return i < Num();
 	}
 
-private:
 	T* Data;
 	int32_t Count;
 	int32_t Max;

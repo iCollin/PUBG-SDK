@@ -18,7 +18,7 @@ namespace Classes
 void UZombieGroupWidget_C::CreateObserverMatchResultInfoWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70560);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68420);
 
 	UZombieGroupWidget_C_CreateObserverMatchResultInfoWidget_Params params;
 
@@ -38,7 +38,7 @@ void UZombieGroupWidget_C::CreateObserverMatchResultInfoWidget()
 void UZombieGroupWidget_C::AddPlayerMatchResultInfo(const struct FTslPlayerMatchResultInfo& TslPlayerMatchResultInfo)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70557);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68417);
 
 	UZombieGroupWidget_C_AddPlayerMatchResultInfo_Params params;
 	params.TslPlayerMatchResultInfo = TslPlayerMatchResultInfo;

@@ -21,7 +21,7 @@ namespace Classes
 void UItemToolTipWidgetv2_Bp_C::GetItemDetailedName(class UEquipableItem* NewParam, struct FText* Name)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90435);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89244);
 
 	UItemToolTipWidgetv2_Bp_C_GetItemDetailedName_Params params;
 	params.NewParam = NewParam;
@@ -45,7 +45,7 @@ void UItemToolTipWidgetv2_Bp_C::GetItemDetailedName(class UEquipableItem* NewPar
 void UItemToolTipWidgetv2_Bp_C::On_MagazineIcon_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90433);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89242);
 
 	UItemToolTipWidgetv2_Bp_C_On_MagazineIcon_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -69,7 +69,7 @@ void UItemToolTipWidgetv2_Bp_C::On_MagazineIcon_Prepass_1(class UWidget* BoundWi
 void UItemToolTipWidgetv2_Bp_C::GetFiringRate(class ATslWeapon_Trajectory* ShooterWeapon_Trajectory, int AmmoClip, float FullReloadingTime, float* FringRate)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90421);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89230);
 
 	UItemToolTipWidgetv2_Bp_C_GetFiringRate_Params params;
 	params.ShooterWeapon_Trajectory = ShooterWeapon_Trajectory;
@@ -97,7 +97,7 @@ void UItemToolTipWidgetv2_Bp_C::GetFiringRate(class ATslWeapon_Trajectory* Shoot
 void UItemToolTipWidgetv2_Bp_C::GetShooterWeapon(class UEquipableItem* EquipableItem, class ATslWeapon** ShooterWeapon, class ATslWeapon_Trajectory** ShooterWeapon_Trajectory)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90402);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89211);
 
 	UItemToolTipWidgetv2_Bp_C_GetShooterWeapon_Params params;
 	params.EquipableItem = EquipableItem;
@@ -123,7 +123,7 @@ void UItemToolTipWidgetv2_Bp_C::GetShooterWeapon(class UEquipableItem* Equipable
 void UItemToolTipWidgetv2_Bp_C::OnUpdateEquipmentSlotItemToolTip(class UEquipableItem* EquipableItem)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90344);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89153);
 
 	UItemToolTipWidgetv2_Bp_C_OnUpdateEquipmentSlotItemToolTip_Params params;
 	params.EquipableItem = EquipableItem;
@@ -145,7 +145,7 @@ void UItemToolTipWidgetv2_Bp_C::OnUpdateEquipmentSlotItemToolTip(class UEquipabl
 void UItemToolTipWidgetv2_Bp_C::OnUpdateVicinityOrInventorySlotItemToolTip(class UEquipableItem* EquipableItem, class UEquipableItem* EquipmentSlotItem)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90275);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89084);
 
 	UItemToolTipWidgetv2_Bp_C_OnUpdateVicinityOrInventorySlotItemToolTip_Params params;
 	params.EquipableItem = EquipableItem;
@@ -165,7 +165,7 @@ void UItemToolTipWidgetv2_Bp_C::OnUpdateVicinityOrInventorySlotItemToolTip(class
 void UItemToolTipWidgetv2_Bp_C::Clear()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90274);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89083);
 
 	UItemToolTipWidgetv2_Bp_C_Clear_Params params;
 
@@ -186,7 +186,7 @@ void UItemToolTipWidgetv2_Bp_C::Clear()
 void UItemToolTipWidgetv2_Bp_C::GetAttachedAmmo(class UWeaponItem* WeaponItem, int* AmmoClip)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90265);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89074);
 
 	UItemToolTipWidgetv2_Bp_C_GetAttachedAmmo_Params params;
 	params.WeaponItem = WeaponItem;
@@ -211,7 +211,7 @@ void UItemToolTipWidgetv2_Bp_C::GetAttachedAmmo(class UWeaponItem* WeaponItem, i
 void UItemToolTipWidgetv2_Bp_C::GetAmmo(class UWeaponItem* WeaponItem, int* AmmoClip)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90261);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89070);
 
 	UItemToolTipWidgetv2_Bp_C_GetAmmo_Params params;
 	params.WeaponItem = WeaponItem;
@@ -236,7 +236,7 @@ void UItemToolTipWidgetv2_Bp_C::GetAmmo(class UWeaponItem* WeaponItem, int* Ammo
 void UItemToolTipWidgetv2_Bp_C::GetAttachedStability(class ATslWeapon_Trajectory* ShooterWeapon_Trajectory, float* Accuracy)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90256);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89065);
 
 	UItemToolTipWidgetv2_Bp_C_GetAttachedStability_Params params;
 	params.ShooterWeapon_Trajectory = ShooterWeapon_Trajectory;
@@ -261,7 +261,7 @@ void UItemToolTipWidgetv2_Bp_C::GetAttachedStability(class ATslWeapon_Trajectory
 void UItemToolTipWidgetv2_Bp_C::GetStability(class ATslWeapon_Trajectory* ShooterWeapon_Trajectory, float* Accuracy)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90251);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89060);
 
 	UItemToolTipWidgetv2_Bp_C_GetStability_Params params;
 	params.ShooterWeapon_Trajectory = ShooterWeapon_Trajectory;
@@ -286,7 +286,7 @@ void UItemToolTipWidgetv2_Bp_C::GetStability(class ATslWeapon_Trajectory* Shoote
 void UItemToolTipWidgetv2_Bp_C::GetWeaponEffectiveRange(class ATslWeapon_Trajectory* ShooterWeapon_Trajectory, float* EffectRange)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90245);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89054);
 
 	UItemToolTipWidgetv2_Bp_C_GetWeaponEffectiveRange_Params params;
 	params.ShooterWeapon_Trajectory = ShooterWeapon_Trajectory;
@@ -311,7 +311,7 @@ void UItemToolTipWidgetv2_Bp_C::GetWeaponEffectiveRange(class ATslWeapon_Traject
 void UItemToolTipWidgetv2_Bp_C::GetWeaponPower(class ATslWeapon* ShooterWeapon, float* Damage)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90234);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89043);
 
 	UItemToolTipWidgetv2_Bp_C_GetWeaponPower_Params params;
 	params.ShooterWeapon = ShooterWeapon;
@@ -333,7 +333,7 @@ void UItemToolTipWidgetv2_Bp_C::GetWeaponPower(class ATslWeapon* ShooterWeapon, 
 void UItemToolTipWidgetv2_Bp_C::FadeIn()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90233);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89042);
 
 	UItemToolTipWidgetv2_Bp_C_FadeIn_Params params;
 
@@ -353,7 +353,7 @@ void UItemToolTipWidgetv2_Bp_C::FadeIn()
 void UItemToolTipWidgetv2_Bp_C::UpdateDefaultInfo(const TScriptInterface<class USlotInterface>& Item)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90185);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(88994);
 
 	UItemToolTipWidgetv2_Bp_C_UpdateDefaultInfo_Params params;
 	params.Item = Item;
@@ -374,7 +374,7 @@ void UItemToolTipWidgetv2_Bp_C::UpdateDefaultInfo(const TScriptInterface<class U
 void UItemToolTipWidgetv2_Bp_C::SetItemByInterface(const TScriptInterface<class USlotInterface>& Item)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90173);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(88982);
 
 	UItemToolTipWidgetv2_Bp_C_SetItemByInterface_Params params;
 	params.Item = Item;
@@ -395,7 +395,7 @@ void UItemToolTipWidgetv2_Bp_C::SetItemByInterface(const TScriptInterface<class 
 void UItemToolTipWidgetv2_Bp_C::UpdateItemDetailInfo(class UItem* Item)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90094);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(88903);
 
 	UItemToolTipWidgetv2_Bp_C_UpdateItemDetailInfo_Params params;
 	params.Item = Item;
@@ -414,7 +414,7 @@ void UItemToolTipWidgetv2_Bp_C::UpdateItemDetailInfo(class UItem* Item)
 void UItemToolTipWidgetv2_Bp_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90093);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(88902);
 
 	UItemToolTipWidgetv2_Bp_C_Construct_Params params;
 
@@ -434,7 +434,7 @@ void UItemToolTipWidgetv2_Bp_C::Construct()
 void UItemToolTipWidgetv2_Bp_C::UpdateSlotInfo(TScriptInterface<class USlotInterface>* SlotInterface)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90091);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(88900);
 
 	UItemToolTipWidgetv2_Bp_C_UpdateSlotInfo_Params params;
 	params.SlotInterface = SlotInterface;
@@ -455,7 +455,7 @@ void UItemToolTipWidgetv2_Bp_C::UpdateSlotInfo(TScriptInterface<class USlotInter
 void UItemToolTipWidgetv2_Bp_C::UpdateEquipmentSlotItemToolTip(class UEquipableItem** EquipableItem)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90089);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(88898);
 
 	UItemToolTipWidgetv2_Bp_C_UpdateEquipmentSlotItemToolTip_Params params;
 	params.EquipableItem = EquipableItem;
@@ -477,7 +477,7 @@ void UItemToolTipWidgetv2_Bp_C::UpdateEquipmentSlotItemToolTip(class UEquipableI
 void UItemToolTipWidgetv2_Bp_C::UpdateVicinityOrInventorySlotItemToolTip(class UEquipableItem** EquipableItem, class UEquipableItem** EquipmentSlotItem)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90086);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(88895);
 
 	UItemToolTipWidgetv2_Bp_C_UpdateVicinityOrInventorySlotItemToolTip_Params params;
 	params.EquipableItem = EquipableItem;
@@ -499,7 +499,7 @@ void UItemToolTipWidgetv2_Bp_C::UpdateVicinityOrInventorySlotItemToolTip(class U
 void UItemToolTipWidgetv2_Bp_C::ExecuteUbergraph_ItemToolTipWidgetv2_Bp(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90079);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(88888);
 
 	UItemToolTipWidgetv2_Bp_C_ExecuteUbergraph_ItemToolTipWidgetv2_Bp_Params params;
 	params.EntryPoint = EntryPoint;

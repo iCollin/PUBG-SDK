@@ -21,7 +21,7 @@ namespace Classes
 void UTurnBasedMatchInterface::OnMatchReceivedTurn(const struct FString& Match, bool bDidBecomeActive)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39532);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39654);
 
 	UTurnBasedMatchInterface_OnMatchReceivedTurn_Params params;
 	params.Match = Match;
@@ -43,7 +43,7 @@ void UTurnBasedMatchInterface::OnMatchReceivedTurn(const struct FString& Match, 
 void UTurnBasedMatchInterface::OnMatchEnded(const struct FString& Match)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39530);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39652);
 
 	UTurnBasedMatchInterface_OnMatchEnded_Params params;
 	params.Match = Match;

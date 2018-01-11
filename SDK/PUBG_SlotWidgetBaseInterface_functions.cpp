@@ -20,7 +20,7 @@ namespace Classes
 void USlotWidgetBaseInterface_C::GetSlotContainer(TScriptInterface<class USlotContainerInterface>* SlotContainer)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67970);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69865);
 
 	USlotWidgetBaseInterface_C_GetSlotContainer_Params params;
 
@@ -43,7 +43,7 @@ void USlotWidgetBaseInterface_C::GetSlotContainer(TScriptInterface<class USlotCo
 void USlotWidgetBaseInterface_C::GetSlotItem(TScriptInterface<class USlotInterface>* SlotItem)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67968);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69863);
 
 	USlotWidgetBaseInterface_C_GetSlotItem_Params params;
 

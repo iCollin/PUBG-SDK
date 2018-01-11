@@ -15,7 +15,7 @@ namespace Classes
 //---------------------------------------------------------------------------
 
 // WidgetBlueprintGeneratedClass ItemListWidget_Gamepad.ItemListWidget_Gamepad_C
-// 0x00F8 (0x0358 - 0x0260)
+// 0x0100 (0x0360 - 0x0260)
 class UItemListWidget_Gamepad_C : public UTslUserWidget
 {
 public:
@@ -56,6 +56,8 @@ public:
 	float                                              GroundTitleHeight;                                        // 0x034C(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	float                                              ItemSlotHeight;                                           // 0x0350(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	float                                              ItemListHeight;                                           // 0x0354(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
+	int                                                MaxLoop;                                                  // 0x0358(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
+	int                                                CountLoop;                                                // 0x035C(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 
 	static UClass* StaticClass()
 	{
@@ -104,7 +106,7 @@ public:
 	void GetSelectWidget();
 	bool isEmptyList();
 	void RefreshList_Inventory();
-	void GetSlotItem(int Index, const TScriptInterface<class USlotInterface>& Item_SlotInterface, const TScriptInterface<class USlotContainerInterface>& SlotContainer, class UItemSlotWidget_Gamepad_C** ItemSlotWidget);
+	void GetSlotItem(int Index, const TScriptInterface<class USlotInterface>& Item_SlotInterface, const TScriptInterface<class USlotContainerInterface>& SlotContainer, class UItemSlotWidget_Gamepad_C** ItemSlotWidget, bool* bIsNew);
 	void RefreshList_Visinity();
 	bool OnDrop(struct FGeometry* MyGeometry, struct FPointerEvent* PointerEvent, class UDragDropOperation** Operation);
 	void GetContentCount(int* Count);

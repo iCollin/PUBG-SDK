@@ -18,7 +18,7 @@ namespace Classes
 void AWeapCrossbow_1_C::UserConstructionScript()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(53862);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54044);
 
 	AWeapCrossbow_1_C_UserConstructionScript_Params params;
 
@@ -38,7 +38,7 @@ void AWeapCrossbow_1_C::UserConstructionScript()
 void AWeapCrossbow_1_C::ReceiveTick(float* DeltaSeconds)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(53860);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54042);
 
 	AWeapCrossbow_1_C_ReceiveTick_Params params;
 	params.DeltaSeconds = DeltaSeconds;
@@ -59,7 +59,7 @@ void AWeapCrossbow_1_C::ReceiveTick(float* DeltaSeconds)
 void AWeapCrossbow_1_C::ServerSetAmmoState(TEnumAsByte<ENUM_CrossbowState> NewAmmoState)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(53858);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54040);
 
 	AWeapCrossbow_1_C_ServerSetAmmoState_Params params;
 	params.NewAmmoState = NewAmmoState;
@@ -80,7 +80,7 @@ void AWeapCrossbow_1_C::ServerSetAmmoState(TEnumAsByte<ENUM_CrossbowState> NewAm
 void AWeapCrossbow_1_C::ExecuteUbergraph_WeapCrossbow_2(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(53854);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54036);
 
 	AWeapCrossbow_1_C_ExecuteUbergraph_WeapCrossbow_2_Params params;
 	params.EntryPoint = EntryPoint;

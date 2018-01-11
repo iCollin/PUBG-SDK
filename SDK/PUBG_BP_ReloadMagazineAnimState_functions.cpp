@@ -20,7 +20,7 @@ namespace Classes
 void UBP_ReloadMagazineAnimState_C::DropMag(class USkeletalMeshComponent* MeshComp)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(51440);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(51482);
 
 	UBP_ReloadMagazineAnimState_C_DropMag_Params params;
 	params.MeshComp = MeshComp;
@@ -42,7 +42,7 @@ void UBP_ReloadMagazineAnimState_C::DropMag(class USkeletalMeshComponent* MeshCo
 void UBP_ReloadMagazineAnimState_C::AttachMag(class USkeletalMeshComponent* MeshComp, bool Attach)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(51434);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(51476);
 
 	UBP_ReloadMagazineAnimState_C_AttachMag_Params params;
 	params.MeshComp = MeshComp;
@@ -65,7 +65,7 @@ void UBP_ReloadMagazineAnimState_C::AttachMag(class USkeletalMeshComponent* Mesh
 void UBP_ReloadMagazineAnimState_C::ShowMag(class USkeletalMeshComponent* MeshComp, bool show)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(51428);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(51470);
 
 	UBP_ReloadMagazineAnimState_C_ShowMag_Params params;
 	params.MeshComp = MeshComp;
@@ -89,7 +89,7 @@ void UBP_ReloadMagazineAnimState_C::ShowMag(class USkeletalMeshComponent* MeshCo
 bool UBP_ReloadMagazineAnimState_C::Received_NotifyEnd(class USkeletalMeshComponent** MeshComp, class UAnimSequenceBase** Animation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(51423);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(51465);
 
 	UBP_ReloadMagazineAnimState_C_Received_NotifyEnd_Params params;
 	params.MeshComp = MeshComp;
@@ -116,7 +116,7 @@ bool UBP_ReloadMagazineAnimState_C::Received_NotifyEnd(class USkeletalMeshCompon
 bool UBP_ReloadMagazineAnimState_C::Received_NotifyBegin(class USkeletalMeshComponent** MeshComp, class UAnimSequenceBase** Animation, float* TotalDuration)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(51417);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(51459);
 
 	UBP_ReloadMagazineAnimState_C_Received_NotifyBegin_Params params;
 	params.MeshComp = MeshComp;

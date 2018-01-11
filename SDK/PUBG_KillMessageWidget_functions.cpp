@@ -20,7 +20,7 @@ namespace Classes
 void UKillMessageWidget_C::UpdateDeathMessage(const struct FDeathMessage& NewDeathMessage)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71132);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70302);
 
 	UKillMessageWidget_C_UpdateDeathMessage_Params params;
 	params.NewDeathMessage = NewDeathMessage;
@@ -39,7 +39,7 @@ void UKillMessageWidget_C::UpdateDeathMessage(const struct FDeathMessage& NewDea
 void UKillMessageWidget_C::SetKillMessageFont()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71112);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70282);
 
 	UKillMessageWidget_C_SetKillMessageFont_Params params;
 
@@ -59,7 +59,7 @@ void UKillMessageWidget_C::SetKillMessageFont()
 void UKillMessageWidget_C::OnPrepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71110);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70280);
 
 	UKillMessageWidget_C_OnPrepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -78,7 +78,7 @@ void UKillMessageWidget_C::OnPrepass_1(class UWidget* BoundWidget)
 void UKillMessageWidget_C::SetKillMessageText()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70924);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70094);
 
 	UKillMessageWidget_C_SetKillMessageText_Params params;
 
@@ -98,7 +98,7 @@ void UKillMessageWidget_C::SetKillMessageText()
 void UKillMessageWidget_C::GetNumStartTeam(int* NumStartTeam)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70919);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70089);
 
 	UKillMessageWidget_C_GetNumStartTeam_Params params;
 
@@ -121,7 +121,7 @@ void UKillMessageWidget_C::GetNumStartTeam(int* NumStartTeam)
 void UKillMessageWidget_C::On_AlivePlayer_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70910);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70080);
 
 	UKillMessageWidget_C_On_AlivePlayer_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -142,7 +142,7 @@ void UKillMessageWidget_C::On_AlivePlayer_Prepass_1(class UWidget* BoundWidget)
 void UKillMessageWidget_C::On_MyKills_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70865);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70035);
 
 	UKillMessageWidget_C_On_MyKills_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -163,7 +163,7 @@ void UKillMessageWidget_C::On_MyKills_Prepass_1(class UWidget* BoundWidget)
 struct FLinearColor UKillMessageWidget_C::GetBrushColor_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70857);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70027);
 
 	UKillMessageWidget_C_GetBrushColor_1_Params params;
 
@@ -185,7 +185,7 @@ struct FLinearColor UKillMessageWidget_C::GetBrushColor_1()
 void UKillMessageWidget_C::GetTeamAlive(int* Alive)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70851);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70021);
 
 	UKillMessageWidget_C_GetTeamAlive_Params params;
 
@@ -208,7 +208,7 @@ void UKillMessageWidget_C::GetTeamAlive(int* Alive)
 struct FText UKillMessageWidget_C::Get_AlivePlayer_Text_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70816);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69986);
 
 	UKillMessageWidget_C_Get_AlivePlayer_Text_1_Params params;
 
@@ -230,7 +230,7 @@ struct FText UKillMessageWidget_C::Get_AlivePlayer_Text_1()
 void UKillMessageWidget_C::GetAlivePlayerNum(int* AlivePlayer)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70811);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69981);
 
 	UKillMessageWidget_C_GetAlivePlayerNum_Params params;
 
@@ -253,7 +253,7 @@ void UKillMessageWidget_C::GetAlivePlayerNum(int* AlivePlayer)
 void UKillMessageWidget_C::GetKillNum(int* KillNum)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70797);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69974);
 
 	UKillMessageWidget_C_GetKillNum_Params params;
 
@@ -276,7 +276,7 @@ void UKillMessageWidget_C::GetKillNum(int* KillNum)
 ESlateVisibility UKillMessageWidget_C::Get_Killer_Visibility_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70787);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69964);
 
 	UKillMessageWidget_C_Get_Killer_Visibility_1_Params params;
 
@@ -298,7 +298,7 @@ ESlateVisibility UKillMessageWidget_C::Get_Killer_Visibility_1()
 ESlateVisibility UKillMessageWidget_C::Get_Insert2_Visibility_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70777);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69954);
 
 	UKillMessageWidget_C_Get_Insert2_Visibility_1_Params params;
 
@@ -320,7 +320,7 @@ ESlateVisibility UKillMessageWidget_C::Get_Insert2_Visibility_1()
 ESlateVisibility UKillMessageWidget_C::Get_Insert_Visibility_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70767);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69944);
 
 	UKillMessageWidget_C_Get_Insert_Visibility_1_Params params;
 
@@ -342,7 +342,7 @@ ESlateVisibility UKillMessageWidget_C::Get_Insert_Visibility_1()
 void UKillMessageWidget_C::GetFadeInAnimation(class UWidgetAnimation** Animation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71226);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70396);
 
 	UKillMessageWidget_C_GetFadeInAnimation_Params params;
 
@@ -365,7 +365,7 @@ void UKillMessageWidget_C::GetFadeInAnimation(class UWidgetAnimation** Animation
 void UKillMessageWidget_C::GetFadeOutAnimation(class UWidgetAnimation** Animation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71224);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70394);
 
 	UKillMessageWidget_C_GetFadeOutAnimation_Params params;
 
@@ -386,7 +386,7 @@ void UKillMessageWidget_C::GetFadeOutAnimation(class UWidgetAnimation** Animatio
 void UKillMessageWidget_C::InitializeKillMessageText()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70764);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69941);
 
 	UKillMessageWidget_C_InitializeKillMessageText_Params params;
 
@@ -406,7 +406,7 @@ void UKillMessageWidget_C::InitializeKillMessageText()
 void UKillMessageWidget_C::IsVictimTeam(bool* IsTeam)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70757);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69934);
 
 	UKillMessageWidget_C_IsVictimTeam_Params params;
 
@@ -429,7 +429,7 @@ void UKillMessageWidget_C::IsVictimTeam(bool* IsTeam)
 void UKillMessageWidget_C::IsKillerTeam(bool* IsTeam)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70750);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69927);
 
 	UKillMessageWidget_C_IsKillerTeam_Params params;
 
@@ -450,7 +450,7 @@ void UKillMessageWidget_C::IsKillerTeam(bool* IsTeam)
 void UKillMessageWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71203);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70373);
 
 	UKillMessageWidget_C_Construct_Params params;
 
@@ -470,7 +470,7 @@ void UKillMessageWidget_C::Construct()
 void UKillMessageWidget_C::ExecuteUbergraph_KillMessageWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70748);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69925);
 
 	UKillMessageWidget_C_ExecuteUbergraph_KillMessageWidget_Params params;
 	params.EntryPoint = EntryPoint;

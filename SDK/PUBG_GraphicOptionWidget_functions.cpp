@@ -20,7 +20,7 @@ namespace Classes
 bool UGraphicOptionWidget_C::IsKeyUp()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69511);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67491);
 
 	UGraphicOptionWidget_C_IsKeyUp_Params params;
 
@@ -42,7 +42,7 @@ bool UGraphicOptionWidget_C::IsKeyUp()
 bool UGraphicOptionWidget_C::IsChanged()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69503);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67483);
 
 	UGraphicOptionWidget_C_IsChanged_Params params;
 
@@ -62,7 +62,7 @@ bool UGraphicOptionWidget_C::IsChanged()
 void UGraphicOptionWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69502);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67482);
 
 	UGraphicOptionWidget_C_Construct_Params params;
 
@@ -80,7 +80,7 @@ void UGraphicOptionWidget_C::Construct()
 void UGraphicOptionWidget_C::OnApply()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69501);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67481);
 
 	UGraphicOptionWidget_C_OnApply_Params params;
 
@@ -98,7 +98,7 @@ void UGraphicOptionWidget_C::OnApply()
 void UGraphicOptionWidget_C::OnDefault()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69500);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67480);
 
 	UGraphicOptionWidget_C_OnDefault_Params params;
 
@@ -116,7 +116,7 @@ void UGraphicOptionWidget_C::OnDefault()
 void UGraphicOptionWidget_C::OnReset()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69499);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67479);
 
 	UGraphicOptionWidget_C_OnReset_Params params;
 
@@ -136,7 +136,7 @@ void UGraphicOptionWidget_C::OnReset()
 void UGraphicOptionWidget_C::ExecuteUbergraph_GraphicOptionWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69497);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67477);
 
 	UGraphicOptionWidget_C_ExecuteUbergraph_GraphicOptionWidget_Params params;
 	params.EntryPoint = EntryPoint;

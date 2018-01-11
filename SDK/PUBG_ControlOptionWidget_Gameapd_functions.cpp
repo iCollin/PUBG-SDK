@@ -20,7 +20,7 @@ namespace Classes
 void UControlOptionWidget_Gameapd_C::GetGamePadHelpWidgetClass(class UClass** GuideClass)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68192);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66360);
 
 	UControlOptionWidget_Gameapd_C_GetGamePadHelpWidgetClass_Params params;
 
@@ -45,7 +45,7 @@ void UControlOptionWidget_Gameapd_C::GetGamePadHelpWidgetClass(class UClass** Gu
 struct FEventReply UControlOptionWidget_Gameapd_C::OnKeyDown(struct FGeometry* MyGeometry, struct FKeyEvent* InKeyEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68489);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66658);
 
 	UControlOptionWidget_Gameapd_C_OnKeyDown_Params params;
 	params.MyGeometry = MyGeometry;
@@ -69,7 +69,7 @@ struct FEventReply UControlOptionWidget_Gameapd_C::OnKeyDown(struct FGeometry* M
 void UControlOptionWidget_Gameapd_C::GetCurrentFocusWidget(class UWidget** FocusWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68486);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66655);
 
 	UControlOptionWidget_Gameapd_C_GetCurrentFocusWidget_Params params;
 
@@ -92,7 +92,7 @@ void UControlOptionWidget_Gameapd_C::GetCurrentFocusWidget(class UWidget** Focus
 bool UControlOptionWidget_Gameapd_C::IsChanged()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68187);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66355);
 
 	UControlOptionWidget_Gameapd_C_IsChanged_Params params;
 
@@ -115,7 +115,7 @@ bool UControlOptionWidget_Gameapd_C::IsChanged()
 void UControlOptionWidget_Gameapd_C::OnPrevOrNextFocusableWidget(bool* bNext, class UWidget** FocusableWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68476);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66645);
 
 	UControlOptionWidget_Gameapd_C_OnPrevOrNextFocusableWidget_Params params;
 	params.bNext = bNext;
@@ -141,7 +141,7 @@ void UControlOptionWidget_Gameapd_C::OnPrevOrNextFocusableWidget(bool* bNext, cl
 struct FEventReply UControlOptionWidget_Gameapd_C::OnFocusReceived(struct FGeometry* MyGeometry, struct FFocusEvent* InFocusEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68469);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66638);
 
 	UControlOptionWidget_Gameapd_C_OnFocusReceived_Params params;
 	params.MyGeometry = MyGeometry;
@@ -163,7 +163,7 @@ struct FEventReply UControlOptionWidget_Gameapd_C::OnFocusReceived(struct FGeome
 void UControlOptionWidget_Gameapd_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68186);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66354);
 
 	UControlOptionWidget_Gameapd_C_Construct_Params params;
 
@@ -181,7 +181,7 @@ void UControlOptionWidget_Gameapd_C::Construct()
 void UControlOptionWidget_Gameapd_C::OnDefault()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68185);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66353);
 
 	UControlOptionWidget_Gameapd_C_OnDefault_Params params;
 
@@ -199,7 +199,7 @@ void UControlOptionWidget_Gameapd_C::OnDefault()
 void UControlOptionWidget_Gameapd_C::OnReset()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68184);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66352);
 
 	UControlOptionWidget_Gameapd_C_OnReset_Params params;
 
@@ -217,7 +217,7 @@ void UControlOptionWidget_Gameapd_C::OnReset()
 void UControlOptionWidget_Gameapd_C::OnApply()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68183);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66351);
 
 	UControlOptionWidget_Gameapd_C_OnApply_Params params;
 
@@ -237,7 +237,7 @@ void UControlOptionWidget_Gameapd_C::OnApply()
 void UControlOptionWidget_Gameapd_C::ExecuteUbergraph_ControlOptionWidget_Gameapd(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68179);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66323);
 
 	UControlOptionWidget_Gameapd_C_ExecuteUbergraph_ControlOptionWidget_Gameapd_Params params;
 	params.EntryPoint = EntryPoint;

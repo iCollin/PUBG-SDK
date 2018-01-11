@@ -20,7 +20,7 @@ namespace Classes
 void UObserverMatchResultNameWidget_C::SetSmall(bool bSmall)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90842);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91889);
 
 	UObserverMatchResultNameWidget_C_SetSmall_Params params;
 	params.bSmall = bSmall;
@@ -41,7 +41,7 @@ void UObserverMatchResultNameWidget_C::SetSmall(bool bSmall)
 void UObserverMatchResultNameWidget_C::On_Kills_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90838);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91885);
 
 	UObserverMatchResultNameWidget_C_On_Kills_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -62,7 +62,7 @@ void UObserverMatchResultNameWidget_C::On_Kills_Prepass_1(class UWidget* BoundWi
 void UObserverMatchResultNameWidget_C::GetPlayerNameFontSize(int* FontSize)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90832);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91879);
 
 	UObserverMatchResultNameWidget_C_GetPlayerNameFontSize_Params params;
 
@@ -85,7 +85,7 @@ void UObserverMatchResultNameWidget_C::GetPlayerNameFontSize(int* FontSize)
 void UObserverMatchResultNameWidget_C::GetKillFontSize(int* FontSize)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90826);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91873);
 
 	UObserverMatchResultNameWidget_C_GetKillFontSize_Params params;
 
@@ -108,7 +108,7 @@ void UObserverMatchResultNameWidget_C::GetKillFontSize(int* FontSize)
 void UObserverMatchResultNameWidget_C::On_Slash_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90822);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91869);
 
 	UObserverMatchResultNameWidget_C_On_Slash_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -129,7 +129,7 @@ void UObserverMatchResultNameWidget_C::On_Slash_Prepass_1(class UWidget* BoundWi
 void UObserverMatchResultNameWidget_C::On_PlayerName_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90817);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91864);
 
 	UObserverMatchResultNameWidget_C_On_PlayerName_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -150,7 +150,7 @@ void UObserverMatchResultNameWidget_C::On_PlayerName_Prepass_1(class UWidget* Bo
 void UObserverMatchResultNameWidget_C::On_KillCount_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90812);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91859);
 
 	UObserverMatchResultNameWidget_C_On_KillCount_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -171,7 +171,7 @@ void UObserverMatchResultNameWidget_C::On_KillCount_Prepass_1(class UWidget* Bou
 void UObserverMatchResultNameWidget_C::OnPrepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90803);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91850);
 
 	UObserverMatchResultNameWidget_C_OnPrepass_1_Params params;
 	params.BoundWidget = BoundWidget;

@@ -20,7 +20,7 @@ namespace Classes
 void UTslItemDragDropOperation_C::IsDragDroppingItemAttachment(bool* IsAttachment)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89983);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(92297);
 
 	UTslItemDragDropOperation_C_IsDragDroppingItemAttachment_Params params;
 
@@ -43,7 +43,7 @@ void UTslItemDragDropOperation_C::IsDragDroppingItemAttachment(bool* IsAttachmen
 void UTslItemDragDropOperation_C::IsDragDroppingItemWeapon(bool* IsWeapon)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89978);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(92292);
 
 	UTslItemDragDropOperation_C_IsDragDroppingItemWeapon_Params params;
 
@@ -66,7 +66,7 @@ void UTslItemDragDropOperation_C::IsDragDroppingItemWeapon(bool* IsWeapon)
 void UTslItemDragDropOperation_C::IsInEquipment(bool* NewParam)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89968);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(92282);
 
 	UTslItemDragDropOperation_C_IsInEquipment_Params params;
 
@@ -89,7 +89,7 @@ void UTslItemDragDropOperation_C::IsInEquipment(bool* NewParam)
 void UTslItemDragDropOperation_C::GetCurrentOtherContainer(TScriptInterface<class USlotContainerInterface>* OtherContainer)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89962);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(92276);
 
 	UTslItemDragDropOperation_C_GetCurrentOtherContainer_Params params;
 
@@ -110,7 +110,7 @@ void UTslItemDragDropOperation_C::GetCurrentOtherContainer(TScriptInterface<clas
 void UTslItemDragDropOperation_C::LeaveOtherContainer()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89958);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(92261);
 
 	UTslItemDragDropOperation_C_LeaveOtherContainer_Params params;
 
@@ -130,7 +130,7 @@ void UTslItemDragDropOperation_C::LeaveOtherContainer()
 void UTslItemDragDropOperation_C::EnterOtherContainer(const TScriptInterface<class USlotContainerInterface>& NewOtherContainer)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89946);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(92249);
 
 	UTslItemDragDropOperation_C_EnterOtherContainer_Params params;
 	params.NewOtherContainer = NewOtherContainer;
@@ -151,7 +151,7 @@ void UTslItemDragDropOperation_C::EnterOtherContainer(const TScriptInterface<cla
 void UTslItemDragDropOperation_C::IsEnableAction(bool* IsEnableAction)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89941);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(92244);
 
 	UTslItemDragDropOperation_C_IsEnableAction_Params params;
 
@@ -174,7 +174,7 @@ void UTslItemDragDropOperation_C::IsEnableAction(bool* IsEnableAction)
 void UTslItemDragDropOperation_C::GetActionName(struct FName* ActionName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89939);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(92209);
 
 	UTslItemDragDropOperation_C_GetActionName_Params params;
 
@@ -197,7 +197,7 @@ void UTslItemDragDropOperation_C::GetActionName(struct FName* ActionName)
 void UTslItemDragDropOperation_C::GetOptions(struct FString* Options)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89931);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(92201);
 
 	UTslItemDragDropOperation_C_GetOptions_Params params;
 

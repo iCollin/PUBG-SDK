@@ -20,7 +20,7 @@ namespace Classes
 class UCineCameraComponent* ACineCameraActor::GetCineCameraComponent()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(28695);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(28817);
 
 	ACineCameraActor_GetCineCameraComponent_Params params;
 
@@ -43,7 +43,7 @@ class UCineCameraComponent* ACineCameraActor::GetCineCameraComponent()
 float UCineCameraComponent::GetVerticalFieldOfView()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(28700);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(28822);
 
 	UCineCameraComponent_GetVerticalFieldOfView_Params params;
 
@@ -66,7 +66,7 @@ float UCineCameraComponent::GetVerticalFieldOfView()
 float UCineCameraComponent::GetHorizontalFieldOfView()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(28698);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(28820);
 
 	UCineCameraComponent_GetHorizontalFieldOfView_Params params;
 

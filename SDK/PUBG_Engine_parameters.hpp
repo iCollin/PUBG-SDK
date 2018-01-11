@@ -3655,10 +3655,22 @@ struct ACharacter_IsJumpProvidingForce_Params
 	bool                                               ReturnValue;                                              // (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData)
 };
 
+// Function Engine.Character.GetMesh
+struct ACharacter_GetMesh_Params
+{
+	class USkeletalMeshComponent*                      ReturnValue;                                              // (ExportObject, Parm, OutParm, ZeroConstructor, ReturnParm, InstancedReference, IsPlainOldData)
+};
+
 // Function Engine.Character.GetCurrentMontage
 struct ACharacter_GetCurrentMontage_Params
 {
 	class UAnimMontage*                                ReturnValue;                                              // (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData)
+};
+
+// Function Engine.Character.GetCapsuleComponent
+struct ACharacter_GetCapsuleComponent_Params
+{
+	class UCapsuleComponent*                           ReturnValue;                                              // (ExportObject, Parm, OutParm, ZeroConstructor, ReturnParm, InstancedReference, IsPlainOldData)
 };
 
 // Function Engine.Character.GetBaseTranslationOffset

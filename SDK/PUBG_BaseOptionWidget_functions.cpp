@@ -22,7 +22,7 @@ namespace Classes
 struct FEventReply UBaseOptionWidget_C::OnKeyDown(struct FGeometry* MyGeometry, struct FKeyEvent* InKeyEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68452);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66621);
 
 	UBaseOptionWidget_C_OnKeyDown_Params params;
 	params.MyGeometry = MyGeometry;
@@ -48,7 +48,7 @@ struct FEventReply UBaseOptionWidget_C::OnKeyDown(struct FGeometry* MyGeometry, 
 struct FEventReply UBaseOptionWidget_C::OnFocusReceived(struct FGeometry* MyGeometry, struct FFocusEvent* InFocusEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68444);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66613);
 
 	UBaseOptionWidget_C_OnFocusReceived_Params params;
 	params.MyGeometry = MyGeometry;
@@ -72,7 +72,7 @@ struct FEventReply UBaseOptionWidget_C::OnFocusReceived(struct FGeometry* MyGeom
 void UBaseOptionWidget_C::GetCurrentFocusWidget(class UWidget** FocusWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68442);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66611);
 
 	UBaseOptionWidget_C_GetCurrentFocusWidget_Params params;
 
@@ -96,7 +96,7 @@ void UBaseOptionWidget_C::GetCurrentFocusWidget(class UWidget** FocusWidget)
 void UBaseOptionWidget_C::OnPrevOrNextFocusableWidget(bool bNext, class UWidget** FocusableWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68439);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66608);
 
 	UBaseOptionWidget_C_OnPrevOrNextFocusableWidget_Params params;
 	params.bNext = bNext;
@@ -121,7 +121,7 @@ void UBaseOptionWidget_C::OnPrevOrNextFocusableWidget(bool bNext, class UWidget*
 void UBaseOptionWidget_C::ProcessKeyUp(const struct FKey& Key, struct FEventReply* EventReply)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68429);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66598);
 
 	UBaseOptionWidget_C_ProcessKeyUp_Params params;
 	params.Key = Key;
@@ -146,7 +146,7 @@ void UBaseOptionWidget_C::ProcessKeyUp(const struct FKey& Key, struct FEventRepl
 void UBaseOptionWidget_C::ProcessKeyDown(const struct FKey& Key, struct FEventReply* EventReply)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68402);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66571);
 
 	UBaseOptionWidget_C_ProcessKeyDown_Params params;
 	params.Key = Key;
@@ -172,7 +172,7 @@ void UBaseOptionWidget_C::ProcessKeyDown(const struct FKey& Key, struct FEventRe
 struct FEventReply UBaseOptionWidget_C::OnKeyUp(struct FGeometry* MyGeometry, struct FKeyEvent* InKeyEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68106);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66248);
 
 	UBaseOptionWidget_C_OnKeyUp_Params params;
 	params.MyGeometry = MyGeometry;

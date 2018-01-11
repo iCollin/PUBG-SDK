@@ -15,7 +15,7 @@ namespace Classes
 //---------------------------------------------------------------------------
 
 // WidgetBlueprintGeneratedClass PlayerHeadWidget.PlayerHeadWidget_C
-// 0x00EC (0x036C - 0x0280)
+// 0x0108 (0x0388 - 0x0280)
 class UPlayerHeadWidget_C : public UObserverTagWidget
 {
 public:
@@ -30,14 +30,18 @@ public:
 	class USizeBox*                                    PlayerTagNameBox;                                         // 0x02C0(0x0008) (BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, RepSkip, RepNotify, Interp, NonTransactional, EditorOnly, NoDestructor, AutoWeak, ContainsInstancedReference, AssetRegistrySearchable, SimpleDisplay, AdvancedDisplay, Protected, BlueprintCallable, BlueprintAuthorityOnly, TextExportTransient, NonPIEDuplicateTransient, ExposeOnSpawn, PersistentInstance, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic, NativeAccessSpecifierProtected, NativeAccessSpecifierPrivate)
 	class UTextBlock*                                  TeamNumber;                                               // 0x02C8(0x0008) (BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, RepSkip, RepNotify, Interp, NonTransactional, EditorOnly, NoDestructor, AutoWeak, ContainsInstancedReference, AssetRegistrySearchable, SimpleDisplay, AdvancedDisplay, Protected, BlueprintCallable, BlueprintAuthorityOnly, TextExportTransient, NonPIEDuplicateTransient, ExposeOnSpawn, PersistentInstance, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic, NativeAccessSpecifierProtected, NativeAccessSpecifierPrivate)
 	class UTslHealthGaugeBpWidget_C*                   TslHealthGaugeBpWidget_88;                                // 0x02D0(0x0008) (BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, RepSkip, RepNotify, Interp, NonTransactional, EditorOnly, NoDestructor, AutoWeak, ContainsInstancedReference, AssetRegistrySearchable, SimpleDisplay, AdvancedDisplay, Protected, BlueprintCallable, BlueprintAuthorityOnly, TextExportTransient, NonPIEDuplicateTransient, ExposeOnSpawn, PersistentInstance, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic, NativeAccessSpecifierProtected, NativeAccessSpecifierPrivate)
-	bool                                               ListInSlot;                                               // 0x02D8(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
-	unsigned char                                      UnknownData00[0x3];                                       // 0x02D9(0x0003) MISSED OFFSET
-	int                                                SlotIndex;                                                // 0x02DC(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
-	struct FString                                     PlayerName;                                               // 0x02E0(0x0010) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance)
-	struct FSlateColor                                 SelectedColor;                                            // 0x02F0(0x0028) (Edit, BlueprintVisible)
-	struct FSlateColor                                 FreeCamColor;                                             // 0x0318(0x0028) (Edit, BlueprintVisible)
-	struct FSlateColor                                 TeamMemberColor;                                          // 0x0340(0x0028) (Edit, BlueprintVisible)
-	float                                              OffsetY;                                                  // 0x0368(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
+	class UImage*                                      weaponImage;                                              // 0x02D8(0x0008) (BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, RepSkip, RepNotify, Interp, NonTransactional, EditorOnly, NoDestructor, AutoWeak, ContainsInstancedReference, AssetRegistrySearchable, SimpleDisplay, AdvancedDisplay, Protected, BlueprintCallable, BlueprintAuthorityOnly, TextExportTransient, NonPIEDuplicateTransient, ExposeOnSpawn, PersistentInstance, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic, NativeAccessSpecifierProtected, NativeAccessSpecifierPrivate)
+	class USizeBox*                                    WeaponImageSizeBox;                                       // 0x02E0(0x0008) (BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, RepSkip, RepNotify, Interp, NonTransactional, EditorOnly, NoDestructor, AutoWeak, ContainsInstancedReference, AssetRegistrySearchable, SimpleDisplay, AdvancedDisplay, Protected, BlueprintCallable, BlueprintAuthorityOnly, TextExportTransient, NonPIEDuplicateTransient, ExposeOnSpawn, PersistentInstance, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic, NativeAccessSpecifierProtected, NativeAccessSpecifierPrivate)
+	bool                                               ListInSlot;                                               // 0x02E8(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
+	unsigned char                                      UnknownData00[0x3];                                       // 0x02E9(0x0003) MISSED OFFSET
+	int                                                SlotIndex;                                                // 0x02EC(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
+	struct FString                                     PlayerName;                                               // 0x02F0(0x0010) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance)
+	struct FSlateColor                                 SelectedColor;                                            // 0x0300(0x0028) (Edit, BlueprintVisible)
+	struct FSlateColor                                 FreeCamColor;                                             // 0x0328(0x0028) (Edit, BlueprintVisible)
+	struct FSlateColor                                 TeamMemberColor;                                          // 0x0350(0x0028) (Edit, BlueprintVisible)
+	float                                              OffsetY;                                                  // 0x0378(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
+	unsigned char                                      UnknownData01[0x4];                                       // 0x037C(0x0004) MISSED OFFSET
+	class UMaterialInstanceDynamic*                    ItemIconMaterial;                                         // 0x0380(0x0008) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 
 	static UClass* StaticClass()
 	{
@@ -55,14 +59,15 @@ public:
 	void GetHealthPercent(float* Health);
 	void GetGroggyHealthPercent(float* GroggyHealth);
 	void UpdateHealthGauge();
+	void Construct();
+	void Tick(struct FGeometry* MyGeometry, float* InDeltaTime);
+	void SetCharacterIconPosition_UC(struct FVector2D* Pos_UC, bool* IsHidden);
 	void CustomTick();
 	void TimerCheckUpdateList();
 	void SetPlayerNameTag(struct FName* PlayerName);
-	void Tick(struct FGeometry* MyGeometry, float* InDeltaTime);
-	void Construct();
-	void SetCharacterIconPosition_UC(struct FVector2D* Pos_UC, bool* IsHidden);
 	void SetTeamNumber(int* TeamNumber, struct FLinearColor* teamColor);
 	void SetIndicatorColor(struct FLinearColor* teamColor);
+	void UpdateWeaponIcon();
 	void ExecuteUbergraph_PlayerHeadWidget(int EntryPoint);
 };
 

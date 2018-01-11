@@ -20,7 +20,7 @@ namespace Classes
 void UInGameMenuWidget_Gamepad_C::IsTeamMatch(bool* bIsTeamMatch)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77626);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76843);
 
 	UInGameMenuWidget_Gamepad_C_IsTeamMatch_Params params;
 
@@ -43,7 +43,7 @@ void UInGameMenuWidget_Gamepad_C::IsTeamMatch(bool* bIsTeamMatch)
 void UInGameMenuWidget_Gamepad_C::NavigateButton(class UWidget* Button)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77622);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76839);
 
 	UInGameMenuWidget_Gamepad_C_NavigateButton_Params params;
 	params.Button = Button;
@@ -66,7 +66,7 @@ void UInGameMenuWidget_Gamepad_C::NavigateButton(class UWidget* Button)
 struct FEventReply UInGameMenuWidget_Gamepad_C::OnFocusReceived(struct FGeometry* MyGeometry, struct FFocusEvent* InFocusEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77614);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76831);
 
 	UInGameMenuWidget_Gamepad_C_OnFocusReceived_Params params;
 	params.MyGeometry = MyGeometry;
@@ -90,7 +90,7 @@ struct FEventReply UInGameMenuWidget_Gamepad_C::OnFocusReceived(struct FGeometry
 void UInGameMenuWidget_Gamepad_C::IsPCOnly(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77604);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76821);
 
 	UInGameMenuWidget_Gamepad_C_IsPCOnly_Params params;
 	params.BoundWidget = BoundWidget;
@@ -111,7 +111,7 @@ void UInGameMenuWidget_Gamepad_C::IsPCOnly(class UWidget* BoundWidget)
 void UInGameMenuWidget_Gamepad_C::IsGamepadOnly(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77595);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76812);
 
 	UInGameMenuWidget_Gamepad_C_IsGamepadOnly_Params params;
 	params.BoundWidget = BoundWidget;
@@ -132,7 +132,7 @@ void UInGameMenuWidget_Gamepad_C::IsGamepadOnly(class UWidget* BoundWidget)
 struct FText UInGameMenuWidget_Gamepad_C::GetVersionText_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77579);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76796);
 
 	UInGameMenuWidget_Gamepad_C_GetVersionText_1_Params params;
 
@@ -154,7 +154,7 @@ struct FText UInGameMenuWidget_Gamepad_C::GetVersionText_1()
 void UInGameMenuWidget_Gamepad_C::QuitGame(EPopupButtonID ButtonID)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77571);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76788);
 
 	UInGameMenuWidget_Gamepad_C_QuitGame_Params params;
 	params.ButtonID = ButtonID;
@@ -175,7 +175,7 @@ void UInGameMenuWidget_Gamepad_C::QuitGame(EPopupButtonID ButtonID)
 void UInGameMenuWidget_Gamepad_C::GoToLobby(EPopupButtonID ButtonID)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77563);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76780);
 
 	UInGameMenuWidget_Gamepad_C_GoToLobby_Params params;
 	params.ButtonID = ButtonID;
@@ -194,7 +194,7 @@ void UInGameMenuWidget_Gamepad_C::GoToLobby(EPopupButtonID ButtonID)
 void UInGameMenuWidget_Gamepad_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77562);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76779);
 
 	UInGameMenuWidget_Gamepad_C_Construct_Params params;
 
@@ -212,7 +212,7 @@ void UInGameMenuWidget_Gamepad_C::Construct()
 void UInGameMenuWidget_Gamepad_C::OnHiddenWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77561);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76778);
 
 	UInGameMenuWidget_Gamepad_C_OnHiddenWidget_Params params;
 
@@ -230,7 +230,7 @@ void UInGameMenuWidget_Gamepad_C::OnHiddenWidget()
 void UInGameMenuWidget_Gamepad_C::BndEvt__OptionButton_K2Node_ComponentBoundEvent_107_OnClickedEventDispatcher__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77560);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76777);
 
 	UInGameMenuWidget_Gamepad_C_BndEvt__OptionButton_K2Node_ComponentBoundEvent_107_OnClickedEventDispatcher__DelegateSignature_Params params;
 
@@ -248,7 +248,7 @@ void UInGameMenuWidget_Gamepad_C::BndEvt__OptionButton_K2Node_ComponentBoundEven
 void UInGameMenuWidget_Gamepad_C::CustomEvent_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77559);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76776);
 
 	UInGameMenuWidget_Gamepad_C_CustomEvent_1_Params params;
 
@@ -266,7 +266,7 @@ void UInGameMenuWidget_Gamepad_C::CustomEvent_1()
 void UInGameMenuWidget_Gamepad_C::CustomEvent_2()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77558);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76775);
 
 	UInGameMenuWidget_Gamepad_C_CustomEvent_2_Params params;
 
@@ -284,7 +284,7 @@ void UInGameMenuWidget_Gamepad_C::CustomEvent_2()
 void UInGameMenuWidget_Gamepad_C::BndEvt__Resume_K2Node_ComponentBoundEvent_195_OnClickedEventDispatcher__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77557);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76774);
 
 	UInGameMenuWidget_Gamepad_C_BndEvt__Resume_K2Node_ComponentBoundEvent_195_OnClickedEventDispatcher__DelegateSignature_Params params;
 
@@ -305,7 +305,7 @@ void UInGameMenuWidget_Gamepad_C::BndEvt__Resume_K2Node_ComponentBoundEvent_195_
 void UInGameMenuWidget_Gamepad_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77554);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76771);
 
 	UInGameMenuWidget_Gamepad_C_Tick_Params params;
 	params.MyGeometry = MyGeometry;
@@ -325,7 +325,7 @@ void UInGameMenuWidget_Gamepad_C::Tick(struct FGeometry* MyGeometry, float* InDe
 void UInGameMenuWidget_Gamepad_C::OpenGamepadOption()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77553);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76770);
 
 	UInGameMenuWidget_Gamepad_C_OpenGamepadOption_Params params;
 
@@ -343,7 +343,7 @@ void UInGameMenuWidget_Gamepad_C::OpenGamepadOption()
 void UInGameMenuWidget_Gamepad_C::BndEvt__GamepadGuide_K2Node_ComponentBoundEvent_123_OnClickedEventDispatcher__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77552);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76769);
 
 	UInGameMenuWidget_Gamepad_C_BndEvt__GamepadGuide_K2Node_ComponentBoundEvent_123_OnClickedEventDispatcher__DelegateSignature_Params params;
 
@@ -363,7 +363,7 @@ void UInGameMenuWidget_Gamepad_C::BndEvt__GamepadGuide_K2Node_ComponentBoundEven
 void UInGameMenuWidget_Gamepad_C::BndEvt__Resume_K2Node_ComponentBoundEvent_392_OnNavigateKeyDown__DelegateSignature(const struct FKey& Key)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77550);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76767);
 
 	UInGameMenuWidget_Gamepad_C_BndEvt__Resume_K2Node_ComponentBoundEvent_392_OnNavigateKeyDown__DelegateSignature_Params params;
 	params.Key = Key;
@@ -384,7 +384,7 @@ void UInGameMenuWidget_Gamepad_C::BndEvt__Resume_K2Node_ComponentBoundEvent_392_
 void UInGameMenuWidget_Gamepad_C::BndEvt__SETTINGS_K2Node_ComponentBoundEvent_401_OnNavigateKeyDown__DelegateSignature(const struct FKey& Key)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77548);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76765);
 
 	UInGameMenuWidget_Gamepad_C_BndEvt__SETTINGS_K2Node_ComponentBoundEvent_401_OnNavigateKeyDown__DelegateSignature_Params params;
 	params.Key = Key;
@@ -405,7 +405,7 @@ void UInGameMenuWidget_Gamepad_C::BndEvt__SETTINGS_K2Node_ComponentBoundEvent_40
 void UInGameMenuWidget_Gamepad_C::BndEvt__GamepadGuide_K2Node_ComponentBoundEvent_411_OnNavigateKeyDown__DelegateSignature(const struct FKey& Key)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77546);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76763);
 
 	UInGameMenuWidget_Gamepad_C_BndEvt__GamepadGuide_K2Node_ComponentBoundEvent_411_OnNavigateKeyDown__DelegateSignature_Params params;
 	params.Key = Key;
@@ -426,7 +426,7 @@ void UInGameMenuWidget_Gamepad_C::BndEvt__GamepadGuide_K2Node_ComponentBoundEven
 void UInGameMenuWidget_Gamepad_C::BndEvt__GotoLobbyButton_K2Node_ComponentBoundEvent_422_OnNavigateKeyDown__DelegateSignature(const struct FKey& Key)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77544);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76761);
 
 	UInGameMenuWidget_Gamepad_C_BndEvt__GotoLobbyButton_K2Node_ComponentBoundEvent_422_OnNavigateKeyDown__DelegateSignature_Params params;
 	params.Key = Key;
@@ -447,7 +447,7 @@ void UInGameMenuWidget_Gamepad_C::BndEvt__GotoLobbyButton_K2Node_ComponentBoundE
 void UInGameMenuWidget_Gamepad_C::BndEvt__SETTINGS_K2Node_ComponentBoundEvent_43_OnGamepadA__DelegateSignature(bool bPressed)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77542);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76759);
 
 	UInGameMenuWidget_Gamepad_C_BndEvt__SETTINGS_K2Node_ComponentBoundEvent_43_OnGamepadA__DelegateSignature_Params params;
 	params.bPressed = bPressed;
@@ -468,7 +468,7 @@ void UInGameMenuWidget_Gamepad_C::BndEvt__SETTINGS_K2Node_ComponentBoundEvent_43
 void UInGameMenuWidget_Gamepad_C::BndEvt__Resume_K2Node_ComponentBoundEvent_52_OnGamepadA__DelegateSignature(bool bPressed)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77540);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76757);
 
 	UInGameMenuWidget_Gamepad_C_BndEvt__Resume_K2Node_ComponentBoundEvent_52_OnGamepadA__DelegateSignature_Params params;
 	params.bPressed = bPressed;
@@ -489,7 +489,7 @@ void UInGameMenuWidget_Gamepad_C::BndEvt__Resume_K2Node_ComponentBoundEvent_52_O
 void UInGameMenuWidget_Gamepad_C::BndEvt__GamepadGuide_K2Node_ComponentBoundEvent_70_OnGamepadA__DelegateSignature(bool bPressed)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77538);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76755);
 
 	UInGameMenuWidget_Gamepad_C_BndEvt__GamepadGuide_K2Node_ComponentBoundEvent_70_OnGamepadA__DelegateSignature_Params params;
 	params.bPressed = bPressed;
@@ -510,7 +510,7 @@ void UInGameMenuWidget_Gamepad_C::BndEvt__GamepadGuide_K2Node_ComponentBoundEven
 void UInGameMenuWidget_Gamepad_C::BndEvt__GotoLobbyButton_K2Node_ComponentBoundEvent_89_OnGamepadA__DelegateSignature(bool bPressed)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77536);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76753);
 
 	UInGameMenuWidget_Gamepad_C_BndEvt__GotoLobbyButton_K2Node_ComponentBoundEvent_89_OnGamepadA__DelegateSignature_Params params;
 	params.bPressed = bPressed;
@@ -531,7 +531,7 @@ void UInGameMenuWidget_Gamepad_C::BndEvt__GotoLobbyButton_K2Node_ComponentBoundE
 void UInGameMenuWidget_Gamepad_C::BndEvt__Resume_K2Node_ComponentBoundEvent_0_OnGamepadB__DelegateSignature(bool bPressed)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77534);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76751);
 
 	UInGameMenuWidget_Gamepad_C_BndEvt__Resume_K2Node_ComponentBoundEvent_0_OnGamepadB__DelegateSignature_Params params;
 	params.bPressed = bPressed;
@@ -552,7 +552,7 @@ void UInGameMenuWidget_Gamepad_C::BndEvt__Resume_K2Node_ComponentBoundEvent_0_On
 void UInGameMenuWidget_Gamepad_C::BndEvt__SETTINGS_K2Node_ComponentBoundEvent_1_OnGamepadB__DelegateSignature(bool bPressed)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77532);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76749);
 
 	UInGameMenuWidget_Gamepad_C_BndEvt__SETTINGS_K2Node_ComponentBoundEvent_1_OnGamepadB__DelegateSignature_Params params;
 	params.bPressed = bPressed;
@@ -573,7 +573,7 @@ void UInGameMenuWidget_Gamepad_C::BndEvt__SETTINGS_K2Node_ComponentBoundEvent_1_
 void UInGameMenuWidget_Gamepad_C::BndEvt__GotoLobbyButton_K2Node_ComponentBoundEvent_2_OnGamepadB__DelegateSignature(bool bPressed)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77530);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76747);
 
 	UInGameMenuWidget_Gamepad_C_BndEvt__GotoLobbyButton_K2Node_ComponentBoundEvent_2_OnGamepadB__DelegateSignature_Params params;
 	params.bPressed = bPressed;
@@ -594,7 +594,7 @@ void UInGameMenuWidget_Gamepad_C::BndEvt__GotoLobbyButton_K2Node_ComponentBoundE
 void UInGameMenuWidget_Gamepad_C::BndEvt__GamepadGuide_K2Node_ComponentBoundEvent_3_OnGamepadB__DelegateSignature(bool bPressed)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77528);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76745);
 
 	UInGameMenuWidget_Gamepad_C_BndEvt__GamepadGuide_K2Node_ComponentBoundEvent_3_OnGamepadB__DelegateSignature_Params params;
 	params.bPressed = bPressed;
@@ -613,7 +613,7 @@ void UInGameMenuWidget_Gamepad_C::BndEvt__GamepadGuide_K2Node_ComponentBoundEven
 void UInGameMenuWidget_Gamepad_C::BndEvt__GotoLobbyButton_K2Node_ComponentBoundEvent_89_OnClickedEventDispatcher__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77527);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76744);
 
 	UInGameMenuWidget_Gamepad_C_BndEvt__GotoLobbyButton_K2Node_ComponentBoundEvent_89_OnClickedEventDispatcher__DelegateSignature_Params params;
 
@@ -633,7 +633,7 @@ void UInGameMenuWidget_Gamepad_C::BndEvt__GotoLobbyButton_K2Node_ComponentBoundE
 void UInGameMenuWidget_Gamepad_C::ExecuteUbergraph_InGameMenuWidget_Gamepad(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77459);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76676);
 
 	UInGameMenuWidget_Gamepad_C_ExecuteUbergraph_InGameMenuWidget_Gamepad_Params params;
 	params.EntryPoint = EntryPoint;
@@ -654,7 +654,7 @@ void UInGameMenuWidget_Gamepad_C::ExecuteUbergraph_InGameMenuWidget_Gamepad(int 
 void UInGameMenuWidget_Gamepad_C::TestDispatcher__DelegateSignature(bool NewParam)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77457);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(76674);
 
 	UInGameMenuWidget_Gamepad_C_TestDispatcher__DelegateSignature_Params params;
 	params.NewParam = NewParam;

@@ -41,6 +41,7 @@ public:
 	}
 
 
+	struct FText Get_TextCancel_Text_1();
 	void SetPopup(EPopupStyle PopupStyle, const struct FText& Message, const struct FScriptDelegate& PressedDelegate);
 	void BndEvt__ButtonOK_K2Node_ComponentBoundEvent_85_OnButtonClickedEvent__DelegateSignature();
 	void BndEvt__ButtonCancel_K2Node_ComponentBoundEvent_107_OnButtonClickedEvent__DelegateSignature();

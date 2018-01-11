@@ -7,9 +7,9 @@
 #endif
 
 #include "PUBG_Basic.hpp"
-#include "PUBG_ComboBoxOption_classes.hpp"
 #include "PUBG_QualityComboBox_classes.hpp"
 #include "PUBG_TslGame_classes.hpp"
+#include "PUBG_ComboBoxOption_classes.hpp"
 
 namespace Classes
 {

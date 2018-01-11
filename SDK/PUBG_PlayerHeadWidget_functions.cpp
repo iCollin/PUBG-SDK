@@ -18,7 +18,7 @@ namespace Classes
 void UPlayerHeadWidget_C::UpdateHealthGaugeColor()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71390);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70564);
 
 	UPlayerHeadWidget_C_UpdateHealthGaugeColor_Params params;
 
@@ -38,7 +38,7 @@ void UPlayerHeadWidget_C::UpdateHealthGaugeColor()
 void UPlayerHeadWidget_C::AddAlphaWhenADS(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71382);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70556);
 
 	UPlayerHeadWidget_C_AddAlphaWhenADS_Params params;
 	params.BoundWidget = BoundWidget;
@@ -59,7 +59,7 @@ void UPlayerHeadWidget_C::AddAlphaWhenADS(class UWidget* BoundWidget)
 void UPlayerHeadWidget_C::IsEmptyPlayerName(bool* EmptyPlayerName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71378);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70552);
 
 	UPlayerHeadWidget_C_IsEmptyPlayerName_Params params;
 
@@ -80,7 +80,7 @@ void UPlayerHeadWidget_C::IsEmptyPlayerName(bool* EmptyPlayerName)
 void UPlayerHeadWidget_C::UpdateTextColor()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71374);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70548);
 
 	UPlayerHeadWidget_C_UpdateTextColor_Params params;
 
@@ -100,7 +100,7 @@ void UPlayerHeadWidget_C::UpdateTextColor()
 void UPlayerHeadWidget_C::IsGroggy(bool* IsGroggy)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71370);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70544);
 
 	UPlayerHeadWidget_C_IsGroggy_Params params;
 
@@ -123,7 +123,7 @@ void UPlayerHeadWidget_C::IsGroggy(bool* IsGroggy)
 void UPlayerHeadWidget_C::GetHealthPercent(float* Health)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71365);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70539);
 
 	UPlayerHeadWidget_C_GetHealthPercent_Params params;
 
@@ -146,7 +146,7 @@ void UPlayerHeadWidget_C::GetHealthPercent(float* Health)
 void UPlayerHeadWidget_C::GetGroggyHealthPercent(float* GroggyHealth)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71360);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70534);
 
 	UPlayerHeadWidget_C_GetGroggyHealthPercent_Params params;
 
@@ -167,9 +167,73 @@ void UPlayerHeadWidget_C::GetGroggyHealthPercent(float* GroggyHealth)
 void UPlayerHeadWidget_C::UpdateHealthGauge()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71353);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70527);
 
 	UPlayerHeadWidget_C_UpdateHealthGauge_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function PlayerHeadWidget.PlayerHeadWidget_C.Construct
+// (BlueprintCosmetic, Event, Public, BlueprintEvent)
+
+void UPlayerHeadWidget_C::Construct()
+{
+	static UFunction* fn = nullptr; 
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70526);
+
+	UPlayerHeadWidget_C_Construct_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function PlayerHeadWidget.PlayerHeadWidget_C.Tick
+// (BlueprintCosmetic, Event, Public, BlueprintEvent)
+// Parameters:
+// struct FGeometry*              MyGeometry                     (Parm, IsPlainOldData)
+// float*                         InDeltaTime                    (Parm, ZeroConstructor, IsPlainOldData)
+
+void UPlayerHeadWidget_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
+{
+	static UFunction* fn = nullptr; 
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70523);
+
+	UPlayerHeadWidget_C_Tick_Params params;
+	params.MyGeometry = MyGeometry;
+	params.InDeltaTime = InDeltaTime;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function PlayerHeadWidget.PlayerHeadWidget_C.SetCharacterIconPosition_UC
+// (Event, Public, BlueprintEvent)
+// Parameters:
+// struct FVector2D*              Pos_UC                         (Parm, IsPlainOldData)
+// bool*                          IsHidden                       (Parm, ZeroConstructor, IsPlainOldData)
+
+void UPlayerHeadWidget_C::SetCharacterIconPosition_UC(struct FVector2D* Pos_UC, bool* IsHidden)
+{
+	static UFunction* fn = nullptr; 
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70520);
+
+	UPlayerHeadWidget_C_SetCharacterIconPosition_UC_Params params;
+	params.Pos_UC = Pos_UC;
+	params.IsHidden = IsHidden;
 
 	auto flags = fn->FunctionFlags;
 
@@ -185,7 +249,7 @@ void UPlayerHeadWidget_C::UpdateHealthGauge()
 void UPlayerHeadWidget_C::CustomTick()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71352);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70519);
 
 	UPlayerHeadWidget_C_CustomTick_Params params;
 
@@ -203,7 +267,7 @@ void UPlayerHeadWidget_C::CustomTick()
 void UPlayerHeadWidget_C::TimerCheckUpdateList()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71351);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70518);
 
 	UPlayerHeadWidget_C_TimerCheckUpdateList_Params params;
 
@@ -223,74 +287,10 @@ void UPlayerHeadWidget_C::TimerCheckUpdateList()
 void UPlayerHeadWidget_C::SetPlayerNameTag(struct FName* PlayerName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71349);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70516);
 
 	UPlayerHeadWidget_C_SetPlayerNameTag_Params params;
 	params.PlayerName = PlayerName;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-// Function PlayerHeadWidget.PlayerHeadWidget_C.Tick
-// (BlueprintCosmetic, Event, Public, BlueprintEvent)
-// Parameters:
-// struct FGeometry*              MyGeometry                     (Parm, IsPlainOldData)
-// float*                         InDeltaTime                    (Parm, ZeroConstructor, IsPlainOldData)
-
-void UPlayerHeadWidget_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
-{
-	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71346);
-
-	UPlayerHeadWidget_C_Tick_Params params;
-	params.MyGeometry = MyGeometry;
-	params.InDeltaTime = InDeltaTime;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-// Function PlayerHeadWidget.PlayerHeadWidget_C.Construct
-// (BlueprintCosmetic, Event, Public, BlueprintEvent)
-
-void UPlayerHeadWidget_C::Construct()
-{
-	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71345);
-
-	UPlayerHeadWidget_C_Construct_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-// Function PlayerHeadWidget.PlayerHeadWidget_C.SetCharacterIconPosition_UC
-// (Event, Public, BlueprintEvent)
-// Parameters:
-// struct FVector2D*              Pos_UC                         (Parm, IsPlainOldData)
-// bool*                          IsHidden                       (Parm, ZeroConstructor, IsPlainOldData)
-
-void UPlayerHeadWidget_C::SetCharacterIconPosition_UC(struct FVector2D* Pos_UC, bool* IsHidden)
-{
-	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71342);
-
-	UPlayerHeadWidget_C_SetCharacterIconPosition_UC_Params params;
-	params.Pos_UC = Pos_UC;
-	params.IsHidden = IsHidden;
 
 	auto flags = fn->FunctionFlags;
 
@@ -309,7 +309,7 @@ void UPlayerHeadWidget_C::SetCharacterIconPosition_UC(struct FVector2D* Pos_UC, 
 void UPlayerHeadWidget_C::SetTeamNumber(int* TeamNumber, struct FLinearColor* teamColor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71339);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70513);
 
 	UPlayerHeadWidget_C_SetTeamNumber_Params params;
 	params.TeamNumber = TeamNumber;
@@ -331,10 +331,28 @@ void UPlayerHeadWidget_C::SetTeamNumber(int* TeamNumber, struct FLinearColor* te
 void UPlayerHeadWidget_C::SetIndicatorColor(struct FLinearColor* teamColor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71337);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70511);
 
 	UPlayerHeadWidget_C_SetIndicatorColor_Params params;
 	params.teamColor = teamColor;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function PlayerHeadWidget.PlayerHeadWidget_C.UpdateWeaponIcon
+// (Event, Public, BlueprintEvent)
+
+void UPlayerHeadWidget_C::UpdateWeaponIcon()
+{
+	static UFunction* fn = nullptr; 
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70510);
+
+	UPlayerHeadWidget_C_UpdateWeaponIcon_Params params;
 
 	auto flags = fn->FunctionFlags;
 
@@ -352,7 +370,7 @@ void UPlayerHeadWidget_C::SetIndicatorColor(struct FLinearColor* teamColor)
 void UPlayerHeadWidget_C::ExecuteUbergraph_PlayerHeadWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71314);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70487);
 
 	UPlayerHeadWidget_C_ExecuteUbergraph_PlayerHeadWidget_Params params;
 	params.EntryPoint = EntryPoint;

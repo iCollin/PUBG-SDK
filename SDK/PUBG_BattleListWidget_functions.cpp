@@ -21,7 +21,7 @@ namespace Classes
 void UBattleListWidget_C::SetBattleListSubTitle(int Index, const struct FString& SubTitle)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80711);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80084);
 
 	UBattleListWidget_C_SetBattleListSubTitle_Params params;
 	params.Index = Index;
@@ -41,7 +41,7 @@ void UBattleListWidget_C::SetBattleListSubTitle(int Index, const struct FString&
 void UBattleListWidget_C::ClearBattleList()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80710);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80083);
 
 	UBattleListWidget_C_ClearBattleList_Params params;
 
@@ -59,7 +59,7 @@ void UBattleListWidget_C::ClearBattleList()
 void UBattleListWidget_C::CollapseAllPlayerInfos()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80697);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80070);
 
 	UBattleListWidget_C_CollapseAllPlayerInfos_Params params;
 
@@ -80,7 +80,7 @@ void UBattleListWidget_C::CollapseAllPlayerInfos()
 void UBattleListWidget_C::SetPlayerInfo(class ATslCharacter* TslCharacter, class UPlayerInfoWidget_C** PlayerInfo)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80688);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80061);
 
 	UBattleListWidget_C_SetPlayerInfo_Params params;
 	params.TslCharacter = TslCharacter;
@@ -102,7 +102,7 @@ void UBattleListWidget_C::SetPlayerInfo(class ATslCharacter* TslCharacter, class
 void UBattleListWidget_C::DestructPlayerInfoPool()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80687);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80060);
 
 	UBattleListWidget_C_DestructPlayerInfoPool_Params params;
 
@@ -120,7 +120,7 @@ void UBattleListWidget_C::DestructPlayerInfoPool()
 void UBattleListWidget_C::ConstructPlayerInfoPool()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80676);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80049);
 
 	UBattleListWidget_C_ConstructPlayerInfoPool_Params params;
 
@@ -141,7 +141,7 @@ void UBattleListWidget_C::ConstructPlayerInfoPool()
 void UBattleListWidget_C::FindCharacterByShortcutNum(int ShortcutNum, class ATslCharacter** Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80662);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80035);
 
 	UBattleListWidget_C_FindCharacterByShortcutNum_Params params;
 	params.ShortcutNum = ShortcutNum;
@@ -165,7 +165,7 @@ void UBattleListWidget_C::FindCharacterByShortcutNum(int ShortcutNum, class ATsl
 void UBattleListWidget_C::AddSubTitle(const struct FString& SubTitle)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80658);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80031);
 
 	UBattleListWidget_C_AddSubTitle_Params params;
 	params.SubTitle = SubTitle;
@@ -188,7 +188,7 @@ void UBattleListWidget_C::AddSubTitle(const struct FString& SubTitle)
 void UBattleListWidget_C::IsSameTeam(class ATslCharacter* Character1, class ATslCharacter* Character2, bool* retVal)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80651);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80024);
 
 	UBattleListWidget_C_IsSameTeam_Params params;
 	params.Character1 = Character1;
@@ -213,7 +213,7 @@ void UBattleListWidget_C::IsSameTeam(class ATslCharacter* Character1, class ATsl
 void UBattleListWidget_C::SetNearbyPlayerIndex(int Index)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80643);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80016);
 
 	UBattleListWidget_C_SetNearbyPlayerIndex_Params params;
 	params.Index = Index;
@@ -232,7 +232,7 @@ void UBattleListWidget_C::SetNearbyPlayerIndex(int Index)
 void UBattleListWidget_C::BattleListSetCharacter10()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80642);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80015);
 
 	UBattleListWidget_C_BattleListSetCharacter10_Params params;
 
@@ -250,7 +250,7 @@ void UBattleListWidget_C::BattleListSetCharacter10()
 void UBattleListWidget_C::BattleListSetCharacter9()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80641);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80014);
 
 	UBattleListWidget_C_BattleListSetCharacter9_Params params;
 
@@ -268,7 +268,7 @@ void UBattleListWidget_C::BattleListSetCharacter9()
 void UBattleListWidget_C::BattleListSetCharacter8()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80640);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80013);
 
 	UBattleListWidget_C_BattleListSetCharacter8_Params params;
 
@@ -286,7 +286,7 @@ void UBattleListWidget_C::BattleListSetCharacter8()
 void UBattleListWidget_C::BattleListSetCharacter7()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80639);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80012);
 
 	UBattleListWidget_C_BattleListSetCharacter7_Params params;
 
@@ -304,7 +304,7 @@ void UBattleListWidget_C::BattleListSetCharacter7()
 void UBattleListWidget_C::BattleListSetCharacter6()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80638);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80011);
 
 	UBattleListWidget_C_BattleListSetCharacter6_Params params;
 
@@ -322,7 +322,7 @@ void UBattleListWidget_C::BattleListSetCharacter6()
 void UBattleListWidget_C::BattleListSetCharacter5()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80637);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80010);
 
 	UBattleListWidget_C_BattleListSetCharacter5_Params params;
 
@@ -340,7 +340,7 @@ void UBattleListWidget_C::BattleListSetCharacter5()
 void UBattleListWidget_C::BattleListSetCharacter4()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80636);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80009);
 
 	UBattleListWidget_C_BattleListSetCharacter4_Params params;
 
@@ -358,7 +358,7 @@ void UBattleListWidget_C::BattleListSetCharacter4()
 void UBattleListWidget_C::BattleListSetCharacter3()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80635);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80008);
 
 	UBattleListWidget_C_BattleListSetCharacter3_Params params;
 
@@ -376,7 +376,7 @@ void UBattleListWidget_C::BattleListSetCharacter3()
 void UBattleListWidget_C::BattleListSetCharacter2()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80634);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80007);
 
 	UBattleListWidget_C_BattleListSetCharacter2_Params params;
 
@@ -394,7 +394,7 @@ void UBattleListWidget_C::BattleListSetCharacter2()
 void UBattleListWidget_C::BattleListSetCharacter1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80627);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80000);
 
 	UBattleListWidget_C_BattleListSetCharacter1_Params params;
 
@@ -412,7 +412,7 @@ void UBattleListWidget_C::BattleListSetCharacter1()
 void UBattleListWidget_C::BindKeyBattleList()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80606);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79979);
 
 	UBattleListWidget_C_BindKeyBattleList_Params params;
 
@@ -430,7 +430,7 @@ void UBattleListWidget_C::BindKeyBattleList()
 void UBattleListWidget_C::UpdateEngagedEnemiesList()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80596);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79969);
 
 	UBattleListWidget_C_UpdateEngagedEnemiesList_Params params;
 
@@ -450,7 +450,7 @@ void UBattleListWidget_C::UpdateEngagedEnemiesList()
 void UBattleListWidget_C::FindSpectateOrFollowCharacter(class ATslCharacter** TslCharacter)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80585);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79958);
 
 	UBattleListWidget_C_FindSpectateOrFollowCharacter_Params params;
 
@@ -471,7 +471,7 @@ void UBattleListWidget_C::FindSpectateOrFollowCharacter(class ATslCharacter** Ts
 void UBattleListWidget_C::UpdateNearbyPlayersList()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80560);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79933);
 
 	UBattleListWidget_C_UpdateNearbyPlayersList_Params params;
 
@@ -492,7 +492,7 @@ void UBattleListWidget_C::UpdateNearbyPlayersList()
 void UBattleListWidget_C::FindCharacterByPlayerState(class APlayerState* PlayerState, class ATslCharacter** Character)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80547);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79920);
 
 	UBattleListWidget_C_FindCharacterByPlayerState_Params params;
 	params.PlayerState = PlayerState;
@@ -514,7 +514,7 @@ void UBattleListWidget_C::FindCharacterByPlayerState(class APlayerState* PlayerS
 void UBattleListWidget_C::UpdateOtherEngagementsList()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80534);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79907);
 
 	UBattleListWidget_C_UpdateOtherEngagementsList_Params params;
 
@@ -532,7 +532,7 @@ void UBattleListWidget_C::UpdateOtherEngagementsList()
 void UBattleListWidget_C::RefreshPlayerList()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80531);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79904);
 
 	UBattleListWidget_C_RefreshPlayerList_Params params;
 
@@ -550,7 +550,7 @@ void UBattleListWidget_C::RefreshPlayerList()
 void UBattleListWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80530);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79903);
 
 	UBattleListWidget_C_Construct_Params params;
 
@@ -568,7 +568,7 @@ void UBattleListWidget_C::Construct()
 void UBattleListWidget_C::CustomTick()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80529);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79902);
 
 	UBattleListWidget_C_CustomTick_Params params;
 
@@ -586,7 +586,7 @@ void UBattleListWidget_C::CustomTick()
 void UBattleListWidget_C::TimerCheckUpdateList()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80528);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79901);
 
 	UBattleListWidget_C_TimerCheckUpdateList_Params params;
 
@@ -604,7 +604,7 @@ void UBattleListWidget_C::TimerCheckUpdateList()
 void UBattleListWidget_C::Destruct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80527);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79900);
 
 	UBattleListWidget_C_Destruct_Params params;
 
@@ -624,7 +624,7 @@ void UBattleListWidget_C::Destruct()
 void UBattleListWidget_C::ExecuteUbergraph_BattleListWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(80519);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79892);
 
 	UBattleListWidget_C_ExecuteUbergraph_BattleListWidget_Params params;
 	params.EntryPoint = EntryPoint;

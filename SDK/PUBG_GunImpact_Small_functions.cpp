@@ -18,7 +18,7 @@ namespace Classes
 void AGunImpact_Small_C::UserConstructionScript()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(51155);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(51195);
 
 	AGunImpact_Small_C_UserConstructionScript_Params params;
 

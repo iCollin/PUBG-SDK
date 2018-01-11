@@ -14,9 +14,16 @@ namespace Classes
 //Parameters
 //---------------------------------------------------------------------------
 
+// Function ReportPlayerWidget.ReportPlayerWidget_C.OnChangeCauser
+struct UReportPlayerWidget_C_OnChangeCauser_Params
+{
+	struct FString                                     SelectCauser;                                             // (Parm, ZeroConstructor)
+};
+
 // Function ReportPlayerWidget.ReportPlayerWidget_C.InitPlayerNameSetting
 struct UReportPlayerWidget_C_InitPlayerNameSetting_Params
 {
+	ESubjectToReport                                   Key;                                                      // (ConstParm, Parm, OutParm, ZeroConstructor, ReferenceParm, IsPlainOldData)
 };
 
 // Function ReportPlayerWidget.ReportPlayerWidget_C.InitComboboxSetting
@@ -27,6 +34,7 @@ struct UReportPlayerWidget_C_InitComboboxSetting_Params
 // Function ReportPlayerWidget.ReportPlayerWidget_C.InitSubjectToReport
 struct UReportPlayerWidget_C_InitSubjectToReport_Params
 {
+	ESubjectToReport                                   SubjectToReportType;                                      // (Parm, ZeroConstructor, IsPlainOldData)
 };
 
 // Function ReportPlayerWidget.ReportPlayerWidget_C.GetbIsEnabled_1
@@ -55,6 +63,12 @@ struct UReportPlayerWidget_C_BndEvt__ButtonClose_K2Node_ComponentBoundEvent_8_On
 // Function ReportPlayerWidget.ReportPlayerWidget_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_21_OnButtonClickedEvent__DelegateSignature
 struct UReportPlayerWidget_C_BndEvt__Button_0_K2Node_ComponentBoundEvent_21_OnButtonClickedEvent__DelegateSignature_Params
 {
+};
+
+// Function ReportPlayerWidget.ReportPlayerWidget_C.UpdateSubjectToReportType
+struct UReportPlayerWidget_C_UpdateSubjectToReportType_Params
+{
+	ESubjectToReport                                   SubjectToReportType;                                      // (Parm, ZeroConstructor, IsPlainOldData)
 };
 
 // Function ReportPlayerWidget.ReportPlayerWidget_C.ExecuteUbergraph_ReportPlayerWidget

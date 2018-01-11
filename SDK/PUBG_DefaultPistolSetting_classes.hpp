@@ -15,7 +15,7 @@ namespace Classes
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass DefaultPistolSetting.DefaultPistolSetting_C
-// 0x0000 (0x0CE8 - 0x0CE8)
+// 0x0000 (0x0CD0 - 0x0CD0)
 class ADefaultPistolSetting_C : public ATslWeapon_Trajectory
 {
 public:

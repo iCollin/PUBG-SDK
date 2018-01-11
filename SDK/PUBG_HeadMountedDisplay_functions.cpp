@@ -20,7 +20,7 @@ namespace Classes
 bool UMotionControllerComponent::IsTracked()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26777);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26899);
 
 	UMotionControllerComponent_IsTracked_Params params;
 
@@ -43,7 +43,7 @@ bool UMotionControllerComponent::IsTracked()
 void UMotionTrackedDeviceFunctionLibrary::STATIC_SetIsControllerMotionTrackingEnabledByDefault(bool Enable)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26816);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26938);
 
 	UMotionTrackedDeviceFunctionLibrary_SetIsControllerMotionTrackingEnabledByDefault_Params params;
 	params.Enable = Enable;
@@ -67,7 +67,7 @@ void UMotionTrackedDeviceFunctionLibrary::STATIC_SetIsControllerMotionTrackingEn
 bool UMotionTrackedDeviceFunctionLibrary::STATIC_IsMotionTrackingEnabledForDevice(int PlayerIndex, EControllerHand Hand)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26811);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26933);
 
 	UMotionTrackedDeviceFunctionLibrary_IsMotionTrackingEnabledForDevice_Params params;
 	params.PlayerIndex = PlayerIndex;
@@ -93,7 +93,7 @@ bool UMotionTrackedDeviceFunctionLibrary::STATIC_IsMotionTrackingEnabledForDevic
 bool UMotionTrackedDeviceFunctionLibrary::STATIC_IsMotionTrackingEnabledForComponent(class UMotionControllerComponent* MotionControllerComponent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26808);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26930);
 
 	UMotionTrackedDeviceFunctionLibrary_IsMotionTrackingEnabledForComponent_Params params;
 	params.MotionControllerComponent = MotionControllerComponent;
@@ -117,7 +117,7 @@ bool UMotionTrackedDeviceFunctionLibrary::STATIC_IsMotionTrackingEnabledForCompo
 bool UMotionTrackedDeviceFunctionLibrary::STATIC_IsMotionTrackedDeviceCountManagementNecessary()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26806);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26928);
 
 	UMotionTrackedDeviceFunctionLibrary_IsMotionTrackedDeviceCountManagementNecessary_Params params;
 
@@ -140,7 +140,7 @@ bool UMotionTrackedDeviceFunctionLibrary::STATIC_IsMotionTrackedDeviceCountManag
 int UMotionTrackedDeviceFunctionLibrary::STATIC_GetMotionTrackingEnabledControllerCount()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26804);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26926);
 
 	UMotionTrackedDeviceFunctionLibrary_GetMotionTrackingEnabledControllerCount_Params params;
 
@@ -163,7 +163,7 @@ int UMotionTrackedDeviceFunctionLibrary::STATIC_GetMotionTrackingEnabledControll
 int UMotionTrackedDeviceFunctionLibrary::STATIC_GetMaximumMotionTrackedControllerCount()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26802);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26924);
 
 	UMotionTrackedDeviceFunctionLibrary_GetMaximumMotionTrackedControllerCount_Params params;
 
@@ -188,7 +188,7 @@ int UMotionTrackedDeviceFunctionLibrary::STATIC_GetMaximumMotionTrackedControlle
 bool UMotionTrackedDeviceFunctionLibrary::STATIC_EnableMotionTrackingOfDevice(int PlayerIndex, EControllerHand Hand)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26797);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26919);
 
 	UMotionTrackedDeviceFunctionLibrary_EnableMotionTrackingOfDevice_Params params;
 	params.PlayerIndex = PlayerIndex;
@@ -214,7 +214,7 @@ bool UMotionTrackedDeviceFunctionLibrary::STATIC_EnableMotionTrackingOfDevice(in
 bool UMotionTrackedDeviceFunctionLibrary::STATIC_EnableMotionTrackingForComponent(class UMotionControllerComponent* MotionControllerComponent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26794);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26916);
 
 	UMotionTrackedDeviceFunctionLibrary_EnableMotionTrackingForComponent_Params params;
 	params.MotionControllerComponent = MotionControllerComponent;
@@ -239,7 +239,7 @@ bool UMotionTrackedDeviceFunctionLibrary::STATIC_EnableMotionTrackingForComponen
 void UMotionTrackedDeviceFunctionLibrary::STATIC_DisableMotionTrackingOfDevice(int PlayerIndex, EControllerHand Hand)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26790);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26912);
 
 	UMotionTrackedDeviceFunctionLibrary_DisableMotionTrackingOfDevice_Params params;
 	params.PlayerIndex = PlayerIndex;
@@ -262,7 +262,7 @@ void UMotionTrackedDeviceFunctionLibrary::STATIC_DisableMotionTrackingOfDevice(i
 void UMotionTrackedDeviceFunctionLibrary::STATIC_DisableMotionTrackingOfControllersForPlayer(int PlayerIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26788);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26910);
 
 	UMotionTrackedDeviceFunctionLibrary_DisableMotionTrackingOfControllersForPlayer_Params params;
 	params.PlayerIndex = PlayerIndex;
@@ -282,7 +282,7 @@ void UMotionTrackedDeviceFunctionLibrary::STATIC_DisableMotionTrackingOfControll
 void UMotionTrackedDeviceFunctionLibrary::STATIC_DisableMotionTrackingOfAllControllers()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26787);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26909);
 
 	UMotionTrackedDeviceFunctionLibrary_DisableMotionTrackingOfAllControllers_Params params;
 
@@ -303,7 +303,7 @@ void UMotionTrackedDeviceFunctionLibrary::STATIC_DisableMotionTrackingOfAllContr
 void UMotionTrackedDeviceFunctionLibrary::STATIC_DisableMotionTrackingForComponent(class UMotionControllerComponent* MotionControllerComponent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26785);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26907);
 
 	UMotionTrackedDeviceFunctionLibrary_DisableMotionTrackingForComponent_Params params;
 	params.MotionControllerComponent = MotionControllerComponent;
@@ -323,7 +323,7 @@ void UMotionTrackedDeviceFunctionLibrary::STATIC_DisableMotionTrackingForCompone
 void UVRNotificationsComponent::VRNotificationsDelegate__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4699);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(4708);
 
 	UVRNotificationsComponent_VRNotificationsDelegate__DelegateSignature_Params params;
 

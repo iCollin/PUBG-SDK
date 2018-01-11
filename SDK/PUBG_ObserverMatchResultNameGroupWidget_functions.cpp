@@ -20,7 +20,7 @@ namespace Classes
 void UObserverMatchResultNameGroupWidget_C::GetLineCount(int* LineCount)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70664);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68524);
 
 	UObserverMatchResultNameGroupWidget_C_GetLineCount_Params params;
 
@@ -43,7 +43,7 @@ void UObserverMatchResultNameGroupWidget_C::GetLineCount(int* LineCount)
 void UObserverMatchResultNameGroupWidget_C::On_TextBlock_4_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70657);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68517);
 
 	UObserverMatchResultNameGroupWidget_C_On_TextBlock_4_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -64,7 +64,7 @@ void UObserverMatchResultNameGroupWidget_C::On_TextBlock_4_Prepass_1(class UWidg
 void UObserverMatchResultNameGroupWidget_C::SetSmall(bool bSmall)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70655);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68515);
 
 	UObserverMatchResultNameGroupWidget_C_SetSmall_Params params;
 	params.bSmall = bSmall;
@@ -85,7 +85,7 @@ void UObserverMatchResultNameGroupWidget_C::SetSmall(bool bSmall)
 void UObserverMatchResultNameGroupWidget_C::On_GroupLayer_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70652);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68512);
 
 	UObserverMatchResultNameGroupWidget_C_On_GroupLayer_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -106,7 +106,7 @@ void UObserverMatchResultNameGroupWidget_C::On_GroupLayer_Prepass_1(class UWidge
 void UObserverMatchResultNameGroupWidget_C::On_Octa_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70642);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68502);
 
 	UObserverMatchResultNameGroupWidget_C_On_Octa_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -127,7 +127,7 @@ void UObserverMatchResultNameGroupWidget_C::On_Octa_Prepass_1(class UWidget* Bou
 void UObserverMatchResultNameGroupWidget_C::On_Hexa_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70632);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68492);
 
 	UObserverMatchResultNameGroupWidget_C_On_Hexa_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -148,7 +148,7 @@ void UObserverMatchResultNameGroupWidget_C::On_Hexa_Prepass_1(class UWidget* Bou
 void UObserverMatchResultNameGroupWidget_C::On_Squad_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70622);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68482);
 
 	UObserverMatchResultNameGroupWidget_C_On_Squad_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -169,7 +169,7 @@ void UObserverMatchResultNameGroupWidget_C::On_Squad_Prepass_1(class UWidget* Bo
 void UObserverMatchResultNameGroupWidget_C::On_SoloOrDuo_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70612);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68472);
 
 	UObserverMatchResultNameGroupWidget_C_On_SoloOrDuo_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -190,7 +190,7 @@ void UObserverMatchResultNameGroupWidget_C::On_SoloOrDuo_Prepass_1(class UWidget
 struct FText UObserverMatchResultNameGroupWidget_C::Get_TextBlock_4_Text_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70606);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68466);
 
 	UObserverMatchResultNameGroupWidget_C_Get_TextBlock_4_Text_1_Params params;
 
@@ -212,7 +212,7 @@ struct FText UObserverMatchResultNameGroupWidget_C::Get_TextBlock_4_Text_1()
 void UObserverMatchResultNameGroupWidget_C::AddPlayerMatchResultInfo(const struct FTslPlayerMatchResultInfo& NewItem)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70601);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68461);
 
 	UObserverMatchResultNameGroupWidget_C_AddPlayerMatchResultInfo_Params params;
 	params.NewItem = NewItem;

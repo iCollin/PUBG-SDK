@@ -20,7 +20,7 @@ namespace Classes
 void UGeneralSettingWidget_C::IsChangeVideoCapture(bool* IsChange)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69629);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67609);
 
 	UGeneralSettingWidget_C_IsChangeVideoCapture_Params params;
 
@@ -43,7 +43,7 @@ void UGeneralSettingWidget_C::IsChangeVideoCapture(bool* IsChange)
 bool UGeneralSettingWidget_C::IsEnable_VideoCapture()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69623);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67603);
 
 	UGeneralSettingWidget_C_IsEnable_VideoCapture_Params params;
 
@@ -63,7 +63,7 @@ bool UGeneralSettingWidget_C::IsEnable_VideoCapture()
 void UGeneralSettingWidget_C::ApplyMiniMapType()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69591);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67571);
 
 	UGeneralSettingWidget_C_ApplyMiniMapType_Params params;
 
@@ -81,7 +81,7 @@ void UGeneralSettingWidget_C::ApplyMiniMapType()
 void UGeneralSettingWidget_C::SettingDefault()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69585);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67565);
 
 	UGeneralSettingWidget_C_SettingDefault_Params params;
 
@@ -101,7 +101,7 @@ void UGeneralSettingWidget_C::SettingDefault()
 bool UGeneralSettingWidget_C::IsChanged()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69578);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67558);
 
 	UGeneralSettingWidget_C_IsChanged_Params params;
 
@@ -123,7 +123,7 @@ bool UGeneralSettingWidget_C::IsChanged()
 void UGeneralSettingWidget_C::GetLanguageCultureName(struct FString* CultureName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69565);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67545);
 
 	UGeneralSettingWidget_C_GetLanguageCultureName_Params params;
 
@@ -146,7 +146,7 @@ void UGeneralSettingWidget_C::GetLanguageCultureName(struct FString* CultureName
 void UGeneralSettingWidget_C::InitializeResolutionIWidget(bool bConstruct)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69534);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67514);
 
 	UGeneralSettingWidget_C_InitializeResolutionIWidget_Params params;
 	params.bConstruct = bConstruct;
@@ -165,7 +165,7 @@ void UGeneralSettingWidget_C::InitializeResolutionIWidget(bool bConstruct)
 void UGeneralSettingWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69533);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67513);
 
 	UGeneralSettingWidget_C_Construct_Params params;
 
@@ -183,7 +183,7 @@ void UGeneralSettingWidget_C::Construct()
 void UGeneralSettingWidget_C::OnApply()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69532);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67512);
 
 	UGeneralSettingWidget_C_OnApply_Params params;
 
@@ -201,7 +201,7 @@ void UGeneralSettingWidget_C::OnApply()
 void UGeneralSettingWidget_C::OnDefault()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69531);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67511);
 
 	UGeneralSettingWidget_C_OnDefault_Params params;
 
@@ -219,7 +219,7 @@ void UGeneralSettingWidget_C::OnDefault()
 void UGeneralSettingWidget_C::OnReset()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69530);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67510);
 
 	UGeneralSettingWidget_C_OnReset_Params params;
 
@@ -239,7 +239,7 @@ void UGeneralSettingWidget_C::OnReset()
 void UGeneralSettingWidget_C::ExecuteUbergraph_GeneralSettingWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69526);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67506);
 
 	UGeneralSettingWidget_C_ExecuteUbergraph_GeneralSettingWidget_Params params;
 	params.EntryPoint = EntryPoint;

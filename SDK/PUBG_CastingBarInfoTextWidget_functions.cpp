@@ -20,7 +20,7 @@ namespace Classes
 void UCastingBarInfoTextWidget_C::On_CastingInfoCancelMsgLayer_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70455);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68329);
 
 	UCastingBarInfoTextWidget_C_On_CastingInfoCancelMsgLayer_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -39,7 +39,7 @@ void UCastingBarInfoTextWidget_C::On_CastingInfoCancelMsgLayer_Prepass_1(class U
 void UCastingBarInfoTextWidget_C::OnCastCancleorFinish()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70454);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68328);
 
 	UCastingBarInfoTextWidget_C_OnCastCancleorFinish_Params params;
 
@@ -57,7 +57,7 @@ void UCastingBarInfoTextWidget_C::OnCastCancleorFinish()
 void UCastingBarInfoTextWidget_C::OnCastStart()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70453);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68327);
 
 	UCastingBarInfoTextWidget_C_OnCastStart_Params params;
 
@@ -77,7 +77,7 @@ void UCastingBarInfoTextWidget_C::OnCastStart()
 struct FLinearColor UCastingBarInfoTextWidget_C::Get_CastingInfoCancelMsgLayer_ContentColorAndOpacity_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70447);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68321);
 
 	UCastingBarInfoTextWidget_C_Get_CastingInfoCancelMsgLayer_ContentColorAndOpacity_1_Params params;
 
@@ -99,7 +99,7 @@ struct FLinearColor UCastingBarInfoTextWidget_C::Get_CastingInfoCancelMsgLayer_C
 void UCastingBarInfoTextWidget_C::On_CastingInfoCancelMsgBox_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70445);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68319);
 
 	UCastingBarInfoTextWidget_C_On_CastingInfoCancelMsgBox_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -120,7 +120,7 @@ void UCastingBarInfoTextWidget_C::On_CastingInfoCancelMsgBox_Prepass_1(class UWi
 struct FText UCastingBarInfoTextWidget_C::Get_KeyText_Text_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70441);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68315);
 
 	UCastingBarInfoTextWidget_C_Get_KeyText_Text_1_Params params;
 
@@ -142,7 +142,7 @@ struct FText UCastingBarInfoTextWidget_C::Get_KeyText_Text_1()
 void UCastingBarInfoTextWidget_C::OnPrepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70439);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68313);
 
 	UCastingBarInfoTextWidget_C_OnPrepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -163,7 +163,7 @@ void UCastingBarInfoTextWidget_C::OnPrepass_1(class UWidget* BoundWidget)
 ESlateVisibility UCastingBarInfoTextWidget_C::GetVisibility_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70426);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68300);
 
 	UCastingBarInfoTextWidget_C_GetVisibility_1_Params params;
 
@@ -185,7 +185,7 @@ ESlateVisibility UCastingBarInfoTextWidget_C::GetVisibility_1()
 struct FText UCastingBarInfoTextWidget_C::GetCastName()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70400);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68274);
 
 	UCastingBarInfoTextWidget_C_GetCastName_Params params;
 
@@ -208,7 +208,7 @@ struct FText UCastingBarInfoTextWidget_C::GetCastName()
 void UCastingBarInfoTextWidget_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70397);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68271);
 
 	UCastingBarInfoTextWidget_C_Tick_Params params;
 	params.MyGeometry = MyGeometry;
@@ -228,7 +228,7 @@ void UCastingBarInfoTextWidget_C::Tick(struct FGeometry* MyGeometry, float* InDe
 void UCastingBarInfoTextWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70396);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68270);
 
 	UCastingBarInfoTextWidget_C_Construct_Params params;
 
@@ -246,7 +246,7 @@ void UCastingBarInfoTextWidget_C::Construct()
 void UCastingBarInfoTextWidget_C::Destruct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70395);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68269);
 
 	UCastingBarInfoTextWidget_C_Destruct_Params params;
 
@@ -266,7 +266,7 @@ void UCastingBarInfoTextWidget_C::Destruct()
 void UCastingBarInfoTextWidget_C::ExecuteUbergraph_CastingBarInfoTextWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70365);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68239);
 
 	UCastingBarInfoTextWidget_C_ExecuteUbergraph_CastingBarInfoTextWidget_Params params;
 	params.EntryPoint = EntryPoint;

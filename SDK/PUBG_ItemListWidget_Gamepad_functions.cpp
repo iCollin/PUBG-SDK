@@ -20,7 +20,7 @@ namespace Classes
 bool UItemListWidget_Gamepad_C::IsFocusable()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61522);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71228);
 
 	UItemListWidget_Gamepad_C_IsFocusable_Params params;
 
@@ -42,7 +42,7 @@ bool UItemListWidget_Gamepad_C::IsFocusable()
 bool UItemListWidget_Gamepad_C::InputLB()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61520);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71226);
 
 	UItemListWidget_Gamepad_C_InputLB_Params params;
 
@@ -64,7 +64,7 @@ bool UItemListWidget_Gamepad_C::InputLB()
 bool UItemListWidget_Gamepad_C::InputLT()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61518);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71224);
 
 	UItemListWidget_Gamepad_C_InputLT_Params params;
 
@@ -86,7 +86,7 @@ bool UItemListWidget_Gamepad_C::InputLT()
 bool UItemListWidget_Gamepad_C::InputRB()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61516);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71222);
 
 	UItemListWidget_Gamepad_C_InputRB_Params params;
 
@@ -108,7 +108,7 @@ bool UItemListWidget_Gamepad_C::InputRB()
 bool UItemListWidget_Gamepad_C::InputRT()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61514);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71220);
 
 	UItemListWidget_Gamepad_C_InputRT_Params params;
 
@@ -130,7 +130,7 @@ bool UItemListWidget_Gamepad_C::InputRT()
 class UUserWidget* UItemListWidget_Gamepad_C::GetFocusingChildWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61510);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71216);
 
 	UItemListWidget_Gamepad_C_GetFocusingChildWidget_Params params;
 
@@ -152,7 +152,7 @@ class UUserWidget* UItemListWidget_Gamepad_C::GetFocusingChildWidget()
 bool UItemListWidget_Gamepad_C::InputA()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61502);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71208);
 
 	UItemListWidget_Gamepad_C_InputA_Params params;
 
@@ -174,7 +174,7 @@ bool UItemListWidget_Gamepad_C::InputA()
 bool UItemListWidget_Gamepad_C::InputB()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61494);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71200);
 
 	UItemListWidget_Gamepad_C_InputB_Params params;
 
@@ -196,7 +196,7 @@ bool UItemListWidget_Gamepad_C::InputB()
 bool UItemListWidget_Gamepad_C::InputX()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61492);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71198);
 
 	UItemListWidget_Gamepad_C_InputX_Params params;
 
@@ -218,7 +218,7 @@ bool UItemListWidget_Gamepad_C::InputX()
 bool UItemListWidget_Gamepad_C::InputY()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61490);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71196);
 
 	UItemListWidget_Gamepad_C_InputY_Params params;
 
@@ -240,7 +240,7 @@ bool UItemListWidget_Gamepad_C::InputY()
 class UUserWidget* UItemListWidget_Gamepad_C::GetDownWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61488);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71194);
 
 	UItemListWidget_Gamepad_C_GetDownWidget_Params params;
 
@@ -262,7 +262,7 @@ class UUserWidget* UItemListWidget_Gamepad_C::GetDownWidget()
 class UUserWidget* UItemListWidget_Gamepad_C::GetLeftWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61486);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71192);
 
 	UItemListWidget_Gamepad_C_GetLeftWidget_Params params;
 
@@ -284,7 +284,7 @@ class UUserWidget* UItemListWidget_Gamepad_C::GetLeftWidget()
 class UUserWidget* UItemListWidget_Gamepad_C::GetRightWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61484);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71190);
 
 	UItemListWidget_Gamepad_C_GetRightWidget_Params params;
 
@@ -306,7 +306,7 @@ class UUserWidget* UItemListWidget_Gamepad_C::GetRightWidget()
 class UUserWidget* UItemListWidget_Gamepad_C::GetUpWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61482);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71188);
 
 	UItemListWidget_Gamepad_C_GetUpWidget_Params params;
 
@@ -328,7 +328,7 @@ class UUserWidget* UItemListWidget_Gamepad_C::GetUpWidget()
 bool UItemListWidget_Gamepad_C::Down()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61466);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71172);
 
 	UItemListWidget_Gamepad_C_Down_Params params;
 
@@ -350,7 +350,7 @@ bool UItemListWidget_Gamepad_C::Down()
 bool UItemListWidget_Gamepad_C::IsFocus()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61464);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71170);
 
 	UItemListWidget_Gamepad_C_IsFocus_Params params;
 
@@ -372,7 +372,7 @@ bool UItemListWidget_Gamepad_C::IsFocus()
 bool UItemListWidget_Gamepad_C::Left()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61462);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71168);
 
 	UItemListWidget_Gamepad_C_Left_Params params;
 
@@ -394,7 +394,7 @@ bool UItemListWidget_Gamepad_C::Left()
 bool UItemListWidget_Gamepad_C::Right()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61460);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71166);
 
 	UItemListWidget_Gamepad_C_Right_Params params;
 
@@ -417,7 +417,7 @@ bool UItemListWidget_Gamepad_C::Right()
 bool UItemListWidget_Gamepad_C::SetFocus(bool NewFocus)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61438);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71144);
 
 	UItemListWidget_Gamepad_C_SetFocus_Params params;
 	params.NewFocus = NewFocus;
@@ -440,7 +440,7 @@ bool UItemListWidget_Gamepad_C::SetFocus(bool NewFocus)
 bool UItemListWidget_Gamepad_C::Up()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61424);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71130);
 
 	UItemListWidget_Gamepad_C_Up_Params params;
 
@@ -460,7 +460,7 @@ bool UItemListWidget_Gamepad_C::Up()
 void UItemListWidget_Gamepad_C::Gamepad_FinalizeWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61416);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71122);
 
 	UItemListWidget_Gamepad_C_Gamepad_FinalizeWidget_Params params;
 
@@ -478,7 +478,7 @@ void UItemListWidget_Gamepad_C::Gamepad_FinalizeWidget()
 void UItemListWidget_Gamepad_C::OnWidgetMoveDown()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61405);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71111);
 
 	UItemListWidget_Gamepad_C_OnWidgetMoveDown_Params params;
 
@@ -496,7 +496,7 @@ void UItemListWidget_Gamepad_C::OnWidgetMoveDown()
 void UItemListWidget_Gamepad_C::OnWidgetMoveUp()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61394);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71100);
 
 	UItemListWidget_Gamepad_C_OnWidgetMoveUp_Params params;
 
@@ -514,7 +514,7 @@ void UItemListWidget_Gamepad_C::OnWidgetMoveUp()
 void UItemListWidget_Gamepad_C::OnSlotMoveDownReleased()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61393);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71099);
 
 	UItemListWidget_Gamepad_C_OnSlotMoveDownReleased_Params params;
 
@@ -532,7 +532,7 @@ void UItemListWidget_Gamepad_C::OnSlotMoveDownReleased()
 void UItemListWidget_Gamepad_C::OnSlotMoveDownPressed()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61382);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71088);
 
 	UItemListWidget_Gamepad_C_OnSlotMoveDownPressed_Params params;
 
@@ -550,7 +550,7 @@ void UItemListWidget_Gamepad_C::OnSlotMoveDownPressed()
 void UItemListWidget_Gamepad_C::OnSlotMoveUpReleased()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61381);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71087);
 
 	UItemListWidget_Gamepad_C_OnSlotMoveUpReleased_Params params;
 
@@ -568,7 +568,7 @@ void UItemListWidget_Gamepad_C::OnSlotMoveUpReleased()
 void UItemListWidget_Gamepad_C::OnSlotMoveUpPressed()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61370);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71076);
 
 	UItemListWidget_Gamepad_C_OnSlotMoveUpPressed_Params params;
 
@@ -586,7 +586,7 @@ void UItemListWidget_Gamepad_C::OnSlotMoveUpPressed()
 void UItemListWidget_Gamepad_C::Gamepad_SpawntemExplorer()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61355);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71061);
 
 	UItemListWidget_Gamepad_C_Gamepad_SpawntemExplorer_Params params;
 
@@ -604,7 +604,7 @@ void UItemListWidget_Gamepad_C::Gamepad_SpawntemExplorer()
 void UItemListWidget_Gamepad_C::Gamepad_SetupInput()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61348);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71054);
 
 	UItemListWidget_Gamepad_C_Gamepad_SetupInput_Params params;
 
@@ -622,7 +622,7 @@ void UItemListWidget_Gamepad_C::Gamepad_SetupInput()
 void UItemListWidget_Gamepad_C::Gamepad_InitWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61347);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71053);
 
 	UItemListWidget_Gamepad_C_Gamepad_InitWidget_Params params;
 
@@ -642,7 +642,7 @@ void UItemListWidget_Gamepad_C::Gamepad_InitWidget()
 float UItemListWidget_Gamepad_C::GetScrollAccelation()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61341);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71047);
 
 	UItemListWidget_Gamepad_C_GetScrollAccelation_Params params;
 
@@ -664,7 +664,7 @@ float UItemListWidget_Gamepad_C::GetScrollAccelation()
 float UItemListWidget_Gamepad_C::GetMaxScroll()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61320);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71026);
 
 	UItemListWidget_Gamepad_C_GetMaxScroll_Params params;
 
@@ -684,7 +684,7 @@ float UItemListWidget_Gamepad_C::GetMaxScroll()
 void UItemListWidget_Gamepad_C::OnChildWidgetRefreshFocus()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61318);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71024);
 
 	UItemListWidget_Gamepad_C_OnChildWidgetRefreshFocus_Params params;
 
@@ -704,7 +704,7 @@ void UItemListWidget_Gamepad_C::OnChildWidgetRefreshFocus()
 void UItemListWidget_Gamepad_C::On_FocusColor_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61305);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71011);
 
 	UItemListWidget_Gamepad_C_On_FocusColor_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -723,7 +723,7 @@ void UItemListWidget_Gamepad_C::On_FocusColor_Prepass_1(class UWidget* BoundWidg
 void UItemListWidget_Gamepad_C::UpdateOffset_XBoxOne_Up()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61266);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70972);
 
 	UItemListWidget_Gamepad_C_UpdateOffset_XBoxOne_Up_Params params;
 
@@ -741,7 +741,7 @@ void UItemListWidget_Gamepad_C::UpdateOffset_XBoxOne_Up()
 void UItemListWidget_Gamepad_C::UpdateOffset_XBoxOne_Down()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61233);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70939);
 
 	UItemListWidget_Gamepad_C_UpdateOffset_XBoxOne_Down_Params params;
 
@@ -759,7 +759,7 @@ void UItemListWidget_Gamepad_C::UpdateOffset_XBoxOne_Down()
 void UItemListWidget_Gamepad_C::GetSelectWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61232);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70938);
 
 	UItemListWidget_Gamepad_C_GetSelectWidget_Params params;
 
@@ -779,7 +779,7 @@ void UItemListWidget_Gamepad_C::GetSelectWidget()
 bool UItemListWidget_Gamepad_C::isEmptyList()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61222);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70928);
 
 	UItemListWidget_Gamepad_C_isEmptyList_Params params;
 
@@ -799,7 +799,7 @@ bool UItemListWidget_Gamepad_C::isEmptyList()
 void UItemListWidget_Gamepad_C::RefreshList_Inventory()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61190);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70896);
 
 	UItemListWidget_Gamepad_C_RefreshList_Inventory_Params params;
 
@@ -818,11 +818,12 @@ void UItemListWidget_Gamepad_C::RefreshList_Inventory()
 // TScriptInterface<class USlotInterface> Item_SlotInterface             (Parm, ZeroConstructor, IsPlainOldData)
 // TScriptInterface<class USlotContainerInterface> SlotContainer                  (Parm, ZeroConstructor, IsPlainOldData)
 // class UItemSlotWidget_Gamepad_C* ItemSlotWidget                 (Parm, OutParm, ZeroConstructor, IsPlainOldData)
+// bool                           bIsNew                         (Parm, OutParm, ZeroConstructor, IsPlainOldData)
 
-void UItemListWidget_Gamepad_C::GetSlotItem(int Index, const TScriptInterface<class USlotInterface>& Item_SlotInterface, const TScriptInterface<class USlotContainerInterface>& SlotContainer, class UItemSlotWidget_Gamepad_C** ItemSlotWidget)
+void UItemListWidget_Gamepad_C::GetSlotItem(int Index, const TScriptInterface<class USlotInterface>& Item_SlotInterface, const TScriptInterface<class USlotContainerInterface>& SlotContainer, class UItemSlotWidget_Gamepad_C** ItemSlotWidget, bool* bIsNew)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61178);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70883);
 
 	UItemListWidget_Gamepad_C_GetSlotItem_Params params;
 	params.Index = Index;
@@ -837,6 +838,8 @@ void UItemListWidget_Gamepad_C::GetSlotItem(int Index, const TScriptInterface<cl
 
 	if (ItemSlotWidget != nullptr)
 		*ItemSlotWidget = params.ItemSlotWidget;
+	if (bIsNew != nullptr)
+		*bIsNew = params.bIsNew;
 }
 
 
@@ -846,7 +849,7 @@ void UItemListWidget_Gamepad_C::GetSlotItem(int Index, const TScriptInterface<cl
 void UItemListWidget_Gamepad_C::RefreshList_Visinity()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61123);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70827);
 
 	UItemListWidget_Gamepad_C_RefreshList_Visinity_Params params;
 
@@ -869,7 +872,7 @@ void UItemListWidget_Gamepad_C::RefreshList_Visinity()
 bool UItemListWidget_Gamepad_C::OnDrop(struct FGeometry* MyGeometry, struct FPointerEvent* PointerEvent, class UDragDropOperation** Operation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61112);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70816);
 
 	UItemListWidget_Gamepad_C_OnDrop_Params params;
 	params.MyGeometry = MyGeometry;
@@ -894,7 +897,7 @@ bool UItemListWidget_Gamepad_C::OnDrop(struct FGeometry* MyGeometry, struct FPoi
 void UItemListWidget_Gamepad_C::GetContentCount(int* Count)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61099);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70803);
 
 	UItemListWidget_Gamepad_C_GetContentCount_Params params;
 
@@ -917,7 +920,7 @@ void UItemListWidget_Gamepad_C::GetContentCount(int* Count)
 float UItemListWidget_Gamepad_C::GetWeightPercent()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61092);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70796);
 
 	UItemListWidget_Gamepad_C_GetWeightPercent_Params params;
 
@@ -939,7 +942,7 @@ float UItemListWidget_Gamepad_C::GetWeightPercent()
 struct FText UItemListWidget_Gamepad_C::GetWeightText()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61079);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70783);
 
 	UItemListWidget_Gamepad_C_GetWeightText_Params params;
 
@@ -959,7 +962,7 @@ struct FText UItemListWidget_Gamepad_C::GetWeightText()
 void UItemListWidget_Gamepad_C::RefreshList()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61056);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70760);
 
 	UItemListWidget_Gamepad_C_RefreshList_Params params;
 
@@ -977,7 +980,7 @@ void UItemListWidget_Gamepad_C::RefreshList()
 void UItemListWidget_Gamepad_C::CreateBackgroundSlots()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61045);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70749);
 
 	UItemListWidget_Gamepad_C_CreateBackgroundSlots_Params params;
 
@@ -995,7 +998,7 @@ void UItemListWidget_Gamepad_C::CreateBackgroundSlots()
 void UItemListWidget_Gamepad_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61044);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70748);
 
 	UItemListWidget_Gamepad_C_Construct_Params params;
 
@@ -1016,7 +1019,7 @@ void UItemListWidget_Gamepad_C::Construct()
 void UItemListWidget_Gamepad_C::OnSlotFocus(const TScriptInterface<class USlotInterface>& Slot, const TScriptInterface<class USlotContainerInterface>& SlotContainer)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61041);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70745);
 
 	UItemListWidget_Gamepad_C_OnSlotFocus_Params params;
 	params.Slot = Slot;
@@ -1036,7 +1039,7 @@ void UItemListWidget_Gamepad_C::OnSlotFocus(const TScriptInterface<class USlotIn
 void UItemListWidget_Gamepad_C::OnRefreshList()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61040);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70744);
 
 	UItemListWidget_Gamepad_C_OnRefreshList_Params params;
 
@@ -1058,7 +1061,7 @@ void UItemListWidget_Gamepad_C::OnRefreshList()
 void UItemListWidget_Gamepad_C::OnDragEnter(struct FGeometry* MyGeometry, struct FPointerEvent* PointerEvent, class UDragDropOperation** Operation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61036);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70740);
 
 	UItemListWidget_Gamepad_C_OnDragEnter_Params params;
 	params.MyGeometry = MyGeometry;
@@ -1082,7 +1085,7 @@ void UItemListWidget_Gamepad_C::OnDragEnter(struct FGeometry* MyGeometry, struct
 void UItemListWidget_Gamepad_C::OnDragLeave(struct FPointerEvent* PointerEvent, class UDragDropOperation** Operation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61033);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70737);
 
 	UItemListWidget_Gamepad_C_OnDragLeave_Params params;
 	params.PointerEvent = PointerEvent;
@@ -1102,7 +1105,7 @@ void UItemListWidget_Gamepad_C::OnDragLeave(struct FPointerEvent* PointerEvent, 
 void UItemListWidget_Gamepad_C::Destruct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61032);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70736);
 
 	UItemListWidget_Gamepad_C_Destruct_Params params;
 
@@ -1123,7 +1126,7 @@ void UItemListWidget_Gamepad_C::Destruct()
 void UItemListWidget_Gamepad_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61029);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70733);
 
 	UItemListWidget_Gamepad_C_Tick_Params params;
 	params.MyGeometry = MyGeometry;
@@ -1143,7 +1146,7 @@ void UItemListWidget_Gamepad_C::Tick(struct FGeometry* MyGeometry, float* InDelt
 void UItemListWidget_Gamepad_C::CustomEvent_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61028);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70732);
 
 	UItemListWidget_Gamepad_C_CustomEvent_1_Params params;
 
@@ -1161,7 +1164,7 @@ void UItemListWidget_Gamepad_C::CustomEvent_1()
 void UItemListWidget_Gamepad_C::OnRefreshFocus()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61027);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70731);
 
 	UItemListWidget_Gamepad_C_OnRefreshFocus_Params params;
 
@@ -1181,7 +1184,7 @@ void UItemListWidget_Gamepad_C::OnRefreshFocus()
 void UItemListWidget_Gamepad_C::OnAddScroll(float Scale)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61025);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70729);
 
 	UItemListWidget_Gamepad_C_OnAddScroll_Params params;
 	params.Scale = Scale;
@@ -1200,7 +1203,7 @@ void UItemListWidget_Gamepad_C::OnAddScroll(float Scale)
 void UItemListWidget_Gamepad_C::OnSlotScrollMoving()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61024);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70728);
 
 	UItemListWidget_Gamepad_C_OnSlotScrollMoving_Params params;
 
@@ -1220,7 +1223,7 @@ void UItemListWidget_Gamepad_C::OnSlotScrollMoving()
 void UItemListWidget_Gamepad_C::ExecuteUbergraph_ItemListWidget_Gamepad(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60941);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70647);
 
 	UItemListWidget_Gamepad_C_ExecuteUbergraph_ItemListWidget_Gamepad_Params params;
 	params.EntryPoint = EntryPoint;
@@ -1239,7 +1242,7 @@ void UItemListWidget_Gamepad_C::ExecuteUbergraph_ItemListWidget_Gamepad(int Entr
 void UItemListWidget_Gamepad_C::RefreshFocus__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60940);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70646);
 
 	UItemListWidget_Gamepad_C_RefreshFocus__DelegateSignature_Params params;
 
@@ -1260,7 +1263,7 @@ void UItemListWidget_Gamepad_C::RefreshFocus__DelegateSignature()
 void UItemListWidget_Gamepad_C::OnChildSlotFocus__DelegateSignature(const TScriptInterface<class USlotInterface>& Slot, const TScriptInterface<class USlotContainerInterface>& SlotContainer)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60937);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70643);
 
 	UItemListWidget_Gamepad_C_OnChildSlotFocus__DelegateSignature_Params params;
 	params.Slot = Slot;

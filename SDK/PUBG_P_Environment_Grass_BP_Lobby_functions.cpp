@@ -18,7 +18,7 @@ namespace Classes
 void AP_Environment_Grass_BP_Lobby_C::UserConstructionScript()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(109400);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(110744);
 
 	AP_Environment_Grass_BP_Lobby_C_UserConstructionScript_Params params;
 

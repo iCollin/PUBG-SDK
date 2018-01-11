@@ -14,6 +14,35 @@ namespace Classes
 //Parameters
 //---------------------------------------------------------------------------
 
+// Function ReplayTimeline.ReplayTimeline_C.On_ReportButtonSizeBox_Prepass_1
+struct UReplayTimeline_C_On_ReportButtonSizeBox_Prepass_1_Params
+{
+	class UWidget*                                     BoundWidget;                                              // (Parm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function ReplayTimeline.ReplayTimeline_C.OnMouseMoveTimeline
+struct UReplayTimeline_C_OnMouseMoveTimeline_Params
+{
+	struct FGeometry                                   MyGeometry;                                               // (Parm, IsPlainOldData)
+	struct FPointerEvent                               MouseEvent;                                               // (ConstParm, Parm, OutParm, ReferenceParm)
+	struct FEventReply                                 ReturnValue;                                              // (Parm, OutParm, ReturnParm)
+};
+
+// Function ReplayTimeline.ReplayTimeline_C.HideJumpingTimeline
+struct UReplayTimeline_C_HideJumpingTimeline_Params
+{
+};
+
+// Function ReplayTimeline.ReplayTimeline_C.ShowJumpingTimeline
+struct UReplayTimeline_C_ShowJumpingTimeline_Params
+{
+};
+
+// Function ReplayTimeline.ReplayTimeline_C.SetMouseCursor
+struct UReplayTimeline_C_SetMouseCursor_Params
+{
+};
+
 // Function ReplayTimeline.ReplayTimeline_C.UnBindOnGotoTimelineDoneToFindCharacter
 struct UReplayTimeline_C_UnBindOnGotoTimelineDoneToFindCharacter_Params
 {
@@ -254,6 +283,16 @@ struct UReplayTimeline_C_OnGoToTimelineDoneToFindCharacter_Params
 
 // Function ReplayTimeline.ReplayTimeline_C.O_1
 struct UReplayTimeline_C_O_1_Params
+{
+};
+
+// Function ReplayTimeline.ReplayTimeline_C.OnGoToTimelineDoneToBlockJump
+struct UReplayTimeline_C_OnGoToTimelineDoneToBlockJump_Params
+{
+};
+
+// Function ReplayTimeline.ReplayTimeline_C.BndEvt__ButtonReport_K2Node_ComponentBoundEvent_117_OnButtonClickedEvent__DelegateSignature
+struct UReplayTimeline_C_BndEvt__ButtonReport_K2Node_ComponentBoundEvent_117_OnButtonClickedEvent__DelegateSignature_Params
 {
 };
 
