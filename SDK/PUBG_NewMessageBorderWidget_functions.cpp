@@ -20,7 +20,7 @@ namespace Classes
 void UNewMessageBorderWidget_C::TickMove(float Time)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73919);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74119);
 
 	UNewMessageBorderWidget_C_TickMove_Params params;
 	params.Time = Time;
@@ -39,7 +39,7 @@ void UNewMessageBorderWidget_C::TickMove(float Time)
 void UNewMessageBorderWidget_C::UpdatePositionInfo()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73892);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74092);
 
 	UNewMessageBorderWidget_C_UpdatePositionInfo_Params params;
 
@@ -59,7 +59,7 @@ void UNewMessageBorderWidget_C::UpdatePositionInfo()
 void UNewMessageBorderWidget_C::IsFull(bool* Full)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73888);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74088);
 
 	UNewMessageBorderWidget_C_IsFull_Params params;
 
@@ -83,7 +83,7 @@ void UNewMessageBorderWidget_C::IsFull(bool* Full)
 void UNewMessageBorderWidget_C::SetSizeRule(TEnumAsByte<ESlateSizeRule> TopSize, TEnumAsByte<ESlateSizeRule> BottomSize)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73881);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74081);
 
 	UNewMessageBorderWidget_C_SetSizeRule_Params params;
 	params.TopSize = TopSize;
@@ -105,7 +105,7 @@ void UNewMessageBorderWidget_C::SetSizeRule(TEnumAsByte<ESlateSizeRule> TopSize,
 void UNewMessageBorderWidget_C::OnRemoveMessage(class UNewSystemMessageWidget_C* SystemMessageWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73878);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74078);
 
 	UNewMessageBorderWidget_C_OnRemoveMessage_Params params;
 	params.SystemMessageWidget = SystemMessageWidget;
@@ -126,7 +126,7 @@ void UNewMessageBorderWidget_C::OnRemoveMessage(class UNewSystemMessageWidget_C*
 void UNewMessageBorderWidget_C::AddMessage(class UNewSystemMessageWidget_C* Message)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73856);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74056);
 
 	UNewMessageBorderWidget_C_AddMessage_Params params;
 	params.Message = Message;
@@ -147,7 +147,7 @@ void UNewMessageBorderWidget_C::AddMessage(class UNewSystemMessageWidget_C* Mess
 void UNewMessageBorderWidget_C::DisplayKilledMessage(const struct FDeathMessage& DeathMessage)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73847);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74047);
 
 	UNewMessageBorderWidget_C_DisplayKilledMessage_Params params;
 	params.DeathMessage = DeathMessage;
@@ -166,7 +166,7 @@ void UNewMessageBorderWidget_C::DisplayKilledMessage(const struct FDeathMessage&
 void UNewMessageBorderWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73846);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74046);
 
 	UNewMessageBorderWidget_C_Construct_Params params;
 
@@ -187,7 +187,7 @@ void UNewMessageBorderWidget_C::Construct()
 void UNewMessageBorderWidget_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73843);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74043);
 
 	UNewMessageBorderWidget_C_Tick_Params params;
 	params.MyGeometry = MyGeometry;
@@ -209,7 +209,7 @@ void UNewMessageBorderWidget_C::Tick(struct FGeometry* MyGeometry, float* InDelt
 void UNewMessageBorderWidget_C::ExecuteUbergraph_NewMessageBorderWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73838);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74038);
 
 	UNewMessageBorderWidget_C_ExecuteUbergraph_NewMessageBorderWidget_Params params;
 	params.EntryPoint = EntryPoint;

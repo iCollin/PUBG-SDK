@@ -20,7 +20,7 @@ namespace Classes
 void UNiagaraComponent::SetRenderingEnabled(bool bInRenderingEnabled)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30259);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30289);
 
 	UNiagaraComponent_SetRenderingEnabled_Params params;
 	params.bInRenderingEnabled = bInRenderingEnabled;
@@ -43,7 +43,7 @@ void UNiagaraComponent::SetRenderingEnabled(bool bInRenderingEnabled)
 void UNiagaraComponent::SetNiagaraVariableVec4(const struct FString& InVariableName, const struct FVector4& InValue)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30256);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30286);
 
 	UNiagaraComponent_SetNiagaraVariableVec4_Params params;
 	params.InVariableName = InVariableName;
@@ -67,7 +67,7 @@ void UNiagaraComponent::SetNiagaraVariableVec4(const struct FString& InVariableN
 void UNiagaraComponent::SetNiagaraVariableVec3(const struct FString& InVariableName, const struct FVector& InValue)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30253);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30283);
 
 	UNiagaraComponent_SetNiagaraVariableVec3_Params params;
 	params.InVariableName = InVariableName;
@@ -91,7 +91,7 @@ void UNiagaraComponent::SetNiagaraVariableVec3(const struct FString& InVariableN
 void UNiagaraComponent::SetNiagaraVariableVec2(const struct FString& InVariableName, const struct FVector2D& InValue)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30250);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30280);
 
 	UNiagaraComponent_SetNiagaraVariableVec2_Params params;
 	params.InVariableName = InVariableName;
@@ -115,7 +115,7 @@ void UNiagaraComponent::SetNiagaraVariableVec2(const struct FString& InVariableN
 void UNiagaraComponent::SetNiagaraVariableFloat(const struct FString& InVariableName, float InValue)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30247);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30277);
 
 	UNiagaraComponent_SetNiagaraVariableFloat_Params params;
 	params.InVariableName = InVariableName;
@@ -139,7 +139,7 @@ void UNiagaraComponent::SetNiagaraVariableFloat(const struct FString& InVariable
 void UNiagaraComponent::SetNiagaraVariableBool(const struct FString& InVariableName, bool InValue)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30244);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30274);
 
 	UNiagaraComponent_SetNiagaraVariableBool_Params params;
 	params.InVariableName = InVariableName;
@@ -163,7 +163,7 @@ void UNiagaraComponent::SetNiagaraVariableBool(const struct FString& InVariableN
 void UNiagaraComponent::SetNiagaraStaticMeshDataInterfaceActor(const struct FString& InVariableName, class AActor* InSource)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30241);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30271);
 
 	UNiagaraComponent_SetNiagaraStaticMeshDataInterfaceActor_Params params;
 	params.InVariableName = InVariableName;
@@ -187,7 +187,7 @@ void UNiagaraComponent::SetNiagaraStaticMeshDataInterfaceActor(const struct FStr
 void UNiagaraComponent::SetNiagaraEmitterSpawnRate(const struct FString& InEmitterName, float InValue)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30238);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30268);
 
 	UNiagaraComponent_SetNiagaraEmitterSpawnRate_Params params;
 	params.InEmitterName = InEmitterName;
@@ -208,7 +208,7 @@ void UNiagaraComponent::SetNiagaraEmitterSpawnRate(const struct FString& InEmitt
 void UNiagaraComponent::ResetEffect()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30237);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30267);
 
 	UNiagaraComponent_ResetEffect_Params params;
 
@@ -227,7 +227,7 @@ void UNiagaraComponent::ResetEffect()
 void UNiagaraComponent::ReinitializeEffect()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30236);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30266);
 
 	UNiagaraComponent_ReinitializeEffect_Params params;
 
@@ -255,7 +255,7 @@ void UNiagaraComponent::ReinitializeEffect()
 class UNiagaraComponent* UNiagaraFunctionLibrary::STATIC_SpawnEffectAttached(class UNiagaraEffect* EffectTemplate, class USceneComponent* AttachToComponent, const struct FName& AttachPointName, const struct FVector& Location, const struct FRotator& Rotation, TEnumAsByte<EAttachLocation> LocationType, bool bAutoDestroy)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30346);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30376);
 
 	UNiagaraFunctionLibrary_SpawnEffectAttached_Params params;
 	params.EffectTemplate = EffectTemplate;
@@ -290,7 +290,7 @@ class UNiagaraComponent* UNiagaraFunctionLibrary::STATIC_SpawnEffectAttached(cla
 class UNiagaraComponent* UNiagaraFunctionLibrary::STATIC_SpawnEffectAtLocation(class UObject* WorldContextObject, class UNiagaraEffect* EffectTemplate, const struct FVector& Location, const struct FRotator& Rotation, bool bAutoDestroy)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30339);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30369);
 
 	UNiagaraFunctionLibrary_SpawnEffectAtLocation_Params params;
 	params.WorldContextObject = WorldContextObject;

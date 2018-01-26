@@ -18,7 +18,7 @@ namespace Classes
 void UPlayerHeadWidget_C::UpdateHealthGaugeColor()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99233);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70716);
 
 	UPlayerHeadWidget_C_UpdateHealthGaugeColor_Params params;
 
@@ -38,7 +38,7 @@ void UPlayerHeadWidget_C::UpdateHealthGaugeColor()
 void UPlayerHeadWidget_C::AddAlphaWhenADS(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99225);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70708);
 
 	UPlayerHeadWidget_C_AddAlphaWhenADS_Params params;
 	params.BoundWidget = BoundWidget;
@@ -59,7 +59,7 @@ void UPlayerHeadWidget_C::AddAlphaWhenADS(class UWidget* BoundWidget)
 void UPlayerHeadWidget_C::IsEmptyPlayerName(bool* EmptyPlayerName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99221);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70704);
 
 	UPlayerHeadWidget_C_IsEmptyPlayerName_Params params;
 
@@ -80,7 +80,7 @@ void UPlayerHeadWidget_C::IsEmptyPlayerName(bool* EmptyPlayerName)
 void UPlayerHeadWidget_C::UpdateTextColor()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99217);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70700);
 
 	UPlayerHeadWidget_C_UpdateTextColor_Params params;
 
@@ -100,7 +100,7 @@ void UPlayerHeadWidget_C::UpdateTextColor()
 void UPlayerHeadWidget_C::IsGroggy(bool* IsGroggy)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99213);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70696);
 
 	UPlayerHeadWidget_C_IsGroggy_Params params;
 
@@ -123,7 +123,7 @@ void UPlayerHeadWidget_C::IsGroggy(bool* IsGroggy)
 void UPlayerHeadWidget_C::GetHealthPercent(float* Health)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99208);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70691);
 
 	UPlayerHeadWidget_C_GetHealthPercent_Params params;
 
@@ -146,7 +146,7 @@ void UPlayerHeadWidget_C::GetHealthPercent(float* Health)
 void UPlayerHeadWidget_C::GetGroggyHealthPercent(float* GroggyHealth)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99203);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70686);
 
 	UPlayerHeadWidget_C_GetGroggyHealthPercent_Params params;
 
@@ -167,7 +167,7 @@ void UPlayerHeadWidget_C::GetGroggyHealthPercent(float* GroggyHealth)
 void UPlayerHeadWidget_C::UpdateHealthGauge()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99196);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70679);
 
 	UPlayerHeadWidget_C_UpdateHealthGauge_Params params;
 
@@ -185,7 +185,7 @@ void UPlayerHeadWidget_C::UpdateHealthGauge()
 void UPlayerHeadWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99195);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70678);
 
 	UPlayerHeadWidget_C_Construct_Params params;
 
@@ -206,7 +206,7 @@ void UPlayerHeadWidget_C::Construct()
 void UPlayerHeadWidget_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99192);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70675);
 
 	UPlayerHeadWidget_C_Tick_Params params;
 	params.MyGeometry = MyGeometry;
@@ -229,7 +229,7 @@ void UPlayerHeadWidget_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
 void UPlayerHeadWidget_C::SetCharacterIconPosition_UC(struct FVector2D* Pos_UC, bool* IsHidden)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99189);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70672);
 
 	UPlayerHeadWidget_C_SetCharacterIconPosition_UC_Params params;
 	params.Pos_UC = Pos_UC;
@@ -249,7 +249,7 @@ void UPlayerHeadWidget_C::SetCharacterIconPosition_UC(struct FVector2D* Pos_UC, 
 void UPlayerHeadWidget_C::CustomTick()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99188);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70671);
 
 	UPlayerHeadWidget_C_CustomTick_Params params;
 
@@ -267,7 +267,7 @@ void UPlayerHeadWidget_C::CustomTick()
 void UPlayerHeadWidget_C::TimerCheckUpdateList()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99187);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70670);
 
 	UPlayerHeadWidget_C_TimerCheckUpdateList_Params params;
 
@@ -287,7 +287,7 @@ void UPlayerHeadWidget_C::TimerCheckUpdateList()
 void UPlayerHeadWidget_C::SetPlayerNameTag(struct FName* PlayerName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99185);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70668);
 
 	UPlayerHeadWidget_C_SetPlayerNameTag_Params params;
 	params.PlayerName = PlayerName;
@@ -309,7 +309,7 @@ void UPlayerHeadWidget_C::SetPlayerNameTag(struct FName* PlayerName)
 void UPlayerHeadWidget_C::SetTeamNumber(int* TeamNumber, struct FLinearColor* teamColor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99182);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70665);
 
 	UPlayerHeadWidget_C_SetTeamNumber_Params params;
 	params.TeamNumber = TeamNumber;
@@ -331,7 +331,7 @@ void UPlayerHeadWidget_C::SetTeamNumber(int* TeamNumber, struct FLinearColor* te
 void UPlayerHeadWidget_C::SetIndicatorColor(struct FLinearColor* teamColor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99180);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70663);
 
 	UPlayerHeadWidget_C_SetIndicatorColor_Params params;
 	params.teamColor = teamColor;
@@ -350,7 +350,7 @@ void UPlayerHeadWidget_C::SetIndicatorColor(struct FLinearColor* teamColor)
 void UPlayerHeadWidget_C::UpdateWeaponIcon()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99179);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70662);
 
 	UPlayerHeadWidget_C_UpdateWeaponIcon_Params params;
 
@@ -370,7 +370,7 @@ void UPlayerHeadWidget_C::UpdateWeaponIcon()
 void UPlayerHeadWidget_C::ExecuteUbergraph_PlayerHeadWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99156);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70639);
 
 	UPlayerHeadWidget_C_ExecuteUbergraph_PlayerHeadWidget_Params params;
 	params.EntryPoint = EntryPoint;

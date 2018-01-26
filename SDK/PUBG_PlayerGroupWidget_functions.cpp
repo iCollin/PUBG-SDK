@@ -20,7 +20,7 @@ namespace Classes
 void UPlayerGroupWidget_C::On_PlayerListBG_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71393);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71543);
 
 	UPlayerGroupWidget_C_On_PlayerListBG_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -41,7 +41,7 @@ void UPlayerGroupWidget_C::On_PlayerListBG_Prepass_1(class UWidget* BoundWidget)
 void UPlayerGroupWidget_C::On_PlayerListBorder_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71365);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71515);
 
 	UPlayerGroupWidget_C_On_PlayerListBorder_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -60,7 +60,7 @@ void UPlayerGroupWidget_C::On_PlayerListBorder_Prepass_1(class UWidget* BoundWid
 void UPlayerGroupWidget_C::Clear()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71364);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71514);
 
 	UPlayerGroupWidget_C_Clear_Params params;
 
@@ -80,7 +80,7 @@ void UPlayerGroupWidget_C::Clear()
 void UPlayerGroupWidget_C::AddPlayerWidget(class UPlayerInfoWidget_C* PlayerInfo)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71350);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71500);
 
 	UPlayerGroupWidget_C_AddPlayerWidget_Params params;
 	params.PlayerInfo = PlayerInfo;
@@ -99,7 +99,7 @@ void UPlayerGroupWidget_C::AddPlayerWidget(class UPlayerInfoWidget_C* PlayerInfo
 void UPlayerGroupWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71349);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71499);
 
 	UPlayerGroupWidget_C_Construct_Params params;
 
@@ -119,7 +119,7 @@ void UPlayerGroupWidget_C::Construct()
 void UPlayerGroupWidget_C::ExecuteUbergraph_PlayerGroupWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71346);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71496);
 
 	UPlayerGroupWidget_C_ExecuteUbergraph_PlayerGroupWidget_Params params;
 	params.EntryPoint = EntryPoint;

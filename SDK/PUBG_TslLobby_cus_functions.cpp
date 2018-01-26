@@ -18,7 +18,7 @@ namespace Classes
 void ATslLobby_cus_C::ReceiveBeginPlay()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(111570);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(111579);
 
 	ATslLobby_cus_C_ReceiveBeginPlay_Params params;
 
@@ -38,7 +38,7 @@ void ATslLobby_cus_C::ReceiveBeginPlay()
 void ATslLobby_cus_C::ExecuteUbergraph_TslLobby_cus(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(111568);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(111577);
 
 	ATslLobby_cus_C_ExecuteUbergraph_TslLobby_cus_Params params;
 	params.EntryPoint = EntryPoint;

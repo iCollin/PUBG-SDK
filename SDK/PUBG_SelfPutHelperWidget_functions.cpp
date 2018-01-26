@@ -18,7 +18,7 @@ namespace Classes
 void USelfPutHelperWidget_C::SwapFromWeapon()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60796);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61404);
 
 	USelfPutHelperWidget_C_SwapFromWeapon_Params params;
 
@@ -36,7 +36,7 @@ void USelfPutHelperWidget_C::SwapFromWeapon()
 void USelfPutHelperWidget_C::SwapFormEquipment()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60795);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61403);
 
 	USelfPutHelperWidget_C_SwapFormEquipment_Params params;
 
@@ -54,7 +54,7 @@ void USelfPutHelperWidget_C::SwapFormEquipment()
 void USelfPutHelperWidget_C::SwapFormVicnityOrInventory()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60794);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61402);
 
 	USelfPutHelperWidget_C_SwapFormVicnityOrInventory_Params params;
 
@@ -74,7 +74,7 @@ void USelfPutHelperWidget_C::SwapFormVicnityOrInventory()
 void USelfPutHelperWidget_C::IsSelfPutMode(bool* bIsSelfPutMode)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60792);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61400);
 
 	USelfPutHelperWidget_C_IsSelfPutMode_Params params;
 
@@ -99,7 +99,7 @@ void USelfPutHelperWidget_C::IsSelfPutMode(bool* bIsSelfPutMode)
 void USelfPutHelperWidget_C::GetFocusData(int* Index, TArray<int>* EnableWeaponIndex, EWeaponAttachmentSlotID* AttachmentSlotID)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60786);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61394);
 
 	USelfPutHelperWidget_C_GetFocusData_Params params;
 
@@ -124,7 +124,7 @@ void USelfPutHelperWidget_C::GetFocusData(int* Index, TArray<int>* EnableWeaponI
 void USelfPutHelperWidget_C::NextWeapon()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60782);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61390);
 
 	USelfPutHelperWidget_C_NextWeapon_Params params;
 
@@ -142,7 +142,7 @@ void USelfPutHelperWidget_C::NextWeapon()
 void USelfPutHelperWidget_C::PrevWeapon()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60778);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61386);
 
 	USelfPutHelperWidget_C_PrevWeapon_Params params;
 
@@ -160,7 +160,7 @@ void USelfPutHelperWidget_C::PrevWeapon()
 void USelfPutHelperWidget_C::Put()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60747);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61355);
 
 	USelfPutHelperWidget_C_Put_Params params;
 
@@ -178,7 +178,7 @@ void USelfPutHelperWidget_C::Put()
 void USelfPutHelperWidget_C::Stop()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60746);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61354);
 
 	USelfPutHelperWidget_C_Stop_Params params;
 
@@ -201,7 +201,7 @@ void USelfPutHelperWidget_C::Stop()
 void USelfPutHelperWidget_C::StartSelfPutItem(const TScriptInterface<class USlotInterface>& Slot, const TScriptInterface<class USlotContainerInterface>& Container, bool* bResult, int* StartWeaponIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60709);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61317);
 
 	USelfPutHelperWidget_C_StartSelfPutItem_Params params;
 	params.Slot = Slot;
@@ -228,7 +228,7 @@ void USelfPutHelperWidget_C::StartSelfPutItem(const TScriptInterface<class USlot
 void USelfPutHelperWidget_C::OnNotifySelfPut__DelegateSignature(bool bStart)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60707);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61315);
 
 	USelfPutHelperWidget_C_OnNotifySelfPut__DelegateSignature_Params params;
 	params.bStart = bStart;

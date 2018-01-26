@@ -21,7 +21,7 @@ namespace Classes
 void UZombieMatchResultNameWidget_C::UpdatePlayerMatchResultInfo(const struct FTslPlayerMatchResultInfo& TslPlayerMatchResultInfo, bool IsFirst)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69235);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69867);
 
 	UZombieMatchResultNameWidget_C_UpdatePlayerMatchResultInfo_Params params;
 	params.TslPlayerMatchResultInfo = TslPlayerMatchResultInfo;

@@ -20,7 +20,7 @@ namespace Classes
 bool UMouseSettingsWidget_C::IsEnableApply()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62047);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55966);
 
 	UMouseSettingsWidget_C_IsEnableApply_Params params;
 
@@ -42,7 +42,7 @@ bool UMouseSettingsWidget_C::IsEnableApply()
 void UMouseSettingsWidget_C::initailizeMouseSettingsWidget(bool bIsDefaultSetting)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62032);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55951);
 
 	UMouseSettingsWidget_C_initailizeMouseSettingsWidget_Params params;
 	params.bIsDefaultSetting = bIsDefaultSetting;
@@ -63,7 +63,7 @@ void UMouseSettingsWidget_C::initailizeMouseSettingsWidget(bool bIsDefaultSettin
 bool UMouseSettingsWidget_C::IsChanged()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62013);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55932);
 
 	UMouseSettingsWidget_C_IsChanged_Params params;
 
@@ -83,7 +83,7 @@ bool UMouseSettingsWidget_C::IsChanged()
 void UMouseSettingsWidget_C::OnDefault()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62012);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55931);
 
 	UMouseSettingsWidget_C_OnDefault_Params params;
 
@@ -101,7 +101,7 @@ void UMouseSettingsWidget_C::OnDefault()
 void UMouseSettingsWidget_C::OnApply()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62011);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55930);
 
 	UMouseSettingsWidget_C_OnApply_Params params;
 
@@ -119,7 +119,7 @@ void UMouseSettingsWidget_C::OnApply()
 void UMouseSettingsWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62010);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55929);
 
 	UMouseSettingsWidget_C_Construct_Params params;
 
@@ -137,7 +137,7 @@ void UMouseSettingsWidget_C::Construct()
 void UMouseSettingsWidget_C::OnReset()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62009);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55928);
 
 	UMouseSettingsWidget_C_OnReset_Params params;
 
@@ -157,7 +157,7 @@ void UMouseSettingsWidget_C::OnReset()
 void UMouseSettingsWidget_C::ExecuteUbergraph_MouseSettingsWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61998);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55917);
 
 	UMouseSettingsWidget_C_ExecuteUbergraph_MouseSettingsWidget_Params params;
 	params.EntryPoint = EntryPoint;

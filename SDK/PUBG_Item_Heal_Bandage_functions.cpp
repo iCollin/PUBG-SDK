@@ -18,7 +18,7 @@ namespace Classes
 void UItem_Heal_Bandage_C::PrintCastingTime()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89156);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(88444);
 
 	UItem_Heal_Bandage_C_PrintCastingTime_Params params;
 

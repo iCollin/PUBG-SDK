@@ -21,7 +21,7 @@ namespace Classes
 void UMediaOverlays::GetTexts(const struct FTimespan& Time, TArray<struct FMediaPlayerOverlay>* OutTexts)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38601);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38631);
 
 	UMediaOverlays_GetTexts_Params params;
 	params.Time = Time;
@@ -47,7 +47,7 @@ void UMediaOverlays::GetTexts(const struct FTimespan& Time, TArray<struct FMedia
 void UMediaOverlays::GetSubtitles(const struct FTimespan& Time, TArray<struct FMediaPlayerOverlay>* OutSubtitles)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38597);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38627);
 
 	UMediaOverlays_GetSubtitles_Params params;
 	params.Time = Time;
@@ -73,7 +73,7 @@ void UMediaOverlays::GetSubtitles(const struct FTimespan& Time, TArray<struct FM
 void UMediaOverlays::GetCaptions(const struct FTimespan& Time, TArray<struct FMediaPlayerOverlay>* OutCaptions)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38593);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38623);
 
 	UMediaOverlays_GetCaptions_Params params;
 	params.Time = Time;
@@ -98,7 +98,7 @@ void UMediaOverlays::GetCaptions(const struct FTimespan& Time, TArray<struct FMe
 bool UMediaPlayer::SupportsSeeking()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38716);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38746);
 
 	UMediaPlayer_SupportsSeeking_Params params;
 
@@ -121,7 +121,7 @@ bool UMediaPlayer::SupportsSeeking()
 bool UMediaPlayer::SupportsScrubbing()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38714);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38744);
 
 	UMediaPlayer_SupportsScrubbing_Params params;
 
@@ -146,7 +146,7 @@ bool UMediaPlayer::SupportsScrubbing()
 bool UMediaPlayer::SupportsRate(float Rate, bool Unthinned)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38710);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38740);
 
 	UMediaPlayer_SupportsRate_Params params;
 	params.Rate = Rate;
@@ -171,7 +171,7 @@ bool UMediaPlayer::SupportsRate(float Rate, bool Unthinned)
 void UMediaPlayer::SetVideoTexture(class UMediaTexture* NewTexture)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38708);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38738);
 
 	UMediaPlayer_SetVideoTexture_Params params;
 	params.NewTexture = NewTexture;
@@ -193,7 +193,7 @@ void UMediaPlayer::SetVideoTexture(class UMediaTexture* NewTexture)
 void UMediaPlayer::SetSoundWave(class UMediaSoundWave* NewSoundWave)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38706);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38736);
 
 	UMediaPlayer_SetSoundWave_Params params;
 	params.NewSoundWave = NewSoundWave;
@@ -216,7 +216,7 @@ void UMediaPlayer::SetSoundWave(class UMediaSoundWave* NewSoundWave)
 bool UMediaPlayer::SetRate(float Rate)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38703);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38733);
 
 	UMediaPlayer_SetRate_Params params;
 	params.Rate = Rate;
@@ -240,7 +240,7 @@ bool UMediaPlayer::SetRate(float Rate)
 void UMediaPlayer::SetOverlays(class UMediaOverlays* NewOverlays)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38701);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38731);
 
 	UMediaPlayer_SetOverlays_Params params;
 	params.NewOverlays = NewOverlays;
@@ -263,7 +263,7 @@ void UMediaPlayer::SetOverlays(class UMediaOverlays* NewOverlays)
 bool UMediaPlayer::SetLooping(bool Looping)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38698);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38728);
 
 	UMediaPlayer_SetLooping_Params params;
 	params.Looping = Looping;
@@ -287,7 +287,7 @@ bool UMediaPlayer::SetLooping(bool Looping)
 void UMediaPlayer::SetDesiredPlayerName(const struct FName& PlayerName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38696);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38726);
 
 	UMediaPlayer_SetDesiredPlayerName_Params params;
 	params.PlayerName = PlayerName;
@@ -311,7 +311,7 @@ void UMediaPlayer::SetDesiredPlayerName(const struct FName& PlayerName)
 bool UMediaPlayer::SelectTrack(EMediaPlayerTrack TrackType, int TrackIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38691);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38721);
 
 	UMediaPlayer_SelectTrack_Params params;
 	params.TrackType = TrackType;
@@ -337,7 +337,7 @@ bool UMediaPlayer::SelectTrack(EMediaPlayerTrack TrackType, int TrackIndex)
 bool UMediaPlayer::Seek(const struct FTimespan& Time)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38688);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38718);
 
 	UMediaPlayer_Seek_Params params;
 	params.Time = Time;
@@ -361,7 +361,7 @@ bool UMediaPlayer::Seek(const struct FTimespan& Time)
 bool UMediaPlayer::Rewind()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38686);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38716);
 
 	UMediaPlayer_Rewind_Params params;
 
@@ -384,7 +384,7 @@ bool UMediaPlayer::Rewind()
 bool UMediaPlayer::Reopen()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38684);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38714);
 
 	UMediaPlayer_Reopen_Params params;
 
@@ -407,7 +407,7 @@ bool UMediaPlayer::Reopen()
 bool UMediaPlayer::Previous()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38682);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38712);
 
 	UMediaPlayer_Previous_Params params;
 
@@ -430,7 +430,7 @@ bool UMediaPlayer::Previous()
 bool UMediaPlayer::Play()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38680);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38710);
 
 	UMediaPlayer_Play_Params params;
 
@@ -453,7 +453,7 @@ bool UMediaPlayer::Play()
 bool UMediaPlayer::Pause()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38678);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38708);
 
 	UMediaPlayer_Pause_Params params;
 
@@ -477,7 +477,7 @@ bool UMediaPlayer::Pause()
 bool UMediaPlayer::OpenUrl(const struct FString& URL)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38675);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38705);
 
 	UMediaPlayer_OpenUrl_Params params;
 	params.URL = URL;
@@ -502,7 +502,7 @@ bool UMediaPlayer::OpenUrl(const struct FString& URL)
 bool UMediaPlayer::OpenSource(class UMediaSource* MediaSource)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38672);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38702);
 
 	UMediaPlayer_OpenSource_Params params;
 	params.MediaSource = MediaSource;
@@ -528,7 +528,7 @@ bool UMediaPlayer::OpenSource(class UMediaSource* MediaSource)
 bool UMediaPlayer::OpenPlaylistIndex(class UMediaPlaylist* InPlaylist, int Index)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38668);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38698);
 
 	UMediaPlayer_OpenPlaylistIndex_Params params;
 	params.InPlaylist = InPlaylist;
@@ -554,7 +554,7 @@ bool UMediaPlayer::OpenPlaylistIndex(class UMediaPlaylist* InPlaylist, int Index
 bool UMediaPlayer::OpenPlaylist(class UMediaPlaylist* InPlaylist)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38665);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38695);
 
 	UMediaPlayer_OpenPlaylist_Params params;
 	params.InPlaylist = InPlaylist;
@@ -579,7 +579,7 @@ bool UMediaPlayer::OpenPlaylist(class UMediaPlaylist* InPlaylist)
 bool UMediaPlayer::OpenFile(const struct FString& FilePath)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38662);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38692);
 
 	UMediaPlayer_OpenFile_Params params;
 	params.FilePath = FilePath;
@@ -603,7 +603,7 @@ bool UMediaPlayer::OpenFile(const struct FString& FilePath)
 bool UMediaPlayer::Next()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38660);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38690);
 
 	UMediaPlayer_Next_Params params;
 
@@ -626,7 +626,7 @@ bool UMediaPlayer::Next()
 bool UMediaPlayer::IsReady()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38658);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38688);
 
 	UMediaPlayer_IsReady_Params params;
 
@@ -649,7 +649,7 @@ bool UMediaPlayer::IsReady()
 bool UMediaPlayer::IsPreparing()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38656);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38686);
 
 	UMediaPlayer_IsPreparing_Params params;
 
@@ -672,7 +672,7 @@ bool UMediaPlayer::IsPreparing()
 bool UMediaPlayer::IsPlaying()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38654);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38684);
 
 	UMediaPlayer_IsPlaying_Params params;
 
@@ -695,7 +695,7 @@ bool UMediaPlayer::IsPlaying()
 bool UMediaPlayer::IsPaused()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38652);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38682);
 
 	UMediaPlayer_IsPaused_Params params;
 
@@ -718,7 +718,7 @@ bool UMediaPlayer::IsPaused()
 bool UMediaPlayer::IsLooping()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38650);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38680);
 
 	UMediaPlayer_IsLooping_Params params;
 
@@ -741,7 +741,7 @@ bool UMediaPlayer::IsLooping()
 struct FString UMediaPlayer::GetUrl()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38648);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38678);
 
 	UMediaPlayer_GetUrl_Params params;
 
@@ -766,7 +766,7 @@ struct FString UMediaPlayer::GetUrl()
 struct FString UMediaPlayer::GetTrackLanguage(EMediaPlayerTrack TrackType, int TrackIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38643);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38673);
 
 	UMediaPlayer_GetTrackLanguage_Params params;
 	params.TrackType = TrackType;
@@ -793,7 +793,7 @@ struct FString UMediaPlayer::GetTrackLanguage(EMediaPlayerTrack TrackType, int T
 struct FText UMediaPlayer::GetTrackDisplayName(EMediaPlayerTrack TrackType, int TrackIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38638);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38668);
 
 	UMediaPlayer_GetTrackDisplayName_Params params;
 	params.TrackType = TrackType;
@@ -818,7 +818,7 @@ struct FText UMediaPlayer::GetTrackDisplayName(EMediaPlayerTrack TrackType, int 
 struct FTimespan UMediaPlayer::GetTime()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38636);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38666);
 
 	UMediaPlayer_GetTime_Params params;
 
@@ -842,7 +842,7 @@ struct FTimespan UMediaPlayer::GetTime()
 int UMediaPlayer::GetSelectedTrack(EMediaPlayerTrack TrackType)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38632);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38662);
 
 	UMediaPlayer_GetSelectedTrack_Params params;
 	params.TrackType = TrackType;
@@ -867,7 +867,7 @@ int UMediaPlayer::GetSelectedTrack(EMediaPlayerTrack TrackType)
 struct FFloatRange UMediaPlayer::GetReverseRates(bool Unthinned)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38629);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38659);
 
 	UMediaPlayer_GetReverseRates_Params params;
 	params.Unthinned = Unthinned;
@@ -891,7 +891,7 @@ struct FFloatRange UMediaPlayer::GetReverseRates(bool Unthinned)
 float UMediaPlayer::GetRate()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38627);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38657);
 
 	UMediaPlayer_GetRate_Params params;
 
@@ -914,7 +914,7 @@ float UMediaPlayer::GetRate()
 struct FName UMediaPlayer::GetPlayerName()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38625);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38655);
 
 	UMediaPlayer_GetPlayerName_Params params;
 
@@ -938,7 +938,7 @@ struct FName UMediaPlayer::GetPlayerName()
 int UMediaPlayer::GetNumTracks(EMediaPlayerTrack TrackType)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38621);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38651);
 
 	UMediaPlayer_GetNumTracks_Params params;
 	params.TrackType = TrackType;
@@ -963,7 +963,7 @@ int UMediaPlayer::GetNumTracks(EMediaPlayerTrack TrackType)
 struct FFloatRange UMediaPlayer::GetForwardRates(bool Unthinned)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38618);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38648);
 
 	UMediaPlayer_GetForwardRates_Params params;
 	params.Unthinned = Unthinned;
@@ -987,7 +987,7 @@ struct FFloatRange UMediaPlayer::GetForwardRates(bool Unthinned)
 struct FTimespan UMediaPlayer::GetDuration()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38616);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38646);
 
 	UMediaPlayer_GetDuration_Params params;
 
@@ -1010,7 +1010,7 @@ struct FTimespan UMediaPlayer::GetDuration()
 struct FName UMediaPlayer::GetDesiredPlayerName()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38614);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38644);
 
 	UMediaPlayer_GetDesiredPlayerName_Params params;
 
@@ -1031,7 +1031,7 @@ struct FName UMediaPlayer::GetDesiredPlayerName()
 void UMediaPlayer::Close()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38613);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38643);
 
 	UMediaPlayer_Close_Params params;
 
@@ -1053,7 +1053,7 @@ void UMediaPlayer::Close()
 bool UMediaPlayer::CanPlayUrl(const struct FString& URL)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38610);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38640);
 
 	UMediaPlayer_CanPlayUrl_Params params;
 	params.URL = URL;
@@ -1078,7 +1078,7 @@ bool UMediaPlayer::CanPlayUrl(const struct FString& URL)
 bool UMediaPlayer::CanPlaySource(class UMediaSource* MediaSource)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38607);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38637);
 
 	UMediaPlayer_CanPlaySource_Params params;
 	params.MediaSource = MediaSource;
@@ -1102,7 +1102,7 @@ bool UMediaPlayer::CanPlaySource(class UMediaSource* MediaSource)
 bool UMediaPlayer::CanPause()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38605);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38635);
 
 	UMediaPlayer_CanPause_Params params;
 
@@ -1125,7 +1125,7 @@ bool UMediaPlayer::CanPause()
 void UMediaPlaylist::RemoveAt(int Index)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38753);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38783);
 
 	UMediaPlaylist_RemoveAt_Params params;
 	params.Index = Index;
@@ -1147,7 +1147,7 @@ void UMediaPlaylist::RemoveAt(int Index)
 void UMediaPlaylist::Remove(class UMediaSource* MediaSource)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38751);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38781);
 
 	UMediaPlaylist_Remove_Params params;
 	params.MediaSource = MediaSource;
@@ -1169,7 +1169,7 @@ void UMediaPlaylist::Remove(class UMediaSource* MediaSource)
 int UMediaPlaylist::Num()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38749);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38779);
 
 	UMediaPlaylist_Num_Params params;
 
@@ -1193,7 +1193,7 @@ int UMediaPlaylist::Num()
 void UMediaPlaylist::Insert(class UMediaSource* MediaSource, int Index)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38746);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38776);
 
 	UMediaPlaylist_Insert_Params params;
 	params.MediaSource = MediaSource;
@@ -1217,7 +1217,7 @@ void UMediaPlaylist::Insert(class UMediaSource* MediaSource, int Index)
 class UMediaSource* UMediaPlaylist::GetRandom(int* InOutIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38743);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38773);
 
 	UMediaPlaylist_GetRandom_Params params;
 
@@ -1244,7 +1244,7 @@ class UMediaSource* UMediaPlaylist::GetRandom(int* InOutIndex)
 class UMediaSource* UMediaPlaylist::GetPrevious(int* InOutIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38740);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38770);
 
 	UMediaPlaylist_GetPrevious_Params params;
 
@@ -1271,7 +1271,7 @@ class UMediaSource* UMediaPlaylist::GetPrevious(int* InOutIndex)
 class UMediaSource* UMediaPlaylist::GetNext(int* InOutIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38737);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38767);
 
 	UMediaPlaylist_GetNext_Params params;
 
@@ -1298,7 +1298,7 @@ class UMediaSource* UMediaPlaylist::GetNext(int* InOutIndex)
 class UMediaSource* UMediaPlaylist::Get(int Index)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38734);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38764);
 
 	UMediaPlaylist_Get_Params params;
 	params.Index = Index;
@@ -1322,7 +1322,7 @@ class UMediaSource* UMediaPlaylist::Get(int Index)
 void UMediaPlaylist::Add(class UMediaSource* MediaSource)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38732);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38762);
 
 	UMediaPlaylist_Add_Params params;
 	params.MediaSource = MediaSource;
@@ -1344,7 +1344,7 @@ void UMediaPlaylist::Add(class UMediaSource* MediaSource)
 void UFileMediaSource::SetFilePath(const struct FString& path)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38760);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38790);
 
 	UFileMediaSource_SetFilePath_Params params;
 	params.path = path;
@@ -1366,7 +1366,7 @@ void UFileMediaSource::SetFilePath(const struct FString& path)
 int UMediaTexture::GetWidth()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38770);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38800);
 
 	UMediaTexture_GetWidth_Params params;
 
@@ -1389,7 +1389,7 @@ int UMediaTexture::GetWidth()
 int UMediaTexture::GetHeight()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38768);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38798);
 
 	UMediaTexture_GetHeight_Params params;
 
@@ -1412,7 +1412,7 @@ int UMediaTexture::GetHeight()
 float UMediaTexture::GetAspectRatio()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38766);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38796);
 
 	UMediaTexture_GetAspectRatio_Params params;
 

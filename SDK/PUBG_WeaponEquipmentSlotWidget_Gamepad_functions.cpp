@@ -20,7 +20,7 @@ namespace Classes
 void UWeaponEquipmentSlotWidget_Gamepad_C::GetSlotItem(TScriptInterface<class USlotInterface>* SlotItem)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66591);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67066);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_GetSlotItem_Params params;
 
@@ -43,7 +43,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::GetSlotItem(TScriptInterface<class US
 void UWeaponEquipmentSlotWidget_Gamepad_C::GetSlotContainer(TScriptInterface<class USlotContainerInterface>* SlotContainer)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66585);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67060);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_GetSlotContainer_Params params;
 
@@ -64,7 +64,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::GetSlotContainer(TScriptInterface<cla
 void UWeaponEquipmentSlotWidget_Gamepad_C::OnSwap()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66564);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67039);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_OnSwap_Params params;
 
@@ -82,7 +82,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::OnSwap()
 void UWeaponEquipmentSlotWidget_Gamepad_C::ProcessSwap()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66556);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67031);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_ProcessSwap_Params params;
 
@@ -100,7 +100,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::ProcessSwap()
 void UWeaponEquipmentSlotWidget_Gamepad_C::OnReleasedSwap()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66555);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67030);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_OnReleasedSwap_Params params;
 
@@ -118,7 +118,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::OnReleasedSwap()
 void UWeaponEquipmentSlotWidget_Gamepad_C::OnPressedSwap()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66547);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67022);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_OnPressedSwap_Params params;
 
@@ -138,7 +138,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::OnPressedSwap()
 bool UWeaponEquipmentSlotWidget_Gamepad_C::InputY()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67614);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68089);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_InputY_Params params;
 
@@ -160,7 +160,7 @@ bool UWeaponEquipmentSlotWidget_Gamepad_C::InputY()
 bool UWeaponEquipmentSlotWidget_Gamepad_C::InputX()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67612);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68087);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_InputX_Params params;
 
@@ -180,7 +180,7 @@ bool UWeaponEquipmentSlotWidget_Gamepad_C::InputX()
 void UWeaponEquipmentSlotWidget_Gamepad_C::ProcessDrop()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66541);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67016);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_ProcessDrop_Params params;
 
@@ -200,7 +200,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::ProcessDrop()
 void UWeaponEquipmentSlotWidget_Gamepad_C::DroporUnEquipItem(bool bDrop)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66531);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67006);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_DroporUnEquipItem_Params params;
 	params.bDrop = bDrop;
@@ -222,7 +222,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::DroporUnEquipItem(bool bDrop)
 void UWeaponEquipmentSlotWidget_Gamepad_C::OnDeatchOrDropAttachment(bool bDetach, bool bAll)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66508);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66983);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_OnDeatchOrDropAttachment_Params params;
 	params.bDetach = bDetach;
@@ -242,7 +242,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::OnDeatchOrDropAttachment(bool bDetach
 void UWeaponEquipmentSlotWidget_Gamepad_C::ReleasedDropInput()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66497);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66972);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_ReleasedDropInput_Params params;
 
@@ -260,7 +260,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::ReleasedDropInput()
 void UWeaponEquipmentSlotWidget_Gamepad_C::PressedDropInput()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66494);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66969);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_PressedDropInput_Params params;
 
@@ -278,7 +278,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::PressedDropInput()
 void UWeaponEquipmentSlotWidget_Gamepad_C::ProcessDetach()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66487);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66962);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_ProcessDetach_Params params;
 
@@ -296,7 +296,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::ProcessDetach()
 void UWeaponEquipmentSlotWidget_Gamepad_C::ReleaseDetachInput()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66471);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66946);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_ReleaseDetachInput_Params params;
 
@@ -314,7 +314,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::ReleaseDetachInput()
 void UWeaponEquipmentSlotWidget_Gamepad_C::PressedDetachInput()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66468);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66943);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_PressedDetachInput_Params params;
 
@@ -334,7 +334,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::PressedDetachInput()
 void UWeaponEquipmentSlotWidget_Gamepad_C::GetInventoryWidgetGamepad(class UInventoryWidget_Gamepad_C** NewParam)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66460);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66935);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_GetInventoryWidgetGamepad_Params params;
 
@@ -357,7 +357,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::GetInventoryWidgetGamepad(class UInve
 void UWeaponEquipmentSlotWidget_Gamepad_C::On_BackgroundSlot_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66441);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66916);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_On_BackgroundSlot_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -378,7 +378,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::On_BackgroundSlot_Prepass_1(class UWi
 void UWeaponEquipmentSlotWidget_Gamepad_C::FindLastFocusableWidget(class UUserWidget** Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66429);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66904);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_FindLastFocusableWidget_Params params;
 
@@ -399,7 +399,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::FindLastFocusableWidget(class UUserWi
 void UWeaponEquipmentSlotWidget_Gamepad_C::HandleWidgetMoveRight()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66409);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66884);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_HandleWidgetMoveRight_Params params;
 
@@ -417,7 +417,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::HandleWidgetMoveRight()
 void UWeaponEquipmentSlotWidget_Gamepad_C::HandleWidgetMoveLeft()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66389);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66864);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_HandleWidgetMoveLeft_Params params;
 
@@ -437,7 +437,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::HandleWidgetMoveLeft()
 void UWeaponEquipmentSlotWidget_Gamepad_C::SetGamepadSelfPutAttachmentFocus(bool bFocus)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66381);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66856);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_SetGamepadSelfPutAttachmentFocus_Params params;
 	params.bFocus = bFocus;
@@ -458,7 +458,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::SetGamepadSelfPutAttachmentFocus(bool
 bool UWeaponEquipmentSlotWidget_Gamepad_C::InputB()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67677);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68152);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_InputB_Params params;
 
@@ -478,7 +478,7 @@ bool UWeaponEquipmentSlotWidget_Gamepad_C::InputB()
 void UWeaponEquipmentSlotWidget_Gamepad_C::OnChildSlotRefreshFocus()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66364);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66839);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_OnChildSlotRefreshFocus_Params params;
 
@@ -498,7 +498,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::OnChildSlotRefreshFocus()
 class UUserWidget* UWeaponEquipmentSlotWidget_Gamepad_C::GetFocusingChildWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67738);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68213);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_GetFocusingChildWidget_Params params;
 
@@ -520,7 +520,7 @@ class UUserWidget* UWeaponEquipmentSlotWidget_Gamepad_C::GetFocusingChildWidget(
 bool UWeaponEquipmentSlotWidget_Gamepad_C::Up()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67575);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68050);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_Up_Params params;
 
@@ -542,7 +542,7 @@ bool UWeaponEquipmentSlotWidget_Gamepad_C::Up()
 bool UWeaponEquipmentSlotWidget_Gamepad_C::Down()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67736);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68211);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_Down_Params params;
 
@@ -564,7 +564,7 @@ bool UWeaponEquipmentSlotWidget_Gamepad_C::Down()
 void UWeaponEquipmentSlotWidget_Gamepad_C::GetChildRightFocusableWidget(class UUserWidget** RightWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66341);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66816);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_GetChildRightFocusableWidget_Params params;
 
@@ -587,7 +587,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::GetChildRightFocusableWidget(class UU
 void UWeaponEquipmentSlotWidget_Gamepad_C::GetChildLeftFocusableWidget(class UUserWidget** Left_Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66318);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66793);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_GetChildLeftFocusableWidget_Params params;
 
@@ -610,7 +610,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::GetChildLeftFocusableWidget(class UUs
 void UWeaponEquipmentSlotWidget_Gamepad_C::GetChildDownFocusableWidget(class UUserWidget** DownWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66301);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66776);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_GetChildDownFocusableWidget_Params params;
 
@@ -633,7 +633,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::GetChildDownFocusableWidget(class UUs
 void UWeaponEquipmentSlotWidget_Gamepad_C::GetChildUpFocusableWidget(class UUserWidget** UpWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66294);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66769);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_GetChildUpFocusableWidget_Params params;
 
@@ -656,7 +656,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::GetChildUpFocusableWidget(class UUser
 bool UWeaponEquipmentSlotWidget_Gamepad_C::IsFocusable()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67734);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68209);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_IsFocusable_Params params;
 
@@ -678,7 +678,7 @@ bool UWeaponEquipmentSlotWidget_Gamepad_C::IsFocusable()
 void UWeaponEquipmentSlotWidget_Gamepad_C::FindFirstFocusableWidget(class UUserWidget** FocusableWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66284);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66759);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_FindFirstFocusableWidget_Params params;
 
@@ -701,7 +701,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::FindFirstFocusableWidget(class UUserW
 bool UWeaponEquipmentSlotWidget_Gamepad_C::IsFocus()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67610);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68085);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_IsFocus_Params params;
 
@@ -724,7 +724,7 @@ bool UWeaponEquipmentSlotWidget_Gamepad_C::IsFocus()
 bool UWeaponEquipmentSlotWidget_Gamepad_C::SetFocus(bool* NewFocus)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67566);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68041);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_SetFocus_Params params;
 	params.NewFocus = NewFocus;
@@ -747,7 +747,7 @@ bool UWeaponEquipmentSlotWidget_Gamepad_C::SetFocus(bool* NewFocus)
 void UWeaponEquipmentSlotWidget_Gamepad_C::On_FocusColorBG_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66282);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66757);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_On_FocusColorBG_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -768,7 +768,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::On_FocusColorBG_Prepass_1(class UWidg
 bool UWeaponEquipmentSlotWidget_Gamepad_C::InputA()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67675);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(68150);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_InputA_Params params;
 
@@ -790,7 +790,7 @@ bool UWeaponEquipmentSlotWidget_Gamepad_C::InputA()
 void UWeaponEquipmentSlotWidget_Gamepad_C::OnSpawnActorInSceneCaptureWorld(class AActor* SpawnedActor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66278);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66753);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_OnSpawnActorInSceneCaptureWorld_Params params;
 	params.SpawnedActor = SpawnedActor;
@@ -811,7 +811,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::OnSpawnActorInSceneCaptureWorld(class
 void UWeaponEquipmentSlotWidget_Gamepad_C::GetDragDroppingEquipableItem(class UEquipableItem** EquipableItem)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66274);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66749);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_GetDragDroppingEquipableItem_Params params;
 
@@ -834,7 +834,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::GetDragDroppingEquipableItem(class UE
 void UWeaponEquipmentSlotWidget_Gamepad_C::FindEquipableWeaponPosition(struct FEquipPosition* WeaponPosition)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66268);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66743);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_FindEquipableWeaponPosition_Params params;
 
@@ -857,7 +857,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::FindEquipableWeaponPosition(struct FE
 void UWeaponEquipmentSlotWidget_Gamepad_C::UpdateWeaponGunInfo(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66258);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66733);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_UpdateWeaponGunInfo_Params params;
 	params.BoundWidget = BoundWidget;
@@ -878,7 +878,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::UpdateWeaponGunInfo(class UWidget* Bo
 void UWeaponEquipmentSlotWidget_Gamepad_C::On_AmmoIcon_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66255);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66730);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_On_AmmoIcon_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -899,7 +899,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::On_AmmoIcon_Prepass_1(class UWidget* 
 void UWeaponEquipmentSlotWidget_Gamepad_C::GetAmmoName(struct FText* ItemName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66246);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66721);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_GetAmmoName_Params params;
 
@@ -922,7 +922,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::GetAmmoName(struct FText* ItemName)
 struct FSlateBrush UWeaponEquipmentSlotWidget_Gamepad_C::GetAmmoIcon()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66233);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66708);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_GetAmmoIcon_Params params;
 
@@ -944,7 +944,7 @@ struct FSlateBrush UWeaponEquipmentSlotWidget_Gamepad_C::GetAmmoIcon()
 void UWeaponEquipmentSlotWidget_Gamepad_C::GetHandOnUnLoadedAmmoCount(int* Count)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66229);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66704);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_GetHandOnUnLoadedAmmoCount_Params params;
 
@@ -967,7 +967,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::GetHandOnUnLoadedAmmoCount(int* Count
 void UWeaponEquipmentSlotWidget_Gamepad_C::GetHandOnLoadedAmmoCount(int* Count)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66225);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66700);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_GetHandOnLoadedAmmoCount_Params params;
 
@@ -990,7 +990,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::GetHandOnLoadedAmmoCount(int* Count)
 void UWeaponEquipmentSlotWidget_Gamepad_C::On_AmmoName_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66222);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66697);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_On_AmmoName_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -1011,7 +1011,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::On_AmmoName_Prepass_1(class UWidget* 
 void UWeaponEquipmentSlotWidget_Gamepad_C::On_AmmoInfoLayer_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66212);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66687);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_On_AmmoInfoLayer_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -1032,7 +1032,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::On_AmmoInfoLayer_Prepass_1(class UWid
 void UWeaponEquipmentSlotWidget_Gamepad_C::On_WeaponHandsOnUnloadedAmmoCount_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66208);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66683);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_On_WeaponHandsOnUnloadedAmmoCount_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -1053,7 +1053,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::On_WeaponHandsOnUnloadedAmmoCount_Pre
 void UWeaponEquipmentSlotWidget_Gamepad_C::On_WeaponHandsOnLoadedAmmoCount_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66204);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66679);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_On_WeaponHandsOnLoadedAmmoCount_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -1074,7 +1074,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::On_WeaponHandsOnLoadedAmmoCount_Prepa
 void UWeaponEquipmentSlotWidget_Gamepad_C::On_WeaponName_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66201);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66676);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_On_WeaponName_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -1095,7 +1095,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::On_WeaponName_Prepass_1(class UWidget
 void UWeaponEquipmentSlotWidget_Gamepad_C::On_KeyName_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66190);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66665);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_On_KeyName_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -1114,7 +1114,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::On_KeyName_Prepass_1(class UWidget* B
 void UWeaponEquipmentSlotWidget_Gamepad_C::OnUpdateWeapon()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66160);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66635);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_OnUpdateWeapon_Params params;
 
@@ -1134,7 +1134,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::OnUpdateWeapon()
 void UWeaponEquipmentSlotWidget_Gamepad_C::On_WeaponCaptureImage_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66154);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66629);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_On_WeaponCaptureImage_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -1155,7 +1155,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::On_WeaponCaptureImage_Prepass_1(class
 void UWeaponEquipmentSlotWidget_Gamepad_C::GetItem_Bp(class UItem** Item)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67426);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67901);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_GetItem_Bp_Params params;
 
@@ -1178,7 +1178,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::GetItem_Bp(class UItem** Item)
 void UWeaponEquipmentSlotWidget_Gamepad_C::IsAttachmentSlotMouseOver(bool* MouseOver)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66145);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66620);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_IsAttachmentSlotMouseOver_Params params;
 
@@ -1201,7 +1201,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::IsAttachmentSlotMouseOver(bool* Mouse
 void UWeaponEquipmentSlotWidget_Gamepad_C::IsSlotMouseOver_Bp(bool* IsMouseOver)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67342);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67817);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_IsSlotMouseOver_Bp_Params params;
 
@@ -1224,7 +1224,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::IsSlotMouseOver_Bp(bool* IsMouseOver)
 void UWeaponEquipmentSlotWidget_Gamepad_C::IsSlotSubOn_Bp(bool* SubOn)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67324);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67799);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_IsSlotSubOn_Bp_Params params;
 
@@ -1247,7 +1247,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::IsSlotSubOn_Bp(bool* SubOn)
 void UWeaponEquipmentSlotWidget_Gamepad_C::IsSlotOn_Bp(bool* IsOn)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67192);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67667);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_IsSlotOn_Bp_Params params;
 
@@ -1273,7 +1273,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::IsSlotOn_Bp(bool* IsOn)
 bool UWeaponEquipmentSlotWidget_Gamepad_C::OnDrop(struct FGeometry* MyGeometry, struct FPointerEvent* PointerEvent, class UDragDropOperation** Operation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66122);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66597);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_OnDrop_Params params;
 	params.MyGeometry = MyGeometry;
@@ -1298,7 +1298,7 @@ bool UWeaponEquipmentSlotWidget_Gamepad_C::OnDrop(struct FGeometry* MyGeometry, 
 void UWeaponEquipmentSlotWidget_Gamepad_C::GetWeaponSlotEquipId(EEquipSlotID* EquipSlotID)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66106);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66581);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_GetWeaponSlotEquipId_Params params;
 
@@ -1321,7 +1321,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::GetWeaponSlotEquipId(EEquipSlotID* Eq
 void UWeaponEquipmentSlotWidget_Gamepad_C::MainPrepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66086);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66561);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_MainPrepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -1340,7 +1340,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::MainPrepass_1(class UWidget* BoundWid
 void UWeaponEquipmentSlotWidget_Gamepad_C::InitializeWeaponEquipSlot()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66062);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66537);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_InitializeWeaponEquipSlot_Params params;
 
@@ -1358,7 +1358,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::InitializeWeaponEquipSlot()
 void UWeaponEquipmentSlotWidget_Gamepad_C::RefreshAttachmentSlot()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66061);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66536);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_RefreshAttachmentSlot_Params params;
 
@@ -1380,7 +1380,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::RefreshAttachmentSlot()
 struct FEventReply UWeaponEquipmentSlotWidget_Gamepad_C::OnMouseButtonUp(struct FGeometry* MyGeometry, struct FPointerEvent* MouseEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66052);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66527);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_OnMouseButtonUp_Params params;
 	params.MyGeometry = MyGeometry;
@@ -1406,7 +1406,7 @@ struct FEventReply UWeaponEquipmentSlotWidget_Gamepad_C::OnMouseButtonUp(struct 
 void UWeaponEquipmentSlotWidget_Gamepad_C::OnDragDetected(struct FGeometry* MyGeometry, struct FPointerEvent* PointerEvent, class UDragDropOperation** Operation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66038);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66513);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_OnDragDetected_Params params;
 	params.MyGeometry = MyGeometry;
@@ -1433,7 +1433,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::OnDragDetected(struct FGeometry* MyGe
 struct FEventReply UWeaponEquipmentSlotWidget_Gamepad_C::OnMouseButtonDown(struct FGeometry* MyGeometry, struct FPointerEvent* MouseEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66018);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66493);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_OnMouseButtonDown_Params params;
 	params.MyGeometry = MyGeometry;
@@ -1457,7 +1457,7 @@ struct FEventReply UWeaponEquipmentSlotWidget_Gamepad_C::OnMouseButtonDown(struc
 ESlateVisibility UWeaponEquipmentSlotWidget_Gamepad_C::GetSlotVisibility()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66012);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66487);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_GetSlotVisibility_Params params;
 
@@ -1479,7 +1479,7 @@ ESlateVisibility UWeaponEquipmentSlotWidget_Gamepad_C::GetSlotVisibility()
 struct FSlateBrush UWeaponEquipmentSlotWidget_Gamepad_C::GetWeaponIcon()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66000);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66475);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_GetWeaponIcon_Params params;
 
@@ -1501,7 +1501,7 @@ struct FSlateBrush UWeaponEquipmentSlotWidget_Gamepad_C::GetWeaponIcon()
 struct FText UWeaponEquipmentSlotWidget_Gamepad_C::GetWeaponInfoText()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(65978);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66453);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_GetWeaponInfoText_Params params;
 
@@ -1521,7 +1521,7 @@ struct FText UWeaponEquipmentSlotWidget_Gamepad_C::GetWeaponInfoText()
 void UWeaponEquipmentSlotWidget_Gamepad_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(95119);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91775);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_Construct_Params params;
 
@@ -1543,7 +1543,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::Construct()
 void UWeaponEquipmentSlotWidget_Gamepad_C::OnDragEnter(struct FGeometry* MyGeometry, struct FPointerEvent* PointerEvent, class UDragDropOperation** Operation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67045);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67520);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_OnDragEnter_Params params;
 	params.MyGeometry = MyGeometry;
@@ -1567,7 +1567,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::OnDragEnter(struct FGeometry* MyGeome
 void UWeaponEquipmentSlotWidget_Gamepad_C::OnDragLeave(struct FPointerEvent* PointerEvent, class UDragDropOperation** Operation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67042);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67517);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_OnDragLeave_Params params;
 	params.PointerEvent = PointerEvent;
@@ -1590,7 +1590,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::OnDragLeave(struct FPointerEvent* Poi
 void UWeaponEquipmentSlotWidget_Gamepad_C::OnMouseEnter(struct FGeometry* MyGeometry, struct FPointerEvent* MouseEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(95116);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91772);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_OnMouseEnter_Params params;
 	params.MyGeometry = MyGeometry;
@@ -1612,7 +1612,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::OnMouseEnter(struct FGeometry* MyGeom
 void UWeaponEquipmentSlotWidget_Gamepad_C::OnMouseLeave(struct FPointerEvent* MouseEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67040);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67515);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_OnMouseLeave_Params params;
 	params.MouseEvent = MouseEvent;
@@ -1633,7 +1633,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::OnMouseLeave(struct FPointerEvent* Mo
 void UWeaponEquipmentSlotWidget_Gamepad_C::OnUpdateItem(class UItem** Item)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67190);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67665);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_OnUpdateItem_Params params;
 	params.Item = Item;
@@ -1654,7 +1654,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::OnUpdateItem(class UItem** Item)
 void UWeaponEquipmentSlotWidget_Gamepad_C::UpdateDragDropObject(class UTslItemDragDropOperation_C** DragDropObject)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67188);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67663);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_UpdateDragDropObject_Params params;
 	params.DragDropObject = DragDropObject;
@@ -1675,7 +1675,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::UpdateDragDropObject(class UTslItemDr
 void UWeaponEquipmentSlotWidget_Gamepad_C::SetInventory(class UInventoryWidget_C** InventoryWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67186);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67661);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_SetInventory_Params params;
 	params.InventoryWidget = InventoryWidget;
@@ -1694,7 +1694,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::SetInventory(class UInventoryWidget_C
 void UWeaponEquipmentSlotWidget_Gamepad_C::BndEvt__UpperRail_K2Node_ComponentBoundEvent_14_RefreshFocus__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(65977);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66452);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_BndEvt__UpperRail_K2Node_ComponentBoundEvent_14_RefreshFocus__DelegateSignature_Params params;
 
@@ -1712,7 +1712,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::BndEvt__UpperRail_K2Node_ComponentBou
 void UWeaponEquipmentSlotWidget_Gamepad_C::BndEvt__Muzzle_K2Node_ComponentBoundEvent_16_RefreshFocus__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(65976);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66451);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_BndEvt__Muzzle_K2Node_ComponentBoundEvent_16_RefreshFocus__DelegateSignature_Params params;
 
@@ -1730,7 +1730,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::BndEvt__Muzzle_K2Node_ComponentBoundE
 void UWeaponEquipmentSlotWidget_Gamepad_C::BndEvt__LowerRail_K2Node_ComponentBoundEvent_19_RefreshFocus__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(65975);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66450);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_BndEvt__LowerRail_K2Node_ComponentBoundEvent_19_RefreshFocus__DelegateSignature_Params params;
 
@@ -1748,7 +1748,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::BndEvt__LowerRail_K2Node_ComponentBou
 void UWeaponEquipmentSlotWidget_Gamepad_C::BndEvt__Magazine_K2Node_ComponentBoundEvent_23_RefreshFocus__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(65974);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66449);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_BndEvt__Magazine_K2Node_ComponentBoundEvent_23_RefreshFocus__DelegateSignature_Params params;
 
@@ -1766,7 +1766,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::BndEvt__Magazine_K2Node_ComponentBoun
 void UWeaponEquipmentSlotWidget_Gamepad_C::BndEvt__Stock_K2Node_ComponentBoundEvent_28_RefreshFocus__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(65973);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66448);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_BndEvt__Stock_K2Node_ComponentBoundEvent_28_RefreshFocus__DelegateSignature_Params params;
 
@@ -1784,7 +1784,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::BndEvt__Stock_K2Node_ComponentBoundEv
 void UWeaponEquipmentSlotWidget_Gamepad_C::WidgetInputBPressed()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(65972);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66447);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_WidgetInputBPressed_Params params;
 
@@ -1802,7 +1802,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::WidgetInputBPressed()
 void UWeaponEquipmentSlotWidget_Gamepad_C::OnWidgetInputBReleased()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(65971);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66446);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_OnWidgetInputBReleased_Params params;
 
@@ -1823,7 +1823,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::OnWidgetInputBReleased()
 void UWeaponEquipmentSlotWidget_Gamepad_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(65968);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66443);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_Tick_Params params;
 	params.MyGeometry = MyGeometry;
@@ -1843,7 +1843,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::Tick(struct FGeometry* MyGeometry, fl
 void UWeaponEquipmentSlotWidget_Gamepad_C::OnSlotMoveUp()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(65967);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66442);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_OnSlotMoveUp_Params params;
 
@@ -1861,7 +1861,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::OnSlotMoveUp()
 void UWeaponEquipmentSlotWidget_Gamepad_C::OnSlotMoveDown()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(65966);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66441);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_OnSlotMoveDown_Params params;
 
@@ -1879,7 +1879,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::OnSlotMoveDown()
 void UWeaponEquipmentSlotWidget_Gamepad_C::SlotMoveLeft()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(65965);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66440);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_SlotMoveLeft_Params params;
 
@@ -1897,7 +1897,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::SlotMoveLeft()
 void UWeaponEquipmentSlotWidget_Gamepad_C::OnSlotMoveRight()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(65964);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66439);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_OnSlotMoveRight_Params params;
 
@@ -1915,7 +1915,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::OnSlotMoveRight()
 void UWeaponEquipmentSlotWidget_Gamepad_C::CustomEvent_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(65963);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66438);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_CustomEvent_1_Params params;
 
@@ -1933,7 +1933,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::CustomEvent_1()
 void UWeaponEquipmentSlotWidget_Gamepad_C::OnDetachItemPressed()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(65962);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66437);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_OnDetachItemPressed_Params params;
 
@@ -1951,7 +1951,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::OnDetachItemPressed()
 void UWeaponEquipmentSlotWidget_Gamepad_C::OnDetachItemReleased()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(65961);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66436);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_OnDetachItemReleased_Params params;
 
@@ -1969,7 +1969,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::OnDetachItemReleased()
 void UWeaponEquipmentSlotWidget_Gamepad_C::OnInputWidgetInputB()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67185);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(67660);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_OnInputWidgetInputB_Params params;
 
@@ -1991,7 +1991,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::OnInputWidgetInputB()
 void UWeaponEquipmentSlotWidget_Gamepad_C::OnAttachmentFocused_Event_1(EWeaponAttachmentSlotID AttachmentSlotID, const TScriptInterface<class USlotInterface>& SlotInterface, const TScriptInterface<class USlotContainerInterface>& SlotContainerInterface)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(65956);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66431);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_OnAttachmentFocused_Event_1_Params params;
 	params.AttachmentSlotID = AttachmentSlotID;
@@ -2014,7 +2014,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::OnAttachmentFocused_Event_1(EWeaponAt
 void UWeaponEquipmentSlotWidget_Gamepad_C::ExecuteUbergraph_WeaponEquipmentSlotWidget_Gamepad(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(65842);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66317);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_ExecuteUbergraph_WeaponEquipmentSlotWidget_Gamepad_Params params;
 	params.EntryPoint = EntryPoint;
@@ -2037,7 +2037,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::ExecuteUbergraph_WeaponEquipmentSlotW
 void UWeaponEquipmentSlotWidget_Gamepad_C::OnWeaponEquipmentFocused__DelegateSignature(EEquipSlotID EquipSlotID, const TScriptInterface<class USlotInterface>& SlotInterface, const TScriptInterface<class USlotContainerInterface>& SlotContainerInterface)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(65837);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66312);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_OnWeaponEquipmentFocused__DelegateSignature_Params params;
 	params.EquipSlotID = EquipSlotID;
@@ -2062,7 +2062,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::OnWeaponEquipmentFocused__DelegateSig
 void UWeaponEquipmentSlotWidget_Gamepad_C::OnAttachmentFocused__DelegateSignature(EWeaponAttachmentSlotID AttachmentSlotID, const TScriptInterface<class USlotInterface>& SlotInterface, const TScriptInterface<class USlotContainerInterface>& SlotContainerInterface)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(65832);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66307);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_OnAttachmentFocused__DelegateSignature_Params params;
 	params.AttachmentSlotID = AttachmentSlotID;
@@ -2085,7 +2085,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::OnAttachmentFocused__DelegateSignatur
 void UWeaponEquipmentSlotWidget_Gamepad_C::OnDragLeaveWeaponSlot__DelegateSignature(int SlotIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(65830);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66305);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_OnDragLeaveWeaponSlot__DelegateSignature_Params params;
 	params.SlotIndex = SlotIndex;
@@ -2106,7 +2106,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::OnDragLeaveWeaponSlot__DelegateSignat
 void UWeaponEquipmentSlotWidget_Gamepad_C::OnDragEnterWeaponSlot__DelegateSignature(int SlotIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(65828);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66303);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_OnDragEnterWeaponSlot__DelegateSignature_Params params;
 	params.SlotIndex = SlotIndex;
@@ -2125,7 +2125,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::OnDragEnterWeaponSlot__DelegateSignat
 void UWeaponEquipmentSlotWidget_Gamepad_C::OnReleased__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(65827);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(66302);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_OnReleased__DelegateSignature_Params params;
 

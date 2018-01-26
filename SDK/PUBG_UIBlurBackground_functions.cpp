@@ -18,7 +18,7 @@ namespace Classes
 void UUIBlurBackground_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62948);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(63084);
 
 	UUIBlurBackground_C_Construct_Params params;
 
@@ -38,7 +38,7 @@ void UUIBlurBackground_C::Construct()
 void UUIBlurBackground_C::ExecuteUbergraph_UIBlurBackground(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62946);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(63082);
 
 	UUIBlurBackground_C_ExecuteUbergraph_UIBlurBackground_Params params;
 	params.EntryPoint = EntryPoint;

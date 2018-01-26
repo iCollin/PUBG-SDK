@@ -24,7 +24,7 @@ namespace Classes
 void UAchievementBlueprintLibrary::STATIC_GetCachedAchievementProgress(class UObject* WorldContextObject, class APlayerController* PlayerController, const struct FName& AchievementID, bool* bFoundID, float* Progress)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39675);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39705);
 
 	UAchievementBlueprintLibrary_GetCachedAchievementProgress_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -60,7 +60,7 @@ void UAchievementBlueprintLibrary::STATIC_GetCachedAchievementProgress(class UOb
 void UAchievementBlueprintLibrary::STATIC_GetCachedAchievementDescription(class UObject* WorldContextObject, class APlayerController* PlayerController, const struct FName& AchievementID, bool* bFoundID, struct FText* Title, struct FText* LockedDescription, struct FText* UnlockedDescription, bool* bHidden)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39666);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39696);
 
 	UAchievementBlueprintLibrary_GetCachedAchievementDescription_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -97,7 +97,7 @@ void UAchievementBlueprintLibrary::STATIC_GetCachedAchievementDescription(class 
 class UAchievementQueryCallbackProxy* UAchievementQueryCallbackProxy::STATIC_CacheAchievements(class UObject* WorldContextObject, class APlayerController* PlayerController)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39685);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39715);
 
 	UAchievementQueryCallbackProxy_CacheAchievements_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -124,7 +124,7 @@ class UAchievementQueryCallbackProxy* UAchievementQueryCallbackProxy::STATIC_Cac
 class UAchievementQueryCallbackProxy* UAchievementQueryCallbackProxy::STATIC_CacheAchievementDescriptions(class UObject* WorldContextObject, class APlayerController* PlayerController)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39681);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39711);
 
 	UAchievementQueryCallbackProxy_CacheAchievementDescriptions_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -154,7 +154,7 @@ class UAchievementQueryCallbackProxy* UAchievementQueryCallbackProxy::STATIC_Cac
 class UAchievementWriteCallbackProxy* UAchievementWriteCallbackProxy::STATIC_WriteAchievementProgress(class UObject* WorldContextObject, class APlayerController* PlayerController, const struct FName& AchievementName, float Progress, int UserTag)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39691);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39721);
 
 	UAchievementWriteCallbackProxy_WriteAchievementProgress_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -184,7 +184,7 @@ class UAchievementWriteCallbackProxy* UAchievementWriteCallbackProxy::STATIC_Wri
 class UConnectionCallbackProxy* UConnectionCallbackProxy::STATIC_ConnectToService(class UObject* WorldContextObject, class APlayerController* PlayerController)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39700);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39730);
 
 	UConnectionCallbackProxy_ConnectToService_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -213,7 +213,7 @@ class UConnectionCallbackProxy* UConnectionCallbackProxy::STATIC_ConnectToServic
 class UCreateSessionCallbackProxy* UCreateSessionCallbackProxy::STATIC_CreateSession(class UObject* WorldContextObject, class APlayerController* PlayerController, int PublicConnections, bool bUseLAN)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39706);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39736);
 
 	UCreateSessionCallbackProxy_CreateSession_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -242,7 +242,7 @@ class UCreateSessionCallbackProxy* UCreateSessionCallbackProxy::STATIC_CreateSes
 class UDestroySessionCallbackProxy* UDestroySessionCallbackProxy::STATIC_DestroySession(class UObject* WorldContextObject, class APlayerController* PlayerController)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39714);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39744);
 
 	UDestroySessionCallbackProxy_DestroySession_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -273,7 +273,7 @@ class UDestroySessionCallbackProxy* UDestroySessionCallbackProxy::STATIC_Destroy
 class UEndMatchCallbackProxy* UEndMatchCallbackProxy::STATIC_EndMatch(class UObject* WorldContextObject, class APlayerController* PlayerController, const TScriptInterface<class UTurnBasedMatchInterface>& MatchActor, const struct FString& MatchId, TEnumAsByte<EMPMatchOutcome> LocalPlayerOutcome, TEnumAsByte<EMPMatchOutcome> OtherPlayersOutcome)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39720);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39750);
 
 	UEndMatchCallbackProxy_EndMatch_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -306,7 +306,7 @@ class UEndMatchCallbackProxy* UEndMatchCallbackProxy::STATIC_EndMatch(class UObj
 class UEndTurnCallbackProxy* UEndTurnCallbackProxy::STATIC_EndTurn(class UObject* WorldContextObject, class APlayerController* PlayerController, const struct FString& MatchId, const TScriptInterface<class UTurnBasedMatchInterface>& TurnBasedMatchInterface)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39730);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39760);
 
 	UEndTurnCallbackProxy_EndTurn_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -334,7 +334,7 @@ class UEndTurnCallbackProxy* UEndTurnCallbackProxy::STATIC_EndTurn(class UObject
 struct FString UFindSessionsCallbackProxy::STATIC_GetServerName(const struct FBlueprintSessionResult& Result)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39753);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39783);
 
 	UFindSessionsCallbackProxy_GetServerName_Params params;
 	params.Result = Result;
@@ -359,7 +359,7 @@ struct FString UFindSessionsCallbackProxy::STATIC_GetServerName(const struct FBl
 int UFindSessionsCallbackProxy::STATIC_GetPingInMs(const struct FBlueprintSessionResult& Result)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39750);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39780);
 
 	UFindSessionsCallbackProxy_GetPingInMs_Params params;
 	params.Result = Result;
@@ -384,7 +384,7 @@ int UFindSessionsCallbackProxy::STATIC_GetPingInMs(const struct FBlueprintSessio
 int UFindSessionsCallbackProxy::STATIC_GetMaxPlayers(const struct FBlueprintSessionResult& Result)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39747);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39777);
 
 	UFindSessionsCallbackProxy_GetMaxPlayers_Params params;
 	params.Result = Result;
@@ -409,7 +409,7 @@ int UFindSessionsCallbackProxy::STATIC_GetMaxPlayers(const struct FBlueprintSess
 int UFindSessionsCallbackProxy::STATIC_GetCurrentPlayers(const struct FBlueprintSessionResult& Result)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39744);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39774);
 
 	UFindSessionsCallbackProxy_GetCurrentPlayers_Params params;
 	params.Result = Result;
@@ -437,7 +437,7 @@ int UFindSessionsCallbackProxy::STATIC_GetCurrentPlayers(const struct FBlueprint
 class UFindSessionsCallbackProxy* UFindSessionsCallbackProxy::STATIC_FindSessions(class UObject* WorldContextObject, class APlayerController* PlayerController, int MaxResults, bool bUseLAN)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39738);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39768);
 
 	UFindSessionsCallbackProxy_FindSessions_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -471,7 +471,7 @@ class UFindSessionsCallbackProxy* UFindSessionsCallbackProxy::STATIC_FindSession
 class UFindTurnBasedMatchCallbackProxy* UFindTurnBasedMatchCallbackProxy::STATIC_FindTurnBasedMatch(class UObject* WorldContextObject, class APlayerController* PlayerController, const TScriptInterface<class UTurnBasedMatchInterface>& MatchActor, int MinPlayers, int MaxPlayers, int PlayerGroup, bool ShowExistingMatches)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39758);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39788);
 
 	UFindTurnBasedMatchCallbackProxy_FindTurnBasedMatch_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -503,7 +503,7 @@ class UFindTurnBasedMatchCallbackProxy* UFindTurnBasedMatchCallbackProxy::STATIC
 class UInAppPurchaseCallbackProxy* UInAppPurchaseCallbackProxy::STATIC_CreateProxyObjectForInAppPurchase(class APlayerController* PlayerController, const struct FInAppPurchaseProductRequest& ProductRequest)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39769);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39799);
 
 	UInAppPurchaseCallbackProxy_CreateProxyObjectForInAppPurchase_Params params;
 	params.PlayerController = PlayerController;
@@ -530,7 +530,7 @@ class UInAppPurchaseCallbackProxy* UInAppPurchaseCallbackProxy::STATIC_CreatePro
 class UInAppPurchaseQueryCallbackProxy* UInAppPurchaseQueryCallbackProxy::STATIC_CreateProxyObjectForInAppPurchaseQuery(class APlayerController* PlayerController, TArray<struct FString> ProductIdentifiers)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39775);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39805);
 
 	UInAppPurchaseQueryCallbackProxy_CreateProxyObjectForInAppPurchaseQuery_Params params;
 	params.PlayerController = PlayerController;
@@ -557,7 +557,7 @@ class UInAppPurchaseQueryCallbackProxy* UInAppPurchaseQueryCallbackProxy::STATIC
 class UInAppPurchaseRestoreCallbackProxy* UInAppPurchaseRestoreCallbackProxy::STATIC_CreateProxyObjectForInAppPurchaseRestore(TArray<struct FInAppPurchaseProductRequest> ConsumableProductFlags, class APlayerController* PlayerController)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39782);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39812);
 
 	UInAppPurchaseRestoreCallbackProxy_CreateProxyObjectForInAppPurchaseRestore_Params params;
 	params.ConsumableProductFlags = ConsumableProductFlags;
@@ -585,7 +585,7 @@ class UInAppPurchaseRestoreCallbackProxy* UInAppPurchaseRestoreCallbackProxy::ST
 class UJoinSessionCallbackProxy* UJoinSessionCallbackProxy::STATIC_JoinSession(class UObject* WorldContextObject, class APlayerController* PlayerController, const struct FBlueprintSessionResult& SearchResult)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39796);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39826);
 
 	UJoinSessionCallbackProxy_JoinSession_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -614,7 +614,7 @@ class UJoinSessionCallbackProxy* UJoinSessionCallbackProxy::STATIC_JoinSession(c
 bool ULeaderboardBlueprintLibrary::STATIC_WriteLeaderboardInteger(class APlayerController* PlayerController, const struct FName& StatName, int StatValue)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39803);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39833);
 
 	ULeaderboardBlueprintLibrary_WriteLeaderboardInteger_Params params;
 	params.PlayerController = PlayerController;
@@ -642,7 +642,7 @@ bool ULeaderboardBlueprintLibrary::STATIC_WriteLeaderboardInteger(class APlayerC
 class ULeaderboardFlushCallbackProxy* ULeaderboardFlushCallbackProxy::STATIC_CreateProxyObjectForFlush(class APlayerController* PlayerController, const struct FName& SessionName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39808);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39838);
 
 	ULeaderboardFlushCallbackProxy_CreateProxyObjectForFlush_Params params;
 	params.PlayerController = PlayerController;
@@ -669,7 +669,7 @@ class ULeaderboardFlushCallbackProxy* ULeaderboardFlushCallbackProxy::STATIC_Cre
 class ULeaderboardQueryCallbackProxy* ULeaderboardQueryCallbackProxy::STATIC_CreateProxyObjectForIntQuery(class APlayerController* PlayerController, const struct FName& StatName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39814);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39844);
 
 	ULeaderboardQueryCallbackProxy_CreateProxyObjectForIntQuery_Params params;
 	params.PlayerController = PlayerController;
@@ -696,7 +696,7 @@ class ULeaderboardQueryCallbackProxy* ULeaderboardQueryCallbackProxy::STATIC_Cre
 class ULogoutCallbackProxy* ULogoutCallbackProxy::STATIC_Logout(class UObject* WorldContextObject, class APlayerController* PlayerController)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39820);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39850);
 
 	ULogoutCallbackProxy_Logout_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -719,7 +719,7 @@ class ULogoutCallbackProxy* ULogoutCallbackProxy::STATIC_Logout(class UObject* W
 void AOnlineBeaconClient::ClientOnConnected()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39829);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39859);
 
 	AOnlineBeaconClient_ClientOnConnected_Params params;
 
@@ -741,7 +741,7 @@ void AOnlineBeaconClient::ClientOnConnected()
 void APartyBeaconClient::ServerUpdateReservationRequest(const struct FString& SessionId, const struct FPartyReservation& ReservationUpdate)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39856);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39886);
 
 	APartyBeaconClient_ServerUpdateReservationRequest_Params params;
 	params.SessionId = SessionId;
@@ -765,7 +765,7 @@ void APartyBeaconClient::ServerUpdateReservationRequest(const struct FString& Se
 void APartyBeaconClient::ServerReservationRequest(const struct FString& SessionId, const struct FPartyReservation& Reservation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39853);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39883);
 
 	APartyBeaconClient_ServerReservationRequest_Params params;
 	params.SessionId = SessionId;
@@ -788,7 +788,7 @@ void APartyBeaconClient::ServerReservationRequest(const struct FString& SessionI
 void APartyBeaconClient::ServerCancelReservationRequest(const struct FUniqueNetIdRepl& PartyLeader)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39851);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39881);
 
 	APartyBeaconClient_ServerCancelReservationRequest_Params params;
 	params.PartyLeader = PartyLeader;
@@ -810,7 +810,7 @@ void APartyBeaconClient::ServerCancelReservationRequest(const struct FUniqueNetI
 void APartyBeaconClient::ClientSendReservationUpdates(int NumRemainingReservations)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39849);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39879);
 
 	APartyBeaconClient_ClientSendReservationUpdates_Params params;
 	params.NumRemainingReservations = NumRemainingReservations;
@@ -830,7 +830,7 @@ void APartyBeaconClient::ClientSendReservationUpdates(int NumRemainingReservatio
 void APartyBeaconClient::ClientSendReservationFull()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39848);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39878);
 
 	APartyBeaconClient_ClientSendReservationFull_Params params;
 
@@ -851,7 +851,7 @@ void APartyBeaconClient::ClientSendReservationFull()
 void APartyBeaconClient::ClientReservationResponse(TEnumAsByte<EPartyReservationResult> ReservationResponse)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39846);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39876);
 
 	APartyBeaconClient_ClientReservationResponse_Params params;
 	params.ReservationResponse = ReservationResponse;
@@ -873,7 +873,7 @@ void APartyBeaconClient::ClientReservationResponse(TEnumAsByte<EPartyReservation
 void APartyBeaconClient::ClientCancelReservationResponse(TEnumAsByte<EPartyReservationResult> ReservationResponse)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39844);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39874);
 
 	APartyBeaconClient_ClientCancelReservationResponse_Params params;
 	params.ReservationResponse = ReservationResponse;
@@ -893,7 +893,7 @@ void APartyBeaconClient::ClientCancelReservationResponse(TEnumAsByte<EPartyReser
 void ATestBeaconClient::ServerPong()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39866);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39896);
 
 	ATestBeaconClient_ServerPong_Params params;
 
@@ -912,7 +912,7 @@ void ATestBeaconClient::ServerPong()
 void ATestBeaconClient::ClientPing()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39865);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39895);
 
 	ATestBeaconClient_ClientPing_Params params;
 
@@ -938,7 +938,7 @@ void ATestBeaconClient::ClientPing()
 class UQuitMatchCallbackProxy* UQuitMatchCallbackProxy::STATIC_QuitMatch(class UObject* WorldContextObject, class APlayerController* PlayerController, const struct FString& MatchId, TEnumAsByte<EMPMatchOutcome> Outcome, int TurnTimeoutInSeconds)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39884);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39914);
 
 	UQuitMatchCallbackProxy_QuitMatch_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -968,7 +968,7 @@ class UQuitMatchCallbackProxy* UQuitMatchCallbackProxy::STATIC_QuitMatch(class U
 class UShowLoginUICallbackProxy* UShowLoginUICallbackProxy::STATIC_ShowExternalLoginUI(class UObject* WorldContextObject, class APlayerController* InPlayerController)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39893);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39923);
 
 	UShowLoginUICallbackProxy_ShowExternalLoginUI_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -995,7 +995,7 @@ class UShowLoginUICallbackProxy* UShowLoginUICallbackProxy::STATIC_ShowExternalL
 void UTurnBasedBlueprintLibrary::STATIC_RegisterTurnBasedMatchInterfaceObject(class UObject* WorldContextObject, class APlayerController* PlayerController, class UObject* Object)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39915);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39945);
 
 	UTurnBasedBlueprintLibrary_RegisterTurnBasedMatchInterfaceObject_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -1023,7 +1023,7 @@ void UTurnBasedBlueprintLibrary::STATIC_RegisterTurnBasedMatchInterfaceObject(cl
 void UTurnBasedBlueprintLibrary::STATIC_GetPlayerDisplayName(class UObject* WorldContextObject, class APlayerController* PlayerController, const struct FString& MatchId, int PlayerIndex, struct FString* PlayerDisplayName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39909);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39939);
 
 	UTurnBasedBlueprintLibrary_GetPlayerDisplayName_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -1054,7 +1054,7 @@ void UTurnBasedBlueprintLibrary::STATIC_GetPlayerDisplayName(class UObject* Worl
 void UTurnBasedBlueprintLibrary::STATIC_GetMyPlayerIndex(class UObject* WorldContextObject, class APlayerController* PlayerController, const struct FString& MatchId, int* PlayerIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39904);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39934);
 
 	UTurnBasedBlueprintLibrary_GetMyPlayerIndex_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -1084,7 +1084,7 @@ void UTurnBasedBlueprintLibrary::STATIC_GetMyPlayerIndex(class UObject* WorldCon
 void UTurnBasedBlueprintLibrary::STATIC_GetIsMyTurn(class UObject* WorldContextObject, class APlayerController* PlayerController, const struct FString& MatchId, bool* bIsMyTurn)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39899);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39929);
 
 	UTurnBasedBlueprintLibrary_GetIsMyTurn_Params params;
 	params.WorldContextObject = WorldContextObject;

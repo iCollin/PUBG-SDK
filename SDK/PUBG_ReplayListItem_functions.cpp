@@ -20,7 +20,7 @@ namespace Classes
 void UReplayListItem_C::SetAllDeadOrWin(bool bAllDeadOrWin)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105734);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105737);
 
 	UReplayListItem_C_SetAllDeadOrWin_Params params;
 	params.bAllDeadOrWin = bAllDeadOrWin;
@@ -41,7 +41,7 @@ void UReplayListItem_C::SetAllDeadOrWin(bool bAllDeadOrWin)
 void UReplayListItem_C::SetSeverRecording(bool bIsServerRecording)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105729);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105732);
 
 	UReplayListItem_C_SetSeverRecording_Params params;
 	params.bIsServerRecording = bIsServerRecording;
@@ -62,7 +62,7 @@ void UReplayListItem_C::SetSeverRecording(bool bIsServerRecording)
 void UReplayListItem_C::SetActionMessageDownloadPercent(float fPercent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105723);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105726);
 
 	UReplayListItem_C_SetActionMessageDownloadPercent_Params params;
 	params.fPercent = fPercent;
@@ -85,7 +85,7 @@ void UReplayListItem_C::SetActionMessageDownloadPercent(float fPercent)
 void UReplayListItem_C::ShowDownloadPercent(const struct FString& strFileName, int nReceived, int nTotal)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105712);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105715);
 
 	UReplayListItem_C_ShowDownloadPercent_Params params;
 	params.strFileName = strFileName;
@@ -106,7 +106,7 @@ void UReplayListItem_C::ShowDownloadPercent(const struct FString& strFileName, i
 void UReplayListItem_C::DisableDownload()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105711);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105714);
 
 	UReplayListItem_C_DisableDownload_Params params;
 
@@ -126,7 +126,7 @@ void UReplayListItem_C::DisableDownload()
 void UReplayListItem_C::SetArchived(bool IsArchived)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105708);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105711);
 
 	UReplayListItem_C_SetArchived_Params params;
 	params.IsArchived = IsArchived;
@@ -147,7 +147,7 @@ void UReplayListItem_C::SetArchived(bool IsArchived)
 void UReplayListItem_C::SetRegionOrLocal(const struct FString& inRegionOrLocal)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105705);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105708);
 
 	UReplayListItem_C_SetRegionOrLocal_Params params;
 	params.inRegionOrLocal = inRegionOrLocal;
@@ -168,7 +168,7 @@ void UReplayListItem_C::SetRegionOrLocal(const struct FString& inRegionOrLocal)
 void UReplayListItem_C::SetShouldKeep(bool bShouldKeep)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105703);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105706);
 
 	UReplayListItem_C_SetShouldKeep_Params params;
 	params.bShouldKeep = bShouldKeep;
@@ -189,7 +189,7 @@ void UReplayListItem_C::SetShouldKeep(bool bShouldKeep)
 void UReplayListItem_C::SetCorrupt(bool bIsCorrupt)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105698);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105701);
 
 	UReplayListItem_C_SetCorrupt_Params params;
 	params.bIsCorrupt = bIsCorrupt;
@@ -210,7 +210,7 @@ void UReplayListItem_C::SetCorrupt(bool bIsCorrupt)
 void UReplayListItem_C::SetInComplete(bool bIncomplete)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105693);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105696);
 
 	UReplayListItem_C_SetInComplete_Params params;
 	params.bIncomplete = bIncomplete;
@@ -231,7 +231,7 @@ void UReplayListItem_C::SetInComplete(bool bIncomplete)
 void UReplayListItem_C::SetVersionCompatible(bool bIsVersionCompatible)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105688);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105691);
 
 	UReplayListItem_C_SetVersionCompatible_Params params;
 	params.bIsVersionCompatible = bIsVersionCompatible;
@@ -252,7 +252,7 @@ void UReplayListItem_C::SetVersionCompatible(bool bIsVersionCompatible)
 void UReplayListItem_C::SetMode(const struct FString& Mode)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105681);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105684);
 
 	UReplayListItem_C_SetMode_Params params;
 	params.Mode = Mode;
@@ -273,7 +273,7 @@ void UReplayListItem_C::SetMode(const struct FString& Mode)
 void UReplayListItem_C::SetLength(int LengthInMS)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105663);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105666);
 
 	UReplayListItem_C_SetLength_Params params;
 	params.LengthInMS = LengthInMS;
@@ -294,7 +294,7 @@ void UReplayListItem_C::SetLength(int LengthInMS)
 void UReplayListItem_C::SetActionMessageSimple(const struct FString& Message)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105660);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105663);
 
 	UReplayListItem_C_SetActionMessageSimple_Params params;
 	params.Message = Message;
@@ -315,7 +315,7 @@ void UReplayListItem_C::SetActionMessageSimple(const struct FString& Message)
 void UReplayListItem_C::SetActionMessageDecompressPercent(float fPercent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105654);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105657);
 
 	UReplayListItem_C_SetActionMessageDecompressPercent_Params params;
 	params.fPercent = fPercent;
@@ -337,7 +337,7 @@ void UReplayListItem_C::SetActionMessageDecompressPercent(float fPercent)
 void UReplayListItem_C::SetActionMessage(bool bIsDownloading, bool bIsUnzipping)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105651);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105654);
 
 	UReplayListItem_C_SetActionMessage_Params params;
 	params.bIsDownloading = bIsDownloading;
@@ -360,7 +360,7 @@ void UReplayListItem_C::SetActionMessage(bool bIsDownloading, bool bIsUnzipping)
 void UReplayListItem_C::SetDownloadCancelBtns(bool bIsDownloading, bool bIsUnzipping)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105647);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105650);
 
 	UReplayListItem_C_SetDownloadCancelBtns_Params params;
 	params.bIsDownloading = bIsDownloading;
@@ -382,7 +382,7 @@ void UReplayListItem_C::SetDownloadCancelBtns(bool bIsDownloading, bool bIsUnzip
 void UReplayListItem_C::SetDate(const struct FDateTime& Date)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105621);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105624);
 
 	UReplayListItem_C_SetDate_Params params;
 	params.Date = Date;
@@ -403,7 +403,7 @@ void UReplayListItem_C::SetDate(const struct FDateTime& Date)
 void UReplayListItem_C::SetLive(bool IsLive)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105618);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105621);
 
 	UReplayListItem_C_SetLive_Params params;
 	params.IsLive = IsLive;
@@ -424,7 +424,7 @@ void UReplayListItem_C::SetLive(bool IsLive)
 void UReplayListItem_C::SetSize(int SizeInBytes)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105601);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105604);
 
 	UReplayListItem_C_SetSize_Params params;
 	params.SizeInBytes = SizeInBytes;
@@ -445,7 +445,7 @@ void UReplayListItem_C::SetSize(int SizeInBytes)
 void UReplayListItem_C::SetFriendlyName(const struct FString& FriendlyName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105598);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105601);
 
 	UReplayListItem_C_SetFriendlyName_Params params;
 	params.FriendlyName = FriendlyName;
@@ -466,7 +466,7 @@ void UReplayListItem_C::SetFriendlyName(const struct FString& FriendlyName)
 void UReplayListItem_C::SetReplayItem(const struct FReplayItem& ReplayItem)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105594);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105597);
 
 	UReplayListItem_C_SetReplayItem_Params params;
 	params.ReplayItem = ReplayItem;
@@ -487,7 +487,7 @@ void UReplayListItem_C::SetReplayItem(const struct FReplayItem& ReplayItem)
 void UReplayListItem_C::SetSessionName(const struct FString& Text)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105588);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105591);
 
 	UReplayListItem_C_SetSessionName_Params params;
 	params.Text = Text;
@@ -510,7 +510,7 @@ void UReplayListItem_C::SetSessionName(const struct FString& Text)
 void UReplayListItem_C::OnProgress(const struct FString& archive, float percentage, int bytes)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105584);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105587);
 
 	UReplayListItem_C_OnProgress_Params params;
 	params.archive = archive;
@@ -534,7 +534,7 @@ void UReplayListItem_C::OnProgress(const struct FString& archive, float percenta
 void UReplayListItem_C::OnFileDone(const struct FString& archive, const struct FString& file)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105581);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105584);
 
 	UReplayListItem_C_OnFileDone_Params params;
 	params.archive = archive;
@@ -557,7 +557,7 @@ void UReplayListItem_C::OnFileDone(const struct FString& archive, const struct F
 void UReplayListItem_C::OnDone(const struct FString& archive, TEnumAsByte<EZipUtilityCompletionState> CompletionState)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105578);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105581);
 
 	UReplayListItem_C_OnDone_Params params;
 	params.archive = archive;
@@ -577,7 +577,7 @@ void UReplayListItem_C::OnDone(const struct FString& archive, TEnumAsByte<EZipUt
 void UReplayListItem_C::BndEvt__Cancel_K2Node_ComponentBoundEvent_92_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105577);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105580);
 
 	UReplayListItem_C_BndEvt__Cancel_K2Node_ComponentBoundEvent_92_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -597,7 +597,7 @@ void UReplayListItem_C::BndEvt__Cancel_K2Node_ComponentBoundEvent_92_OnButtonCli
 void UReplayListItem_C::BndEvt__CheckBoxShouldKeep_K2Node_ComponentBoundEvent_548_OnCheckBoxComponentStateChanged__DelegateSignature(bool bIsChecked)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105575);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105578);
 
 	UReplayListItem_C_BndEvt__CheckBoxShouldKeep_K2Node_ComponentBoundEvent_548_OnCheckBoxComponentStateChanged__DelegateSignature_Params params;
 	params.bIsChecked = bIsChecked;
@@ -619,7 +619,7 @@ void UReplayListItem_C::BndEvt__CheckBoxShouldKeep_K2Node_ComponentBoundEvent_54
 void UReplayListItem_C::UnzipEvent(const struct FString& strFullPath, const struct FString& strToExtract)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105572);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105575);
 
 	UReplayListItem_C_UnzipEvent_Params params;
 	params.strFullPath = strFullPath;
@@ -643,7 +643,7 @@ void UReplayListItem_C::UnzipEvent(const struct FString& strFullPath, const stru
 void UReplayListItem_C::ShowUnzipPercent(const struct FString& archive, float percentage, int bytes)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105568);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105571);
 
 	UReplayListItem_C_ShowUnzipPercent_Params params;
 	params.archive = archive;
@@ -664,7 +664,7 @@ void UReplayListItem_C::ShowUnzipPercent(const struct FString& archive, float pe
 void UReplayListItem_C::BndEvt__ButtonReplay_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105567);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105570);
 
 	UReplayListItem_C_BndEvt__ButtonReplay_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -685,7 +685,7 @@ void UReplayListItem_C::BndEvt__ButtonReplay_K2Node_ComponentBoundEvent_0_OnButt
 void UReplayListItem_C::OnStartProcess(const struct FString& archive, int bytes)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105564);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105567);
 
 	UReplayListItem_C_OnStartProcess_Params params;
 	params.archive = archive;
@@ -709,7 +709,7 @@ void UReplayListItem_C::OnStartProcess(const struct FString& archive, int bytes)
 void UReplayListItem_C::OnFileFound(const struct FString& archive, const struct FString& file, int Size)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105560);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105563);
 
 	UReplayListItem_C_OnFileFound_Params params;
 	params.archive = archive;
@@ -733,7 +733,7 @@ void UReplayListItem_C::OnFileFound(const struct FString& archive, const struct 
 void UReplayListItem_C::ShowUnZipFileDone(const struct FString& archive, const struct FString& file)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105557);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105560);
 
 	UReplayListItem_C_ShowUnZipFileDone_Params params;
 	params.archive = archive;
@@ -756,7 +756,7 @@ void UReplayListItem_C::ShowUnZipFileDone(const struct FString& archive, const s
 void UReplayListItem_C::ShowUnzipDone(const struct FString& archive, TEnumAsByte<EZipUtilityCompletionState> CompletionState)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105554);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105557);
 
 	UReplayListItem_C_ShowUnzipDone_Params params;
 	params.archive = archive;
@@ -776,7 +776,7 @@ void UReplayListItem_C::ShowUnzipDone(const struct FString& archive, TEnumAsByte
 void UReplayListItem_C::BndEvt__Download_K2Node_ComponentBoundEvent_15_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105553);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105556);
 
 	UReplayListItem_C_BndEvt__Download_K2Node_ComponentBoundEvent_15_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -794,7 +794,7 @@ void UReplayListItem_C::BndEvt__Download_K2Node_ComponentBoundEvent_15_OnButtonC
 void UReplayListItem_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105552);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105555);
 
 	UReplayListItem_C_Construct_Params params;
 
@@ -814,7 +814,7 @@ void UReplayListItem_C::Construct()
 void UReplayListItem_C::ExecuteUbergraph_ReplayListItem(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105515);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105518);
 
 	UReplayListItem_C_ExecuteUbergraph_ReplayListItem_Params params;
 	params.EntryPoint = EntryPoint;
@@ -835,7 +835,7 @@ void UReplayListItem_C::ExecuteUbergraph_ReplayListItem(int EntryPoint)
 void UReplayListItem_C::EventOnUpdateItem__DelegateSignature(const struct FReplayItem& inReplayItem)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105513);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105516);
 
 	UReplayListItem_C_EventOnUpdateItem__DelegateSignature_Params params;
 	params.inReplayItem = inReplayItem;
@@ -858,7 +858,7 @@ void UReplayListItem_C::EventOnUpdateItem__DelegateSignature(const struct FRepla
 void UReplayListItem_C::EventOnUpdateShouldKeep__DelegateSignature(const struct FString& RegionOrLocal, const struct FReplayItem& inReplayItem, const struct FReplayItem& bShoudUpdate)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105509);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105512);
 
 	UReplayListItem_C_EventOnUpdateShouldKeep__DelegateSignature_Params params;
 	params.RegionOrLocal = RegionOrLocal;
@@ -882,7 +882,7 @@ void UReplayListItem_C::EventOnUpdateShouldKeep__DelegateSignature(const struct 
 void UReplayListItem_C::EventOnCancelDownloading__DelegateSignature(const struct FString& Name, class UWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105506);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105509);
 
 	UReplayListItem_C_EventOnCancelDownloading__DelegateSignature_Params params;
 	params.Name = Name;
@@ -905,7 +905,7 @@ void UReplayListItem_C::EventOnCancelDownloading__DelegateSignature(const struct
 void UReplayListItem_C::EventOnDownload__DelegateSignature(const struct FString& Name, class UWidget* Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105503);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105506);
 
 	UReplayListItem_C_EventOnDownload__DelegateSignature_Params params;
 	params.Name = Name;
@@ -928,7 +928,7 @@ void UReplayListItem_C::EventOnDownload__DelegateSignature(const struct FString&
 void UReplayListItem_C::EventOnItemClicked__DelegateSignature(const struct FString& inRegionOrLocal, const struct FReplayItem& inReplayItem)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105500);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(105503);
 
 	UReplayListItem_C_EventOnItemClicked__DelegateSignature_Params params;
 	params.inRegionOrLocal = inRegionOrLocal;
