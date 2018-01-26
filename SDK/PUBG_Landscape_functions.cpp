@@ -30,7 +30,7 @@ namespace Classes
 void ALandscapeProxy::EditorApplySpline(class USplineComponent* InSplineComponent, float StartWidth, float EndWidth, float StartSideFalloff, float EndSideFalloff, float StartRoll, float EndRoll, int NumSubdivisions, bool bRaiseHeights, bool bLowerHeights, class ULandscapeLayerInfoObject* PaintLayer)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27188);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27218);
 
 	ALandscapeProxy_EditorApplySpline_Params params;
 	params.InSplineComponent = InSplineComponent;
@@ -62,7 +62,7 @@ void ALandscapeProxy::EditorApplySpline(class USplineComponent* InSplineComponen
 void ALandscapeProxy::ChangeLODDistanceFactor(float InLODDistanceFactor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27186);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27216);
 
 	ALandscapeProxy_ChangeLODDistanceFactor_Params params;
 	params.InLODDistanceFactor = InLODDistanceFactor;

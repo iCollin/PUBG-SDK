@@ -20,7 +20,7 @@ namespace Classes
 void USystemMessageWidget_C::AddMessage(class UMessageWidget_C* Message)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73804);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74004);
 
 	USystemMessageWidget_C_AddMessage_Params params;
 	params.Message = Message;
@@ -42,7 +42,7 @@ void USystemMessageWidget_C::AddMessage(class UMessageWidget_C* Message)
 void USystemMessageWidget_C::DisplaySystemMessage(ESystemMessageType MessageType, const struct FText& Message)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73792);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73992);
 
 	USystemMessageWidget_C_DisplaySystemMessage_Params params;
 	params.MessageType = MessageType;

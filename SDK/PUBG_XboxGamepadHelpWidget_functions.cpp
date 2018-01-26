@@ -22,7 +22,7 @@ namespace Classes
 struct FEventReply UXboxGamepadHelpWidget_C::OnKeyDown(struct FGeometry* MyGeometry, struct FKeyEvent* InKeyEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73255);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73455);
 
 	UXboxGamepadHelpWidget_C_OnKeyDown_Params params;
 	params.MyGeometry = MyGeometry;
@@ -48,7 +48,7 @@ struct FEventReply UXboxGamepadHelpWidget_C::OnKeyDown(struct FGeometry* MyGeome
 struct FEventReply UXboxGamepadHelpWidget_C::OnMouseButtonDown_1(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73248);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73448);
 
 	UXboxGamepadHelpWidget_C_OnMouseButtonDown_1_Params params;
 	params.MyGeometry = MyGeometry;
@@ -72,7 +72,7 @@ struct FEventReply UXboxGamepadHelpWidget_C::OnMouseButtonDown_1(const struct FG
 void UXboxGamepadHelpWidget_C::SetState(int State)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73242);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73442);
 
 	UXboxGamepadHelpWidget_C_SetState_Params params;
 	params.State = State;
@@ -91,7 +91,7 @@ void UXboxGamepadHelpWidget_C::SetState(int State)
 void UXboxGamepadHelpWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73241);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73441);
 
 	UXboxGamepadHelpWidget_C_Construct_Params params;
 
@@ -111,7 +111,7 @@ void UXboxGamepadHelpWidget_C::Construct()
 void UXboxGamepadHelpWidget_C::OnFocusLost(struct FFocusEvent* InFocusEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73239);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73439);
 
 	UXboxGamepadHelpWidget_C_OnFocusLost_Params params;
 	params.InFocusEvent = InFocusEvent;
@@ -133,7 +133,7 @@ void UXboxGamepadHelpWidget_C::OnFocusLost(struct FFocusEvent* InFocusEvent)
 void UXboxGamepadHelpWidget_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73236);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73436);
 
 	UXboxGamepadHelpWidget_C_Tick_Params params;
 	params.MyGeometry = MyGeometry;
@@ -155,7 +155,7 @@ void UXboxGamepadHelpWidget_C::Tick(struct FGeometry* MyGeometry, float* InDelta
 void UXboxGamepadHelpWidget_C::ExecuteUbergraph_XboxGamepadHelpWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73227);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73427);
 
 	UXboxGamepadHelpWidget_C_ExecuteUbergraph_XboxGamepadHelpWidget_Params params;
 	params.EntryPoint = EntryPoint;

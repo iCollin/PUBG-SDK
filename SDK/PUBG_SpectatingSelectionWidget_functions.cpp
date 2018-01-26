@@ -20,7 +20,7 @@ namespace Classes
 struct FText USpectatingSelectionWidget_C::Get_SelectionText_Text_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73702);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73902);
 
 	USpectatingSelectionWidget_C_Get_SelectionText_Text_1_Params params;
 
@@ -42,7 +42,7 @@ struct FText USpectatingSelectionWidget_C::Get_SelectionText_Text_1()
 struct FText USpectatingSelectionWidget_C::Get_SelectionKey_Text_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73698);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73898);
 
 	USpectatingSelectionWidget_C_Get_SelectionKey_Text_1_Params params;
 
@@ -64,7 +64,7 @@ struct FText USpectatingSelectionWidget_C::Get_SelectionKey_Text_1()
 void USpectatingSelectionWidget_C::OnPrepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73686);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73886);
 
 	USpectatingSelectionWidget_C_OnPrepass_1_Params params;
 	params.BoundWidget = BoundWidget;

@@ -18,7 +18,7 @@ namespace Classes
 void AMeleeWeaponStudio_C::OnLoaded()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61660);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62268);
 
 	AMeleeWeaponStudio_C_OnLoaded_Params params;
 
@@ -36,7 +36,7 @@ void AMeleeWeaponStudio_C::OnLoaded()
 void AMeleeWeaponStudio_C::UserConstructionScript()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61658);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62266);
 
 	AMeleeWeaponStudio_C_UserConstructionScript_Params params;
 
@@ -56,7 +56,7 @@ void AMeleeWeaponStudio_C::UserConstructionScript()
 void AMeleeWeaponStudio_C::SetItem(class UItem** Item)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61656);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62264);
 
 	AMeleeWeaponStudio_C_SetItem_Params params;
 	params.Item = Item;
@@ -77,7 +77,7 @@ void AMeleeWeaponStudio_C::SetItem(class UItem** Item)
 void AMeleeWeaponStudio_C::ExecuteUbergraph_MeleeWeaponStudio(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61651);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62259);
 
 	AMeleeWeaponStudio_C_ExecuteUbergraph_MeleeWeaponStudio_Params params;
 	params.EntryPoint = EntryPoint;

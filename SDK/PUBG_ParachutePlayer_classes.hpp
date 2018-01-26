@@ -34,7 +34,7 @@ public:
 	float                                              _____0______1_48D534754930C313D14949AAF35C3B50;           // 0x05E8(0x0004) (ZeroConstructor, IsPlainOldData)
 	TEnumAsByte<ETimelineDirection>                    _____0__Direction_48D534754930C313D14949AAF35C3B50;       // 0x05EC(0x0001) (ZeroConstructor, IsPlainOldData)
 	unsigned char                                      UnknownData00[0x3];                                       // 0x05ED(0x0003) MISSED OFFSET
-	class UTimelineComponent*                          Timeline;                                                 // 0x05F0(0x0008) (BlueprintVisible, ZeroConstructor, IsPlainOldData)
+	class UTimelineComponent*                          АР„З|·xЗ_1;                                               // 0x05F0(0x0008) (BlueprintVisible, ZeroConstructor, IsPlainOldData)
 	float                                              MaxTerminalVelocity;                                      // 0x05F8(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	float                                              MaxDecreaseTerminalVelocity;                              // 0x05FC(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	float                                              LandingBrakeFactor;                                       // 0x0600(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
@@ -69,7 +69,7 @@ public:
 
 
 	void UserConstructionScript();
-	void UnknownFunction();
+	void АР„З|·xЗ_();
 	void ReceiveEndPlay(TEnumAsByte<EEndPlayReason>* EndPlayReason);
 	void ReceiveHit(class UPrimitiveComponent** MyComp, class AActor** Other, class UPrimitiveComponent** OtherComp, bool* bSelfMoved, struct FVector* HitLocation, struct FVector* HitNormal, struct FVector* NormalImpulse, struct FHitResult* Hit);
 	void ReceiveTick(float* DeltaSeconds);

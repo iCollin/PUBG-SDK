@@ -22,7 +22,7 @@ namespace Classes
 bool UMobileInstalledContent::Mount(int PakOrder, const struct FString& MountPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40337);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40367);
 
 	UMobileInstalledContent_Mount_Params params;
 	params.PakOrder = PakOrder;
@@ -47,7 +47,7 @@ bool UMobileInstalledContent::Mount(int PakOrder, const struct FString& MountPoi
 float UMobileInstalledContent::GetInstalledContentSize()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40335);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40365);
 
 	UMobileInstalledContent_GetInstalledContentSize_Params params;
 
@@ -70,7 +70,7 @@ float UMobileInstalledContent::GetInstalledContentSize()
 float UMobileInstalledContent::GetDiskFreeSpace()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40333);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40363);
 
 	UMobileInstalledContent_GetDiskFreeSpace_Params params;
 
@@ -94,7 +94,7 @@ float UMobileInstalledContent::GetDiskFreeSpace()
 void UMobilePendingContent::StartInstall(const struct FScriptDelegate& OnSucceeded, const struct FScriptDelegate& OnFailed)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40353);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40383);
 
 	UMobilePendingContent_StartInstall_Params params;
 	params.OnSucceeded = OnSucceeded;
@@ -117,7 +117,7 @@ void UMobilePendingContent::StartInstall(const struct FScriptDelegate& OnSucceed
 float UMobilePendingContent::GetTotalDownloadedSize()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40351);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40381);
 
 	UMobilePendingContent_GetTotalDownloadedSize_Params params;
 
@@ -140,7 +140,7 @@ float UMobilePendingContent::GetTotalDownloadedSize()
 float UMobilePendingContent::GetRequiredDiskSpace()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40349);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40379);
 
 	UMobilePendingContent_GetRequiredDiskSpace_Params params;
 
@@ -163,7 +163,7 @@ float UMobilePendingContent::GetRequiredDiskSpace()
 float UMobilePendingContent::GetInstallProgress()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40347);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40377);
 
 	UMobilePendingContent_GetInstallProgress_Params params;
 
@@ -186,7 +186,7 @@ float UMobilePendingContent::GetInstallProgress()
 struct FText UMobilePendingContent::GetDownloadStatusText()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40345);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40375);
 
 	UMobilePendingContent_GetDownloadStatusText_Params params;
 
@@ -209,7 +209,7 @@ struct FText UMobilePendingContent::GetDownloadStatusText()
 float UMobilePendingContent::GetDownloadSpeed()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40343);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40373);
 
 	UMobilePendingContent_GetDownloadSpeed_Params params;
 
@@ -232,7 +232,7 @@ float UMobilePendingContent::GetDownloadSpeed()
 float UMobilePendingContent::GetDownloadSize()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40341);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40371);
 
 	UMobilePendingContent_GetDownloadSize_Params params;
 
@@ -259,7 +259,7 @@ float UMobilePendingContent::GetDownloadSize()
 void UMobilePatchingLibrary::STATIC_RequestContent(const struct FString& RemoteManifestURL, const struct FString& CloudURL, const struct FString& InstallDirectory, const struct FScriptDelegate& OnSucceeded, const struct FScriptDelegate& OnFailed)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40366);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40396);
 
 	UMobilePatchingLibrary_RequestContent_Params params;
 	params.RemoteManifestURL = RemoteManifestURL;
@@ -285,7 +285,7 @@ void UMobilePatchingLibrary::STATIC_RequestContent(const struct FString& RemoteM
 bool UMobilePatchingLibrary::STATIC_HasActiveWiFiConnection()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40364);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40394);
 
 	UMobilePatchingLibrary_HasActiveWiFiConnection_Params params;
 
@@ -308,7 +308,7 @@ bool UMobilePatchingLibrary::STATIC_HasActiveWiFiConnection()
 TArray<struct FString> UMobilePatchingLibrary::STATIC_GetSupportedPlatformNames()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40361);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40391);
 
 	UMobilePatchingLibrary_GetSupportedPlatformNames_Params params;
 
@@ -332,7 +332,7 @@ TArray<struct FString> UMobilePatchingLibrary::STATIC_GetSupportedPlatformNames(
 class UMobileInstalledContent* UMobilePatchingLibrary::STATIC_GetInstalledContent(const struct FString& InstallDirectory)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40358);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40388);
 
 	UMobilePatchingLibrary_GetInstalledContent_Params params;
 	params.InstallDirectory = InstallDirectory;
@@ -356,7 +356,7 @@ class UMobileInstalledContent* UMobilePatchingLibrary::STATIC_GetInstalledConten
 struct FString UMobilePatchingLibrary::STATIC_GetActiveDeviceProfileName()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40356);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40386);
 
 	UMobilePatchingLibrary_GetActiveDeviceProfileName_Params params;
 

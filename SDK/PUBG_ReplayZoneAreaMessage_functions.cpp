@@ -18,7 +18,7 @@ namespace Classes
 void UReplayZoneAreaMessage_C::UpdateReplayZoneAreaMessage()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72374);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72574);
 
 	UReplayZoneAreaMessage_C_UpdateReplayZoneAreaMessage_Params params;
 
@@ -36,7 +36,7 @@ void UReplayZoneAreaMessage_C::UpdateReplayZoneAreaMessage()
 void UReplayZoneAreaMessage_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72373);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72573);
 
 	UReplayZoneAreaMessage_C_Construct_Params params;
 
@@ -57,7 +57,7 @@ void UReplayZoneAreaMessage_C::Construct()
 void UReplayZoneAreaMessage_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72370);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72570);
 
 	UReplayZoneAreaMessage_C_Tick_Params params;
 	params.MyGeometry = MyGeometry;
@@ -79,7 +79,7 @@ void UReplayZoneAreaMessage_C::Tick(struct FGeometry* MyGeometry, float* InDelta
 void UReplayZoneAreaMessage_C::ExecuteUbergraph_ReplayZoneAreaMessage(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72364);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72564);
 
 	UReplayZoneAreaMessage_C_ExecuteUbergraph_ReplayZoneAreaMessage_Params params;
 	params.EntryPoint = EntryPoint;

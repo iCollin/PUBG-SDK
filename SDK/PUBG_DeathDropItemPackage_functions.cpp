@@ -20,7 +20,7 @@ namespace Classes
 void ADeathDropItemPackage_C::GetCategory(struct FText* Category)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98962);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(92081);
 
 	ADeathDropItemPackage_C_GetCategory_Params params;
 
@@ -41,7 +41,7 @@ void ADeathDropItemPackage_C::GetCategory(struct FText* Category)
 void ADeathDropItemPackage_C::UserConstructionScript()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98961);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(92080);
 
 	ADeathDropItemPackage_C_UserConstructionScript_Params params;
 
@@ -59,7 +59,7 @@ void ADeathDropItemPackage_C::UserConstructionScript()
 void ADeathDropItemPackage_C::ReceiveBeginPlay()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(98960);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(92079);
 
 	ADeathDropItemPackage_C_ReceiveBeginPlay_Params params;
 
@@ -79,7 +79,7 @@ void ADeathDropItemPackage_C::ReceiveBeginPlay()
 void ADeathDropItemPackage_C::ExecuteUbergraph_DeathDropItemPackage(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69221);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69857);
 
 	ADeathDropItemPackage_C_ExecuteUbergraph_DeathDropItemPackage_Params params;
 	params.EntryPoint = EntryPoint;

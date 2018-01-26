@@ -22,7 +22,7 @@ namespace Classes
 void UWidgetFunctionLibrary_C::STATIC_GetOwningShooterCharacter(class UUserWidget* UserWidget, class UObject* __WorldContext, class ATslCharacter** ShooterCharacter)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(54321);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72175);
 
 	UWidgetFunctionLibrary_C_GetOwningShooterCharacter_Params params;
 	params.UserWidget = UserWidget;

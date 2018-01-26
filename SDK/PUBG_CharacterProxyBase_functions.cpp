@@ -18,7 +18,7 @@ namespace Classes
 void ACharacterProxyBase_C::UserConstructionScript()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58940);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57009);
 
 	ACharacterProxyBase_C_UserConstructionScript_Params params;
 
@@ -36,7 +36,7 @@ void ACharacterProxyBase_C::UserConstructionScript()
 void ACharacterProxyBase_C::ReceiveBeginPlay()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58939);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57008);
 
 	ACharacterProxyBase_C_ReceiveBeginPlay_Params params;
 
@@ -56,7 +56,7 @@ void ACharacterProxyBase_C::ReceiveBeginPlay()
 void ACharacterProxyBase_C::ExecuteUbergraph_CharacterProxyBase(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58937);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57006);
 
 	ACharacterProxyBase_C_ExecuteUbergraph_CharacterProxyBase_Params params;
 	params.EntryPoint = EntryPoint;

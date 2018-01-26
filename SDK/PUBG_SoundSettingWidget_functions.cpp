@@ -20,7 +20,7 @@ namespace Classes
 void USoundSettingWidget_C::GetGamePadHelpWidgetClass(class UClass** GuideClass)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91992);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89424);
 
 	USoundSettingWidget_C_GetGamePadHelpWidgetClass_Params params;
 
@@ -45,7 +45,7 @@ void USoundSettingWidget_C::GetGamePadHelpWidgetClass(class UClass** GuideClass)
 struct FEventReply USoundSettingWidget_C::OnFocusReceived(struct FGeometry* MyGeometry, struct FFocusEvent* InFocusEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91986);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89418);
 
 	USoundSettingWidget_C_OnFocusReceived_Params params;
 	params.MyGeometry = MyGeometry;
@@ -69,7 +69,7 @@ struct FEventReply USoundSettingWidget_C::OnFocusReceived(struct FGeometry* MyGe
 bool USoundSettingWidget_C::IsChanged()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91940);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89372);
 
 	USoundSettingWidget_C_IsChanged_Params params;
 
@@ -89,7 +89,7 @@ bool USoundSettingWidget_C::IsChanged()
 void USoundSettingWidget_C::UpdateSoundSettings()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91919);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89351);
 
 	USoundSettingWidget_C_UpdateSoundSettings_Params params;
 
@@ -107,7 +107,7 @@ void USoundSettingWidget_C::UpdateSoundSettings()
 void USoundSettingWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91918);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89350);
 
 	USoundSettingWidget_C_Construct_Params params;
 
@@ -125,7 +125,7 @@ void USoundSettingWidget_C::Construct()
 void USoundSettingWidget_C::OnReset()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91917);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89349);
 
 	USoundSettingWidget_C_OnReset_Params params;
 
@@ -143,7 +143,7 @@ void USoundSettingWidget_C::OnReset()
 void USoundSettingWidget_C::OnDefault()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91916);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89348);
 
 	USoundSettingWidget_C_OnDefault_Params params;
 
@@ -161,7 +161,7 @@ void USoundSettingWidget_C::OnDefault()
 void USoundSettingWidget_C::OnApply()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91915);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89347);
 
 	USoundSettingWidget_C_OnApply_Params params;
 
@@ -181,7 +181,7 @@ void USoundSettingWidget_C::OnApply()
 void USoundSettingWidget_C::ExecuteUbergraph_SoundSettingWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91898);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89330);
 
 	USoundSettingWidget_C_ExecuteUbergraph_SoundSettingWidget_Params params;
 	params.EntryPoint = EntryPoint;

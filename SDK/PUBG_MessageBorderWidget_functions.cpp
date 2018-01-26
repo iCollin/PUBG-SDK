@@ -20,7 +20,7 @@ namespace Classes
 void UMessageBorderWidget_C::RemoveMessage(class UMessageWidget_C* DeleteMessage)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70631);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70611);
 
 	UMessageBorderWidget_C_RemoveMessage_Params params;
 	params.DeleteMessage = DeleteMessage;
@@ -41,7 +41,7 @@ void UMessageBorderWidget_C::RemoveMessage(class UMessageWidget_C* DeleteMessage
 void UMessageBorderWidget_C::AddMessage(class UMessageWidget_C* Message)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70623);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70603);
 
 	UMessageBorderWidget_C_AddMessage_Params params;
 	params.Message = Message;
@@ -62,7 +62,7 @@ void UMessageBorderWidget_C::AddMessage(class UMessageWidget_C* Message)
 void UMessageBorderWidget_C::DisplayKilledMessage(const struct FDeathMessage& DeathMessage)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70614);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(70594);
 
 	UMessageBorderWidget_C_DisplayKilledMessage_Params params;
 	params.DeathMessage = DeathMessage;

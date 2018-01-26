@@ -21,7 +21,7 @@ namespace Classes
 void UCoherentUIGTWidget::TriggerJSEvent(const struct FString& Name, class UCoherentUIGTJSEvent* EventData)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21481);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21500);
 
 	UCoherentUIGTWidget_TriggerJSEvent_Params params;
 	params.Name = Name;
@@ -44,7 +44,7 @@ void UCoherentUIGTWidget::TriggerJSEvent(const struct FString& Name, class UCohe
 void UCoherentUIGTWidget::ShowPaintRects(bool show)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21479);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21498);
 
 	UCoherentUIGTWidget_ShowPaintRects_Params params;
 	params.show = show;
@@ -66,7 +66,7 @@ void UCoherentUIGTWidget::ShowPaintRects(bool show)
 void UCoherentUIGTWidget::SetClickThroughAlphaThreshold(float threshold)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21477);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21496);
 
 	UCoherentUIGTWidget_SetClickThroughAlphaThreshold_Params params;
 	params.threshold = threshold;
@@ -86,7 +86,7 @@ void UCoherentUIGTWidget::SetClickThroughAlphaThreshold(float threshold)
 void UCoherentUIGTWidget::Reload()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21476);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21495);
 
 	UCoherentUIGTWidget_Reload_Params params;
 
@@ -105,7 +105,7 @@ void UCoherentUIGTWidget::Reload()
 void UCoherentUIGTWidget::Redraw()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21475);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21494);
 
 	UCoherentUIGTWidget_Redraw_Params params;
 
@@ -126,7 +126,7 @@ void UCoherentUIGTWidget::Redraw()
 void UCoherentUIGTWidget::Load(const struct FString& path)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21473);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21492);
 
 	UCoherentUIGTWidget_Load_Params params;
 	params.path = path;
@@ -148,7 +148,7 @@ void UCoherentUIGTWidget::Load(const struct FString& path)
 bool UCoherentUIGTWidget::IsTransparent()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21471);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21490);
 
 	UCoherentUIGTWidget_IsTransparent_Params params;
 
@@ -171,7 +171,7 @@ bool UCoherentUIGTWidget::IsTransparent()
 bool UCoherentUIGTWidget::IsReadyToCreateView()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21469);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21488);
 
 	UCoherentUIGTWidget_IsReadyToCreateView_Params params;
 
@@ -194,7 +194,7 @@ bool UCoherentUIGTWidget::IsReadyToCreateView()
 bool UCoherentUIGTWidget::IsReadyForBindings()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21467);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21486);
 
 	UCoherentUIGTWidget_IsReadyForBindings_Params params;
 
@@ -217,7 +217,7 @@ bool UCoherentUIGTWidget::IsReadyForBindings()
 bool UCoherentUIGTWidget::IsDocumentReady()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21465);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21484);
 
 	UCoherentUIGTWidget_IsDocumentReady_Params params;
 
@@ -240,7 +240,7 @@ bool UCoherentUIGTWidget::IsDocumentReady()
 bool UCoherentUIGTWidget::HasRequestedView()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21463);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21482);
 
 	UCoherentUIGTWidget_HasRequestedView_Params params;
 
@@ -263,7 +263,7 @@ bool UCoherentUIGTWidget::HasRequestedView()
 float UCoherentUIGTWidget::GetClickThroughAlphaThreshold()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21461);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21480);
 
 	UCoherentUIGTWidget_GetClickThroughAlphaThreshold_Params params;
 
@@ -286,7 +286,7 @@ float UCoherentUIGTWidget::GetClickThroughAlphaThreshold()
 class UCoherentUIGTJSEvent* UCoherentUIGTWidget::CreateJSEvent()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21459);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21478);
 
 	UCoherentUIGTWidget_CreateJSEvent_Params params;
 
@@ -309,7 +309,7 @@ class UCoherentUIGTJSEvent* UCoherentUIGTWidget::CreateJSEvent()
 void UCoherentUIGTJSEvent::AddStructArg(class UStructProperty* Arg)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40117);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40147);
 
 	UCoherentUIGTJSEvent_AddStructArg_Params params;
 	params.Arg = Arg;
@@ -331,7 +331,7 @@ void UCoherentUIGTJSEvent::AddStructArg(class UStructProperty* Arg)
 void UCoherentUIGTJSEvent::AddString(const struct FString& str)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40115);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40145);
 
 	UCoherentUIGTJSEvent_AddString_Params params;
 	params.str = str;
@@ -353,7 +353,7 @@ void UCoherentUIGTJSEvent::AddString(const struct FString& str)
 void UCoherentUIGTJSEvent::AddObject(class UObject* Object)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40113);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40143);
 
 	UCoherentUIGTJSEvent_AddObject_Params params;
 	params.Object = Object;
@@ -375,7 +375,7 @@ void UCoherentUIGTJSEvent::AddObject(class UObject* Object)
 void UCoherentUIGTJSEvent::AddInt32(int integer)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40111);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40141);
 
 	UCoherentUIGTJSEvent_AddInt32_Params params;
 	params.integer = integer;
@@ -397,7 +397,7 @@ void UCoherentUIGTJSEvent::AddInt32(int integer)
 void UCoherentUIGTJSEvent::AddFloat(float FL)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40109);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40139);
 
 	UCoherentUIGTJSEvent_AddFloat_Params params;
 	params.FL = FL;
@@ -419,7 +419,7 @@ void UCoherentUIGTJSEvent::AddFloat(float FL)
 void UCoherentUIGTJSEvent::AddByte(unsigned char byte)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40107);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40137);
 
 	UCoherentUIGTJSEvent_AddByte_Params params;
 	params.byte = byte;
@@ -441,7 +441,7 @@ void UCoherentUIGTJSEvent::AddByte(unsigned char byte)
 void UCoherentUIGTJSEvent::AddBool(bool B)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40105);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40135);
 
 	UCoherentUIGTJSEvent_AddBool_Params params;
 	params.B = B;
@@ -463,7 +463,7 @@ void UCoherentUIGTJSEvent::AddBool(bool B)
 void UCoherentUIGTJSEvent::AddArray(TArray<int> Array)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40102);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40132);
 
 	UCoherentUIGTJSEvent_AddArray_Params params;
 	params.Array = Array;
@@ -486,7 +486,7 @@ void UCoherentUIGTJSEvent::AddArray(TArray<int> Array)
 void UCoherentUIGTJSPayload::ReadObject(int Index, class UObject* Object)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40131);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40161);
 
 	UCoherentUIGTJSPayload_ReadObject_Params params;
 	params.Index = Index;
@@ -510,7 +510,7 @@ void UCoherentUIGTJSPayload::ReadObject(int Index, class UObject* Object)
 struct FString UCoherentUIGTJSPayload::GetString(int Index)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40128);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40158);
 
 	UCoherentUIGTJSPayload_GetString_Params params;
 	params.Index = Index;
@@ -535,7 +535,7 @@ struct FString UCoherentUIGTJSPayload::GetString(int Index)
 float UCoherentUIGTJSPayload::GetNumber(int Index)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40125);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40155);
 
 	UCoherentUIGTJSPayload_GetNumber_Params params;
 	params.Index = Index;
@@ -560,7 +560,7 @@ float UCoherentUIGTJSPayload::GetNumber(int Index)
 int UCoherentUIGTJSPayload::GetInt32(int Index)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40122);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40152);
 
 	UCoherentUIGTJSPayload_GetInt32_Params params;
 	params.Index = Index;
@@ -585,7 +585,7 @@ int UCoherentUIGTJSPayload::GetInt32(int Index)
 bool UCoherentUIGTJSPayload::GetBool(int Index)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40119);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40149);
 
 	UCoherentUIGTJSPayload_GetBool_Params params;
 	params.Index = Index;
@@ -610,7 +610,7 @@ bool UCoherentUIGTJSPayload::GetBool(int Index)
 void UCoherentUIGTBaseComponent::TriggerJSEvent(const struct FString& Name, class UCoherentUIGTJSEvent* EventData)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40162);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40192);
 
 	UCoherentUIGTBaseComponent_TriggerJSEvent_Params params;
 	params.Name = Name;
@@ -633,7 +633,7 @@ void UCoherentUIGTBaseComponent::TriggerJSEvent(const struct FString& Name, clas
 void UCoherentUIGTBaseComponent::ShowPaintRects(bool show)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40160);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40190);
 
 	UCoherentUIGTBaseComponent_ShowPaintRects_Params params;
 	params.show = show;
@@ -655,7 +655,7 @@ void UCoherentUIGTBaseComponent::ShowPaintRects(bool show)
 void UCoherentUIGTBaseComponent::SetClickThroughAlphaThreshold(float threshold)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40158);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40188);
 
 	UCoherentUIGTBaseComponent_SetClickThroughAlphaThreshold_Params params;
 	params.threshold = threshold;
@@ -678,7 +678,7 @@ void UCoherentUIGTBaseComponent::SetClickThroughAlphaThreshold(float threshold)
 void UCoherentUIGTBaseComponent::Resize(int Width, int Height)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40155);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40185);
 
 	UCoherentUIGTBaseComponent_Resize_Params params;
 	params.Width = Width;
@@ -699,7 +699,7 @@ void UCoherentUIGTBaseComponent::Resize(int Width, int Height)
 void UCoherentUIGTBaseComponent::Reload()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40154);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40184);
 
 	UCoherentUIGTBaseComponent_Reload_Params params;
 
@@ -718,7 +718,7 @@ void UCoherentUIGTBaseComponent::Reload()
 void UCoherentUIGTBaseComponent::Redraw()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40153);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40183);
 
 	UCoherentUIGTBaseComponent_Redraw_Params params;
 
@@ -739,7 +739,7 @@ void UCoherentUIGTBaseComponent::Redraw()
 void UCoherentUIGTBaseComponent::Load(const struct FString& path)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40151);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40181);
 
 	UCoherentUIGTBaseComponent_Load_Params params;
 	params.path = path;
@@ -761,7 +761,7 @@ void UCoherentUIGTBaseComponent::Load(const struct FString& path)
 bool UCoherentUIGTBaseComponent::IsTransparent()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40149);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40179);
 
 	UCoherentUIGTBaseComponent_IsTransparent_Params params;
 
@@ -784,7 +784,7 @@ bool UCoherentUIGTBaseComponent::IsTransparent()
 bool UCoherentUIGTBaseComponent::IsReadyToCreateView()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40147);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40177);
 
 	UCoherentUIGTBaseComponent_IsReadyToCreateView_Params params;
 
@@ -807,7 +807,7 @@ bool UCoherentUIGTBaseComponent::IsReadyToCreateView()
 bool UCoherentUIGTBaseComponent::IsReadyForBindings()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40145);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40175);
 
 	UCoherentUIGTBaseComponent_IsReadyForBindings_Params params;
 
@@ -830,7 +830,7 @@ bool UCoherentUIGTBaseComponent::IsReadyForBindings()
 bool UCoherentUIGTBaseComponent::IsDocumentReady()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40143);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40173);
 
 	UCoherentUIGTBaseComponent_IsDocumentReady_Params params;
 
@@ -853,7 +853,7 @@ bool UCoherentUIGTBaseComponent::IsDocumentReady()
 bool UCoherentUIGTBaseComponent::HasRequestedView()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40141);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40171);
 
 	UCoherentUIGTBaseComponent_HasRequestedView_Params params;
 
@@ -876,7 +876,7 @@ bool UCoherentUIGTBaseComponent::HasRequestedView()
 float UCoherentUIGTBaseComponent::GetClickThroughAlphaThreshold()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40139);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40169);
 
 	UCoherentUIGTBaseComponent_GetClickThroughAlphaThreshold_Params params;
 
@@ -899,7 +899,7 @@ float UCoherentUIGTBaseComponent::GetClickThroughAlphaThreshold()
 void UCoherentUIGTBaseComponent::EnableDelayedUpdate(bool bEnabled)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40137);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40167);
 
 	UCoherentUIGTBaseComponent_EnableDelayedUpdate_Params params;
 	params.bEnabled = bEnabled;
@@ -921,7 +921,7 @@ void UCoherentUIGTBaseComponent::EnableDelayedUpdate(bool bEnabled)
 class UCoherentUIGTJSEvent* UCoherentUIGTBaseComponent::CreateJSEvent()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40135);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40165);
 
 	UCoherentUIGTBaseComponent_CreateJSEvent_Params params;
 
@@ -946,7 +946,7 @@ class UCoherentUIGTJSEvent* UCoherentUIGTBaseComponent::CreateJSEvent()
 void UCoherentUIGTBlueprintFunctionLibrary::STATIC_TriggerJSEvent(class UCoherentUIGTBaseComponent* Component, const struct FString& EventName, class UCoherentUIGTJSEvent* JSEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40231);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40261);
 
 	UCoherentUIGTBlueprintFunctionLibrary_TriggerJSEvent_Params params;
 	params.Component = Component;
@@ -968,7 +968,7 @@ void UCoherentUIGTBlueprintFunctionLibrary::STATIC_TriggerJSEvent(class UCoheren
 void UCoherentUIGTBlueprintFunctionLibrary::STATIC_PurgeCoherentDiskCache()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40230);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40260);
 
 	UCoherentUIGTBlueprintFunctionLibrary_PurgeCoherentDiskCache_Params params;
 
@@ -990,7 +990,7 @@ void UCoherentUIGTBlueprintFunctionLibrary::STATIC_PurgeCoherentDiskCache()
 class UCoherentUIGTJSEvent* UCoherentUIGTBlueprintFunctionLibrary::STATIC_CreateJSEvent(class UObject* WorldContextObject)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40227);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40257);
 
 	UCoherentUIGTBlueprintFunctionLibrary_CreateJSEvent_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -1015,7 +1015,7 @@ class UCoherentUIGTJSEvent* UCoherentUIGTBlueprintFunctionLibrary::STATIC_Create
 void UCoherentUIGTBlueprintFunctionLibrary::STATIC_AddStructArg(class UCoherentUIGTJSEvent* JSEvent, class UStructProperty* Arg)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40224);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40254);
 
 	UCoherentUIGTBlueprintFunctionLibrary_AddStructArg_Params params;
 	params.JSEvent = JSEvent;
@@ -1039,7 +1039,7 @@ void UCoherentUIGTBlueprintFunctionLibrary::STATIC_AddStructArg(class UCoherentU
 void UCoherentUIGTBlueprintFunctionLibrary::STATIC_AddString(class UCoherentUIGTJSEvent* JSEvent, const struct FString& Arg)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40221);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40251);
 
 	UCoherentUIGTBlueprintFunctionLibrary_AddString_Params params;
 	params.JSEvent = JSEvent;
@@ -1063,7 +1063,7 @@ void UCoherentUIGTBlueprintFunctionLibrary::STATIC_AddString(class UCoherentUIGT
 void UCoherentUIGTBlueprintFunctionLibrary::STATIC_AddObject(class UCoherentUIGTJSEvent* JSEvent, class UObject* Arg)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40218);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40248);
 
 	UCoherentUIGTBlueprintFunctionLibrary_AddObject_Params params;
 	params.JSEvent = JSEvent;
@@ -1087,7 +1087,7 @@ void UCoherentUIGTBlueprintFunctionLibrary::STATIC_AddObject(class UCoherentUIGT
 void UCoherentUIGTBlueprintFunctionLibrary::STATIC_AddInt32(class UCoherentUIGTJSEvent* JSEvent, int Arg)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40215);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40245);
 
 	UCoherentUIGTBlueprintFunctionLibrary_AddInt32_Params params;
 	params.JSEvent = JSEvent;
@@ -1111,7 +1111,7 @@ void UCoherentUIGTBlueprintFunctionLibrary::STATIC_AddInt32(class UCoherentUIGTJ
 void UCoherentUIGTBlueprintFunctionLibrary::STATIC_AddFloat(class UCoherentUIGTJSEvent* JSEvent, float Arg)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40212);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40242);
 
 	UCoherentUIGTBlueprintFunctionLibrary_AddFloat_Params params;
 	params.JSEvent = JSEvent;
@@ -1135,7 +1135,7 @@ void UCoherentUIGTBlueprintFunctionLibrary::STATIC_AddFloat(class UCoherentUIGTJ
 void UCoherentUIGTBlueprintFunctionLibrary::STATIC_AddByte(class UCoherentUIGTJSEvent* JSEvent, unsigned char Arg)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40209);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40239);
 
 	UCoherentUIGTBlueprintFunctionLibrary_AddByte_Params params;
 	params.JSEvent = JSEvent;
@@ -1159,7 +1159,7 @@ void UCoherentUIGTBlueprintFunctionLibrary::STATIC_AddByte(class UCoherentUIGTJS
 void UCoherentUIGTBlueprintFunctionLibrary::STATIC_AddBool(class UCoherentUIGTJSEvent* JSEvent, bool Arg)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40206);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40236);
 
 	UCoherentUIGTBlueprintFunctionLibrary_AddBool_Params params;
 	params.JSEvent = JSEvent;
@@ -1183,7 +1183,7 @@ void UCoherentUIGTBlueprintFunctionLibrary::STATIC_AddBool(class UCoherentUIGTJS
 void UCoherentUIGTBlueprintFunctionLibrary::STATIC_AddArrayOfStructs(class UCoherentUIGTJSEvent* JSEvent, TArray<int> Arg)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40202);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40232);
 
 	UCoherentUIGTBlueprintFunctionLibrary_AddArrayOfStructs_Params params;
 	params.JSEvent = JSEvent;
@@ -1208,7 +1208,7 @@ void UCoherentUIGTBlueprintFunctionLibrary::STATIC_AddArrayOfStructs(class UCohe
 void UCoherentUIGTBlueprintFunctionLibrary::STATIC_AddArray(class UCoherentUIGTJSEvent* JSEvent, TArray<int> Arg, int ArrayType)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40197);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40227);
 
 	UCoherentUIGTBlueprintFunctionLibrary_AddArray_Params params;
 	params.JSEvent = JSEvent;
@@ -1236,7 +1236,7 @@ void UCoherentUIGTBlueprintFunctionLibrary::STATIC_AddArray(class UCoherentUIGTJ
 void ACoherentUIGTGameHUD::SetupUIGTView(const struct FString& PageUrl, bool bIsTransparent, float ClickThroughAlphaThreshold, float AnimationFrameDefer, bool bDelayedUpdate)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40235);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40265);
 
 	ACoherentUIGTGameHUD_SetupUIGTView_Params params;
 	params.PageUrl = PageUrl;
@@ -1260,7 +1260,7 @@ void ACoherentUIGTGameHUD::SetupUIGTView(const struct FString& PageUrl, bool bIs
 void ACoherentUIGTInputActor::ToggleCoherentUIGTInputFocus()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40265);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40295);
 
 	ACoherentUIGTInputActor_ToggleCoherentUIGTInputFocus_Params params;
 
@@ -1281,7 +1281,7 @@ void ACoherentUIGTInputActor::ToggleCoherentUIGTInputFocus()
 void ACoherentUIGTInputActor::SetLineTraceMode(TEnumAsByte<EGTInputWidgetLineTraceMode> Mode)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40263);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40293);
 
 	ACoherentUIGTInputActor_SetLineTraceMode_Params params;
 	params.Mode = Mode;
@@ -1303,7 +1303,7 @@ void ACoherentUIGTInputActor::SetLineTraceMode(TEnumAsByte<EGTInputWidgetLineTra
 void ACoherentUIGTInputActor::SetInputPropagationBehaviour(TEnumAsByte<ECoherentUIGTInputPropagationBehaviour> Propagation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40261);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40291);
 
 	ACoherentUIGTInputActor_SetInputPropagationBehaviour_Params params;
 	params.Propagation = Propagation;
@@ -1325,7 +1325,7 @@ void ACoherentUIGTInputActor::SetInputPropagationBehaviour(TEnumAsByte<ECoherent
 void ACoherentUIGTInputActor::SetCoherentUIGTViewFocus(class UCoherentUIGTBaseComponent* NewFocusedView)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40259);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40289);
 
 	ACoherentUIGTInputActor_SetCoherentUIGTViewFocus_Params params;
 	params.NewFocusedView = NewFocusedView;
@@ -1347,7 +1347,7 @@ void ACoherentUIGTInputActor::SetCoherentUIGTViewFocus(class UCoherentUIGTBaseCo
 void ACoherentUIGTInputActor::SetCoherentUIGTInputFocus(bool FocusUI)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40257);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40287);
 
 	ACoherentUIGTInputActor_SetCoherentUIGTInputFocus_Params params;
 	params.FocusUI = FocusUI;
@@ -1369,7 +1369,7 @@ void ACoherentUIGTInputActor::SetCoherentUIGTInputFocus(bool FocusUI)
 bool ACoherentUIGTInputActor::IsJoystickInputWhileUIGTIsFocusedAllowed_DEPRECATED()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40255);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40285);
 
 	ACoherentUIGTInputActor_IsJoystickInputWhileUIGTIsFocusedAllowed_DEPRECATED_Params params;
 
@@ -1392,7 +1392,7 @@ bool ACoherentUIGTInputActor::IsJoystickInputWhileUIGTIsFocusedAllowed_DEPRECATE
 bool ACoherentUIGTInputActor::IsCoherentUIGTFocused()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40253);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40283);
 
 	ACoherentUIGTInputActor_IsCoherentUIGTFocused_Params params;
 
@@ -1418,7 +1418,7 @@ bool ACoherentUIGTInputActor::IsCoherentUIGTFocused()
 void ACoherentUIGTInputActor::Initialize(TEnumAsByte<ECollisionChannel> CollisionChannel, TEnumAsByte<ETextureAddress> AddressMode, TEnumAsByte<EGTInputWidgetRaycastQuality> RaycastQuality, int UVChannel)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40248);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40278);
 
 	ACoherentUIGTInputActor_Initialize_Params params;
 	params.CollisionChannel = CollisionChannel;
@@ -1443,7 +1443,7 @@ void ACoherentUIGTInputActor::Initialize(TEnumAsByte<ECollisionChannel> Collisio
 TEnumAsByte<ECoherentUIGTInputPropagationBehaviour> ACoherentUIGTInputActor::GetInputPropagationBehaviour()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40246);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40276);
 
 	ACoherentUIGTInputActor_GetInputPropagationBehaviour_Params params;
 
@@ -1466,7 +1466,7 @@ TEnumAsByte<ECoherentUIGTInputPropagationBehaviour> ACoherentUIGTInputActor::Get
 void ACoherentUIGTInputActor::AlwaysAcceptMouseInput(bool bAccept)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40244);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40274);
 
 	ACoherentUIGTInputActor_AlwaysAcceptMouseInput_Params params;
 	params.bAccept = bAccept;
@@ -1488,7 +1488,7 @@ void ACoherentUIGTInputActor::AlwaysAcceptMouseInput(bool bAccept)
 void ACoherentUIGTInputActor::AllowJoystickInputWhileUIGTIsFocused_DEPRECATED(bool bAllow)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40242);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40272);
 
 	ACoherentUIGTInputActor_AllowJoystickInputWhileUIGTIsFocused_DEPRECATED_Params params;
 	params.bAllow = bAllow;
@@ -1513,7 +1513,7 @@ void ACoherentUIGTInputActor::AllowJoystickInputWhileUIGTIsFocused_DEPRECATED(bo
 void UCoherentUIGTLiveView::OnLiveViewSizeRequest(class UCoherentUIGTBaseComponent* baseComponent, const struct FString& Name, int* Width, int* Height)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40270);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40300);
 
 	UCoherentUIGTLiveView_OnLiveViewSizeRequest_Params params;
 	params.baseComponent = baseComponent;

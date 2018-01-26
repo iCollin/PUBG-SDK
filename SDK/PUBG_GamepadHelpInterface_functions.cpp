@@ -20,7 +20,7 @@ namespace Classes
 void UGamepadHelpInterface_C::GetGamePadHelpWidgetClass(class UClass** GuideClass)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61858);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55777);
 
 	UGamepadHelpInterface_C_GetGamePadHelpWidgetClass_Params params;
 

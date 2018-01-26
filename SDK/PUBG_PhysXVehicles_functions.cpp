@@ -20,7 +20,7 @@ namespace Classes
 void UWheeledVehicleMovementComponent::SetUseAutoGears(bool bUseAuto)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19377);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19386);
 
 	UWheeledVehicleMovementComponent_SetUseAutoGears_Params params;
 	params.bUseAuto = bUseAuto;
@@ -42,7 +42,7 @@ void UWheeledVehicleMovementComponent::SetUseAutoGears(bool bUseAuto)
 void UWheeledVehicleMovementComponent::SetThrottleInput(float Throttle)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19375);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19384);
 
 	UWheeledVehicleMovementComponent_SetThrottleInput_Params params;
 	params.Throttle = Throttle;
@@ -65,7 +65,7 @@ void UWheeledVehicleMovementComponent::SetThrottleInput(float Throttle)
 void UWheeledVehicleMovementComponent::SetTargetGear(int GearNum, bool bImmediate)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19372);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19381);
 
 	UWheeledVehicleMovementComponent_SetTargetGear_Params params;
 	params.GearNum = GearNum;
@@ -88,7 +88,7 @@ void UWheeledVehicleMovementComponent::SetTargetGear(int GearNum, bool bImmediat
 void UWheeledVehicleMovementComponent::SetSteeringInput(float Steering)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19370);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19379);
 
 	UWheeledVehicleMovementComponent_SetSteeringInput_Params params;
 	params.Steering = Steering;
@@ -110,7 +110,7 @@ void UWheeledVehicleMovementComponent::SetSteeringInput(float Steering)
 void UWheeledVehicleMovementComponent::SetHandbrakeInput(bool bNewHandbrake)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19368);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19377);
 
 	UWheeledVehicleMovementComponent_SetHandbrakeInput_Params params;
 	params.bNewHandbrake = bNewHandbrake;
@@ -132,7 +132,7 @@ void UWheeledVehicleMovementComponent::SetHandbrakeInput(bool bNewHandbrake)
 void UWheeledVehicleMovementComponent::SetGroupsToIgnoreMask(const struct FNavAvoidanceMask& GroupMask)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19366);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19375);
 
 	UWheeledVehicleMovementComponent_SetGroupsToIgnoreMask_Params params;
 	params.GroupMask = GroupMask;
@@ -154,7 +154,7 @@ void UWheeledVehicleMovementComponent::SetGroupsToIgnoreMask(const struct FNavAv
 void UWheeledVehicleMovementComponent::SetGroupsToIgnore(int GroupFlags)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19364);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19373);
 
 	UWheeledVehicleMovementComponent_SetGroupsToIgnore_Params params;
 	params.GroupFlags = GroupFlags;
@@ -176,7 +176,7 @@ void UWheeledVehicleMovementComponent::SetGroupsToIgnore(int GroupFlags)
 void UWheeledVehicleMovementComponent::SetGroupsToAvoidMask(const struct FNavAvoidanceMask& GroupMask)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19362);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19371);
 
 	UWheeledVehicleMovementComponent_SetGroupsToAvoidMask_Params params;
 	params.GroupMask = GroupMask;
@@ -198,7 +198,7 @@ void UWheeledVehicleMovementComponent::SetGroupsToAvoidMask(const struct FNavAvo
 void UWheeledVehicleMovementComponent::SetGroupsToAvoid(int GroupFlags)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19360);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19369);
 
 	UWheeledVehicleMovementComponent_SetGroupsToAvoid_Params params;
 	params.GroupFlags = GroupFlags;
@@ -220,7 +220,7 @@ void UWheeledVehicleMovementComponent::SetGroupsToAvoid(int GroupFlags)
 void UWheeledVehicleMovementComponent::SetGearUp(bool bNewGearUp)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19358);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19367);
 
 	UWheeledVehicleMovementComponent_SetGearUp_Params params;
 	params.bNewGearUp = bNewGearUp;
@@ -242,7 +242,7 @@ void UWheeledVehicleMovementComponent::SetGearUp(bool bNewGearUp)
 void UWheeledVehicleMovementComponent::SetGearDown(bool bNewGearDown)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19356);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19365);
 
 	UWheeledVehicleMovementComponent_SetGearDown_Params params;
 	params.bNewGearDown = bNewGearDown;
@@ -264,7 +264,7 @@ void UWheeledVehicleMovementComponent::SetGearDown(bool bNewGearDown)
 void UWheeledVehicleMovementComponent::SetBrakeInput(float Brake)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19354);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19363);
 
 	UWheeledVehicleMovementComponent_SetBrakeInput_Params params;
 	params.Brake = Brake;
@@ -286,7 +286,7 @@ void UWheeledVehicleMovementComponent::SetBrakeInput(float Brake)
 void UWheeledVehicleMovementComponent::SetAvoidanceGroupMask(const struct FNavAvoidanceMask& GroupMask)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19352);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19361);
 
 	UWheeledVehicleMovementComponent_SetAvoidanceGroupMask_Params params;
 	params.GroupMask = GroupMask;
@@ -308,7 +308,7 @@ void UWheeledVehicleMovementComponent::SetAvoidanceGroupMask(const struct FNavAv
 void UWheeledVehicleMovementComponent::SetAvoidanceGroup(int GroupFlags)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19350);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19359);
 
 	UWheeledVehicleMovementComponent_SetAvoidanceGroup_Params params;
 	params.GroupFlags = GroupFlags;
@@ -330,7 +330,7 @@ void UWheeledVehicleMovementComponent::SetAvoidanceGroup(int GroupFlags)
 void UWheeledVehicleMovementComponent::SetAvoidanceEnabled(bool bEnable)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19348);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19357);
 
 	UWheeledVehicleMovementComponent_SetAvoidanceEnabled_Params params;
 	params.bEnable = bEnable;
@@ -356,7 +356,7 @@ void UWheeledVehicleMovementComponent::SetAvoidanceEnabled(bool bEnable)
 void UWheeledVehicleMovementComponent::ServerUpdateState(float InSteeringInput, float InThrottleInput, float InBrakeInput, float InHandbrakeInput, int CurrentGear)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19342);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19351);
 
 	UWheeledVehicleMovementComponent_ServerUpdateState_Params params;
 	params.InSteeringInput = InSteeringInput;
@@ -382,7 +382,7 @@ void UWheeledVehicleMovementComponent::ServerUpdateState(float InSteeringInput, 
 void UWheeledVehicleMovementComponent::OnRep_TirePunctured(TArray<bool> LastTirePunctured)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19339);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19348);
 
 	UWheeledVehicleMovementComponent_OnRep_TirePunctured_Params params;
 	params.LastTirePunctured = LastTirePunctured;
@@ -404,7 +404,7 @@ void UWheeledVehicleMovementComponent::OnRep_TirePunctured(TArray<bool> LastTire
 bool UWheeledVehicleMovementComponent::GetUseAutoGears()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19337);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19346);
 
 	UWheeledVehicleMovementComponent_GetUseAutoGears_Params params;
 
@@ -427,7 +427,7 @@ bool UWheeledVehicleMovementComponent::GetUseAutoGears()
 int UWheeledVehicleMovementComponent::GetTargetGear()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19335);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19344);
 
 	UWheeledVehicleMovementComponent_GetTargetGear_Params params;
 
@@ -450,7 +450,7 @@ int UWheeledVehicleMovementComponent::GetTargetGear()
 float UWheeledVehicleMovementComponent::GetForwardSpeed()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19333);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19342);
 
 	UWheeledVehicleMovementComponent_GetForwardSpeed_Params params;
 
@@ -473,7 +473,7 @@ float UWheeledVehicleMovementComponent::GetForwardSpeed()
 float UWheeledVehicleMovementComponent::GetEngineRotationSpeed()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19331);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19340);
 
 	UWheeledVehicleMovementComponent_GetEngineRotationSpeed_Params params;
 
@@ -496,7 +496,7 @@ float UWheeledVehicleMovementComponent::GetEngineRotationSpeed()
 float UWheeledVehicleMovementComponent::GetEngineMaxRotationSpeed()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19329);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19338);
 
 	UWheeledVehicleMovementComponent_GetEngineMaxRotationSpeed_Params params;
 
@@ -519,7 +519,7 @@ float UWheeledVehicleMovementComponent::GetEngineMaxRotationSpeed()
 int UWheeledVehicleMovementComponent::GetCurrentGear()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19327);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(19336);
 
 	UWheeledVehicleMovementComponent_GetCurrentGear_Params params;
 
@@ -542,7 +542,7 @@ int UWheeledVehicleMovementComponent::GetCurrentGear()
 bool UVehicleWheel::IsInAir()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20034);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20043);
 
 	UVehicleWheel_IsInAir_Params params;
 
@@ -565,7 +565,7 @@ bool UVehicleWheel::IsInAir()
 float UVehicleWheel::GetSuspensionOffset()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20032);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20041);
 
 	UVehicleWheel_GetSuspensionOffset_Params params;
 
@@ -588,7 +588,7 @@ float UVehicleWheel::GetSuspensionOffset()
 float UVehicleWheel::GetSteerAngle()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20030);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20039);
 
 	UVehicleWheel_GetSteerAngle_Params params;
 
@@ -611,7 +611,7 @@ float UVehicleWheel::GetSteerAngle()
 float UVehicleWheel::GetRotationAngle()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20028);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20037);
 
 	UVehicleWheel_GetRotationAngle_Params params;
 
@@ -634,7 +634,7 @@ float UVehicleWheel::GetRotationAngle()
 float UVehicleWheel::GetLongitudinalSlip()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20026);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20035);
 
 	UVehicleWheel_GetLongitudinalSlip_Params params;
 
@@ -657,7 +657,7 @@ float UVehicleWheel::GetLongitudinalSlip()
 float UVehicleWheel::GetLateralSlip()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20024);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(20033);
 
 	UVehicleWheel_GetLateralSlip_Params params;
 
@@ -680,7 +680,7 @@ float UVehicleWheel::GetLateralSlip()
 class AWheeledVehicle* UVehicleAnimInstance::GetVehicle()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25811);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(25841);
 
 	UVehicleAnimInstance_GetVehicle_Params params;
 
@@ -704,7 +704,7 @@ class AWheeledVehicle* UVehicleAnimInstance::GetVehicle()
 void USimpleWheeledVehicleMovementComponent::SetSteerAngle(float SteerAngle, int WheelIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40381);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40411);
 
 	USimpleWheeledVehicleMovementComponent_SetSteerAngle_Params params;
 	params.SteerAngle = SteerAngle;
@@ -728,7 +728,7 @@ void USimpleWheeledVehicleMovementComponent::SetSteerAngle(float SteerAngle, int
 void USimpleWheeledVehicleMovementComponent::SetDriveTorque(float DriveTorque, int WheelIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40378);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40408);
 
 	USimpleWheeledVehicleMovementComponent_SetDriveTorque_Params params;
 	params.DriveTorque = DriveTorque;
@@ -752,7 +752,7 @@ void USimpleWheeledVehicleMovementComponent::SetDriveTorque(float DriveTorque, i
 void USimpleWheeledVehicleMovementComponent::SetBrakeTorque(float BrakeTorque, int WheelIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40375);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40405);
 
 	USimpleWheeledVehicleMovementComponent_SetBrakeTorque_Params params;
 	params.BrakeTorque = BrakeTorque;

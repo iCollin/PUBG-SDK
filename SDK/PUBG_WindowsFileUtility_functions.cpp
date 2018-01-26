@@ -22,7 +22,7 @@ namespace Classes
 void UWFUFileListInterface::OnListFileFound(const struct FString& Filename, int ByteCount, const struct FString& FilePath)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38872);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38902);
 
 	UWFUFileListInterface_OnListFileFound_Params params;
 	params.Filename = Filename;
@@ -48,7 +48,7 @@ void UWFUFileListInterface::OnListFileFound(const struct FString& Filename, int 
 void UWFUFileListInterface::OnListDone(const struct FString& DirectoryPath, TArray<struct FString> Files, TArray<struct FString> Folders)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38866);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38896);
 
 	UWFUFileListInterface_OnListDone_Params params;
 	params.DirectoryPath = DirectoryPath;
@@ -73,7 +73,7 @@ void UWFUFileListInterface::OnListDone(const struct FString& DirectoryPath, TArr
 void UWFUFileListInterface::OnListDirectoryFound(const struct FString& DirectoryName, const struct FString& FilePath)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38863);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38893);
 
 	UWFUFileListInterface_OnListDirectoryFound_Params params;
 	params.DirectoryName = DirectoryName;
@@ -97,7 +97,7 @@ void UWFUFileListInterface::OnListDirectoryFound(const struct FString& Directory
 void UWFUFolderWatchInterface::OnFileChanged(const struct FString& Filename, const struct FString& FilePath)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38879);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38909);
 
 	UWFUFolderWatchInterface_OnFileChanged_Params params;
 	params.Filename = Filename;
@@ -121,7 +121,7 @@ void UWFUFolderWatchInterface::OnFileChanged(const struct FString& Filename, con
 void UWFUFolderWatchInterface::OnDirectoryChanged(const struct FString& DirectoryName, const struct FString& DirectoryPath)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38876);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38906);
 
 	UWFUFolderWatchInterface_OnDirectoryChanged_Params params;
 	params.DirectoryName = DirectoryName;
@@ -145,7 +145,7 @@ void UWFUFolderWatchInterface::OnDirectoryChanged(const struct FString& Director
 void UWindowsFileUtilityFunctionLibrary::STATIC_WatchFolder(const struct FString& FullPath, class UObject* WatcherDelegate)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38904);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38934);
 
 	UWindowsFileUtilityFunctionLibrary_WatchFolder_Params params;
 	params.FullPath = FullPath;
@@ -169,7 +169,7 @@ void UWindowsFileUtilityFunctionLibrary::STATIC_WatchFolder(const struct FString
 void UWindowsFileUtilityFunctionLibrary::STATIC_StopWatchingFolder(const struct FString& FullPath, class UObject* WatcherDelegate)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38901);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38931);
 
 	UWindowsFileUtilityFunctionLibrary_StopWatchingFolder_Params params;
 	params.FullPath = FullPath;
@@ -194,7 +194,7 @@ void UWindowsFileUtilityFunctionLibrary::STATIC_StopWatchingFolder(const struct 
 bool UWindowsFileUtilityFunctionLibrary::STATIC_MoveFileTo(const struct FString& From, const struct FString& To)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38897);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38927);
 
 	UWindowsFileUtilityFunctionLibrary_MoveFileTo_Params params;
 	params.From = From;
@@ -220,7 +220,7 @@ bool UWindowsFileUtilityFunctionLibrary::STATIC_MoveFileTo(const struct FString&
 void UWindowsFileUtilityFunctionLibrary::STATIC_ListContentsOfFolder(const struct FString& FullPath, class UObject* ListDelegate)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38894);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38924);
 
 	UWindowsFileUtilityFunctionLibrary_ListContentsOfFolder_Params params;
 	params.FullPath = FullPath;
@@ -244,7 +244,7 @@ void UWindowsFileUtilityFunctionLibrary::STATIC_ListContentsOfFolder(const struc
 bool UWindowsFileUtilityFunctionLibrary::STATIC_DeleteFolderRecursively(const struct FString& FullPath)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38891);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38921);
 
 	UWindowsFileUtilityFunctionLibrary_DeleteFolderRecursively_Params params;
 	params.FullPath = FullPath;
@@ -269,7 +269,7 @@ bool UWindowsFileUtilityFunctionLibrary::STATIC_DeleteFolderRecursively(const st
 bool UWindowsFileUtilityFunctionLibrary::STATIC_DeleteFileAt(const struct FString& FullPath)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38888);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38918);
 
 	UWindowsFileUtilityFunctionLibrary_DeleteFileAt_Params params;
 	params.FullPath = FullPath;
@@ -294,7 +294,7 @@ bool UWindowsFileUtilityFunctionLibrary::STATIC_DeleteFileAt(const struct FStrin
 bool UWindowsFileUtilityFunctionLibrary::STATIC_DeleteEmptyFolder(const struct FString& FullPath)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38885);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38915);
 
 	UWindowsFileUtilityFunctionLibrary_DeleteEmptyFolder_Params params;
 	params.FullPath = FullPath;
@@ -319,7 +319,7 @@ bool UWindowsFileUtilityFunctionLibrary::STATIC_DeleteEmptyFolder(const struct F
 bool UWindowsFileUtilityFunctionLibrary::STATIC_CreateDirectoryAt(const struct FString& FullPath)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38882);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38912);
 
 	UWindowsFileUtilityFunctionLibrary_CreateDirectoryAt_Params params;
 	params.FullPath = FullPath;

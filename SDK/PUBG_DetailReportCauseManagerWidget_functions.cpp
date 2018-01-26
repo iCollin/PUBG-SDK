@@ -20,7 +20,7 @@ namespace Classes
 void UDetailReportCauseManagerWidget_C::OnPrepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99313);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(92504);
 
 	UDetailReportCauseManagerWidget_C_OnPrepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -41,7 +41,7 @@ void UDetailReportCauseManagerWidget_C::OnPrepass_1(class UWidget* BoundWidget)
 void UDetailReportCauseManagerWidget_C::GetSelectedDetailReportCauseList(TArray<EReportDetailCauseType>* DetailCauseTypes)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99294);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(92485);
 
 	UDetailReportCauseManagerWidget_C_GetSelectedDetailReportCauseList_Params params;
 
@@ -62,7 +62,7 @@ void UDetailReportCauseManagerWidget_C::GetSelectedDetailReportCauseList(TArray<
 void UDetailReportCauseManagerWidget_C::Clear()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99293);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(92484);
 
 	UDetailReportCauseManagerWidget_C_Clear_Params params;
 
@@ -83,7 +83,7 @@ void UDetailReportCauseManagerWidget_C::Clear()
 void UDetailReportCauseManagerWidget_C::CreateCheckBox(const struct FReportDetailCauseTypeDescription& DetailCauseData, class UDetailReportCauseCheckBoxWidget_C** ReportDetailCause)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99288);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(92479);
 
 	UDetailReportCauseManagerWidget_C_CreateCheckBox_Params params;
 	params.DetailCauseData = DetailCauseData;
@@ -107,7 +107,7 @@ void UDetailReportCauseManagerWidget_C::CreateCheckBox(const struct FReportDetai
 void UDetailReportCauseManagerWidget_C::UpdateDetailCause(EReportCause Cause)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99275);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(92466);
 
 	UDetailReportCauseManagerWidget_C_UpdateDetailCause_Params params;
 	params.Cause = Cause;
