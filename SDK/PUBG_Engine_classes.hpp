@@ -436,8 +436,8 @@ public:
 	unsigned char                                      bAbsoluteTranslation : 1;                                 // 0x024A(0x0001) (Deprecated)
 	unsigned char                                      UnknownData03[0x1];                                       // 0x024B(0x0001) MISSED OFFSET
 	TWeakObjectPtr<class APhysicsVolume>               PhysicsVolume;                                            // 0x024C(0x0008) (ZeroConstructor, Transient, IsPlainOldData)
-	struct FVector									   Location;												 // 0x0254(0x000C) MANUALLY ADDED
-	struct FVector									   Bounds;													 // 0x0260(0x000C) MANUALLY ADDED
+	struct FVector Location;			// 0x0254(0x000C) manually added
+	struct FVector Bounds;				// 0x0260(0x000C) manually added
 	unsigned char                                      UnknownData04[0x64];                                      // 0x026C(0x0064) MISSED OFFSET
 	struct FVector                                     RelativeLocation;                                         // 0x02D0(0x000C) (Edit, BlueprintVisible, BlueprintReadOnly, Net, IsPlainOldData)
 	struct FRotator                                    RelativeRotation;                                         // 0x02DC(0x000C) (Edit, BlueprintVisible, BlueprintReadOnly, Net, IsPlainOldData)
@@ -3943,8 +3943,9 @@ public:
 class ULevel : public UObject
 {
 public:
-	unsigned char                                      UnknownData00[0x88];                                      // 0x0028(0x0088) MISSED OFFSET
-	TArray<class AActor*>							   AActors;													 // 0x00B0(0x0010) MANUALLY ADDED
+	unsigned char                                      UnknownData00[0x78];                                      // 0x0028(0x0078) MISSED OFFSET
+	TArray<class AActor*>				AActors;		// 0x00A0(0x0010) manually added
+	TArray<class AActor*>				AActorsForGC;	// 0x00B0(0x0010) manually added
 	class UWorld*                                      OwningWorld;                                              // 0x00C0(0x0008) (ZeroConstructor, Transient, IsPlainOldData)
 	class UModel*                                      Model;                                                    // 0x00C8(0x0008) (ZeroConstructor, IsPlainOldData)
 	TArray<class UModelComponent*>                     ModelComponents;                                          // 0x00D0(0x0010) (ExportObject, ZeroConstructor)

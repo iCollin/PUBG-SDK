@@ -20,7 +20,7 @@ namespace Classes
 void UInventoryBaseWidget_C::UpdateDragDragDroppingItem(class UItem* DroppingItem)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60165);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57251);
 
 	UInventoryBaseWidget_C_UpdateDragDragDroppingItem_Params params;
 	params.DroppingItem = DroppingItem;
@@ -41,7 +41,7 @@ void UInventoryBaseWidget_C::UpdateDragDragDroppingItem(class UItem* DroppingIte
 void UInventoryBaseWidget_C::SetInventoryWidget(class UInventoryWidget_C* Inventory)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60163);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57249);
 
 	UInventoryBaseWidget_C_SetInventoryWidget_Params params;
 	params.Inventory = Inventory;
@@ -62,7 +62,7 @@ void UInventoryBaseWidget_C::SetInventoryWidget(class UInventoryWidget_C* Invent
 void UInventoryBaseWidget_C::ExecuteUbergraph_InventoryBaseWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(59125);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57245);
 
 	UInventoryBaseWidget_C_ExecuteUbergraph_InventoryBaseWidget_Params params;
 	params.EntryPoint = EntryPoint;
@@ -81,7 +81,7 @@ void UInventoryBaseWidget_C::ExecuteUbergraph_InventoryBaseWidget(int EntryPoint
 void UInventoryBaseWidget_C::RefreshFocus__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(59124);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57244);
 
 	UInventoryBaseWidget_C_RefreshFocus__DelegateSignature_Params params;
 

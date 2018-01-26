@@ -22,7 +22,7 @@ namespace Classes
 void UCableComponent::SetAttachEndTo(class AActor* Actor, const struct FName& ComponentProperty, const struct FName& SocketName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40081);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40111);
 
 	UCableComponent_SetAttachEndTo_Params params;
 	params.Actor = Actor;
@@ -46,7 +46,7 @@ void UCableComponent::SetAttachEndTo(class AActor* Actor, const struct FName& Co
 void UCableComponent::GetCableParticleLocations(TArray<struct FVector>* Locations)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40078);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40108);
 
 	UCableComponent_GetCableParticleLocations_Params params;
 
@@ -70,7 +70,7 @@ void UCableComponent::GetCableParticleLocations(TArray<struct FVector>* Location
 class USceneComponent* UCableComponent::GetAttachedComponent()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40076);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40106);
 
 	UCableComponent_GetAttachedComponent_Params params;
 
@@ -93,7 +93,7 @@ class USceneComponent* UCableComponent::GetAttachedComponent()
 class AActor* UCableComponent::GetAttachedActor()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40074);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40104);
 
 	UCableComponent_GetAttachedActor_Params params;
 

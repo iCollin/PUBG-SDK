@@ -71,7 +71,7 @@ bool UObject::IsA(UClass* cmp) const
 void UObject::ExecuteUbergraph(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(2473);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(2474);
 
 	UObject_ExecuteUbergraph_Params params;
 	params.EntryPoint = EntryPoint;

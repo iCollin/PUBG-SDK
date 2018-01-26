@@ -20,7 +20,7 @@ namespace Classes
 void UInputHookingWidget_C::OnInputAxis(float Scale)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71281);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71398);
 
 	UInputHookingWidget_C_OnInputAxis_Params params;
 	params.Scale = Scale;
@@ -39,7 +39,7 @@ void UInputHookingWidget_C::OnInputAxis(float Scale)
 void UInputHookingWidget_C::OnInputAction()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71280);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71397);
 
 	UInputHookingWidget_C_OnInputAction_Params params;
 

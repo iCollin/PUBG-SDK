@@ -20,7 +20,7 @@ namespace Classes
 void UHitNotifyWidget_C::GetBloodSpotWidget(class UBloodSpotWidget_C** _return)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77310);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77553);
 
 	UHitNotifyWidget_C_GetBloodSpotWidget_Params params;
 
@@ -30,8 +30,8 @@ void UHitNotifyWidget_C::GetBloodSpotWidget(class UBloodSpotWidget_C** _return)
 
 	fn->FunctionFlags = flags;
 
-	if (_return != nullptr)
-		*_return = params._return;
+	if (return != nullptr)
+		*return = params.return;
 }
 
 
@@ -41,7 +41,7 @@ void UHitNotifyWidget_C::GetBloodSpotWidget(class UBloodSpotWidget_C** _return)
 void UHitNotifyWidget_C::InitializeBloodSpotWidgets()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77302);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77545);
 
 	UHitNotifyWidget_C_InitializeBloodSpotWidgets_Params params;
 
@@ -59,7 +59,7 @@ void UHitNotifyWidget_C::InitializeBloodSpotWidgets()
 void UHitNotifyWidget_C::InitializeKoreanRating()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77300);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77543);
 
 	UHitNotifyWidget_C_InitializeKoreanRating_Params params;
 
@@ -77,7 +77,7 @@ void UHitNotifyWidget_C::InitializeKoreanRating()
 void UHitNotifyWidget_C::InitializeChineseLicensing()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77298);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77541);
 
 	UHitNotifyWidget_C_InitializeChineseLicensing_Params params;
 
@@ -98,7 +98,7 @@ void UHitNotifyWidget_C::InitializeChineseLicensing()
 void UHitNotifyWidget_C::DamagedPercentToDamage(float DamagedPercent, float* Damage)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77291);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77534);
 
 	UHitNotifyWidget_C_DamagedPercentToDamage_Params params;
 	params.DamagedPercent = DamagedPercent;
@@ -122,7 +122,7 @@ void UHitNotifyWidget_C::DamagedPercentToDamage(float DamagedPercent, float* Dam
 void UHitNotifyWidget_C::GetPlayerHealthPercent(float* HealthPercent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77286);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77529);
 
 	UHitNotifyWidget_C_GetPlayerHealthPercent_Params params;
 
@@ -145,7 +145,7 @@ void UHitNotifyWidget_C::GetPlayerHealthPercent(float* HealthPercent)
 void UHitNotifyWidget_C::PostAkEvent(class UAkAudioEvent* AkEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77280);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77523);
 
 	UHitNotifyWidget_C_PostAkEvent_Params params;
 	params.AkEvent = AkEvent;
@@ -167,7 +167,7 @@ void UHitNotifyWidget_C::PostAkEvent(class UAkAudioEvent* AkEvent)
 void UHitNotifyWidget_C::SetRTPCValue(const struct FString& RTPC, float Value)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77274);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77517);
 
 	UHitNotifyWidget_C_SetRTPCValue_Params params;
 	params.RTPC = RTPC;
@@ -190,7 +190,7 @@ void UHitNotifyWidget_C::SetRTPCValue(const struct FString& RTPC, float Value)
 void UHitNotifyWidget_C::DamagedPercentToDamagePercent(float DamagedPercent, float* DamagePercent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77264);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77507);
 
 	UHitNotifyWidget_C_DamagedPercentToDamagePercent_Params params;
 	params.DamagedPercent = DamagedPercent;
@@ -212,7 +212,7 @@ void UHitNotifyWidget_C::DamagedPercentToDamagePercent(float DamagedPercent, flo
 void UHitNotifyWidget_C::PlayHitNotifySound()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77257);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77500);
 
 	UHitNotifyWidget_C_PlayHitNotifySound_Params params;
 
@@ -232,7 +232,7 @@ void UHitNotifyWidget_C::PlayHitNotifySound()
 void UHitNotifyWidget_C::GetRandomScale(struct FVector2D* Scale)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77249);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77492);
 
 	UHitNotifyWidget_C_GetRandomScale_Params params;
 
@@ -255,7 +255,7 @@ void UHitNotifyWidget_C::GetRandomScale(struct FVector2D* Scale)
 void UHitNotifyWidget_C::GetRandomTranslation(struct FVector2D* Translation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77230);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77473);
 
 	UHitNotifyWidget_C_GetRandomTranslation_Params params;
 
@@ -279,7 +279,7 @@ void UHitNotifyWidget_C::GetRandomTranslation(struct FVector2D* Translation)
 void UHitNotifyWidget_C::OnHitNotify(float DamagePercent, EDamageTypeCategory DamageTypeCategory)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77216);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77459);
 
 	UHitNotifyWidget_C_OnHitNotify_Params params;
 	params.DamagePercent = DamagePercent;
@@ -299,7 +299,7 @@ void UHitNotifyWidget_C::OnHitNotify(float DamagePercent, EDamageTypeCategory Da
 void UHitNotifyWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77215);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77458);
 
 	UHitNotifyWidget_C_Construct_Params params;
 
@@ -319,7 +319,7 @@ void UHitNotifyWidget_C::Construct()
 void UHitNotifyWidget_C::ExecuteUbergraph_HitNotifyWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77213);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77456);
 
 	UHitNotifyWidget_C_ExecuteUbergraph_HitNotifyWidget_Params params;
 	params.EntryPoint = EntryPoint;

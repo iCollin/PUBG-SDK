@@ -18,7 +18,7 @@ namespace Classes
 void AAkAmbientSound::StopAmbientSound()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40527);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40557);
 
 	AAkAmbientSound_StopAmbientSound_Params params;
 
@@ -37,7 +37,7 @@ void AAkAmbientSound::StopAmbientSound()
 void AAkAmbientSound::StartAmbientSound()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40526);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40556);
 
 	AAkAmbientSound_StartAmbientSound_Params params;
 
@@ -58,7 +58,7 @@ void AAkAmbientSound::StartAmbientSound()
 bool AAkAmbientSound::IsCurrentlyPlaying()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40524);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40554);
 
 	AAkAmbientSound_IsCurrentlyPlaying_Params params;
 
@@ -81,7 +81,7 @@ bool AAkAmbientSound::IsCurrentlyPlaying()
 void UAkComponent::UseReverbVolumes(bool inUseReverbVolumes)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40574);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40604);
 
 	UAkComponent_UseReverbVolumes_Params params;
 	params.inUseReverbVolumes = inUseReverbVolumes;
@@ -103,7 +103,7 @@ void UAkComponent::UseReverbVolumes(bool inUseReverbVolumes)
 void UAkComponent::StopPlayingID(int PlayingID)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40572);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40602);
 
 	UAkComponent_StopPlayingID_Params params;
 	params.PlayingID = PlayingID;
@@ -123,7 +123,7 @@ void UAkComponent::StopPlayingID(int PlayingID)
 void UAkComponent::Stop()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40571);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40601);
 
 	UAkComponent_Stop_Params params;
 
@@ -145,7 +145,7 @@ void UAkComponent::Stop()
 void UAkComponent::SetSwitch(const struct FString& SwitchGroup, const struct FString& SwitchState)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40568);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40598);
 
 	UAkComponent_SetSwitch_Params params;
 	params.SwitchGroup = SwitchGroup;
@@ -168,7 +168,7 @@ void UAkComponent::SetSwitch(const struct FString& SwitchGroup, const struct FSt
 void UAkComponent::SetStopWhenOwnerDestroyed(bool bStopWhenOwnerDestroyed)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40566);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40596);
 
 	UAkComponent_SetStopWhenOwnerDestroyed_Params params;
 	params.bStopWhenOwnerDestroyed = bStopWhenOwnerDestroyed;
@@ -192,7 +192,7 @@ void UAkComponent::SetStopWhenOwnerDestroyed(bool bStopWhenOwnerDestroyed)
 void UAkComponent::SetRTPCValue(const struct FString& RTPC, float Value, int InterpolationTimeMs)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40562);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40592);
 
 	UAkComponent_SetRTPCValue_Params params;
 	params.RTPC = RTPC;
@@ -216,7 +216,7 @@ void UAkComponent::SetRTPCValue(const struct FString& RTPC, float Value, int Int
 void UAkComponent::SetOutputBusVolume(float BusVolume)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40560);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40590);
 
 	UAkComponent_SetOutputBusVolume_Params params;
 	params.BusVolume = BusVolume;
@@ -238,7 +238,7 @@ void UAkComponent::SetOutputBusVolume(float BusVolume)
 void UAkComponent::SetAttenuationScalingFactor(float Value)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40558);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40588);
 
 	UAkComponent_SetAttenuationScalingFactor_Params params;
 	params.Value = Value;
@@ -260,7 +260,7 @@ void UAkComponent::SetAttenuationScalingFactor(float Value)
 void UAkComponent::SetActiveListeners(int in_uListenerMask)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40556);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40586);
 
 	UAkComponent_SetActiveListeners_Params params;
 	params.in_uListenerMask = in_uListenerMask;
@@ -282,7 +282,7 @@ void UAkComponent::SetActiveListeners(int in_uListenerMask)
 void UAkComponent::PostTrigger(const struct FString& Trigger)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40554);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40584);
 
 	UAkComponent_PostTrigger_Params params;
 	params.Trigger = Trigger;
@@ -304,7 +304,7 @@ void UAkComponent::PostTrigger(const struct FString& Trigger)
 int UAkComponent::PostAssociatedAkEvent()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40552);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40582);
 
 	UAkComponent_PostAssociatedAkEvent_Params params;
 
@@ -328,7 +328,7 @@ int UAkComponent::PostAssociatedAkEvent()
 int UAkComponent::PostAkEventByName(const struct FString& in_EventName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40549);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40579);
 
 	UAkComponent_PostAkEventByName_Params params;
 	params.in_EventName = in_EventName;
@@ -354,7 +354,7 @@ int UAkComponent::PostAkEventByName(const struct FString& in_EventName)
 int UAkComponent::PostAkEvent(class UAkAudioEvent* AkEvent, const struct FString& in_EventName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40545);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40575);
 
 	UAkComponent_PostAkEvent_Params params;
 	params.AkEvent = AkEvent;
@@ -379,7 +379,7 @@ int UAkComponent::PostAkEvent(class UAkAudioEvent* AkEvent, const struct FString
 bool UAkComponent::IsCurrentlyPlaying()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40543);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40573);
 
 	UAkComponent_IsCurrentlyPlaying_Params params;
 
@@ -402,7 +402,7 @@ bool UAkComponent::IsCurrentlyPlaying()
 float UAkComponent::GetAttenuationRadius()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40541);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40571);
 
 	UAkComponent_GetAttenuationRadius_Params params;
 
@@ -425,7 +425,7 @@ float UAkComponent::GetAttenuationRadius()
 void UAkComponent::CalculateRelativeSpeed(float DeltaTime)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40539);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40569);
 
 	UAkComponent_CalculateRelativeSpeed_Params params;
 	params.DeltaTime = DeltaTime;
@@ -445,7 +445,7 @@ void UAkComponent::CalculateRelativeSpeed(float DeltaTime)
 void UAkComponent::CalculateDynamicReverb()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40538);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40568);
 
 	UAkComponent_CalculateDynamicReverb_Params params;
 
@@ -467,7 +467,7 @@ void UAkComponent::CalculateDynamicReverb()
 void UAkGameplayStatics::STATIC_UseReverbVolumes(bool inUseReverbVolumes, class AActor* Actor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40679);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40709);
 
 	UAkGameplayStatics_UseReverbVolumes_Params params;
 	params.inUseReverbVolumes = inUseReverbVolumes;
@@ -490,7 +490,7 @@ void UAkGameplayStatics::STATIC_UseReverbVolumes(bool inUseReverbVolumes, class 
 void UAkGameplayStatics::STATIC_UnloadBankByName(const struct FString& BankName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40677);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40707);
 
 	UAkGameplayStatics_UnloadBankByName_Params params;
 	params.BankName = BankName;
@@ -513,7 +513,7 @@ void UAkGameplayStatics::STATIC_UnloadBankByName(const struct FString& BankName)
 void UAkGameplayStatics::STATIC_UnloadBank(class UAkAudioBank* Bank, const struct FString& BankName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40674);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40704);
 
 	UAkGameplayStatics_UnloadBank_Params params;
 	params.Bank = Bank;
@@ -534,7 +534,7 @@ void UAkGameplayStatics::STATIC_UnloadBank(class UAkAudioBank* Bank, const struc
 void UAkGameplayStatics::STATIC_StopProfilerCapture()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40673);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40703);
 
 	UAkGameplayStatics_StopProfilerCapture_Params params;
 
@@ -553,7 +553,7 @@ void UAkGameplayStatics::STATIC_StopProfilerCapture()
 void UAkGameplayStatics::STATIC_StopOutputCapture()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40672);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40702);
 
 	UAkGameplayStatics_StopOutputCapture_Params params;
 
@@ -574,7 +574,7 @@ void UAkGameplayStatics::STATIC_StopOutputCapture()
 void UAkGameplayStatics::STATIC_StopAllAmbientSounds(class UObject* WorldContextObject)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40670);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40700);
 
 	UAkGameplayStatics_StopAllAmbientSounds_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -594,7 +594,7 @@ void UAkGameplayStatics::STATIC_StopAllAmbientSounds(class UObject* WorldContext
 void UAkGameplayStatics::STATIC_StopAll()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40669);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40699);
 
 	UAkGameplayStatics_StopAll_Params params;
 
@@ -615,7 +615,7 @@ void UAkGameplayStatics::STATIC_StopAll()
 void UAkGameplayStatics::STATIC_StopActor(class AActor* Actor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40667);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40697);
 
 	UAkGameplayStatics_StopActor_Params params;
 	params.Actor = Actor;
@@ -637,7 +637,7 @@ void UAkGameplayStatics::STATIC_StopActor(class AActor* Actor)
 void UAkGameplayStatics::STATIC_StartProfilerCapture(const struct FString& Filename)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40665);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40695);
 
 	UAkGameplayStatics_StartProfilerCapture_Params params;
 	params.Filename = Filename;
@@ -659,7 +659,7 @@ void UAkGameplayStatics::STATIC_StartProfilerCapture(const struct FString& Filen
 void UAkGameplayStatics::STATIC_StartOutputCapture(const struct FString& Filename)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40663);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40693);
 
 	UAkGameplayStatics_StartOutputCapture_Params params;
 	params.Filename = Filename;
@@ -681,7 +681,7 @@ void UAkGameplayStatics::STATIC_StartOutputCapture(const struct FString& Filenam
 void UAkGameplayStatics::STATIC_StartAllAmbientSounds(class UObject* WorldContextObject)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40661);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40691);
 
 	UAkGameplayStatics_StartAllAmbientSounds_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -710,7 +710,7 @@ void UAkGameplayStatics::STATIC_StartAllAmbientSounds(class UObject* WorldContex
 class UAkComponent* UAkGameplayStatics::STATIC_SpawnAkComponentAtLocation(class UObject* WorldContextObject, class UAkAudioEvent* AkEvent, const struct FVector& Location, const struct FRotator& Orientation, bool AutoPost, const struct FString& EventName, bool AutoDestroy)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40652);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40682);
 
 	UAkGameplayStatics_SpawnAkComponentAtLocation_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -742,7 +742,7 @@ class UAkComponent* UAkGameplayStatics::STATIC_SpawnAkComponentAtLocation(class 
 void UAkGameplayStatics::STATIC_SetSwitch(const struct FName& SwitchGroup, const struct FName& SwitchState, class AActor* Actor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40648);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40678);
 
 	UAkGameplayStatics_SetSwitch_Params params;
 	params.SwitchGroup = SwitchGroup;
@@ -767,7 +767,7 @@ void UAkGameplayStatics::STATIC_SetSwitch(const struct FName& SwitchGroup, const
 void UAkGameplayStatics::STATIC_SetState(const struct FName& StateGroup, const struct FName& State)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40645);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40675);
 
 	UAkGameplayStatics_SetState_Params params;
 	params.StateGroup = StateGroup;
@@ -793,7 +793,7 @@ void UAkGameplayStatics::STATIC_SetState(const struct FName& StateGroup, const s
 void UAkGameplayStatics::STATIC_SetRTPCValue(const struct FName& RTPC, float Value, int InterpolationTimeMs, class AActor* Actor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40640);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40670);
 
 	UAkGameplayStatics_SetRTPCValue_Params params;
 	params.RTPC = RTPC;
@@ -819,7 +819,7 @@ void UAkGameplayStatics::STATIC_SetRTPCValue(const struct FName& RTPC, float Val
 void UAkGameplayStatics::STATIC_SetOutputBusVolume(float BusVolume, class AActor* Actor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40637);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40667);
 
 	UAkGameplayStatics_SetOutputBusVolume_Params params;
 	params.BusVolume = BusVolume;
@@ -843,7 +843,7 @@ void UAkGameplayStatics::STATIC_SetOutputBusVolume(float BusVolume, class AActor
 void UAkGameplayStatics::STATIC_SetOcclusionRefreshInterval(float RefreshInterval, class AActor* Actor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40634);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40664);
 
 	UAkGameplayStatics_SetOcclusionRefreshInterval_Params params;
 	params.RefreshInterval = RefreshInterval;
@@ -867,7 +867,7 @@ void UAkGameplayStatics::STATIC_SetOcclusionRefreshInterval(float RefreshInterva
 void UAkGameplayStatics::STATIC_PostTrigger(const struct FName& Trigger, class AActor* Actor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40631);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40661);
 
 	UAkGameplayStatics_PostTrigger_Params params;
 	params.Trigger = Trigger;
@@ -892,7 +892,7 @@ void UAkGameplayStatics::STATIC_PostTrigger(const struct FName& Trigger, class A
 void UAkGameplayStatics::STATIC_PostEventByName(const struct FString& EventName, class AActor* Actor, bool bStopWhenAttachedToDestroyed)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40627);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40657);
 
 	UAkGameplayStatics_PostEventByName_Params params;
 	params.EventName = EventName;
@@ -921,7 +921,7 @@ void UAkGameplayStatics::STATIC_PostEventByName(const struct FString& EventName,
 int UAkGameplayStatics::STATIC_PostEventAttached(class UAkAudioEvent* AkEvent, class AActor* Actor, const struct FName& AttachPointName, bool bStopWhenAttachedToDestroyed, const struct FString& EventName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40620);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40650);
 
 	UAkGameplayStatics_PostEventAttached_Params params;
 	params.AkEvent = AkEvent;
@@ -952,7 +952,7 @@ int UAkGameplayStatics::STATIC_PostEventAttached(class UAkAudioEvent* AkEvent, c
 void UAkGameplayStatics::STATIC_PostEventAtLocationByName(const struct FString& EventName, const struct FVector& Location, const struct FRotator& Orientation, class UObject* WorldContextObject)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40615);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40645);
 
 	UAkGameplayStatics_PostEventAtLocationByName_Params params;
 	params.EventName = EventName;
@@ -982,7 +982,7 @@ void UAkGameplayStatics::STATIC_PostEventAtLocationByName(const struct FString& 
 int UAkGameplayStatics::STATIC_PostEventAtLocation(class UAkAudioEvent* AkEvent, const struct FVector& Location, const struct FRotator& Orientation, const struct FString& EventName, class UObject* WorldContextObject)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40608);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40638);
 
 	UAkGameplayStatics_PostEventAtLocation_Params params;
 	params.AkEvent = AkEvent;
@@ -1014,7 +1014,7 @@ int UAkGameplayStatics::STATIC_PostEventAtLocation(class UAkAudioEvent* AkEvent,
 int UAkGameplayStatics::STATIC_PostEvent(class UAkAudioEvent* AkEvent, class AActor* Actor, bool bStopWhenAttachedToDestroyed, const struct FString& EventName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40602);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40632);
 
 	UAkGameplayStatics_PostEvent_Params params;
 	params.AkEvent = AkEvent;
@@ -1039,7 +1039,7 @@ int UAkGameplayStatics::STATIC_PostEvent(class UAkAudioEvent* AkEvent, class AAc
 void UAkGameplayStatics::STATIC_LoadInitBank()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40601);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40631);
 
 	UAkGameplayStatics_LoadInitBank_Params params;
 
@@ -1061,7 +1061,7 @@ void UAkGameplayStatics::STATIC_LoadInitBank()
 void UAkGameplayStatics::STATIC_LoadBanks(TArray<class UAkAudioBank*> SoundBanks, bool SynchronizeSoundBanks)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40597);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40627);
 
 	UAkGameplayStatics_LoadBanks_Params params;
 	params.SoundBanks = SoundBanks;
@@ -1084,7 +1084,7 @@ void UAkGameplayStatics::STATIC_LoadBanks(TArray<class UAkAudioBank*> SoundBanks
 void UAkGameplayStatics::STATIC_LoadBankByName(const struct FString& BankName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40595);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40625);
 
 	UAkGameplayStatics_LoadBankByName_Params params;
 	params.BankName = BankName;
@@ -1107,7 +1107,7 @@ void UAkGameplayStatics::STATIC_LoadBankByName(const struct FString& BankName)
 void UAkGameplayStatics::STATIC_LoadBank(class UAkAudioBank* Bank, const struct FString& BankName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40592);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40622);
 
 	UAkGameplayStatics_LoadBank_Params params;
 	params.Bank = Bank;
@@ -1134,7 +1134,7 @@ void UAkGameplayStatics::STATIC_LoadBank(class UAkAudioBank* Bank, const struct 
 class UAkComponent* UAkGameplayStatics::STATIC_GetAkComponent(class USceneComponent* AttachToComponent, const struct FName& AttachPointName, const struct FVector& Location, TEnumAsByte<EAttachLocation> LocationType)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40586);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40616);
 
 	UAkGameplayStatics_GetAkComponent_Params params;
 	params.AttachToComponent = AttachToComponent;
@@ -1159,7 +1159,7 @@ class UAkComponent* UAkGameplayStatics::STATIC_GetAkComponent(class USceneCompon
 void UAkGameplayStatics::STATIC_ClearBanks()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40585);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40615);
 
 	UAkGameplayStatics_ClearBanks_Params params;
 
@@ -1180,7 +1180,7 @@ void UAkGameplayStatics::STATIC_ClearBanks()
 void UAkGameplayStatics::STATIC_AddOutputCaptureMarker(const struct FString& MarkerText)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40583);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40613);
 
 	UAkGameplayStatics_AddOutputCaptureMarker_Params params;
 	params.MarkerText = MarkerText;
