@@ -20,7 +20,7 @@ namespace Classes
 void UQualitySliderWidget_C::GetGamePadHelpWidgetClass(class UClass** GuideClass)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62563);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62520);
 
 	UQualitySliderWidget_C_GetGamePadHelpWidgetClass_Params params;
 
@@ -45,7 +45,7 @@ void UQualitySliderWidget_C::GetGamePadHelpWidgetClass(class UClass** GuideClass
 struct FEventReply UQualitySliderWidget_C::OnKeyDown(struct FGeometry* MyGeometry, struct FKeyEvent* InKeyEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62557);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62514);
 
 	UQualitySliderWidget_C_OnKeyDown_Params params;
 	params.MyGeometry = MyGeometry;
@@ -71,7 +71,7 @@ struct FEventReply UQualitySliderWidget_C::OnKeyDown(struct FGeometry* MyGeometr
 struct FEventReply UQualitySliderWidget_C::OnKeyUp(struct FGeometry* MyGeometry, struct FKeyEvent* InKeyEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62552);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62509);
 
 	UQualitySliderWidget_C_OnKeyUp_Params params;
 	params.MyGeometry = MyGeometry;
@@ -96,7 +96,7 @@ struct FEventReply UQualitySliderWidget_C::OnKeyUp(struct FGeometry* MyGeometry,
 void UQualitySliderWidget_C::ProcessKeyDown(const struct FKey& Key, struct FEventReply* Reply)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62533);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62490);
 
 	UQualitySliderWidget_C_ProcessKeyDown_Params params;
 	params.Key = Key;
@@ -120,7 +120,7 @@ void UQualitySliderWidget_C::ProcessKeyDown(const struct FKey& Key, struct FEven
 void UQualitySliderWidget_C::OnPrepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62524);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62481);
 
 	UQualitySliderWidget_C_OnPrepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -141,7 +141,7 @@ void UQualitySliderWidget_C::OnPrepass_1(class UWidget* BoundWidget)
 struct FText UQualitySliderWidget_C::GetValueText()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62519);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62476);
 
 	UQualitySliderWidget_C_GetValueText_Params params;
 
@@ -163,7 +163,7 @@ struct FText UQualitySliderWidget_C::GetValueText()
 void UQualitySliderWidget_C::SetValue(float Value)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62516);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62473);
 
 	UQualitySliderWidget_C_SetValue_Params params;
 	params.Value = Value;
@@ -184,7 +184,7 @@ void UQualitySliderWidget_C::SetValue(float Value)
 struct FText UQualitySliderWidget_C::GetQualityName()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62514);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62471);
 
 	UQualitySliderWidget_C_GetQualityName_Params params;
 
@@ -206,7 +206,7 @@ struct FText UQualitySliderWidget_C::GetQualityName()
 void UQualitySliderWidget_C::GetValueByRange(float* Value)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62510);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62467);
 
 	UQualitySliderWidget_C_GetValueByRange_Params params;
 
@@ -227,7 +227,7 @@ void UQualitySliderWidget_C::GetValueByRange(float* Value)
 void UQualitySliderWidget_C::BndEvt__Button_2_K2Node_ComponentBoundEvent_370_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62509);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62466);
 
 	UQualitySliderWidget_C_BndEvt__Button_2_K2Node_ComponentBoundEvent_370_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -245,7 +245,7 @@ void UQualitySliderWidget_C::BndEvt__Button_2_K2Node_ComponentBoundEvent_370_OnB
 void UQualitySliderWidget_C::BndEvt__RightButotn_K2Node_ComponentBoundEvent_395_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62508);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62465);
 
 	UQualitySliderWidget_C_BndEvt__RightButotn_K2Node_ComponentBoundEvent_395_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -265,7 +265,7 @@ void UQualitySliderWidget_C::BndEvt__RightButotn_K2Node_ComponentBoundEvent_395_
 void UQualitySliderWidget_C::BndEvt__EditableText_2_K2Node_ComponentBoundEvent_82_OnEditableTextChangedEvent__DelegateSignature(const struct FText& Text)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62506);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62463);
 
 	UQualitySliderWidget_C_BndEvt__EditableText_2_K2Node_ComponentBoundEvent_82_OnEditableTextChangedEvent__DelegateSignature_Params params;
 	params.Text = Text;
@@ -286,7 +286,7 @@ void UQualitySliderWidget_C::BndEvt__EditableText_2_K2Node_ComponentBoundEvent_8
 void UQualitySliderWidget_C::ExecuteUbergraph_QualitySliderWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62493);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62450);
 
 	UQualitySliderWidget_C_ExecuteUbergraph_QualitySliderWidget_Params params;
 	params.EntryPoint = EntryPoint;

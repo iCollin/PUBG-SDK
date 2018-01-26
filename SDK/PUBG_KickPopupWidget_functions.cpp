@@ -22,7 +22,7 @@ namespace Classes
 void UKickPopupWidget_C::SetPopup(EPopupStyle PopupStyle, const struct FText& Message, const struct FScriptDelegate& PressedDelegate)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74746);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74503);
 
 	UKickPopupWidget_C_SetPopup_Params params;
 	params.PopupStyle = PopupStyle;
@@ -43,7 +43,7 @@ void UKickPopupWidget_C::SetPopup(EPopupStyle PopupStyle, const struct FText& Me
 void UKickPopupWidget_C::BndEvt__YesButton_K2Node_ComponentBoundEvent_10_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74745);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74502);
 
 	UKickPopupWidget_C_BndEvt__YesButton_K2Node_ComponentBoundEvent_10_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -61,7 +61,7 @@ void UKickPopupWidget_C::BndEvt__YesButton_K2Node_ComponentBoundEvent_10_OnButto
 void UKickPopupWidget_C::BndEvt__NoButton_K2Node_ComponentBoundEvent_30_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74744);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74501);
 
 	UKickPopupWidget_C_BndEvt__NoButton_K2Node_ComponentBoundEvent_30_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -79,7 +79,7 @@ void UKickPopupWidget_C::BndEvt__NoButton_K2Node_ComponentBoundEvent_30_OnButton
 void UKickPopupWidget_C::BndEvt__CloseButton_K2Node_ComponentBoundEvent_12_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74743);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74500);
 
 	UKickPopupWidget_C_BndEvt__CloseButton_K2Node_ComponentBoundEvent_12_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -97,7 +97,7 @@ void UKickPopupWidget_C::BndEvt__CloseButton_K2Node_ComponentBoundEvent_12_OnBut
 void UKickPopupWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74742);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74499);
 
 	UKickPopupWidget_C_Construct_Params params;
 
@@ -115,7 +115,7 @@ void UKickPopupWidget_C::Construct()
 void UKickPopupWidget_C::Destruct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74741);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74498);
 
 	UKickPopupWidget_C_Destruct_Params params;
 
@@ -133,7 +133,7 @@ void UKickPopupWidget_C::Destruct()
 void UKickPopupWidget_C::Custom_Event_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74740);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74497);
 
 	UKickPopupWidget_C_Custom_Event_1_Params params;
 
@@ -153,7 +153,7 @@ void UKickPopupWidget_C::Custom_Event_1()
 void UKickPopupWidget_C::ExecuteUbergraph_KickPopupWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74733);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74490);
 
 	UKickPopupWidget_C_ExecuteUbergraph_KickPopupWidget_Params params;
 	params.EntryPoint = EntryPoint;
@@ -174,7 +174,7 @@ void UKickPopupWidget_C::ExecuteUbergraph_KickPopupWidget(int EntryPoint)
 void UKickPopupWidget_C::ButttonClick__DelegateSignature(EPopupButtonID NewParam)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74730);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74487);
 
 	UKickPopupWidget_C_ButttonClick__DelegateSignature_Params params;
 	params.NewParam = NewParam;

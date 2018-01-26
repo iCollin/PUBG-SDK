@@ -17,7 +17,7 @@ namespace Classes
 // Function HitNotifyWidget.HitNotifyWidget_C.GetBloodSpotWidget
 struct UHitNotifyWidget_C_GetBloodSpotWidget_Params
 {
-	class UBloodSpotWidget_C*                          return;                                                   // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
+	class UBloodSpotWidget_C*                          _return;                                                   // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
 };
 
 // Function HitNotifyWidget.HitNotifyWidget_C.InitializeBloodSpotWidgets

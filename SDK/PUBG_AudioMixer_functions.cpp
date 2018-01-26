@@ -20,7 +20,7 @@ namespace Classes
 void USubmixEffectDynamicsProcessorPreset::SetSettings(const struct FSubmixEffectDynamicsProcessorSettings& InSettings)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38818);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38788);
 
 	USubmixEffectDynamicsProcessorPreset_SetSettings_Params params;
 	params.InSettings = InSettings;
@@ -45,7 +45,7 @@ void USubmixEffectDynamicsProcessorPreset::SetSettings(const struct FSubmixEffec
 void UAudioMixerBlueprintLibrary::STATIC_SetBypassSourceEffectChainEntry(class UObject* WorldContextObject, class USoundEffectSourcePresetChain* PresetChain, int EntryIndex, bool bBypassed)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38841);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38811);
 
 	UAudioMixerBlueprintLibrary_SetBypassSourceEffectChainEntry_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -72,7 +72,7 @@ void UAudioMixerBlueprintLibrary::STATIC_SetBypassSourceEffectChainEntry(class U
 void UAudioMixerBlueprintLibrary::STATIC_RemoveSourceEffectFromPresetChain(class UObject* WorldContextObject, class USoundEffectSourcePresetChain* PresetChain, int EntryIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38837);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38807);
 
 	UAudioMixerBlueprintLibrary_RemoveSourceEffectFromPresetChain_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -97,7 +97,7 @@ void UAudioMixerBlueprintLibrary::STATIC_RemoveSourceEffectFromPresetChain(class
 void UAudioMixerBlueprintLibrary::STATIC_RemoveMasterSubmixEffect(class UObject* WorldContextObject, class USoundEffectSubmixPreset* SubmixEffectPreset)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38834);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38804);
 
 	UAudioMixerBlueprintLibrary_RemoveMasterSubmixEffect_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -122,7 +122,7 @@ void UAudioMixerBlueprintLibrary::STATIC_RemoveMasterSubmixEffect(class UObject*
 int UAudioMixerBlueprintLibrary::STATIC_GetNumberOfEntriesInSourceEffectChain(class UObject* WorldContextObject, class USoundEffectSourcePresetChain* PresetChain)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38830);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38800);
 
 	UAudioMixerBlueprintLibrary_GetNumberOfEntriesInSourceEffectChain_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -147,7 +147,7 @@ int UAudioMixerBlueprintLibrary::STATIC_GetNumberOfEntriesInSourceEffectChain(cl
 void UAudioMixerBlueprintLibrary::STATIC_ClearMasterSubmixEffects(class UObject* WorldContextObject)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38828);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38798);
 
 	UAudioMixerBlueprintLibrary_ClearMasterSubmixEffects_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -171,7 +171,7 @@ void UAudioMixerBlueprintLibrary::STATIC_ClearMasterSubmixEffects(class UObject*
 void UAudioMixerBlueprintLibrary::STATIC_AddSourceEffectToPresetChain(class UObject* WorldContextObject, class USoundEffectSourcePresetChain* PresetChain, const struct FSourceEffectChainEntry& Entry)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38824);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38794);
 
 	UAudioMixerBlueprintLibrary_AddSourceEffectToPresetChain_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -196,7 +196,7 @@ void UAudioMixerBlueprintLibrary::STATIC_AddSourceEffectToPresetChain(class UObj
 void UAudioMixerBlueprintLibrary::STATIC_AddMasterSubmixEffect(class UObject* WorldContextObject, class USoundEffectSubmixPreset* SubmixEffectPreset)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38821);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38791);
 
 	UAudioMixerBlueprintLibrary_AddMasterSubmixEffect_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -220,7 +220,7 @@ void UAudioMixerBlueprintLibrary::STATIC_AddMasterSubmixEffect(class UObject* Wo
 void USubmixEffectReverbPreset::SetSettingsWithReverbEffect(class UReverbEffect* InReverbEffect, float WetLevel)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38848);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38818);
 
 	USubmixEffectReverbPreset_SetSettingsWithReverbEffect_Params params;
 	params.InReverbEffect = InReverbEffect;
@@ -243,7 +243,7 @@ void USubmixEffectReverbPreset::SetSettingsWithReverbEffect(class UReverbEffect*
 void USubmixEffectReverbPreset::SetSettings(const struct FSubmixEffectReverbSettings& InSettings)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38846);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38816);
 
 	USubmixEffectReverbPreset_SetSettings_Params params;
 	params.InSettings = InSettings;
@@ -265,7 +265,7 @@ void USubmixEffectReverbPreset::SetSettings(const struct FSubmixEffectReverbSett
 void USubmixEffectSubmixEQPreset::SetSettings(const struct FSubmixEffectSubmixEQSettings& InSettings)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38852);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38822);
 
 	USubmixEffectSubmixEQPreset_SetSettings_Params params;
 	params.InSettings = InSettings;
@@ -285,7 +285,7 @@ void USubmixEffectSubmixEQPreset::SetSettings(const struct FSubmixEffectSubmixEQ
 void USynthComponent::Stop()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38861);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38831);
 
 	USynthComponent_Stop_Params params;
 
@@ -304,7 +304,7 @@ void USynthComponent::Stop()
 void USynthComponent::Start()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38860);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38830);
 
 	USynthComponent_Start_Params params;
 
@@ -326,7 +326,7 @@ void USynthComponent::Start()
 void USynthComponent::SetSubmixSend(class USoundSubmix* Submix, float SendLevel)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38857);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38827);
 
 	USynthComponent_SetSubmixSend_Params params;
 	params.Submix = Submix;
@@ -349,7 +349,7 @@ void USynthComponent::SetSubmixSend(class USoundSubmix* Submix, float SendLevel)
 bool USynthComponent::IsPlaying()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38855);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38825);
 
 	USynthComponent_IsPlaying_Params params;
 

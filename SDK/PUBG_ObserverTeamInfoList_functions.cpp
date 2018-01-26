@@ -20,7 +20,7 @@ namespace Classes
 void UObserverTeamInfoList_C::On_TeamList_Prepass_2(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58403);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57603);
 
 	UObserverTeamInfoList_C_On_TeamList_Prepass_2_Params params;
 	params.BoundWidget = BoundWidget;
@@ -39,7 +39,7 @@ void UObserverTeamInfoList_C::On_TeamList_Prepass_2(class UWidget* BoundWidget)
 void UObserverTeamInfoList_C::CollapseAllSquadPlayerInfos()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58396);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57596);
 
 	UObserverTeamInfoList_C_CollapseAllSquadPlayerInfos_Params params;
 
@@ -61,7 +61,7 @@ void UObserverTeamInfoList_C::CollapseAllSquadPlayerInfos()
 void UObserverTeamInfoList_C::SetSquadPlayerInfo(int Index, class ATslCharacter* TslCharacter, class USquadPlayerInfoWidget_C** SquadPlayerInfo)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58390);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57590);
 
 	UObserverTeamInfoList_C_SetSquadPlayerInfo_Params params;
 	params.Index = Index;
@@ -84,7 +84,7 @@ void UObserverTeamInfoList_C::SetSquadPlayerInfo(int Index, class ATslCharacter*
 void UObserverTeamInfoList_C::DestructSquadPlayerInfoPool()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58389);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57589);
 
 	UObserverTeamInfoList_C_DestructSquadPlayerInfoPool_Params params;
 
@@ -102,7 +102,7 @@ void UObserverTeamInfoList_C::DestructSquadPlayerInfoPool()
 void UObserverTeamInfoList_C::ConstructSquadPlayerInfoPool()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58382);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57582);
 
 	UObserverTeamInfoList_C_ConstructSquadPlayerInfoPool_Params params;
 
@@ -122,7 +122,7 @@ void UObserverTeamInfoList_C::ConstructSquadPlayerInfoPool()
 void UObserverTeamInfoList_C::On_TeamList_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58380);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57580);
 
 	UObserverTeamInfoList_C_On_TeamList_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -145,7 +145,7 @@ void UObserverTeamInfoList_C::On_TeamList_Prepass_1(class UWidget* BoundWidget)
 void UObserverTeamInfoList_C::IsSameTeam(class ATslCharacter* Character1, class ATslCharacter* Character2, bool* retVal)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58373);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57573);
 
 	UObserverTeamInfoList_C_IsSameTeam_Params params;
 	params.Character1 = Character1;
@@ -170,7 +170,7 @@ void UObserverTeamInfoList_C::IsSameTeam(class ATslCharacter* Character1, class 
 void UObserverTeamInfoList_C::FindSpectateOrFollowCharacter(class ATslCharacter** TslCharacter)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58362);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57562);
 
 	UObserverTeamInfoList_C_FindSpectateOrFollowCharacter_Params params;
 
@@ -191,7 +191,7 @@ void UObserverTeamInfoList_C::FindSpectateOrFollowCharacter(class ATslCharacter*
 void UObserverTeamInfoList_C::UpdateTeamList()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58347);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57547);
 
 	UObserverTeamInfoList_C_UpdateTeamList_Params params;
 
@@ -209,7 +209,7 @@ void UObserverTeamInfoList_C::UpdateTeamList()
 void UObserverTeamInfoList_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58346);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57546);
 
 	UObserverTeamInfoList_C_Construct_Params params;
 
@@ -230,7 +230,7 @@ void UObserverTeamInfoList_C::Construct()
 void UObserverTeamInfoList_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58343);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57543);
 
 	UObserverTeamInfoList_C_Tick_Params params;
 	params.MyGeometry = MyGeometry;
@@ -250,7 +250,7 @@ void UObserverTeamInfoList_C::Tick(struct FGeometry* MyGeometry, float* InDeltaT
 void UObserverTeamInfoList_C::CustomTick()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58342);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57542);
 
 	UObserverTeamInfoList_C_CustomTick_Params params;
 
@@ -268,7 +268,7 @@ void UObserverTeamInfoList_C::CustomTick()
 void UObserverTeamInfoList_C::TimerCheckUpdateList()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58341);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57541);
 
 	UObserverTeamInfoList_C_TimerCheckUpdateList_Params params;
 
@@ -286,7 +286,7 @@ void UObserverTeamInfoList_C::TimerCheckUpdateList()
 void UObserverTeamInfoList_C::Destruct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58340);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57540);
 
 	UObserverTeamInfoList_C_Destruct_Params params;
 
@@ -306,7 +306,7 @@ void UObserverTeamInfoList_C::Destruct()
 void UObserverTeamInfoList_C::ExecuteUbergraph_ObserverTeamInfoList(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58334);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57534);
 
 	UObserverTeamInfoList_C_ExecuteUbergraph_ObserverTeamInfoList_Params params;
 	params.EntryPoint = EntryPoint;

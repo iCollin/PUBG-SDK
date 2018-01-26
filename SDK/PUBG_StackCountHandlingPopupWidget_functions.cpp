@@ -18,7 +18,7 @@ namespace Classes
 void UStackCountHandlingPopupWidget_C::NotifyToCapacityWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73809);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73609);
 
 	UStackCountHandlingPopupWidget_C_NotifyToCapacityWidget_Params params;
 
@@ -36,7 +36,7 @@ void UStackCountHandlingPopupWidget_C::NotifyToCapacityWidget()
 void UStackCountHandlingPopupWidget_C::NotifyStackCountUpdated()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73805);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73605);
 
 	UStackCountHandlingPopupWidget_C_NotifyStackCountUpdated_Params params;
 
@@ -56,7 +56,7 @@ void UStackCountHandlingPopupWidget_C::NotifyStackCountUpdated()
 void UStackCountHandlingPopupWidget_C::AddStackCount(int AddCount)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73796);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73596);
 
 	UStackCountHandlingPopupWidget_C_AddStackCount_Params params;
 	params.AddCount = AddCount;
@@ -77,7 +77,7 @@ void UStackCountHandlingPopupWidget_C::AddStackCount(int AddCount)
 void UStackCountHandlingPopupWidget_C::OnPrepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73784);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73584);
 
 	UStackCountHandlingPopupWidget_C_OnPrepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -96,7 +96,7 @@ void UStackCountHandlingPopupWidget_C::OnPrepass_1(class UWidget* BoundWidget)
 void UStackCountHandlingPopupWidget_C::FocusOnInputAmountText()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73782);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73582);
 
 	UStackCountHandlingPopupWidget_C_FocusOnInputAmountText_Params params;
 
@@ -116,7 +116,7 @@ void UStackCountHandlingPopupWidget_C::FocusOnInputAmountText()
 void UStackCountHandlingPopupWidget_C::On_InputAmountText_Prepass(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73771);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73571);
 
 	UStackCountHandlingPopupWidget_C_On_InputAmountText_Prepass_Params params;
 	params.BoundWidget = BoundWidget;
@@ -137,7 +137,7 @@ void UStackCountHandlingPopupWidget_C::On_InputAmountText_Prepass(class UWidget*
 struct FText UStackCountHandlingPopupWidget_C::GetMaxButtonText()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73764);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73564);
 
 	UStackCountHandlingPopupWidget_C_GetMaxButtonText_Params params;
 
@@ -159,7 +159,7 @@ struct FText UStackCountHandlingPopupWidget_C::GetMaxButtonText()
 void UStackCountHandlingPopupWidget_C::GetInventory(class AInventory** Inventory)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73755);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73555);
 
 	UStackCountHandlingPopupWidget_C_GetInventory_Params params;
 
@@ -182,7 +182,7 @@ void UStackCountHandlingPopupWidget_C::GetInventory(class AInventory** Inventory
 void UStackCountHandlingPopupWidget_C::UpdateItemName(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73752);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73552);
 
 	UStackCountHandlingPopupWidget_C_UpdateItemName_Params params;
 	params.BoundWidget = BoundWidget;
@@ -203,7 +203,7 @@ void UStackCountHandlingPopupWidget_C::UpdateItemName(class UWidget* BoundWidget
 int UStackCountHandlingPopupWidget_C::GetMaxCount()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73737);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73537);
 
 	UStackCountHandlingPopupWidget_C_GetMaxCount_Params params;
 
@@ -225,7 +225,7 @@ int UStackCountHandlingPopupWidget_C::GetMaxCount()
 void UStackCountHandlingPopupWidget_C::OnItemDropOtherContainer(class UItem* Item)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73735);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73535);
 
 	UStackCountHandlingPopupWidget_C_OnItemDropOtherContainer_Params params;
 	params.Item = Item;
@@ -248,7 +248,7 @@ void UStackCountHandlingPopupWidget_C::OnItemDropOtherContainer(class UItem* Ite
 void UStackCountHandlingPopupWidget_C::SetPopup(EPopupStyle PopupStyle, const struct FText& Message, const struct FScriptDelegate& PressedDelegate)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73730);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73530);
 
 	UStackCountHandlingPopupWidget_C_SetPopup_Params params;
 	params.PopupStyle = PopupStyle;
@@ -269,7 +269,7 @@ void UStackCountHandlingPopupWidget_C::SetPopup(EPopupStyle PopupStyle, const st
 void UStackCountHandlingPopupWidget_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73729);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73529);
 
 	UStackCountHandlingPopupWidget_C_BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -287,7 +287,7 @@ void UStackCountHandlingPopupWidget_C::BndEvt__Button_0_K2Node_ComponentBoundEve
 void UStackCountHandlingPopupWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73728);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73528);
 
 	UStackCountHandlingPopupWidget_C_Construct_Params params;
 
@@ -309,7 +309,7 @@ void UStackCountHandlingPopupWidget_C::Construct()
 void UStackCountHandlingPopupWidget_C::CustomEvent_1(const TScriptInterface<class USlotContainerInterface>& Container, const TScriptInterface<class USlotInterface>& Slot, const TScriptInterface<class USlotContainerInterface>& OtherContainer)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73724);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73524);
 
 	UStackCountHandlingPopupWidget_C_CustomEvent_1_Params params;
 	params.Container = Container;
@@ -330,7 +330,7 @@ void UStackCountHandlingPopupWidget_C::CustomEvent_1(const TScriptInterface<clas
 void UStackCountHandlingPopupWidget_C::BndEvt__CloseButton_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73723);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73523);
 
 	UStackCountHandlingPopupWidget_C_BndEvt__CloseButton_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -348,7 +348,7 @@ void UStackCountHandlingPopupWidget_C::BndEvt__CloseButton_K2Node_ComponentBound
 void UStackCountHandlingPopupWidget_C::BndEvt__InputAmountButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73722);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73522);
 
 	UStackCountHandlingPopupWidget_C_BndEvt__InputAmountButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -366,7 +366,7 @@ void UStackCountHandlingPopupWidget_C::BndEvt__InputAmountButton_K2Node_Componen
 void UStackCountHandlingPopupWidget_C::BndEvt__CancelButton_K2Node_ComponentBoundEvent_3_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73721);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73521);
 
 	UStackCountHandlingPopupWidget_C_BndEvt__CancelButton_K2Node_ComponentBoundEvent_3_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -384,7 +384,7 @@ void UStackCountHandlingPopupWidget_C::BndEvt__CancelButton_K2Node_ComponentBoun
 void UStackCountHandlingPopupWidget_C::BndEvt__OuterPopup_K2Node_ComponentBoundEvent_4_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73720);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73520);
 
 	UStackCountHandlingPopupWidget_C_BndEvt__OuterPopup_K2Node_ComponentBoundEvent_4_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -402,7 +402,7 @@ void UStackCountHandlingPopupWidget_C::BndEvt__OuterPopup_K2Node_ComponentBoundE
 void UStackCountHandlingPopupWidget_C::BndEvt__MinButton_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73719);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73519);
 
 	UStackCountHandlingPopupWidget_C_BndEvt__MinButton_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -420,7 +420,7 @@ void UStackCountHandlingPopupWidget_C::BndEvt__MinButton_K2Node_ComponentBoundEv
 void UStackCountHandlingPopupWidget_C::BndEvt__MaxButton_K2Node_ComponentBoundEvent_6_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73718);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73518);
 
 	UStackCountHandlingPopupWidget_C_BndEvt__MaxButton_K2Node_ComponentBoundEvent_6_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -441,7 +441,7 @@ void UStackCountHandlingPopupWidget_C::BndEvt__MaxButton_K2Node_ComponentBoundEv
 void UStackCountHandlingPopupWidget_C::SubmitEvent(const struct FText& Text, TEnumAsByte<ETextCommit> CommitMethod)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73715);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73515);
 
 	UStackCountHandlingPopupWidget_C_SubmitEvent_Params params;
 	params.Text = Text;
@@ -461,7 +461,7 @@ void UStackCountHandlingPopupWidget_C::SubmitEvent(const struct FText& Text, TEn
 void UStackCountHandlingPopupWidget_C::Close_Popup()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73714);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73514);
 
 	UStackCountHandlingPopupWidget_C_Close_Popup_Params params;
 
@@ -479,7 +479,7 @@ void UStackCountHandlingPopupWidget_C::Close_Popup()
 void UStackCountHandlingPopupWidget_C::Destruct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73713);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73513);
 
 	UStackCountHandlingPopupWidget_C_Destruct_Params params;
 
@@ -497,7 +497,7 @@ void UStackCountHandlingPopupWidget_C::Destruct()
 void UStackCountHandlingPopupWidget_C::Custom_Event_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73712);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73512);
 
 	UStackCountHandlingPopupWidget_C_Custom_Event_1_Params params;
 
@@ -515,7 +515,7 @@ void UStackCountHandlingPopupWidget_C::Custom_Event_1()
 void UStackCountHandlingPopupWidget_C::XBoxOneOk()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73711);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73511);
 
 	UStackCountHandlingPopupWidget_C_XBoxOneOk_Params params;
 
@@ -536,7 +536,7 @@ void UStackCountHandlingPopupWidget_C::XBoxOneOk()
 void UStackCountHandlingPopupWidget_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73708);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73508);
 
 	UStackCountHandlingPopupWidget_C_Tick_Params params;
 	params.MyGeometry = MyGeometry;
@@ -556,7 +556,7 @@ void UStackCountHandlingPopupWidget_C::Tick(struct FGeometry* MyGeometry, float*
 void UStackCountHandlingPopupWidget_C::ONWidgetInputB()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73707);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73507);
 
 	UStackCountHandlingPopupWidget_C_ONWidgetInputB_Params params;
 
@@ -574,7 +574,7 @@ void UStackCountHandlingPopupWidget_C::ONWidgetInputB()
 void UStackCountHandlingPopupWidget_C::OnWidgetMoveLeft()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73706);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73506);
 
 	UStackCountHandlingPopupWidget_C_OnWidgetMoveLeft_Params params;
 
@@ -592,7 +592,7 @@ void UStackCountHandlingPopupWidget_C::OnWidgetMoveLeft()
 void UStackCountHandlingPopupWidget_C::CustomEvent_3()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73705);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73505);
 
 	UStackCountHandlingPopupWidget_C_CustomEvent_3_Params params;
 
@@ -610,7 +610,7 @@ void UStackCountHandlingPopupWidget_C::CustomEvent_3()
 void UStackCountHandlingPopupWidget_C::CustomEvent_4()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73704);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73504);
 
 	UStackCountHandlingPopupWidget_C_CustomEvent_4_Params params;
 
@@ -628,7 +628,7 @@ void UStackCountHandlingPopupWidget_C::CustomEvent_4()
 void UStackCountHandlingPopupWidget_C::CustomEvent_5()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73703);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73503);
 
 	UStackCountHandlingPopupWidget_C_CustomEvent_5_Params params;
 
@@ -648,7 +648,7 @@ void UStackCountHandlingPopupWidget_C::CustomEvent_5()
 void UStackCountHandlingPopupWidget_C::BndEvt__InputAmountText_K2Node_ComponentBoundEvent_0_OnEditableTextChangedEvent__DelegateSignature(const struct FText& Text)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73701);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73501);
 
 	UStackCountHandlingPopupWidget_C_BndEvt__InputAmountText_K2Node_ComponentBoundEvent_0_OnEditableTextChangedEvent__DelegateSignature_Params params;
 	params.Text = Text;
@@ -667,7 +667,7 @@ void UStackCountHandlingPopupWidget_C::BndEvt__InputAmountText_K2Node_ComponentB
 void UStackCountHandlingPopupWidget_C::OnStackCountActionPerformed()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73700);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73500);
 
 	UStackCountHandlingPopupWidget_C_OnStackCountActionPerformed_Params params;
 
@@ -687,7 +687,7 @@ void UStackCountHandlingPopupWidget_C::OnStackCountActionPerformed()
 void UStackCountHandlingPopupWidget_C::ExecuteUbergraph_StackCountHandlingPopupWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73649);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73449);
 
 	UStackCountHandlingPopupWidget_C_ExecuteUbergraph_StackCountHandlingPopupWidget_Params params;
 	params.EntryPoint = EntryPoint;
@@ -710,7 +710,7 @@ void UStackCountHandlingPopupWidget_C::ExecuteUbergraph_StackCountHandlingPopupW
 void UStackCountHandlingPopupWidget_C::OnStackCountUpdated__DelegateSignature(const TScriptInterface<class USlotInterface>& SlotInterface, const TScriptInterface<class USlotContainerInterface>& SlotContainer, int StackCount)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73645);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73445);
 
 	UStackCountHandlingPopupWidget_C_OnStackCountUpdated__DelegateSignature_Params params;
 	params.SlotInterface = SlotInterface;

@@ -18,7 +18,7 @@ namespace Classes
 void UMainOptionWidget_C::ClearOptionButtonsColors()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74652);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74409);
 
 	UMainOptionWidget_C_ClearOptionButtonsColors_Params params;
 
@@ -38,7 +38,7 @@ void UMainOptionWidget_C::ClearOptionButtonsColors()
 void UMainOptionWidget_C::PopupButtonClicked(EPopupButtonID ButtonID)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74644);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74401);
 
 	UMainOptionWidget_C_PopupButtonClicked_Params params;
 	params.ButtonID = ButtonID;
@@ -59,7 +59,7 @@ void UMainOptionWidget_C::PopupButtonClicked(EPopupButtonID ButtonID)
 bool UMainOptionWidget_C::Get_ResetButton_bIsEnabled_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74641);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74398);
 
 	UMainOptionWidget_C_Get_ResetButton_bIsEnabled_1_Params params;
 
@@ -81,7 +81,7 @@ bool UMainOptionWidget_C::Get_ResetButton_bIsEnabled_1()
 bool UMainOptionWidget_C::Get_OkButton_bIsEnabled_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74639);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74396);
 
 	UMainOptionWidget_C_Get_OkButton_bIsEnabled_1_Params params;
 
@@ -103,7 +103,7 @@ bool UMainOptionWidget_C::Get_OkButton_bIsEnabled_1()
 void UMainOptionWidget_C::ShowMessage(const struct FText& Message)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74632);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74389);
 
 	UMainOptionWidget_C_ShowMessage_Params params;
 	params.Message = Message;
@@ -122,7 +122,7 @@ void UMainOptionWidget_C::ShowMessage(const struct FText& Message)
 void UMainOptionWidget_C::OnReset()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74630);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74387);
 
 	UMainOptionWidget_C_OnReset_Params params;
 
@@ -140,7 +140,7 @@ void UMainOptionWidget_C::OnReset()
 void UMainOptionWidget_C::OnDefault()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74628);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74385);
 
 	UMainOptionWidget_C_OnDefault_Params params;
 
@@ -160,7 +160,7 @@ void UMainOptionWidget_C::OnDefault()
 void UMainOptionWidget_C::ChangeOption(int Index)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74623);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74380);
 
 	UMainOptionWidget_C_ChangeOption_Params params;
 	params.Index = Index;
@@ -179,7 +179,7 @@ void UMainOptionWidget_C::ChangeOption(int Index)
 void UMainOptionWidget_C::OnApply()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74621);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74378);
 
 	UMainOptionWidget_C_OnApply_Params params;
 
@@ -197,7 +197,7 @@ void UMainOptionWidget_C::OnApply()
 void UMainOptionWidget_C::CloseMainOption()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74616);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74373);
 
 	UMainOptionWidget_C_CloseMainOption_Params params;
 
@@ -217,7 +217,7 @@ void UMainOptionWidget_C::CloseMainOption()
 bool UMainOptionWidget_C::IsApplyButtonEnabled()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74608);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74365);
 
 	UMainOptionWidget_C_IsApplyButtonEnabled_Params params;
 
@@ -237,7 +237,7 @@ bool UMainOptionWidget_C::IsApplyButtonEnabled()
 void UMainOptionWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74607);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74364);
 
 	UMainOptionWidget_C_Construct_Params params;
 
@@ -255,7 +255,7 @@ void UMainOptionWidget_C::Construct()
 void UMainOptionWidget_C::BndEvt__OptionButton_3_K2Node_ComponentBoundEvent_423_OnClicked__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74606);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74363);
 
 	UMainOptionWidget_C_BndEvt__OptionButton_3_K2Node_ComponentBoundEvent_423_OnClicked__DelegateSignature_Params params;
 
@@ -273,7 +273,7 @@ void UMainOptionWidget_C::BndEvt__OptionButton_3_K2Node_ComponentBoundEvent_423_
 void UMainOptionWidget_C::BndEvt__OptionButton_4_K2Node_ComponentBoundEvent_487_OnClicked__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74605);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74362);
 
 	UMainOptionWidget_C_BndEvt__OptionButton_4_K2Node_ComponentBoundEvent_487_OnClicked__DelegateSignature_Params params;
 
@@ -291,7 +291,7 @@ void UMainOptionWidget_C::BndEvt__OptionButton_4_K2Node_ComponentBoundEvent_487_
 void UMainOptionWidget_C::BndEvt__OptionButton_5_K2Node_ComponentBoundEvent_515_OnClicked__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74604);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74361);
 
 	UMainOptionWidget_C_BndEvt__OptionButton_5_K2Node_ComponentBoundEvent_515_OnClicked__DelegateSignature_Params params;
 
@@ -309,7 +309,7 @@ void UMainOptionWidget_C::BndEvt__OptionButton_5_K2Node_ComponentBoundEvent_515_
 void UMainOptionWidget_C::BndEvt__OptionSettingsButotn_K2Node_ComponentBoundEvent_253_OnButtonDown__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74603);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74360);
 
 	UMainOptionWidget_C_BndEvt__OptionSettingsButotn_K2Node_ComponentBoundEvent_253_OnButtonDown__DelegateSignature_Params params;
 
@@ -327,7 +327,7 @@ void UMainOptionWidget_C::BndEvt__OptionSettingsButotn_K2Node_ComponentBoundEven
 void UMainOptionWidget_C::BndEvt__CancelButton_K2Node_ComponentBoundEvent_344_OnButtonDown__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74602);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74359);
 
 	UMainOptionWidget_C_BndEvt__CancelButton_K2Node_ComponentBoundEvent_344_OnButtonDown__DelegateSignature_Params params;
 
@@ -345,7 +345,7 @@ void UMainOptionWidget_C::BndEvt__CancelButton_K2Node_ComponentBoundEvent_344_On
 void UMainOptionWidget_C::BndEvt__ApplyButton_K2Node_ComponentBoundEvent_362_OnButtonDown__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74601);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74358);
 
 	UMainOptionWidget_C_BndEvt__ApplyButton_K2Node_ComponentBoundEvent_362_OnButtonDown__DelegateSignature_Params params;
 
@@ -363,7 +363,7 @@ void UMainOptionWidget_C::BndEvt__ApplyButton_K2Node_ComponentBoundEvent_362_OnB
 void UMainOptionWidget_C::BndEvt__DefaultButton_K2Node_ComponentBoundEvent_403_OnButtonDown__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74600);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74357);
 
 	UMainOptionWidget_C_BndEvt__DefaultButton_K2Node_ComponentBoundEvent_403_OnButtonDown__DelegateSignature_Params params;
 
@@ -381,7 +381,7 @@ void UMainOptionWidget_C::BndEvt__DefaultButton_K2Node_ComponentBoundEvent_403_O
 void UMainOptionWidget_C::BndEvt__ResetButton_K2Node_ComponentBoundEvent_433_OnButtonDown__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74599);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74356);
 
 	UMainOptionWidget_C_BndEvt__ResetButton_K2Node_ComponentBoundEvent_433_OnButtonDown__DelegateSignature_Params params;
 
@@ -399,7 +399,7 @@ void UMainOptionWidget_C::BndEvt__ResetButton_K2Node_ComponentBoundEvent_433_OnB
 void UMainOptionWidget_C::OnHiddenWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74598);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74355);
 
 	UMainOptionWidget_C_OnHiddenWidget_Params params;
 
@@ -417,7 +417,7 @@ void UMainOptionWidget_C::OnHiddenWidget()
 void UMainOptionWidget_C::XBoxOnOk()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74597);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74354);
 
 	UMainOptionWidget_C_XBoxOnOk_Params params;
 
@@ -435,7 +435,7 @@ void UMainOptionWidget_C::XBoxOnOk()
 void UMainOptionWidget_C::Destruct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74596);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74353);
 
 	UMainOptionWidget_C_Destruct_Params params;
 
@@ -453,7 +453,7 @@ void UMainOptionWidget_C::Destruct()
 void UMainOptionWidget_C::BndEvt__OptionButton3_K2Node_ComponentBoundEvent_144_OnClicked__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74595);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74352);
 
 	UMainOptionWidget_C_BndEvt__OptionButton3_K2Node_ComponentBoundEvent_144_OnClicked__DelegateSignature_Params params;
 
@@ -473,7 +473,7 @@ void UMainOptionWidget_C::BndEvt__OptionButton3_K2Node_ComponentBoundEvent_144_O
 void UMainOptionWidget_C::ExecuteUbergraph_MainOptionWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74578);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74335);
 
 	UMainOptionWidget_C_ExecuteUbergraph_MainOptionWidget_Params params;
 	params.EntryPoint = EntryPoint;

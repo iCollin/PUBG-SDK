@@ -18,7 +18,7 @@ namespace Classes
 void ALobbyPostPorcessEffect_C::UserConstructionScript()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(106735);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(106733);
 
 	ALobbyPostPorcessEffect_C_UserConstructionScript_Params params;
 

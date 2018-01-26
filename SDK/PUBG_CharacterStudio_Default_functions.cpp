@@ -18,7 +18,7 @@ namespace Classes
 void ACharacterStudio_Default_C::UserConstructionScript()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57053);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58985);
 
 	ACharacterStudio_Default_C_UserConstructionScript_Params params;
 
@@ -38,7 +38,7 @@ void ACharacterStudio_Default_C::UserConstructionScript()
 void ACharacterStudio_Default_C::ReceiveTick(float* DeltaSeconds)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57051);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58983);
 
 	ACharacterStudio_Default_C_ReceiveTick_Params params;
 	params.DeltaSeconds = DeltaSeconds;
@@ -57,7 +57,7 @@ void ACharacterStudio_Default_C::ReceiveTick(float* DeltaSeconds)
 void ACharacterStudio_Default_C::ReceiveDestroyed()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57050);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58982);
 
 	ACharacterStudio_Default_C_ReceiveDestroyed_Params params;
 
@@ -77,7 +77,7 @@ void ACharacterStudio_Default_C::ReceiveDestroyed()
 void ACharacterStudio_Default_C::ExecuteUbergraph_CharacterStudio_Default(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57047);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58979);
 
 	ACharacterStudio_Default_C_ExecuteUbergraph_CharacterStudio_Default_Params params;
 	params.EntryPoint = EntryPoint;

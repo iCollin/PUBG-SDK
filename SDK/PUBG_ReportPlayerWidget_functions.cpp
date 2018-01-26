@@ -20,7 +20,7 @@ namespace Classes
 void UReportPlayerWidget_C::OnChangeCauser(const struct FString& SelectCauser)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72503);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72303);
 
 	UReportPlayerWidget_C_OnChangeCauser_Params params;
 	params.SelectCauser = SelectCauser;
@@ -41,7 +41,7 @@ void UReportPlayerWidget_C::OnChangeCauser(const struct FString& SelectCauser)
 void UReportPlayerWidget_C::InitPlayerNameSetting(ESubjectToReport Key)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72498);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72298);
 
 	UReportPlayerWidget_C_InitPlayerNameSetting_Params params;
 	params.Key = Key;
@@ -60,7 +60,7 @@ void UReportPlayerWidget_C::InitPlayerNameSetting(ESubjectToReport Key)
 void UReportPlayerWidget_C::InitComboboxSetting()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72487);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72287);
 
 	UReportPlayerWidget_C_InitComboboxSetting_Params params;
 
@@ -80,7 +80,7 @@ void UReportPlayerWidget_C::InitComboboxSetting()
 void UReportPlayerWidget_C::InitSubjectToReport(ESubjectToReport SubjectToReportType)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72472);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72272);
 
 	UReportPlayerWidget_C_InitSubjectToReport_Params params;
 	params.SubjectToReportType = SubjectToReportType;
@@ -101,7 +101,7 @@ void UReportPlayerWidget_C::InitSubjectToReport(ESubjectToReport SubjectToReport
 bool UReportPlayerWidget_C::GetbIsEnabled_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72468);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72268);
 
 	UReportPlayerWidget_C_GetbIsEnabled_1_Params params;
 
@@ -121,7 +121,7 @@ bool UReportPlayerWidget_C::GetbIsEnabled_1()
 void UReportPlayerWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72467);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72267);
 
 	UReportPlayerWidget_C_Construct_Params params;
 
@@ -142,7 +142,7 @@ void UReportPlayerWidget_C::Construct()
 void UReportPlayerWidget_C::BndEvt__ReportCausesComboBox_K2Node_ComponentBoundEvent_59_OnSelectionChangedEvent__DelegateSignature(const struct FString& SelectedItem, TEnumAsByte<ESelectInfo> SelectionType)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72464);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72264);
 
 	UReportPlayerWidget_C_BndEvt__ReportCausesComboBox_K2Node_ComponentBoundEvent_59_OnSelectionChangedEvent__DelegateSignature_Params params;
 	params.SelectedItem = SelectedItem;
@@ -162,7 +162,7 @@ void UReportPlayerWidget_C::BndEvt__ReportCausesComboBox_K2Node_ComponentBoundEv
 void UReportPlayerWidget_C::BndEvt__ButtonClose_K2Node_ComponentBoundEvent_8_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72463);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72263);
 
 	UReportPlayerWidget_C_BndEvt__ButtonClose_K2Node_ComponentBoundEvent_8_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -180,7 +180,7 @@ void UReportPlayerWidget_C::BndEvt__ButtonClose_K2Node_ComponentBoundEvent_8_OnB
 void UReportPlayerWidget_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_21_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72462);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72262);
 
 	UReportPlayerWidget_C_BndEvt__Button_0_K2Node_ComponentBoundEvent_21_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -200,7 +200,7 @@ void UReportPlayerWidget_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_21_OnBut
 void UReportPlayerWidget_C::UpdateSubjectToReportType(ESubjectToReport SubjectToReportType)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72459);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72259);
 
 	UReportPlayerWidget_C_UpdateSubjectToReportType_Params params;
 	params.SubjectToReportType = SubjectToReportType;
@@ -221,7 +221,7 @@ void UReportPlayerWidget_C::UpdateSubjectToReportType(ESubjectToReport SubjectTo
 void UReportPlayerWidget_C::ExecuteUbergraph_ReportPlayerWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72435);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72235);
 
 	UReportPlayerWidget_C_ExecuteUbergraph_ReportPlayerWidget_Params params;
 	params.EntryPoint = EntryPoint;

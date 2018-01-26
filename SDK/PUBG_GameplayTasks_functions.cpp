@@ -18,7 +18,7 @@ namespace Classes
 void UGameplayTask::ReadyForActivation()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(5369);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(5366);
 
 	UGameplayTask_ReadyForActivation_Params params;
 
@@ -37,7 +37,7 @@ void UGameplayTask::ReadyForActivation()
 void UGameplayTask::GenericGameplayTaskDelegate__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(5368);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(5365);
 
 	UGameplayTask_GenericGameplayTaskDelegate__DelegateSignature_Params params;
 
@@ -55,7 +55,7 @@ void UGameplayTask::GenericGameplayTaskDelegate__DelegateSignature()
 void UGameplayTask::EndTask()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(5367);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(5364);
 
 	UGameplayTask_EndTask_Params params;
 
@@ -80,7 +80,7 @@ void UGameplayTask::EndTask()
 class UGameplayTask_ClaimResource* UGameplayTask_ClaimResource::STATIC_ClaimResources(const TScriptInterface<class UGameplayTaskOwnerInterface>& InTaskOwner, TArray<class UClass*> ResourceClasses, unsigned char Priority, const struct FName& TaskInstanceName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(29095);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(29065);
 
 	UGameplayTask_ClaimResource_ClaimResources_Params params;
 	params.InTaskOwner = InTaskOwner;
@@ -111,7 +111,7 @@ class UGameplayTask_ClaimResource* UGameplayTask_ClaimResource::STATIC_ClaimReso
 class UGameplayTask_ClaimResource* UGameplayTask_ClaimResource::STATIC_ClaimResource(const TScriptInterface<class UGameplayTaskOwnerInterface>& InTaskOwner, class UClass* ResourceClass, unsigned char Priority, const struct FName& TaskInstanceName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(29089);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(29059);
 
 	UGameplayTask_ClaimResource_ClaimResource_Params params;
 	params.InTaskOwner = InTaskOwner;
@@ -143,7 +143,7 @@ class UGameplayTask_ClaimResource* UGameplayTask_ClaimResource::STATIC_ClaimReso
 class UGameplayTask_SpawnActor* UGameplayTask_SpawnActor::STATIC_SpawnActor(const TScriptInterface<class UGameplayTaskOwnerInterface>& TaskOwner, const struct FVector& SpawnLocation, const struct FRotator& SpawnRotation, class UClass* Class, bool bSpawnOnlyOnAuthority)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(29109);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(29079);
 
 	UGameplayTask_SpawnActor_SpawnActor_Params params;
 	params.TaskOwner = TaskOwner;
@@ -172,7 +172,7 @@ class UGameplayTask_SpawnActor* UGameplayTask_SpawnActor::STATIC_SpawnActor(cons
 void UGameplayTask_SpawnActor::FinishSpawningActor(class UObject* WorldContextObject, class AActor* SpawnedActor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(29106);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(29076);
 
 	UGameplayTask_SpawnActor_FinishSpawningActor_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -197,7 +197,7 @@ void UGameplayTask_SpawnActor::FinishSpawningActor(class UObject* WorldContextOb
 bool UGameplayTask_SpawnActor::BeginSpawningActor(class UObject* WorldContextObject, class AActor** SpawnedActor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(29102);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(29072);
 
 	UGameplayTask_SpawnActor_BeginSpawningActor_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -222,7 +222,7 @@ bool UGameplayTask_SpawnActor::BeginSpawningActor(class UObject* WorldContextObj
 void UGameplayTask_TimeLimitedExecution::TaskFinishDelegate__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(5381);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(5378);
 
 	UGameplayTask_TimeLimitedExecution_TaskFinishDelegate__DelegateSignature_Params params;
 
@@ -245,7 +245,7 @@ void UGameplayTask_TimeLimitedExecution::TaskFinishDelegate__DelegateSignature()
 class UGameplayTask_WaitDelay* UGameplayTask_WaitDelay::STATIC_TaskWaitDelay(const TScriptInterface<class UGameplayTaskOwnerInterface>& TaskOwner, float Time, unsigned char Priority)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(5385);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(5382);
 
 	UGameplayTask_WaitDelay_TaskWaitDelay_Params params;
 	params.TaskOwner = TaskOwner;
@@ -269,7 +269,7 @@ class UGameplayTask_WaitDelay* UGameplayTask_WaitDelay::STATIC_TaskWaitDelay(con
 void UGameplayTask_WaitDelay::TaskDelayDelegate__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(5384);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(5381);
 
 	UGameplayTask_WaitDelay_TaskDelayDelegate__DelegateSignature_Params params;
 
@@ -287,7 +287,7 @@ void UGameplayTask_WaitDelay::TaskDelayDelegate__DelegateSignature()
 void UGameplayTasksComponent::OnRep_SimulatedTasks()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(29129);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(29099);
 
 	UGameplayTasksComponent_OnRep_SimulatedTasks_Params params;
 
@@ -313,7 +313,7 @@ void UGameplayTasksComponent::OnRep_SimulatedTasks()
 EGameplayTaskRunResult UGameplayTasksComponent::STATIC_K2_RunGameplayTask(const TScriptInterface<class UGameplayTaskOwnerInterface>& TaskOwner, class UGameplayTask* Task, unsigned char Priority, TArray<class UClass*> AdditionalRequiredResources, TArray<class UClass*> AdditionalClaimedResources)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(29119);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(29089);
 
 	UGameplayTasksComponent_K2_RunGameplayTask_Params params;
 	params.TaskOwner = TaskOwner;

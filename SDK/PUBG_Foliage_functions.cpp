@@ -24,7 +24,7 @@ namespace Classes
 int UFoliageStatistics::STATIC_FoliageOverlappingSphereCount(class UObject* WorldContextObject, class UStaticMesh* StaticMesh, const struct FVector& CenterPosition, float Radius)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26986);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26956);
 
 	UFoliageStatistics_FoliageOverlappingSphereCount_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -54,7 +54,7 @@ int UFoliageStatistics::STATIC_FoliageOverlappingSphereCount(class UObject* Worl
 int UFoliageStatistics::STATIC_FoliageOverlappingBoxCount(class UObject* WorldContextObject, class UStaticMesh* StaticMesh, const struct FBox& Box)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26981);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(26951);
 
 	UFoliageStatistics_FoliageOverlappingBoxCount_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -85,7 +85,7 @@ int UFoliageStatistics::STATIC_FoliageOverlappingBoxCount(class UObject* WorldCo
 void AInteractiveFoliageActor::CapsuleTouched(class UPrimitiveComponent* OverlappedComp, class AActor* Other, class UPrimitiveComponent* OtherComp, int OtherBodyIndex, bool bFromSweep, const struct FHitResult& OverlapInfo)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27075);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27045);
 
 	AInteractiveFoliageActor_CapsuleTouched_Params params;
 	params.OverlappedComp = OverlappedComp;
@@ -112,7 +112,7 @@ void AInteractiveFoliageActor::CapsuleTouched(class UPrimitiveComponent* Overlap
 void UProceduralFoliageSpawner::Simulate(int NumSteps)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27101);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27071);
 
 	UProceduralFoliageSpawner_Simulate_Params params;
 	params.NumSteps = NumSteps;

@@ -20,7 +20,7 @@ namespace Classes
 void UBP_TeamOverallKillCountWidget_C::OnPrepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58528);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57716);
 
 	UBP_TeamOverallKillCountWidget_C_OnPrepass_1_Params params;
 	params.BoundWidget = BoundWidget;

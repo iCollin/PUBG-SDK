@@ -18,7 +18,7 @@ namespace Classes
 void UBloodSpotWidget_C::Start()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(88596);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91148);
 
 	UBloodSpotWidget_C_Start_Params params;
 
@@ -36,7 +36,7 @@ void UBloodSpotWidget_C::Start()
 void UBloodSpotWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(88595);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91147);
 
 	UBloodSpotWidget_C_Construct_Params params;
 
@@ -56,7 +56,7 @@ void UBloodSpotWidget_C::Construct()
 void UBloodSpotWidget_C::OnAnimationStarted(class UWidgetAnimation** Animation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(88593);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91145);
 
 	UBloodSpotWidget_C_OnAnimationStarted_Params params;
 	params.Animation = Animation;
@@ -77,7 +77,7 @@ void UBloodSpotWidget_C::OnAnimationStarted(class UWidgetAnimation** Animation)
 void UBloodSpotWidget_C::OnAnimationFinished(class UWidgetAnimation** Animation)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(88591);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91143);
 
 	UBloodSpotWidget_C_OnAnimationFinished_Params params;
 	params.Animation = Animation;
@@ -98,7 +98,7 @@ void UBloodSpotWidget_C::OnAnimationFinished(class UWidgetAnimation** Animation)
 void UBloodSpotWidget_C::ExecuteUbergraph_BloodSpotWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(88579);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91131);
 
 	UBloodSpotWidget_C_ExecuteUbergraph_BloodSpotWidget_Params params;
 	params.EntryPoint = EntryPoint;

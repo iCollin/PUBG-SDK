@@ -5908,7 +5908,6 @@ struct UStanceComponent_ServerChangeStance_Params
 // Function TslGame.StanceComponent.OnRep_CurrentStance
 struct UStanceComponent_OnRep_CurrentStance_Params
 {
-	TEnumAsByte<EStanceMode>                           OldCurrentStand;                                          // (Parm, ZeroConstructor, IsPlainOldData)
 };
 
 // Function TslGame.StanceComponent.ClientInitByReconnection
@@ -7524,18 +7523,6 @@ struct UTslSettings_IsUsingGappLobby_Params
 
 // Function TslGame.TslSettings.IsForKoreanRating
 struct UTslSettings_IsForKoreanRating_Params
-{
-	bool                                               ReturnValue;                                              // (ConstParm, Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData)
-};
-
-// Function TslGame.TslSettings.IsForKakaoTest
-struct UTslSettings_IsForKakaoTest_Params
-{
-	bool                                               ReturnValue;                                              // (ConstParm, Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData)
-};
-
-// Function TslGame.TslSettings.IsForKakao
-struct UTslSettings_IsForKakao_Params
 {
 	bool                                               ReturnValue;                                              // (ConstParm, Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData)
 };

@@ -18,7 +18,7 @@ namespace Classes
 void AP_Environment_Leaf_BP_Lobby_C::UserConstructionScript()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(110740);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(110722);
 
 	AP_Environment_Leaf_BP_Lobby_C_UserConstructionScript_Params params;
 

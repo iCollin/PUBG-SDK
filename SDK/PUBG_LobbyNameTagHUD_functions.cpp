@@ -20,7 +20,7 @@ namespace Classes
 void ULobbyNameTagHUD_C::CleanUpNameTagWidget(int SlotIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(106147);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(106144);
 
 	ULobbyNameTagHUD_C_CleanUpNameTagWidget_Params params;
 	params.SlotIndex = SlotIndex;
@@ -41,7 +41,7 @@ void ULobbyNameTagHUD_C::CleanUpNameTagWidget(int SlotIndex)
 void ULobbyNameTagHUD_C::SetupNameTagWidget(int SlotIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(106140);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(106137);
 
 	ULobbyNameTagHUD_C_SetupNameTagWidget_Params params;
 	params.SlotIndex = SlotIndex;
@@ -63,7 +63,7 @@ void ULobbyNameTagHUD_C::SetupNameTagWidget(int SlotIndex)
 void ULobbyNameTagHUD_C::GetNameTagWidget(int SlotIndex, class UTslLobbyNameTagWidget** Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(106136);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(106133);
 
 	ULobbyNameTagHUD_C_GetNameTagWidget_Params params;
 	params.SlotIndex = SlotIndex;
@@ -87,7 +87,7 @@ void ULobbyNameTagHUD_C::GetNameTagWidget(int SlotIndex, class UTslLobbyNameTagW
 void ULobbyNameTagHUD_C::On_NameTag_0_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(106124);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(106121);
 
 	ULobbyNameTagHUD_C_On_NameTag_0_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -106,7 +106,7 @@ void ULobbyNameTagHUD_C::On_NameTag_0_Prepass_1(class UWidget* BoundWidget)
 void ULobbyNameTagHUD_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(106123);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(106120);
 
 	ULobbyNameTagHUD_C_Construct_Params params;
 
@@ -126,7 +126,7 @@ void ULobbyNameTagHUD_C::Construct()
 void ULobbyNameTagHUD_C::ExecuteUbergraph_LobbyNameTagHUD(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(106117);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(106114);
 
 	ULobbyNameTagHUD_C_ExecuteUbergraph_LobbyNameTagHUD_Params params;
 	params.EntryPoint = EntryPoint;

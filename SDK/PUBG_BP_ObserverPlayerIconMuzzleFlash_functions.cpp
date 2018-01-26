@@ -18,7 +18,7 @@ namespace Classes
 void UBP_ObserverPlayerIconMuzzleFlash_C::PlayMuzzleFlashAnim()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55611);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69302);
 
 	UBP_ObserverPlayerIconMuzzleFlash_C_PlayMuzzleFlashAnim_Params params;
 
@@ -36,7 +36,7 @@ void UBP_ObserverPlayerIconMuzzleFlash_C::PlayMuzzleFlashAnim()
 void UBP_ObserverPlayerIconMuzzleFlash_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55610);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69301);
 
 	UBP_ObserverPlayerIconMuzzleFlash_C_Construct_Params params;
 
@@ -56,7 +56,7 @@ void UBP_ObserverPlayerIconMuzzleFlash_C::Construct()
 void UBP_ObserverPlayerIconMuzzleFlash_C::ExecuteUbergraph_BP_ObserverPlayerIconMuzzleFlash(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55608);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(69299);
 
 	UBP_ObserverPlayerIconMuzzleFlash_C_ExecuteUbergraph_BP_ObserverPlayerIconMuzzleFlash_Params params;
 	params.EntryPoint = EntryPoint;

@@ -18,7 +18,7 @@ namespace Classes
 void AThrowableWeaponStudio_C::OnLoaded()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62250);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61642);
 
 	AThrowableWeaponStudio_C_OnLoaded_Params params;
 
@@ -36,7 +36,7 @@ void AThrowableWeaponStudio_C::OnLoaded()
 void AThrowableWeaponStudio_C::UserConstructionScript()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62248);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61640);
 
 	AThrowableWeaponStudio_C_UserConstructionScript_Params params;
 
@@ -56,7 +56,7 @@ void AThrowableWeaponStudio_C::UserConstructionScript()
 void AThrowableWeaponStudio_C::SetItem(class UItem** Item)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62246);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61638);
 
 	AThrowableWeaponStudio_C_SetItem_Params params;
 	params.Item = Item;
@@ -77,7 +77,7 @@ void AThrowableWeaponStudio_C::SetItem(class UItem** Item)
 void AThrowableWeaponStudio_C::ExecuteUbergraph_ThrowableWeaponStudio(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62241);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61633);
 
 	AThrowableWeaponStudio_C_ExecuteUbergraph_ThrowableWeaponStudio_Params params;
 	params.EntryPoint = EntryPoint;

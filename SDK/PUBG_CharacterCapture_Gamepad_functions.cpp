@@ -20,7 +20,7 @@ namespace Classes
 void UCharacterCapture_Gamepad_C::PrepassCharacterCapture(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62090);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61482);
 
 	UCharacterCapture_Gamepad_C_PrepassCharacterCapture_Params params;
 	params.BoundWidget = BoundWidget;
@@ -39,7 +39,7 @@ void UCharacterCapture_Gamepad_C::PrepassCharacterCapture(class UWidget* BoundWi
 void UCharacterCapture_Gamepad_C::FinalizeCharacterCapture()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62088);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61480);
 
 	UCharacterCapture_Gamepad_C_FinalizeCharacterCapture_Params params;
 
@@ -59,7 +59,7 @@ void UCharacterCapture_Gamepad_C::FinalizeCharacterCapture()
 void UCharacterCapture_Gamepad_C::SaveCharacterStudio(class AActor* Actor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62082);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61474);
 
 	UCharacterCapture_Gamepad_C_SaveCharacterStudio_Params params;
 	params.Actor = Actor;
@@ -78,7 +78,7 @@ void UCharacterCapture_Gamepad_C::SaveCharacterStudio(class AActor* Actor)
 void UCharacterCapture_Gamepad_C::InitCharacterCapture()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62067);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61459);
 
 	UCharacterCapture_Gamepad_C_InitCharacterCapture_Params params;
 
@@ -96,7 +96,7 @@ void UCharacterCapture_Gamepad_C::InitCharacterCapture()
 void UCharacterCapture_Gamepad_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62066);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61458);
 
 	UCharacterCapture_Gamepad_C_Construct_Params params;
 
@@ -114,7 +114,7 @@ void UCharacterCapture_Gamepad_C::Construct()
 void UCharacterCapture_Gamepad_C::Destruct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62065);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61457);
 
 	UCharacterCapture_Gamepad_C_Destruct_Params params;
 
@@ -134,7 +134,7 @@ void UCharacterCapture_Gamepad_C::Destruct()
 void UCharacterCapture_Gamepad_C::ExecuteUbergraph_CharacterCapture_Gamepad(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62063);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61455);
 
 	UCharacterCapture_Gamepad_C_ExecuteUbergraph_CharacterCapture_Gamepad_Params params;
 	params.EntryPoint = EntryPoint;

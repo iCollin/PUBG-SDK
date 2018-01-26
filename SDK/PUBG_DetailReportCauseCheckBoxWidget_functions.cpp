@@ -20,7 +20,7 @@ namespace Classes
 void UDetailReportCauseCheckBoxWidget_C::GetDetailCauseType(EReportDetailCauseType* ReportDetailCause)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72130);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(63403);
 
 	UDetailReportCauseCheckBoxWidget_C_GetDetailCauseType_Params params;
 
@@ -43,7 +43,7 @@ void UDetailReportCauseCheckBoxWidget_C::GetDetailCauseType(EReportDetailCauseTy
 void UDetailReportCauseCheckBoxWidget_C::IsChecked(bool* bSelected)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72127);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(63400);
 
 	UDetailReportCauseCheckBoxWidget_C_IsChecked_Params params;
 
@@ -66,7 +66,7 @@ void UDetailReportCauseCheckBoxWidget_C::IsChecked(bool* bSelected)
 void UDetailReportCauseCheckBoxWidget_C::SetDetailCauseData(const struct FReportDetailCauseTypeDescription& CauseData)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(72125);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(63398);
 
 	UDetailReportCauseCheckBoxWidget_C_SetDetailCauseData_Params params;
 	params.CauseData = CauseData;

@@ -20,7 +20,7 @@ namespace Classes
 void UHudAlwaysOn_C::OnPrepass_4(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77382);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77139);
 
 	UHudAlwaysOn_C_OnPrepass_4_Params params;
 	params.BoundWidget = BoundWidget;
@@ -39,7 +39,7 @@ void UHudAlwaysOn_C::OnPrepass_4(class UWidget* BoundWidget)
 void UHudAlwaysOn_C::SetCharacterInfoDown()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77376);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77133);
 
 	UHudAlwaysOn_C_SetCharacterInfoDown_Params params;
 
@@ -57,7 +57,7 @@ void UHudAlwaysOn_C::SetCharacterInfoDown()
 void UHudAlwaysOn_C::SetCharacterInfoUp()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77375);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77132);
 
 	UHudAlwaysOn_C_SetCharacterInfoUp_Params params;
 
@@ -77,7 +77,7 @@ void UHudAlwaysOn_C::SetCharacterInfoUp()
 void UHudAlwaysOn_C::OnPrepass_3(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77367);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77124);
 
 	UHudAlwaysOn_C_OnPrepass_3_Params params;
 	params.BoundWidget = BoundWidget;
@@ -96,7 +96,7 @@ void UHudAlwaysOn_C::OnPrepass_3(class UWidget* BoundWidget)
 void UHudAlwaysOn_C::UpdatePlayerHealth()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77349);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77106);
 
 	UHudAlwaysOn_C_UpdatePlayerHealth_Params params;
 
@@ -116,7 +116,7 @@ void UHudAlwaysOn_C::UpdatePlayerHealth()
 void UHudAlwaysOn_C::TeamInfoPrepass(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77335);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77092);
 
 	UHudAlwaysOn_C_TeamInfoPrepass_Params params;
 	params.BoundWidget = BoundWidget;
@@ -137,7 +137,7 @@ void UHudAlwaysOn_C::TeamInfoPrepass(class UWidget* BoundWidget)
 void UHudAlwaysOn_C::On_ReportBotton_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77322);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77079);
 
 	UHudAlwaysOn_C_On_ReportBotton_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -158,7 +158,7 @@ void UHudAlwaysOn_C::On_ReportBotton_Prepass_1(class UWidget* BoundWidget)
 void UHudAlwaysOn_C::OnPrepass_2(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77311);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77068);
 
 	UHudAlwaysOn_C_OnPrepass_2_Params params;
 	params.BoundWidget = BoundWidget;
@@ -179,7 +179,7 @@ void UHudAlwaysOn_C::OnPrepass_2(class UWidget* BoundWidget)
 void UHudAlwaysOn_C::On_CharacterCanvas_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77293);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77050);
 
 	UHudAlwaysOn_C_On_CharacterCanvas_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -200,7 +200,7 @@ void UHudAlwaysOn_C::On_CharacterCanvas_Prepass_1(class UWidget* BoundWidget)
 ESlateVisibility UHudAlwaysOn_C::GetVisibilityOnMatchState()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77286);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77043);
 
 	UHudAlwaysOn_C_GetVisibilityOnMatchState_Params params;
 
@@ -222,7 +222,7 @@ ESlateVisibility UHudAlwaysOn_C::GetVisibilityOnMatchState()
 void UHudAlwaysOn_C::On_BlueZoneGpsWidget_RoundType_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77282);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77039);
 
 	UHudAlwaysOn_C_On_BlueZoneGpsWidget_RoundType_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -243,7 +243,7 @@ void UHudAlwaysOn_C::On_BlueZoneGpsWidget_RoundType_Prepass_1(class UWidget* Bou
 void UHudAlwaysOn_C::OnPrepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77270);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77027);
 
 	UHudAlwaysOn_C_OnPrepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -262,7 +262,7 @@ void UHudAlwaysOn_C::OnPrepass_1(class UWidget* BoundWidget)
 void UHudAlwaysOn_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77269);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77026);
 
 	UHudAlwaysOn_C_Construct_Params params;
 
@@ -280,7 +280,7 @@ void UHudAlwaysOn_C::Construct()
 void UHudAlwaysOn_C::BndEvt__ReportBotton_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77268);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77025);
 
 	UHudAlwaysOn_C_BndEvt__ReportBotton_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -300,7 +300,7 @@ void UHudAlwaysOn_C::BndEvt__ReportBotton_K2Node_ComponentBoundEvent_5_OnButtonC
 void UHudAlwaysOn_C::ExecuteUbergraph_HudAlwaysOn(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77253);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(77010);
 
 	UHudAlwaysOn_C_ExecuteUbergraph_HudAlwaysOn_Params params;
 	params.EntryPoint = EntryPoint;

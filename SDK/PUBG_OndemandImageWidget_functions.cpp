@@ -18,7 +18,7 @@ namespace Classes
 void UOnDemandImageWidget_C::UnloadAndHideImage()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71446);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71329);
 
 	UOnDemandImageWidget_C_UnloadAndHideImage_Params params;
 
@@ -36,7 +36,7 @@ void UOnDemandImageWidget_C::UnloadAndHideImage()
 void UOnDemandImageWidget_C::LoadAndShowImage()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71436);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71319);
 
 	UOnDemandImageWidget_C_LoadAndShowImage_Params params;
 
@@ -54,7 +54,7 @@ void UOnDemandImageWidget_C::LoadAndShowImage()
 void UOnDemandImageWidget_C::UpdateVisibility()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71429);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71312);
 
 	UOnDemandImageWidget_C_UpdateVisibility_Params params;
 
@@ -74,7 +74,7 @@ void UOnDemandImageWidget_C::UpdateVisibility()
 void UOnDemandImageWidget_C::SetImagePath(TAssetPtr<class UTexture> TextureAsset)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71420);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71303);
 
 	UOnDemandImageWidget_C_SetImagePath_Params params;
 	params.TextureAsset = TextureAsset;
@@ -93,7 +93,7 @@ void UOnDemandImageWidget_C::SetImagePath(TAssetPtr<class UTexture> TextureAsset
 void UOnDemandImageWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71419);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71302);
 
 	UOnDemandImageWidget_C_Construct_Params params;
 
@@ -114,7 +114,7 @@ void UOnDemandImageWidget_C::Construct()
 void UOnDemandImageWidget_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71416);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71299);
 
 	UOnDemandImageWidget_C_Tick_Params params;
 	params.MyGeometry = MyGeometry;
@@ -134,7 +134,7 @@ void UOnDemandImageWidget_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTi
 void UOnDemandImageWidget_C::Destruct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71415);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71298);
 
 	UOnDemandImageWidget_C_Destruct_Params params;
 
@@ -154,7 +154,7 @@ void UOnDemandImageWidget_C::Destruct()
 void UOnDemandImageWidget_C::ExecuteUbergraph_OnDemandImageWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71411);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(71294);
 
 	UOnDemandImageWidget_C_ExecuteUbergraph_OnDemandImageWidget_Params params;
 	params.EntryPoint = EntryPoint;

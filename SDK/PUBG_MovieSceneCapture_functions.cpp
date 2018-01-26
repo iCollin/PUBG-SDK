@@ -20,7 +20,7 @@ namespace Classes
 int UMovieSceneCaptureEnvironment::STATIC_GetCaptureFrameNumber()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30250);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30220);
 
 	UMovieSceneCaptureEnvironment_GetCaptureFrameNumber_Params params;
 
@@ -43,7 +43,7 @@ int UMovieSceneCaptureEnvironment::STATIC_GetCaptureFrameNumber()
 float UMovieSceneCaptureEnvironment::STATIC_GetCaptureElapsedTime()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30248);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30218);
 
 	UMovieSceneCaptureEnvironment_GetCaptureElapsedTime_Params params;
 

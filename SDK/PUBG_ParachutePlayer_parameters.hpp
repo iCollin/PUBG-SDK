@@ -20,9 +20,9 @@ struct AParachutePlayer_C_UserConstructionScript_Params
 };
 
 // Function ParachutePlayer.ParachutePlayer_C.АР„З|·xЗ_
-struct AParachutePlayer_C_АР„З|·xЗ__Params
-{
-};
+//struct AParachutePlayer_C_АР„З|·xЗ__Params
+//{
+//};
 
 // Function ParachutePlayer.ParachutePlayer_C.ReceiveEndPlay
 struct AParachutePlayer_C_ReceiveEndPlay_Params

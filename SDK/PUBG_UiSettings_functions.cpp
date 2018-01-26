@@ -20,7 +20,7 @@ namespace Classes
 void UUiSettings_C::GetSelectUseCharacterCapture(bool* UseCharacterCapture)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90753);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(92342);
 
 	UUiSettings_C_GetSelectUseCharacterCapture_Params params;
 
@@ -41,7 +41,7 @@ void UUiSettings_C::GetSelectUseCharacterCapture(bool* UseCharacterCapture)
 void UUiSettings_C::ApplyByCurrentSelectedSettings()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90740);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(92329);
 
 	UUiSettings_C_ApplyByCurrentSelectedSettings_Params params;
 
@@ -61,7 +61,7 @@ void UUiSettings_C::ApplyByCurrentSelectedSettings()
 bool UUiSettings_C::IsChanged()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90688);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(92277);
 
 	UUiSettings_C_IsChanged_Params params;
 
@@ -83,7 +83,7 @@ bool UUiSettings_C::IsChanged()
 bool UUiSettings_C::IsEnableApply()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90685);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(92274);
 
 	UUiSettings_C_IsEnableApply_Params params;
 
@@ -103,7 +103,7 @@ bool UUiSettings_C::IsEnableApply()
 void UUiSettings_C::SetToDefault()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90668);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(92257);
 
 	UUiSettings_C_SetToDefault_Params params;
 
@@ -121,7 +121,7 @@ void UUiSettings_C::SetToDefault()
 void UUiSettings_C::InitUiSetting()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90618);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(92207);
 
 	UUiSettings_C_InitUiSetting_Params params;
 
@@ -139,7 +139,7 @@ void UUiSettings_C::InitUiSetting()
 void UUiSettings_C::OnDefault()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90617);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(92206);
 
 	UUiSettings_C_OnDefault_Params params;
 
@@ -157,7 +157,7 @@ void UUiSettings_C::OnDefault()
 void UUiSettings_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90616);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(92205);
 
 	UUiSettings_C_Construct_Params params;
 
@@ -175,7 +175,7 @@ void UUiSettings_C::Construct()
 void UUiSettings_C::OnApply()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90615);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(92204);
 
 	UUiSettings_C_OnApply_Params params;
 
@@ -195,7 +195,7 @@ void UUiSettings_C::OnApply()
 void UUiSettings_C::ExecuteUbergraph_UiSettings(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(90613);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(92202);
 
 	UUiSettings_C_ExecuteUbergraph_UiSettings_Params params;
 	params.EntryPoint = EntryPoint;

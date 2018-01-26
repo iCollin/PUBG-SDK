@@ -18,7 +18,7 @@ namespace Classes
 void ABuff_HealOverTime_C::UserConstructionScript()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55002);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55021);
 
 	ABuff_HealOverTime_C_UserConstructionScript_Params params;
 

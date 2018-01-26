@@ -549,15 +549,6 @@ enum class ECameraViewBehaviour : uint8_t
 };
 
 
-// Enum TslGame.EPlayerStartType
-enum class EPlayerStartType : uint8_t
-{
-	EPlayerStartType__OnePlace     = 0,
-	EPlayerStartType__SeveralPlace = 1,
-	EPlayerStartType__EPlayerStartType_MAX = 2
-};
-
-
 // Enum TslGame.EMatchStartType
 enum class EMatchStartType : uint8_t
 {
@@ -799,10 +790,9 @@ enum class ECheatType : uint8_t
 	InvalidSequence                = 9,
 	InvalidAmmo                    = 10,
 	InvalidChecksum                = 11,
-	InvalidReviving                = 12,
-	SimilarHit                     = 13,
-	DoubleKill                     = 14,
-	ECheatType_MAX                 = 15
+	SimilarHit                     = 12,
+	DoubleKill                     = 13,
+	ECheatType_MAX                 = 14
 };
 
 
@@ -2929,15 +2919,6 @@ struct FBlueZoneCustomOption
 	float                                              ReleaseDuration;                                          // 0x0008(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData)
 	float                                              PoisonGasDamagePerSecond;                                 // 0x000C(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData)
 	float                                              RadiusRate;                                               // 0x0010(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData)
-};
-
-// ScriptStruct TslGame.PlayerStartsUserCount
-// 0x0010
-struct FPlayerStartsUserCount
-{
-	int                                                PlayerCount;                                              // 0x0000(0x0004) (ZeroConstructor, IsPlainOldData)
-	unsigned char                                      UnknownData00[0x4];                                       // 0x0004(0x0004) MISSED OFFSET
-	class ATslPlayerStart*                             PlayerStart;                                              // 0x0008(0x0008) (ZeroConstructor, IsPlainOldData)
 };
 
 // ScriptStruct TslGame.Teams

@@ -20,7 +20,7 @@ namespace Classes
 void USquadPlayerInfoWidget_C::SetSquadPlayerInfoData(class ATslCharacter* TslCharacter)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57929);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56343);
 
 	USquadPlayerInfoWidget_C_SetSquadPlayerInfoData_Params params;
 	params.TslCharacter = TslCharacter;
@@ -41,7 +41,7 @@ void USquadPlayerInfoWidget_C::SetSquadPlayerInfoData(class ATslCharacter* TslCh
 void USquadPlayerInfoWidget_C::UpdateHealthPrepass_Hori(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57920);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56334);
 
 	USquadPlayerInfoWidget_C_UpdateHealthPrepass_Hori_Params params;
 	params.BoundWidget = BoundWidget;
@@ -62,7 +62,7 @@ void USquadPlayerInfoWidget_C::UpdateHealthPrepass_Hori(class UWidget* BoundWidg
 void USquadPlayerInfoWidget_C::On_TextTeamNumber_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57914);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56328);
 
 	USquadPlayerInfoWidget_C_On_TextTeamNumber_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -83,7 +83,7 @@ void USquadPlayerInfoWidget_C::On_TextTeamNumber_Prepass_1(class UWidget* BoundW
 void USquadPlayerInfoWidget_C::On_TextShortcut_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57910);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56324);
 
 	USquadPlayerInfoWidget_C_On_TextShortcut_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -104,7 +104,7 @@ void USquadPlayerInfoWidget_C::On_TextShortcut_Prepass_1(class UWidget* BoundWid
 void USquadPlayerInfoWidget_C::OnPrepass_2(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57907);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56321);
 
 	USquadPlayerInfoWidget_C_OnPrepass_2_Params params;
 	params.BoundWidget = BoundWidget;
@@ -125,7 +125,7 @@ void USquadPlayerInfoWidget_C::OnPrepass_2(class UWidget* BoundWidget)
 void USquadPlayerInfoWidget_C::On_HPGaugeSizeBox_Hori_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57904);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56318);
 
 	USquadPlayerInfoWidget_C_On_HPGaugeSizeBox_Hori_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -146,7 +146,7 @@ void USquadPlayerInfoWidget_C::On_HPGaugeSizeBox_Hori_Prepass_1(class UWidget* B
 void USquadPlayerInfoWidget_C::On_HPGaugeSizeBox_Vert_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57901);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56315);
 
 	USquadPlayerInfoWidget_C_On_HPGaugeSizeBox_Vert_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -167,7 +167,7 @@ void USquadPlayerInfoWidget_C::On_HPGaugeSizeBox_Vert_Prepass_1(class UWidget* B
 void USquadPlayerInfoWidget_C::On_ObserverCameraLayer_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57895);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56309);
 
 	USquadPlayerInfoWidget_C_On_ObserverCameraLayer_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -186,7 +186,7 @@ void USquadPlayerInfoWidget_C::On_ObserverCameraLayer_Prepass_1(class UWidget* B
 void USquadPlayerInfoWidget_C::SetCameraMode_Free()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57878);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56292);
 
 	USquadPlayerInfoWidget_C_SetCameraMode_Free_Params params;
 
@@ -204,7 +204,7 @@ void USquadPlayerInfoWidget_C::SetCameraMode_Free()
 void USquadPlayerInfoWidget_C::SetCameraMode_Follow()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57872);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56286);
 
 	USquadPlayerInfoWidget_C_SetCameraMode_Follow_Params params;
 
@@ -222,7 +222,7 @@ void USquadPlayerInfoWidget_C::SetCameraMode_Follow()
 void USquadPlayerInfoWidget_C::SetCameraMode_Spectator()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57863);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56277);
 
 	USquadPlayerInfoWidget_C_SetCameraMode_Spectator_Params params;
 
@@ -244,7 +244,7 @@ void USquadPlayerInfoWidget_C::SetCameraMode_Spectator()
 struct FEventReply USquadPlayerInfoWidget_C::OnKeyDown(struct FGeometry* MyGeometry, struct FKeyEvent* InKeyEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57855);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56269);
 
 	USquadPlayerInfoWidget_C_OnKeyDown_Params params;
 	params.MyGeometry = MyGeometry;
@@ -270,7 +270,7 @@ struct FEventReply USquadPlayerInfoWidget_C::OnKeyDown(struct FGeometry* MyGeome
 struct FEventReply USquadPlayerInfoWidget_C::OnMouseButtonDown_1(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57849);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56263);
 
 	USquadPlayerInfoWidget_C_OnMouseButtonDown_1_Params params;
 	params.MyGeometry = MyGeometry;
@@ -294,7 +294,7 @@ struct FEventReply USquadPlayerInfoWidget_C::OnMouseButtonDown_1(const struct FG
 void USquadPlayerInfoWidget_C::On_KickButtonLayer_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57847);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56261);
 
 	USquadPlayerInfoWidget_C_On_KickButtonLayer_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -315,7 +315,7 @@ void USquadPlayerInfoWidget_C::On_KickButtonLayer_Prepass_1(class UWidget* Bound
 void USquadPlayerInfoWidget_C::OnPrepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57831);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56245);
 
 	USquadPlayerInfoWidget_C_OnPrepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -336,7 +336,7 @@ void USquadPlayerInfoWidget_C::OnPrepass_1(class UWidget* BoundWidget)
 void USquadPlayerInfoWidget_C::On_PlayerName_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57824);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56238);
 
 	USquadPlayerInfoWidget_C_On_PlayerName_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -357,7 +357,7 @@ void USquadPlayerInfoWidget_C::On_PlayerName_Prepass_1(class UWidget* BoundWidge
 void USquadPlayerInfoWidget_C::On_IconLayer_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57813);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56227);
 
 	USquadPlayerInfoWidget_C_On_IconLayer_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -378,7 +378,7 @@ void USquadPlayerInfoWidget_C::On_IconLayer_Prepass_1(class UWidget* BoundWidget
 void USquadPlayerInfoWidget_C::On_IconImage_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57803);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56217);
 
 	USquadPlayerInfoWidget_C_On_IconImage_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -399,7 +399,7 @@ void USquadPlayerInfoWidget_C::On_IconImage_Prepass_1(class UWidget* BoundWidget
 void USquadPlayerInfoWidget_C::On_KillCount_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57798);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56212);
 
 	USquadPlayerInfoWidget_C_On_KillCount_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -420,7 +420,7 @@ void USquadPlayerInfoWidget_C::On_KillCount_Prepass_1(class UWidget* BoundWidget
 void USquadPlayerInfoWidget_C::On_InfoLayer_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57795);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56209);
 
 	USquadPlayerInfoWidget_C_On_InfoLayer_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -441,7 +441,7 @@ void USquadPlayerInfoWidget_C::On_InfoLayer_Prepass_1(class UWidget* BoundWidget
 void USquadPlayerInfoWidget_C::UpdateHealthPrepass_Vert(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57792);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56206);
 
 	USquadPlayerInfoWidget_C_UpdateHealthPrepass_Vert_Params params;
 	params.BoundWidget = BoundWidget;
@@ -460,7 +460,7 @@ void USquadPlayerInfoWidget_C::UpdateHealthPrepass_Vert(class UWidget* BoundWidg
 void USquadPlayerInfoWidget_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_20_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57791);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56205);
 
 	USquadPlayerInfoWidget_C_BndEvt__Button_0_K2Node_ComponentBoundEvent_20_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -478,7 +478,7 @@ void USquadPlayerInfoWidget_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_20_On
 void USquadPlayerInfoWidget_C::BndEvt__Button_1_K2Node_ComponentBoundEvent_32_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57790);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56204);
 
 	USquadPlayerInfoWidget_C_BndEvt__Button_1_K2Node_ComponentBoundEvent_32_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -499,7 +499,7 @@ void USquadPlayerInfoWidget_C::BndEvt__Button_1_K2Node_ComponentBoundEvent_32_On
 void USquadPlayerInfoWidget_C::OnMouseEnter(struct FGeometry* MyGeometry, struct FPointerEvent* MouseEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57787);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56201);
 
 	USquadPlayerInfoWidget_C_OnMouseEnter_Params params;
 	params.MyGeometry = MyGeometry;
@@ -521,7 +521,7 @@ void USquadPlayerInfoWidget_C::OnMouseEnter(struct FGeometry* MyGeometry, struct
 void USquadPlayerInfoWidget_C::OnMouseLeave(struct FPointerEvent* MouseEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57785);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56199);
 
 	USquadPlayerInfoWidget_C_OnMouseLeave_Params params;
 	params.MouseEvent = MouseEvent;
@@ -542,7 +542,7 @@ void USquadPlayerInfoWidget_C::OnMouseLeave(struct FPointerEvent* MouseEvent)
 void USquadPlayerInfoWidget_C::CustomEvent_1(EPopupButtonID ButtonID)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57782);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56196);
 
 	USquadPlayerInfoWidget_C_CustomEvent_1_Params params;
 	params.ButtonID = ButtonID;
@@ -564,7 +564,7 @@ void USquadPlayerInfoWidget_C::CustomEvent_1(EPopupButtonID ButtonID)
 void USquadPlayerInfoWidget_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57779);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56193);
 
 	USquadPlayerInfoWidget_C_Tick_Params params;
 	params.MyGeometry = MyGeometry;
@@ -584,7 +584,7 @@ void USquadPlayerInfoWidget_C::Tick(struct FGeometry* MyGeometry, float* InDelta
 void USquadPlayerInfoWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57778);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56192);
 
 	USquadPlayerInfoWidget_C_Construct_Params params;
 
@@ -602,7 +602,7 @@ void USquadPlayerInfoWidget_C::Construct()
 void USquadPlayerInfoWidget_C::CustomEvent_3()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57777);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56191);
 
 	USquadPlayerInfoWidget_C_CustomEvent_3_Params params;
 
@@ -620,7 +620,7 @@ void USquadPlayerInfoWidget_C::CustomEvent_3()
 void USquadPlayerInfoWidget_C::CustomEvent_2()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57776);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56190);
 
 	USquadPlayerInfoWidget_C_CustomEvent_2_Params params;
 
@@ -638,7 +638,7 @@ void USquadPlayerInfoWidget_C::CustomEvent_2()
 void USquadPlayerInfoWidget_C::Destruct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57775);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56189);
 
 	USquadPlayerInfoWidget_C_Destruct_Params params;
 
@@ -656,7 +656,7 @@ void USquadPlayerInfoWidget_C::Destruct()
 void USquadPlayerInfoWidget_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_26_OnButtonHoverEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57774);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56188);
 
 	USquadPlayerInfoWidget_C_BndEvt__Button_0_K2Node_ComponentBoundEvent_26_OnButtonHoverEvent__DelegateSignature_Params params;
 
@@ -674,7 +674,7 @@ void USquadPlayerInfoWidget_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_26_On
 void USquadPlayerInfoWidget_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_57_OnButtonHoverEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57773);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56187);
 
 	USquadPlayerInfoWidget_C_BndEvt__Button_0_K2Node_ComponentBoundEvent_57_OnButtonHoverEvent__DelegateSignature_Params params;
 
@@ -694,7 +694,7 @@ void USquadPlayerInfoWidget_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_57_On
 void USquadPlayerInfoWidget_C::ExecuteUbergraph_SquadPlayerInfoWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57739);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56153);
 
 	USquadPlayerInfoWidget_C_ExecuteUbergraph_SquadPlayerInfoWidget_Params params;
 	params.EntryPoint = EntryPoint;

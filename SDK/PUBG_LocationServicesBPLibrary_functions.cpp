@@ -20,7 +20,7 @@ namespace Classes
 bool ULocationServices::STATIC_StopLocationServices()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40351);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40321);
 
 	ULocationServices_StopLocationServices_Params params;
 
@@ -43,7 +43,7 @@ bool ULocationServices::STATIC_StopLocationServices()
 bool ULocationServices::STATIC_StartLocationServices()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40349);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40319);
 
 	ULocationServices_StartLocationServices_Params params;
 
@@ -67,7 +67,7 @@ bool ULocationServices::STATIC_StartLocationServices()
 bool ULocationServices::STATIC_IsLocationAccuracyAvailable(ELocationAccuracy Accuracy)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40345);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40315);
 
 	ULocationServices_IsLocationAccuracyAvailable_Params params;
 	params.Accuracy = Accuracy;
@@ -94,7 +94,7 @@ bool ULocationServices::STATIC_IsLocationAccuracyAvailable(ELocationAccuracy Acc
 bool ULocationServices::STATIC_InitLocationServices(ELocationAccuracy Accuracy, float UpdateFrequency, float MinDistanceFilter)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40339);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40309);
 
 	ULocationServices_InitLocationServices_Params params;
 	params.Accuracy = Accuracy;
@@ -120,7 +120,7 @@ bool ULocationServices::STATIC_InitLocationServices(ELocationAccuracy Accuracy, 
 class ULocationServicesImpl* ULocationServices::STATIC_GetLocationServicesImpl()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40337);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40307);
 
 	ULocationServices_GetLocationServicesImpl_Params params;
 
@@ -143,7 +143,7 @@ class ULocationServicesImpl* ULocationServices::STATIC_GetLocationServicesImpl()
 struct FLocationServicesData ULocationServices::STATIC_GetLastKnownLocation()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40335);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40305);
 
 	ULocationServices_GetLastKnownLocation_Params params;
 
@@ -166,7 +166,7 @@ struct FLocationServicesData ULocationServices::STATIC_GetLastKnownLocation()
 bool ULocationServices::STATIC_AreLocationServicesEnabled()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40333);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40303);
 
 	ULocationServices_AreLocationServicesEnabled_Params params;
 

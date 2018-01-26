@@ -20,7 +20,7 @@ namespace Classes
 void UNewMatchResultWidget_C::OnPrepass_GamepadSpectaingButton(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93762);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(100409);
 
 	UNewMatchResultWidget_C_OnPrepass_GamepadSpectaingButton_Params params;
 	params.BoundWidget = BoundWidget;
@@ -41,7 +41,7 @@ void UNewMatchResultWidget_C::OnPrepass_GamepadSpectaingButton(class UWidget* Bo
 struct FSlateBrush UNewMatchResultWidget_C::GetBackground_2()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93754);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(100401);
 
 	UNewMatchResultWidget_C_GetBackground_2_Params params;
 
@@ -63,7 +63,7 @@ struct FSlateBrush UNewMatchResultWidget_C::GetBackground_2()
 struct FSlateBrush UNewMatchResultWidget_C::GetBackground_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93746);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(100393);
 
 	UNewMatchResultWidget_C_GetBackground_1_Params params;
 
@@ -83,7 +83,7 @@ struct FSlateBrush UNewMatchResultWidget_C::GetBackground_1()
 void UNewMatchResultWidget_C::SwapHumanZombieBoxPosition()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93740);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(100387);
 
 	UNewMatchResultWidget_C_SwapHumanZombieBoxPosition_Params params;
 
@@ -103,7 +103,7 @@ void UNewMatchResultWidget_C::SwapHumanZombieBoxPosition()
 struct FText UNewMatchResultWidget_C::GetText_2()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93734);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(100381);
 
 	UNewMatchResultWidget_C_GetText_2_Params params;
 
@@ -125,7 +125,7 @@ struct FText UNewMatchResultWidget_C::GetText_2()
 struct FText UNewMatchResultWidget_C::GetText_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93728);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(100375);
 
 	UNewMatchResultWidget_C_GetText_1_Params params;
 
@@ -145,7 +145,7 @@ struct FText UNewMatchResultWidget_C::GetText_1()
 void UNewMatchResultWidget_C::UpdateZombieGroup()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93705);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(100352);
 
 	UNewMatchResultWidget_C_UpdateZombieGroup_Params params;
 
@@ -163,7 +163,7 @@ void UNewMatchResultWidget_C::UpdateZombieGroup()
 void UNewMatchResultWidget_C::UpdateHumanGroup()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93694);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(100289);
 
 	UNewMatchResultWidget_C_UpdateHumanGroup_Params params;
 
@@ -181,7 +181,7 @@ void UNewMatchResultWidget_C::UpdateHumanGroup()
 void UNewMatchResultWidget_C::UpdateZombieModeMatchResult()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93682);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(100277);
 
 	UNewMatchResultWidget_C_UpdateZombieModeMatchResult_Params params;
 
@@ -201,7 +201,7 @@ void UNewMatchResultWidget_C::UpdateZombieModeMatchResult()
 struct FText UNewMatchResultWidget_C::Get_TextBlock_72_Text_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93673);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(100268);
 
 	UNewMatchResultWidget_C_Get_TextBlock_72_Text_1_Params params;
 
@@ -223,7 +223,7 @@ struct FText UNewMatchResultWidget_C::Get_TextBlock_72_Text_1()
 struct FText UNewMatchResultWidget_C::Get_ButtonKillcam_ToolTipText_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93664);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(100259);
 
 	UNewMatchResultWidget_C_Get_ButtonKillcam_ToolTipText_1_Params params;
 
@@ -245,7 +245,7 @@ struct FText UNewMatchResultWidget_C::Get_ButtonKillcam_ToolTipText_1()
 void UNewMatchResultWidget_C::On_ButtonKillcam_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93654);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(100248);
 
 	UNewMatchResultWidget_C_On_ButtonKillcam_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -266,7 +266,7 @@ void UNewMatchResultWidget_C::On_ButtonKillcam_Prepass_1(class UWidget* BoundWid
 void UNewMatchResultWidget_C::GetAliveTeamMemberCount(int* Count)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93649);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(100243);
 
 	UNewMatchResultWidget_C_GetAliveTeamMemberCount_Params params;
 
@@ -289,7 +289,7 @@ void UNewMatchResultWidget_C::GetAliveTeamMemberCount(int* Count)
 void UNewMatchResultWidget_C::GetTslGameState(class ATslGameState** TslGameState)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93643);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(100237);
 
 	UNewMatchResultWidget_C_GetTslGameState_Params params;
 
@@ -312,7 +312,7 @@ void UNewMatchResultWidget_C::GetTslGameState(class ATslGameState** TslGameState
 void UNewMatchResultWidget_C::GetTslPlayerState(class ATslPlayerState** PlayerState)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93633);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(100227);
 
 	UNewMatchResultWidget_C_GetTslPlayerState_Params params;
 
@@ -335,7 +335,7 @@ void UNewMatchResultWidget_C::GetTslPlayerState(class ATslPlayerState** PlayerSt
 void UNewMatchResultWidget_C::On_ButtonReportPrepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93605);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(100199);
 
 	UNewMatchResultWidget_C_On_ButtonReportPrepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -354,7 +354,7 @@ void UNewMatchResultWidget_C::On_ButtonReportPrepass_1(class UWidget* BoundWidge
 void UNewMatchResultWidget_C::UpdateObserverMatchResult()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93563);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99830);
 
 	UNewMatchResultWidget_C_UpdateObserverMatchResult_Params params;
 
@@ -374,7 +374,7 @@ void UNewMatchResultWidget_C::UpdateObserverMatchResult()
 void UNewMatchResultWidget_C::IsGameOver(bool* return_value)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93536);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99803);
 
 	UNewMatchResultWidget_C_IsGameOver_Params params;
 
@@ -395,7 +395,7 @@ void UNewMatchResultWidget_C::IsGameOver(bool* return_value)
 void UNewMatchResultWidget_C::SetResultScoreValues()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93492);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99759);
 
 	UNewMatchResultWidget_C_SetResultScoreValues_Params params;
 
@@ -413,7 +413,7 @@ void UNewMatchResultWidget_C::SetResultScoreValues()
 void UNewMatchResultWidget_C::SetReferences()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93483);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99750);
 
 	UNewMatchResultWidget_C_SetReferences_Params params;
 
@@ -433,7 +433,7 @@ void UNewMatchResultWidget_C::SetReferences()
 void UNewMatchResultWidget_C::On_MatchResultWindow_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93453);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99720);
 
 	UNewMatchResultWidget_C_On_MatchResultWindow_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -454,7 +454,7 @@ void UNewMatchResultWidget_C::On_MatchResultWindow_Prepass_1(class UWidget* Boun
 void UNewMatchResultWidget_C::On_DetailScoreLayer_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93428);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99695);
 
 	UNewMatchResultWidget_C_On_DetailScoreLayer_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -475,7 +475,7 @@ void UNewMatchResultWidget_C::On_DetailScoreLayer_Prepass_1(class UWidget* Bound
 void UNewMatchResultWidget_C::On_BigRankBox_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93403);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99670);
 
 	UNewMatchResultWidget_C_On_BigRankBox_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -494,7 +494,7 @@ void UNewMatchResultWidget_C::On_BigRankBox_Prepass_1(class UWidget* BoundWidget
 void UNewMatchResultWidget_C::SetResultDefaultValues()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93389);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99656);
 
 	UNewMatchResultWidget_C_SetResultDefaultValues_Params params;
 
@@ -514,7 +514,7 @@ void UNewMatchResultWidget_C::SetResultDefaultValues()
 void UNewMatchResultWidget_C::On_ButtonSpectator_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93336);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99603);
 
 	UNewMatchResultWidget_C_On_ButtonSpectator_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -535,7 +535,7 @@ void UNewMatchResultWidget_C::On_ButtonSpectator_Prepass_1(class UWidget* BoundW
 void UNewMatchResultWidget_C::GoToLobby(EPopupButtonID ButtonID)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93328);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99595);
 
 	UNewMatchResultWidget_C_GoToLobby_Params params;
 	params.ButtonID = ButtonID;
@@ -554,7 +554,7 @@ void UNewMatchResultWidget_C::GoToLobby(EPopupButtonID ButtonID)
 void UNewMatchResultWidget_C::OnActionInput()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93327);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99594);
 
 	UNewMatchResultWidget_C_OnActionInput_Params params;
 
@@ -572,7 +572,7 @@ void UNewMatchResultWidget_C::OnActionInput()
 void UNewMatchResultWidget_C::OnHiddenWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93326);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99593);
 
 	UNewMatchResultWidget_C_OnHiddenWidget_Params params;
 
@@ -590,7 +590,7 @@ void UNewMatchResultWidget_C::OnHiddenWidget()
 void UNewMatchResultWidget_C::ShowLobbyPopup()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93325);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99592);
 
 	UNewMatchResultWidget_C_ShowLobbyPopup_Params params;
 
@@ -608,7 +608,7 @@ void UNewMatchResultWidget_C::ShowLobbyPopup()
 void UNewMatchResultWidget_C::Destruct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93324);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99591);
 
 	UNewMatchResultWidget_C_Destruct_Params params;
 
@@ -626,7 +626,7 @@ void UNewMatchResultWidget_C::Destruct()
 void UNewMatchResultWidget_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_18_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93323);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99590);
 
 	UNewMatchResultWidget_C_BndEvt__Button_0_K2Node_ComponentBoundEvent_18_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -644,7 +644,7 @@ void UNewMatchResultWidget_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_18_OnB
 void UNewMatchResultWidget_C::BndEvt__ButtonSpectator_K2Node_ComponentBoundEvent_65_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93322);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99589);
 
 	UNewMatchResultWidget_C_BndEvt__ButtonSpectator_K2Node_ComponentBoundEvent_65_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -662,7 +662,7 @@ void UNewMatchResultWidget_C::BndEvt__ButtonSpectator_K2Node_ComponentBoundEvent
 void UNewMatchResultWidget_C::BndEvt__ButtonLobby_K2Node_ComponentBoundEvent_10_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93321);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99588);
 
 	UNewMatchResultWidget_C_BndEvt__ButtonLobby_K2Node_ComponentBoundEvent_10_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -683,7 +683,7 @@ void UNewMatchResultWidget_C::BndEvt__ButtonLobby_K2Node_ComponentBoundEvent_10_
 void UNewMatchResultWidget_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93318);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99585);
 
 	UNewMatchResultWidget_C_Tick_Params params;
 	params.MyGeometry = MyGeometry;
@@ -703,7 +703,7 @@ void UNewMatchResultWidget_C::Tick(struct FGeometry* MyGeometry, float* InDeltaT
 void UNewMatchResultWidget_C::BndEvt__Button_1_K2Node_ComponentBoundEvent_19_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93317);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99584);
 
 	UNewMatchResultWidget_C_BndEvt__Button_1_K2Node_ComponentBoundEvent_19_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -721,7 +721,7 @@ void UNewMatchResultWidget_C::BndEvt__Button_1_K2Node_ComponentBoundEvent_19_OnB
 void UNewMatchResultWidget_C::XBoxOnOk()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93316);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99583);
 
 	UNewMatchResultWidget_C_XBoxOnOk_Params params;
 
@@ -739,7 +739,7 @@ void UNewMatchResultWidget_C::XBoxOnOk()
 void UNewMatchResultWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93315);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99582);
 
 	UNewMatchResultWidget_C_Construct_Params params;
 
@@ -757,7 +757,7 @@ void UNewMatchResultWidget_C::Construct()
 void UNewMatchResultWidget_C::BndEvt__ButtonReport_K2Node_ComponentBoundEvent_29_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93314);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99581);
 
 	UNewMatchResultWidget_C_BndEvt__ButtonReport_K2Node_ComponentBoundEvent_29_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -775,7 +775,7 @@ void UNewMatchResultWidget_C::BndEvt__ButtonReport_K2Node_ComponentBoundEvent_29
 void UNewMatchResultWidget_C::BndEvt__ButtonKillcam_K2Node_ComponentBoundEvent_31_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93313);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99580);
 
 	UNewMatchResultWidget_C_BndEvt__ButtonKillcam_K2Node_ComponentBoundEvent_31_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -793,7 +793,7 @@ void UNewMatchResultWidget_C::BndEvt__ButtonKillcam_K2Node_ComponentBoundEvent_3
 void UNewMatchResultWidget_C::OnSpectator()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93312);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99579);
 
 	UNewMatchResultWidget_C_OnSpectator_Params params;
 
@@ -813,7 +813,7 @@ void UNewMatchResultWidget_C::OnSpectator()
 void UNewMatchResultWidget_C::ExecuteUbergraph_NewMatchResultWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(93248);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99515);
 
 	UNewMatchResultWidget_C_ExecuteUbergraph_NewMatchResultWidget_Params params;
 	params.EntryPoint = EntryPoint;

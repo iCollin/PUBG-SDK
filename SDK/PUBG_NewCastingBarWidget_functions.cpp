@@ -20,7 +20,7 @@ namespace Classes
 void UNewCastingBarWidget_C::On_CastingBarCanvas_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74251);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74051);
 
 	UNewCastingBarWidget_C_On_CastingBarCanvas_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -41,7 +41,7 @@ void UNewCastingBarWidget_C::On_CastingBarCanvas_Prepass_1(class UWidget* BoundW
 struct FText UNewCastingBarWidget_C::GetRemainingCastTime()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74225);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74025);
 
 	UNewCastingBarWidget_C_GetRemainingCastTime_Params params;
 
@@ -63,7 +63,7 @@ struct FText UNewCastingBarWidget_C::GetRemainingCastTime()
 struct FText UNewCastingBarWidget_C::GetCastingNameText()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74214);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74014);
 
 	UNewCastingBarWidget_C_GetCastingNameText_Params params;
 
@@ -85,7 +85,7 @@ struct FText UNewCastingBarWidget_C::GetCastingNameText()
 float UNewCastingBarWidget_C::GetCastingProgressBarPercent()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74190);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73990);
 
 	UNewCastingBarWidget_C_GetCastingProgressBarPercent_Params params;
 
@@ -105,7 +105,7 @@ float UNewCastingBarWidget_C::GetCastingProgressBarPercent()
 void UNewCastingBarWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74189);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73989);
 
 	UNewCastingBarWidget_C_Construct_Params params;
 
@@ -126,7 +126,7 @@ void UNewCastingBarWidget_C::Construct()
 void UNewCastingBarWidget_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74186);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73986);
 
 	UNewCastingBarWidget_C_Tick_Params params;
 	params.MyGeometry = MyGeometry;
@@ -146,7 +146,7 @@ void UNewCastingBarWidget_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTi
 void UNewCastingBarWidget_C::Destruct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74185);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73985);
 
 	UNewCastingBarWidget_C_Destruct_Params params;
 
@@ -164,7 +164,7 @@ void UNewCastingBarWidget_C::Destruct()
 void UNewCastingBarWidget_C::OnInteract()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74184);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73984);
 
 	UNewCastingBarWidget_C_OnInteract_Params params;
 
@@ -184,7 +184,7 @@ void UNewCastingBarWidget_C::OnInteract()
 void UNewCastingBarWidget_C::ExecuteUbergraph_NewCastingBarWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(74172);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(73972);
 
 	UNewCastingBarWidget_C_ExecuteUbergraph_NewCastingBarWidget_Params params;
 	params.EntryPoint = EntryPoint;

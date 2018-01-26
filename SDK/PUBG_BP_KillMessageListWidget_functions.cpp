@@ -20,7 +20,7 @@ namespace Classes
 void UBP_KillMessageListWidget_C::AddKillMessage(struct FDeathMessage* Input)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79396);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79153);
 
 	UBP_KillMessageListWidget_C_AddKillMessage_Params params;
 
@@ -41,7 +41,7 @@ void UBP_KillMessageListWidget_C::AddKillMessage(struct FDeathMessage* Input)
 void UBP_KillMessageListWidget_C::UpdateMessageListWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79395);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79152);
 
 	UBP_KillMessageListWidget_C_UpdateMessageListWidget_Params params;
 
@@ -61,7 +61,7 @@ void UBP_KillMessageListWidget_C::UpdateMessageListWidget()
 void UBP_KillMessageListWidget_C::ExecuteUbergraph_BP_KillMessageListWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79386);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(79143);
 
 	UBP_KillMessageListWidget_C_ExecuteUbergraph_BP_KillMessageListWidget_Params params;
 	params.EntryPoint = EntryPoint;

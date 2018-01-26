@@ -18,7 +18,7 @@ namespace Classes
 void AP_Environment_Smoke_03_BP_Lobby_C::UserConstructionScript()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(110713);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(110695);
 
 	AP_Environment_Smoke_03_BP_Lobby_C_UserConstructionScript_Params params;
 
