@@ -1,5 +1,5 @@
 # PUBG-SDK
-an sdk generated for pubg. purely for educational purposes.
+an sdk generated for pubg.
 
 thanks to KN4CK3R, cryzlasm, polivilas and others for the UnrealEngineSDKGenerator
 
