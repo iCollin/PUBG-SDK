@@ -20,7 +20,7 @@ namespace Classes
 bool UScreenSettingWidget_C::IsEnable()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89525);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89526);
 
 	UScreenSettingWidget_C_IsEnable_Params params;
 
@@ -42,7 +42,7 @@ bool UScreenSettingWidget_C::IsEnable()
 void UScreenSettingWidget_C::GetSelectedFullScreenMode(TEnumAsByte<EWindowMode>* FullscreenMode)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89521);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89522);
 
 	UScreenSettingWidget_C_GetSelectedFullScreenMode_Params params;
 
@@ -63,7 +63,7 @@ void UScreenSettingWidget_C::GetSelectedFullScreenMode(TEnumAsByte<EWindowMode>*
 void UScreenSettingWidget_C::SettingDefault()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89518);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(89519);
 
 	UScreenSettingWidget_C_SettingDefault_Params params;
 
@@ -240,7 +240,7 @@ void UScreenSettingWidget_C::Construct()
 void UScreenSettingWidget_C::ExecuteUbergraph_ScreenSettingWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62472);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62360);
 
 	UScreenSettingWidget_C_ExecuteUbergraph_ScreenSettingWidget_Params params;
 	params.EntryPoint = EntryPoint;

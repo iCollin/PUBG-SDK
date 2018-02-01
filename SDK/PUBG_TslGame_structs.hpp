@@ -800,29 +800,10 @@ enum class ECheatType : uint8_t
 	InvalidAmmo                    = 10,
 	InvalidChecksum                = 11,
 	InvalidReviving                = 12,
-	SimilarHit                     = 13,
-	DoubleKill                     = 14,
-	ECheatType_MAX                 = 15
-};
-
-
-// Enum TslGame.EHackDetectionType
-enum class EHackDetectionType : uint8_t
-{
-	WEAPON_INVALID_IMPACT          = 0,
-	WEAPON_INVALID_ORIGIN          = 1,
-	WEAPON_INVALID_RANGE           = 2,
-	WEAPON_INVALID_SEQUENCE        = 3,
-	WEAPON_INVALID_HITLAG          = 4,
-	WEAPON_INVALID_AMMO            = 5,
-	WEAPON_INVALID_CHKSUM          = 6,
-	WEAPON_WALL_CHECK              = 7,
-	IGNORE_WALL                    = 8,
-	SPEED_HACK_TIME                = 9,
-	SPEED_HACK                     = 10,
-	ITEM_PACKAGE                   = 11,
-	WEAPON_HIT                     = 12,
-	EHackDetectionType_MAX         = 13
+	InvalidKick                    = 13,
+	SimilarHit                     = 14,
+	DoubleKill                     = 15,
+	ECheatType_MAX                 = 16
 };
 
 

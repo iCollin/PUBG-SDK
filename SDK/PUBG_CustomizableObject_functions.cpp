@@ -18,7 +18,7 @@ namespace Classes
 void UCustomizableSkeletalComponent::UpdateSkeletalMeshAsync()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21568);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21567);
 
 	UCustomizableSkeletalComponent_UpdateSkeletalMeshAsync_Params params;
 
@@ -37,7 +37,7 @@ void UCustomizableSkeletalComponent::UpdateSkeletalMeshAsync()
 void UCustomizableSkeletalComponent::UpdateSkeletalMesh()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21567);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(21566);
 
 	UCustomizableSkeletalComponent_UpdateSkeletalMesh_Params params;
 
@@ -56,7 +56,7 @@ void UCustomizableSkeletalComponent::UpdateSkeletalMesh()
 void UCustomizableObjectInstance::SetRandomValues()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39373);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39372);
 
 	UCustomizableObjectInstance_SetRandomValues_Params params;
 

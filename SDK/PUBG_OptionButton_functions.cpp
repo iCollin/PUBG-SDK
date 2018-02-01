@@ -20,7 +20,7 @@ namespace Classes
 void UOptionButton_C::SetButtonBgColor(const struct FLinearColor& InBackgroundColor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(63118);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(63006);
 
 	UOptionButton_C_SetButtonBgColor_Params params;
 	params.InBackgroundColor = InBackgroundColor;
@@ -41,7 +41,7 @@ void UOptionButton_C::SetButtonBgColor(const struct FLinearColor& InBackgroundCo
 struct FText UOptionButton_C::GetText_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(63116);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(63004);
 
 	UOptionButton_C_GetText_1_Params params;
 
@@ -61,7 +61,7 @@ struct FText UOptionButton_C::GetText_1()
 void UOptionButton_C::BndEvt__Button_1_K2Node_ComponentBoundEvent_103_OnButtonClickedEvent__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(63115);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(63003);
 
 	UOptionButton_C_BndEvt__Button_1_K2Node_ComponentBoundEvent_103_OnButtonClickedEvent__DelegateSignature_Params params;
 
@@ -81,7 +81,7 @@ void UOptionButton_C::BndEvt__Button_1_K2Node_ComponentBoundEvent_103_OnButtonCl
 void UOptionButton_C::ExecuteUbergraph_OptionButton(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(63113);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(63001);
 
 	UOptionButton_C_ExecuteUbergraph_OptionButton_Params params;
 	params.EntryPoint = EntryPoint;
@@ -100,7 +100,7 @@ void UOptionButton_C::ExecuteUbergraph_OptionButton(int EntryPoint)
 void UOptionButton_C::OnClicked__DelegateSignature()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(63112);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(63000);
 
 	UOptionButton_C_OnClicked__DelegateSignature_Params params;
 

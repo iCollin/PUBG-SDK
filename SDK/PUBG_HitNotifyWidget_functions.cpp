@@ -30,8 +30,8 @@ void UHitNotifyWidget_C::GetBloodSpotWidget(class UBloodSpotWidget_C** _return)
 
 	fn->FunctionFlags = flags;
 
-	if (return != nullptr)
-		*return = params.return;
+	if (_return != nullptr)
+		*_return = params.returnVal;
 }
 
 

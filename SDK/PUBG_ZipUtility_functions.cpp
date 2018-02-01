@@ -21,7 +21,7 @@ namespace Classes
 void UZipUtilityInterface::OnStartProcess(const struct FString& archive, int bytes)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38951);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38950);
 
 	UZipUtilityInterface_OnStartProcess_Params params;
 	params.archive = archive;
@@ -46,7 +46,7 @@ void UZipUtilityInterface::OnStartProcess(const struct FString& archive, int byt
 void UZipUtilityInterface::OnProgress(const struct FString& archive, float percentage, int bytes)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38947);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38946);
 
 	UZipUtilityInterface_OnProgress_Params params;
 	params.archive = archive;
@@ -72,7 +72,7 @@ void UZipUtilityInterface::OnProgress(const struct FString& archive, float perce
 void UZipUtilityInterface::OnFileFound(const struct FString& archive, const struct FString& file, int Size)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38943);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38942);
 
 	UZipUtilityInterface_OnFileFound_Params params;
 	params.archive = archive;
@@ -97,7 +97,7 @@ void UZipUtilityInterface::OnFileFound(const struct FString& archive, const stru
 void UZipUtilityInterface::OnFileDone(const struct FString& archive, const struct FString& file)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38940);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38939);
 
 	UZipUtilityInterface_OnFileDone_Params params;
 	params.archive = archive;
@@ -121,7 +121,7 @@ void UZipUtilityInterface::OnFileDone(const struct FString& archive, const struc
 void UZipUtilityInterface::OnDone(const struct FString& archive, TEnumAsByte<EZipUtilityCompletionState> CompletionState)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38937);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38936);
 
 	UZipUtilityInterface_OnDone_Params params;
 	params.archive = archive;
@@ -148,7 +148,7 @@ void UZipUtilityInterface::OnDone(const struct FString& archive, TEnumAsByte<EZi
 bool UZipFileFunctionLibrary::STATIC_Zip(const struct FString& FileOrFolderPath, class UObject* ZipUtilityInterfaceDelegate, TEnumAsByte<EZipUtilityCompressionFormat> Format, TEnumAsByte<EZipUtilityCompressionLevel> Level)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39006);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39005);
 
 	UZipFileFunctionLibrary_Zip_Params params;
 	params.FileOrFolderPath = FileOrFolderPath;
@@ -179,7 +179,7 @@ bool UZipFileFunctionLibrary::STATIC_Zip(const struct FString& FileOrFolderPath,
 bool UZipFileFunctionLibrary::STATIC_UnzipTo(const struct FString& ArchivePath, const struct FString& destinationPath, class UObject* ZipUtilityInterfaceDelegate, TEnumAsByte<EZipUtilityCompressionFormat> Format)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39000);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38999);
 
 	UZipFileFunctionLibrary_UnzipTo_Params params;
 	params.ArchivePath = ArchivePath;
@@ -211,7 +211,7 @@ bool UZipFileFunctionLibrary::STATIC_UnzipTo(const struct FString& ArchivePath, 
 bool UZipFileFunctionLibrary::STATIC_UnzipFilesTo(TArray<int> fileIndices, const struct FString& ArchivePath, const struct FString& destinationPath, class UObject* ZipUtilityInterfaceDelegate, TEnumAsByte<EZipUtilityCompressionFormat> Format)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38992);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38991);
 
 	UZipFileFunctionLibrary_UnzipFilesTo_Params params;
 	params.fileIndices = fileIndices;
@@ -243,7 +243,7 @@ bool UZipFileFunctionLibrary::STATIC_UnzipFilesTo(TArray<int> fileIndices, const
 bool UZipFileFunctionLibrary::STATIC_UnzipFiles(TArray<int> fileIndices, const struct FString& ArchivePath, class UObject* ZipUtilityInterfaceDelegate, TEnumAsByte<EZipUtilityCompressionFormat> Format)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38985);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38984);
 
 	UZipFileFunctionLibrary_UnzipFiles_Params params;
 	params.fileIndices = fileIndices;
@@ -275,7 +275,7 @@ bool UZipFileFunctionLibrary::STATIC_UnzipFiles(TArray<int> fileIndices, const s
 bool UZipFileFunctionLibrary::STATIC_UnzipFileNamedTo(const struct FString& ArchivePath, const struct FString& Name, const struct FString& destinationPath, class UObject* ZipUtilityInterfaceDelegate, TEnumAsByte<EZipUtilityCompressionFormat> Format)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38978);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38977);
 
 	UZipFileFunctionLibrary_UnzipFileNamedTo_Params params;
 	params.ArchivePath = ArchivePath;
@@ -307,7 +307,7 @@ bool UZipFileFunctionLibrary::STATIC_UnzipFileNamedTo(const struct FString& Arch
 bool UZipFileFunctionLibrary::STATIC_UnzipFileNamed(const struct FString& ArchivePath, const struct FString& Name, class UObject* ZipUtilityInterfaceDelegate, TEnumAsByte<EZipUtilityCompressionFormat> Format)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38972);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38971);
 
 	UZipFileFunctionLibrary_UnzipFileNamed_Params params;
 	params.ArchivePath = ArchivePath;
@@ -337,7 +337,7 @@ bool UZipFileFunctionLibrary::STATIC_UnzipFileNamed(const struct FString& Archiv
 bool UZipFileFunctionLibrary::STATIC_Unzip(const struct FString& ArchivePath, class UObject* ZipUtilityInterfaceDelegate, TEnumAsByte<EZipUtilityCompressionFormat> Format)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38967);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38966);
 
 	UZipFileFunctionLibrary_Unzip_Params params;
 	params.ArchivePath = ArchivePath;
@@ -366,7 +366,7 @@ bool UZipFileFunctionLibrary::STATIC_Unzip(const struct FString& ArchivePath, cl
 bool UZipFileFunctionLibrary::STATIC_ListFilesInArchive(const struct FString& ArchivePath, class UObject* ZipUtilityInterfaceDelegate, TEnumAsByte<EZipUtilityCompressionFormat> Format)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38962);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(38961);
 
 	UZipFileFunctionLibrary_ListFilesInArchive_Params params;
 	params.ArchivePath = ArchivePath;

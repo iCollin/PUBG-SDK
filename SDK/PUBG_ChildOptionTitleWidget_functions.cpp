@@ -20,7 +20,7 @@ namespace Classes
 struct FText UChildOptionTitleWidget_C::GetText_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(63520);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(63408);
 
 	UChildOptionTitleWidget_C_GetText_1_Params params;
 

@@ -20,7 +20,7 @@ namespace Classes
 void UPlayerNameWidget_C::OnPrepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61282);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(60608);
 
 	UPlayerNameWidget_C_OnPrepass_1_Params params;
 	params.BoundWidget = BoundWidget;

@@ -18,7 +18,7 @@ namespace Classes
 void AWeaponStudio_C::OnLoad_Test()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57161);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(59039);
 
 	AWeaponStudio_C_OnLoad_Test_Params params;
 
@@ -36,7 +36,7 @@ void AWeaponStudio_C::OnLoad_Test()
 void AWeaponStudio_C::OnAttachmentLoad()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57160);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(59038);
 
 	AWeaponStudio_C_OnAttachmentLoad_Params params;
 
@@ -54,7 +54,7 @@ void AWeaponStudio_C::OnAttachmentLoad()
 void AWeaponStudio_C::UpdateAttachment()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57140);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(59018);
 
 	AWeaponStudio_C_UpdateAttachment_Params params;
 
@@ -72,7 +72,7 @@ void AWeaponStudio_C::UpdateAttachment()
 void AWeaponStudio_C::UserConstructionScript()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57138);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(59016);
 
 	AWeaponStudio_C_UserConstructionScript_Params params;
 
@@ -92,7 +92,7 @@ void AWeaponStudio_C::UserConstructionScript()
 void AWeaponStudio_C::SetItem(class UItem** Item)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57136);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(59014);
 
 	AWeaponStudio_C_SetItem_Params params;
 	params.Item = Item;
@@ -111,7 +111,7 @@ void AWeaponStudio_C::SetItem(class UItem** Item)
 void AWeaponStudio_C::ReceiveBeginPlay()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57135);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(59013);
 
 	AWeaponStudio_C_ReceiveBeginPlay_Params params;
 
@@ -131,7 +131,7 @@ void AWeaponStudio_C::ReceiveBeginPlay()
 void AWeaponStudio_C::ExecuteUbergraph_WeaponStudio(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(57116);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58994);
 
 	AWeaponStudio_C_ExecuteUbergraph_WeaponStudio_Params params;
 	params.EntryPoint = EntryPoint;

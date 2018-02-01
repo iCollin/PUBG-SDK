@@ -20,7 +20,7 @@ namespace Classes
 void UCategoryGroupWidget_Gamepad_C::AddChild(class UWidget** Widget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91818);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91847);
 
 	UCategoryGroupWidget_Gamepad_C_AddChild_Params params;
 
@@ -43,7 +43,7 @@ void UCategoryGroupWidget_Gamepad_C::AddChild(class UWidget** Widget)
 void UCategoryGroupWidget_Gamepad_C::GetChilderenCount(int* Count)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91815);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91844);
 
 	UCategoryGroupWidget_Gamepad_C_GetChilderenCount_Params params;
 
@@ -64,7 +64,7 @@ void UCategoryGroupWidget_Gamepad_C::GetChilderenCount(int* Count)
 void UCategoryGroupWidget_Gamepad_C::Clear()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91814);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91843);
 
 	UCategoryGroupWidget_Gamepad_C_Clear_Params params;
 
@@ -84,7 +84,7 @@ void UCategoryGroupWidget_Gamepad_C::Clear()
 void UCategoryGroupWidget_Gamepad_C::OnPrepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91803);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91832);
 
 	UCategoryGroupWidget_Gamepad_C_OnPrepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -105,7 +105,7 @@ void UCategoryGroupWidget_Gamepad_C::OnPrepass_1(class UWidget* BoundWidget)
 void UCategoryGroupWidget_Gamepad_C::AddItemSlot(class UItemSlotWidget_Gamepad_C** ItemSlotWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91800);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91829);
 
 	UCategoryGroupWidget_Gamepad_C_AddItemSlot_Params params;
 

@@ -7,11 +7,11 @@
 #endif
 
 #include "PUBG_Basic.hpp"
-#include "PUBG_InputCore_classes.hpp"
+#include "PUBG_UMG_classes.hpp"
 #include "PUBG_InputHookingWidget_classes.hpp"
 #include "PUBG_Engine_classes.hpp"
-#include "PUBG_UMG_classes.hpp"
 #include "PUBG_SlateCore_classes.hpp"
+#include "PUBG_InputCore_classes.hpp"
 #include "PUBG_CoreUObject_classes.hpp"
 
 namespace Classes

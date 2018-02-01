@@ -933,7 +933,7 @@ void UInventorySlotBaseWidget_C::SetInventory(class UInventoryWidget_C* Inventor
 void UInventorySlotBaseWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91761);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91762);
 
 	UInventorySlotBaseWidget_C_Construct_Params params;
 
@@ -1116,7 +1116,7 @@ void UInventorySlotBaseWidget_C::OnMouseLeave(struct FPointerEvent* MouseEvent)
 void UInventorySlotBaseWidget_C::OnMouseEnter(struct FGeometry* MyGeometry, struct FPointerEvent* MouseEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91758);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91759);
 
 	UInventorySlotBaseWidget_C_OnMouseEnter_Params params;
 	params.MyGeometry = MyGeometry;

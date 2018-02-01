@@ -20,7 +20,7 @@ namespace Classes
 void UBP_StanceManagerWidget_C::On_StanceManagerCanvas_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58617);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56975);
 
 	UBP_StanceManagerWidget_C_On_StanceManagerCanvas_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -39,7 +39,7 @@ void UBP_StanceManagerWidget_C::On_StanceManagerCanvas_Prepass_1(class UWidget* 
 void UBP_StanceManagerWidget_C::SetStanceManagerShow()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58616);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56974);
 
 	UBP_StanceManagerWidget_C_SetStanceManagerShow_Params params;
 
@@ -57,7 +57,7 @@ void UBP_StanceManagerWidget_C::SetStanceManagerShow()
 void UBP_StanceManagerWidget_C::SetStanceManagerHide()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58615);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56973);
 
 	UBP_StanceManagerWidget_C_SetStanceManagerHide_Params params;
 
@@ -75,7 +75,7 @@ void UBP_StanceManagerWidget_C::SetStanceManagerHide()
 void UBP_StanceManagerWidget_C::OnDriver()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58614);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56972);
 
 	UBP_StanceManagerWidget_C_OnDriver_Params params;
 
@@ -93,7 +93,7 @@ void UBP_StanceManagerWidget_C::OnDriver()
 void UBP_StanceManagerWidget_C::OnRider()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58613);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56971);
 
 	UBP_StanceManagerWidget_C_OnRider_Params params;
 
@@ -113,7 +113,7 @@ void UBP_StanceManagerWidget_C::OnRider()
 void UBP_StanceManagerWidget_C::ExecuteUbergraph_BP_StanceManagerWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58611);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56969);
 
 	UBP_StanceManagerWidget_C_ExecuteUbergraph_BP_StanceManagerWidget_Params params;
 	params.EntryPoint = EntryPoint;

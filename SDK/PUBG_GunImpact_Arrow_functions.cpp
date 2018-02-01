@@ -18,7 +18,7 @@ namespace Classes
 void AGunImpact_Arrow_C::CheckParentValidity()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(53743);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(53946);
 
 	AGunImpact_Arrow_C_CheckParentValidity_Params params;
 
@@ -36,7 +36,7 @@ void AGunImpact_Arrow_C::CheckParentValidity()
 void AGunImpact_Arrow_C::UserConstructionScript()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(53736);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(53939);
 
 	AGunImpact_Arrow_C_UserConstructionScript_Params params;
 
@@ -54,7 +54,7 @@ void AGunImpact_Arrow_C::UserConstructionScript()
 void AGunImpact_Arrow_C::ReceiveBeginPlay()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(53735);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(53938);
 
 	AGunImpact_Arrow_C_ReceiveBeginPlay_Params params;
 

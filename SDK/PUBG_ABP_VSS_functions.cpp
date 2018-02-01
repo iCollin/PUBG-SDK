@@ -18,7 +18,7 @@ namespace Classes
 void UABP_VSS_C::HandleFireSelect()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(53619);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(53822);
 
 	UABP_VSS_C_HandleFireSelect_Params params;
 
@@ -36,7 +36,7 @@ void UABP_VSS_C::HandleFireSelect()
 void UABP_VSS_C::BlueprintInitializeAnimation()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(53618);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(53821);
 
 	UABP_VSS_C_BlueprintInitializeAnimation_Params params;
 
@@ -54,7 +54,7 @@ void UABP_VSS_C::BlueprintInitializeAnimation()
 void UABP_VSS_C::Reload2_Event_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(53617);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(53820);
 
 	UABP_VSS_C_Reload2_Event_1_Params params;
 
@@ -72,7 +72,7 @@ void UABP_VSS_C::Reload2_Event_1()
 void UABP_VSS_C::FireSelect_Event_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(53616);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(53819);
 
 	UABP_VSS_C_FireSelect_Event_1_Params params;
 
@@ -90,7 +90,7 @@ void UABP_VSS_C::FireSelect_Event_1()
 void UABP_VSS_C::WeaponFire_Event_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(53615);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(53818);
 
 	UABP_VSS_C_WeaponFire_Event_1_Params params;
 
@@ -108,7 +108,7 @@ void UABP_VSS_C::WeaponFire_Event_1()
 void UABP_VSS_C::CancelReload_Event_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(53614);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(53817);
 
 	UABP_VSS_C_CancelReload_Event_1_Params params;
 
@@ -128,7 +128,7 @@ void UABP_VSS_C::CancelReload_Event_1()
 void UABP_VSS_C::ExecuteUbergraph_ABP_VSS(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(53602);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(53805);
 
 	UABP_VSS_C_ExecuteUbergraph_ABP_VSS_Params params;
 	params.EntryPoint = EntryPoint;

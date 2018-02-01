@@ -18,7 +18,7 @@ namespace Classes
 void UGameLiveStreamingFunctionLibrary::STATIC_StopWebCam()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30415);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30414);
 
 	UGameLiveStreamingFunctionLibrary_StopWebCam_Params params;
 
@@ -37,7 +37,7 @@ void UGameLiveStreamingFunctionLibrary::STATIC_StopWebCam()
 void UGameLiveStreamingFunctionLibrary::STATIC_StopBroadcastingGame()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30414);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30413);
 
 	UGameLiveStreamingFunctionLibrary_StopBroadcastingGame_Params params;
 
@@ -61,7 +61,7 @@ void UGameLiveStreamingFunctionLibrary::STATIC_StopBroadcastingGame()
 void UGameLiveStreamingFunctionLibrary::STATIC_StartWebCam(int DesiredWebCamWidth, int DesiredWebCamHeight, bool bMirrorWebCamImage, bool bDrawSimpleWebCamVideo)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30409);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30408);
 
 	UGameLiveStreamingFunctionLibrary_StartWebCam_Params params;
 	params.DesiredWebCamWidth = DesiredWebCamWidth;
@@ -97,7 +97,7 @@ void UGameLiveStreamingFunctionLibrary::STATIC_StartWebCam(int DesiredWebCamWidt
 void UGameLiveStreamingFunctionLibrary::STATIC_StartBroadcastingGame(const struct FString& LoginUserName, const struct FString& LoginPassword, int FrameRate, float ScreenScaling, bool bStartWebCam, int DesiredWebCamWidth, int DesiredWebCamHeight, bool bMirrorWebCamImage, bool bDrawSimpleWebCamVideo, bool bCaptureAudioFromComputer, bool bCaptureAudioFromMicrophone, class UTexture2D* CoverUpImage)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30396);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30395);
 
 	UGameLiveStreamingFunctionLibrary_StartBroadcastingGame_Params params;
 	params.LoginUserName = LoginUserName;
@@ -130,7 +130,7 @@ void UGameLiveStreamingFunctionLibrary::STATIC_StartBroadcastingGame(const struc
 bool UGameLiveStreamingFunctionLibrary::STATIC_IsWebCamEnabled()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30394);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30393);
 
 	UGameLiveStreamingFunctionLibrary_IsWebCamEnabled_Params params;
 
@@ -153,7 +153,7 @@ bool UGameLiveStreamingFunctionLibrary::STATIC_IsWebCamEnabled()
 bool UGameLiveStreamingFunctionLibrary::STATIC_IsBroadcastingGame()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30392);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30391);
 
 	UGameLiveStreamingFunctionLibrary_IsBroadcastingGame_Params params;
 
@@ -177,7 +177,7 @@ bool UGameLiveStreamingFunctionLibrary::STATIC_IsBroadcastingGame()
 class UQueryLiveStreamsCallbackProxy* UQueryLiveStreamsCallbackProxy::STATIC_QueryLiveStreams(const struct FString& GameName)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30417);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30416);
 
 	UQueryLiveStreamsCallbackProxy_QueryLiveStreams_Params params;
 	params.GameName = GameName;

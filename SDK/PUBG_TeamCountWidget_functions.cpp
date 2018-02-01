@@ -20,7 +20,7 @@ namespace Classes
 void UTeamCountWidget_C::OnPrepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58259);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56617);
 
 	UTeamCountWidget_C_OnPrepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -41,7 +41,7 @@ void UTeamCountWidget_C::OnPrepass_1(class UWidget* BoundWidget)
 void UTeamCountWidget_C::On_KillCount_Prepass_1(class UWidget* BoundWidget)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58255);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56613);
 
 	UTeamCountWidget_C_On_KillCount_Prepass_1_Params params;
 	params.BoundWidget = BoundWidget;
@@ -60,7 +60,7 @@ void UTeamCountWidget_C::On_KillCount_Prepass_1(class UWidget* BoundWidget)
 void UTeamCountWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58254);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56612);
 
 	UTeamCountWidget_C_Construct_Params params;
 
@@ -80,7 +80,7 @@ void UTeamCountWidget_C::Construct()
 void UTeamCountWidget_C::ExecuteUbergraph_TeamCountWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(58252);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(56610);
 
 	UTeamCountWidget_C_ExecuteUbergraph_TeamCountWidget_Params params;
 	params.EntryPoint = EntryPoint;

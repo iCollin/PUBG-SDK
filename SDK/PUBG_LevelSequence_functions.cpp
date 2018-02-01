@@ -23,7 +23,7 @@ namespace Classes
 class ULevelSequencePlayer* ULevelSequencePlayer::STATIC_CreateLevelSequencePlayer(class UObject* WorldContextObject, class ULevelSequence* LevelSequence, const struct FMovieSceneSequencePlaybackSettings& Settings)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30191);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30190);
 
 	ULevelSequencePlayer_CreateLevelSequencePlayer_Params params;
 	params.WorldContextObject = WorldContextObject;
@@ -49,7 +49,7 @@ class ULevelSequencePlayer* ULevelSequencePlayer::STATIC_CreateLevelSequencePlay
 void ALevelSequenceActor::SetSequence(class ULevelSequence* InSequence)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30222);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30221);
 
 	ALevelSequenceActor_SetSequence_Params params;
 	params.InSequence = InSequence;
@@ -71,7 +71,7 @@ void ALevelSequenceActor::SetSequence(class ULevelSequence* InSequence)
 void ALevelSequenceActor::SetEventReceivers(TArray<class AActor*> AdditionalReceivers)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30219);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30218);
 
 	ALevelSequenceActor_SetEventReceivers_Params params;
 	params.AdditionalReceivers = AdditionalReceivers;
@@ -95,7 +95,7 @@ void ALevelSequenceActor::SetEventReceivers(TArray<class AActor*> AdditionalRece
 void ALevelSequenceActor::SetBinding(const struct FMovieSceneObjectBindingID& Binding, TArray<class AActor*> Actors, bool bAllowBindingsFromAsset)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30214);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30213);
 
 	ALevelSequenceActor_SetBinding_Params params;
 	params.Binding = Binding;
@@ -117,7 +117,7 @@ void ALevelSequenceActor::SetBinding(const struct FMovieSceneObjectBindingID& Bi
 void ALevelSequenceActor::ResetBindings()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30213);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30212);
 
 	ALevelSequenceActor_ResetBindings_Params params;
 
@@ -138,7 +138,7 @@ void ALevelSequenceActor::ResetBindings()
 void ALevelSequenceActor::ResetBinding(const struct FMovieSceneObjectBindingID& Binding)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30211);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30210);
 
 	ALevelSequenceActor_ResetBinding_Params params;
 	params.Binding = Binding;
@@ -161,7 +161,7 @@ void ALevelSequenceActor::ResetBinding(const struct FMovieSceneObjectBindingID& 
 void ALevelSequenceActor::RemoveBinding(const struct FMovieSceneObjectBindingID& Binding, class AActor* Actor)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30208);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30207);
 
 	ALevelSequenceActor_RemoveBinding_Params params;
 	params.Binding = Binding;
@@ -185,7 +185,7 @@ void ALevelSequenceActor::RemoveBinding(const struct FMovieSceneObjectBindingID&
 class ULevelSequence* ALevelSequenceActor::GetSequence(bool Load)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30205);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30204);
 
 	ALevelSequenceActor_GetSequence_Params params;
 	params.Load = Load;
@@ -211,7 +211,7 @@ class ULevelSequence* ALevelSequenceActor::GetSequence(bool Load)
 void ALevelSequenceActor::AddBinding(const struct FMovieSceneObjectBindingID& Binding, class AActor* Actor, bool bAllowBindingsFromAsset)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30201);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30200);
 
 	ALevelSequenceActor_AddBinding_Params params;
 	params.Binding = Binding;
@@ -235,7 +235,7 @@ void ALevelSequenceActor::AddBinding(const struct FMovieSceneObjectBindingID& Bi
 void ULevelSequenceBurnIn::SetSettings(class UObject* InSettings)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30235);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30234);
 
 	ULevelSequenceBurnIn_SetSettings_Params params;
 	params.InSettings = InSettings;
@@ -256,7 +256,7 @@ void ULevelSequenceBurnIn::SetSettings(class UObject* InSettings)
 class UClass* ULevelSequenceBurnIn::GetSettingsClass()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30233);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(30232);
 
 	ULevelSequenceBurnIn_GetSettingsClass_Params params;
 

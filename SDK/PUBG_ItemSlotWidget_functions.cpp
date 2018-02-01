@@ -2152,7 +2152,7 @@ void UItemSlotWidget_C::ShowToolTip()
 void UItemSlotWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91757);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91758);
 
 	UItemSlotWidget_C_Construct_Params params;
 
@@ -2196,7 +2196,7 @@ void UItemSlotWidget_C::Tick(struct FGeometry* MyGeometry, float* InDeltaTime)
 void UItemSlotWidget_C::OnMouseEnter(struct FGeometry* MyGeometry, struct FPointerEvent* MouseEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91754);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91755);
 
 	UItemSlotWidget_C_OnMouseEnter_Params params;
 	params.MyGeometry = MyGeometry;

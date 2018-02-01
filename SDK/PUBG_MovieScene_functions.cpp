@@ -18,7 +18,7 @@ namespace Classes
 void UMovieSceneSequencePlayer::Stop()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27397);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27396);
 
 	UMovieSceneSequencePlayer_Stop_Params params;
 
@@ -37,7 +37,7 @@ void UMovieSceneSequencePlayer::Stop()
 void UMovieSceneSequencePlayer::StartPlayingNextTick()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27396);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27395);
 
 	UMovieSceneSequencePlayer_StartPlayingNextTick_Params params;
 
@@ -58,7 +58,7 @@ void UMovieSceneSequencePlayer::StartPlayingNextTick()
 void UMovieSceneSequencePlayer::SetPlayRate(float PlayRate)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27394);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27393);
 
 	UMovieSceneSequencePlayer_SetPlayRate_Params params;
 	params.PlayRate = PlayRate;
@@ -81,7 +81,7 @@ void UMovieSceneSequencePlayer::SetPlayRate(float PlayRate)
 void UMovieSceneSequencePlayer::SetPlaybackRange(float NewStartTime, float NewEndTime)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27391);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27390);
 
 	UMovieSceneSequencePlayer_SetPlaybackRange_Params params;
 	params.NewStartTime = NewStartTime;
@@ -104,7 +104,7 @@ void UMovieSceneSequencePlayer::SetPlaybackRange(float NewStartTime, float NewEn
 void UMovieSceneSequencePlayer::SetPlaybackPosition(float NewPlaybackPosition)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27389);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27388);
 
 	UMovieSceneSequencePlayer_SetPlaybackPosition_Params params;
 	params.NewPlaybackPosition = NewPlaybackPosition;
@@ -124,7 +124,7 @@ void UMovieSceneSequencePlayer::SetPlaybackPosition(float NewPlaybackPosition)
 void UMovieSceneSequencePlayer::PlayReverse()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27388);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27387);
 
 	UMovieSceneSequencePlayer_PlayReverse_Params params;
 
@@ -145,7 +145,7 @@ void UMovieSceneSequencePlayer::PlayReverse()
 void UMovieSceneSequencePlayer::PlayLooping(int NumLoops)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27386);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27385);
 
 	UMovieSceneSequencePlayer_PlayLooping_Params params;
 	params.NumLoops = NumLoops;
@@ -165,7 +165,7 @@ void UMovieSceneSequencePlayer::PlayLooping(int NumLoops)
 void UMovieSceneSequencePlayer::Play()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27385);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27384);
 
 	UMovieSceneSequencePlayer_Play_Params params;
 
@@ -184,7 +184,7 @@ void UMovieSceneSequencePlayer::Play()
 void UMovieSceneSequencePlayer::Pause()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27384);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27383);
 
 	UMovieSceneSequencePlayer_Pause_Params params;
 
@@ -205,7 +205,7 @@ void UMovieSceneSequencePlayer::Pause()
 bool UMovieSceneSequencePlayer::IsPlaying()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27382);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27381);
 
 	UMovieSceneSequencePlayer_IsPlaying_Params params;
 
@@ -228,7 +228,7 @@ bool UMovieSceneSequencePlayer::IsPlaying()
 float UMovieSceneSequencePlayer::GetPlayRate()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27380);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27379);
 
 	UMovieSceneSequencePlayer_GetPlayRate_Params params;
 
@@ -251,7 +251,7 @@ float UMovieSceneSequencePlayer::GetPlayRate()
 float UMovieSceneSequencePlayer::GetPlaybackStart()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27378);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27377);
 
 	UMovieSceneSequencePlayer_GetPlaybackStart_Params params;
 
@@ -274,7 +274,7 @@ float UMovieSceneSequencePlayer::GetPlaybackStart()
 float UMovieSceneSequencePlayer::GetPlaybackPosition()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27376);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27375);
 
 	UMovieSceneSequencePlayer_GetPlaybackPosition_Params params;
 
@@ -297,7 +297,7 @@ float UMovieSceneSequencePlayer::GetPlaybackPosition()
 float UMovieSceneSequencePlayer::GetPlaybackEnd()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27374);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27373);
 
 	UMovieSceneSequencePlayer_GetPlaybackEnd_Params params;
 
@@ -320,7 +320,7 @@ float UMovieSceneSequencePlayer::GetPlaybackEnd()
 float UMovieSceneSequencePlayer::GetLength()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27372);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27371);
 
 	UMovieSceneSequencePlayer_GetLength_Params params;
 
@@ -344,7 +344,7 @@ float UMovieSceneSequencePlayer::GetLength()
 TArray<class UObject*> UMovieSceneSequencePlayer::GetBoundObjects(const struct FMovieSceneObjectBindingID& ObjectBinding)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27368);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27367);
 
 	UMovieSceneSequencePlayer_GetBoundObjects_Params params;
 	params.ObjectBinding = ObjectBinding;
@@ -366,7 +366,7 @@ TArray<class UObject*> UMovieSceneSequencePlayer::GetBoundObjects(const struct F
 void UMovieSceneSequencePlayer::ChangePlaybackDirection()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27367);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(27366);
 
 	UMovieSceneSequencePlayer_ChangePlaybackDirection_Params params;
 

@@ -1521,7 +1521,7 @@ struct FText UWeaponEquipmentSlotWidget_Gamepad_C::GetWeaponInfoText()
 void UWeaponEquipmentSlotWidget_Gamepad_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91775);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91776);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_Construct_Params params;
 
@@ -1590,7 +1590,7 @@ void UWeaponEquipmentSlotWidget_Gamepad_C::OnDragLeave(struct FPointerEvent* Poi
 void UWeaponEquipmentSlotWidget_Gamepad_C::OnMouseEnter(struct FGeometry* MyGeometry, struct FPointerEvent* MouseEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91772);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91773);
 
 	UWeaponEquipmentSlotWidget_Gamepad_C_OnMouseEnter_Params params;
 	params.MyGeometry = MyGeometry;

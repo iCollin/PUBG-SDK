@@ -21,7 +21,7 @@ namespace Classes
 bool UCustomMeshComponent::SetCustomMeshTriangles(TArray<struct FCustomMeshTriangle> Triangles)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40329);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40328);
 
 	UCustomMeshComponent_SetCustomMeshTriangles_Params params;
 	params.Triangles = Triangles;
@@ -43,7 +43,7 @@ bool UCustomMeshComponent::SetCustomMeshTriangles(TArray<struct FCustomMeshTrian
 void UCustomMeshComponent::ClearCustomMeshTriangles()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40328);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40327);
 
 	UCustomMeshComponent_ClearCustomMeshTriangles_Params params;
 
@@ -64,7 +64,7 @@ void UCustomMeshComponent::ClearCustomMeshTriangles()
 void UCustomMeshComponent::AddCustomMeshTriangles(TArray<struct FCustomMeshTriangle> Triangles)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40325);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40324);
 
 	UCustomMeshComponent_AddCustomMeshTriangles_Params params;
 	params.Triangles = Triangles;

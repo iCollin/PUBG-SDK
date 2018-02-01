@@ -753,7 +753,7 @@ void UWeaponAttachmentSlotWidget_Gamepad_C::OnDragLeave(struct FPointerEvent* Po
 void UWeaponAttachmentSlotWidget_Gamepad_C::OnMouseEnter(struct FGeometry* MyGeometry, struct FPointerEvent* MouseEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91777);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91778);
 
 	UWeaponAttachmentSlotWidget_Gamepad_C_OnMouseEnter_Params params;
 	params.MyGeometry = MyGeometry;
@@ -794,7 +794,7 @@ void UWeaponAttachmentSlotWidget_Gamepad_C::OnMouseLeave(struct FPointerEvent* M
 void UWeaponAttachmentSlotWidget_Gamepad_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91776);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91777);
 
 	UWeaponAttachmentSlotWidget_Gamepad_C_Construct_Params params;
 

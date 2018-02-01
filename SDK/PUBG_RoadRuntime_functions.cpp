@@ -26,7 +26,7 @@ namespace Classes
 void ACrossActor::UpdateSideMesh(class UStaticMesh* InPrototype, const struct FVector& MeshRelativeLocation, const struct FRotator& MeshRelativeRotation, const struct FVector& MeshRelativeScale, int SocketIndex, bool IsEnable, bool IsNormalized)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39975);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39974);
 
 	ACrossActor_UpdateSideMesh_Params params;
 	params.InPrototype = InPrototype;
@@ -60,7 +60,7 @@ void ACrossActor::UpdateSideMesh(class UStaticMesh* InPrototype, const struct FV
 void ACrossActor::UpdateSideActor(class UClass* InPrototype, const struct FVector& ActorRelativeLocation, const struct FRotator& ActorRelativeRotation, const struct FVector& ActorRelativeScale, int SocketIndex, bool IsEnable, bool IsNormalized)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39967);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39966);
 
 	ACrossActor_UpdateSideActor_Params params;
 	params.InPrototype = InPrototype;
@@ -94,7 +94,7 @@ void ACrossActor::UpdateSideActor(class UClass* InPrototype, const struct FVecto
 void ACrossActor::PushSideMesh(class UStaticMesh* InPrototype, const struct FVector& MeshRelativeLocation, const struct FRotator& MeshRelativeRotation, const struct FVector& MeshRelativeScale, int SocketIndex, bool IsEnable, bool IsNormalized)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39959);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39958);
 
 	ACrossActor_PushSideMesh_Params params;
 	params.InPrototype = InPrototype;
@@ -128,7 +128,7 @@ void ACrossActor::PushSideMesh(class UStaticMesh* InPrototype, const struct FVec
 void ACrossActor::PushSideActor(class UClass* InPrototype, const struct FVector& ActorRelativeLocation, const struct FRotator& ActorRelativeRotation, const struct FVector& ActorRelativeScale, int SocketIndex, bool IsEnable, bool IsNormalized)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39951);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39950);
 
 	ACrossActor_PushSideActor_Params params;
 	params.InPrototype = InPrototype;
@@ -154,7 +154,7 @@ void ACrossActor::PushSideActor(class UClass* InPrototype, const struct FVector&
 void ACrossActor::DestroySideObjects()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39950);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39949);
 
 	ACrossActor_DestroySideObjects_Params params;
 
@@ -175,7 +175,7 @@ void ACrossActor::DestroySideObjects()
 void ARoadActor::UpdateSplineMesh(int MeshIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40054);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40053);
 
 	ARoadActor_UpdateSplineMesh_Params params;
 	params.MeshIndex = MeshIndex;
@@ -205,7 +205,7 @@ void ARoadActor::UpdateSplineMesh(int MeshIndex)
 void ARoadActor::UpdateSideMeshes(class UStaticMesh* InPrototype, const struct FVector& MeshRelativeLocation, const struct FRotator& MeshRelativeRotation, const struct FVector& MeshRelativeScale, int SocketIndex, int InShift, int InSpacing, bool IsEnable, bool IsNormalized)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40044);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40043);
 
 	ARoadActor_UpdateSideMeshes_Params params;
 	params.InPrototype = InPrototype;
@@ -243,7 +243,7 @@ void ARoadActor::UpdateSideMeshes(class UStaticMesh* InPrototype, const struct F
 void ARoadActor::UpdateSideActor(class UClass* InPrototype, const struct FVector& ActorRelativeLocation, const struct FRotator& ActorRelativeRotation, const struct FVector& ActorRelativeScale, int SocketIndex, int InShift, int InSpacing, bool IsEnable, bool IsNormalized)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40034);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40033);
 
 	ARoadActor_UpdateSideActor_Params params;
 	params.InPrototype = InPrototype;
@@ -276,7 +276,7 @@ void ARoadActor::UpdateSideActor(class UClass* InPrototype, const struct FVector
 void ARoadActor::UpdateSegment(int SegmentIndex, class USplineComponent* SplineComponent, class UStaticMesh* StaticMesh, TEnumAsByte<ESplineMeshAxis> InAxis)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40029);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40028);
 
 	ARoadActor_UpdateSegment_Params params;
 	params.SegmentIndex = SegmentIndex;
@@ -309,7 +309,7 @@ void ARoadActor::UpdateSegment(int SegmentIndex, class USplineComponent* SplineC
 void ARoadActor::PushSideMesh(class UStaticMesh* InPrototype, const struct FVector& MeshRelativeLocation, const struct FRotator& MeshRelativeRotation, const struct FVector& MeshRelativeScale, int SocketIndex, int InShift, int InSpacing, bool IsEnable, bool IsNormalized)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40019);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40018);
 
 	ARoadActor_PushSideMesh_Params params;
 	params.InPrototype = InPrototype;
@@ -347,7 +347,7 @@ void ARoadActor::PushSideMesh(class UStaticMesh* InPrototype, const struct FVect
 void ARoadActor::PushSideActor(class UClass* InPrototype, const struct FVector& ActorRelativeLocation, const struct FRotator& ActorRelativeRotation, const struct FVector& ActorRelativeScale, int SocketIndex, int InShift, int InSpacing, bool IsEnable, bool IsNormalized)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40009);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(40008);
 
 	ARoadActor_PushSideActor_Params params;
 	params.InPrototype = InPrototype;
@@ -385,7 +385,7 @@ void ARoadActor::PushSideActor(class UClass* InPrototype, const struct FVector& 
 void ARoadActor::PushCurbsMeshes(class UStaticMesh* InPrototype, class UStaticMesh* InStartPrototype, class UStaticMesh* InEndPrototype, const struct FVector& MeshRelativeLocation, const struct FVector& MeshRelativeScale, int SocketIndex, bool IsEnable, bool InStartEnable, bool InEndEnable)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39999);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39998);
 
 	ARoadActor_PushCurbsMeshes_Params params;
 	params.InPrototype = InPrototype;
@@ -413,7 +413,7 @@ void ARoadActor::PushCurbsMeshes(class UStaticMesh* InPrototype, class UStaticMe
 void ARoadActor::DestroySideObjects()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39998);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39997);
 
 	ARoadActor_DestroySideObjects_Params params;
 
@@ -432,7 +432,7 @@ void ARoadActor::DestroySideObjects()
 void ARoadActor::DestroySideCurbs()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39997);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39996);
 
 	ARoadActor_DestroySideCurbs_Params params;
 
@@ -451,7 +451,7 @@ void ARoadActor::DestroySideCurbs()
 void ARoadActor::ClearSplineMeshes()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39996);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39995);
 
 	ARoadActor_ClearSplineMeshes_Params params;
 
@@ -476,7 +476,7 @@ void ARoadActor::ClearSplineMeshes()
 float ARoadActor::STATIC_ApproxLength(const struct FInterpCurveVector& SplineInfo, float Start, float End, int ApproxSections)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39990);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39989);
 
 	ARoadActor_ApproxLength_Params params;
 	params.SplineInfo = SplineInfo;
@@ -503,7 +503,7 @@ float ARoadActor::STATIC_ApproxLength(const struct FInterpCurveVector& SplineInf
 void ARoadActor::AddSplineMesh(int MeshIndex)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39988);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(39987);
 
 	ARoadActor_AddSplineMesh_Params params;
 	params.MeshIndex = MeshIndex;

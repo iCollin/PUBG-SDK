@@ -21,7 +21,7 @@ namespace Classes
 void UVoiceSettingWidget_C::GetVoiceChannelByOption(bool* GlobalChannel, bool* TeamChannel)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62445);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62333);
 
 	UVoiceSettingWidget_C_GetVoiceChannelByOption_Params params;
 
@@ -47,7 +47,7 @@ void UVoiceSettingWidget_C::GetVoiceChannelByOption(bool* GlobalChannel, bool* T
 void UVoiceSettingWidget_C::GetMyVoiceByOption(bool* bIsMuted, bool* bUsePushToTalk)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62439);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62327);
 
 	UVoiceSettingWidget_C_GetMyVoiceByOption_Params params;
 
@@ -72,7 +72,7 @@ void UVoiceSettingWidget_C::GetMyVoiceByOption(bool* bIsMuted, bool* bUsePushToT
 void UVoiceSettingWidget_C::GetVoiceChannelOptionString(struct FString* OptionString)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62435);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62323);
 
 	UVoiceSettingWidget_C_GetVoiceChannelOptionString_Params params;
 
@@ -95,7 +95,7 @@ void UVoiceSettingWidget_C::GetVoiceChannelOptionString(struct FString* OptionSt
 void UVoiceSettingWidget_C::GetMyVoiceOptionString(struct FString* OptionString)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62431);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62319);
 
 	UVoiceSettingWidget_C_GetMyVoiceOptionString_Params params;
 
@@ -118,7 +118,7 @@ void UVoiceSettingWidget_C::GetMyVoiceOptionString(struct FString* OptionString)
 bool UVoiceSettingWidget_C::IsChanged()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62412);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62300);
 
 	UVoiceSettingWidget_C_IsChanged_Params params;
 
@@ -138,7 +138,7 @@ bool UVoiceSettingWidget_C::IsChanged()
 void UVoiceSettingWidget_C::UpdateVoiceSettingWidget()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62405);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62293);
 
 	UVoiceSettingWidget_C_UpdateVoiceSettingWidget_Params params;
 
@@ -156,7 +156,7 @@ void UVoiceSettingWidget_C::UpdateVoiceSettingWidget()
 void UVoiceSettingWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62404);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62292);
 
 	UVoiceSettingWidget_C_Construct_Params params;
 
@@ -174,7 +174,7 @@ void UVoiceSettingWidget_C::Construct()
 void UVoiceSettingWidget_C::OnApply()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62403);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62291);
 
 	UVoiceSettingWidget_C_OnApply_Params params;
 
@@ -192,7 +192,7 @@ void UVoiceSettingWidget_C::OnApply()
 void UVoiceSettingWidget_C::OnDefault()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62402);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62290);
 
 	UVoiceSettingWidget_C_OnDefault_Params params;
 
@@ -210,7 +210,7 @@ void UVoiceSettingWidget_C::OnDefault()
 void UVoiceSettingWidget_C::OnReset()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62401);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62289);
 
 	UVoiceSettingWidget_C_OnReset_Params params;
 
@@ -230,7 +230,7 @@ void UVoiceSettingWidget_C::OnReset()
 void UVoiceSettingWidget_C::ExecuteUbergraph_VoiceSettingWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62391);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(62279);
 
 	UVoiceSettingWidget_C_ExecuteUbergraph_VoiceSettingWidget_Params params;
 	params.EntryPoint = EntryPoint;

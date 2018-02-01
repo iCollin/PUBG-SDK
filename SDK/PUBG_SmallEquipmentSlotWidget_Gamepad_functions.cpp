@@ -274,7 +274,7 @@ void USmallEquipmentSlotWidget_Gamepad_C::OnUpdateItem(class UItem** Item)
 void USmallEquipmentSlotWidget_Gamepad_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91780);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91781);
 
 	USmallEquipmentSlotWidget_Gamepad_C_Construct_Params params;
 

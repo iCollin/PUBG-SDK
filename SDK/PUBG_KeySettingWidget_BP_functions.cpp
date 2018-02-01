@@ -18,7 +18,7 @@ namespace Classes
 void UKeySettingWidget_BP_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55709);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61721);
 
 	UKeySettingWidget_BP_C_Construct_Params params;
 
@@ -36,7 +36,7 @@ void UKeySettingWidget_BP_C::Construct()
 void UKeySettingWidget_BP_C::OnDefault()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55708);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61720);
 
 	UKeySettingWidget_BP_C_OnDefault_Params params;
 
@@ -54,7 +54,7 @@ void UKeySettingWidget_BP_C::OnDefault()
 void UKeySettingWidget_BP_C::OnReset()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55707);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61719);
 
 	UKeySettingWidget_BP_C_OnReset_Params params;
 
@@ -74,7 +74,7 @@ void UKeySettingWidget_BP_C::OnReset()
 void UKeySettingWidget_BP_C::ExecuteUbergraph_KeySettingWidget_BP(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(55705);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(61717);
 
 	UKeySettingWidget_BP_C_ExecuteUbergraph_KeySettingWidget_BP_Params params;
 	params.EntryPoint = EntryPoint;

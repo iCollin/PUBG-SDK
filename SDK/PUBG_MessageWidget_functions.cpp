@@ -18,7 +18,7 @@ namespace Classes
 void UMessageWidget_C::ClearMessage()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99616);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99434);
 
 	UMessageWidget_C_ClearMessage_Params params;
 
@@ -36,7 +36,7 @@ void UMessageWidget_C::ClearMessage()
 void UMessageWidget_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99615);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99433);
 
 	UMessageWidget_C_Construct_Params params;
 
@@ -54,7 +54,7 @@ void UMessageWidget_C::Construct()
 void UMessageWidget_C::O_1()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99614);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99432);
 
 	UMessageWidget_C_O_1_Params params;
 
@@ -74,7 +74,7 @@ void UMessageWidget_C::O_1()
 void UMessageWidget_C::ExecuteUbergraph_MessageWidget(int EntryPoint)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99610);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99428);
 
 	UMessageWidget_C_ExecuteUbergraph_MessageWidget_Params params;
 	params.EntryPoint = EntryPoint;
@@ -95,7 +95,7 @@ void UMessageWidget_C::ExecuteUbergraph_MessageWidget(int EntryPoint)
 void UMessageWidget_C::MessageEnd__DelegateSignature(class UMessageWidget_C* Message)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99608);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(99426);
 
 	UMessageWidget_C_MessageEnd__DelegateSignature_Params params;
 	params.Message = Message;

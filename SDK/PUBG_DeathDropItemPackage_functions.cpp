@@ -20,7 +20,7 @@ namespace Classes
 void ADeathDropItemPackage_C::GetCategory(struct FText* Category)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(92081);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91939);
 
 	ADeathDropItemPackage_C_GetCategory_Params params;
 
@@ -41,7 +41,7 @@ void ADeathDropItemPackage_C::GetCategory(struct FText* Category)
 void ADeathDropItemPackage_C::UserConstructionScript()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(92080);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91938);
 
 	ADeathDropItemPackage_C_UserConstructionScript_Params params;
 
@@ -59,7 +59,7 @@ void ADeathDropItemPackage_C::UserConstructionScript()
 void ADeathDropItemPackage_C::ReceiveBeginPlay()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(92079);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91937);
 
 	ADeathDropItemPackage_C_ReceiveBeginPlay_Params params;
 

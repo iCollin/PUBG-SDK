@@ -2113,7 +2113,7 @@ struct FText UItemSlotWidget_Gamepad_C::GetSlotName()
 void UItemSlotWidget_Gamepad_C::OnMouseEnter(struct FGeometry* MyGeometry, struct FPointerEvent* MouseEvent)
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91794);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91795);
 
 	UItemSlotWidget_Gamepad_C_OnMouseEnter_Params params;
 	params.MyGeometry = MyGeometry;
@@ -2211,7 +2211,7 @@ void UItemSlotWidget_Gamepad_C::ShowToolTip()
 void UItemSlotWidget_Gamepad_C::Construct()
 {
 	static UFunction* fn = nullptr; 
-	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91793);
+	 if (!fn) fn = UObject::GetObjectCasted<UFunction>(91794);
 
 	UItemSlotWidget_Gamepad_C_Construct_Params params;
 
